@@ -104,20 +104,30 @@ Use the legend below to navigate to your desired FICAM policy map information.
   /* Tags below each clickable item in the legend(Key) */
   #aoctag {
     background-color: #ffcc99;
+    font-size:10 pt;
+    text-align:center;
   }
   #eoctag {
     background-color: rgb(205, 235, 139);
+    font-size:10 pt;
+    text-align:center;
   }
   #fptag {
     background-color: rgb(204, 229, 255);
+    font-size:10 pt;
+    text-align:center;
   }
   } 
   #gbtag {
     background-color: rgb(181, 159, 205);
+    font-size:10 pt;
+    text-align:center;
   }
   } 
   #tstag {
     background-color: rgb(216, 216, 216);
+    font-size:10 pt;
+    text-align:center;
   }
 </style>
 
@@ -134,11 +144,11 @@ Use the legend below to navigate to your desired FICAM policy map information.
     <td id="tsbutton" onclick="location.href='#federal-technical-guidance'">Technical Standard</td>
   </tr>
   <tr>
-    <th id="aoctag" scope="row" style="background-color:#ffe6cc;font-size:10pt;text-align:center;">Congress</th>
-    <td id="eotag" style="background-color:#d5e8d4;font-size:10pt;text-align:center;">White House</td>
-    <td id="fptag" style="background-color:#b1ddf0;font-size:10pt;text-align:center;">OMB/DNI/OPM</td>
-    <td id="gbtag" style="background-color:#e6e4fa;font-size:10pt;text-align:center;">GSA/CIO Council/ICAMSC/FPKIPA</td>
-    <td id="tstag" style="background-color:#eeeeee;font-size:10pt;text-align:center;">NIST/ISC/NSA/FedRAMP</td>
+    <th id="aoctag" scope="row">Congress</th>
+    <td id="eotag">White House</td>
+    <td id="fptag">OMB/DNI/OPM</td>
+    <td id="gbtag">GSA/CIO Council/ICAMSC/FPKIPA</td>
+    <td id="tstag">NIST/ISC/NSA/FedRAMP</td>
   </tr>
 </tbody>
 </table>
