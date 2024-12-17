@@ -39,7 +39,7 @@ Use the legend below to navigate to your desired FICAM policy map information.
     background-color: #ffe6cc;
     cursor: pointer;
     font-family: Arial-BoldMT, Arial; 
-    font-size: 14px; 
+    font-size: 14 px; 
     font-weight: 700;
     text-align: center;
   }
@@ -53,7 +53,7 @@ Use the legend below to navigate to your desired FICAM policy map information.
     background-color: #d5e8d4;
     cursor: pointer;
     font-family: Arial-BoldMT, Arial; 
-    font-size: 14px;
+    font-size: 14 px;
     font-weight: 700;
     text-align: center;
   }
@@ -67,7 +67,7 @@ Use the legend below to navigate to your desired FICAM policy map information.
     background-color: #b1ddf0;
     cursor: pointer;
     font-family: Arial-BoldMT, Arial; 
-    font-size: 14px;
+    font-size: 14 px;
     font-weight: 700;
     text-align: center;
   }
@@ -81,7 +81,7 @@ Use the legend below to navigate to your desired FICAM policy map information.
     background-color: #eeeeee;
     cursor: pointer;
     font-family: Arial-BoldMT, Arial; 
-    font-size: 14px;
+    font-size: 14 px;
     font-weight: 700;
     text-align: center;
   }
@@ -94,7 +94,7 @@ Use the legend below to navigate to your desired FICAM policy map information.
     background-color: #e6e4fa;
     cursor: pointer;
     font-family: Arial-BoldMT, Arial; 
-    font-size: 14px;
+    font-size: 14 px;
     font-weight: 700;
     text-align: center; 
   }
