@@ -1078,15 +1078,15 @@ sticky_sidenav: true
     </g>
     <g id="Ledgend_Key_Areas_" data-name="Ledgend (Key Areas)">
       <g id="Key:_Government_Body_Area" data-name="Key: Government Body Area">
-        <rect id="gbrect-79" data-name="gbrect" x="854.27" y="78.48" width="245.06" height="27.18" style="fill: #e6e4fa; stroke: #000; stroke-miterlimit: 10; stroke-width: .75px;"/>
+        <rect id="gbrect-79" data-name="gbrect" x="854.27" y="78.48" width="245.06" height="27.18" style="fill: #b59fcd; stroke: #000; stroke-miterlimit: 10; stroke-width: .75px;"/>
         <text id="Produced_by" data-name="Produced by" transform="translate(917.65 91.31) scale(1.3 1)" style="font-family: ArialMT, Arial; font-size: 9.08px;"><tspan x="0" y="0">Produced by GSA/CIO </tspan><tspan x="-5.46" y="9.08">Council/ICAMSC/FPKI</tspan><tspan x="85.4" y="9.08" style="letter-spacing: -.07em;">P</tspan><tspan x="90.79" y="9.08" style="letter-spacing: -.06em;">A</tspan></text>
       </g>
       <g id="Key:_Act_of_Congress_Area" data-name="Key: Act of Congress Area">
-        <rect id="gbrect-80" data-name="gbrect" x="109.51" y="78.56" width="245.06" height="27.1" style="fill: #ffe6cc; stroke: #000; stroke-miterlimit: 10; stroke-width: .75px;"/>
+        <rect id="gbrect-80" data-name="gbrect" x="109.51" y="78.56" width="245.06" height="27.1" style="fill: #fc9; stroke: #000; stroke-miterlimit: 10; stroke-width: .75px;"/>
         <text id="Produced_by-2" data-name="Produced by" transform="translate(172.23 94.69) scale(1.35 1)" style="font-family: ArialMT, Arial; font-size: 8.72px;"><tspan x="0" y="0">Produced by Congress</tspan></text>
       </g>
       <g id="Key:_Executive_Order_Area" data-name="Key: Executive Order Area">
-        <rect id="gbrect-81" data-name="gbrect" x="357.7" y="78.56" width="245.06" height="27.1" style="fill: #d5e8d4; stroke: #000; stroke-miterlimit: 10; stroke-width: .75px;"/>
+        <rect id="gbrect-81" data-name="gbrect" x="357.7" y="78.56" width="245.06" height="27.1" style="fill: #cdeb8b; stroke: #000; stroke-miterlimit: 10; stroke-width: .75px;"/>
         <text id="Produced_by-3" data-name="Produced by" transform="translate(411.91 95.93) scale(1.3 1)" style="font-family: ArialMT, Arial; font-size: 9.08px;"><tspan x="0" y="0">Produced by White House</tspan></text>
       </g>
       <g id="Key:_Federal_Policy_Area" data-name="Key: Federal Policy Area">
@@ -1098,7 +1098,7 @@ sticky_sidenav: true
       </g>
       <g id="Key:_Technical_Standards_Area" data-name="Key: Technical Standards Area">
         <g id="gbrect-82" data-name="gbrect">
-          <rect x="1103.81" y="78.31" width="244.31" height="27.54" style="fill: #eee;"/>
+          <rect x="1103.81" y="78.31" width="244.31" height="27.54" style="fill: #d8d8d8;"/>
           <path d="M1347.74,78.69v26.79h-243.56v-26.79h243.56M1348.49,77.94h-245.06v28.29h245.06v-28.29h0Z"/>
         </g>
         <text id="Produced_by-4" data-name="Produced by" transform="translate(1123.8 95.07) scale(1.3 1)" style="font-family: ArialMT, Arial; font-size: 9.08px;"><tspan x="0" y="0">Produced by NIST/ISC/NSA/FedRAM</tspan><tspan x="151.45" y="0" style="letter-spacing: -.02em;">P</tspan></text>
@@ -1106,15 +1106,15 @@ sticky_sidenav: true
     </g>
     <g id="Ledgend_Key_" data-name="Ledgend (Key)">
       <g id="Key:_Government_Body" data-name="Key: Government Body">
-        <rect id="gbrect-83" data-name="gbrect" x="854.27" y="33.34" width="245.06" height="40.95" style="fill: #b59fcd; stroke: #000; stroke-miterlimit: 10; stroke-width: .75px;"/>
+        <rect id="gbrect-83" data-name="gbrect" x="854.27" y="33.34" width="245.06" height="40.95" style="fill: #e6e4fa; stroke: #000; stroke-miterlimit: 10; stroke-width: .75px;"/>
         <text transform="translate(924.1 58.7) scale(.89 1)" style="font-family: Arial-BoldMT, Arial; font-size: 13.63px; font-weight: 700;"><tspan x="0" y="0">Government Body</tspan></text>
       </g>
       <g id="Key:_Act_of_Congress" data-name="Key: Act of Congress">
-        <rect id="gbrect-84" data-name="gbrect" x="109.51" y="33.43" width="245.06" height="40.95" style="fill: #fc9; stroke: #000; stroke-miterlimit: 10; stroke-width: .75px;"/>
+        <rect id="gbrect-84" data-name="gbrect" x="109.51" y="33.43" width="245.06" height="40.95" style="fill:#ffe6cc; stroke: #000; stroke-miterlimit: 10; stroke-width: .75px;"/>
         <text transform="translate(185.09 58.78) scale(.89 1)" style="font-family: Arial-BoldMT, Arial; font-size: 13.63px; font-weight: 700;"><tspan x="0" y="0">Act of Congress</tspan></text>
       </g>
       <g id="Key:_Executive_Order" data-name="Key: Executive Order">
-        <rect id="gbrect-85" data-name="gbrect" x="357.7" y="33.43" width="245.06" height="40.95" style="fill: #cdeb8b; stroke: #000; stroke-miterlimit: 10; stroke-width: .75px;"/>
+        <rect id="gbrect-85" data-name="gbrect" x="357.7" y="33.43" width="245.06" height="40.95" style="fill: #d5e8d4; stroke: #000; stroke-miterlimit: 10; stroke-width: .75px;"/>
         <text transform="translate(433.6 58.78) scale(.89 1)" style="font-family: Arial-BoldMT, Arial; font-size: 13.63px; font-weight: 700;"><tspan x="0" y="0">Executive Order</tspan></text>
       </g>
       <g id="Key:_Federal_Policy" data-name="Key: Federal Policy">
@@ -1127,7 +1127,7 @@ sticky_sidenav: true
       </g>
       <g id="Key:_Technical_Standard" data-name="Key: Technical Standard">
         <g id="gbrect-87" data-name="gbrect">
-          <rect x="1103.81" y="34.29" width="244.31" height="40.28" style="fill: #d8d8d8;"/>
+          <rect x="1103.81" y="34.29" width="244.31" height="40.28" style="fill: #eee;"/>
           <path d="M1347.74,34.66v39.53h-243.56v-39.53h243.56M1348.49,33.91h-245.06v41.03h245.06v-41.03h0Z"/>
         </g>
         <text id="Technical_Standard" data-name="Technical Standard" transform="translate(1170.19 59.3) scale(.89 1)" style="font-family: Arial-BoldMT, Arial; font-size: 13.63px; font-weight: 700;"><tspan x="0" y="0" style="letter-spacing: -.07em;">T</tspan><tspan x="7.31" y="0">echnical Standard</tspan></text>
