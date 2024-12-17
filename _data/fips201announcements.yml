@@ -3,7 +3,17 @@
 # Set status to Archive after 4 years.
 # If announcement content is full summary, leave 'url' blank, set soure to 'IDManagement.gov' and doctype = 'Announcement'
 # HTML tags can be included inline with summary information.
- 
+
+- name: "GSA FICAM Test Lab's 2024 Holiday Schedule" 
+  summary: "<p>The GSA FICAM Testing Lab in Reston, VA will have limited in-person availability from Monday, December 23, 2024, through Thursday, January 2, 2025. As a result, no appointments will be scheduled during this time. Vendors are kindly asked to schedule any in-person visits by Friday, December 20, 2024, to ensure that lab personnel can accommodate requests and provide assistance before December 23, 2024.<br><br>We appreciate your understanding and patience.<br>Thank you.</p>"
+  pubdate: December 16, 2024
+  url: 
+  source: IDManagement.gov
+  target: _blank
+  expanded: false
+  doctype: Announcement
+  status: Active
+
 - name: "PACS Application Package - Updated Equipment Table GSA PACS Application v0.3.0 (MS Excel, August 2024) (Mandatory)" 
   summary: "<p>In an effort to streamline and accurately capture the components and to allow the same table to be used across multiple forms for the solution being submitted for evaluation, 
 the FIPS 201 Evaluation Program has updated the Equipment Table spreadsheet to be broken out by individual tabs for 13.01 PACS Infrastructure, 13.01 Validation System, 13.01 PACS Readers, 13.02 PACS and Validation 
