@@ -105,11 +105,11 @@ Laws, executive policies, regulations, and government standards drive multiple f
     <th scope="row" colspan="5" style="font-weight:700;text-align:center;">Key</th>
   </tr>
   <tr>
-    <th scope="row" id="aocbutton" onclick="location.href='{{site.baseurl}}#laws-and-directives'">Act of Congress</th>
-    <td id="eobutton" onclick="location.href='{{site.baseurl}}#laws-and-directives'">Executive Order</td>
-    <td id="fpbutton" onclick="location.href='{{site.baseurl}}#federal-policies'">Federal Policy</td>
-    <td id="gbbutton" onclick="location.href='{{site.baseurl}}#federal-technical-guidance'">Government<br>Body</td>
-    <td id="tsbutton" onclick="location.href='{{site.baseurl}}#federal-technical-guidance'">Technical Standard</td>
+    <th scope="row" id="aocbutton" onclick="location.href='{{site.baseurl}}/#laws-and-directives'">Act of Congress</th>
+    <td id="eobutton" onclick="location.href='{{site.baseurl}}/#laws-and-directives'">Executive Order</td>
+    <td id="fpbutton" onclick="location.href='{{site.baseurl}}/#federal-policies'">Federal Policy</td>
+    <td id="gbbutton" onclick="location.href='{{site.baseurl}}/#federal-technical-guidance'">Government<br>Body</td>
+    <td id="tsbutton" onclick="location.href='{{site.baseurl}}/#federal-technical-guidance'">Technical Standard</td>
   </tr>
   <tr>
     <th scope="row" style="background-color:#ffe6cc;font-size:10pt;text-align:center;">Congress</th>
