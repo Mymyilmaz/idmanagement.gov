@@ -275,7 +275,7 @@ This document does not include detailed system configurations required to suppor
 - **Cross-platform Authenticators** 
 <p align="justify">Cross-platform authenticators, often called external security keys, are portable hardware devices that store passkeys and can be used across multiple devices. The Unifyia platform supports issuing passkeys (FIDO2) on connected devices like smart cards and security keys through various interfaces, including USB, NFC, Bluetooth, and hybrid security keys that combine multiple connection types (e.g., USB + NFC + Bluetooth). These versatile keys enhance mobility and security by allowing users to authenticate across different platforms seamlessly.</p>
 
-- **Passkeys (FIDO2) on Unifyia ID Wallet** 
+- **FIDO2 Passkeys on Unifyia ID Wallet** 
 <p align="justify">A standout feature of the Unifyia platform is its ability to issue identity credentials and passkeys through the Unifyia ID Wallet app, available on both Android and iOS. This secure digital wallet provides an intuitive solution for managing digitally signed credentials on mobile devices, issued directly via the Unifyia platform. It offers passwordless, phishing-resistant mobile authentication, integrating seamlessly with existing frameworks for multifactor authentication and identity verification. Through the Unifyia ID Wallet, organizations can issue visual PIV, PIV-I, and CIV identities, as well as OTPs, PKI, Consent, and FIDO2 credentials - all within one app.</p>
 
 **FIDO2 Passkeys - Key Highlights**
