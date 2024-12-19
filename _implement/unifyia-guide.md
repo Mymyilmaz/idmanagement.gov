@@ -188,7 +188,7 @@ Topics covered within this implemenation guide are
 - System configurations required for passkey issuance
 - User self-service issuance and lifecycle processes
 - On behalf of the user, operator-driven issuance and lifecycle processes
-- **One-click issuance of multiple FIDO2 passkeys:** Easily issue multiple passkeys credentials on behalf of relying parties, such as Entra ID, Okta, and others, without the need for federation.
+- **One-click issuance of multiple FIDO2 passkeys** Easily issue multiple passkeys credentials on behalf of relying parties, such as Entra ID, Okta, and others, without the need for federation.
 - User authentication using the issued credentials
 - Comprehensive granular lifecycle management of issued credentials
 
