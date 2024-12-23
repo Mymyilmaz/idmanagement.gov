@@ -178,7 +178,7 @@ This table lists the laws that establish or authorize the entities and activitie
 
 Laws are sorted by date, from oldest to newest.
 
-**Click on the name of a Law or Directive to see more details about it and click on the details area to open the Law or Directive in a new window.**
+**Click on the name of a Law or Directive to see more details about it, click on the details area to open the Law or Directive in a new window.**
 
 {% assign sorted_laws = site.data.laws-policies-standards | where: "type", "Law" | sort: "published", "last" | sort: "longName" %}
 
@@ -285,7 +285,7 @@ This table lists Federal Policies and directives published by OMB. They set a st
 
 Laws are sorted by date, from oldest to newest.
 
-**Click on the name of a Federal Policy to see more details about it and click on the details area to open the policy in a new window.**
+**Click on the name of a Federal Policy to see more details about it, click on the details area to open the policy in a new window.**
 
 {% assign sorted_policies = site.data.laws-policies-standards | where: "type", "Policy" | sort: "published", "last" | sort: "shortName" %}
 
@@ -364,7 +364,7 @@ Laws are sorted by date, from oldest to newest.
 
 This table lists Technical Guidance published under ICAM. They provide technical details to support consistent, secure and effective implementation of the policies.
 
-**Click on the name of a Federal Technical Guidance document to see more details about it and click on the details area to open the document in a new window.**
+**Click on the name of a Federal Technical Guidance document to see more details about it, click on the details area to open the document in a new window.**
 
 {% assign sorted_guidance = site.data.laws-policies-standards | where: "type", "Guidance" | sort: "published", "last" | sort: "shortName" %}
 {% assign guidance_authority = site.data.laws-policies-standards | where: "type", "Authority" %}
