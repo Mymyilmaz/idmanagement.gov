@@ -26,7 +26,7 @@ subnav:
 
 Laws, executive policies, regulations, and government standards drive multiple federal initiatives related to Federal Identity, Credential and Access Management. IATAD maintains this policy matrix to map delegations and authorities. ICAM Partners can use this matrix to understand the origins and ultimate authority of ICAM initiatives.
 
-Use the legend below to navigate to your desired FICAM policy map information. 
+**Click the header section to navigate to the appropriate part of the list.**
 <style>
   /* needed to remove underline in links - do not remove */    
   a {
@@ -138,7 +138,7 @@ Use the legend below to navigate to your desired FICAM policy map information.
     <th scope="row" id="aocbutton" onclick="location.href='#laws-and-directives'">Act of Congress</th>
     <td id="eobutton" onclick="location.href='#laws-and-directives'">Executive Order</td>
     <td id="fpbutton" onclick="location.href='#federal-policies'">Federal Policy</td>
-    <td id="gbbutton" onclick="location.href='#federal-technical-guidance'">Government<br>Body</td>
+    <td id="gbbutton" onclick="location.href='#federal-technical-guidance'">Government Agency</td>
     <td id="tsbutton" onclick="location.href='#federal-technical-guidance'">Technical Standard</td>
   </tr>
   <tr>
@@ -178,7 +178,7 @@ This table lists the laws that establish or authorize the entities and activitie
 
 Laws are sorted by date, from oldest to newest.
 
-Click on the name of a law or directive to see more details about it, and for a link to the law itself.
+**Click on the name of a Law or Directive to see more details about it and click on the details area to open the Law or Directive in a new window.**
 
 {% assign sorted_laws = site.data.laws-policies-standards | where: "type", "Law" | sort: "published", "last" | sort: "longName" %}
 
@@ -285,7 +285,7 @@ This table lists Federal Policies and directives published by OMB. They set a st
 
 Laws are sorted by date, from oldest to newest.
 
-Click on the name of a policy to see more details about it, and for a link to the policy itself.
+**Click on the name of a Federal Policy to see more details about it and click on the details area to open the policy in a new window.**
 
 {% assign sorted_policies = site.data.laws-policies-standards | where: "type", "Policy" | sort: "published", "last" | sort: "shortName" %}
 
@@ -364,7 +364,7 @@ Click on the name of a policy to see more details about it, and for a link to th
 
 This table lists Technical Guidance published under ICAM. They provide technical details to support consistent, secure and effective implementation of the policies.
 
-Click on the name of a guidance document to see more details about it, and for a link to the document itself.
+**Click on the name of a Federal Technical Guidance document to see more details about it and click on the details area to open the document in a new window.**
 
 {% assign sorted_guidance = site.data.laws-policies-standards | where: "type", "Guidance" | sort: "published", "last" | sort: "shortName" %}
 {% assign guidance_authority = site.data.laws-policies-standards | where: "type", "Authority" %}
