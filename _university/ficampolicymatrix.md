@@ -64,7 +64,7 @@ Laws, executive policies, regulations, and government standards drive multiple f
   /* OMB and OPM Buttons */
   #fpbutton {
     /* background-color: rgb(204, 229, 255); */
-    background-color: #b1ddf0;
+    background-color: #CCE5FF
     cursor: pointer;
     font-family: Arial-BoldMT, Arial; 
     font-size: 14 px;
@@ -113,7 +113,8 @@ Laws, executive policies, regulations, and government standards drive multiple f
     text-align:center;
   }
   #fptag {
-    background-color:rgb(204, 229, 255);
+    /* background-color:rgb(204, 229, 255); */
+    background-color: #B5CBE2;
     font-size:10 pt;
     text-align:center;
   } 
