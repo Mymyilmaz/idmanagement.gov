@@ -178,9 +178,9 @@ subnav:
 
 ## Executive Summary
 
-<p align="justify">This implementation guide was developed as a result of a joint experiment using the Unifyia platform in the GSA Federal Aquisition Service Information Technology Categories cloud sandbox. The Office of Government-wide Policy collaborated with the Unifyia team providing program and technical leadership support throughout the project.  This guide provides a detailed framework for implementing passkeys using external security keys, smart cards, and digital wallets for federal agencies and relying parties. The goal of passkey-based authentication is to strengthen security, ease operational burden for agencies, relying parties, users, and align with modern cybersecurity mandates by enabling phishing-resistant, passwordless authentication. The guide was reviewed in collaboration by a few Department of Energy national labs for quality assurance prior to publication.</p>
+<p align="justify">This implementation guide was developed due to a joint experiment using the Unifyia platform in the GSA Federal Acquisition Service Information Technology Categories cloud sandbox. The Office of Government-wide Policy collaborated with the Unifyia team, providing program and technical leadership support throughout the project.  This guide provides a detailed framework for implementing passkeys using external security keys, smart cards, and digital wallets for federal agencies and relying parties. Passkey-based authentication aims to strengthen security, ease the operational burden for agencies, relying parties, and users, and align with modern cybersecurity mandates by enabling phishing-resistant, passwordless authentication. The guide was reviewed in collaboration by a few Department of Energy national labs for quality assurance before publication.</p>
 
-Topics covered within this implemenation guide are
+Topics covered within this implementation guide are
 
 - An introduction to the Unifyia platform and its capabilities
 - An overview of FIDO2 Passkey fundamentals
@@ -188,23 +188,23 @@ Topics covered within this implemenation guide are
 - System configurations required for passkey issuance
 - User self-service issuance and lifecycle processes
 - On behalf of the user, operator-driven issuance and lifecycle processes
-- **One-click issuance of multiple FIDO2 passkeys** Easily issue multiple passkeys credentials on behalf of relying parties, such as Entra ID, Okta, and others, without the need for federation.
+- **One-click issuance of multiple FIDO2 passkeys** Easily issue multiple passkey credentials on behalf of relying parties, such as Entra ID, Okta, and others, without the need for federation.
 - User authentication using the issued credentials
 - Comprehensive granular lifecycle management of issued credentials
 
-<p align="justify">OMB Memorandum M-22-09 highlighted the urgent need to modernize federal IT infrastructures and protect government systems from growing cyber threats. It paved the way for adopting advanced, scalable, and future-proof identity solutions that are not only phishing-resistant and secure but also user-friendly and cost-effective. This directive was instrumental in providing federal agencies and enterprises using PIV (Personal Identity Verification), PIV-I (Interoperable), or CIV, Commercial Identity Verification credentials the flexibility to transition to modern, passwordless authentication technologies—such as FIDO2 and Derived Credentials—aligned with Zero Trust security principles.</p>
+<p align="justify">OMB Memorandum M-22-09 highlighted the urgent need to modernize federal IT infrastructures and protect government systems from growing cyber threats. It paved the way for adopting advanced, scalable, and future-proof identity solutions that are phishing-resistant, secure, user-friendly, and cost-effective. This directive was instrumental in providing federal agencies and enterprises using PIV (Personal Identity Verification), PIV-I (Interoperable), or CIV, Commercial Identity Verification credentials the flexibility to transition to modern, passwordless authentication technologies—such as FIDO2 and Derived Credentials—aligned with Zero Trust security principles.</p>
 
-<p align="justify">The shift to remote work, accelerated by the COVID-19 pandemic, highlighted the need for authentication methods beyond PIV-based smart cards to maintain strong security while supporting remote operations. As newer computing devices especially mobile devices became prevalent, the use of PIV cards posed significant challenges. To address these issues, NIST Special Publication (SP) 800-157 introduced the Derived PIV (DPIV) credential, built from the primary PIV credential. Although DPIV relies on Public Key Infrastructure (PKI) to enable mobile access, it demands substantial infrastructure investment and ongoing maintenance, making it cumbersome to implement. Its adoption is typically feasible only in environments with well-established PKI infrastructure.</p>
+<p align="justify">The shift to remote work, accelerated by the COVID-19 pandemic, highlighted the need for authentication methods beyond PIV-based smart cards to maintain strong security while supporting remote operations. As newer computing devices, especially mobile devices, became prevalent, the use of PIV cards posed significant challenges. NIST Special Publication (SP) 800-157 introduced the Derived PIV (DPIV) credential, built from the primary PIV credential to address these issues. Although DPIV relies on Public Key Infrastructure (PKI) to enable mobile access, it demands substantial infrastructure investment and ongoing maintenance, making it cumbersome to implement. Its adoption is typically feasible only in environments with well-established PKI infrastructure.</p>
 
 <p align="justify">For broader, more scalable use cases, simpler and more user-friendly alternatives like FIDO2 passkeys are increasingly favored. These can be deployed as platform authenticators on devices using biometrics, as cross-platform authenticators through external security keys, or within modern mobile wallets.</p>
 
-<p align="justify">FIDO2 passkeys and Derived FIDO2 Credentials DFCs play a crucial role in modernizing government and enterprise security by leveraging cryptographic keys for passwordless and phishing-resistant authentication. FIDO2 compatibility across major platforms inlcuding Windows, Android, iOS, macOS and browsers including Google Chrome, Mozilla Firefox, Microsoft Edge, and Apple Safari makes it a robust solution for enhancing both security and user experience in digital authentication.</p>
+<p align="justify">FIDO2 passkeys and Derived FIDO2 Credentials DFCs are crucial in modernizing government and enterprise security by leveraging cryptographic keys for passwordless and phishing-resistant authentication. FIDO2 compatibility across major platforms including Windows, Android, iOS, macOS, and browsers, including Google Chrome, Mozilla Firefox, Microsoft Edge, and Apple Safari, makes it a robust solution for enhancing security and user experience in digital authentication.</p>
 
 <!-- Start of Section 2 -->
 
 ## Scope
 
-<p align="justify">Although the Unifyia platform supports issuing PIV + FIDO2 passkeys across multiple form factors, this implementaion guide focuses specifically on passkeys issuance through credential providers and authenticators and digital wallets via the Unifyia ID Wallet app on iOS and Android. The following passkeys issuance use cases are covered -</p>
+<p align="justify">Although the Unifyia platform supports issuing PIV + FIDO2 passkeys across multiple form factors, this implementation guide focuses specifically on passkeys issuance through credential providers and authenticators and digital wallets via the Unifyia ID Wallet app on iOS and Android. The following passkeys issuance use cases are covered -</p>
 
 - **User self-issuance of passkeys** by authenticating with IDP credentials
 - **Self-issuance of derived passkeys** using PIV credentials
@@ -214,7 +214,7 @@ Topics covered within this implemenation guide are
 - **Operator-driven issuance of Derived FIDO2 Credentials DFC** after PIV credential verification
 - **Operator issuance of mobile digital credentials** on the Unifyia ID Wallet app on iOS and Android
 
-This document does not include detailed system configurations required to support these use cases. However, an overview of the necessary configurations is provided in later sections.
+This document does not include detailed system configurations required to support these use cases. However, later sections provide an overview of the necessary configurations.
 
 <!-- Start of Section 3 -->
 
@@ -248,7 +248,7 @@ This document does not include detailed system configurations required to suppor
 - Passkey (FIDO2) provisioning for relying parties
 - Customizable workflows for streamlined identity and authentication management
 
-<p align="justify">Unifyia enables federal agencies and enterprises to implement seamless authentication across integrated applications, using credentials from Unifyia, relying parties, or identity providers, while leveraging existing authentication infrastructure.</p>
+<p align="justify">Unifyia enables federal agencies and enterprises to implement seamless authentication across integrated applications, using credentials from Unifyia, relying parties, or identity providers while leveraging existing authentication infrastructure.</p>
 
 <!-- Start of Section 4 -->
 
@@ -262,34 +262,34 @@ This document does not include detailed system configurations required to suppor
 
 **What are Derived FIDO2 Credentials DFC?**
 
-<p align="justify">Derived FIDO2 Credentials DFC, also known as DFIDO2 or DFC passkeys, are derived from an individual's existing primary credentials, such as Personal Identity Verification (PIV), Personal Identity Verification – Interoperable, or Common Access Cards . DFCs allow users to authenticate and access secure systems or services without needing a physical PIV ID card. These credentials play a vital role in a zero-trust security framework, ensuring that all authentication events are protected through public-key cryptography.</p>
+<p align="justify">Derived FIDO2 Credentials DFC, also known as DFIDO2 or DFC passkeys, are derived from an individual's existing primary credentials, such as Personal Identity Verification (PIV), Personal Identity Verification – Interoperable, or Common Access Cards. DFCs allow users to authenticate and access secure systems or services without needing a physical PIV ID card. These credentials play a vital role in a zero-trust security framework, ensuring that all authentication events are protected through public-key cryptography.</p>
 
 <p align="justify">The issuance of both passkeys and DFC passkeys adheres to NIST SP 800-63-4 and FIPS 201-3 standards, which promote strong multifactor authentication and require cryptographic protection to ensure the integrity and security of sensitive data.</p>
 
 **Supported Form Factors for Passkey Issuance**
 
-<p align="justify">The Unifyia platform supports issuing passkeys in a variety of form factors, accommodating different devices, user preferences, and security needs. When selecting a form factor, organizations should prioritize ease of use, portability, security, and recovery options. The supported form factors generally fall into three categories: platform authenticators, cross-platform authenticators, and digital wallets.</p>
+<p align="justify">The Unifyia platform supports issuing passkeys in various form factors, accommodating different devices, user preferences, and security needs. Organizations should prioritize ease of use, portability, security, and recovery options when selecting a form factor. The supported form factors generally fall into three categories: platform authenticators, cross-platform authenticators, and digital wallets.</p>
 - **Platform Authenticators** 
 <p align="justify">Platform authenticators are passkeys stored directly on the user’s device. These are tied to a specific platform (e.g., smartphone, laptop, desktop, or tablet) and leverage the device’s built-in security features for authentication. The Unifyia platform enables organizations to store passkeys on mobile devices by using biometric features such as Face ID, Touch ID, and Android Biometrics. Alternatively, device passcodes or patterns can be used. For modern desktops and laptops, the Unifyia platform supports passkey (FIDO2) issuance and storage using TPM (Trusted Platform Module) or secure enclaves, which protect private keys from unauthorized access, ensuring they remain secure on the device.</p>
 
 - **Cross-platform Authenticators** 
-<p align="justify">Cross-platform authenticators, often called external security keys, are portable hardware devices that store passkeys and can be used across multiple devices. The Unifyia platform supports issuing passkeys (FIDO2) on connected devices like smart cards and security keys through various interfaces, including USB, NFC, Bluetooth, and hybrid security keys that combine multiple connection types (e.g., USB + NFC + Bluetooth). These versatile keys enhance mobility and security by allowing users to authenticate across different platforms seamlessly.</p>
+<p align="justify">Cross-platform authenticators, often called external security keys, are portable devices that store passkeys and can be used across multiple devices. The Unifyia platform supports issuing passkeys (FIDO2) on connected devices like smart cards and security keys through various interfaces, including USB, NFC, Bluetooth, and hybrid security keys that combine multiple connection types (e.g., USB + NFC + Bluetooth). These versatile keys enhance mobility and security by allowing users to authenticate across different platforms seamlessly.</p>
 
 - **FIDO2 Passkeys on Unifyia ID Wallet** 
-<p align="justify">A standout feature of the Unifyia platform is its ability to issue identity credentials and passkeys through the Unifyia ID Wallet app, available on both Android and iOS. This secure digital wallet provides an intuitive solution for managing digitally signed credentials on mobile devices, issued directly via the Unifyia platform. It offers passwordless, phishing-resistant mobile authentication, integrating seamlessly with existing frameworks for multifactor authentication and identity verification. Through the Unifyia ID Wallet, organizations can issue visual PIV, PIV-I, and CIV identities, as well as OTPs, PKI, Consent, and FIDO2 credentials - all within one app.</p>
+<p align="justify">A standout feature of the Unifyia platform is its ability to issue identity credentials and passkeys through the Unifyia ID Wallet app, available on Android and iOS. This secure digital wallet provides an intuitive solution for managing digitally signed credentials on mobile devices issued directly via the Unifyia platform. It offers passwordless, phishing-resistant mobile authentication, integrating seamlessly with existing frameworks for multifactor authentication and identity verification. Through the Unifyia ID Wallet, organizations can issue visual PIV, PIV-I, and CIV identities, as well as OTPs, PKI, Consent, and FIDO2 credentials - all within one app.</p>
 
 **FIDO2 Passkeys - Key Highlights**
 
 - Aligned with NIST SP 800-63-4 and FIPS 201 standards, promoting strong multifactor authentication with cryptographic protection for data integrity and security.
 - Passkeys support federal zero-trust architecture by eliminating the need for traditional passwords.
-- They offer robust authentication without the complexity of managing a full PKI infrastructure, simplifying deployment while maintaining high-security standards.
+- They offer robust authentication without the complexity of managing a full PKI infrastructure, simplifying deployment while maintaining high security standards.
 - Passkeys provide phishing-resistant, passwordless authentication, ensuring seamless access to applications and services.
-- They enhance interoperability between agencies by following federated identity management protocols, allowing a single passkey to be used securely across multiple government services. This reduces the need for MFA or two-step verification, as passkeys provide top-tier security on their own.
+- They enhance interoperability between agencies by following federated identity management protocols, allowing a single passkey to be used securely across multiple government services. This reduces the need for MFA or two-step verification, as passkeys provide top-tier security independently.
 - The solution is scalable, enabling federal agencies to extend strong authentication to new technologies and services, ensuring future readiness.
 
 **How do FIDO2 Passkeys Work?**
 
-- **Public-private key cryptography** When a user registers for a service using passkeys, the device generates a key pair - a private key that remains securely on the user’s device and a public key that is shared with the service. The private key is never exposed or transmitted, significantly enhancing security.
+- **Public-private key cryptography** When a user registers for a service using passkeys, the device generates a key pair - a private key that remains securely on the user’s device and a public key shared with the service. The private key is never exposed or transmitted, significantly enhancing security.
 - **Authentication** To log in, the user verifies their identity using biometrics, a PIN, a pattern, or a hardware token like a security key. The private key then signs an authentication challenge from the service, proving the user’s identity without sharing sensitive information. The service verifies the signed challenge using the stored public key, confirming the user's identity.
 
 **Best Practices for Implementing Passkeys**
@@ -298,8 +298,8 @@ This document does not include detailed system configurations required to suppor
 
 - **Use passkeys as part of a multi-factor authentication strategy** Incorporating passkeys alongside other authentication factors strengthens security.
 - **Support multiple authenticator types** Ensure compatibility with platform authenticators (passkeys stored on user devices), cross-platform authenticators (passkeys on external security keys or smart cards), and digital wallets. This provides flexibility across devices and services, allowing users to authenticate securely from various platforms.
-- **Comply with FIDO2/WebAuthn and FIPS standards** Ensure external security keys and smart cards are compliant with FIDO2/WebAuthn and FIPS 140-2 or FIPS 140-3 validated cryptographic standards for secure passkey storage.
-- **Implement essential security checks** Ensure the use of user presence verification, user authentication (e.g., biometrics), and the cryptographic challenge-response model to verify the legitimacy of authentication requests.
+- **Comply with FIDO2/WebAuthn and FIPS standards** Ensure external security keys and smart cards comply with FIDO2/WebAuthn and FIPS 140-2 or FIPS 140-3 validated cryptographic standards for secure passkey storage.
+- **Implement essential security checks** Ensure the legitimacy of authentication requests is verified using user presence verification, user authentication (e.g., biometrics), and the cryptographic challenge-response model.
 - **Configure risk-based authentication** For high-risk scenarios such as logging in from a new device, location, or network, enforce additional verification measures without compromising user convenience.
 - **Promote usability and user education** Focus on ease of use and educate users on the benefits and security of passkeys (FIDO2). Provide clear guidance on how to use and recover passkeys.
 - **Provide backup and recovery options** Offer mechanisms for users to recover access if they lose their passkeys (FIDO2), such as using backup devices or reissuing new passkeys.
@@ -309,15 +309,15 @@ This document does not include detailed system configurations required to suppor
 
 ## Passkeys Implementation Using the Unifyia Platform
 
-<p align="justify">The implementation of the passkeys within federal agencies involves technical and policy aspects while ensuring alignment with federal standards. The issuance of the passkeys can be operator-based or self-issued by a user based on the organization's policies. The passkeys implementation for government and federal agencies using the Unifyia platform focuses on issuing passkeys on external security keys/smart cards and the Unifyia ID Wallet app. The following are the considerations for implementing the strategy:</p>
+<p align="justify"> Implementing the passkeys within federal agencies involves technical and policy aspects while ensuring alignment with federal standards. The issuance of the passkeys can be operator-based or self-issued by a user based on the organization's policies. The passkeys implementation for government and federal agencies using the Unifyia platform focuses on issuing passkeys on external security keys/smart cards and the Unifyia ID Wallet app. The following are the considerations for implementing the strategy:</p>
 ![Passkeys Implementation Strategy]({{site.baseurl}}/assets/unifyia/0-fido2-implementation-strategy.png)
 
-- **Role-based access control** Define granular user controls by allowing role-based access privileges. The Unifyia platform supports PIV roles and also the generic operator and administrator roles. It allows you to assign privileges as required to a specific role.
+- **Role-based access control** Define granular user controls by allowing role-based access privileges. The Unifyia platform supports PIV and generic operator and administrator roles. It allows you to assign privileges as required to a specific role.
 - **Configure FIDO2 policies and workflows** Define the policy considerations for the implementation and configure the FIDO2 policies and workflows required for the defined implementation.
 - **Device profiles** Configure the device profiles for hardware tokens such as YubiKeys, smart cards such as ZTPass smart cards, and the Unifyia ID Wallet app that can be issued for issuance. This enables flexibility for remote and mobile workforce requirements.
-- **System integration** Agencies must configure identity management systems and relying parties including integration with federated identity providers to support FIDO2 workflows.
-- **MFA** Define the authentication policies for the platform and integrated relying parties. You can configure a default authentication method and set a preferred order of options for multi-factor authentication.
-- **User enrollment** Define a user enrollment strategy. The Unifyia platform allows multiple options to onboard users simplifying the enrollment process for users:
+- **System integration** Agencies must configure identity management systems and relying parties, including integration with federated identity providers to support FIDO2 workflows.
+- **MFA** Define the authentication policies for the platform and integrated relying parties. You can configure a default authentication method and set a preferred order of multi-factor authentication options.
+- **User enrollment** Define a user enrollment strategy. The Unifyia platform allows multiple options to onboard users, simplifying the enrollment process for users:
   - Operators can sponsor and enroll new users.
   - Users can leverage existing federal identity credentials such as PIV to onboard and enroll.
   - Users can leverage the existing credentials of the integrated identity providers to enroll using OpenID Connect or Security Assertion Markup Language protocols. The platform currently supports Entra ID and Okta.
@@ -336,12 +336,12 @@ This document does not include detailed system configurations required to suppor
 
 <p align="justify">The system configurations outlined below must be managed by the administrator to support the operator and user workflows detailed in the following sections. For ease of explanation, this guide considers two roles to explain the implementation of the passkeys – operator (for onboarding, enrollment, issuance, and lifecycle) and user (for self-onboarding, issuance, and lifecycle). Agencies can configure roles and permissions to enforce access restrictions.</p>
 
-- Configure a passkey registration and authentication policy for your organization and relying parties. Ensure to set the authenticator attachment option to cross-platform. This will restrict the issuance of passkeys on external security keys and smart cards.
+- Configure a passkey registration and authentication policy for your organization and relying parties. Ensure that the authenticator attachment option is cross-platform. This will restrict the issuance of passkeys on external security keys and smart cards.
 - Integrate directories for user federation.
 - Integrate external identity providers for identity and user federation as required based on your implementation strategy and passkey provisioning.
 - Configure the device profiles for the allowed authenticators.
 - Configure user provisioning policies.
-- Configure workflows for passkey issuance on security keys/smart cards and/or the Unifyia ID Wallet app.
+- Configure workflows for issuing passkeys for security keys, smart cards, and/or the Unifyia ID Wallet app.
 - Configure roles and privileges.
 - Configure MFA policies.
 - Access to the Operator or User client based on the role and operating system.
@@ -351,8 +351,8 @@ This document does not include detailed system configurations required to suppor
 
 <p align="justify">A user can log in to the Unifyia platform and self-issue passkey credentials or Derived FIDO2 Credentials. There are multiple ways for the user to log in to self-onboard and issue credentials based on the defined organization policies.</p>
 
-- Users can log in with the existing trusted credentials such as a username and password issued by the identity providers such as Entra ID or Okta to issue passkeys.
-- Users can perform a Certificate Based Authentication to log in, perform PIV credential verification, and issue Derived passkeys.
+- Users can log in with the existing trusted credentials, such as a username and password issued by the identity providers such as Entra ID or Okta to issue passkeys.
+ Users can use certificate-based Authentication to log in, verify their PIV credentials, and issue Derived passkeys.
 - If FIDO2 provisioning is configured, then the user can log in with the existing trusted credentials of the IDPs such as Entra ID or Okta, and log in to the relying parties using the issued passkeys.
 - Users can log into the platform and issue mobile digital credentials on the Unifyia ID Wallet app. For the FIDO2 credential, the users can use an NFC-enabled device. 
 
@@ -473,7 +473,7 @@ The following are the steps to issue a FIDO2 passkey:
 
 1. Launch the Unifyia platform.
 2. Select **Sign In** on the home page.
-3. For IDP-based login, select the button corresponding to the integrated IDP (Entra ID/Okta) on the Sign In page and enter your IDP credentials. Upon successful authentication you will be logged into the platform.
+3. For IDP-based login, select the button corresponding to the integrated IDP (Entra ID/Okta) on the Sign In page and enter your IDP credentials. Upon successful authentication, you will be logged into the platform.
    ![User - Login with Relying Party (RPs)]({{site.baseurl}}/assets/unifyia/13-login-with-entra.png)
    ![User - Enter RP Username]({{site.baseurl}}/assets/unifyia/14-login-with-entra-enter-email.png)
    ![User - Enter RP Password]({{site.baseurl}}/assets/unifyia/15-login-with-entra-enter-password.png)
@@ -504,7 +504,7 @@ The following are the steps to issue a FIDO2 passkey:
 - The users from the integrated relying parties can use their existing credentials to log in to the platform.
 - You have an iOS or Android mobile device.
 - Security key that can be connected over NFC for FIDO2 registration.
-- Download and install the Unifyia ID Wallet app on an iOS mobile from the mobile device's app store and for an Android device from the Play Store.
+- Download and install the Unifyia ID Wallet app on an iOS mobile device from the app store or the Play Store for an Android device.
 
 **Supported Mobile Phones**
 
@@ -578,7 +578,7 @@ The following are the steps for issuing the mobile credentials on the Unifyia ID
 14. Tap **Click here to proceed**.
     ![ID Wallet - Continue FIDO2 Registration]({{site.baseurl}}/assets/unifyia/23-wallet-add-ids4.png)
 15. You will be prompted to set up a security key. If you see a screen prompting for Face ID to sign in, select **Other Options** > **Security Key** to continue with security key registration. Tap the NFC-enabled security key near the NFC antenna of the mobile device. The NFC antenna is usually located on the top of the phone for iOS devices and on the back of the phone for Android devices.
-16. When prompted set up a PIN to continue.
+16. When prompted, set up a PIN to continue.
   ![ID Wallet - Set up Security key]({{site.baseurl}}/assets/unifyia/24-wallet-add-ids5.png)
 17. On the next screen, a label for the registered passkey is displayed. If required, rename it and select **OK**. You have completed the registration process. 
   ![ID Wallet - Provide Label]({{site.baseurl}}/assets/unifyia/25-wallet-add-ids6.png)
@@ -591,7 +591,7 @@ The following are the steps for issuing the mobile credentials on the Unifyia ID
 21. You are now all set to use your mobile credentials to initiate multi-factor/passwordless authentication. 
 22. If QR code scanning fails in the Unifyia ID Wallet app, select **Enter Manually**.
   ![ID Wallet - Select Enter Manually on ID Wallet App]({{site.baseurl}}/assets/unifyia/30-wallet-url1.png) 
-23. On the Unifyia platform navigate to the **ID Wallet** setup page. Locate the section displaying the URL, secret key, and workflow. 
+23. On the Unifyia platform, navigate to the **ID Wallet** setup page. Locate the section displaying the URL, secret key, and workflow. 
 ![ID Wallet - Enter URL details]({{site.baseurl}}/assets/unifyia/31-wallet-url2.png)
 24. Input the platform URL, e.g., <https://example.utopia.net>, the Secret Key, and the name of the workflow shown on the platform page. 
 25. Tap **Submit** and complete the issuance process as described above to issue the mobile credentials on the ID wallet app. -->
@@ -602,7 +602,7 @@ You can view the following credentials on the Unifyia ID Wallet.
 
 **Visual** The visual credential shows your picture and name if you have used a PIV ID credential for verification or you have completed enrollment with face. In all other cases, you can only view the name.
 
-**FIDO2** The FIDO2 credential allows a user to log in to the platform using security keys connected over NFC.
+**FIDO2** The FIDO2 credential allows users to log in to the platform using security keys connected over NFC.
 <br>
 
 ![ID Wallet - Visual Credential]({{site.baseurl}}/assets/unifyia/32-wallet-visual-credential.png)
@@ -632,11 +632,11 @@ You can view the following credentials on the Unifyia ID Wallet.
 
 - Sponsor, enroll the user with data and face biometrics, and issue passkeys.
 - Issue DFCs to a user after performing PIV credential verification.
-- Issue mobile digital credentials in the Unifyia ID Wallet app installed on the mobile device of a user.
+- Issue mobile digital credentials in the Unifyia ID Wallet app installed on a user's mobile device.
 
 **Before You Begin**
 
-- Ensure that you're registered with the necessary privileges as an authorized operator within your organization.
+- Ensure you're registered with the necessary privileges as an authorized operator within your organization.
 - You must have at least one active identity device to access the Unifyia platform.
 - Relevant devices such as smart cards or security keys are available if you are issuing passkeys (FIDO2).
 - You have installed the Unifyia Operator Client on your system to access the connected devices. Currently, the Operator Client is available only for Windows systems.
@@ -863,7 +863,7 @@ The following are the steps to issue the mobile credentials on the ID Wallet app
 17. If QR code scanning fails in the Unifyia ID Wallet app, select **Enter Manually**.
     ![ID Wallet - Select Enter Manually on ID Wallet App]({{site.baseurl}}/assets/unifyia/30-wallet-url1.png)
     ![ID Wallet - Enter URL details]({{site.baseurl}}/assets/unifyia/31-wallet-url2.png)
-18. On the Unifyia platform navigate to the **ID Wallet** setup page. Locate the section displaying the URL, secret key, and workflow.
+18. On the Unifyia platform, navigate to the **ID Wallet** setup page. Locate the section displaying the URL, secret key, and workflow.
 19. Input the platform URL, e.g., <https://example.utopia.net>, the Secret Key, and the name of the workflow shown on the platform page.
 20. Tap **Submit** and complete the issuance process as described above to issue the mobile credentials on the ID wallet app.
 21. The user’s mobile now has Visual, FIDO2, Consent, PKI, and OTP credentials. -->
@@ -872,7 +872,7 @@ The following are the steps to issue the mobile credentials on the ID Wallet app
 
 ## User Authentication Using the Issued Credentials 
 
-<p align="justify">The users now possess the issued passkeys (FIDO2) on external security keys/smart cards and also have credentials on the Unifyia ID Wallet app. They can now use these to authenticate to the Unifyia platform and also to the integrated relying parties. Currently, the platform supports authenticating to the relying parties such as Entra ID and Okta. </p>
+<p align="justify">The users now possess the issued passkeys (FIDO2) on external security keys/smart cards and also have credentials on the Unifyia ID Wallet app. They can now use these to authenticate to the Unifyia platform and the integrated relying parties. Currently, the platform supports authenticating to the relying parties such as Entra ID and Okta. </p>
 <p align="justify">In the following sections, the different methods and modes of authenticating to the relying parties using the issued credentials are explained. Below is the list:   </p>
 
 <ul>
@@ -924,7 +924,7 @@ This section outlines the process for users to authenticate to the integrated re
 3. Based on the type of your form factor, continue with one of the following:
    - If you are using an **NFC-enabled device**, connect an external NFC reader to your computer, when prompted, tap the NFC passkey on the reader and enter the security PIN to continue.
    - If you are using a **USB security key**, insert the USB security key into the USB slot of your computer, enter the security key PIN, and when prompted touch the security key to continue.
-   - If you are using a **smart card** , connect a card reader to your computer insert the card into it, and enter the security PIN to continue.
+   - If you are using a **smart card**, connect a card reader to your computer, insert the card into it, and enter the security PIN to continue.
 4. You are logged into the relying party application.
 
 ### Authenticate Using the Unifyia ID Wallet Credentials
@@ -1073,7 +1073,7 @@ This is an authentication method that uses time-based one-time passwords (TOTP).
 
 ### Operator Lifecycle Actions
 
-<p align="justify">This section explains the various lifecycle actions that an operator can manage for the identity devices, applications, and issued credentials.</p>
+<p align="justify">This section explains the various lifecycle actions an operator can manage for the identity devices, applications, and issued credentials.</p>
 
 Log into the platform using operator credentials. Navigate to **Management** > **Users**. Search the user either by name or email. Under the _Actions_ column, select the **Identity Lifecycle** icon. All the issued identities are displayed. For each identity, application, and credential, you'll notice that actions are enabled based on their status. To proceed, select **Actions** and choose the desired option. Refer to the images below for a detailed view of the granular lifecycle management.
 
@@ -1101,7 +1101,7 @@ Log into the platform using operator credentials. Navigate to **Management** > *
 </thead> 
 <tr>
 <td><b>Suspend</b></td>
-<td>When an active device (smart card, security key) is lost/damaged, you can suspend the device to avoid misuse. To suspend the device, select the identity, and select <b>Actions</b> > <b>Suspend</b>. Select one of the listed reasons to suspend the device and confirm. </td> 
+<td>When an active device (smart card, security key) is lost/damaged, you can suspend the device to avoid misuse. To suspend the device, select the identity and select <b>Actions</b> > <b>Suspend</b>. Select one of the listed reasons to suspend the device and confirm. </td> 
 </tr>
 <tr>
 <td><b>Reactivate</b></td>
@@ -1113,7 +1113,7 @@ Log into the platform using operator credentials. Navigate to **Management** > *
 </tr>
 <tr>
 <td><b>Remove</b></td>
-<td>Once the device is revoked, if you do not require it to be visible under the issued device list, you can remove it. Select the identity and select <b>Actions</b> > <b>Remove</b>.  </td> 
+<td>Once the device is revoked, you can remove it if you do not require it to be visible under the issued device list. Select the identity and select <b>Actions</b> > <b>Remove</b>.  </td> 
 </tr>
 </tbody>
 </table>
@@ -1156,7 +1156,7 @@ The following are the possible lifecycle actions for the FIDO2 application:
 
 **Credential Lifecycle Actions**
 
-The table below outlines the credential lifecycle actions available to an operator. For each credential, choose **Actions** and then select the desired action. Refer to the section **Identity Device Lifecycle Actions** for the process.
+The table below outlines the credential lifecycle actions available to an operator. For each credential, choose **Actions** and then select the desired action. For the process, refer to the section **Identity Device Lifecycle Actions**.
 
 <table>
 <tbody>
@@ -1192,9 +1192,9 @@ The table below outlines the credential lifecycle actions available to an operat
 
 ### User Lifecycle Actions
 
-This section explains the various lifecycle actions that a user can manage for the identity devices, applications, and issued credentials based on the status of the identity device.
+This section explains the various lifecycle actions that a user can manage for identity devices, applications, and issued credentials based on the device's status.
 
-Log into the platform using user credentials. Select **Identities** from the menu on the left side menu. On this page, you can view all the issued identities and their credentials. Refer to the images in the section [Operator Lifecycle Actions](#operator-lifecycle-actions) for a detailed view of the granular lifecycle management.
+Log into the platform using user credentials. Select **Identities** from the left-hand menu. On this page, you can view all the issued identities and their credentials. Refer to the images in the section [Operator Lifecycle Actions](#operator-lifecycle-actions) for a detailed view of the granular lifecycle management.
 
 **Identity Device Lifecycle Actions**
 
@@ -1209,13 +1209,13 @@ The following are the possible lifecycle actions based on the status of the devi
 <tr>
 <td><b>Suspend</b></td>
 <td>
-  When an active device (smart card, security key) is lost/damaged, you can suspend the device to avoid misuse. To suspend the device, select the identity, and select <b>Actions</b> > <b>Suspend</b>. Select one of the listed reasons to suspend the device and confirm. 
+  When an active device (smart card, security key) is lost/damaged, you can suspend the device to avoid misuse. To suspend the device, select the identity and select <b>Actions</b> > <b>Suspend</b>. Select one of the listed reasons to suspend the device and confirm. 
 </td>
 </tr>
 <tr>
 <td><b>Reactivate</b></td>
 <td>
-To reactivate a suspended device, select the identity, and select <b>Actions</b> > <b>Reactivate</b>. 
+To reactivate a suspended device, select the identity and select <b>Actions</b> > <b>Reactivate</b>. 
 </td>
 </tr>
 </tbody>
@@ -1257,7 +1257,7 @@ The following are the possible lifecycle actions for the FIDO2 application.
 
 **Credential Lifecycle Actions**
 
-The table below outlines the credential lifecycle actions available to a user. For each credential, choose **Actions** and then select the desired action. Refer to the section **Identity Device Lifecycle Actions** for the process.
+The table below outlines the credential lifecycle actions available to a user. For each credential, choose **Actions** and then select the desired action. For the process, refer to the section **Identity Device Lifecycle Actions**.
 
 <table>
 <tbody>
@@ -1333,7 +1333,7 @@ Commercial Identity Verification (CIV) refers to non-governmental identity verif
 <b>Cryptographic Keys</b>
 </td>
 <td>
-Secure digital codes that are used to encrypt and decrypt data, ensuring confidentiality, integrity, and authenticity in communication and data storage.
+Secure digital codes used to encrypt and decrypt data, ensuring confidentiality, integrity, and authenticity in communication and data storage.
 </td>
 </tr>
 <tr>
@@ -1349,7 +1349,7 @@ Client to Authenticator Protocol is a protocol within the FIDO2 standard that al
 <b>DFC/DFIDO</b>
 </td>
 <td>
-Derived FIDO Credential, also known as Derived FIDO2 (DFIDO2) credential is a FIDO-based credential derived from an original authentication credential such as a PIV ID, typically used for passwordless login on mobile and remote platforms.
+Derived FIDO Credential, or Derived FIDO2 (DFIDO2) credential, is a FIDO-based credential derived from an original authentication credential such as a PIV ID, typically used for passwordless login on mobile and remote platforms.
 </td>
 </tr>
 <tr>
@@ -1429,7 +1429,7 @@ A NIST publication that offers guidelines for managing digital identities, inclu
 <b>NIST FIPS 201-3</b>
 </td>
 <td>
-The Federal Information Processing Standard (FIPS) 201-3 defines the requirements for a federal Personal Identity Verification (PIV) system, used to verify and authenticate individuals for secure access to federal systems.
+The Federal Information Processing Standard (FIPS) 201-3 defines the requirements for a federal Personal Identity Verification (PIV) system used to verify and authenticate individuals for secure access to federal systems.
 </td>
 </tr>
 <tr>
@@ -1437,7 +1437,7 @@ The Federal Information Processing Standard (FIPS) 201-3 defines the requirement
 <b>NIST FIPS 140-2, FIPS 140-3</b>
 </td>
 <td>
-FIPS 140-3 replaces the earlier FIPS 140-2 standard. It is a NIST standard that specifies security requirements for cryptographic modules used to protect sensitive information. FIPS 140-3 is aligned with ISO/IEC 19790:2012, which is an international standard for cryptographic modules, ensuring broader compatibility and global recognition.
+FIPS 140-3 replaces the earlier FIPS 140-2 standard. The NIST standard specifies security requirements for cryptographic modules used to protect sensitive information. FIPS 140-3 is aligned with ISO/IEC 19790:2012, an international standard for cryptographic modules, ensuring broader compatibility and global recognition.
 </td>
 </tr>
 <tr>
@@ -1445,7 +1445,7 @@ FIPS 140-3 replaces the earlier FIPS 140-2 standard. It is a NIST standard that 
 <b>OAuth</b>
 </td>
 <td>
-An open standard for authorization, allowing third-party services to access user information from an online service without sharing passwords. FIPS 140-3 is aligned with ISO/IEC 19790:2012, which is an international standard for cryptographic modules, ensuring broader compatibility and global recognition.
+An open standard for authorization, allowing third-party services to access user information from an online service without sharing passwords. FIPS 140-3 is aligned with ISO/IEC 19790:2012, an international standard for cryptographic modules, ensuring broader compatibility and global recognition.
 </td>
 </tr>
 <tr>
@@ -1453,7 +1453,7 @@ An open standard for authorization, allowing third-party services to access user
 <b>OIDC</b>
 </td>
 <td>
-OpenID Connect (OIDC) is an identity layer built on top of the OAuth 2.0 protocol, enabling secure user authentication and providing user identity information in the form of a token.
+OpenID Connect (OIDC) is an identity layer built on top of the OAuth 2.0 protocol, enabling secure user authentication and providing user identity information as a token.
 </td>
 </tr>
 <tr>
@@ -1477,7 +1477,7 @@ Personal Identification Number is a numeric code used as a security measure to v
 <b>PIV</b>
 </td>
 <td>
-Personal Identity Verification is a U.S. federal government smart card used for secure authentication of federal employees and contractors, based on Public Key Infrastructure (PKI).
+Personal Identity Verification is a U.S. government smart card used to securely authenticate federal employees and contractors based on Public Key Infrastructure (PKI).
 </td>
 </tr>
 <tr>
@@ -1509,7 +1509,7 @@ SAML (Security Assertion Markup Language) is a protocol that allows for the secu
 <b>SCIM</b>
 </td>
 <td>
-SCIM (System for Cross-domain Identity Management) is a protocol designed to facilitate automated user identity management in cloud-based applications by standardizing user provisioning and deprovisioning processes.
+SCIM (System for Cross-domain Identity Management) is a protocol to facilitate automated user identity management in cloud-based applications by standardizing user provisioning and deprovisioning processes.
 </td>
 </tr>
 <tr>
@@ -1526,7 +1526,7 @@ SSO (Single Sign-On) is a user authentication process that allows users to log i
 <b>provisioning</b>
 </td>
 <td>
-The process of creating, managing, and maintaining user accounts and access permissions within an organization's IT systems.
+Creating, managing, and maintaining user accounts and access permissions within an organization's IT systems.
 </td>
 </tr>
 <tr>
