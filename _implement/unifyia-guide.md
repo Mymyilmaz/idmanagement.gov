@@ -74,7 +74,14 @@ subnav:
 <!-- code copied from Laxmi1975 patch 1 - CJB -->
 <!-- Start of Header -->
 <img src="{{site.baseurl}}/assets/img/logo-gsa.png" width="64" height='64' align="left" style="border:none" alt="U.S. General Services Administration Logo">
+
 <img src="{{site.baseurl}}/assets/img/logo-doe.png" width="256" height='64' align="left" alt="U.S. Department of Energy Logo"><br><br><br>
+
+<img src="{{site.baseurl}}/assets/img/logo-sandia.png" width="256" height='64' align="left" style="border:none" alt="Sandia National Laboratories Logo">
+
+<img src="{{site.baseurl}}/assets/img/logo-lawrence.png" width="256" height='64' align="left" alt="Lawrence Livermore National Laboratory Logo">
+
+<img src="{{site.baseurl}}/assets/img/logo-hhs.png" width="64" height='64' align="left" style="border:none" alt="U.S. Department of Health and Human Services Logo"><br><br><br>
   
 <div class="usa-accordion usa-accordion--bordered">
   <h4 class="usa-accordion__heading">
