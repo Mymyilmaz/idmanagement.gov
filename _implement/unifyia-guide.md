@@ -74,12 +74,10 @@ subnav:
 <!-- Start of Header -->
 <div style="margin-bottom: 20px;">
     <img src="{{site.baseurl}}/assets/img/logo-gsa.png" style="height: 64px; margin-right: 20px;" alt="U.S. General Services Administration Logo">
-    <img src="{{site.baseurl}}/assets/img/logo-doe.png" style="height: 64px; margin-right: 20px;" alt="U.S. Department of Energy Logo">
 </div>
 <div style="margin-bottom: 20px;">
     <img src="{{site.baseurl}}/assets/img/logo-sandia.png" style="height: 64px; margin-right: 20px;" alt="Sandia National Laboratories Logo">
     <img src="{{site.baseurl}}/assets/img/logo-lawrence.png" style="height: 64px; margin-right: 20px;" alt="Lawrence Livermore National Laboratory Logo">
-    <img src="{{site.baseurl}}/assets/img/logo-hhs.png" style="height: 64px;" alt="U.S. Department of Health and Human Services Logo">
 </div>
   
 <div class="usa-accordion usa-accordion--bordered">
