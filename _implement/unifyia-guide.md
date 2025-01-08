@@ -206,8 +206,6 @@ Topics covered within this implementation guide are
 <p align="justify">We extend our sincere gratitude to our collaboration partners: the Department of Energy's Sandia National Laboratories and Lawrence Livermore National Laboratory, whose comprehensive technical review and expertise significantly enhanced the quality and reliability of this implementation guide.  Their collective expertise and dedication to advancing federal cybersecurity standards have been invaluable in creating this comprehensive framework based on the FIDO2 standard.
 </p>
 
-<h2>Executive Summary</h2>
-
 <!-- Start of Section 2 -->
 
 ## Scope
