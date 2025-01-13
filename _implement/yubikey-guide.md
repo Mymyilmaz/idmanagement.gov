@@ -44,8 +44,8 @@ subnav:
 ---
 
 <!-- Start of Header -->
-<img src="{{site.baseurl}}/assets/img/logo-gsa.png" width="64" height='64' align="left" alt="U.S. General Services Administration Logo"> 
-<img src="{{site.baseurl}}/assets/img/logo-cms.png" height='64' align="left" alt="U.S. Centers for Medicare & Medicaid Services"> 
+<img src="{{site.baseurl}}/assets/logo/logo-gsa.png" width="64" height='64' align="left" alt="U.S. General Services Administration Logo"> 
+<img src="{{site.baseurl}}/assets/logo/logo-cms.png" height='64' align="left" alt="U.S. Centers for Medicare & Medicaid Services"> 
 <br><br><br>
   
 <div class="usa-accordion usa-accordion--bordered">

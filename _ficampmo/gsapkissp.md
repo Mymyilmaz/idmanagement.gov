@@ -34,7 +34,7 @@ subnav:
 
 <!-- ## [June 30, 2023] DRAFT / PRE-DECISIONAL (PDF /docs/roadmap-ficam.pdf)-->
 
-<img src="{{site.baseurl}}/assets/img/logo-gsa.png" width="64" height='64' align="left" alt="U.S. General Services Administration Logo">
+<img src="{{site.baseurl}}/assets/logo/logo-gsa.png" width="64" height='64' align="left" alt="U.S. General Services Administration Logo">
 
 <br><br>
 
