@@ -135,11 +135,11 @@ Laws, executive policies, regulations, and government standards drive multiple f
     <th scope="row" colspan="5" style="font-weight:700;text-align:center;">Key</th>
   </tr>
   <tr>
-    <th scope="row" id="aocbutton" onclick="location.href='#laws-and-directives'">Act of Congress</th>
-    <td id="eobutton" onclick="location.href='#laws-and-directives'">Executive Order</td>
-    <td id="fpbutton" onclick="location.href='#federal-policies'">Federal Policy</td>
-    <td id="gbbutton" onclick="location.href='#federal-technical-guidance'">Government Agency</td>
-    <td id="tsbutton" onclick="location.href='#federal-technical-guidance'">Technical Standard</td>
+    <th scope="row" id="aocbutton" onclick="location.href='#laws-and-directives'" class="tablet:grid-col">Act of Congress</th>
+    <td id="eobutton" onclick="location.href='#laws-and-directives'" class="tablet:grid-col">Executive Order</td>
+    <td id="fpbutton" onclick="location.href='#federal-policies'" class="tablet:grid-col">Federal Policy</td>
+    <td id="gbbutton" onclick="location.href='#federal-technical-guidance'" class="tablet:grid-col">Government Agency</td>
+    <td id="tsbutton" onclick="location.href='#federal-technical-guidance'" class="tablet:grid-col">Technical Standard</td>
   </tr>
   <tr>
     <th id="aoctag" scope="row">Congress</th>
