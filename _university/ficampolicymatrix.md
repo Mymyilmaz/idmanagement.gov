@@ -132,7 +132,7 @@ Laws, executive policies, regulations, and government standards drive multiple f
 <table class="responsive">
 <tbody>
   <tr>
-    <th scope="row" colspan="5" style="font-weight:700;text-align:center;">Key</th>
+    <th scope="row" colspan="5" style="font-weight:700;text-align:center;" class="tablet:grid-col">Key</th>
   </tr>
   <tr>
     <th scope="row" id="aocbutton" onclick="location.href='#laws-and-directives'" class="tablet:grid-col">Act of Congress</th>
