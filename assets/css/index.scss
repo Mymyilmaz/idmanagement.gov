@@ -343,6 +343,11 @@
   background-color: #cdcbcb;
 }
 
+.gsa-usa-section {
+  // adjust padding for top of main section - CJB
+  padding-top: 32px;
+}
+
 .search-link {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -398,7 +403,7 @@
     font-size: 0.9rem;
   }
 
-  // attempt to fix mobile after update of uswds 3.11.0
+  // attempt to fix mobile after update of uswds 3.11.0 - CJB
   .gsa-mobile {
     display: none;
   }
@@ -425,7 +430,7 @@
     font-size: 0.9rem;
   }
 
-  // attempt to fix mobile after update of uswds 3.11.0
+  // attempt to fix mobile after update of uswds 3.11.0 - CJB
   .gsa-mobile {
     display: none;
   }
