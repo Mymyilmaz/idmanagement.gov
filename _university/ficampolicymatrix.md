@@ -132,14 +132,14 @@ Laws, executive policies, regulations, and government standards drive multiple f
 <table class="responsive">
 <tbody>
   <tr>
-    <th scope="row" colspan="5" style="font-weight:700;text-align:center;" class="tablet:grid-col">Key</th>
+    <th scope="col" colspan="5" style="font-weight:700;text-align:center;" class="tablet:grid-col">Key</th>
   </tr>
   <tr>
-    <th scope="row" id="aocbutton" onclick="location.href='#laws-and-directives'" class="tablet:grid-col">Act of Congress</th>
-    <td id="eobutton" onclick="location.href='#laws-and-directives'" class="tablet:grid-col">Executive Order</td>
-    <td id="fpbutton" onclick="location.href='#federal-policies'" class="tablet:grid-col">Federal Policy</td>
-    <td id="gbbutton" onclick="location.href='#federal-technical-guidance'" class="tablet:grid-col">Government Agency</td>
-    <td id="tsbutton" onclick="location.href='#federal-technical-guidance'" class="tablet:grid-col">Technical Standard</td>
+    <th scope="col" id="aocbutton" onclick="location.href='#laws-and-directives'" class="tablet:grid-col">Act of Congress</th>
+    <th scope="col" id="eobutton" onclick="location.href='#laws-and-directives'" class="tablet:grid-col">Executive Order</th>
+    <th scope="col" id="fpbutton" onclick="location.href='#federal-policies'" class="tablet:grid-col">Federal Policy</th>
+    <th scope="col" id="gbbutton" onclick="location.href='#federal-technical-guidance'" class="tablet:grid-col">Government Agency</th>
+    <th scope="col" id="tsbutton" onclick="location.href='#federal-technical-guidance'" class="tablet:grid-col">Technical Standard</th>
   </tr>
   <tr>
     <th id="aoctag" scope="row" class="tablet:grid-col">Congress</th>
