@@ -142,11 +142,11 @@ Laws, executive policies, regulations, and government standards drive multiple f
     <td id="tsbutton" onclick="location.href='#federal-technical-guidance'" class="tablet:grid-col">Technical Standard</td>
   </tr>
   <tr>
-    <th id="aoctag" scope="row">Congress</th>
-    <td id="eotag">White House</td>
-    <td id="fptag">OMB/DNI/OPM</td> 
-    <td id="gbtag">GSA/CIO Council/ICAMSC/FPKIPA</td>
-    <td id="tstag">NIST/ISC/NSA/FedRAMP</td>
+    <th id="aoctag" scope="row" class="tablet:grid-col">Congress</th>
+    <td id="eotag" class="tablet:grid-col">White House</td>
+    <td id="fptag" class="tablet:grid-col">OMB/DNI/OPM</td> 
+    <td id="gbtag" class="tablet:grid-col">GSA/CIO Council/ICAMSC/FPKIPA</td>
+    <td id="tstag" class="tablet:grid-col">NIST/ISC/NSA/FedRAMP</td>
   </tr>
 </tbody>
 </table>
