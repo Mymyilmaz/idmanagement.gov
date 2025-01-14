@@ -33,9 +33,9 @@ subnav:
 ---
 
 
-<img src="{{site.baseurl}}/assets/img/logo-gsa.png" width="64" height='64' align="left" alt="U.S. General Services Administration Logo"> 
-<img src="{{site.baseurl}}/assets/img/logo-opm.png" width="64" height='64' align="left" alt="U.S. Office of Personnel Management Logo"> 
-<img src="{{site.baseurl}}/assets/img/logo-ed.png" width="64" height='64' align="left" alt="U.S. Department of Education Logo">
+<img src="{{site.baseurl}}/assets/logo/logo-gsa.png" width="64" height='64' align="left" alt="U.S. General Services Administration Logo"> 
+<img src="{{site.baseurl}}/assets/logo/logo-opm.png" width="64" height='64' align="left" alt="U.S. Office of Personnel Management Logo"> 
+<img src="{{site.baseurl}}/assets/logo/logo-ed.png" width="64" height='64' align="left" alt="U.S. Department of Education Logo">
 <br><br><br>
   
 <div class="usa-accordion usa-accordion--bordered">

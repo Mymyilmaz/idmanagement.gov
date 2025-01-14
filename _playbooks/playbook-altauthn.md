@@ -32,8 +32,8 @@ subnav:
     href: '#appendix-b---resources'
 ---
 
-<img src="{{site.baseurl}}/assets/img/logo-gsa.png" width="64" height='64' align="left" alt="U.S. General Services Administration Logo">
-<img src="{{site.baseurl}}/assets/img/logo-cio-round.png" width="64" height='64' align="left" alt="U.S. Federal Chief Information Officer Council Logo">
+<img src="{{site.baseurl}}/assets/logo/logo-gsa.png" width="64" height='64' align="left" alt="U.S. General Services Administration Logo">
+<img src="{{site.baseurl}}/assets/logo/logo-cio-round.png" width="64" height='64' align="left" alt="U.S. Federal Chief Information Officer Council Logo">
 <br><br><br>
 
 The Fast IDentity Online 2 Community of Action, along with content developed by the ICAM Subcommittee Phishing Resistant Authenticator Working Group and a brainstorming session at the October 2023 FIDO Authenticate conference, developed this playbook to help agencies understand phishing-resistant authentication and plan a phishing-resistant authenticator pilot. This playbook will be updated as the standards and specifications evolve and more forms of phishing-resistant authenticators are identified.
