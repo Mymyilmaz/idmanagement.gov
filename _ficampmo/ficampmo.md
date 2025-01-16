@@ -58,6 +58,12 @@ The GSA FICAM Program coordinates and oversees governmentwide ICAM initiatives a
 <!-- Updated image to new version, moved to _assets/ficampm/ - CJB -->
 ![An organization chart of the FICAM Governance Bodies and Working Groups.]({{site.baseurl}}/assets/ficampm/ficam-governance.png)
 
+**Digital Identity CoP** - The Digital Identity CoP fosters a government wide community for federal digital identity practitioners and serves as a platform to cross-train, educate and forum to exchange identity and access management technology trends, solutions, and architecture. This CoP allows practitioners to share lessons learned, opportunities and discuss innovative tailored identity processes for customer experience across both mission delivery (public identity) and mission support (workforce identity).
+
+**Federal Mobility Group** - The Federal Mobility Group purpose is to share information and identify cross-agency needs in the areas of mobile policy, guidance, and best practices; acquisition of mobile devices and services; and operational requirements for federal mobility programs.
+
+**FIDO CoA** - The Office of Management and Budget's Office of the Federal CIO, in partnership with the Identity, Credential, and Access Management Subcommittee and Cybersecurity and Infrastructure Security Agency, have launched a Phishing-Resistant Authentication (FIDO2) Community of Action through March 2025. This group works with Agencies that plan to rapidly deploy a pilot of FIDO2-based phishing-resistant authenticators within their enterprise, Provide agencies with access to expertise and guidance in achieving this goal, and Documents results to help accelerate the modernization of phishing-resistant MFA throughout the Federal Government.
+
 ## Identity, Credential, and Access Management Subcommittee
 
 The [Identity, Credential, and Access Management Subcommittee (ICAMSC)](https://community.max.gov/pages/viewpage.action?pageId=234815732){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} is the principal interagency forum for identity management, secure access, authentication, authorization, credentials, privileges, and access lifecycle management. It’s a sub-committee of the [Federal CIO Council’s Chief Information Security Officer (CISO) Council](https://www.cio.gov/about/members-and-leadership/ciso-council/){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}. 
