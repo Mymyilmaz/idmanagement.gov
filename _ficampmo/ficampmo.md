@@ -55,7 +55,8 @@ Through this four-part framework, the GSA FICAM Program leads or coordinates the
 
 The GSA FICAM Program coordinates and oversees governmentwide ICAM initiatives as directed by the Federal CISO Council and the Office of Management and Budget. It accomplishes this mission through various governance bodies outlined below.
 
-<img src="{{site.baseurl}}/assets/logo/ficam-governance.png" alt="An organization chart of the FICAM Governance Bodies and Working Groups.">
+<!-- Updated image to new version, moved to _assets/ficampm/ - CJB -->
+![An organization chart of the FICAM Governance Bodies and Working Groups.]({{site.baseurl}}/assets/ficampm/ficam-governance.png)
 
 ## Identity, Credential, and Access Management Subcommittee
 
