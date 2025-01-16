@@ -55,7 +55,7 @@ Through this four-part framework, the GSA FICAM Program leads or coordinates the
 
 The GSA FICAM Program coordinates and oversees governmentwide ICAM initiatives as directed by the Federal CISO Council and the Office of Management and Budget. It accomplishes this mission through various governance bodies outlined below.
 
-<img src="{{site.baseurl}}/assets/logo/ficam-governance.png" alt="An organization chart of the FICAM Governance Bodies and Working Groups." width="560" height="319">
+<img src="{{site.baseurl}}/assets/img/ficam-governance-new.png" alt="An organization chart of the FICAM Governance Bodies and Working Groups.">
 
 ## Identity, Credential, and Access Management Subcommittee
 
@@ -97,7 +97,7 @@ Other ICAM working groups may be charted under other committees or subcommittees
 
 The Federal ICAM Community Technical Listserv (ICAM-COMMUNITY-TECH List) aims to provide a communications platform to share and discuss technical issues impacting the Federal ICAM Community. We hope to leverage the knowledge of ICAM Subject Matter Experts to identify, share, and hopefully resolve technical issues that exist in Agencies and Departments. This list is open to anyone with a .gov email.
 
-Subscribe by contacting the list owner: ICAM-COMMUNITY-TECH-request at LISTSERV.GSA.GOV with subscribe in the subject line.
+Subscribe by contacting the list owner: [icam-community-tech-request@listserv.gsa.gov](mailto:icam-community-tech-request@listserv.gsa.gov)  with subscribe in the subject line.
 
 ## Federal Public Key Infrastructure Policy Authority
 
@@ -156,6 +156,5 @@ If you meet the membership criteria and wish to join a working group, email [fpk
 | **Certificate Policy (CPWG)** | The Federal Bridge and Common policies advisory group. | Facilitate proposed Certificate Policy changes, facilitate the FPKI cross-certification process, and address and resolve issues through policy analysis and modification. | Federal employees, designated contractors, and PKI providers involved in the FPKI. | As needed. |
 | **Shared Service Provider (SSPWG)** | The Shared Service Provider program advisory group. | Identify policy changes that impact the Shared Services Program, address and resolve issues through policy analysis and modification. | Only FPKI Shared Service Provider representatives. | As needed. |
 | **Technical (TWG)** | Investigate and resolve complex FPKI technical issues. | Identify and scope technical FPKI issues, address security concerns and vulnerabilities, and identify technical improvements to enhance the security and operational capabilities. | Federal employees, designated contractors, and PKI vendors. | As needed. |
-
 
 
