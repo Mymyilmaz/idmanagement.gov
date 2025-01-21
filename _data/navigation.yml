@@ -83,6 +83,10 @@ university:
   - text: ICAM Policy Matrix - Map
     href: /university/policymap/
 
+experiments:
+  # - text: Experiments
+  #   href: /experiments/
+
 playbooks:
   - text: Introduction
     href: /playbooks/
@@ -127,3 +131,4 @@ policy:
     href: /contribute/
   - text: Public Domain License
     href: /license/
+

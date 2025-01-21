@@ -42,7 +42,7 @@ subnav:
 <!-- Version 1.1<br>
 August 14, 2023 -->
 
-<img src="{{site.baseurl}}/assets/img/logo-gsa.png" width="64" height='64' align="left" alt="U.S. General Services Administration Logo">
+<img src="{{site.baseurl}}/assets/logo/logo-gsa.png" width="64" height='64' align="left" alt="U.S. General Services Administration Logo">
 <br><br><br>
 
 <div class="usa-accordion usa-accordion--bordered">

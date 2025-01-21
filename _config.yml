@@ -83,7 +83,6 @@ primary_navigation:
         url: /implement/yubikey-guide/
       - name: Unifyia Implementation Guide for Passkeys (FIDO2)
         url: /implement/unifyia-guide/
-
   - name: Coordination Functions
     children: 
       - name: FICAM Program
@@ -114,6 +113,8 @@ primary_navigation:
         url: /university/pm/
       - name: ICAM Policy Matrix
         url: /university/policymatrix/
+  - name: Experiments 
+    url: /experiments/
 
 secondary_navigation:
   - name: Contact Us
@@ -168,6 +169,9 @@ collections:
   redirects:
     output: true
     permalink: /redirects/:path/
+  experiments:
+    output: true
+    permalink: /experiments/:path/
 
 # Leaving in place: 
 # Unsure of placement in new site.

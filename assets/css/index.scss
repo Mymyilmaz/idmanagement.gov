@@ -343,6 +343,14 @@
   background-color: #cdcbcb;
 }
 
+.gsa-usa-section {
+  // adjust padding for top of main section - CJB
+  padding-top: 30px;
+  // adjust padding for mobile + desktop to balance whitespace - CJB
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
 .search-link {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -365,6 +373,7 @@
   .paginate-button {
     display: none;
   }
+
 }
 
 @media screen and (max-width: 640px) {
@@ -374,6 +383,7 @@
   .paginate-button {
     display: block;
   }
+
 }
 
 @media (max-width: 640px) {
@@ -394,5 +404,37 @@
   
   .usa-button {
     font-size: 0.9rem;
+  }
+
+  // attempt to fix mobile after update of uswds 3.11.0 - CJB
+  .gsa-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  .paginate-link {
+    display: none;
+  }
+  .paginate-button {
+    display: block;
+  }
+  // Mobile Carousel adjustments
+  .hero-heading {
+    font-size: 2rem;
+  }
+  
+  .hero-text {
+    font-size: 1rem;
+  }
+  
+  .usa-button {
+    font-size: 0.9rem;
+  }
+
+  // attempt to fix mobile after update of uswds 3.11.0 - CJB
+  .gsa-mobile {
+    display: none;
   }
 }
