@@ -20,6 +20,11 @@
   max-width: 100%;
 }
 
+// fix height fix for AAA 44px min-height requirement
+// affects sitewide since sidenav is global. 
+.usa-sidenav__item a {
+  min-height: 44px;
+}
 
 // CSS targets, not used for styling, keep empty, used in js to target classes.
 .gsa-target-accordion-header {} // for accordion header targeting
