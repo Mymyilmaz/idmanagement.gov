@@ -717,7 +717,7 @@ E.O. 13636 and PPD-21 - ["Fact Sheet: Improving Critical Infrastructure Cybersec
 
 ## Regulations
 
-[_Federal Acquisition Regulation (FAR)_](https://www.acquisition.gov/browsefar){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
+[_Federal Acquisition Regulation (FAR)_](https://www.acquisition.gov/browse/index/far){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
 
 ## Standards
 
