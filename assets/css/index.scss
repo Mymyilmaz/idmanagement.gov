@@ -20,12 +20,6 @@
   max-width: 100%;
 }
 
-// AAA issue: sidenav item fix for Interactive elements, 
-// like buttons or links, should be at least 44 by 44 pixels,
-// so they can easily be clicked or tapped by all users.
-.usa-sidenav__item {
-  height: 44px;
-}
 
 // CSS targets, not used for styling, keep empty, used in js to target classes.
 .gsa-target-accordion-header {} // for accordion header targeting
