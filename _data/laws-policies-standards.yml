@@ -373,7 +373,7 @@
   longName: "OMB Memo 05-24: Implementation of Homeland Security Presidential Directive (HSPD) 12 - Policy for a Common Identification Standard for Federal Employees and Contractors"
   published: 2005-08-05
   description: "This memorandum provides implementing instructions for the Directive (HSPD-12) and the Standard (FIPS-201)."
-  externalURL: "https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2005/m05-24.pdf"
+  externalURL: "https://georgewbush-whitehouse.archives.gov/omb/memoranda/fy2005/m05-24.pdf"
   scope:
     - "Workforce Identity"
   authorized-by:
@@ -421,7 +421,7 @@
   longName: "OMB Memo 19-17: Enabling Mission Delivery through Improved Identity, Credential, and Access Management"
   description: "This memorandum sets forth the Federal Government's1 Identity, Credential, and Access Management (ICAM) policy"
   published: 2019-05-21
-  externalURL: "https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf"
+  externalURL: "https://bidenwhitehouse.archives.gov/wp-content/uploads/2019/05/M-19-17.pdf"
   authored-by:
     - *OMB
   scope:
@@ -443,7 +443,7 @@
     this suggests use of Identity as a Service Providers and Shared Service Providers for PKI, as 
     discussed in the Cloud Identity Playbook.
   published: 2019-06-25
-  externalURL: "https://www.whitehouse.gov/wp-content/uploads/2019/06/M-19-19-Data-Centers.pdf"
+  externalURL: "https://bidenwhitehouse.archives.gov/wp-content/uploads/2019/06/M-19-19-Data-Centers.pdf"
   authored-by:
     - *OMB
   authorized-by:
@@ -459,7 +459,7 @@
     information security, privacy, and management of information resources across all Federal 
     programs and services.
   published: 2016-07-28
-  externalURL: "https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/circulars/A130/a130revised.pdf"
+  externalURL: "https://obamawhitehouse.archives.gov/sites/default/files/omb/assets/OMB/circulars/a130/a130revised.pdf"
   authored-by:
     - *OMB
   ficam-services:
@@ -480,7 +480,7 @@
     for public web connections is Hypertext Transfer Protocol Secure (HTTPS). 
     Agencies must utilize PKI device certificates to protect their web servers.
   published: 2015-07-08
-  externalURL: "https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2015/m-15-13.pdf"
+  externalURL: "https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2015/m-15-13.pdf"
   authored-by:
     - *OMB
 - &M1916
@@ -491,7 +491,7 @@
     This memorandum describes the process and desired outcomes for shared services such as PKI 
     Shared Service Providers (SSPs).
   published: 2019-04-26
-  externalURL: "https://www.whitehouse.gov/wp-content/uploads/2019/04/M-19-16.pdf"
+  externalURL: "https://bidenwhitehouse.archives.gov/wp-content/uploads/2019/04/M-19-16.pdf"
   authored-by:
     - *OMB
 - &SPRINGERMEMO
@@ -598,7 +598,7 @@
     with those requirements and to manage privacy risks, SAOPs are required to review agency [High Value Assets] 
     and identify those that create, collect, use, process, store, maintain, disseminate, disclose, or dispose of PII.
   published: 2018-12-10
-  externalURL: "https://www.whitehouse.gov/wp-content/uploads/2018/12/M-19-03.pdf"
+  externalURL: "https://bidenwhitehouse.archives.gov/wp-content/uploads/2018/12/M-19-03.pdf"
   authored-by:
     - *OMB
   ficam-services:
@@ -614,7 +614,7 @@
     This circular describes agency responsibilities for implementing the review, reporting, and 
     publication requirements of the Privacy Act of 1974 and related OMB policies.
   published: 2016-12-23
-  externalURL: "https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/circulars/A108/omb_circular_a-108.pdf"
+  externalURL: "https://obamawhitehouse.archives.gov/sites/default/files/omb/assets/OMB/circulars/a108/omb_circular_a-108.pdf"
   authored-by:
     - *OMB
   authorized-by:
@@ -629,7 +629,7 @@
   longName: "OMB Memo 22-09: Moving the U.S. Government Toward Zero Trust Cybersecurity Principles"
   description: "This strategy places significant emphasis on stronger enterprise identity and access controls, including multi-factor authentication (MFA)."
   published: 2022-01-26
-  externalURL: "https://www.whitehouse.gov/wp-content/uploads/2022/01/M-22-09.pdf"
+  externalURL: "https://zerotrust.cyber.gov/downloads/M-22-09%20Federal%20Zero%20Trust%20Strategy.pdf"
   authored-by:
     - *OMB
   authorized-by:
