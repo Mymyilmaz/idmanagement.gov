@@ -553,7 +553,7 @@ sticky_sidenav: true
     </g>
     <g id="M-19-17">
       <g id="eorect-10" data-name="eorect">
-        <a href="https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf" title="m-19-17" target="_blank" rel="noopener noreferrer">
+        <a href="https://bidenwhitehouse.archives.gov/wp-content/uploads/2019/05/M-19-17.pdf" title="m-19-17" target="_blank" rel="noopener noreferrer">
         <rect class="fpbutton" x="475" y="422.8" width="72.5" height="24.5" />
         <text id="M-19-17-2" data-name="M-19-17" transform="translate(490.26 439.85) scale(.93 1)" style="font-family: Arial-BoldMT, Arial; font-size: 12px; font-weight: 700;"><tspan x="0" y="0">M-19-17 </tspan></text>
         </a>
