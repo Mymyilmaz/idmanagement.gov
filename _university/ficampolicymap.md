@@ -589,7 +589,7 @@ sticky_sidenav: true
     </g>
     <g id="M-05-24">
       <g id="eorect-14" data-name="eorect">
-        <a href="https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2005/m05-24.pdf" title="m-05-24" target="_blank" rel="noopener noreferrer">
+        <a href="https://georgewbush-whitehouse.archives.gov/omb/memoranda/fy2005/m05-24.pdf" title="m-05-24" target="_blank" rel="noopener noreferrer">
         <rect class="fpbutton" x="975.5" y="363.8" width="71" height="23.5" />
         <text id="M-05-24-2" data-name="M-05-24" transform="translate(989.49 380.33) scale(.94 1)" style="font-family: Arial-BoldMT, Arial; font-size: 12px; font-weight: 700;"><tspan x="0" y="0">M-05-24 </tspan></text>
         </a>
