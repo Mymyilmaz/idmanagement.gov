@@ -26,6 +26,198 @@
 # ee_cdp_uri:
 # ee_ocsp_uri:
 
+- notice_date: February 5, 2025
+  change_type: CA Certificate Issuance
+  system: DoD Root CA 6
+  change_description: DoD Root CA 6 issued a new subordinate CA certificate to DOD EMAIL CA-78 on January 23, 2025.
+  contact: RootOps_DODPKIPMO at nsa.gov
+### The following are all optional fields based on the change type
+  ca_certificate_hash: 03dfa91c84afcc19db783f4558e527d84901db0d
+  ca_certificate_issuer: CN=DoD Root CA 6,OU=PKI,OU=DoD,O=U.S. Government,C=US
+  ca_certificate_subject: CN=DOD EMAIL CA-78,OU=PKI,OU=DoD,O=U.S. Government,C=US
+  cdp_uri: http://crl.disa.mil/crl/DODROOTCA6.crl
+  aia_uri: http://crl.disa.mil/issuedby/DODROOTCA6_IT.p7c
+  sia_uri: N/A
+  ocsp_uri: http://ocsp.disa.mil/
+  ee_cdp_uri: http://crl.disa.mil/crl/DODEMAILCA_78.crl
+  ee_ocsp_uri: http://ocsp.disa.mil/
+
+- notice_date: February 5, 2025
+  change_type: CA Certificate Issuance
+  system: DoD Root CA 6
+  change_description: DoD Root CA 6 issued a new subordinate CA certificate to DOD ID CA-78 on January 23, 2025.
+  contact: RootOps_DODPKIPMO at nsa.gov
+### The following are all optional fields based on the change type
+  ca_certificate_hash: 38aea6b42463b3ed2ac6497506f8dc90dc0aa656
+  ca_certificate_issuer: CN=DoD Root CA 6,OU=PKI,OU=DoD,O=U.S. Government,C=US
+  ca_certificate_subject: CN=DOD ID CA-78,OU=PKI,OU=DoD,O=U.S. Government,C=US
+  cdp_uri: http://crl.disa.mil/crl/DODROOTCA6.crl
+  aia_uri: http://crl.disa.mil/issuedby/DODROOTCA6_IT.p7c
+  sia_uri: N/A
+  ocsp_uri: http://ocsp.disa.mil/
+  ee_cdp_uri: http://crl.disa.mil/crl/DODIDCA_78.crl
+  ee_ocsp_uri: http://ocsp.disa.mil/
+
+- notice_date: February 5, 2025
+  change_type: CA Certificate Issuance
+  system: DoD Root CA 6
+  change_description: DoD Root CA 6 issued a new subordinate CA certificate to DOD EMAIL CA-79 on January 23, 2025.
+  contact: RootOps_DODPKIPMO at nsa.gov
+### The following are all optional fields based on the change type
+  ca_certificate_hash: 25b0d2df8dcbf9d966aeb09823417b4d780610dc
+  ca_certificate_issuer: CN=DoD Root CA 6,OU=PKI,OU=DoD,O=U.S. Government,C=US
+  ca_certificate_subject: CN=DOD EMAIL CA-79,OU=PKI,OU=DoD,O=U.S. Government,C=US
+  cdp_uri: http://crl.disa.mil/crl/DODROOTCA6.crl
+  aia_uri: http://crl.disa.mil/issuedby/DODROOTCA6_IT.p7c
+  sia_uri: N/A
+  ocsp_uri: http://ocsp.disa.mil/
+  ee_cdp_uri: http://crl.disa.mil/crl/DODEMAILCA_79.crl
+  ee_ocsp_uri: http://ocsp.disa.mil/
+
+- notice_date: February 5, 2025
+  change_type: CA Certificate Issuance
+  system: DoD Root CA 6
+  change_description: DoD Root CA 6 issued a new subordinate CA certificate to DOD ID CA-79 on January 23, 2025.
+  contact: RootOps_DODPKIPMO at nsa.gov
+### The following are all optional fields based on the change type
+  ca_certificate_hash: 87887e73aec1b617d417e420b82c0e046dc5cce0
+  ca_certificate_issuer: CN=DoD Root CA 6,OU=PKI,OU=DoD,O=U.S. Government,C=US
+  ca_certificate_subject: CN=DOD ID CA-79,OU=PKI,OU=DoD,O=U.S. Government,C=US
+  cdp_uri: http://crl.disa.mil/crl/DODROOTCA6.crl
+  aia_uri: http://crl.disa.mil/issuedby/DODROOTCA6_IT.p7c
+  sia_uri: N/A
+  ocsp_uri: http://ocsp.disa.mil/
+  ee_cdp_uri: http://crl.disa.mil/crl/DODIDCA_79.crl
+  ee_ocsp_uri: http://ocsp.disa.mil/
+  
+- notice_date: February 5, 2025
+  change_type: CA Certificate Issuance
+  system: DoD Root CA 6
+  change_description: DoD Root CA 6 issued a new subordinate CA certificate to DOD EMAIL CA-80 on January 23, 2025.
+  contact: RootOps_DODPKIPMO at nsa.gov
+### The following are all optional fields based on the change type
+  ca_certificate_hash: 1564e1a0ee288a13bbf27f39fbcf609f2e163459
+  ca_certificate_issuer: CN=DoD Root CA 6,OU=PKI,OU=DoD,O=U.S. Government,C=US
+  ca_certificate_subject: CN=DOD EMAIL CA-80,OU=PKI,OU=DoD,O=U.S. Government,C=US
+  cdp_uri: http://crl.disa.mil/crl/DODROOTCA6.crl
+  aia_uri: http://crl.disa.mil/issuedby/DODROOTCA6_IT.p7c
+  sia_uri: N/A
+  ocsp_uri: http://ocsp.disa.mil/
+  ee_cdp_uri: http://crl.disa.mil/crl/DODEMAILCA_80.crl
+  ee_ocsp_uri: http://ocsp.disa.mil/
+
+- notice_date: February 5, 2025
+  change_type: CA Certificate Issuance
+  system: DoD Root CA 6
+  change_description: DoD Root CA 6 issued a new subordinate CA certificate to DOD ID CA-80 on January 23, 2025.
+  contact: RootOps_DODPKIPMO at nsa.gov
+### The following are all optional fields based on the change type
+  ca_certificate_hash: 6aaef812197286acfdb5136858e0509a1dc7f90f
+  ca_certificate_issuer: CN=DoD Root CA 6,OU=PKI,OU=DoD,O=U.S. Government,C=US
+  ca_certificate_subject: CN=DOD ID CA-80,OU=PKI,OU=DoD,O=U.S. Government,C=US
+  cdp_uri: http://crl.disa.mil/crl/DODROOTCA6.crl
+  aia_uri: http://crl.disa.mil/issuedby/DODROOTCA6_IT.p7c
+  sia_uri: N/A
+  ocsp_uri: http://ocsp.disa.mil/
+  ee_cdp_uri: http://crl.disa.mil/crl/DODIDCA_80.crl
+  ee_ocsp_uri: http://ocsp.disa.mil/
+  
+- notice_date: February 5, 2025
+  change_type: CA Certificate Issuance
+  system: DoD Root CA 6
+  change_description: DoD Root CA 6 issued a new subordinate CA certificate to DOD EMAIL CA-81 on January 23, 2025.
+  contact: RootOps_DODPKIPMO at nsa.gov
+### The following are all optional fields based on the change type
+  ca_certificate_hash: b47ef1435baa128c9f6099d5d4a75ae9a524481d
+  ca_certificate_issuer: CN=DoD Root CA 6,OU=PKI,OU=DoD,O=U.S. Government,C=US
+  ca_certificate_subject: CN=DOD EMAIL CA-81,OU=PKI,OU=DoD,O=U.S. Government,C=US
+  cdp_uri: http://crl.disa.mil/crl/DODROOTCA6.crl
+  aia_uri: http://crl.disa.mil/issuedby/DODROOTCA6_IT.p7c
+  sia_uri: N/A
+  ocsp_uri: http://ocsp.disa.mil/
+  ee_cdp_uri: http://crl.disa.mil/crl/DODEMAILCA_81.crl
+  ee_ocsp_uri: http://ocsp.disa.mil/
+  
+- notice_date: February 5, 2025
+  change_type: CA Certificate Issuance
+  system: DoD Root CA 6
+  change_description: DoD Root CA 6 issued a new subordinate CA certificate to DOD ID CA-81 on January 23, 2025.
+  contact: RootOps_DODPKIPMO at nsa.gov
+### The following are all optional fields based on the change type
+  ca_certificate_hash: bdfa9d0ab661fb1880207d7bbbf0f0817c7315f3
+  ca_certificate_issuer: CN=DoD Root CA 6,OU=PKI,OU=DoD,O=U.S. Government,C=US
+  ca_certificate_subject: CN=DOD ID CA-81,OU=PKI,OU=DoD,O=U.S. Government,C=US
+  cdp_uri: http://crl.disa.mil/crl/DODROOTCA6.crl
+  aia_uri: http://crl.disa.mil/issuedby/DODROOTCA6_IT.p7c
+  sia_uri: N/A
+  ocsp_uri: http://ocsp.disa.mil/
+  ee_cdp_uri: http://crl.disa.mil/crl/DODIDCA_81.crl
+  ee_ocsp_uri: http://ocsp.disa.mil/
+  
+- notice_date: February 5, 2025
+  change_type: CA Certificate Issuance
+  system: DoD Root CA 6
+  change_description: DoD Root CA 6 issued a new subordinate CA certificate to DOD SW CA-82 on January 23, 2025.
+  contact: RootOps_DODPKIPMO at nsa.gov
+### The following are all optional fields based on the change type
+  ca_certificate_hash: f205ea266e522e56182d5429fa0acff2fae9c77a
+  ca_certificate_issuer: CN=DoD Root CA 6,OU=PKI,OU=DoD,O=U.S. Government,C=US
+  ca_certificate_subject: CN=DOD SW CA-82,OU=PKI,OU=DoD,O=U.S. Government,C=US
+  cdp_uri: http://crl.disa.mil/crl/DODROOTCA6.crl
+  aia_uri: http://crl.disa.mil/issuedby/DODROOTCA6_IT.p7c
+  sia_uri: N/A
+  ocsp_uri: http://ocsp.disa.mil/
+  ee_cdp_uri: http://crl.disa.mil/crl/DODSWCA_82.crl
+  ee_ocsp_uri: http://ocsp.disa.mil/
+  
+- notice_date: February 5, 2025
+  change_type: CA Certificate Issuance
+  system: DoD Root CA 6
+  change_description: DoD Root CA 6 issued a new subordinate CA certificate to DOD SW CA-83 on January 23, 2025.
+  contact: RootOps_DODPKIPMO at nsa.gov
+### The following are all optional fields based on the change type
+  ca_certificate_hash: 58648803609c99afe4f325663fb27a367d448c15
+  ca_certificate_issuer: CN=DoD Root CA 6,OU=PKI,OU=DoD,O=U.S. Government,C=US
+  ca_certificate_subject: CN=DOD SW CA-83,OU=PKI,OU=DoD,O=U.S. Government,C=US
+  cdp_uri: http://crl.disa.mil/crl/DODROOTCA6.crl
+  aia_uri: http://crl.disa.mil/issuedby/DODROOTCA6_IT.p7c
+  sia_uri: N/A
+  ocsp_uri: http://ocsp.disa.mil/
+  ee_cdp_uri: http://crl.disa.mil/crl/DODSWCA_83.crl
+  ee_ocsp_uri: http://ocsp.disa.mil/
+  
+- notice_date: February 5, 2025
+  change_type: CA Certificate Issuance
+  system: DoD Root CA 6
+  change_description: DoD Root CA 6 issued a new subordinate CA certificate to DOD DERILITY CA-5 on January 23, 2025.
+  contact: RootOps_DODPKIPMO at nsa.gov
+### The following are all optional fields based on the change type
+  ca_certificate_hash: 69e13d2e4813e61bb50e721054ffdf82b981c40f
+  ca_certificate_issuer: CN=DoD Root CA 6,OU=PKI,OU=DoD,O=U.S. Government,C=US
+  ca_certificate_subject: CN=DOD DERILITY CA-5,OU=PKI,OU=DoD,O=U.S. Government,C=US
+  cdp_uri: http://crl.disa.mil/crl/DODROOTCA6.crl
+  aia_uri: http://crl.disa.mil/issuedby/DODROOTCA6_IT.p7c
+  sia_uri: N/A
+  ocsp_uri: http://ocsp.disa.mil/
+  ee_cdp_uri: http://crl.disa.mil/crl/DODDERILITYCA_5.crl
+  ee_ocsp_uri: http://ocsp.disa.mil/
+
+- notice_date: February 5, 2025
+  change_type: CA Certificate Issuance
+  system: DoD Root CA 6
+  change_description: DoD Root CA 6 issued a new subordinate CA certificate to DOD DERILITY CA-6 on January 23, 2025.
+  contact: RootOps_DODPKIPMO at nsa.gov
+### The following are all optional fields based on the change type
+  ca_certificate_hash: 185b4c3eb491db71da60d12b3248b3c535d35d42
+  ca_certificate_issuer: CN=DoD Root CA 6,OU=PKI,OU=DoD,O=U.S. Government,C=US
+  ca_certificate_subject: CN=DOD DERILITY CA-6,OU=PKI,OU=DoD,O=U.S. Government,C=US
+  cdp_uri: http://crl.disa.mil/crl/DODROOTCA6.crl
+  aia_uri: http://crl.disa.mil/issuedby/DODROOTCA6_IT.p7c
+  sia_uri: N/A
+  ocsp_uri: http://ocsp.disa.mil/
+  ee_cdp_uri: http://crl.disa.mil/crl/DODDERILITYCA_6.crl
+  ee_ocsp_uri: http://ocsp.disa.mil/
+    
 - notice_date: January 23, 2025
   change_type:  Intent to issue CA Certificate 
   system: FPKI Trust Infrastructure - Federal Bridge CA G4
