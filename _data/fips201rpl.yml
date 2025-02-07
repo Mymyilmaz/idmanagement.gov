@@ -15,7 +15,7 @@
     numberProduct: 'N/A'
     dateRemoval: 'Monday, October 16, 2023'
     numberApl: '10013'
-    reason: 'Per vendor request'
+    reason: '13.01 removed per vendor request. The approved 13.02 Identiv Velocity System is APL #10103'
     status: post
 
 -   category: 'PACS Infrastructure'
