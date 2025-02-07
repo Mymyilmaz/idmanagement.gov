@@ -387,7 +387,7 @@
 
 - category: 13.01
   fipsstatus: Approved
-  infrastructure: LenelS2 OnGuard with Embedded Authentication
+  infrastructure: LenelS2 OnGuard with TI Embedded Auth
   infraurl: /docs/apl-10126-lenel.pdf
   infraapl: 10126
   validation: TI Entry Point Validation System for LenelS2 OnGuard
