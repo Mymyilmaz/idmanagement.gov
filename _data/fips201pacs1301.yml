@@ -537,7 +537,7 @@
 
 - category: 13.01
   fipsstatus: Approved
-  infrastructure: Tyco Security Products C-CURE 9000
+  infrastructure: Tyco Security Products CCURE 9000 with HID
   infraurl: /docs/apl-10001-tyco.pdf
   infraapl: 10001
   validation: HID Global Validation System for Tyco Security Products C-CURE 9000
