@@ -48,9 +48,9 @@ These announcements and hot topics concern Federal Public Key Infrastructure cha
       {% for announcement in announcements %}
         {% if announcement.status == "Active" %}
           <tr>
-              <td headers="announce-table-heading-{{ status | slugify }} announce-table-heading-title"><a href="{{ announcement.url | relative_url }}" title="announcement.title">{{ announcement.title }}</a></td>
-              <td headers="announce-table-heading-{{ status | slugify }} announce-table-heading-date"><a date="announcement.pubDate">{{ announcement.pubDate }}</a></td>
-              <td headers="announce-table-heading-{{ status | slugify }} announce-table-heading-description">{{ announcement.description }}</td>
+              <td headers="announce-table-heading-{{ announcement.status | slugify }} announce-table-heading-title"><a href="{{ announcement.url | relative_url }}" title="announcement.title">{{ announcement.title }}</a></td>
+              <td headers="announce-table-heading-{{ announcement.status | slugify }} announce-table-heading-date"><a date="announcement.pubDate">{{ announcement.pubDate }}</a></td>
+              <td headers="announce-table-heading-{{ announcement.status | slugify }} announce-table-heading-description">{{ announcement.description }}</td>
           </tr>
         {% endif %}
       {% endfor %}
