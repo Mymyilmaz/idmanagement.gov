@@ -192,7 +192,7 @@ Each factor has an associated score, and the sum of these six-factor scores is t
 
 **Table 1. Digital Worker Impact Evaluation Matrix**[^4]
 
-| **Factors:** score each factor based on the most applicable scenario {:id="factors"}|  **Score**   {:id="score"}| 
+| **Factors:** score each factor based on the most applicable scenario |  **Score**  | 
 | ------------------------ |:------------:| 
 | **Factor 1 - Is the digital worker attended or unattended?** | **+** | 
 | ● Attended  | 0 | 
