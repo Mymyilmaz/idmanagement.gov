@@ -233,7 +233,7 @@
 
 - category: 13.01
   fipsstatus: Approved
-  infrastructure: Genetec Security Center – Synergis
+  infrastructure: Genetec Security Center - Synergis with HID
   infraurl: /docs/apl-10061-genetec.pdf
   infraapl: 10061
   validation: HID Global Validation System for Genetec Security Center – Synergis
@@ -336,7 +336,7 @@
 
 - category: 13.01
   fipsstatus: Approved
-  infrastructure: LenelS2 OnGuard with Embedded Authentication
+  infrastructure: LenelS2 OnGuard with HID Embedded Auth
   infraurl: /docs/apl-10112-lenel.pdf
   infraapl: 10112
   validation: HID Global Validation System for LenelS2 OnGuard with Embedded Authentication
@@ -387,7 +387,7 @@
 
 - category: 13.01
   fipsstatus: Approved
-  infrastructure: LenelS2 OnGuard with Embedded Authentication
+  infrastructure: LenelS2 OnGuard with TI Embedded Auth
   infraurl: /docs/apl-10126-lenel.pdf
   infraapl: 10126
   validation: TI Entry Point Validation System for LenelS2 OnGuard
@@ -537,7 +537,7 @@
 
 - category: 13.01
   fipsstatus: Approved
-  infrastructure: Tyco Security Products C-CURE 9000
+  infrastructure: Tyco Security Products CCURE 9000 with HID
   infraurl: /docs/apl-10001-tyco.pdf
   infraapl: 10001
   validation: HID Global Validation System for Tyco Security Products C-CURE 9000
@@ -603,7 +603,7 @@
 
 - category: 13.01
   fipsstatus: Approved
-  infrastructure: Genetec Security Center - Synergis 10145
+  infrastructure: Genetec Security Center - Synergis with TI
   infraurl: /docs/apl-10145-genetec.pdf
   infraapl: 10145
   validation: TI Entry Point Validation System for Genetec Security Center - Synergis 10146
