@@ -1,7 +1,9 @@
 {
     "anchor": "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
     "changes": {
-        "new_certs": []
+        "new_certs": [
+            "common_name:Federal Bridge CA G4,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US:126798949325924781614211896262831209753503614885"
+        ]
     },
     "issuers": [
         "common_name:Boeing Medium Assurance Hardware Issuing CA G3,organizational_unit_name:CertServers,organization_name:Boeing,country_name:US",
@@ -1644,7 +1646,6 @@
                     "common_name:CertiPath Bridge CA - G3,organizational_unit_name:Certification Authorities,organization_name:CertiPath,country_name:US",
                     "common_name:DoD Interoperability Root CA 2,organizational_unit_name:PKI,organizational_unit_name:DoD,organization_name:U.S. Government,country_name:US",
                     "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-                    "common_name:STRAC Bridge Root Certification Authority,organizational_unit_name:STRAC PKI Trust Infrastructure,organization_name:STRAC,country_name:US",
                     "common_name:TSCP SHA256 Bridge CA,organizational_unit_name:CAs,organization_name:TSCP Inc.,country_name:US"
                 ]
             }
@@ -1684,7 +1685,6 @@
                     "common_name:CertiPath Bridge CA - G3,organizational_unit_name:Certification Authorities,organization_name:CertiPath,country_name:US",
                     "common_name:DoD Interoperability Root CA 2,organizational_unit_name:PKI,organizational_unit_name:DoD,organization_name:U.S. Government,country_name:US",
                     "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-                    "common_name:STRAC Bridge Root Certification Authority,organizational_unit_name:STRAC PKI Trust Infrastructure,organization_name:STRAC,country_name:US",
                     "common_name:TSCP SHA256 Bridge CA,organizational_unit_name:CAs,organization_name:TSCP Inc.,country_name:US"
                 ]
             }
@@ -1715,7 +1715,6 @@
                     "common_name:CertiPath Bridge CA - G3,organizational_unit_name:Certification Authorities,organization_name:CertiPath,country_name:US",
                     "common_name:DoD Interoperability Root CA 2,organizational_unit_name:PKI,organizational_unit_name:DoD,organization_name:U.S. Government,country_name:US",
                     "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-                    "common_name:STRAC Bridge Root Certification Authority,organizational_unit_name:STRAC PKI Trust Infrastructure,organization_name:STRAC,country_name:US",
                     "common_name:TSCP SHA256 Bridge CA,organizational_unit_name:CAs,organization_name:TSCP Inc.,country_name:US"
                 ]
             }
@@ -1754,7 +1753,6 @@
                     "common_name:CertiPath Bridge CA - G3,organizational_unit_name:Certification Authorities,organization_name:CertiPath,country_name:US",
                     "common_name:DoD Interoperability Root CA 2,organizational_unit_name:PKI,organizational_unit_name:DoD,organization_name:U.S. Government,country_name:US",
                     "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-                    "common_name:STRAC Bridge Root Certification Authority,organizational_unit_name:STRAC PKI Trust Infrastructure,organization_name:STRAC,country_name:US",
                     "common_name:TSCP SHA256 Bridge CA,organizational_unit_name:CAs,organization_name:TSCP Inc.,country_name:US"
                 ]
             }
@@ -1780,7 +1778,6 @@
                     "common_name:CertiPath Bridge CA - G3,organizational_unit_name:Certification Authorities,organization_name:CertiPath,country_name:US",
                     "common_name:DoD Interoperability Root CA 2,organizational_unit_name:PKI,organizational_unit_name:DoD,organization_name:U.S. Government,country_name:US",
                     "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-                    "common_name:STRAC Bridge Root Certification Authority,organizational_unit_name:STRAC PKI Trust Infrastructure,organization_name:STRAC,country_name:US",
                     "common_name:TSCP SHA256 Bridge CA,organizational_unit_name:CAs,organization_name:TSCP Inc.,country_name:US"
                 ]
             }
@@ -1812,7 +1809,31 @@
                     "common_name:CertiPath Bridge CA - G3,organizational_unit_name:Certification Authorities,organization_name:CertiPath,country_name:US",
                     "common_name:DoD Interoperability Root CA 2,organizational_unit_name:PKI,organizational_unit_name:DoD,organization_name:U.S. Government,country_name:US",
                     "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-                    "common_name:STRAC Bridge Root Certification Authority,organizational_unit_name:STRAC PKI Trust Infrastructure,organization_name:STRAC,country_name:US",
+                    "common_name:TSCP SHA256 Bridge CA,organizational_unit_name:CAs,organization_name:TSCP Inc.,country_name:US"
+                ]
+            }
+        },
+        {
+            "subject": "common_name:DigiCert Federated ID L3 CA,organizational_unit_name:www.digicert.com,organization_name:DigiCert Inc,country_name:US",
+            "issuer": "common_name:Federal Bridge CA G4,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
+            "serial-number": "126798949325924781614211896262831209753503614885",
+            "akid": "79 f0 00 49 eb 7f 77 c2 5d 41 02 65 34 8a 90 23 9b 1e 07 6f",
+            "skid": "8f 23 d3 c4 9c eb c2 a6 96 4e 3a f1 ce 88 b2 8b e2 93 54 12",
+            "status": "Certificate Valid and Chains to Common",
+            "pathbuilder-result": {
+                "result": "true",
+                "details": "CRL Only Validation"
+            },
+            "path-to-common": [
+                "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
+                "common_name:Federal Bridge CA G4,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US"
+            ],
+            "sia-entries": {},
+            "aia-entries": {
+                "http://repo.fpki.gov/bridge/caCertsIssuedTofbcag4.p7c": [
+                    "common_name:CertiPath Bridge CA - G3,organizational_unit_name:Certification Authorities,organization_name:CertiPath,country_name:US",
+                    "common_name:DoD Interoperability Root CA 2,organizational_unit_name:PKI,organizational_unit_name:DoD,organization_name:U.S. Government,country_name:US",
+                    "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
                     "common_name:TSCP SHA256 Bridge CA,organizational_unit_name:CAs,organization_name:TSCP Inc.,country_name:US"
                 ]
             }
@@ -1844,7 +1865,6 @@
                     "common_name:CertiPath Bridge CA - G3,organizational_unit_name:Certification Authorities,organization_name:CertiPath,country_name:US",
                     "common_name:DoD Interoperability Root CA 2,organizational_unit_name:PKI,organizational_unit_name:DoD,organization_name:U.S. Government,country_name:US",
                     "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-                    "common_name:STRAC Bridge Root Certification Authority,organizational_unit_name:STRAC PKI Trust Infrastructure,organization_name:STRAC,country_name:US",
                     "common_name:TSCP SHA256 Bridge CA,organizational_unit_name:CAs,organization_name:TSCP Inc.,country_name:US"
                 ]
             }
@@ -1876,7 +1896,6 @@
                     "common_name:CertiPath Bridge CA - G3,organizational_unit_name:Certification Authorities,organization_name:CertiPath,country_name:US",
                     "common_name:DoD Interoperability Root CA 2,organizational_unit_name:PKI,organizational_unit_name:DoD,organization_name:U.S. Government,country_name:US",
                     "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-                    "common_name:STRAC Bridge Root Certification Authority,organizational_unit_name:STRAC PKI Trust Infrastructure,organization_name:STRAC,country_name:US",
                     "common_name:TSCP SHA256 Bridge CA,organizational_unit_name:CAs,organization_name:TSCP Inc.,country_name:US"
                 ]
             }
@@ -1907,33 +1926,6 @@
                     "common_name:CertiPath Bridge CA - G3,organizational_unit_name:Certification Authorities,organization_name:CertiPath,country_name:US",
                     "common_name:DoD Interoperability Root CA 2,organizational_unit_name:PKI,organizational_unit_name:DoD,organization_name:U.S. Government,country_name:US",
                     "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-                    "common_name:STRAC Bridge Root Certification Authority,organizational_unit_name:STRAC PKI Trust Infrastructure,organization_name:STRAC,country_name:US",
-                    "common_name:TSCP SHA256 Bridge CA,organizational_unit_name:CAs,organization_name:TSCP Inc.,country_name:US"
-                ]
-            }
-        },
-        {
-            "subject": "common_name:DigiCert Federated ID L3 CA,organizational_unit_name:www.digicert.com,organization_name:DigiCert Inc,country_name:US",
-            "issuer": "common_name:Federal Bridge CA G4,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-            "serial-number": "133170775757738527678021277105300845527569727759",
-            "akid": "79 f0 00 49 eb 7f 77 c2 5d 41 02 65 34 8a 90 23 9b 1e 07 6f",
-            "skid": "8f 23 d3 c4 9c eb c2 a6 96 4e 3a f1 ce 88 b2 8b e2 93 54 12",
-            "status": "Certificate Valid and Chains to Common",
-            "pathbuilder-result": {
-                "result": "true",
-                "details": "CRL Only Validation"
-            },
-            "path-to-common": [
-                "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-                "common_name:Federal Bridge CA G4,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US"
-            ],
-            "sia-entries": {},
-            "aia-entries": {
-                "http://repo.fpki.gov/bridge/caCertsIssuedTofbcag4.p7c": [
-                    "common_name:CertiPath Bridge CA - G3,organizational_unit_name:Certification Authorities,organization_name:CertiPath,country_name:US",
-                    "common_name:DoD Interoperability Root CA 2,organizational_unit_name:PKI,organizational_unit_name:DoD,organization_name:U.S. Government,country_name:US",
-                    "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-                    "common_name:STRAC Bridge Root Certification Authority,organizational_unit_name:STRAC PKI Trust Infrastructure,organization_name:STRAC,country_name:US",
                     "common_name:TSCP SHA256 Bridge CA,organizational_unit_name:CAs,organization_name:TSCP Inc.,country_name:US"
                 ]
             }
@@ -1967,7 +1959,6 @@
                     "common_name:CertiPath Bridge CA - G3,organizational_unit_name:Certification Authorities,organization_name:CertiPath,country_name:US",
                     "common_name:DoD Interoperability Root CA 2,organizational_unit_name:PKI,organizational_unit_name:DoD,organization_name:U.S. Government,country_name:US",
                     "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-                    "common_name:STRAC Bridge Root Certification Authority,organizational_unit_name:STRAC PKI Trust Infrastructure,organization_name:STRAC,country_name:US",
                     "common_name:TSCP SHA256 Bridge CA,organizational_unit_name:CAs,organization_name:TSCP Inc.,country_name:US"
                 ]
             }
@@ -1999,7 +1990,6 @@
                     "common_name:CertiPath Bridge CA - G3,organizational_unit_name:Certification Authorities,organization_name:CertiPath,country_name:US",
                     "common_name:DoD Interoperability Root CA 2,organizational_unit_name:PKI,organizational_unit_name:DoD,organization_name:U.S. Government,country_name:US",
                     "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-                    "common_name:STRAC Bridge Root Certification Authority,organizational_unit_name:STRAC PKI Trust Infrastructure,organization_name:STRAC,country_name:US",
                     "common_name:TSCP SHA256 Bridge CA,organizational_unit_name:CAs,organization_name:TSCP Inc.,country_name:US"
                 ]
             }
@@ -2079,7 +2069,6 @@
                     "organizational_unit_name:Entrust Managed Services Root CA,organizational_unit_name:Certification Authorities,organization_name:Entrust,country_name:US",
                     "organizational_unit_name:Entrust Managed Services Root CA,organizational_unit_name:Certification Authorities,organization_name:Entrust,country_name:US",
                     "common_name:Federal Bridge CA G4,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-                    "common_name:Symantec SSP Intermediate CA - G4,organization_name:Symantec Corporation,country_name:US",
                     "common_name:U.S. Department of State AD Root CA,common_name:AIA,common_name:Public Key Services,common_name:Services,common_name:Configuration,domain_component:state,domain_component:sbu",
                     "organizational_unit_name:US Treasury Root CA,organizational_unit_name:Certification Authorities,organizational_unit_name:Department of the Treasury,organization_name:U.S. Government,country_name:US",
                     "common_name:Verizon SSP CA A2,organizational_unit_name:SSP,organization_name:Verizon,country_name:US",
@@ -3947,23 +3936,6 @@
             }
         },
         {
-            "subject": "common_name:Symantec SSP Intermediate CA - G4,organization_name:Symantec Corporation,country_name:US",
-            "issuer": "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-            "serial-number": "217918869520593966643571788112229175777368484916",
-            "akid": "f4 27 5c a9 c3 7c 47 f4 fa a6 a7 b0 59 97 aa dd 35 26 17 e3",
-            "skid": "ff cc 34 d1 db 4a e1 e1 c2 0b d2 db eb 80 7c 73 0c 75 5f 66",
-            "status": "Certificate Invalid",
-            "pathbuilder-result": {
-                "result": "false",
-                "details": "End Entity Cert expired or not valid"
-            },
-            "parent_path_identifier": "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US:f4275ca9c37c47f4faa6a7b05997aadd352617e3",
-            "validity-dates": {
-                "not-before": "2020-11-18 14:42:41+00:00",
-                "not-after": "2024-11-12 14:42:41+00:00"
-            }
-        },
-        {
             "subject": "common_name:Advanced Health Systems Inc Direct CA 2,organizational_unit_name:IdenTrust Global Common,organization_name:IdenTrust,state_or_province_name:Mississippi,country_name:US",
             "issuer": "common_name:IdenTrust Global Common Root CA 1,organization_name:IdenTrust,country_name:US",
             "serial-number": "85078591550210560575502040891770142861",
@@ -4083,23 +4055,6 @@
             "status": "unchecked",
             "pathbuilder-result": {
                 "WARNING": "Certificate is present in SIA of a CA that is not its issuer"
-            }
-        },
-        {
-            "subject": "common_name:Federal Bridge CA G4,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-            "issuer": "common_name:STRAC Bridge Root Certification Authority,organizational_unit_name:STRAC PKI Trust Infrastructure,organization_name:STRAC,country_name:US",
-            "serial-number": "279",
-            "akid": "19 c1 ce 87 49 33 80 b6 f7 5a ac 65 c3 74 f0 7f 37 92 a5 61",
-            "skid": "79 f0 00 49 eb 7f 77 c2 5d 41 02 65 34 8a 90 23 9b 1e 07 6f",
-            "status": "Certificate Invalid",
-            "pathbuilder-result": {
-                "result": "false",
-                "details": "End Entity Cert expired or not valid"
-            },
-            "parent_path_identifier": "common_name:STRAC Bridge Root Certification Authority,organizational_unit_name:STRAC PKI Trust Infrastructure,organization_name:STRAC,country_name:US:19c1ce87493380b6f75aac65c374f07f3792a561",
-            "validity-dates": {
-                "not-before": "2022-02-09 19:14:56+00:00",
-                "not-after": "2025-01-17 19:14:56+00:00"
             }
         },
         {
