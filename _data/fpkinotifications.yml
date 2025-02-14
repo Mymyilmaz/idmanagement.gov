@@ -26,6 +26,102 @@
 # ee_cdp_uri:
 # ee_ocsp_uri:
 
+- notice_date: February 12, 2025
+  change_type: Intent to Issue CA Certificate
+  system: FPKI Trust Infrastructure - Federal Bridge CA G4
+  change_description: The Federal Bridge CA G4 intends to issue a new cross certificate to the DigiCert Federated ID CA - G2 between 2/27/2025 and 3/6/2025.
+  contact: fpki dash help at gsa dot gov
+### The following are all optional fields based on the change type
+  ca_certificate_hash: N/A
+  ca_certificate_issuer: CN=Federal Bridge CA G4, OU=FPKI, O=U.S. Government, C=US
+  ca_certificate_subject: CN=DigiCert Federated ID CA - G2, O=DigiCert, Inc., C=US
+  cdp_uri: http://repo.fpki.gov/bridge/fbcag4.crl
+  aia_uri: http://repo.fpki.gov/bridge/caCertsIssuedTofbcag4.p7c
+  sia_uri: http://repo.fpki.gov/bridge/caCertsIssuedByfbcag4.p7c
+  ocsp_uri: N/A
+  ee_cdp_uri: N/A
+  ee_ocsp_uri: N/A
+
+  - notice_date: notice date in <Month Day, Year>
+  change_type: < CA Certificate Issuance, CA Certificate Revocation, New CA, CA Termination, New URI in Certificates, OCSP Outage, CRL Outage >
+  system: <what is the system known as>
+  change_description: <detailed statement>
+  contact: <email, phone>
+### The following are all optional fields based on the change type
+  ca_certificate_hash: <the sha1 thumbprint of the certificate>
+  ca_certificate_issuer: <the issuer DN of the CA certificate>
+  ca_certificate_subject: <the subject DN of the CA certificate>
+  cdp_uri:
+  aia_uri:
+  sia_uri:
+  ocsp_uri:
+  ee_cdp_uri:
+  ee_ocsp_uri:
+
+  - notice_date: notice date in <Month Day, Year>
+  change_type: < CA Certificate Issuance, CA Certificate Revocation, New CA, CA Termination, New URI in Certificates, OCSP Outage, CRL Outage >
+  system: <what is the system known as>
+  change_description: <detailed statement>
+  contact: <email, phone>
+### The following are all optional fields based on the change type
+  ca_certificate_hash: <the sha1 thumbprint of the certificate>
+  ca_certificate_issuer: <the issuer DN of the CA certificate>
+  ca_certificate_subject: <the subject DN of the CA certificate>
+  cdp_uri:
+  aia_uri:
+  sia_uri:
+  ocsp_uri:
+  ee_cdp_uri:
+  ee_ocsp_uri:
+
+  - notice_date: notice date in <Month Day, Year>
+  change_type: < CA Certificate Issuance, CA Certificate Revocation, New CA, CA Termination, New URI in Certificates, OCSP Outage, CRL Outage >
+  system: <what is the system known as>
+  change_description: <detailed statement>
+  contact: <email, phone>
+### The following are all optional fields based on the change type
+  ca_certificate_hash: <the sha1 thumbprint of the certificate>
+  ca_certificate_issuer: <the issuer DN of the CA certificate>
+  ca_certificate_subject: <the subject DN of the CA certificate>
+  cdp_uri:
+  aia_uri:
+  sia_uri:
+  ocsp_uri:
+  ee_cdp_uri:
+  ee_ocsp_uri:
+
+  - notice_date: notice date in <Month Day, Year>
+  change_type: < CA Certificate Issuance, CA Certificate Revocation, New CA, CA Termination, New URI in Certificates, OCSP Outage, CRL Outage >
+  system: <what is the system known as>
+  change_description: <detailed statement>
+  contact: <email, phone>
+### The following are all optional fields based on the change type
+  ca_certificate_hash: <the sha1 thumbprint of the certificate>
+  ca_certificate_issuer: <the issuer DN of the CA certificate>
+  ca_certificate_subject: <the subject DN of the CA certificate>
+  cdp_uri:
+  aia_uri:
+  sia_uri:
+  ocsp_uri:
+  ee_cdp_uri:
+  ee_ocsp_uri:
+  
+- notice_date: notice date in <Month Day, Year>
+  change_type: < CA Certificate Issuance, CA Certificate Revocation, New CA, CA Termination, New URI in Certificates, OCSP Outage, CRL Outage >
+  system: <what is the system known as>
+  change_description: <detailed statement>
+  contact: <email, phone>
+### The following are all optional fields based on the change type
+  ca_certificate_hash: <the sha1 thumbprint of the certificate>
+  ca_certificate_issuer: <the issuer DN of the CA certificate>
+  ca_certificate_subject: <the subject DN of the CA certificate>
+  cdp_uri:
+  aia_uri:
+  sia_uri:
+  ocsp_uri:
+  ee_cdp_uri:
+  ee_ocsp_uri:
+
 - notice_date: February 5, 2025
   change_type: CA Certificate Issuance
   system: DoD Root CA 6
