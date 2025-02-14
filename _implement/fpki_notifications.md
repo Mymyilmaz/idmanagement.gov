@@ -750,6 +750,7 @@ Subject:  FPKI System Notification - System Name
     </div>
   </div>
   <!-- end of current years (2025) notifications -->
+  <hr>
   <!-- Start of 2024 notifications -->
   <h4 class="usa-accordion__heading">
     <button
@@ -787,7 +788,6 @@ Subject:  FPKI System Notification - System Name
     </div>
   </div>
   <!-- end of 2024 notifications -->
-    <hr>
   <!-- Start of 2023 notifications -->
   <h4 class="usa-accordion__heading">
     <button
