@@ -719,7 +719,7 @@ Subject:  FPKI System Notification - System Name
       type="button"
       class="usa-accordion__button"
       aria-expanded="true"
-      aria-controls="n-a1">2024 (Current)</button>
+      aria-controls="n-a1">2025 (Current)</button>
   </h4>
   <div id="n-a1" class="usa-accordion__content usa-prose">
     <div class="usa-width-one-whole">
@@ -756,9 +756,9 @@ Subject:  FPKI System Notification - System Name
       type="button"
       class="usa-accordion__button"
       aria-expanded="false"
-      aria-controls="n-a1">2024 (Current)</button>
+      aria-controls="n-a7">2024</button>
   </h4>
-  <div id="n-a1" class="usa-accordion__content usa-prose">
+  <div id="n-a7" class="usa-accordion__content usa-prose">
     <div class="usa-width-one-whole">
       {% for notification in site.data.fpkinotifications %}
         {% assign nnd = notification.notice_date | split:" " %}
