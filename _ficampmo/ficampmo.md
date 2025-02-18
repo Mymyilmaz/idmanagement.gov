@@ -63,20 +63,9 @@ The GSA FICAM Program coordinates and oversees governmentwide ICAM initiatives a
 
 ## Identity, Credential, and Access Management Subcommittee
 
-**Digital Identity CoP** - The Digital Identity CoP fosters a government wide community for federal digital identity practitioners and serves as a platform to cross-train, educate and forum to exchange identity and access management technology trends, solutions, and architecture. This CoP allows practitioners to share lessons learned, opportunities and discuss innovative tailored identity processes for customer experience across both mission delivery (public identity) and mission support (workforce identity).
-
-**Federal Mobility Group** - The Federal Mobility Group purpose is to share information and identify cross-agency needs in the areas of mobile policy, guidance, and best practices; acquisition of mobile devices and services; and operational requirements for federal mobility programs.
-
-**FIDO CoA** - The Office of Management and Budget's Office of the Federal CIO, in partnership with the Identity, Credential, and Access Management Subcommittee and Cybersecurity and Infrastructure Security Agency, have launched a Phishing-Resistant Authentication (FIDO2) Community of Action through March 2025. This group works with Agencies that plan to rapidly deploy a pilot of FIDO2-based phishing-resistant authenticators within their enterprise, Provide agencies with access to expertise and guidance in achieving this goal, and Documents results to help accelerate the modernization of phishing-resistant MFA throughout the Federal Government.
-
 The [Identity, Credential, and Access Management Subcommittee (ICAMSC)](https://community.max.gov/pages/viewpage.action?pageId=234815732){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} is the principal interagency forum for identity management, secure access, authentication, authorization, credentials, privileges, and access lifecycle management. It’s a sub-committee of the [Federal CIO Council’s Chief Information Security Officer (CISO) Council](https://www.cio.gov/about/members-and-leadership/ciso-council/){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}. 
 
-The ICAMSC is co-chaired by the [GSA Office of Government-wide Policy](https://www.gsa.gov/about-us/organization/office-of-governmentwide-policy){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}, Department of Justice and Department of Homeland Security, Cybersecurity and Infrastructure Security Agency. The ICAMSC aligns the identity management activities of the federal government and supports collaborative government-wide efforts to:
-
-- Increase agency flexibility in addressing ICAM challenges;
-- Coordinate interagency efforts to meet agency mission needs;
-- Identify gaps in policies, procedures, standards, guidance, and services; and
-- Align ICAM policies and compliance with other cybersecurity initiatives.
+The ICAMSC is co-chaired by the [GSA Office of Government-wide Policy](https://www.gsa.gov/about-us/organization/office-of-governmentwide-policy){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}, Department of Justice and Department of Homeland Security, Cybersecurity and Infrastructure Security Agency. The ICAMSC aligns the identity management activities of the federal government and supports collaborative government-wide efforts to increase agency flexibility in addressing ICAM challenges, coordinate interagency efforts to meet agency mission needs, identify gaps in policies, procedures, standards, guidance, and services and align ICAM policies and compliance with other cybersecurity initiatives.
 
 ### Activities
 
@@ -88,21 +77,34 @@ The ICAMSC is co-chaired by the [GSA Office of Government-wide Policy](https://w
 ### Membership and Meetings
 Membership is open to federal agency employees with a .gov or .mil email address. Contractors are permitted to join on a case-by-case basis. See the [ICAMSC Meeting Page on Connect.gov](https://community.connect.gov/display/Egov/ICAMSC+Meeting+Materials){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} for more information. Access to the page requires a multifactor authentication using a PIV/CAC. See the [ICAMSC Charter (PDF, September 2023)]({{site.baseurl}}/docs/202309-charter-icamsc.pdf){:target="_blank"}{:rel="noopener noreferrer"} for information on membership requirements, voting rights, etc.
 
-### ICAMSC Working Groups
+### ICAMSC Working Groups 
+
+**Digital Identity CoP** - The Digital Identity CoP fosters a government wide community for federal digital identity practitioners and serves as a platform to cross-train, educate and forum to exchange identity and access management technology trends, solutions, and architecture. This CoP allows practitioners to share lessons learned, opportunities and discuss innovative tailored identity processes for customer experience across both mission delivery (public identity) and mission support (workforce identity).
+
+**Federal Mobility Group** - The Federal Mobility Group purpose is to share information and identify cross-agency needs in the areas of mobile policy, guidance, and best practices; acquisition of mobile devices and services; and operational requirements for federal mobility programs.
+
+**FIDO CoA** - The Office of Management and Budget's Office of the Federal CIO, in partnership with the Identity, Credential, and Access Management Subcommittee and Cybersecurity and Infrastructure Security Agency, have launched a Phishing-Resistant Authentication (FIDO2) Community of Action through March 2025. This group works with Agencies that plan to rapidly deploy a pilot of FIDO2-based phishing-resistant authenticators within their enterprise, Provide agencies with access to expertise and guidance in achieving this goal, and Documents results to help accelerate the modernization of phishing-resistant MFA throughout the Federal Government.
 
 The ICAMSC charters working groups based on a defined-purpose and timeline. See the complete list of active and inactive working groups at the [ICAMSC Max.gov page](https://community.max.gov/pages/viewpage.action?pageId=234815732){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}. Send an email to [icam@gsa.gov](mailto:icam@gsa.gov) for more information and join a working group.
+
+<!--  removed per Babur
 
 | Working Group Name | Purpose | Activities | Membership Requirements | Meeting Schedule | 
 | --------- | ---- | ---------- | ------- | ----------- |
 | [**Physical Access Control Systems Modernization (PACSMod)**](https://community.max.gov/display/Egov/PACSMod+Working+Group){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} | Facilitate the implementation and use of the technology and processes related to modernizing electronic-PACS (ePACS) within the federal government (USG). | By September 30th, 2021, develop a PACS Assessment Toolkit, a self-assessment that agencies can use to assess the FICAM compliance of PACS implementations. | Federal employees and designated contractors operating a PACS. | Monthly |
 
+-->
+
 ### Other ICAM Working Groups
 
 Other ICAM working groups may be charted under other committees or subcommittees of the Federal CIO Council.
+<!-- removed per Babur
 
 | Working Group Name | Purpose | Activities | Membership Requirements | Meeting Schedule | 
 | --------- | ---- | ---------- | ------- | ----------- |
 | [**Derived-PIV Working Group**](https://community.max.gov/display/Egov/Derived-PIV+Working+Group){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} | Accelerate the implementation of mobile identity management across the federal government. | Document and share PKI and non-PKI uses cases to increase the available technical and information resources. Provide a feedback look to inform policy and standard. | Federal employees and designated contractors | Monthly |
+
+-->
 
 ### ICAM Community Listserv
 
@@ -143,6 +145,11 @@ The FPKIPA meets in the morning on the second Tuesday of each month. Contact [fp
     - **Federal Bridge CA (FBCA)** is the PKI Bridge that enables interoperability between and among federally operated and business partner PKIs.
 
 ### FPKIMA Newsletter
+
+Previous versions of the FPKIMA Newsletters are archived and can be found in the IDManagement.gov repo under the [docs folder](https://github.com/GSA/idmanagement.gov/tree/staging/docs){:target="_blank"}{:rel="noopener noreferrer"}. 
+
+<!-- commented out per Babur, to point to people to github for previous documents. 
+
 - [FPKIMA Newsletter (Spring 2023) "FPKI Public TLS Planning" (PDF)]({{site.baseurl}}/docs/fpki-fpkima-newsletter-2302.pdf){:target="_blank"}{:rel="noopener noreferrer"}
 - [FPKIMA Newsletter (Winter 2023) "NIST Identity Guideline Revisions" (PDF)]({{site.baseurl}}/docs/fpki-fpkima-newsletter-2301.pdf){:target="_blank"}{:rel="noopener noreferrer"}
 - [FPKIMA Newsletter (Fall 2022) "Post Quantum Updates" (PDF)]({{site.baseurl}}/docs/fpki-fpkima-newsletter-82.pdf){:target="_blank"}{:rel="noopener noreferrer"}
@@ -153,6 +160,8 @@ The FPKIPA meets in the morning on the second Tuesday of each month. Contact [fp
 - [FPKIMA Newsletter (Fall 2019) "New Federal Identity Guidance" (PDF)]({{site.baseurl}}/docs/fpki-fpkima-newsletter-63.pdf){:target="_blank"}{:rel="noopener noreferrer"}
 - [FPKIMA Newsletter (Spring 2019) "The Big Bridge Issue" (PDF)]({{site.baseurl}}/docs/fpki-fpkima-newsletter-62.pdf){:target="_blank"}{:rel="noopener noreferrer"}
 - [FPKIMA Newsletter (Winter 2018) "GSA ACES Program Sunset Update" (PDF)]({{site.baseurl}}/docs/fpki-fpkima-newsletter-61.pdf){:target="_blank"}{:rel="noopener noreferrer"}
+
+-->
 
 If your agency is experiencing issues related to the FBCA or FCPCA, contact [fpki-help@gsa.gov](mailto:fpki-help@gsa.gov)
 
@@ -165,7 +174,7 @@ If you meet the membership criteria and wish to join a working group, email [fpk
 | Working Group Name | Purpose | Activities | Membership Requirements | Meeting Schedule | 
 | --------- | ---- | ---------- | ------- | ----------- |
 | **Certificate Policy (CPWG)** | The Federal Bridge and Common policies advisory group. | Facilitate proposed Certificate Policy changes, facilitate the FPKI cross-certification process, and address and resolve issues through policy analysis and modification. | Federal employees, designated contractors, and PKI providers involved in the FPKI. | As needed. |
-| **Shared Service Provider (SSPWG)** | The Shared Service Provider program advisory group. | Identify policy changes that impact the Shared Services Program, address and resolve issues through policy analysis and modification. | Only FPKI Shared Service Provider representatives. | As needed. |
+<!-- | **Shared Service Provider (SSPWG)** | The Shared Service Provider program advisory group. | Identify policy changes that impact the Shared Services Program, address and resolve issues through policy analysis and modification. | Only FPKI Shared Service Provider representatives. | As needed. | -->
 | **Technical (TWG)** | Investigate and resolve complex FPKI technical issues. | Identify and scope technical FPKI issues, address security concerns and vulnerabilities, and identify technical improvements to enhance the security and operational capabilities. | Federal employees, designated contractors, and PKI vendors. | As needed. |
 
 
