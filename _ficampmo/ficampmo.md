@@ -29,10 +29,13 @@ The main difference between the GSA OGP FICAM program and an agency ICAM program
 
 The FICAM Program governs through a four-part framework for identity federations.
 
-1. Governance - Sets policies, sign legal agreements, approves members and applicants, and oversees compliance activities.
-2. Technical and Security Requirements - Outline technical and security requirements for all members.
-3. Recognition - List of members and compliant services.
-4. Compliance - Members and services complete 2nd party (OIG) or 3rd party compliance activity to increase trust.
+**Governance** - Sets policies, sign legal agreements, approves members and applicants, and oversees compliance activities.
+
+**Technical and Security Requirements** - Outline technical and security requirements for all members.
+
+**Recognition** - List of members and compliant services.
+
+**Compliance** - Members and services complete 2nd party (OIG) or 3rd party compliance activity to increase trust.
 
 Through this four-part framework, the GSA FICAM Program leads or coordinates the following governmentwide functions.
 
