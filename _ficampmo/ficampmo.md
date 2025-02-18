@@ -101,10 +101,7 @@ Subscribe by contacting the list owner: [icam-community-tech-request@listserv.gs
 
 ## Federal Public Key Infrastructure Policy Authority
 
-The Federal Public Key Infrastructure Policy Authority (FPKIPA) serves the interest of U.S. federal government organizations as relying parties and promotes interoperability between federal and non-federal entities by:
-- Setting policy governing the Federal Public Key Infrastructure (FPKI) Trust Infrastructure;
-- Approving applicants for cross certification with the Federal Bridge Certification Authority (FBCA); and
-- Providing oversight to the Certified PKI Shared Service Provider (SSP) Program.
+The Federal Public Key Infrastructure Policy Authority (FPKIPA) serves the interest of U.S. federal government organizations as relying parties and promotes interoperability between federal and non-federal entities by setting policy governing the Federal Public Key Infrastructure (FPKI) Trust Infrastructure, approving applicants for cross certification with the Federal Bridge Certification Authority (FBCA), and providing oversight to the Certified PKI Shared Service Provider (SSP) Program.
 
 It is co-chaired by the GSA Office of Government-wide Policy. The GSA Office of the Chief Information Officer (OCIO) is responsible for security authorizations and continuous monitoring for commercially-operated PKI shared service providers.
 
