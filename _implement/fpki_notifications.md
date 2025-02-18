@@ -74,7 +74,7 @@ These announcements and hot topics concern Federal Public Key Infrastructure cha
 <script type="text/javascript" src="{{ site.baseurl }}/assets/js/gexfjs.js"></script>
 <script type="text/javascript" src="{{ site.baseurl }}/assets/js/config.js"></script>
 
-**Last Update**: February 03, 2025
+**Last Update**: February 10, 2025
 
 {% include graph.html %}
 
@@ -713,15 +713,53 @@ Subject:  FPKI System Notification - System Name
 
 <!-- start of notifications accordion  -->
 <div class="usa-accordion usa-accordion--bordered">
-  <!-- Start of current notifications -->
+  <!-- Start of current years (2025) notifications -->
   <h4 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
       aria-expanded="true"
-      aria-controls="n-a1">2024 (Current)</button>
+      aria-controls="n-a1">2025 (Current)</button>
   </h4>
   <div id="n-a1" class="usa-accordion__content usa-prose">
+    <div class="usa-width-one-whole">
+      {% for notification in site.data.fpkinotifications %}
+        {% assign nnd = notification.notice_date | split:" " %}
+        {% if nnd.last == '2025' %}
+        <ul class="usa-unstyled-list">
+          <hr>
+          <li><strong>Notice Date: </strong>{{ notification.notice_date }} </li>
+          <li><strong>System:</strong> {{ notification.system }} </li>
+          <li><strong>Type:</strong> {{ notification.change_type }} </li>
+          <li><strong>Change Description:</strong> {{ notification.change_description }} </li>
+          <li><strong>Contact:</strong> {{ notification.contact }}</li>
+          <li><strong>Certificate Issuer:</strong> {{ notification.ca_certificate_issuer }}</li>
+          <li><strong>Certificate Subject:</strong> {{ notification.ca_certificate_subject }}</li>
+          <li><strong>Certificate SHA1 Hash:</strong> {{ notification.ca_certificate_hash }}</li>
+          <li><strong>Certificate Revocation List:</strong> {{ notification.cdp_uri }}</li>
+          <li><strong>Certificate Bundle (AIA):</strong> {{ notification.aia_uri }}</li>
+          <li><strong>Certificate Bundle (SIA):</strong> {{ notification.sia_uri }}</li>
+          <li><strong>OCSP:</strong> {{ notification.ocsp_uri }}</li>
+          <li><strong>EE CRL DP:</strong> {{ notification.ee_cdp_uri }}</li>
+          <li><strong>EE OCSP:</strong> {{ notification.ee_ocsp_uri }}</li>
+        </ul>
+        {% else %}
+          {% continue %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+  <!-- end of current years (2025) notifications -->
+  <hr>
+  <!-- Start of 2024 notifications -->
+  <h4 class="usa-accordion__heading">
+    <button
+      type="button"
+      class="usa-accordion__button"
+      aria-expanded="false"
+      aria-controls="n-a7">2024</button>
+  </h4>
+  <div id="n-a7" class="usa-accordion__content usa-prose">
     <div class="usa-width-one-whole">
       {% for notification in site.data.fpkinotifications %}
         {% assign nnd = notification.notice_date | split:" " %}
@@ -749,8 +787,7 @@ Subject:  FPKI System Notification - System Name
       {% endfor %}
     </div>
   </div>
-  <!-- end of current notifications -->
-    <hr>
+  <!-- end of 2024 notifications -->
   <!-- Start of 2023 notifications -->
   <h4 class="usa-accordion__heading">
     <button
