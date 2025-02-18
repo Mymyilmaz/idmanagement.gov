@@ -40,19 +40,19 @@ The FICAM Program governs through a four-part framework for identity federations
 Through this four-part framework, the GSA FICAM Program leads or coordinates the following governmentwide functions.
 
 1. Governance
-   1. ICAM Governance - Maintain and update idmanagement.gov which includes the FICAM Architecture and accompanying playbooks and configuration guidance as well as secretary/co-chair the Federal CISO Council ICAM Subcommittee. Lead governmentwide ICAM initiatives like the FIDO2 Community of Action and Digital Identity Community of Practice.
-   2. [Federal PKI Governance]({{site.baseurl}}/fpki/) - Review Federal PKI 3rd party PKI audits and secretary/co-chair the Federal PKI Policy Authority
+   - ICAM Governance - Maintain and update idmanagement.gov which includes the FICAM Architecture and accompanying playbooks and configuration guidance as well as secretary/co-chair the Federal CISO Council ICAM Subcommittee. Lead governmentwide ICAM initiatives like the FIDO2 Community of Action and Digital Identity Community of Practice.
+   - [Federal PKI Governance]({{site.baseurl}}/fpki/) - Review Federal PKI 3rd party PKI audits and secretary/co-chair the Federal PKI Policy Authority
 2. Technical and Security Requirements
-   1. FIPS 201 and accompanying Special Publications
-   2. NIST Special Publication 800-63
-   3. GSA FIPS 201 Functional Requirements and Test Cases
+   - FIPS 201 and accompanying Special Publications
+   - NIST Special Publication 800-63
+   - GSA FIPS 201 Functional Requirements and Test Cases
 3. Recognition
-   1. [Workforce identity trust services]({{site.baseurl}}/trust-services) - The current service providers that have an identity federation agreement with the U.S. government.
-   2. [FIPS 201 Approved Product List]({{site.baseurl}}/fips201/) - List of tested and certified products from the FIPS 201 Evaluation Program.
-   3. [GSA PKI Shared Service Provider Program]({{site.baseurl}}/gsapkissp/) - Manage commercial PKI service providers that issue Federally-compliant digital certificates.
+   - [Workforce identity trust services]({{site.baseurl}}/trust-services) - The current service providers that have an identity federation agreement with the U.S. government.
+   - [FIPS 201 Approved Product List]({{site.baseurl}}/fips201/) - List of tested and certified products from the FIPS 201 Evaluation Program.
+   - [GSA PKI Shared Service Provider Program]({{site.baseurl}}/gsapkissp/) - Manage commercial PKI service providers that issue Federally-compliant digital certificates.
 4. Compliance
-   1. [FIPS 201 Evaluation Program]({{site.baseurl}}/fips201ep/) - Tests and certify services and commercial products used in PIV credentialing systems and physical access control systems.
-   2. [Federal PKI Annual Review Process]({{site.baseurl}}/fpki/#annual-review-requirements-for-all-certification-authorities) - Independent compliance audit requirement and schedule of Federal PKI Certification Authorities.
+   - [FIPS 201 Evaluation Program]({{site.baseurl}}/fips201ep/) - Tests and certify services and commercial products used in PIV credentialing systems and physical access control systems.
+   - [Federal PKI Annual Review Process]({{site.baseurl}}/fpki/#annual-review-requirements-for-all-certification-authorities) - Independent compliance audit requirement and schedule of Federal PKI Certification Authorities.
 
 ## ICAM Governance Bodies
 
@@ -61,17 +61,18 @@ The GSA FICAM Program coordinates and oversees governmentwide ICAM initiatives a
 <!-- Updated image to new version, moved to _assets/ficampm/ - CJB -->
 ![An organization chart of the FICAM Governance Bodies and Working Groups.]({{site.baseurl}}/assets/ficampm/ficam-governance.png)
 
+## Identity, Credential, and Access Management Subcommittee
+
 **Digital Identity CoP** - The Digital Identity CoP fosters a government wide community for federal digital identity practitioners and serves as a platform to cross-train, educate and forum to exchange identity and access management technology trends, solutions, and architecture. This CoP allows practitioners to share lessons learned, opportunities and discuss innovative tailored identity processes for customer experience across both mission delivery (public identity) and mission support (workforce identity).
 
 **Federal Mobility Group** - The Federal Mobility Group purpose is to share information and identify cross-agency needs in the areas of mobile policy, guidance, and best practices; acquisition of mobile devices and services; and operational requirements for federal mobility programs.
 
 **FIDO CoA** - The Office of Management and Budget's Office of the Federal CIO, in partnership with the Identity, Credential, and Access Management Subcommittee and Cybersecurity and Infrastructure Security Agency, have launched a Phishing-Resistant Authentication (FIDO2) Community of Action through March 2025. This group works with Agencies that plan to rapidly deploy a pilot of FIDO2-based phishing-resistant authenticators within their enterprise, Provide agencies with access to expertise and guidance in achieving this goal, and Documents results to help accelerate the modernization of phishing-resistant MFA throughout the Federal Government.
 
-## Identity, Credential, and Access Management Subcommittee
-
 The [Identity, Credential, and Access Management Subcommittee (ICAMSC)](https://community.max.gov/pages/viewpage.action?pageId=234815732){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} is the principal interagency forum for identity management, secure access, authentication, authorization, credentials, privileges, and access lifecycle management. It’s a sub-committee of the [Federal CIO Council’s Chief Information Security Officer (CISO) Council](https://www.cio.gov/about/members-and-leadership/ciso-council/){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}. 
 
 The ICAMSC is co-chaired by the [GSA Office of Government-wide Policy](https://www.gsa.gov/about-us/organization/office-of-governmentwide-policy){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}, Department of Justice and Department of Homeland Security, Cybersecurity and Infrastructure Security Agency. The ICAMSC aligns the identity management activities of the federal government and supports collaborative government-wide efforts to:
+
 - Increase agency flexibility in addressing ICAM challenges;
 - Coordinate interagency efforts to meet agency mission needs;
 - Identify gaps in policies, procedures, standards, guidance, and services; and
@@ -79,10 +80,10 @@ The ICAMSC is co-chaired by the [GSA Office of Government-wide Policy](https://w
 
 ### Activities
 
-- **Address Agency Challenges:** provides opportunities for agencies to troubleshoot issues and challenges associated with the planning, implementation, and operations of ICAM programs and solutions.
-- **Develop Policy Recommendations:** recommends new ICAM policies and updates existing ones.
-- **Provide Flexible Tools for ICAM Programs:** develops specific tools to assist agencies' abilities to meet ICAM policy objectives and overcome ICAM implementation challenges.
-- **Facilitate Communications and Information Sharing:** acts as a vehicle for cross-government collaboration by sharing information, lessons learned, and best practices related to ICAM.
+- **Address Agency Challenges** - provides opportunities for agencies to troubleshoot issues and challenges associated with the planning, implementation, and operations of ICAM programs and solutions.
+- **Develop Policy Recommendations** - recommends new ICAM policies and updates existing ones.
+- **Provide Flexible Tools for ICAM Programs** - develops specific tools to assist agencies' abilities to meet ICAM policy objectives and overcome ICAM implementation challenges.
+- **Facilitate Communications and Information Sharing** - acts as a vehicle for cross-government collaboration by sharing information, lessons learned, and best practices related to ICAM.
 
 ### Membership and Meetings
 Membership is open to federal agency employees with a .gov or .mil email address. Contractors are permitted to join on a case-by-case basis. See the [ICAMSC Meeting Page on Connect.gov](https://community.connect.gov/display/Egov/ICAMSC+Meeting+Materials){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} for more information. Access to the page requires a multifactor authentication using a PIV/CAC. See the [ICAMSC Charter (PDF, September 2023)]({{site.baseurl}}/docs/202309-charter-icamsc.pdf){:target="_blank"}{:rel="noopener noreferrer"} for information on membership requirements, voting rights, etc.
