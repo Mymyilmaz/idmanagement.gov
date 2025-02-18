@@ -81,9 +81,15 @@ Membership is open to federal agency employees with a .gov or .mil email address
 
 **Digital Identity CoP** - The Digital Identity CoP fosters a government wide community for federal digital identity practitioners and serves as a platform to cross-train, educate and forum to exchange identity and access management technology trends, solutions, and architecture. This CoP allows practitioners to share lessons learned, opportunities and discuss innovative tailored identity processes for customer experience across both mission delivery (public identity) and mission support (workforce identity).
 
+**FIDO CoA** - The Office of Management and Budget's Office of the Federal CIO, in partnership with the Identity, Credential, and Access Management Subcommittee and Cybersecurity and Infrastructure Security Agency, have launched a Phishing-Resistant Authentication (FIDO2) Community of Action through March 2025. This group works with Agencies that plan to rapidly deploy a pilot of FIDO2-based phishing-resistant authenticators within their enterprise, Provide agencies with access to expertise and guidance in achieving this goal, and Documents results to help accelerate the modernization of phishing-resistant MFA throughout the Federal Government.
+
+**Certificate Policy (CPWG)** - The Federal Bridge and Common policies advisory group facilitates proposed Certificate Policy changes, facilitate the FPKI cross-certification process, and address and resolve issues through policy analysis and modification. Members must be a Federal employees, designated contractors, and PKI providers involved in the FPKI.
+
+**Technical (TWG)** - Investigate and resolve complex FPKI technical issues, identify and scope technical FPKI issues, address security concerns and vulnerabilities, and identify technical improvements to enhance the security and operational capabilities. Members must be a Federal employees, designated contractors, and PKI vendors.
+
 **Federal Mobility Group** - The Federal Mobility Group purpose is to share information and identify cross-agency needs in the areas of mobile policy, guidance, and best practices; acquisition of mobile devices and services; and operational requirements for federal mobility programs.
 
-**FIDO CoA** - The Office of Management and Budget's Office of the Federal CIO, in partnership with the Identity, Credential, and Access Management Subcommittee and Cybersecurity and Infrastructure Security Agency, have launched a Phishing-Resistant Authentication (FIDO2) Community of Action through March 2025. This group works with Agencies that plan to rapidly deploy a pilot of FIDO2-based phishing-resistant authenticators within their enterprise, Provide agencies with access to expertise and guidance in achieving this goal, and Documents results to help accelerate the modernization of phishing-resistant MFA throughout the Federal Government.
+**Identity Focused WG** - formerly Derived-PIV.
 
 The ICAMSC charters working groups based on a defined-purpose and timeline. See the complete list of active and inactive working groups at the [ICAMSC Max.gov page](https://community.max.gov/pages/viewpage.action?pageId=234815732){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}. Send an email to [icam@gsa.gov](mailto:icam@gsa.gov) for more information and join a working group.
 
@@ -136,7 +142,7 @@ If your agency is experiencing issues related to the FBCA or FCPCA, contact [fpk
 
 ### Federal Public Key Infrastructure Working Groups
 
-The FPKIPA charters three ongoing working groups and potentially other short-term working groups and tiger teams. 
+The FPKIPA charters two ongoing working groups and potentially other short-term working groups and tiger teams. 
 
 If you meet the membership criteria and wish to join a working group, email [fpki@gsa.gov](mailto:fpki@gsa.gov) and include the text "Request to Join xx," where "xx" is the name of the working group.
 
