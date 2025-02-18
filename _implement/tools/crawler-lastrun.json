@@ -69,7 +69,6 @@
         "common_name:IdenTrust Global Common Root CA 1,organization_name:IdenTrust,country_name:US",
         "common_name:Leidos FBCA Cloud PKI CA-1,organization_name:Leidos",
         "common_name:Leidos FBCA Cloud PKI CA-2,organization_name:Leidos",
-        "common_name:Lockheed Martin Certification Authority 4 G2,organizational_unit_name:Certification Authorities,organization_name:Lockheed Martin Corporation,country_name:US",
         "common_name:Lockheed Martin Certification Authority 6 G3,organizational_unit_name:Certification Authorities,organization_name:Lockheed Martin Corporation,country_name:US",
         "common_name:Lockheed Martin Root Certification Authority 2,organizational_unit_name:Certification Authorities,organization_name:Lockheed Martin Corporation,locality_name:Denver,state_or_province_name:Colorado,country_name:US",
         "common_name:Lockheed Martin Root Certification Authority 6,organizational_unit_name:Certification Authority,organization_name:Lockheed Martin Corporation,locality_name:Denver,state_or_province_name:Colorado,country_name:US",
@@ -2556,30 +2555,6 @@
             }
         },
         {
-            "subject": "common_name:Lockheed Martin Certification Authority 4 G2,organizational_unit_name:Certification Authorities,organization_name:Lockheed Martin Corporation,country_name:US",
-            "issuer": "common_name:Lockheed Martin Root Certification Authority 2,organizational_unit_name:Certification Authorities,organization_name:Lockheed Martin Corporation,locality_name:Denver,state_or_province_name:Colorado,country_name:US",
-            "serial-number": "458536645303207850934278",
-            "akid": "92 57 e2 eb 2f b8 8b 48 6c 4d dd 07 b3 3c 6f a7 e5 39 90 ce",
-            "skid": "35 6a fe ae 09 43 4c 22 ea a8 5e 67 48 6e 0a 6d 89 ae e4 96",
-            "status": "Certificate Valid and Chains to Common",
-            "pathbuilder-result": {
-                "result": "true",
-                "details": "CRL Only Validation"
-            },
-            "path-to-common": [
-                "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-                "common_name:Federal Bridge CA G4,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-                "common_name:CertiPath Bridge CA - G3,organizational_unit_name:Certification Authorities,organization_name:CertiPath,country_name:US",
-                "common_name:Lockheed Martin Root Certification Authority 2,organizational_unit_name:Certification Authorities,organization_name:Lockheed Martin Corporation,locality_name:Denver,state_or_province_name:Colorado,country_name:US"
-            ],
-            "sia-entries": {},
-            "aia-entries": {
-                "http://crl.external.lmco.com/crl/certupd/LMRPKCS2_Lockheed Martin Root Certification Authority 2.p7c": [
-                    "common_name:CertiPath Bridge CA - G3,organizational_unit_name:Certification Authorities,organization_name:CertiPath,country_name:US"
-                ]
-            }
-        },
-        {
             "subject": "common_name:Lockheed Martin Certification Authority 6 G3,organizational_unit_name:Certification Authorities,organization_name:Lockheed Martin Corporation,country_name:US",
             "issuer": "common_name:Lockheed Martin Root Certification Authority 6,organizational_unit_name:Certification Authority,organization_name:Lockheed Martin Corporation,locality_name:Denver,state_or_province_name:Colorado,country_name:US",
             "serial-number": "1784059615896852062152297575732374279810973698",
@@ -4023,6 +3998,23 @@
             }
         },
         {
+            "subject": "common_name:Lockheed Martin Certification Authority 4 G2,organizational_unit_name:Certification Authorities,organization_name:Lockheed Martin Corporation,country_name:US",
+            "issuer": "common_name:Lockheed Martin Root Certification Authority 2,organizational_unit_name:Certification Authorities,organization_name:Lockheed Martin Corporation,locality_name:Denver,state_or_province_name:Colorado,country_name:US",
+            "serial-number": "458536645303207850934278",
+            "akid": "92 57 e2 eb 2f b8 8b 48 6c 4d dd 07 b3 3c 6f a7 e5 39 90 ce",
+            "skid": "35 6a fe ae 09 43 4c 22 ea a8 5e 67 48 6e 0a 6d 89 ae e4 96",
+            "status": "Certificate Invalid",
+            "pathbuilder-result": {
+                "result": "false",
+                "details": "End Entity Cert expired or not valid"
+            },
+            "parent_path_identifier": "common_name:Lockheed Martin Root Certification Authority 2,organizational_unit_name:Certification Authorities,organization_name:Lockheed Martin Corporation,locality_name:Denver,state_or_province_name:Colorado,country_name:US:9257e2eb2fb88b486c4ddd07b33c6fa7e53990ce",
+            "validity-dates": {
+                "not-before": "2017-04-11 20:13:50+00:00",
+                "not-after": "2025-02-11 20:23:50+00:00"
+            }
+        },
+        {
             "subject": "common_name:CertiPath Bridge CA - G3,organizational_unit_name:Certification Authorities,organization_name:CertiPath,country_name:US",
             "issuer": "common_name:Northrop Grumman Corporate Root CA-384,organizational_unit_name:Northrop Grumman Enterprise Services,organization_name:Northrop Grumman Corporation,country_name:US",
             "serial-number": "1516450673553135876351181437373221531845394442",
@@ -4619,13 +4611,6 @@
             "common_name:CertiPath Bridge CA - G3,organizational_unit_name:Certification Authorities,organization_name:CertiPath,country_name:US",
             "common_name:Boeing PCA G3,organizational_unit_name:certservers,organization_name:Boeing,country_name:US",
             "common_name:Boeing Medium Assurance Hardware Issuing CA G3,organizational_unit_name:CertServers,organization_name:Boeing,country_name:US"
-        ],
-        [
-            "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-            "common_name:Federal Bridge CA G4,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-            "common_name:CertiPath Bridge CA - G3,organizational_unit_name:Certification Authorities,organization_name:CertiPath,country_name:US",
-            "common_name:Lockheed Martin Root Certification Authority 2,organizational_unit_name:Certification Authorities,organization_name:Lockheed Martin Corporation,locality_name:Denver,state_or_province_name:Colorado,country_name:US",
-            "common_name:Lockheed Martin Certification Authority 4 G2,organizational_unit_name:Certification Authorities,organization_name:Lockheed Martin Corporation,country_name:US"
         ],
         [
             "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
