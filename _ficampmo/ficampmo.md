@@ -87,24 +87,11 @@ Membership is open to federal agency employees with a .gov or .mil email address
 
 The ICAMSC charters working groups based on a defined-purpose and timeline. See the complete list of active and inactive working groups at the [ICAMSC Max.gov page](https://community.max.gov/pages/viewpage.action?pageId=234815732){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}. Send an email to [icam@gsa.gov](mailto:icam@gsa.gov) for more information and join a working group.
 
-<!--  removed per Babur
-
-| Working Group Name | Purpose | Activities | Membership Requirements | Meeting Schedule | 
-| --------- | ---- | ---------- | ------- | ----------- |
-| [**Physical Access Control Systems Modernization (PACSMod)**](https://community.max.gov/display/Egov/PACSMod+Working+Group){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} | Facilitate the implementation and use of the technology and processes related to modernizing electronic-PACS (ePACS) within the federal government (USG). | By September 30th, 2021, develop a PACS Assessment Toolkit, a self-assessment that agencies can use to assess the FICAM compliance of PACS implementations. | Federal employees and designated contractors operating a PACS. | Monthly |
-
--->
 
 ### Other ICAM Working Groups
 
 Other ICAM working groups may be charted under other committees or subcommittees of the Federal CIO Council.
-<!-- removed per Babur
 
-| Working Group Name | Purpose | Activities | Membership Requirements | Meeting Schedule | 
-| --------- | ---- | ---------- | ------- | ----------- |
-| [**Derived-PIV Working Group**](https://community.max.gov/display/Egov/Derived-PIV+Working+Group){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} | Accelerate the implementation of mobile identity management across the federal government. | Document and share PKI and non-PKI uses cases to increase the available technical and information resources. Provide a feedback look to inform policy and standard. | Federal employees and designated contractors | Monthly |
-
--->
 
 ### ICAM Community Listserv
 
@@ -147,21 +134,6 @@ The FPKIPA meets in the morning on the second Tuesday of each month. Contact [fp
 ### FPKIMA Newsletter
 
 Previous versions of the FPKIMA Newsletters are archived and can be found in the IDManagement.gov repo under the [docs folder](https://github.com/GSA/idmanagement.gov/tree/staging/docs){:target="_blank"}{:rel="noopener noreferrer"}. 
-
-<!-- commented out per Babur, to point to people to github for previous documents. 
-
-- [FPKIMA Newsletter (Spring 2023) "FPKI Public TLS Planning" (PDF)]({{site.baseurl}}/docs/fpki-fpkima-newsletter-2302.pdf){:target="_blank"}{:rel="noopener noreferrer"}
-- [FPKIMA Newsletter (Winter 2023) "NIST Identity Guideline Revisions" (PDF)]({{site.baseurl}}/docs/fpki-fpkima-newsletter-2301.pdf){:target="_blank"}{:rel="noopener noreferrer"}
-- [FPKIMA Newsletter (Fall 2022) "Post Quantum Updates" (PDF)]({{site.baseurl}}/docs/fpki-fpkima-newsletter-82.pdf){:target="_blank"}{:rel="noopener noreferrer"}
-- [FPKIMA Newsletter (Winter 2022) "ALPACA" (PDF)]({{site.baseurl}}/docs/fpki-fpkima-newsletter-81.pdf){:target="_blank"}{:rel="noopener noreferrer"}
-- [FPKIMA Newsletter (Summer 2021) "EO Improving Nation's Cybersecurity" (PDF)]({{site.baseurl}}/docs/fpki-fpkima-newsletter-73.pdf){:target="_blank"}{:rel="noopener noreferrer"}
-- [FPKIMA Newsletter (Spring 2021) "Federal Common Policy CA Update" (PDF)]({{site.baseurl}}/docs/fpki-fpkima-newsletter-72.pdf){:target="_blank"}{:rel="noopener noreferrer"}
-- [FPKIMA Newsletter (Winter 2021) "FPKIMA COVID-19 Response" (PDF)]({{site.baseurl}}/docs/fpki-fpkima-newsletter-71.pdf){:target="_blank"}{:rel="noopener noreferrer"}
-- [FPKIMA Newsletter (Fall 2019) "New Federal Identity Guidance" (PDF)]({{site.baseurl}}/docs/fpki-fpkima-newsletter-63.pdf){:target="_blank"}{:rel="noopener noreferrer"}
-- [FPKIMA Newsletter (Spring 2019) "The Big Bridge Issue" (PDF)]({{site.baseurl}}/docs/fpki-fpkima-newsletter-62.pdf){:target="_blank"}{:rel="noopener noreferrer"}
-- [FPKIMA Newsletter (Winter 2018) "GSA ACES Program Sunset Update" (PDF)]({{site.baseurl}}/docs/fpki-fpkima-newsletter-61.pdf){:target="_blank"}{:rel="noopener noreferrer"}
-
--->
 
 If your agency is experiencing issues related to the FBCA or FCPCA, contact [fpki-help@gsa.gov](mailto:fpki-help@gsa.gov)
 
