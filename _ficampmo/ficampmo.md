@@ -143,10 +143,8 @@ The FPKIPA charters three ongoing working groups and potentially other short-ter
 
 If you meet the membership criteria and wish to join a working group, email [fpki@gsa.gov](mailto:fpki@gsa.gov) and include the text "Request to Join xx," where "xx" is the name of the working group.
 
-| Working Group Name | Purpose | Activities | Membership Requirements | Meeting Schedule | 
-| --------- | ---- | ---------- | ------- | ----------- |
-| **Certificate Policy (CPWG)** | The Federal Bridge and Common policies advisory group. | Facilitate proposed Certificate Policy changes, facilitate the FPKI cross-certification process, and address and resolve issues through policy analysis and modification. | Federal employees, designated contractors, and PKI providers involved in the FPKI. | As needed. |
-<!-- | **Shared Service Provider (SSPWG)** | The Shared Service Provider program advisory group. | Identify policy changes that impact the Shared Services Program, address and resolve issues through policy analysis and modification. | Only FPKI Shared Service Provider representatives. | As needed. | -->
-| **Technical (TWG)** | Investigate and resolve complex FPKI technical issues. | Identify and scope technical FPKI issues, address security concerns and vulnerabilities, and identify technical improvements to enhance the security and operational capabilities. | Federal employees, designated contractors, and PKI vendors. | As needed. |
+**Certificate Policy (CPWG)** - The Federal Bridge and Common policies advisory group facilitates proposed Certificate Policy changes, facilitate the FPKI cross-certification process, and address and resolve issues through policy analysis and modification. Members must be a Federal employees, designated contractors, and PKI providers involved in the FPKI.
+
+**Technical (TWG)** - Investigate and resolve complex FPKI technical issues, identify and scope technical FPKI issues, address security concerns and vulnerabilities, and identify technical improvements to enhance the security and operational capabilities. Members must be a Federal employees, designated contractors, and PKI vendors.
 
 
