@@ -868,7 +868,6 @@ The following certificates are published in the Federal Common Policy CA certifi
 - [Issued to: US Treasury Root CA](#issued-to-us-treasury-root-ca)
 - [Issued to: DigiCert Federal SSP Intermediate CA - G6](#issued-to-digicert-federal-ssp-intermediate-ca---g6)
 - [Issued to: DigiCert Federal SSP Intermediate CA - G5](#issued-to-digicert-federal-ssp-intermediate-ca---g5)
-- [Issued to: Symantec SSP Intermediate CA - G4](#issued-to-symantec-ssp-intermediate-ca---g4)
 - [Issued to: Entrust Managed PKI Federal Root CA G2](#issued-to-entrust-managed-pki-federal-root-ca-g2)
 - [Issued to: Entrust Managed Services Root CA](#issued-to-entrust-managed-services-root-ca)
 - [Issued to: Verizon SSP CA A2](#issued-to-verizon-ssp-ca-a2)
