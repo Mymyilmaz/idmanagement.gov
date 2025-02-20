@@ -21,50 +21,31 @@
 #   teststatus: [string] 
 
 - position: 1	
-  solution: Identiv Velocity Security Management System (13.02)	
-  aplnumbers: 10103
-  state: Update
-  teststatus: In queue
-
-- position: 2	
   solution: Software House C-Cure 9000 v3.003 (13.02)
   aplnumbers: 10159
   state: Update
   teststatus: In queue
 
-- position: 3	
-  solution: Datawatch + HID pivCLASS
-  aplnumbers: New
-  state: New
-  teststatus: In queue
-
-- position: 4	
+- position: 2	
   solution: AMAG Symmetry Professional + HID Global Validation System
   aplnumbers: 10047 & 10048
   state: Update
   teststatus: In queue
 
-- position: 5	
-  solution: Gallagher PIV Command Centre +  HID Global Validation System for Gallagher Command Center
-  aplnumbers: 10019 & 10020
-  state: Update
-  teststatus: In queue
-
-- position: 6	
+- position: 3	
   solution: Gallagher Command Centre PACS (13.02)
   aplnumbers: 10114
   state: Update
   teststatus: In queue
 
-- position: 7	
-  solution: Kastle Systems CPS (EP) PACS and Validation Infrastructure
-  aplnumbers: 10116
+- position: 4	
+  solution: Gallagher PIV Command Centre +  HID Global Validation System for Gallagher Command Center
+  aplnumbers: 10019 & 10020
   state: Update
   teststatus: In queue
 
-- position: 8	
-  solution: Advantor Suite for Networks V6.2.2 + HID pivCLASS 5.28
+- position: 5	
+  solution: Datawatch + HID pivCLASS
   aplnumbers: New
   state: New
   teststatus: In queue
-
