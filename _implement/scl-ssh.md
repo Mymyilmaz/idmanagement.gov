@@ -72,7 +72,7 @@ PuTTY-CAC is an open-source SSH client that uses Microsoft's CryptoAPI (CAPI). (
 
 WinSCP is an open-source, secure copy protocol (SCP) and secure file transfer protocol (SFTP) client. Pageant is an SSH authentication agent that uses Microsoft's CAPI.  
 
-1. Download **Pageant** to _C:\ssh\pageant.exe_ or a similar folder. Select [_32-bit_](https://github.com/NoMoreFood/putty-cac/blob/master/binaries/x86/pageant.exe){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} or [_64-bit_](https://github.com/NoMoreFood/putty-cac/blob/master/binaries/x64/pageant.exe){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}, based on your Windows OS. 
+1. Download **Pageant** to _C:\ssh\pageant.exe_ or a similar folder. Select [_32-bit_](https://puttygen.com/download.php?val=40){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} or [_64-bit_](https://puttygen.com/download.php?val=43){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}, based on your Windows OS. 
 2. Download the [**WinSCP installer**](https://winscp.net/eng/download.php){:target="_blank"}{:rel="noopener noreferrer"} to _C:\ssh\WinSCP-Setup.exe_ or a similar folder.
 3. Double-click _WinSCP-Setup.exe_ to launch the _WinSCP installer_ and use the recommended installation settings.
 4. Double-click _pageant.exe_ to launch **Pageant**. 
