@@ -74,9 +74,9 @@ subnav:
 
 <!-- Start of Header -->
 <div style="margin-bottom: 20px;">
-    <img src="{{site.baseurl}}/assets/logo/logo-gsa.png" style="margin-right: 15px;" alt="U.S. General Services Administration Logo">
-    <img src="{{site.baseurl}}/assets/logo/logo-sandia.png" style="margin-right: 15px;" alt="Sandia National Laboratories Logo">
-    <img src="{{site.baseurl}}/assets/logo/logo-lawrence.png" style="margin-right: 15px;" alt="Lawrence Livermore National Laboratory Logo">
+    <img src="{{site.baseurl}}/assets/logo/logo-gsa.png" style="margin-right: 10px;border:0px;" alt="U.S. General Services Administration Logo">
+    <img src="{{site.baseurl}}/assets/logo/logo-sandia.png" style="margin-right: 10px;border:0px;" alt="Sandia National Laboratories Logo">
+    <img src="{{site.baseurl}}/assets/logo/logo-lawrence.png" style="margin-right: 10px;border:0px;" alt="Lawrence Livermore National Laboratory Logo">
 </div>
   
 <div class="usa-accordion usa-accordion--bordered">
