@@ -134,7 +134,7 @@ The FPKIMA Certification Practice Statement (CPS) documents the operational prac
 - [U.S. FPKI Certification Practice Statement (PDF, November 2023) – Version 6.4]({{site.baseurl}}/docs/fpki-fpkima-cps.pdf){:target="_blank"}{:rel="noopener noreferrer"}
 - [U.S. FPKI Audit Letter of Compliance (PDF, August 2024)]({{site.baseurl}}/docs/fpki-fpkima-audit-letter.pdf){:target="_blank"}{:rel="noopener noreferrer"} – Results of the August 2023-August 2024 Compliance Audit for the FPKI Trust Infrastructure Systems.
 - [FPKI Trust Infrastructure “HTTP.FPKI.Gov” URL Site Map (PDF, September 2022)]({{site.baseurl}}/docs/fpki-fpkima-sitemap.pdf){:target="_blank"}{:rel="noopener noreferrer"}
-- [Community Interoperability Test Environment (CITE)]({{site.baseurl}}/implement/fpkicite/){:target="_blank"}{:rel="noopener noreferrer"} - information regarding the test FPKI environment to include test CA information and test certificate policy object identifiers.
+- [Community Interoperability Test Environment (CITE)]({{site.baseurl}}/implement/fpkicite/){:target="_blank"}{:rel="noopener noreferrer"} - information regarding the test FPKI environment to include test CA respsitory information and test certificate policy object identifiers.
 
 ## Report an Incident
 FPKI affiliates include federal agencies and commercial service providers operating a certification authority certified by the Federal PKI Policy Authority. FPKI affiliate responsibilities related to the incident management process include:
