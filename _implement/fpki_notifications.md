@@ -48,9 +48,9 @@ These announcements and hot topics concern Federal Public Key Infrastructure cha
       {% for announcement in announcements %}
         {% if announcement.status == "Active" %}
           <tr>
-              <td headers="announce-table-heading-{{ status | slugify }} announce-table-heading-title"><a href="{{ announcement.url | relative_url }}" title="announcement.title">{{ announcement.title }}</a></td>
-              <td headers="announce-table-heading-{{ status | slugify }} announce-table-heading-date"><a date="announcement.pubDate">{{ announcement.pubDate }}</a></td>
-              <td headers="announce-table-heading-{{ status | slugify }} announce-table-heading-description">{{ announcement.description }}</td>
+              <td headers="announce-table-heading-title"><a href="{{ announcement.url | relative_url }}" title="announcement.title">{{ announcement.title }}</a></td>
+              <td headers="announce-table-heading-date"><a date="announcement.pubDate">{{ announcement.pubDate }}</a></td>
+              <td headers="announce-table-heading-description">{{ announcement.description }}</td>
           </tr>
         {% endif %}
       {% endfor %}
@@ -74,7 +74,7 @@ These announcements and hot topics concern Federal Public Key Infrastructure cha
 <script type="text/javascript" src="{{ site.baseurl }}/assets/js/gexfjs.js"></script>
 <script type="text/javascript" src="{{ site.baseurl }}/assets/js/config.js"></script>
 
-**Last Update**: January 13, 2025
+**Last Update**: February 24, 2025
 
 {% include graph.html %}
 
@@ -169,15 +169,39 @@ These CAs associated with these CA certificates are actively issuing PIV , PIV-I
 - CRL DP: [http://pki.treas.gov/DHS_CA4.crl](http://pki.treas.gov/DHS_CA4.crl){:target="_blank"}{:rel="noopener noreferrer"}
 
 #### DoD Issuing CAs
-**DoD DERILITY CA-1**
-- Subject: CN = DOD DERILITY CA-1, OU = PKI, OU = DoD, O = U.S. Government, C = US  
-- Issuer: CN = DoD Root CA 3, OU = PKI, OU = DoD, O = U.S. Government, C = US 
-- Serial #: 04c2  
-- Validity: January 19, 2021 to January 20, 2027
-- SHA-1 Hash: 6b250683b996e2581696f499061b5581a7867c89
-- CRL DP: [http://crl.disa.mil/crl/DODDERILITYCA_1.crl](http://crl.disa.mil/crl/DODDERILITYCA_1.crl){:target="_blank"}{:rel="noopener noreferrer"}
+**DoD ID CA-81 (Operations expected by April 2025)**
+- Subject: CN = DOD ID CA-81, OU = PKI, OU = DoD, O = U.S. Government, C = US  
+- Issuer: CN = DoD Root CA 6, OU = PKI, OU = DoD, O = U.S. Government, C = US 
+- Serial #: TBD  
+- Validity: January 23, 2025 to TBD
+- SHA-1 Hash: TBD
+- CRL DP: [http://crl.disa.mil/crl/DODIDCA_81.crl](http://crl.disa.mil/crl/DODIDCA_81.crl){:target="_blank"}{:rel="noopener noreferrer"}
 
-**DoD ID CA-73 (Not Yet Operational)**
+**DoD ID CA-80 (Operations expected by April 2025)**
+- Subject: CN = DOD ID CA-80, OU = PKI, OU = DoD, O = U.S. Government, C = US  
+- Issuer: CN = DoD Root CA 6, OU = PKI, OU = DoD, O = U.S. Government, C = US 
+- Serial #: TBD  
+- Validity: January 23, 2025 to TBD
+- SHA-1 Hash: TBD
+- CRL DP: [http://crl.disa.mil/crl/DODIDCA_80.crl](http://crl.disa.mil/crl/DODIDCA_80.crl){:target="_blank"}{:rel="noopener noreferrer"}
+
+**DoD ID CA-79 (Operations expected by April 2025)**
+- Subject: CN = DOD ID CA-79, OU = PKI, OU = DoD, O = U.S. Government, C = US  
+- Issuer: CN = DoD Root CA 6, OU = PKI, OU = DoD, O = U.S. Government, C = US 
+- Serial #: TBD  
+- Validity: January 23, 2025 to TBD
+- SHA-1 Hash: TBD
+- CRL DP: [http://crl.disa.mil/crl/DODIDCA_79.crl](http://crl.disa.mil/crl/DODIDCA_79.crl){:target="_blank"}{:rel="noopener noreferrer"}
+
+**DoD ID CA-78 (Operations expected by April 2025)**
+- Subject: CN = DOD ID CA-78, OU = PKI, OU = DoD, O = U.S. Government, C = US  
+- Issuer: CN = DoD Root CA 6, OU = PKI, OU = DoD, O = U.S. Government, C = US 
+- Serial #: TBD  
+- Validity: January 23, 2025 to TBD
+- SHA-1 Hash: TBD
+- CRL DP: [http://crl.disa.mil/crl/DODIDCA_78.crl](http://crl.disa.mil/crl/DODIDCA_78.crl){:target="_blank"}{:rel="noopener noreferrer"}
+
+**DoD ID CA-73**
 - Subject: CN = DOD ID CA-73, OU = PKI, OU = DoD, O = U.S. Government, C = US  
 - Issuer: CN = DoD Root CA 6, OU = PKI, OU = DoD, O = U.S. Government, C = US 
 - Serial #: 49  
@@ -185,7 +209,7 @@ These CAs associated with these CA certificates are actively issuing PIV , PIV-I
 - SHA-1 Hash: ce68b25fa532d959935aeb2c29e1358531903535
 - CRL DP: [http://crl.disa.mil/crl/DODIDCA_73.crl](http://crl.disa.mil/crl/DODIDCA_73.crl){:target="_blank"}{:rel="noopener noreferrer"}
 
-**DoD ID CA-72 (Not Yet Operational)**
+**DoD ID CA-72**
 - Subject: CN = DOD ID CA-72, OU = PKI, OU = DoD, O = U.S. Government, C = US  
 - Issuer: CN = DoD Root CA 6, OU = PKI, OU = DoD, O = U.S. Government, C = US 
 - Serial #: 48  
@@ -193,7 +217,7 @@ These CAs associated with these CA certificates are actively issuing PIV , PIV-I
 - SHA-1 Hash: ce68b25fa532d959935aeb2c29e1358531903535
 - CRL DP: [http://crl.disa.mil/crl/DODIDCA_72.crl](http://crl.disa.mil/crl/DODIDCA_72.crl){:target="_blank"}{:rel="noopener noreferrer"}
 
-**DoD ID CA-70 (Not Yet Operational)**
+**DoD ID CA-70**
 - Subject: CN = DOD ID CA-70, OU = PKI, OU = DoD, O = U.S. Government, C = US  
 - Issuer: CN = DoD Root CA 6, OU = PKI, OU = DoD, O = U.S. Government, C = US 
 - Serial #: 47  
@@ -313,46 +337,6 @@ These CAs associated with these CA certificates are actively issuing PIV , PIV-I
 - SHA-1 Hash: 67ddd6f4be3b69568f591bf999db2ef3085f7c5b
 - CRL DP: [https://pki.treas.gov/NASA_Operational_CA5.crl](https://pki.treas.gov/NASA_Operational_CA5.crl){:target="_blank"}{:rel="noopener noreferrer"}
 
-#### Naval Reactors SSP Agency CA G3
-- Subject:  CN = Naval Reactors SSP Agency CA G3, OU = U.S. Department of Energy, O = U.S. Government, C = US
-- Issuer: CN = Symantec SSP Intermediate CA - G4, O = Symantec Corporation, C = US
-- Serial #: 18876cd9ffd738ab7e69350ecc9d41f8 
-- Validity: December 9, 2015 to November 11, 2024 
-- SHA-1 Hash: 50e722c3b05485b216bbc02eb1628e2593a5565d 
-- CRL DP: [http://onsite-crl.pki.digicert.com/USDepartmentofEnergyNavalReactorsPIVG3/LatestCRL.crl](http://onsite-crl.pki.digicert.com/USDepartmentofEnergyNavalReactorsPIVG3/LatestCRL.crl){:target="_blank"}{:rel="noopener noreferrer"}
-
-#### NRC SSP Agency CA G4
-- Subject: CN = NRC SSP Agency CA G4, OU = U.S. Nuclear Regulatory Commission, O = U.S. Government, C = US
-- Issuer: CN = DigiCert Federal SSP Intermediate CA - G5, O = DigiCert, Inc., C = US  
-- Serial #: 3a905c654791b26551e3b7077f27aa33   
-- Validity: December 17, 2018 to December 12, 2028
-- SHA-1 Hash: 1a03581dcf159d206accd7bdd176c788a0862353
-- CRL DP: [http://pki-crl.symauth.com/ca_23580f2ce24946eab1793386d8e1b510/LatestCRL.crl](http://pki-crl.symauth.com/ca_23580f2ce24946eab1793386d8e1b510/LatestCRL.crl){:target="_blank"}{:rel="noopener noreferrer"}
-
-#### NRC PROD G6 Fed SSP CA
-- Subject: CN = NRC SSP Agency CA G4, OU = U.S. Nuclear Regulatory Commission, O = U.S. Government, C = US
-- Issuer: CN = DigiCert Federal SSP Intermediate CA - G5, O = DigiCert, Inc., C = US  
-- Serial #: 55C7AC031A83BEF41BAA8A73A68BC0CE   
-- Validity: April 12, 2022 to March 15, 2032
-- SHA-1 Hash: 1F060CE528BDDFB3B429B7C76EEEB0F8B0FBC60A 
-- CRL DP: [http://pki-crl.symauth.com/ca_ce00affea217ea042db01becf36671a4/LatestCRL.crl](http://pki-crl.symauth.com/ca_ce00affea217ea042db01becf36671a4/LatestCRL.crl){:target="_blank"}{:rel="noopener noreferrer"}
-
-#### ORC SSP 4
-- Subject: CN = ORC SSP 4, O = ORC PKI, C = US
-- Issuer: CN = Federal Common Policy CA, OU = FPKI, O = U.S. Government, C = US
-- Serial #: 2ef9
-- Validity: August 31, 2015 to January 21, 2024
-- SHA-1 Hash: 3a70323069a4c41bc95663152e9ccc7111bb0623
-- CRL DP: [http://crl-server.orc.com/CRLs/ORCSSP4.crl](http://crl-server.orc.com/CRLs/ORCSSP4.crl){:target="_blank"}{:rel="noopener noreferrer"}
-
-#### Senate PIV-I CA G5 PROD
-- Subject: CN = Senate PIV-I CA G5 PROD, OU = Office of the Sergeant at Arms, OU = U.S. Senate, O = U.S. Government, C = US 
-- Issuer: CN = DigiCert Class 3 SSP Intermediate CA - G4, O = DigiCert, Inc., C = US 
-- Serial #: 2eec611f22944f9d462a5a8bbee06485
-- Validity: March 24, 2021 to August 18, 2030 
-- SHA-1 Hash: 816a2c18db2e5673205d17a98d0fffef8bf4777e 
-- CRL DP: [http://pki-crl.symauth.com/ca_fc26996dc726cf860f12aa77d4270098/LatestCRL.crl](http://pki-crl.symauth.com/ca_fc26996dc726cf860f12aa77d4270098/LatestCRL.crl){:target="_blank"}{:rel="noopener noreferrer"}
-
 #### Senate PIV-I CA G6
 - Subject: CN = Senate PIV-I CA G5 PROD, OU = Office of the Sergeant at Arms, OU = U.S. Senate, O = U.S. Government, C = US 
 - Issuer: CN = WidePoint NFI Root 2, OU = Certification Authorities, O = WidePoint, C = US 
@@ -377,14 +361,6 @@ These CAs associated with these CA certificates are actively issuing PIV , PIV-I
 - SHA-1 Hash: 3f3a62c0d4b5a2d70054ea7de33c9a691937ec02
 - CRL DP: [https://pki.treas.gov/OCIO_CA6.crl](https://pki.treas.gov/OCIO_CA6.crl){:target="_blank"}{:rel="noopener noreferrer"}
 
-#### U.S. Department of Education Agency CA - G5
-- Subject: CN = U.S. Department of Education Agency CA - G5, OU = U.S. Department of Education, O = U.S. Government, C = US
-- Issuer: CN = DigiCert Federal SSP Intermediate CA - G5, O = DigiCert, Inc., C = US
-- Serial #: 5C23B98A6FF5F543B2768F6D19556C4C
-- Validity: June 9, 2020 to December 12, 2028 
-- SHA-1 Hash: 6F48424AE8A01C2A77213A9D34F5761DAACD9EAC
-- CRL DP: [http://pki-crl.symauth.com/ca_db1ff205d5a9b79af46c7896d15cb2a9/LatestCRL.crl](http://pki-crl.symauth.com/ca_db1ff205d5a9b79af46c7896d15cb2a9/LatestCRL.crl){:target="_blank"}{:rel="noopener noreferrer"}
-
 #### U.S. Department of State PIV CA2
 - Subject: OU = U.S. Department of State PIV CA2, OU = Certification Authorities, OU = PIV, OU = Department of State, O = U.S. Government, C = US
 - Issuer: CN = U.S. Department of State AD Root CA, CN = AIA, CN = Public Key Services, CN = Services, CN = Configuration, DC = state, DC = sbu, 
@@ -392,22 +368,6 @@ These CAs associated with these CA certificates are actively issuing PIV , PIV-I
 - Validity: January 24, 2020 to January 24, 2030
 - SHA-1 Hash: 68A4E9AB7A1FB8FB85316A770FF9CA874C020724
 - CRL DP: [http://crls.pki.state.gov/crls/DoSADPKIPIVCA2-1.crl](http://crls.pki.state.gov/crls/DoSADPKIPIVCA2-1.crl){:target="_blank"}{:rel="noopener noreferrer"}
- 
-#### U.S. Department of Transportation Agency CA G5
-- Subject: CN = U.S. Department of Transportation CA G5, OU = U.S. Department of Transportation, O = U.S. Government, C = US 
-- Issuer: CN = DigiCert Federal SSP Intermediate CA - G5, O = DigiCert, Inc., C = US
-- Serial #: 0ed81c303ea3566787faca36899a931a
-- Validity: March 4, 2019 to December 12, 2028
-- SHA-1 Hash: b1d05e5b9e025ea4b3b3e30dc3f45a19f9ec51f6
-- CRL DP: [http://onsite-crl.pki.digicert.com/USDepartmentofTransportationFAAPIVG5/LatestCRL.crl](http://onsite-crl.pki.digicert.com/USDepartmentofTransportationFAAPIVG5/LatestCRL.crl){:target="_blank"}{:rel="noopener noreferrer"}
-
-#### U.S. Department of Transportation Agency CA G6
-- Subject: CN = U.S. Department of Transportation CA G6, OU = U.S. Department of Transportation, O = U.S. Government, C = US 
-- Issuer: CN = WidePoint SSP Intermediate CA, O = ORC PKI, C = US
-- Serial #: 309b986d8a7fb52a7ea7dc858693c5e06e7ae33a
-- Validity: May 4, 2023 to April 7, 2033
-- SHA-1 Hash: 7b6dcb34ab284ec897f0ffe1a2f8f95082f09c74
-- CRL DP: [http://crl-server.orc.com/CRLs/DoTAgencyCAG6.crl](http://crl-server.orc.com/CRLs/DoTAgencyCAG6.crl){:target="_blank"}{:rel="noopener noreferrer"}
 
 #### USPTO INTR CA1
 - Subject: CN = USPTO_INTR_CA1, CN = AIA, CN = Public Key Services, CN = Services, CN = Configuration, DC = uspto, DC = gov
@@ -417,7 +377,7 @@ These CAs associated with these CA certificates are actively issuing PIV , PIV-I
 - SHA-1 Hash: 02ecec9eb7229055c57caeaade6f1ae056fb4327
 - CRL DP: [http://ipki.uspto.gov/IPKI/CRLs/CombinedCRL4.crl](http://ipki.uspto.gov/IPKI/CRLs/CombinedCRL4.crl){:target="_blank"}{:rel="noopener noreferrer"}
 
-#### Veterans Affairs User CA B1
+#### Veterans Affairs User CA B1 (Decommissioning expected 3/14/2025)
 - Subject: CN = Veterans Affairs User CA B1, OU = PKI, OU = Services, DC = va, DC = gov
 - Issuer: CN = Verizon SSP CA A2, OU = SSP, O = Verizon, C = US
 - Serial #: 251ea36536cfebb0e9d1334d0cb96102bab16589
@@ -425,7 +385,7 @@ These CAs associated with these CA certificates are actively issuing PIV , PIV-I
 - SHA-1 Hash: 671461948b8ef765fe5e1248222af3fcdd457564
 - CRL DP: [http://crl.pki.va.gov/PKI/CRL/VET-SSP-CA-B1.crl](http://crl.pki.va.gov/PKI/CRL/VET-SSP-CA-B1.crl){:target="_blank"}{:rel="noopener noreferrer"}
 
-#### Veterans Affairs CA B3
+#### Veterans Affairs CA B3 (Decommissioning expected 3/14/2025)
 - Subject: CN = Veterans Affairs CA B3, OU = PKI, OU = Services, DC = va, DC = gov
 - Issuer: CN = Verizon SSP CA A2, OU = SSP, O = Verizon, C = US
 - Serial #: 5ecb874a1b24b1113848e40e76dc3ea4449624fe
@@ -501,38 +461,7 @@ These CA certificates have issued PIV, PIV-I and/or Derived PIV authentication c
 - SHA-1 Hash: a31a5df2f1c1019b9cf5b7ca4e3b26650b9ca93f 
 - CRL DP: [http://pki.treasury.gov/DHS_CA2.crl](http://pki.treasury.gov/DHS_CA2.crl){:target="_blank"}{:rel="noopener noreferrer"}
 
-#### DoD Issuing CAs (several CAs in maintenance mode)
-**DoD ID CA-52**
-- Subject: CN = DOD ID CA-52, OU = PKI, OU = DoD, O = U.S. Government, C = US  
-- Issuer: CN = DoD Root CA 3, OU = PKI, OU = DoD, O = U.S. Government, C = US 
-- Serial #: 012a  
-- Validity: November 22, 2016 to November 23, 2022
-- SHA-1 Hash: 82118887716a07449fadd643eef739f04981087c 
-- CRL DP: [http://crl.disa.mil/crl/DODIDCA_52.crl](http://crl.disa.mil/crl/DODIDCA_52.crl){:target="_blank"}{:rel="noopener noreferrer"}
-
-**DoD ID CA-51**
-- Subject: CN = DOD ID CA-51, OU = PKI, OU = DoD, O = U.S. Government, C = US  
-- Issuer: CN = DoD Root CA 3, OU = PKI, OU = DoD, O = U.S. Government, C = US 
-- Serial #: 0129   
-- Validity: November 22, 2016 to November 23, 2022
-- SHA-1 Hash: f0a49bcf0fd1fc1521b31b2796fb829780050ee4 
-- CRL DP: [http://crl.disa.mil/crl/DODIDCA_51.crl](http://crl.disa.mil/crl/DODIDCA_51.crl){:target="_blank"}{:rel="noopener noreferrer"}  
-
-**DoD ID CA-50**
-- Subject: CN = DOD ID CA-50, OU = PKI, OU = DoD, O = U.S. Government, C = US  
-- Issuer: CN = DoD Root CA 3, OU = PKI, OU = DoD, O = U.S. Government, C = US 
-- Serial #: 0128     
-- Validity: November 22, 2016 to November 23, 2022
-- SHA-1 Hash: 5e2e392c6ca55e9bd3f522969ffa6b3657a5d910  
-- CRL DP: [http://crl.disa.mil/crl/DODIDCA_50.crl](http://crl.disa.mil/crl/DODIDCA_50.crl){:target="_blank"}{:rel="noopener noreferrer"}  
-
-**DoD ID CA-49**
-- Subject: CN = DOD ID CA-49, OU = PKI, OU = DoD, O = U.S. Government, C = US  
-- Issuer: CN = DoD Root CA 3, OU = PKI, OU = DoD, O = U.S. Government, C = US 
-- Serial #: 0127  
-- Validity: November 22, 2016 to November 23, 2022
-- SHA-1 Hash: 6cd6e8bd7acd2f08e21693988a309eca6772c134  
-- CRL DP: [http://crl.disa.mil/crl/DODIDCA_49.crl](http://crl.disa.mil/crl/DODIDCA_49.crl){:target="_blank"}{:rel="noopener noreferrer"}  
+#### DoD Issuing CAs (Expired CAs have been removed)  
 
 #### Entrust Managed Services SSP CA (1 of 2)
 - Subject: OU = Entrust Managed Services SSP CA, OU = Certification Authorities, O = Entrust, C = US
@@ -582,6 +511,14 @@ These CA certificates have issued PIV, PIV-I and/or Derived PIV authentication c
 - SHA-1 Hash: fe7572bbde7b7f44152acc8e1715c18714dc9d63  
 - CRL DP: [http://pki.treasury.gov/NASA_Operational_CA3.crl](http://pki.treasury.gov/NASA_Operational_CA3.crl){:target="_blank"}{:rel="noopener noreferrer"} 
    
+#### NRC SSP Agency CA G4
+- Subject: CN = NRC SSP Agency CA G4, OU = U.S. Nuclear Regulatory Commission, O = U.S. Government, C = US
+- Issuer: CN = DigiCert Federal SSP Intermediate CA - G5, O = DigiCert, Inc., C = US  
+- Serial #: 3a905c654791b26551e3b7077f27aa33   
+- Validity: December 17, 2018 to December 12, 2028
+- SHA-1 Hash: 1a03581dcf159d206accd7bdd176c788a0862353
+- CRL DP: [http://pki-crl.symauth.com/ca_23580f2ce24946eab1793386d8e1b510/LatestCRL.crl](http://pki-crl.symauth.com/ca_23580f2ce24946eab1793386d8e1b510/LatestCRL.crl){:target="_blank"}{:rel="noopener noreferrer"}
+
 #### NRC SSP Agency CA G3
 - Subject: CN = NRC SSP Agency CA G3, OU = U.S. Nuclear Regulatory Commission, O = U.S. Government, C = US
 - Issuer: CN = Symantec SSP Intermediate CA - G4, O = Symantec Corporation, C = US  
@@ -589,6 +526,22 @@ These CA certificates have issued PIV, PIV-I and/or Derived PIV authentication c
 - Validity: November 24, 2014 to November 11, 2024 
 - SHA-1 Hash: e40bee41cf7afa2ddba4eb10ff3a39f81ec48d20 
 - CRL DP: [http://onsite-crl.pki.digicert.com/USNuclearRegulatoryCommissionSSPPIVG3/LatestCRL.crl](http://onsite-crl.pki.digicert.com/USNuclearRegulatoryCommissionSSPPIVG3/LatestCRL.crl){:target="_blank"}{:rel="noopener noreferrer"}
+
+#### NRC PROD G6 Fed SSP CA
+- Subject: CN = NRC SSP Agency CA G4, OU = U.S. Nuclear Regulatory Commission, O = U.S. Government, C = US
+- Issuer: CN = DigiCert Federal SSP Intermediate CA - G5, O = DigiCert, Inc., C = US  
+- Serial #: 55C7AC031A83BEF41BAA8A73A68BC0CE   
+- Validity: April 12, 2022 to March 15, 2032
+- SHA-1 Hash: 1F060CE528BDDFB3B429B7C76EEEB0F8B0FBC60A 
+- CRL DP: [http://pki-crl.symauth.com/ca_ce00affea217ea042db01becf36671a4/LatestCRL.crl](http://pki-crl.symauth.com/ca_ce00affea217ea042db01becf36671a4/LatestCRL.crl){:target="_blank"}{:rel="noopener noreferrer"}
+
+#### Senate PIV-I CA G5 PROD
+- Subject: CN = Senate PIV-I CA G5 PROD, OU = Office of the Sergeant at Arms, OU = U.S. Senate, O = U.S. Government, C = US 
+- Issuer: CN = DigiCert Class 3 SSP Intermediate CA - G4, O = DigiCert, Inc., C = US 
+- Serial #: 2eec611f22944f9d462a5a8bbee06485
+- Validity: March 24, 2021 to August 18, 2030 
+- SHA-1 Hash: 816a2c18db2e5673205d17a98d0fffef8bf4777e 
+- CRL DP: [http://pki-crl.symauth.com/ca_fc26996dc726cf860f12aa77d4270098/LatestCRL.crl](http://pki-crl.symauth.com/ca_fc26996dc726cf860f12aa77d4270098/LatestCRL.crl){:target="_blank"}{:rel="noopener noreferrer"}
 
 #### Senate PIV-I CA G4
 - Subject: CN = Senate PIV-I CA G4, OU = Office of the Sergeant at Arms, OU = U.S. Senate, O = U.S. Government, C = US 
@@ -630,6 +583,14 @@ These CA certificates have issued PIV, PIV-I and/or Derived PIV authentication c
 - SHA-1 Hash: 5ad254c3ecebb5b7e108caa0cc8030598a7b7709 
 - CRL DP: [http://pki.treasury.gov/OCIO_CA4.crl](http://pki.treasury.gov/OCIO_CA4.crl){:target="_blank"}{:rel="noopener noreferrer"}
 
+#### U.S. Department of Education Agency CA - G5
+- Subject: CN = U.S. Department of Education Agency CA - G5, OU = U.S. Department of Education, O = U.S. Government, C = US
+- Issuer: CN = DigiCert Federal SSP Intermediate CA - G5, O = DigiCert, Inc., C = US
+- Serial #: 5C23B98A6FF5F543B2768F6D19556C4C
+- Validity: June 9, 2020 to December 12, 2028 
+- SHA-1 Hash: 6F48424AE8A01C2A77213A9D34F5761DAACD9EAC
+- CRL DP: [http://pki-crl.symauth.com/ca_db1ff205d5a9b79af46c7896d15cb2a9/LatestCRL.crl](http://pki-crl.symauth.com/ca_db1ff205d5a9b79af46c7896d15cb2a9/LatestCRL.crl){:target="_blank"}{:rel="noopener noreferrer"}
+
 #### U.S. Department of Education Agency CA - G4
 - Subject: CN = U.S. Department of Education Agency CA - G4, OU = U.S. Department of Education, O = U.S. Government, C = US
 - Issuer: CN = Symantec SSP Intermediate CA - G4, O = Symantec Corporation, C = US
@@ -645,6 +606,22 @@ These CA certificates have issued PIV, PIV-I and/or Derived PIV authentication c
 - Validity: August 3, 2016 to August 3, 2026
 - SHA-1 Hash: ffe07fb428bcef4bf38ebbfae1e42339e03e7756 
 - CRL DP: [http://crls.pki.state.gov/crls/DoSADPKIPIVCA2.crl](http://crls.pki.state.gov/crls/DoSADPKIPIVCA2.crl){:target="_blank"}{:rel="noopener noreferrer"}
+
+#### U.S. Department of Transportation Agency CA G6
+- Subject: CN = U.S. Department of Transportation CA G6, OU = U.S. Department of Transportation, O = U.S. Government, C = US 
+- Issuer: CN = WidePoint SSP Intermediate CA, O = ORC PKI, C = US
+- Serial #: 309b986d8a7fb52a7ea7dc858693c5e06e7ae33a
+- Validity: May 4, 2023 to April 7, 2033
+- SHA-1 Hash: 7b6dcb34ab284ec897f0ffe1a2f8f95082f09c74
+- CRL DP: [http://crl-server.orc.com/CRLs/DoTAgencyCAG6.crl](http://crl-server.orc.com/CRLs/DoTAgencyCAG6.crl){:target="_blank"}{:rel="noopener noreferrer"}
+
+#### U.S. Department of Transportation Agency CA G5
+- Subject: CN = U.S. Department of Transportation CA G5, OU = U.S. Department of Transportation, O = U.S. Government, C = US 
+- Issuer: CN = DigiCert Federal SSP Intermediate CA - G5, O = DigiCert, Inc., C = US
+- Serial #: 0ed81c303ea3566787faca36899a931a
+- Validity: March 4, 2019 to December 12, 2028
+- SHA-1 Hash: b1d05e5b9e025ea4b3b3e30dc3f45a19f9ec51f6
+- CRL DP: [http://onsite-crl.pki.digicert.com/USDepartmentofTransportationFAAPIVG5/LatestCRL.crl](http://onsite-crl.pki.digicert.com/USDepartmentofTransportationFAAPIVG5/LatestCRL.crl){:target="_blank"}{:rel="noopener noreferrer"}
 
 #### U.S. Department of Transportation Agency CA G4
 - Subject: CN = U.S. Department of Transportation Agency CA G4, OU = U.S. Department of Transportation, O = U.S. Government, C = US
@@ -713,15 +690,53 @@ Subject:  FPKI System Notification - System Name
 
 <!-- start of notifications accordion  -->
 <div class="usa-accordion usa-accordion--bordered">
-  <!-- Start of current notifications -->
+  <!-- Start of current years (2025) notifications -->
   <h4 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
       aria-expanded="true"
-      aria-controls="n-a1">2024 (Current)</button>
+      aria-controls="n-a1">2025 (Current)</button>
   </h4>
   <div id="n-a1" class="usa-accordion__content usa-prose">
+    <div class="usa-width-one-whole">
+      {% for notification in site.data.fpkinotifications %}
+        {% assign nnd = notification.notice_date | split:" " %}
+        {% if nnd.last == '2025' %}
+        <ul class="usa-unstyled-list">
+          <hr>
+          <li><strong>Notice Date: </strong>{{ notification.notice_date }} </li>
+          <li><strong>System:</strong> {{ notification.system }} </li>
+          <li><strong>Type:</strong> {{ notification.change_type }} </li>
+          <li><strong>Change Description:</strong> {{ notification.change_description }} </li>
+          <li><strong>Contact:</strong> {{ notification.contact }}</li>
+          <li><strong>Certificate Issuer:</strong> {{ notification.ca_certificate_issuer }}</li>
+          <li><strong>Certificate Subject:</strong> {{ notification.ca_certificate_subject }}</li>
+          <li><strong>Certificate SHA1 Hash:</strong> {{ notification.ca_certificate_hash }}</li>
+          <li><strong>Certificate Revocation List:</strong> {{ notification.cdp_uri }}</li>
+          <li><strong>Certificate Bundle (AIA):</strong> {{ notification.aia_uri }}</li>
+          <li><strong>Certificate Bundle (SIA):</strong> {{ notification.sia_uri }}</li>
+          <li><strong>OCSP:</strong> {{ notification.ocsp_uri }}</li>
+          <li><strong>EE CRL DP:</strong> {{ notification.ee_cdp_uri }}</li>
+          <li><strong>EE OCSP:</strong> {{ notification.ee_ocsp_uri }}</li>
+        </ul>
+        {% else %}
+          {% continue %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+  <!-- end of current years (2025) notifications -->
+  <hr>
+  <!-- Start of 2024 notifications -->
+  <h4 class="usa-accordion__heading">
+    <button
+      type="button"
+      class="usa-accordion__button"
+      aria-expanded="false"
+      aria-controls="n-a7">2024</button>
+  </h4>
+  <div id="n-a7" class="usa-accordion__content usa-prose">
     <div class="usa-width-one-whole">
       {% for notification in site.data.fpkinotifications %}
         {% assign nnd = notification.notice_date | split:" " %}
@@ -749,8 +764,7 @@ Subject:  FPKI System Notification - System Name
       {% endfor %}
     </div>
   </div>
-  <!-- end of current notifications -->
-    <hr>
+  <!-- end of 2024 notifications -->
   <!-- Start of 2023 notifications -->
   <h4 class="usa-accordion__heading">
     <button

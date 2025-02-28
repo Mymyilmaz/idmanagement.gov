@@ -71,11 +71,12 @@ subnav:
   - text: Glossary
     href: "#glossary"
 ---
+
 <!-- Start of Header -->
 <div style="margin-bottom: 20px;">
-    <img src="{{site.baseurl}}/assets/logo/logo-gsa.png" style="height: 64px; margin-right: 20px;" alt="U.S. General Services Administration Logo">
-    <img src="{{site.baseurl}}/assets/logo/logo-sandia.png" style="height: 64px; margin-right: 20px;" alt="Sandia National Laboratories Logo">
-    <img src="{{site.baseurl}}/assets/logo/logo-lawrence.png" style="height: 64px; margin-right: 20px;" alt="Lawrence Livermore National Laboratory Logo">
+    <img src="{{site.baseurl}}/assets/logo/logo-gsa.png" style="margin-right: 15px;border:0px;" alt="U.S. General Services Administration Logo">
+    <img src="{{site.baseurl}}/assets/logo/logo-sandia.png" style="margin-right: 15px;border:0px;" alt="Sandia National Laboratories Logo">
+    <img src="{{site.baseurl}}/assets/logo/logo-lawrence.png" style="margin-right: 15px;border:0px;" alt="Lawrence Livermore National Laboratory Logo">
 </div>
   
 <div class="usa-accordion usa-accordion--bordered">
@@ -1100,11 +1101,11 @@ Log into the platform using operator credentials. Navigate to **Management** > *
 <p align="justify">The following are the possible lifecycle actions based on the status of the device for identity devices such as <b>smart cards</b>, <b>security keys</b>, and <b>mobile devices</b>.</p>
 
 <table>
-<tbody>
 <thead>
 <th><b>Application</b></th>
 <th><b>Lifecycle Actions</b></th>
 </thead> 
+<tbody>
 <tr>
 <td><b>Suspend</b></td>
 <td>When an active device (smart card, security key) is lost/damaged, you can suspend the device to avoid misuse. To suspend the device, select the identity and select <b>Actions</b> > <b>Suspend</b>. Select one of the listed reasons to suspend the device and confirm. </td> 
@@ -1128,12 +1129,12 @@ Log into the platform using operator credentials. Navigate to **Management** > *
 The following are the possible lifecycle actions for the FIDO2 application:
 
 <table>
-<tbody>
 <thead>
 <th><b>Application</b></th>
 <th><b>Lifecycle Actions</b></th>
 <th><b>Process</b></th>
 </thead>
+<tbody>
 <tr>
 <td   rowspan="2"><b>FIDO2</b></td>
 <td>Reset FIDO PIN</td>
@@ -1165,11 +1166,11 @@ The following are the possible lifecycle actions for the FIDO2 application:
 The table below outlines the credential lifecycle actions available to an operator. For each credential, choose **Actions** and then select the desired action. For the process, refer to the section **Identity Device Lifecycle Actions**.
 
 <table>
-<tbody>
 <thead>
 <th width="40%"><b>Credential</b></th>
 <th><b>Lifecycle Actions</b></th>
 </thead>
+<tbody>
 <tr>
 <td><b>FIDO2</b></td>
 <td>Delete</td>
@@ -1207,11 +1208,11 @@ Log into the platform using user credentials. Select **Identities** from the lef
 The following are the possible lifecycle actions based on the status of the device for the identity devices such as **smart cards**, **security keys**, and **mobile devices**:
 
 <table>
-<tbody>
 <thead>
 <th><b>Lifecycle Actions</b></th>
 <th><b>Process</b></th>
 </thead>
+<tbody>
 <tr>
 <td><b>Suspend</b></td>
 <td>
@@ -1232,12 +1233,12 @@ To reactivate a suspended device, select the identity and select <b>Actions</b>
 The following are the possible lifecycle actions for the FIDO2 application.
 
 <table>
-<tbody>
 <thead>
 <th><b>Application</b></th>
 <th><b>Lifecycle Actions</b></th>
 <th><b>Process</b></th>
 </thead>
+<tbody>
 <tr>
 <td><b>FIDO2</b></td>
 <td>Change FIDO PIN</td>
@@ -1266,11 +1267,11 @@ The following are the possible lifecycle actions for the FIDO2 application.
 The table below outlines the credential lifecycle actions available to a user. For each credential, choose **Actions** and then select the desired action. For the process, refer to the section **Identity Device Lifecycle Actions**.
 
 <table>
-<tbody>
 <thead>
 <th width="30%"><b>Credential</b></th>
 <th><b>Lifecycle Actions</b></th>
 </thead>
+<tbody>
 <tr>
 <td><b>FIDO2</b></td>
 <td>Delete</td>
@@ -1309,7 +1310,6 @@ The table below outlines the credential lifecycle actions available to a user. F
 ## Glossary
 
 <table>
-<tbody>
 <thead>
 <th scope='col'>
 <b>Term</b>
@@ -1318,6 +1318,7 @@ The table below outlines the credential lifecycle actions available to a user. F
 <b>Definition</b>
 </th>
 </thead>
+<tbody>
 <tr>
 <td>
 <b>CAC</b>

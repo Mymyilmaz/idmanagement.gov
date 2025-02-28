@@ -868,7 +868,6 @@ The following certificates are published in the Federal Common Policy CA certifi
 - [Issued to: US Treasury Root CA](#issued-to-us-treasury-root-ca)
 - [Issued to: DigiCert Federal SSP Intermediate CA - G6](#issued-to-digicert-federal-ssp-intermediate-ca---g6)
 - [Issued to: DigiCert Federal SSP Intermediate CA - G5](#issued-to-digicert-federal-ssp-intermediate-ca---g5)
-- [Issued to: Symantec SSP Intermediate CA - G4](#issued-to-symantec-ssp-intermediate-ca---g4)
 - [Issued to: Entrust Managed PKI Federal Root CA G2](#issued-to-entrust-managed-pki-federal-root-ca-g2)
 - [Issued to: Entrust Managed Services Root CA](#issued-to-entrust-managed-services-root-ca)
 - [Issued to: Verizon SSP CA A2](#issued-to-verizon-ssp-ca-a2)
@@ -904,13 +903,13 @@ The following certificates are published in the Federal Common Policy CA certifi
 | Certificate Attribute | Value |
 | :--------  | :-------- |
 | Distinguished Name | OU=US Treasury Root CA, OU=Certification Authorities, OU=Department of the Treasury, O=U.S. Government, C=US |
-| Validity | April 6, 2022 to April 6, 2025 |
-| Serial Number | 279f09737fe5dd3d7534be0ea51aff9dc4018501 |
-| SHA-1 Thumbprint | 52de6628d8c70a9df9e1df94fcd84728b33c05ec |
-| SHA-256 Thumbprint | ed40cc2e18e224f1c8dc6d0786559576517139be777153cd9f8ad2d215a9be79 |
+| Validity | January 7, 2025 to January 7, 2028 |
+| Serial Number | 26dfcc2930c52fd5d909c228dbeab3ea057b4ad7 |
+| SHA-1 Thumbprint | acf3948806eda1ea966a4d484f7ce0d1b7bbce20 |
+| SHA-256 Thumbprint | 3927ed6e8e16f782d8106ed877d0d14fd1173f01938369b0052d036d992c177b |
 | Download Location | Click [here]({{site.baseurl}}/implement/certs/US_Treasury_Root_CA.cer)|
 
-#### Issued to: DigiCert Federal SSP Intermediate CA - G6
+#### Issued to: DigiCert Federal SSP Intermediate CA - G6 (Maintenance Mode)
 
 | Certificate Attribute | Value |
 | :--------  | :-------- |
@@ -921,7 +920,7 @@ The following certificates are published in the Federal Common Policy CA certifi
 | SHA-256 Thumbprint | ac309ffef2da64de1a360c3194b9b78bcdb65dc4863f02c4fa2797f9d71a773b |
 | Download Location | Click [here]({{site.baseurl}}/implement/certs/DigiCert_Federal_SSP_Intermediate_CA_-_G6.cer)|
 
-#### Issued to: DigiCert Federal SSP Intermediate CA - G5
+#### Issued to: DigiCert Federal SSP Intermediate CA - G5 (Maintenance Mode)
 
 | Certificate Attribute | Value |
 | :--------  | :-------- |
@@ -931,17 +930,6 @@ The following certificates are published in the Federal Common Policy CA certifi
 | SHA-1 Thumbprint | 9aecfbe2de8aea49d220bbf799172c00527fe756 |
 | SHA-256 Thumbprint | ea86e0baf55eef020ed58196af865f2fa72a77d1be70a779b65a9cbf0b5ee3f2 |
 | Download Location | Click [here]({{site.baseurl}}/implement/certs/DigiCert_Federal_SSP_Intermediate_CA_-_G5.cer)|
-
-#### Issued to: Symantec SSP Intermediate CA - G4
-
-| Certificate Attribute | Value |
-| :--------  | :-------- |
-| Distinguished Name | CN=Symantec SSP Intermediate CA - G4, O=Symantec Corporation, C=US |
-| Validity | November 18, 2020 to November 12, 2024 |
-| Serial Number | 262bd1f025c8af37334545666ea6c9ea946c2c34 |
-| SHA-1 Thumbprint | 4c40f62b5c3f13533a8f8a1d44f8b027aaa0fd3d |
-| SHA-256 Thumbprint | 09d3f1a7d2e0be1a8d043fdf5d16bf8bf18e0dff2f397f27b0b8ee962de59de5 |
-| Download Location | Click [here]({{site.baseurl}}/implement/certs/Symantec_SSP_Intermediate_CA_-_G4.cer)|
 
 #### Issued to: Entrust Managed PKI Federal Root CA G2
 
@@ -974,7 +962,7 @@ The following certificates are published in the Federal Common Policy CA certifi
 | SHA-256 Thumbprint | e3d6b1b33d0a5df0630b32bf17f9fb632b0471a6cac561f164aa6429ef0699a1 |
 | Download Location | Click [here]({{site.baseurl}}/implement/certs/Entrust_Managed_Services_Root_CA.cer) |
 
-#### Issued to: Verizon SSP CA A2
+#### Issued to: Verizon SSP CA A2 (Planned for Revocation on 3/14/2025)
 
 | Certificate Attribute | Value |
 | :--------  | :-------- |

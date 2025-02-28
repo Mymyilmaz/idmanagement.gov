@@ -535,7 +535,7 @@ sticky_sidenav: true
     </g>
     <g id="M-19-03">
       <g id="eorect-8" data-name="eorect">
-        <a href="https://www.whitehouse.gov/wp-content/uploads/2018/12/M-19-03.pdf" title="M-19-03" target="_blank" rel="noopener noreferrer">
+        <a href="https://bidenwhitehouse.archives.gov/wp-content/uploads/2018/12/M-19-03.pdf" title="M-19-03" target="_blank" rel="noopener noreferrer">
         <rect class="fpbutton" x="197" y="374.8" width="63.5" height="24.5"/>
         <text id="M-19-03-2" data-name="M-19-03" transform="translate(208 392.35) scale(.93 1)" style="font-family: Arial-BoldMT, Arial; font-size: 12px; font-weight: 700;"><tspan x="0" y="0">M-19-03 </tspan></text>
         </a>
@@ -544,7 +544,7 @@ sticky_sidenav: true
     </g>
     <g id="M-19-16">
       <g id="eorect-9" data-name="eorect">
-        <a href="https://www.whitehouse.gov/wp-content/uploads/2019/04/M-19-16.pdf" title="m-19-16" target="_blank" rel="noopener noreferrer">
+        <a href="https://bidenwhitehouse.archives.gov/wp-content/uploads/2019/04/M-19-16.pdf" title="m-19-16" target="_blank" rel="noopener noreferrer">
         <rect class="fpbutton" x="195" y="435.8" width="63.5" height="24.5" />
         <text id="M-19-16-2" data-name="M-19-16" transform="translate(206 453.35) scale(.93 1)" style="font-family: Arial-BoldMT, Arial; font-size: 12px; font-weight: 700;"><tspan x="0" y="0">M-19-16 </tspan></text>
         </a>
@@ -553,7 +553,7 @@ sticky_sidenav: true
     </g>
     <g id="M-19-17">
       <g id="eorect-10" data-name="eorect">
-        <a href="https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf" title="m-19-17" target="_blank" rel="noopener noreferrer">
+        <a href="https://bidenwhitehouse.archives.gov/wp-content/uploads/2019/05/M-19-17.pdf" title="m-19-17" target="_blank" rel="noopener noreferrer">
         <rect class="fpbutton" x="475" y="422.8" width="72.5" height="24.5" />
         <text id="M-19-17-2" data-name="M-19-17" transform="translate(490.26 439.85) scale(.93 1)" style="font-family: Arial-BoldMT, Arial; font-size: 12px; font-weight: 700;"><tspan x="0" y="0">M-19-17 </tspan></text>
         </a>
@@ -562,7 +562,7 @@ sticky_sidenav: true
     </g>
     <g id="M-19-19">
       <g id="eorect-11" data-name="eorect">
-        <a href="https://www.whitehouse.gov/wp-content/uploads/2019/06/M-19-19-Data-Centers.pdf" title="m-19-19" target="_blank" rel="noopener noreferrer">
+        <a href="https://bidenwhitehouse.archives.gov/wp-content/uploads/2019/06/M-19-19-Data-Centers.pdf" title="m-19-19" target="_blank" rel="noopener noreferrer">
         <rect class="fpbutton" x="566" y="374.8" width="72.5" height="24.5" />
         <text id="M-19-19-2" data-name="M-19-19" transform="translate(581.26 391.85) scale(.93 1)" style="font-family: Arial-BoldMT, Arial; font-size: 12px; font-weight: 700;"><tspan x="0" y="0">M-19-19 </tspan></text>
         </a>
@@ -571,7 +571,7 @@ sticky_sidenav: true
     </g>
     <g id="M-22-09">
       <g id="eorect-12" data-name="eorect">
-        <a href="https://www.whitehouse.gov/wp-content/uploads/2022/01/M-22-09.pdf" title="m-22-09" target="_blank" rel="noopener noreferrer">
+        <a href="https://zerotrust.cyber.gov/downloads/M-22-09%20Federal%20Zero%20Trust%20Strategy.pdf" title="m-22-09" target="_blank" rel="noopener noreferrer">
         <rect class="fpbutton" x="657.5" y="374.8" width="73" height="24.5" />
         <text id="M-22-09-2" data-name="M-22-09" transform="translate(673.26 391.85) scale(.93 1)" style="font-family: Arial-BoldMT, Arial; font-size: 12px; font-weight: 700;"><tspan x="0" y="0">M-22-09 </tspan></text>
         </a>
@@ -580,7 +580,7 @@ sticky_sidenav: true
     </g>
     <g id="M-15-13">
       <g id="eorect-13" data-name="eorect">
-        <a href="https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2015/m-15-13.pdf" title="m-15-13" target="_blank" rel="noopener noreferrer">
+        <a href="https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2015/m-15-13.pdf" title="m-15-13" target="_blank" rel="noopener noreferrer">
         <rect class="fpbutton" x="676.5" y="454.8" width="81" height="24.5" />
         <text id="M-15-13-2" data-name="M-15-13" transform="translate(694.01 471.85) scale(1.03 1)" style="font-family: Arial-BoldMT, Arial; font-size: 12px; font-weight: 700;"><tspan x="0" y="0">M-15-13 </tspan></text>
         </a>
@@ -589,7 +589,7 @@ sticky_sidenav: true
     </g>
     <g id="M-05-24">
       <g id="eorect-14" data-name="eorect">
-        <a href="https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2005/m05-24.pdf" title="m-05-24" target="_blank" rel="noopener noreferrer">
+        <a href="https://georgewbush-whitehouse.archives.gov/omb/memoranda/fy2005/m05-24.pdf" title="m-05-24" target="_blank" rel="noopener noreferrer">
         <rect class="fpbutton" x="975.5" y="363.8" width="71" height="23.5" />
         <text id="M-05-24-2" data-name="M-05-24" transform="translate(989.49 380.33) scale(.94 1)" style="font-family: Arial-BoldMT, Arial; font-size: 12px; font-weight: 700;"><tspan x="0" y="0">M-05-24 </tspan></text>
         </a>
@@ -625,7 +625,7 @@ sticky_sidenav: true
     </g>
     <g id="OMB_Circular_A-130" data-name="OMB Circular A-130">
       <g id="eorect-18" data-name="eorect">
-        <a href="https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/circulars/A130/a130revised.pdf" title="OMB Circular A-130" target="_blank" rel="noopener noreferrer">
+        <a href="https://obamawhitehouse.archives.gov/sites/default/files/omb/assets/OMB/circulars/a130/a130revised.pdf" title="OMB Circular A-130" target="_blank" rel="noopener noreferrer">
         <rect class="fpbutton" x="387" y="364.8" width="91.5" height="46" />
         <text id="OMB_Circular_A-130-2" data-name="OMB Circular A-130" transform="translate(405.05 383.75) scale(.72 1)" style="font-family: Arial-BoldMT, Arial; font-size: 12px; font-weight: 700;"><tspan x="0" y="0">OMB Circular </tspan><tspan x="22" y="14">A-130</tspan></text>
         </a>
@@ -634,7 +634,7 @@ sticky_sidenav: true
     </g>
     <g id="OMB_Circular_A-108" data-name="OMB Circular A-108">
       <g id="eorect-19" data-name="eorect">
-        <a href="https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/circulars/A108/omb_circular_a-108.pdf" title="OMB Circular A-108" target="_blank" rel="noopener noreferrer">
+        <a href="https://obamawhitehouse.archives.gov/sites/default/files/omb/assets/OMB/circulars/a108/omb_circular_a-108.pdf" title="OMB Circular A-108" target="_blank" rel="noopener noreferrer">
         <rect class="fpbutton" x="325" y="424.8" width="93.5" height="32.14"/>
         <text id="OMB_Circular_A-108-2" data-name="OMB Circular A-108" transform="translate(343.45 438) scale(1.05 1)" style="font-family: Arial-BoldMT, Arial; font-size: 8.46px; font-weight: 700;"><tspan x="0" y="0">OMB Circular </tspan><tspan x="15.51" y="9.87">A-108</tspan></text>
         </a>
@@ -652,7 +652,7 @@ sticky_sidenav: true
     </g>
     <g id="HSPD-12_PIV_Box" data-name="HSPD-12/PIV Box">
       <g id="eorect-21" data-name="eorect">
-        <a href="https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2005/m05-24.pdf" title="M-05-24" target="_blank" rel="noopener noreferrer">
+        <a href="https://georgewbush-whitehouse.archives.gov/omb/memoranda/fy2005/m05-24.pdf" title="M-05-24" target="_blank" rel="noopener noreferrer">
         <rect class="fpbutton" x="1317.5" y="524.8" width="102" height="59.5"/>
         <text id="HSPD-12_PIV" data-name="HSPD-12/PIV" transform="translate(1336.88 546.74) scale(.94 1)" style="font-family: Arial-BoldMT, Arial; font-size: 11px; font-weight: 700;"><tspan x="0" y="0">HSPD-12/PIV</tspan><tspan x="-8.85" y="12">Suspension and</tspan><tspan x="-8.86" y="24">Revocation </tspan><tspan x="53.49" y="24" style="letter-spacing: -.06em;">F</tspan><tspan x="59.6" y="24">AQ</tspan></text>
         </a>

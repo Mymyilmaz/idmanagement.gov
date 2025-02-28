@@ -1,10 +1,7 @@
 {
     "anchor": "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
     "changes": {
-        "new_certs": [
-            "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US:221932500393312150225042200270420873619523193559",
-            "common_name:Federal Bridge CA G4,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US:127714670545099107932627385846284929474869953883"
-        ]
+        "new_certs": []
     },
     "issuers": [
         "common_name:Boeing Medium Assurance Hardware Issuing CA G3,organizational_unit_name:CertServers,organization_name:Boeing,country_name:US",
@@ -70,7 +67,6 @@
         "common_name:IdenTrust Global Common Root CA 1,organization_name:IdenTrust,country_name:US",
         "common_name:Leidos FBCA Cloud PKI CA-1,organization_name:Leidos",
         "common_name:Leidos FBCA Cloud PKI CA-2,organization_name:Leidos",
-        "common_name:Lockheed Martin Certification Authority 4 G2,organizational_unit_name:Certification Authorities,organization_name:Lockheed Martin Corporation,country_name:US",
         "common_name:Lockheed Martin Certification Authority 6 G3,organizational_unit_name:Certification Authorities,organization_name:Lockheed Martin Corporation,country_name:US",
         "common_name:Lockheed Martin Root Certification Authority 2,organizational_unit_name:Certification Authorities,organization_name:Lockheed Martin Corporation,locality_name:Denver,state_or_province_name:Colorado,country_name:US",
         "common_name:Lockheed Martin Root Certification Authority 6,organizational_unit_name:Certification Authority,organization_name:Lockheed Martin Corporation,locality_name:Denver,state_or_province_name:Colorado,country_name:US",
@@ -1647,7 +1643,6 @@
                     "common_name:CertiPath Bridge CA - G3,organizational_unit_name:Certification Authorities,organization_name:CertiPath,country_name:US",
                     "common_name:DoD Interoperability Root CA 2,organizational_unit_name:PKI,organizational_unit_name:DoD,organization_name:U.S. Government,country_name:US",
                     "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-                    "common_name:STRAC Bridge Root Certification Authority,organizational_unit_name:STRAC PKI Trust Infrastructure,organization_name:STRAC,country_name:US",
                     "common_name:TSCP SHA256 Bridge CA,organizational_unit_name:CAs,organization_name:TSCP Inc.,country_name:US"
                 ]
             }
@@ -1687,7 +1682,6 @@
                     "common_name:CertiPath Bridge CA - G3,organizational_unit_name:Certification Authorities,organization_name:CertiPath,country_name:US",
                     "common_name:DoD Interoperability Root CA 2,organizational_unit_name:PKI,organizational_unit_name:DoD,organization_name:U.S. Government,country_name:US",
                     "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-                    "common_name:STRAC Bridge Root Certification Authority,organizational_unit_name:STRAC PKI Trust Infrastructure,organization_name:STRAC,country_name:US",
                     "common_name:TSCP SHA256 Bridge CA,organizational_unit_name:CAs,organization_name:TSCP Inc.,country_name:US"
                 ]
             }
@@ -1718,7 +1712,6 @@
                     "common_name:CertiPath Bridge CA - G3,organizational_unit_name:Certification Authorities,organization_name:CertiPath,country_name:US",
                     "common_name:DoD Interoperability Root CA 2,organizational_unit_name:PKI,organizational_unit_name:DoD,organization_name:U.S. Government,country_name:US",
                     "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-                    "common_name:STRAC Bridge Root Certification Authority,organizational_unit_name:STRAC PKI Trust Infrastructure,organization_name:STRAC,country_name:US",
                     "common_name:TSCP SHA256 Bridge CA,organizational_unit_name:CAs,organization_name:TSCP Inc.,country_name:US"
                 ]
             }
@@ -1757,7 +1750,6 @@
                     "common_name:CertiPath Bridge CA - G3,organizational_unit_name:Certification Authorities,organization_name:CertiPath,country_name:US",
                     "common_name:DoD Interoperability Root CA 2,organizational_unit_name:PKI,organizational_unit_name:DoD,organization_name:U.S. Government,country_name:US",
                     "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-                    "common_name:STRAC Bridge Root Certification Authority,organizational_unit_name:STRAC PKI Trust Infrastructure,organization_name:STRAC,country_name:US",
                     "common_name:TSCP SHA256 Bridge CA,organizational_unit_name:CAs,organization_name:TSCP Inc.,country_name:US"
                 ]
             }
@@ -1783,7 +1775,6 @@
                     "common_name:CertiPath Bridge CA - G3,organizational_unit_name:Certification Authorities,organization_name:CertiPath,country_name:US",
                     "common_name:DoD Interoperability Root CA 2,organizational_unit_name:PKI,organizational_unit_name:DoD,organization_name:U.S. Government,country_name:US",
                     "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-                    "common_name:STRAC Bridge Root Certification Authority,organizational_unit_name:STRAC PKI Trust Infrastructure,organization_name:STRAC,country_name:US",
                     "common_name:TSCP SHA256 Bridge CA,organizational_unit_name:CAs,organization_name:TSCP Inc.,country_name:US"
                 ]
             }
@@ -1815,7 +1806,31 @@
                     "common_name:CertiPath Bridge CA - G3,organizational_unit_name:Certification Authorities,organization_name:CertiPath,country_name:US",
                     "common_name:DoD Interoperability Root CA 2,organizational_unit_name:PKI,organizational_unit_name:DoD,organization_name:U.S. Government,country_name:US",
                     "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-                    "common_name:STRAC Bridge Root Certification Authority,organizational_unit_name:STRAC PKI Trust Infrastructure,organization_name:STRAC,country_name:US",
+                    "common_name:TSCP SHA256 Bridge CA,organizational_unit_name:CAs,organization_name:TSCP Inc.,country_name:US"
+                ]
+            }
+        },
+        {
+            "subject": "common_name:DigiCert Federated ID L3 CA,organizational_unit_name:www.digicert.com,organization_name:DigiCert Inc,country_name:US",
+            "issuer": "common_name:Federal Bridge CA G4,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
+            "serial-number": "126798949325924781614211896262831209753503614885",
+            "akid": "79 f0 00 49 eb 7f 77 c2 5d 41 02 65 34 8a 90 23 9b 1e 07 6f",
+            "skid": "8f 23 d3 c4 9c eb c2 a6 96 4e 3a f1 ce 88 b2 8b e2 93 54 12",
+            "status": "Certificate Valid and Chains to Common",
+            "pathbuilder-result": {
+                "result": "true",
+                "details": "CRL Only Validation"
+            },
+            "path-to-common": [
+                "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
+                "common_name:Federal Bridge CA G4,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US"
+            ],
+            "sia-entries": {},
+            "aia-entries": {
+                "http://repo.fpki.gov/bridge/caCertsIssuedTofbcag4.p7c": [
+                    "common_name:CertiPath Bridge CA - G3,organizational_unit_name:Certification Authorities,organization_name:CertiPath,country_name:US",
+                    "common_name:DoD Interoperability Root CA 2,organizational_unit_name:PKI,organizational_unit_name:DoD,organization_name:U.S. Government,country_name:US",
+                    "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
                     "common_name:TSCP SHA256 Bridge CA,organizational_unit_name:CAs,organization_name:TSCP Inc.,country_name:US"
                 ]
             }
@@ -1837,10 +1852,9 @@
             ],
             "sia-entries": {
                 "http://pki.strac.org/bridge/certificates/STRACBridgeRootCA.p7c": [
+                    "common_name:FTI Certification Authority,organizational_unit_name:FTI PKI Trust Infrastructure,organization_name:Foundation for Trusted Identity,country_name:US",
                     "common_name:STRAC Bridge Root Certification Authority,organizational_unit_name:STRAC PKI Trust Infrastructure,organization_name:STRAC,country_name:US",
-                    "common_name:STRAC Bridge Root Certification Authority,organizational_unit_name:STRAC PKI Trust Infrastructure,organization_name:STRAC,country_name:US",
-                    "common_name:Federal Bridge CA G4,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-                    "common_name:FTI Certification Authority,organizational_unit_name:FTI PKI Trust Infrastructure,organization_name:Foundation for Trusted Identity,country_name:US"
+                    "common_name:STRAC Bridge Root Certification Authority,organizational_unit_name:STRAC PKI Trust Infrastructure,organization_name:STRAC,country_name:US"
                 ]
             },
             "aia-entries": {
@@ -1848,7 +1862,6 @@
                     "common_name:CertiPath Bridge CA - G3,organizational_unit_name:Certification Authorities,organization_name:CertiPath,country_name:US",
                     "common_name:DoD Interoperability Root CA 2,organizational_unit_name:PKI,organizational_unit_name:DoD,organization_name:U.S. Government,country_name:US",
                     "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-                    "common_name:STRAC Bridge Root Certification Authority,organizational_unit_name:STRAC PKI Trust Infrastructure,organization_name:STRAC,country_name:US",
                     "common_name:TSCP SHA256 Bridge CA,organizational_unit_name:CAs,organization_name:TSCP Inc.,country_name:US"
                 ]
             }
@@ -1880,7 +1893,6 @@
                     "common_name:CertiPath Bridge CA - G3,organizational_unit_name:Certification Authorities,organization_name:CertiPath,country_name:US",
                     "common_name:DoD Interoperability Root CA 2,organizational_unit_name:PKI,organizational_unit_name:DoD,organization_name:U.S. Government,country_name:US",
                     "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-                    "common_name:STRAC Bridge Root Certification Authority,organizational_unit_name:STRAC PKI Trust Infrastructure,organization_name:STRAC,country_name:US",
                     "common_name:TSCP SHA256 Bridge CA,organizational_unit_name:CAs,organization_name:TSCP Inc.,country_name:US"
                 ]
             }
@@ -1911,33 +1923,6 @@
                     "common_name:CertiPath Bridge CA - G3,organizational_unit_name:Certification Authorities,organization_name:CertiPath,country_name:US",
                     "common_name:DoD Interoperability Root CA 2,organizational_unit_name:PKI,organizational_unit_name:DoD,organization_name:U.S. Government,country_name:US",
                     "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-                    "common_name:STRAC Bridge Root Certification Authority,organizational_unit_name:STRAC PKI Trust Infrastructure,organization_name:STRAC,country_name:US",
-                    "common_name:TSCP SHA256 Bridge CA,organizational_unit_name:CAs,organization_name:TSCP Inc.,country_name:US"
-                ]
-            }
-        },
-        {
-            "subject": "common_name:DigiCert Federated ID L3 CA,organizational_unit_name:www.digicert.com,organization_name:DigiCert Inc,country_name:US",
-            "issuer": "common_name:Federal Bridge CA G4,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-            "serial-number": "133170775757738527678021277105300845527569727759",
-            "akid": "79 f0 00 49 eb 7f 77 c2 5d 41 02 65 34 8a 90 23 9b 1e 07 6f",
-            "skid": "8f 23 d3 c4 9c eb c2 a6 96 4e 3a f1 ce 88 b2 8b e2 93 54 12",
-            "status": "Certificate Valid and Chains to Common",
-            "pathbuilder-result": {
-                "result": "true",
-                "details": "CRL Only Validation"
-            },
-            "path-to-common": [
-                "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-                "common_name:Federal Bridge CA G4,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US"
-            ],
-            "sia-entries": {},
-            "aia-entries": {
-                "http://repo.fpki.gov/bridge/caCertsIssuedTofbcag4.p7c": [
-                    "common_name:CertiPath Bridge CA - G3,organizational_unit_name:Certification Authorities,organization_name:CertiPath,country_name:US",
-                    "common_name:DoD Interoperability Root CA 2,organizational_unit_name:PKI,organizational_unit_name:DoD,organization_name:U.S. Government,country_name:US",
-                    "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-                    "common_name:STRAC Bridge Root Certification Authority,organizational_unit_name:STRAC PKI Trust Infrastructure,organization_name:STRAC,country_name:US",
                     "common_name:TSCP SHA256 Bridge CA,organizational_unit_name:CAs,organization_name:TSCP Inc.,country_name:US"
                 ]
             }
@@ -1971,40 +1956,6 @@
                     "common_name:CertiPath Bridge CA - G3,organizational_unit_name:Certification Authorities,organization_name:CertiPath,country_name:US",
                     "common_name:DoD Interoperability Root CA 2,organizational_unit_name:PKI,organizational_unit_name:DoD,organization_name:U.S. Government,country_name:US",
                     "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-                    "common_name:STRAC Bridge Root Certification Authority,organizational_unit_name:STRAC PKI Trust Infrastructure,organization_name:STRAC,country_name:US",
-                    "common_name:TSCP SHA256 Bridge CA,organizational_unit_name:CAs,organization_name:TSCP Inc.,country_name:US"
-                ]
-            }
-        },
-        {
-            "subject": "common_name:STRAC Bridge Root Certification Authority,organizational_unit_name:STRAC PKI Trust Infrastructure,organization_name:STRAC,country_name:US",
-            "issuer": "common_name:Federal Bridge CA G4,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-            "serial-number": "136883620521285465115968103941885837203538745801",
-            "akid": "79 f0 00 49 eb 7f 77 c2 5d 41 02 65 34 8a 90 23 9b 1e 07 6f",
-            "skid": "19 c1 ce 87 49 33 80 b6 f7 5a ac 65 c3 74 f0 7f 37 92 a5 61",
-            "status": "Certificate Valid and Chains to Common",
-            "pathbuilder-result": {
-                "result": "true",
-                "details": "CRL Only Validation"
-            },
-            "path-to-common": [
-                "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-                "common_name:Federal Bridge CA G4,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US"
-            ],
-            "sia-entries": {
-                "http://pki.strac.org/bridge/certificates/STRACBridgeRootCA.p7c": [
-                    "common_name:STRAC Bridge Root Certification Authority,organizational_unit_name:STRAC PKI Trust Infrastructure,organization_name:STRAC,country_name:US",
-                    "common_name:STRAC Bridge Root Certification Authority,organizational_unit_name:STRAC PKI Trust Infrastructure,organization_name:STRAC,country_name:US",
-                    "common_name:Federal Bridge CA G4,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-                    "common_name:FTI Certification Authority,organizational_unit_name:FTI PKI Trust Infrastructure,organization_name:Foundation for Trusted Identity,country_name:US"
-                ]
-            },
-            "aia-entries": {
-                "http://repo.fpki.gov/bridge/caCertsIssuedTofbcag4.p7c": [
-                    "common_name:CertiPath Bridge CA - G3,organizational_unit_name:Certification Authorities,organization_name:CertiPath,country_name:US",
-                    "common_name:DoD Interoperability Root CA 2,organizational_unit_name:PKI,organizational_unit_name:DoD,organization_name:U.S. Government,country_name:US",
-                    "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-                    "common_name:STRAC Bridge Root Certification Authority,organizational_unit_name:STRAC PKI Trust Infrastructure,organization_name:STRAC,country_name:US",
                     "common_name:TSCP SHA256 Bridge CA,organizational_unit_name:CAs,organization_name:TSCP Inc.,country_name:US"
                 ]
             }
@@ -2036,7 +1987,6 @@
                     "common_name:CertiPath Bridge CA - G3,organizational_unit_name:Certification Authorities,organization_name:CertiPath,country_name:US",
                     "common_name:DoD Interoperability Root CA 2,organizational_unit_name:PKI,organizational_unit_name:DoD,organization_name:U.S. Government,country_name:US",
                     "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-                    "common_name:STRAC Bridge Root Certification Authority,organizational_unit_name:STRAC PKI Trust Infrastructure,organization_name:STRAC,country_name:US",
                     "common_name:TSCP SHA256 Bridge CA,organizational_unit_name:CAs,organization_name:TSCP Inc.,country_name:US"
                 ]
             }
@@ -2116,7 +2066,6 @@
                     "organizational_unit_name:Entrust Managed Services Root CA,organizational_unit_name:Certification Authorities,organization_name:Entrust,country_name:US",
                     "organizational_unit_name:Entrust Managed Services Root CA,organizational_unit_name:Certification Authorities,organization_name:Entrust,country_name:US",
                     "common_name:Federal Bridge CA G4,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-                    "common_name:Symantec SSP Intermediate CA - G4,organization_name:Symantec Corporation,country_name:US",
                     "common_name:U.S. Department of State AD Root CA,common_name:AIA,common_name:Public Key Services,common_name:Services,common_name:Configuration,domain_component:state,domain_component:sbu",
                     "organizational_unit_name:US Treasury Root CA,organizational_unit_name:Certification Authorities,organizational_unit_name:Department of the Treasury,organization_name:U.S. Government,country_name:US",
                     "common_name:Verizon SSP CA A2,organizational_unit_name:SSP,organization_name:Verizon,country_name:US",
@@ -2604,30 +2553,6 @@
             }
         },
         {
-            "subject": "common_name:Lockheed Martin Certification Authority 4 G2,organizational_unit_name:Certification Authorities,organization_name:Lockheed Martin Corporation,country_name:US",
-            "issuer": "common_name:Lockheed Martin Root Certification Authority 2,organizational_unit_name:Certification Authorities,organization_name:Lockheed Martin Corporation,locality_name:Denver,state_or_province_name:Colorado,country_name:US",
-            "serial-number": "458536645303207850934278",
-            "akid": "92 57 e2 eb 2f b8 8b 48 6c 4d dd 07 b3 3c 6f a7 e5 39 90 ce",
-            "skid": "35 6a fe ae 09 43 4c 22 ea a8 5e 67 48 6e 0a 6d 89 ae e4 96",
-            "status": "Certificate Valid and Chains to Common",
-            "pathbuilder-result": {
-                "result": "true",
-                "details": "CRL Only Validation"
-            },
-            "path-to-common": [
-                "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-                "common_name:Federal Bridge CA G4,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-                "common_name:CertiPath Bridge CA - G3,organizational_unit_name:Certification Authorities,organization_name:CertiPath,country_name:US",
-                "common_name:Lockheed Martin Root Certification Authority 2,organizational_unit_name:Certification Authorities,organization_name:Lockheed Martin Corporation,locality_name:Denver,state_or_province_name:Colorado,country_name:US"
-            ],
-            "sia-entries": {},
-            "aia-entries": {
-                "http://crl.external.lmco.com/crl/certupd/LMRPKCS2_Lockheed Martin Root Certification Authority 2.p7c": [
-                    "common_name:CertiPath Bridge CA - G3,organizational_unit_name:Certification Authorities,organization_name:CertiPath,country_name:US"
-                ]
-            }
-        },
-        {
             "subject": "common_name:Lockheed Martin Certification Authority 6 G3,organizational_unit_name:Certification Authorities,organization_name:Lockheed Martin Corporation,country_name:US",
             "issuer": "common_name:Lockheed Martin Root Certification Authority 6,organizational_unit_name:Certification Authority,organization_name:Lockheed Martin Corporation,locality_name:Denver,state_or_province_name:Colorado,country_name:US",
             "serial-number": "1784059615896852062152297575732374279810973698",
@@ -2723,10 +2648,9 @@
             },
             "aia-entries": {
                 "http://pki.strac.org/bridge/certificates/STRACBridgeRootCA.p7c": [
-                    "common_name:FTI Certification Authority,organizational_unit_name:FTI PKI Trust Infrastructure,organization_name:Foundation for Trusted Identity,country_name:US",
-                    "common_name:Federal Bridge CA G4,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
                     "common_name:STRAC Bridge Root Certification Authority,organizational_unit_name:STRAC PKI Trust Infrastructure,organization_name:STRAC,country_name:US",
-                    "common_name:STRAC Bridge Root Certification Authority,organizational_unit_name:STRAC PKI Trust Infrastructure,organization_name:STRAC,country_name:US"
+                    "common_name:Federal Bridge CA G4,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
+                    "common_name:FTI Certification Authority,organizational_unit_name:FTI PKI Trust Infrastructure,organization_name:Foundation for Trusted Identity,country_name:US"
                 ]
             }
         },
@@ -3985,23 +3909,6 @@
             }
         },
         {
-            "subject": "common_name:Symantec SSP Intermediate CA - G4,organization_name:Symantec Corporation,country_name:US",
-            "issuer": "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-            "serial-number": "217918869520593966643571788112229175777368484916",
-            "akid": "f4 27 5c a9 c3 7c 47 f4 fa a6 a7 b0 59 97 aa dd 35 26 17 e3",
-            "skid": "ff cc 34 d1 db 4a e1 e1 c2 0b d2 db eb 80 7c 73 0c 75 5f 66",
-            "status": "Certificate Invalid",
-            "pathbuilder-result": {
-                "result": "false",
-                "details": "End Entity Cert expired or not valid"
-            },
-            "parent_path_identifier": "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US:f4275ca9c37c47f4faa6a7b05997aadd352617e3",
-            "validity-dates": {
-                "not-before": "2020-11-18 14:42:41+00:00",
-                "not-after": "2024-11-12 14:42:41+00:00"
-            }
-        },
-        {
             "subject": "common_name:Advanced Health Systems Inc Direct CA 2,organizational_unit_name:IdenTrust Global Common,organization_name:IdenTrust,state_or_province_name:Mississippi,country_name:US",
             "issuer": "common_name:IdenTrust Global Common Root CA 1,organization_name:IdenTrust,country_name:US",
             "serial-number": "85078591550210560575502040891770142861",
@@ -4089,6 +3996,23 @@
             }
         },
         {
+            "subject": "common_name:Lockheed Martin Certification Authority 4 G2,organizational_unit_name:Certification Authorities,organization_name:Lockheed Martin Corporation,country_name:US",
+            "issuer": "common_name:Lockheed Martin Root Certification Authority 2,organizational_unit_name:Certification Authorities,organization_name:Lockheed Martin Corporation,locality_name:Denver,state_or_province_name:Colorado,country_name:US",
+            "serial-number": "458536645303207850934278",
+            "akid": "92 57 e2 eb 2f b8 8b 48 6c 4d dd 07 b3 3c 6f a7 e5 39 90 ce",
+            "skid": "35 6a fe ae 09 43 4c 22 ea a8 5e 67 48 6e 0a 6d 89 ae e4 96",
+            "status": "Certificate Invalid",
+            "pathbuilder-result": {
+                "result": "false",
+                "details": "End Entity Cert expired or not valid"
+            },
+            "parent_path_identifier": "common_name:Lockheed Martin Root Certification Authority 2,organizational_unit_name:Certification Authorities,organization_name:Lockheed Martin Corporation,locality_name:Denver,state_or_province_name:Colorado,country_name:US:9257e2eb2fb88b486c4ddd07b33c6fa7e53990ce",
+            "validity-dates": {
+                "not-before": "2017-04-11 20:13:50+00:00",
+                "not-after": "2025-02-11 20:23:50+00:00"
+            }
+        },
+        {
             "subject": "common_name:CertiPath Bridge CA - G3,organizational_unit_name:Certification Authorities,organization_name:CertiPath,country_name:US",
             "issuer": "common_name:Northrop Grumman Corporate Root CA-384,organizational_unit_name:Northrop Grumman Enterprise Services,organization_name:Northrop Grumman Corporation,country_name:US",
             "serial-number": "1516450673553135876351181437373221531845394442",
@@ -4124,18 +4048,6 @@
             }
         },
         {
-            "subject": "common_name:Federal Bridge CA G4,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-            "issuer": "common_name:STRAC Bridge Root Certification Authority,organizational_unit_name:STRAC PKI Trust Infrastructure,organization_name:STRAC,country_name:US",
-            "serial-number": "279",
-            "akid": "19 c1 ce 87 49 33 80 b6 f7 5a ac 65 c3 74 f0 7f 37 92 a5 61",
-            "skid": "79 f0 00 49 eb 7f 77 c2 5d 41 02 65 34 8a 90 23 9b 1e 07 6f",
-            "status": "Certificate Valid, but no Path to Common",
-            "pathbuilder-result": {
-                "result": "false",
-                "details": "Unable to build Path"
-            }
-        },
-        {
             "subject": "common_name:DocuSign Root CA,organizational_unit_name:TSCP,organization_name:DocuSign Inc.,country_name:US",
             "issuer": "common_name:TSCP SHA256 Bridge CA,organizational_unit_name:CAs,organization_name:TSCP Inc.,country_name:US",
             "serial-number": "36580706539538580600374127093589216343",
@@ -4158,10 +4070,15 @@
             "serial-number": "63714391470181454330808577115309781940",
             "akid": "b8 51 62 66 30 45 be e5 0c 57 1c 23 68 7e e6 4f f7 0b 3e f7",
             "skid": "79 f0 00 49 eb 7f 77 c2 5d 41 02 65 34 8a 90 23 9b 1e 07 6f",
-            "status": "Certificate Valid, but no Path to Common",
+            "status": "Certificate Invalid",
             "pathbuilder-result": {
                 "result": "false",
-                "details": "Unable to build Path"
+                "details": "End Entity Cert expired or not valid"
+            },
+            "parent_path_identifier": "common_name:TSCP SHA256 Bridge CA,organizational_unit_name:CAs,organization_name:TSCP Inc.,country_name:US:b85162663045bee50c571c23687ee64ff70b3ef7",
+            "validity-dates": {
+                "not-before": "2024-01-24 00:00:00+00:00",
+                "not-after": "2025-02-22 23:59:59+00:00"
             }
         },
         {
@@ -4697,13 +4614,6 @@
             "common_name:CertiPath Bridge CA - G3,organizational_unit_name:Certification Authorities,organization_name:CertiPath,country_name:US",
             "common_name:Boeing PCA G3,organizational_unit_name:certservers,organization_name:Boeing,country_name:US",
             "common_name:Boeing Medium Assurance Hardware Issuing CA G3,organizational_unit_name:CertServers,organization_name:Boeing,country_name:US"
-        ],
-        [
-            "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-            "common_name:Federal Bridge CA G4,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-            "common_name:CertiPath Bridge CA - G3,organizational_unit_name:Certification Authorities,organization_name:CertiPath,country_name:US",
-            "common_name:Lockheed Martin Root Certification Authority 2,organizational_unit_name:Certification Authorities,organization_name:Lockheed Martin Corporation,locality_name:Denver,state_or_province_name:Colorado,country_name:US",
-            "common_name:Lockheed Martin Certification Authority 4 G2,organizational_unit_name:Certification Authorities,organization_name:Lockheed Martin Corporation,country_name:US"
         ],
         [
             "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",

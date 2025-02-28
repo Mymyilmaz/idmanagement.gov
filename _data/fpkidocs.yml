@@ -7,6 +7,23 @@
 # 
 # Used on: https://www.idmanagement.gov/fpki/
 
+- category: Common Certificate Policy
+  numberProposal: 2.9
+  name: X.509 Certificate Policy For The U.S. FPKI Common Policy Framework v2.9
+  date: 2/14/2025
+  url: /docs/archived/fpki-x509-cert-policy-common-29.pdf
+  status: post
+  remove: 2/14/2028
+
+- category: Common Change Proposal
+  numberProposal: 2025-01
+  name: Proposal 2025-01 | Allowance for the issuance of group encryption certificates in Common
+  description: Expanding Common policy to allow for the issuance of group encryption certificates in support of valid group email encryption use cases.
+  date: 2/14/2025
+  url: /docs/archived/fpki-common-cp-2501.pdf
+  status: post
+  remove: 2/14/2028
+
 - category: Common Profile
   numberProposal: 2.2
   name: Common Policy X.509 Certificate and Certificate Revocation List (CRL) Profiles v2.2

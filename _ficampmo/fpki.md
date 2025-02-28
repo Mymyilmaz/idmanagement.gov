@@ -15,8 +15,8 @@ subnav:
     href: '#annual-review-schedule'
   - text: Compliance Test Tools for Annual Reviews
     href: '#compliance-test-tools-for-annual-reviews'
-  - text: Audit Information for the FPKI Management Authority
-    href: '#audit-information-for-the-fpki-management-authority'
+  - text: Information for the FPKI Management Authority
+    href: '#information-for-the-fpki-management-authority'
   - text: Report an Incident
     href: '#report-an-incident'
   # - text: Federal PKI Monthly Activity Report
@@ -43,9 +43,9 @@ The [FPKI Policy Authority (FPKIPA)]({{site.baseurl}}/ficam/#federal-public-key-
 
 |Federal PKI Policy | Policy Name | Profile | Change Proposals |
 | -------------- | ----------- | ------- | ---------------- |
-| Federal Common Policy | [X.509 Certificate Policy for the U.S. FPKI Common Policy Framework v2.9]({{site.baseurl}}/docs/fpki-x509-cert-policy-common.pdf){:target="_blank"}{:rel="noopener noreferrer"} | [Common Policy X.509 Certificate and CRL Profiles v2.3]({{site.baseurl}}/docs/fpki-x509-cert-profile-common.pdf){:target="_blank"}{:rel="noopener noreferrer"}  | [Common Change Proposals]({{site.baseurl}}/fpki/#federal-pki-document-archive) |
+| Federal Common Policy | [X.509 Certificate Policy for the U.S. FPKI Common Policy Framework v2.10]({{site.baseurl}}/docs/fpki-x509-cert-policy-common.pdf){:target="_blank"}{:rel="noopener noreferrer"} | [Common Policy X.509 Certificate and CRL Profiles v2.3]({{site.baseurl}}/docs/fpki-x509-cert-profile-common.pdf){:target="_blank"}{:rel="noopener noreferrer"}  | [Common Change Proposals]({{site.baseurl}}/fpki/#federal-pki-document-archive) |
 | Federal Bridge | [X.509 Certificate Policy for the Federal Bridge Certification Authority (FBCA) v3.6]({{site.baseurl}}/docs/fpki-x509-cert-policy-fbca.pdf){:target="_blank"}{:rel="noopener noreferrer"} <br><br> and [PIV-I for Federal Agencies]({{site.baseurl}}/university/pivi/){:target="_blank"}{:rel="noopener noreferrer"} | [Federal Bridge Certification Authority (FBCA) X.509 Certificate and CRL Extensions Profile v2.0]({{site.baseurl}}/docs/fpki-x509-cert-profiles-fbca.pdf){:target="_blank"}{:rel="noopener noreferrer"} | [Bridge Change Proposals]({{site.baseurl}}/fpki/#federal-pki-document-archive) |
-| Federal Public Trust TLS | [U.S. Federal Public Trust TLS PKI Certificate Policy v1.1]({{site.baseurl}}/docs/us-federal-public-trust-tls-cp.pdf){:target="_blank"}{:rel="noopener noreferrer"} | Profiles are included in Section 7 of the Policy | No change proposals |
+| Federal Public Trust TLS | [U.S. Federal Public Trust TLS PKI Certificate Policy v1.2]({{site.baseurl}}/docs/us-federal-public-trust-tls-cp.pdf){:target="_blank"}{:rel="noopener noreferrer"} | Profiles are included in Section 7 of the Policy | No change proposals |
 
 The FPKI has the following supplementary guidance:
 
@@ -122,7 +122,7 @@ If you are running the Card Conformance Tool as part of the annual requirement t
 
 {% include alert-warning.html heading="Note" content="Failure to submit a complete CCT Package may delay review of your testing results and completion of your annual FPKI PIV/PIV-I testing requirement." %}
 
-## Audit Information for the FPKI Management Authority
+## Information for the FPKI Management Authority
 
 This section contains information on audits performed on the Federal Common Policy Certification Authority and the Federal Bridge Certification Authority.
 
@@ -134,6 +134,7 @@ The FPKIMA Certification Practice Statement (CPS) documents the operational prac
 - [U.S. FPKI Certification Practice Statement (PDF, November 2023) – Version 6.4]({{site.baseurl}}/docs/fpki-fpkima-cps.pdf){:target="_blank"}{:rel="noopener noreferrer"}
 - [U.S. FPKI Audit Letter of Compliance (PDF, August 2024)]({{site.baseurl}}/docs/fpki-fpkima-audit-letter.pdf){:target="_blank"}{:rel="noopener noreferrer"} – Results of the August 2023-August 2024 Compliance Audit for the FPKI Trust Infrastructure Systems.
 - [FPKI Trust Infrastructure “HTTP.FPKI.Gov” URL Site Map (PDF, September 2022)]({{site.baseurl}}/docs/fpki-fpkima-sitemap.pdf){:target="_blank"}{:rel="noopener noreferrer"}
+- [Community Interoperability Test Environment (CITE)]({{site.baseurl}}/implement/fpkicite/){:target="_blank"}{:rel="noopener noreferrer"} - information regarding the test FPKI environment to include test CA respsitory information and test certificate policy object identifiers.
 
 ## Report an Incident
 FPKI affiliates include federal agencies and commercial service providers operating a certification authority certified by the Federal PKI Policy Authority. FPKI affiliate responsibilities related to the incident management process include:
