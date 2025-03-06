@@ -128,7 +128,7 @@ The Physical Access Control System (PACS) products listed under the â€œApprovedâ
   <tbody>
   {% for psaal in site.data.fips201pacs-await-list %}
     <tr>
-      <th scope="row" role="rowheader">{{ psaal.position }}</th>
+      <th scope="row" role="rowheader" style="text-align: center;">{{ psaal.position }}</th>
       <td>{{ psaal.solution }}</td>
       <td>{{ psaal.aplnumbers }}</td>
       <td>{{ psaal.state }}</td>
