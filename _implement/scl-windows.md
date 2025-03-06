@@ -480,7 +480,7 @@ You can find additional information on configuring kerberos policies given the f
 
 You can tune the network domain settings to help you and your users have a better experience and reduce errors.  This section highlights some of the _common_ tuning configurations for network domain logon.  There are additional tuning configurations and we encourage you to start with these first and contribute others.
 
-You can also send questions to the ICAM Technology listserve (email to ICAM-COMMUNITY-TECH at listserv.gsa.gov) to ask your government colleagues for their additional tips and tricks!
+You can also send questions to the ICAM Technology listserve ([icam-community-tech-request@listserv.gsa.gov](mailto:icam-community-tech-request@listserv.gsa.gov)) to ask your government colleagues for their additional tips and tricks!
 
 ## Cached Logon Credential Limit
 

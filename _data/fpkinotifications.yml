@@ -26,6 +26,21 @@
 # ee_cdp_uri:
 # ee_ocsp_uri:
 
+- notice_date: March 5, 2025
+  change_type: Intent to Revoke CA Certificate
+  system: FPKI Trust Infrastructure - Federal Common Policy CA G2
+  change_description: The Federal Common Policy CA G2 intends to revoke the certificate to the Verizon SSP CA A2 between 3/17/2025 and 3/21/2025.
+  contact: fpki dash help at gsa dot gov
+  ca_certificate_hash: b2167fd38ff47bb910d8dcc32fcc3b7b63a09ff7
+  ca_certificate_issuer: CN=Federal Common Policy CA G2, OU=FPKI, O=U.S. Government, C=US
+  ca_certificate_subject: CN=Verizon SSP CA A2, OU=SSP, O=Verizon, C=US
+  cdp_uri: http://repo.fpki.gov/fcpca/fcpcag2.crl
+  aia_uri: http://repo.fpki.gov/fcpca/caCertsIssuedTofcpcag2.p7c
+  sia_uri: http://sia1.ssp-strong-id.net/CA/VZ-SSP-CA-A2-SIA.p7c
+  ocsp_uri: N/A
+  ee_cdp_uri: N/A
+  ee_ocsp_uri: N/A
+
 - notice_date: March 3, 2025
   change_type: CA Certificate Issuance
   system: CertiPath Bridge CA - G3
