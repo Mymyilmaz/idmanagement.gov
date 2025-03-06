@@ -35,7 +35,7 @@ subnav:
   <div class="usa-alert__body">
     <h4 class="usa-alert__heading">September 2024 - Update to Microsoft Network Authentication Issue</h4>
     <p class="usa-alert__text">
-      As of September 10th 2024, Microsoft has released a solution for Active Directory network authentication issues resulting from the May 2022 patches that impacted some PIV network authentications. The September feature preview applies to Windows Server 2019 and later and includes a mechanism for support of some deprecated identifiers asserted by PIV authentication certificates (e.g., UPN or X509IssuerSubject altsecid) and mapped to AD user accounts.  Once the September feature preview is installed and the servers are restarted, AD administrators will have the ability to add registry keys that include what is being termed a "Triple Mapping" or "Policy Tuple" that allows the domain controller to determine if an authentication certificate is issued from a trusted Certification Authority (CA) and if it asserts an acceptable policy OID before defining acceptable identifiers for user account mapping.  You can read more about these AD changes in the following <a class="usa-link usa-link--external" href="https://techcommunity.microsoft.com/t5/public-sector-blog/enable-strong-name-based-mapping-in-government-scenarios/ba-p/4240402" target="_blank" rel="noopener noreferrer">Microsoft Public Sector Blog</a> and you may find additional intallation and configuration instructions at the <a class="usa-link usa-link--external" href="https://community.connect.gov/pages/viewpage.action?pageId=2471068012" target="_blank" rel="noopener noreferrer">CISA Connect.gov site</a> (PIV/CAC authentication available).  Full enforcement mode for use of approved identifiers is still planned to go into effect on February 11, 2025 and compatibility mode will be fully retired on September 10th, 2025.  See Step 4 below regarding Account Linking for further details.
+      As of September 10th 2024, Microsoft has released a solution for Active Directory network authentication issues resulting from the May 2022 patches that impacted some PIV network authentications. The September feature preview applies to Windows Server 2019 and later and includes a mechanism for support of some deprecated identifiers asserted by PIV authentication certificates (e.g., UPN or X509IssuerSubject altsecid) and mapped to AD user accounts.  Once the September feature preview is installed and the servers are restarted, AD administrators will have the ability to add registry keys that include what is being termed a "Triple Mapping" or "Policy Tuple" that allows the domain controller to determine if an authentication certificate is issued from a trusted Certification Authority (CA) and if it asserts an acceptable policy OID before defining acceptable identifiers for user account mapping.  You can read more about these AD changes in the following <a class="usa-link usa-link--external" href="https://techcommunity.microsoft.com/t5/public-sector-blog/enable-strong-name-based-mapping-in-government-scenarios/ba-p/4240402" target="_blank" rel="noopener noreferrer">Microsoft Public Sector Blog</a> and you may find additional installation and configuration instructions at the <a class="usa-link usa-link--external" href="https://community.connect.gov/pages/viewpage.action?pageId=2471068012" target="_blank" rel="noopener noreferrer">CISA Connect.gov site</a> (PIV/CAC authentication available).  Full enforcement mode for use of approved identifiers is still planned to go into effect on February 11, 2025 and compatibility mode will be fully retired on September 10th, 2025.  See Step 4 below regarding Account Linking for further details.
     </p>
   </div>
 </div>
@@ -153,7 +153,7 @@ There are dozens of OCSP and CRL URLs for *all* issued PIV credentials.  If you 
   <div class="usa-alert__body">
     <h4 class="usa-alert__heading">Externally Issued PIV Revocation Resources</h4>
     <p class="usa-alert__text">
-     You can find end-entity CRL Distrobution Point and OCSP URIs under our Active PIV Issuing CA page in the event you require revocation information for externally issued <a class="usa-link usa-link--external" href="https://www.idmanagement.gov/fpki/notifications/#active-issuing-ca-certificate-details" target="_blank">PIV CAs</a>.
+     You can find end-entity CRL Distribution Point and OCSP URIs under our Active PIV Issuing CA page in the event you require revocation information for externally issued <a class="usa-link usa-link--external" href="https://www.idmanagement.gov/fpki/notifications/#active-issuing-ca-certificate-details" target="_blank">PIV CAs</a>.
     </p>
   </div>
 </div>
@@ -204,7 +204,7 @@ Domain controller certificates must be issued with a set of specific extensions 
 
 {% include alert-info.html heading = "Supported Domain Controller Identifiers" content="Many Domain Controllers are issued device certificates via Active Directory Certificate Services (ADCS) that may be operating an Only Locally Trusted PKI also known as an \"Enterprise\" PKI. Those ADCS implementers will want to include the Microsoft proprietary Security Identifier (SID) in their DC certificate profile to ensure compliance with recent Microsoft changes. For other AD implementers who receive DC certificates from their PIV Shared Service Provider, you may want to work with that provider to include the SID in any renewed or rekeyed DC certificates." %}  
 
-- It is also recommended to include a non-critical Security Identifier (ObjectSID) extention in your DC certificates, for example:
+- It is also recommended to include a non-critical Security Identifier (ObjectSID) extension in your DC certificates, for example:
 
             1.3.6.1.4.1.311.25.2 = S-1-5-domain-516
 
@@ -212,7 +212,7 @@ Domain controller certificates must be issued with a set of specific extensions 
   <div class="usa-alert__body">
     <h4 class="usa-alert__heading">Avoid Vulnerabilities with Device Identifiers</h4>
     <p class="usa-alert__text">
-      Vulnerabilities identified in CVEs reported in May 2022 have outlined potential avenues for network authentication based on spoofed or emulated device certificates that have not been issued by trusted CAs.  In order to avoid these vulnerabilities, AD implmenters must prohibit the use of any non-person entity (NPE or Devices to include DCs) certificates issued by CAs listed in GPO policy tuples.  Please see the following <a class="usa-link usa-link--external" href="https://support.microsoft.com/en-us/topic/kb5014754-certificate-based-authentication-changes-on-windows-domain-controllers-ad2c23b0-15d8-4340-a468-4d4f3b188f16" target="_blank" rel="noopener noreferrer">Microsoft Knowledge Blog</a> for additional specifics regarding these vulnerabilities. 
+      Vulnerabilities identified in CVEs reported in May 2022 have outlined potential avenues for network authentication based on spoofed or emulated device certificates that have not been issued by trusted CAs.  In order to avoid these vulnerabilities, AD implementers must prohibit the use of any non-person entity (NPE or Devices to include DCs) certificates issued by CAs listed in GPO policy tuples.  Please see the following <a class="usa-link usa-link--external" href="https://support.microsoft.com/en-us/topic/kb5014754-certificate-based-authentication-changes-on-windows-domain-controllers-ad2c23b0-15d8-4340-a468-4d4f3b188f16" target="_blank" rel="noopener noreferrer">Microsoft Knowledge Blog</a> for additional specifics regarding these vulnerabilities. 
     </p>
   </div>
 </div>
@@ -231,7 +231,7 @@ If you do have a local enterprise CA, [here are some tips](#step-7---local-certi
 
 Follow [Step 3 - Distribute to Operating System from the distribute FCPCA configuration guide]({{site.baseurl}}/implement/trust-fcpca/#step-2---distribute-to-operating-systems).
 
-{% include alert-info.html heading = "Mutual Trust" content="Note that both the client machine and domain controller trust stores must be configured for mutual authentication. As a result, the domain controller issuing and root CA certificates needs to be included in the client trust store and the client PIV authentication issuing, intermediate and root certifiates need to be able to be trusted by the domain controller." %}  
+{% include alert-info.html heading = "Mutual Trust" content="Note that both the client machine and domain controller trust stores must be configured for mutual authentication. As a result, the domain controller issuing and root CA certificates needs to be included in the client trust store and the client PIV authentication issuing, intermediate and root certificates need to be able to be trusted by the domain controller." %}  
 
 ## Step 4 - Account Linking
 
@@ -277,9 +277,9 @@ First, you need to link each user's PIV Authentication certificate to their doma
 
 Adding altSecurityIdentities attributes **will not** break existing UPN account linking or cause smart card logon to fail. It's possible to plan your transition carefully and to take your time populating the altSecurityIdentities attribute for domain users. 
 
-There are six altsecid mapping options to choose from; however, three of these are considered to be "weak" identifiers that will either need to be migrated to a "strong" identifier or policy tuble mappings will need to be implmented to allow for use of an Issuer/Subject altsecid. 
+There are six altsecid mapping options to choose from; however, three of these are considered to be "weak" identifiers that will either need to be migrated to a "strong" identifier or policy table mappings will need to be implemented to allow for use of an Issuer/Subject altsecid. 
 
-{% include alert-warning.html heading = "Depricaticated Mappings" content="As of September 2024, Microsoft has depricated the use of Subject and RFC822 altsecid mappings as they were considered vulnerable to spoofing attempts." %} 
+{% include alert-warning.html heading = "Depricated Mappings" content="As of September 2024, Microsoft has depricated the use of Subject and RFC822 altsecid mappings as they were considered vulnerable to spoofing attempts." %} 
 
 | Options       | Tag     | Example | Strength | Considerations |
 | ------------- |-------------| -----|-----|
@@ -290,14 +290,14 @@ There are six altsecid mapping options to choose from; however, three of these a
 | Subject     | X509:\<S> | X509:<br/>\<S>C=US,O=U.S. Government,<br/>OU=Government Agency,<br/>CN=JANE DOE OID.0.9.2342.19200300.100.1.1=25001003151020 | Deprecated | This field is no longer supported for altsecid mapping as of Sept 2024. |
 | RFC822 name | X509:\<RFC822>      |   X509:<br/>\<RFC822>john.smith@hhs.gov |  Deprecated |  This field is no longer supported for altsecid mapping as of Sept 2024. |
 
-{% include alert-info.html heading = "Use of Security Identifiers (SID)" content="Although it is not mandated by FPKI PIV certificate profiles, an SID is a Microsoft priorietary identifier that can be asserted as a non-critical extention in a PIV authentication certificate and used for AD user account mapping." %} 
+{% include alert-info.html heading = "Use of Security Identifiers (SID)" content="Although it is not mandated by FPKI PIV certificate profiles, an SID is a Microsoft priorietary identifier that can be asserted as a non-critical extension in a PIV authentication certificate and used for AD user account mapping." %} 
 
 Policy tuple mappings to accomodate some weak identifier mappings are available in Windows Server 2019 and later as of September 10th, 2024.  Tuple mappings are defined via group policy, specifically *Administrative Settings / System / KDC* under an entry titled **"Allow name-based strong mappings for certificates"**  wherein administrators can define three things to include:
    1. Trusted issuing CA - identified by its certificate thumbprint, each tuple will be unique to each issuing CA thumbprint
    2. Trusted certificate policy OID - ensures that the client certificate is issued acording to a certain policy or policies, and
    3. Name matching - defines what field to extract from the certificate that meets the previous two conditions for correlation to AD user accounts, this will generally be UPN suffix and/or altsecid IssuerSubject
 
-Note that if you authenticate PIV certificates from multiple issuing CAs you will require several registry entries with the tuple mapping to account for the uniqe thumbprints of each issuing CA.
+Note that if you authenticate PIV certificates from multiple issuing CAs you will require several registry entries with the tuple mapping to account for the unique thumbprints of each issuing CA.
 
 The following examples provide a few options for various potential policy tuple values that can be used to identify a few types of certificate based network authentication credentials.
 
@@ -351,7 +351,7 @@ To gather the certificate from the smart card using a Windows workstation, have 
 **Request Certificates from the Smart Card Issuer** <br>
 Your organization’s credential issuer may have a copy of certificates issued to current users. You will need to specifically request from the issuer the most recent valid identity certificates suitable for smart card logon. The issuer will produce these certificates in a variety of ways, based on the certification authority or the Card Management System in use. 
 
-{% include alert-info.html heading = "PIV Authentication Certificate Sources" content="USAccess customers can recieve PIV authentication certifciates via their SIP interface. Reach out to usaccess at gsa dot gov for additional information." %} 
+{% include alert-info.html heading = "PIV Authentication Certificate Sources" content="USAccess customers can recieve PIV authentication certificates via their SIP interface. Reach out to usaccess at gsa dot gov for additional information." %} 
 
 **Export Certificates from a Third Party System** <br>
 Your organization may have already collected the relevant certificates as part of the enrollment process for a third party application, such as a FIPS 201-compliant PACS system. Depending on the system and configuration in use, you may be able to export your cardholders’ certificates from the database where they are enrolled. Speak with your PACS integrator to understand what options are available to you.
