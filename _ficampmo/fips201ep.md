@@ -164,7 +164,7 @@ All applicants must provide the following required artifacts as part of the Annu
 
 If you do not receive a confirmation email acknowledging the receipt of your Test
 Results Package within 24 hours of submission, please follow up promptly with the
-FIPS 201 Evaluation Program (EP) team at fips201ep@gsa.gov, ensuring that the
+FIPS 201 Evaluation Program (EP) team at [fips201ep@gsa.gov](mailto:fips201ep@gsa.gov), ensuring that the
 follow-up email does not include any attachments. Timely follow-up helps confirm
 the successful receipt of your Test Results Package and prevents potential delays in
 processing your annual evaluation.
