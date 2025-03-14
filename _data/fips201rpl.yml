@@ -1,7 +1,6 @@
 # FIPS 201 Removed Product List
 
-- category: 'PACS Validation System'
-  version: 13.01
+- category: '13.01 PACS Validation System'
   supplier: 'HID Global'
   nameProduct: '13.01 - pivCLASS validation system 5.20 for Hirsch-Identiv Velocity 3.8.4'
   numberProduct: 'N/A'
@@ -11,8 +10,7 @@
   reason: 'Per vendor request'
   status: post
 
-- category: 'PACS Infrastructure '
-  version: 13.01
+- category: '13.01 PACS Infrastructure'
   supplier: 'Identiv'
   nameProduct: '13.01 - Identiv Velocity 3.8.4 w/pivCLASS validation 5.20'
   numberProduct: 'N/A'
@@ -22,8 +20,7 @@
   reason: '13.01 removed per vendor request. The approved 13.02 Identiv Velocity System is APL #10103'
   status: post
 
-- category: 'PACS Infrastructure'
-  version: 13.01
+- category: '13.01 PACS Infrastructure'
   supplier: 'American Direct Procurement, Inc.'
   nameProduct: 'Quintron AccessNsite'
   numberProduct: 'F96-002-600-XX**'
@@ -33,8 +30,7 @@
   reason: 'Not approved for FRTC 1.4.2'
   status: post
     
-- category: 'PACS Infrastructure'
-  version: 13.01
+- category: '13.01 PACS Infrastructure'
   supplier: 'Amag Symmetry Professional V8.1'
   nameProduct: 'Amag Symmetry'
   numberProduct: 'PRO-PLAT-v8.1-HSE'
@@ -44,8 +40,7 @@
   reason: 'Not approved for FRTC 1.3.3'
   status: post
     
-- category: 'PACS Validation System'
-  version: 13.01
+- category: '13.01 PACS Validation System'
   supplier: 'HID Global'
   nameProduct: 'pivCLASS Registration Engine for AccesNsite'
   numberProduct: 'PVCP-D/S-17-00'
@@ -55,8 +50,7 @@
   reason: 'Not approved for FRTC 1.4.2'
   status: post
 
-- category: 'PACS Validation System'
-  version: 13.01
+- category: '13.01 PACS Validation System'
   supplier: 'Technology Industries'
   nameProduct: 'Technology Industries Validation System for AMAG Professional'
   numberProduct: 'EP-IDM-STE'
@@ -66,8 +60,7 @@
   reason: 'Not approved for FRTC 1.3.3'
   status: post
 
-- category: 'PACS Infrastructure'
-  version: 13.01
+- category: '13.01 PACS Infrastructure'
   supplier: 'Brivo'
   nameProduct: 'Brivo OnSite server'
   numberProduct: 'B-OSS-BA(X), B-ACS5000(y), B-ACS5000-DB, B-ACS-IPDC-(Z)A, B-ACS6000-DB, B-ACS300-A, B-ACS300-A-FIPS, B-ACS6000-A-FIPS'
@@ -77,8 +70,7 @@
   reason: 'Components end of sale'
   status: post
 
-- category: 'PACS and Validation Infrastructure'
-  version: 13.02
+- category: '13.02 PACS and Validation Infrastructure'
   supplier: Vicount
   nameProduct: 'PACS and Validation Software for Viscount Freedom 1302'
   numberProduct: '30-1302-PVS,50-1302-PIV,30-1302-FCM,50-1302-1'
@@ -88,8 +80,7 @@
   reason: 'Not approved for FRTC 1.3.3'
   status: post
     
-- category: 'PACS Infrastructure'
-  version: 13.01
+- category: '13.01 PACS Infrastructure'
   supplier: 'Galaxy Control Systems'
   nameProduct: 'System Galaxy Software'
   numberProduct: '90-0600-20-#SD'
@@ -99,8 +90,7 @@
   reason: 'Not approved for FRTC 1.3.3'
   status: post
 
-- category: 'PACS Validation System'
-  version: 13.01  
+- category: '13.01 PACS Validation System'
   supplier: 'HID Global'
   nameProduct: 'pivCLASS Registration Engine for Galaxy GCS'
   numberProduct: PVCP-D/S-32-00
@@ -110,8 +100,7 @@
   reason: 'Not approved for FRTC 1.3.3'
   status: post
 
-- category: 'PACS Infrastructure'
-  version: 13.01
+- category: '13.01 PACS Infrastructure'
   supplier: 'Monitor Dynamics'
   nameProduct: SafeNet
   numberProduct: F50-101xx-SP4
@@ -121,8 +110,7 @@
   reason: 'Not approved for FRTC 1.3.3'
   status: post
 
-- category: 'PACS Validation System'
-  version: 13.01
+- category: '13.01 PACS Validation System'
   supplier: 'HID Global'
   nameProduct: 'FIPS 201 SDK Runtime with SafeNET Plug-in'
   numberProduct: PVC-API-RTL-25-00
@@ -132,8 +120,7 @@
   reason: 'Not approved for FRTC 1.3.3'
   status: post
 
-- category: 'PACS Infrastructure'
-  version: 13.01
+- category: '13.01 PACS Infrastructure'
   supplier: BridgePoint
   nameProduct: 'BridgePoint TrustZone PACS Software'
   numberProduct: 67-32-0xxx
@@ -143,8 +130,7 @@
   reason: 'Not approved for FRTC 1.3.3'
   status: post
 
-- category: 'PACS Validation System'
-  version: 13.01
+- category: '13.01 PACS Validation System'
   supplier: BridgePoint
   nameProduct: 'Trust Alert Enrollment Software, 1-factor Enrollment Reader'
   numberProduct: '67-32-1216, 78-02-1102'
@@ -154,8 +140,8 @@
   reason: 'Not approved for FRTC 1.3.3'
   status: archive
 
-- category: 'PACS Validation System'
-  version: 13.01
+- category: '13.01 PACS Validation System'
+
   supplier: 'HID Global'
   nameProduct: 'pivCLASS Registration Engine for JCI P2000'
   numberProduct: PVCP-D/S-11-00
@@ -165,8 +151,7 @@
   reason: 'Not approved for FRTC 1.3.3'
   status: archive
 
-- category: 'PACS Validation System'
-  version: 13.01
+- category: '13.01 PACS Validation System'
   supplier: 'HID Global'
   nameProduct: 'pivCLASS Registration Engine for C*CURE 800'
   numberProduct: PVCP-D/S-23-01
@@ -176,8 +161,7 @@
   reason: 'Not approved for FRTC 1.3.3'
   status: archive
 
-- category: 'PACS Infrastructure'
-  version: 13.01
+- category: '13.01 PACS Infrastructure'
   supplier: 'Johnson Controls'
   nameProduct: 'P2000 Security Management System, Network Controller, 8-Door Reader Module, 2-Door Reader Module'
   numberProduct: 'P2000, CK721-A, S300-DIN-RDR8S, S300-DIN-RDR2S-A'
@@ -187,8 +171,7 @@
   reason: 'Not approved for FRTC 1.3.3'
   status: archive
 
-- category: 'PACS Infrastructure'
-  version: 13.01
+- category: '13.01 PACS Infrastructure'
   supplier: 'Secure Network Systems'
   nameProduct: 'CRITSEC B100 Door Access Blade,CRITSEC Client Appliance,CRITSEC Master Appliance'
   numberProduct: 'B100, CS-CU-5, CS-2000-32'
@@ -198,8 +181,7 @@
   reason: 'Not approved for FRTC 1.3.3'
   status: archive
 
-- category: 'PACS Validation System'
-  version: 13.01
+- category: '13.01 PACS Validation System'
   supplier: 'Technology Industries'
   nameProduct: 'EntryPoint PACS Connector for JCI P2000'
   numberProduct: EP-PACS-2000
@@ -209,8 +191,7 @@
   reason: 'Not approved for FRTC 1.3.3'
   status: archive
 
-- category: 'PACS Validation System'
-  version: 13.01
+- category: '13.01 PACS Validation System'
   supplier: 'Technology Industries'
   nameProduct: 'EntryPoint PACS Connector for Lynx Predator, Identity Management Suite, Validation Service, High Assurance Reader Service'
   numberProduct: EP-PACS-LINX
@@ -219,8 +200,7 @@
   numberApl: '10066'
   reason: 'Not approved for FRTC 1.3.3'
 
-- category: 'PACS Infrastructure'
-  version: 13.01
+- category: '13.01 PACS Infrastructure'
   supplier: 'The Will-Burt Company'
   nameProduct: 'LINX Predator Elite Server Appliance, LINX Predator Elite Workstation Appliance, VIP-E Panel, LINX VIP Panel'
   numberProduct: '5069705, 5069706, 5069706, 5069702'
@@ -230,8 +210,7 @@
   reason: 'Not approved for FRTC 1.3.3'
   status: archive
 
-- category: 'PACS Infrastructure'
-  version: 13.01
+- category: '13.01 PACS Infrastructure'
   supplier: 'Johnson Controls/Tyco'
   nameProduct: 'C*CURE 800 PACS Software'
   numberProduct: CC800
@@ -511,8 +490,7 @@
   reason: 'Not Compliant with FIPS 201-2'
   status: archive
 
-- category: 'PACS Infrastructure'
-  version: 13.01
+- category: '13.01 PACS Infrastructure'
   supplier: Brivo
   nameProduct: 'Brivo OnAir for Government'
   numberProduct: B-OAG-RDR-1
@@ -522,8 +500,7 @@
   reason: 'Discontinued product'
   status: archive
 
-- category: 'PACS Validation System'
-  version: 13.01
+- category: '13.01 PACS Validation System'
   supplier: 'HID Global'
   nameProduct: 'pivCLASS Registration Engine (Brivo OnAir for Government)'
   numberProduct: 'PVCP-D/S 03-01'
