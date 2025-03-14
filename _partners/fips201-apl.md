@@ -217,7 +217,7 @@ The FIPS 201 Evaluation Program’s Removed Products List (RPL) displays product
 {% for category in categories %}
 <table class="usa-table">
   <!-- Output caption with version and based on category name -->
-  {% if category == "PACS Infrastructure" || category == "PACS Validation System" %}
+  {% if category == "PACS Infrastructure" or "PACS Validation System" %}
     <caption>13.01 {{ category }} Category List</caption>
   {% elsif category == "PACS and Validation Infrastructure" %}
     <caption>13.02 {{ category }} Category List</caption>
@@ -227,7 +227,7 @@ The FIPS 201 Evaluation Program’s Removed Products List (RPL) displays product
   <thead>
     <!-- Output heading with version based on category name -->
     <tr>
-      {% if category == "PACS Infrastructure" ||  category == "PACS Validation System" %}
+      {% if category == "PACS Infrastructure" or "PACS Validation System" %}
         <th scope="col" role="columnheader" colspan="6"><b>13.01 {{ category }} Category</b></th>
       {% elsif category == "PACS and Validation Infrastructure" %}
         <th scope="col" role="columnheader" colspan="6"><b>13.02 {{ category }} Category</b></th>
