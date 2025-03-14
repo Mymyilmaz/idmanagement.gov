@@ -74,7 +74,7 @@ These announcements and hot topics concern Federal Public Key Infrastructure cha
 <script type="text/javascript" src="{{ site.baseurl }}/assets/js/gexfjs.js"></script>
 <script type="text/javascript" src="{{ site.baseurl }}/assets/js/config.js"></script>
 
-**Last Update**: March 03, 2025
+**Last Update**: March 11, 2025
 
 {% include graph.html %}
 
