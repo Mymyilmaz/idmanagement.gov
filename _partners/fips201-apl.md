@@ -221,7 +221,7 @@ The FIPS 201 Evaluation Program’s Removed Products List (RPL) displays product
     <caption>13.01 {{ category }} Category List</caption>
   {% elsif category == "PACS and Validation Infrastructure" %}
     <caption>13.02 {{ category }} Category List</caption>
-  {% else %}
+  {% elsif category == "PIV Card" %}
     <caption>{{ category }} Category List</caption>
   {% endif %}
   <thead>
@@ -231,7 +231,7 @@ The FIPS 201 Evaluation Program’s Removed Products List (RPL) displays product
         <th scope="col" role="columnheader" colspan="6"><b>13.01 {{ category }} Category</b></th>
       {% elsif category == "PACS and Validation Infrastructure" %}
         <th scope="col" role="columnheader" colspan="6"><b>13.02 {{ category }} Category</b></th>
-      {% else %}
+      {% elsif category == "PIV Card" %}
         <th scope="col" role="columnheader" colspan="6"><b>{{ category }} Category</b></th>
       {% endif %}
     </tr>
