@@ -220,6 +220,28 @@
   reason: 'Not approved for FRTC 1.3.3'
   status: archive
 
+# Added Freenics 03/06/2025
+- category: '13.01 PACS Infrastructure'
+  supplier: 'Feenics'
+  nameProduct: 'Feenics Keep V3'
+  numberProduct: 'N/A'
+  # dateRemoval: 'Thursday, March 6, 2025'
+  dateRemoval: 2025-03-06
+  numberApl: '10120'
+  reason: 'Not approved for FRTC 1.3.3'
+  status: post
+  
+# Added Freenics 03/06/2025
+- category: '13.01 PACS Validation System'
+  supplier: 'HID Global'
+  nameProduct: '13.01 pivCLASS Registration Engine v 5.8.1 for Feenics Keep V3'
+  numberProduct: 'PVCP-D/S-34-00'
+  # dateRemoval: 'Thursday, March 6, 2025'
+  dateRemoval: 2025-03-06
+  numberApl: '10121'
+  reason: 'Not approved for FRTC 1.3.3'
+  status: post
+
 - category: 'PIV Card'
   supplier: Gemalto
   nameProduct: '(Protiva PIV) IDPrime PIV Card v1.55 (128K v2 dual-interface)'
@@ -519,24 +541,3 @@
   numberApl: '530'
   reason: 'Replaced by APL# 587'
   status: archive
-
-# Added Freenics 03/06/2025
-- category: '13.01 PACS Infrastructure'
-  supplier: 'Feenics'
-  nameProduct: 'Feenics Keep V3'
-  numberProduct: 'N/A'
-  # dateRemoval: 'Thursday, March 6, 2025'
-  dateRemoval: 2025-03-06
-  numberApl: '10120'
-  reason: 'Not approved for FRTC 1.3.3'
-  status: post
-
-- category: '13.01 PACS Validation System'
-  supplier: 'HID Global'
-  nameProduct: '13.01 pivCLASS Registration Engine v 5.8.1 for Feenics Keep V3'
-  numberProduct: 'PVCP-D/S-34-00'
-  # dateRemoval: 'Thursday, March 6, 2025'
-  dateRemoval: 2025-03-06
-  numberApl: '10121'
-  reason: 'Not approved for FRTC 1.3.3'
-  status: post
