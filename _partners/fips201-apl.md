@@ -207,6 +207,7 @@ Note that GSA will provide the Office of the Federal Chief Information Officer (
 {% assign categories = "" | split: "" %}
 {% for rpl in site.data.fips201rpl %}
   {% assign category = rpl.category | strip %}
+  {% assign version = rpl.version | strip %}
   {% assign categories = categories | push: category | uniq | sort %}
 {% endfor %}
 {% assign categories = categories | uniq | sort %}
@@ -219,7 +220,7 @@ The FIPS 201 Evaluation Program’s Removed Products List (RPL) displays product
   <caption>{{ category }} Category List</caption>
   <thead>
     <tr>
-        <th scope="col" role="columnheader" colspan="6"><b>{{ category }} Category</b></th>
+        <th scope="col" role="columnheader" colspan="6"><b>{% if version %}{{ version }}{% endif %} {{ category }} Category</b></th>
     </tr>
     <tr>
       <th data-sortable scope="col" role="columnheader" aria-sort="ascending">APL #</th>
