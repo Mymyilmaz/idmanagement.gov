@@ -216,27 +216,14 @@ The FIPS 201 Evaluation Program’s Removed Products List (RPL) displays product
 <br>
 {% for category in categories %}
 <table class="usa-table">
-  <!-- Output caption with version and based on category name -->
-  {% if category == "PACS Infrastructure" or "PACS Validation System" %}
-    <caption>13.01 {{ category }} Category List</caption>
-  {% elsif category == "PACS and Validation Infrastructure" %}
-    <caption>13.02 {{ category }} Category List</caption>
-  {% elsif category == "PIV Card" %}
-    <caption>{{ category }} Category List</caption>
-  {% endif %}
+  <caption>{{ category }} Category List</caption>
   <thead>
     <!-- Output header with version based on category name -->
     <tr>
-      {% if category == "PACS Infrastructure" or "PACS Validation System" %}
-        <th scope="col" role="columnheader" colspan="6"><b>13.01 {{ category }} Category</b></th>
-      {% elsif category == "PACS and Validation Infrastructure" %}
-        <th scope="col" role="columnheader" colspan="6"><b>13.02 {{ category }} Category</b></th>
-      {% elsif category == "PIV Card" %}
-        <th scope="col" role="columnheader" colspan="6"><b>{{ category }} Category</b></th>
-      {% endif %}
+      <th scope="col" role="columnheader" colspan="6"><b>{{ category }} Category</b></th>
     </tr>
     <tr>
-      <th data-sortable scope="col" role="columnheader" aria-sort="ascending">APL #</th>
+      <th data-sortable scope="col" role="columnheader" aria-sort="desending">APL #</th>
       <th data-sortable scope="col" role="columnheader" >Supplier</th>
       <th data-sortable scope="col" role="columnheader" >Product Name(s)</th>
       <th data-sortable scope="col" role="columnheader" >Product Number</th>
