@@ -150,32 +150,33 @@
   reader8url: /docs/apl-10003-4-5-6-7-8-26-52-85-pivclass.pdf
   reader8apl: 10052
 
-- category: 13.01
-  fipsstatus: Approved
-  infrastructure: Feenics Keep V3
-  infraurl: /docs/apl-10120-feenics.pdf
-  infraapl: 10120
-  validation: HID Global Validation System for Feenics Keep V3 with Embedded Authentication
-  valurl: /docs/apl-10121-feenics-validation.pdf
-  valapl: 10121
-  reader8: pivCLASS RKCLB40 Contact/Contactless Reader + PIN + BIO
-  reader8url: /docs/apl-10003-4-5-6-7-8-26-52-85-pivclass.pdf
-  reader8apl: 10052
-  reader2: pivCLASS RK40 Contactless Reader + PIN
-  reader2url: /docs/apl-10003-4-5-6-7-8-26-52-85-pivclass.pdf
-  reader2apl: 10004
-  reader5: pivCLASS RPKCL40 Contact/Contactless Reader + PIN
-  reader5url: /docs/apl-10003-4-5-6-7-8-26-52-85-pivclass.pdf
-  reader5apl: 10008
-  reader6: 	pivCLASS RPK40 Contactless Reader + PIN
-  reader6url: /docs/apl-10003-4-5-6-7-8-26-52-85-pivclass.pdf
-  reader6apl: 10005
-  reader7: pivCLASS RP40 Contactless Reader
-  reader7url: /docs/apl-10003-4-5-6-7-8-26-52-85-pivclass.pdf
-  reader7apl: 10003
-  reader9: pivCLASS R40 Contactless Reader
-  reader9url: /docs/apl-10003-4-5-6-7-8-26-52-85-pivclass.pdf
-  reader9apl: 10006
+# Moved to RPL 03/06/2025 per James and Vanessa
+# - category: 13.01
+#   fipsstatus: Approved
+#   infrastructure: Feenics Keep V3
+#   infraurl: /docs/apl-10120-feenics.pdf
+#   infraapl: 10120
+#   validation: HID Global Validation System for Feenics Keep V3 with Embedded Authentication
+#   valurl: /docs/apl-10121-feenics-validation.pdf
+#   valapl: 10121
+#   reader8: pivCLASS RKCLB40 Contact/Contactless Reader + PIN + BIO
+#   reader8url: /docs/apl-10003-4-5-6-7-8-26-52-85-pivclass.pdf
+#   reader8apl: 10052
+#   reader2: pivCLASS RK40 Contactless Reader + PIN
+#   reader2url: /docs/apl-10003-4-5-6-7-8-26-52-85-pivclass.pdf
+#   reader2apl: 10004
+#   reader5: pivCLASS RPKCL40 Contact/Contactless Reader + PIN
+#   reader5url: /docs/apl-10003-4-5-6-7-8-26-52-85-pivclass.pdf
+#   reader5apl: 10008
+#   reader6: 	pivCLASS RPK40 Contactless Reader + PIN
+#   reader6url: /docs/apl-10003-4-5-6-7-8-26-52-85-pivclass.pdf
+#   reader6apl: 10005
+#   reader7: pivCLASS RP40 Contactless Reader
+#   reader7url: /docs/apl-10003-4-5-6-7-8-26-52-85-pivclass.pdf
+#   reader7apl: 10003
+#   reader9: pivCLASS R40 Contactless Reader
+#   reader9url: /docs/apl-10003-4-5-6-7-8-26-52-85-pivclass.pdf
+#   reader9apl: 10006
 
 - category: 13.01
   fipsstatus: Approved
