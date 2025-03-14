@@ -218,15 +218,16 @@ The FIPS 201 Evaluation Program’s Removed Products List (RPL) displays product
 <table class="usa-table">
   <caption>{{ category }} Category List</caption>
   <thead>
+    <!-- Output header with version based on category name -->
     <tr>
-        <th scope="col" role="columnheader" colspan="6"><b>{{ category }} Category</b></th>
+      <th scope="col" role="columnheader" colspan="6"><b>{{ category }} Category</b></th>
     </tr>
     <tr>
-      <th data-sortable scope="col" role="columnheader" aria-sort="ascending">APL #</th>
+      <th data-sortable scope="col" role="columnheader" >APL #</th>
       <th data-sortable scope="col" role="columnheader" >Supplier</th>
       <th data-sortable scope="col" role="columnheader" >Product Name(s)</th>
       <th data-sortable scope="col" role="columnheader" >Product Number</th>
-      <th data-sortable scope="col" role="columnheader" >Removal Date</th>
+      <th data-sortable scope="col" role="columnheader" aria-sort="descending">Removal Date</th>
       <th data-sortable scope="col" role="columnheader" >Reason For Removal</th>
     </tr>
   </thead>
@@ -238,7 +239,7 @@ The FIPS 201 Evaluation Program’s Removed Products List (RPL) displays product
             <td data-sort-value="{{ rpl.supplier }}">{{ rpl.supplier }}</td>
             <td data-sort-value="{{ rpl.nameProduct}}">{{ rpl.nameProduct}}</td>
             <td data-sort-value="{{ rpl.numberProduct }}">{{ rpl.numberProduct }}</td>
-            <td data-sort-value="{{ rpl.dateRemoval}}">{{ rpl.dateRemoval}}</td>
+            <td data-sort-value="{{ rpl.dateRemoval | remove: '-'}}">{{ rpl.dateRemoval}}</td>
             <td data-sort-value="{{ rpl.reason}}">{{ rpl.reason}}</td>
           </tr>
         {% endif %}
