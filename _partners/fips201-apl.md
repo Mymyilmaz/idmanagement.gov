@@ -239,10 +239,7 @@ The FIPS 201 Evaluation Program’s Removed Products List (RPL) displays product
             <td data-sort-value="{{ rpl.supplier }}">{{ rpl.supplier }}</td>
             <td data-sort-value="{{ rpl.nameProduct}}">{{ rpl.nameProduct}}</td>
             <td data-sort-value="{{ rpl.numberProduct }}">{{ rpl.numberProduct }}</td>
-            {% assign yyyycode = rpl.dateRemoval[3] %}
-            {% assign mmcode = rpl.dateRemoval[6,2] %}
-            {% assign ddcode = rpl.dateRemoval[9,2] %}
-            <td data-sort-value="{{ yyyycode }}{{ mmcode }}{{ ddcode }}">{{ rpl.dateRemoval}}</td>
+            <td data-sort-value="{{ rpl.dateRemoval | remove '-'}}">{{ rpl.dateRemoval}}</td>
             <td data-sort-value="{{ rpl.reason}}">{{ rpl.reason}}</td>
           </tr>
         {% endif %}
