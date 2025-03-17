@@ -16,7 +16,7 @@ subnav:
   - text: Executive Summary
     href: '#executive-summary'
   - text: The Delegated Digital Signature
-    href: '#the-digital-digital-signature'
+    href: '#the-delegated-digital-signature'
   - text: Step 1. Define the Agency Process
     href: '#step-1-define-the-agency-process'
   - text: Step 2. Define Controls
