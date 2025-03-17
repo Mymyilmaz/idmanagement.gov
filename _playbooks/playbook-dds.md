@@ -90,7 +90,7 @@ case of role-based digital delegated signatures for OFR submissions.
   </div>
 </div>
 
-{% include alert-warning.html content="**Note** - v2.0 generated a title change, the previous playbook was referred to as the \"Digital Autopen Playbook,\" the update to \"Delegated Digital Signature\" aligns with FPKI and CIO Council terminology for the use case." %}
+{% include alert-warning.html content="**Note** - v2.0 generated a title change, the previous playbook was referred to as the \"Digital Autopen Playbook\", the update to \"Delegated Digital Signature\" aligns with FPKI and CIO Council terminology for the use case." %}
 
 ## Executive Summary
 
