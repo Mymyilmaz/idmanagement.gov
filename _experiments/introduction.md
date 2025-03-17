@@ -38,4 +38,4 @@ the evidence of authorship?), detecting AI-generated text (Was this document wri
       frame.style.width  = frame.contentWindow.document.body.scrollWidth + 'px';
   }
 </script>
-<iframe id="hiatus" title="IARPA HIATUS Slicksheet PDF" src="{{site.baseurl}}/docs/expdocs/HIATUS_SlickSheet_20250131.pdf#toolbar=0&view=Fit" width="100%" height="792px"></iframe>
+<iframe id="hiatus" title="IARPA HIATUS Slicksheet PDF" src="{{site.baseurl}}/docs/expdocs/HIATUS_SlickSheet_20250131.pdf#toolbar=0&view=Fit" width="100%" style="height:auto;"></iframe>
