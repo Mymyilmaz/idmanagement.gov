@@ -233,7 +233,7 @@ appears in the digital signature certificate subject name. See the OFR
 Document Drafting Handbook for accepted variations. The Personal Identity
 Verification (PIV) card is a primary means for digitally signing a document.
 
-{% include alert-info.html contents="Note - most common applications that leverage digital signatures, display the common name element which is a component of the
+{% include alert-info.html content="Note - most common applications that leverage digital signatures, display the common name element which is a component of the
 complete subject distinguished name contained in a digital signature certificate." %}
 
 An agency may delegate the authority to digitally sign a document to someone with
@@ -499,31 +499,31 @@ The Delegated Digital Signature Working Group identified policy update recommend
 
 ### Recommendation 1. Update OFR’s Document Drafting Handbook
 
-Recommendation: Update the Document Drafting Handbook consistent with this
+**Recommendation:** Update the Document Drafting Handbook consistent with this
 paper to clarify guidance on digital autopen signatures.
 
-Resolution: Pending final delegated digital signature certificates paper.
+**Resolution:** Pending final delegated digital signature certificates paper.
 
 ### Recommendation 2. Update Federal PKI Certificate Policy for Delegated Digital Signature Certificates
 
-Recommendation: Update the Federal Common Policy Certificate Policy for specific
+**Recommendation:** Update the Federal Common Policy Certificate Policy for specific
 procedures to issue a digital autopen certificate.
 
-Resolution: The Federal PKI Policy Authority identified existing procedures for role-based certificates are sufficient; however, due to the potential confusion by relying parties consuming digital signature certificates, a Policy update was conducted in Version 2.9 to ensure appropriate certificate naming and profiles were developed to clarify the use case
+**Resolution:** The Federal PKI Policy Authority identified existing procedures for role-based certificates are sufficient; however, due to the potential confusion by relying parties consuming digital signature certificates, a Policy update was conducted in Version 2.9 to ensure appropriate certificate naming and profiles were developed to clarify the use case
 
 ### Recommendation 3. Update FICAM Playbook on Digitally Signing an OFR Document
 
-Recommendation: Update the [FICAM Playbook - How to Digitally Sign an Office of
+**Recommendation:** Update the [FICAM Playbook - How to Digitally Sign an Office of
 the Federal Register Document]({{site.baseurl}}/playbooks/signfedregister/){:target="_blank"}{:rel="noopener noreferrer"} in line with this paper. 
 
-Resolution: Pending final digital autopen paper.
+**Resolution:** Pending final digital autopen paper.
 
 ### Recommendation 4. Update the Federal CIO E-Signature Document
 
-Recommendation: Update the Federal CIO E-signature document to reference this
+**Recommendation:** Update the Federal CIO E-signature document to reference this
 paper. 
 
-Resolution: Pending final digital autopen paper.
+*Resolution:** Pending final digital autopen paper.
 
 ## Appendix C. Templates
 
