@@ -24,20 +24,4 @@ The HIATUS program aims to address various Intelligence Community (IC) and Law E
 the evidence of authorship?), detecting AI-generated text (Was this document written by human or machine?) and protecting author privacy (How do I ensure that my writing is not attributable?).
 
 
-  <script>
-    // Selecting the iframe element
-    var frame = document.getElementById("hiatus");
-    
-    // Adjusting the iframe height onload event
-    frame.onload = function() {
-        // set the height of the iframe as 
-        // the height of the iframe content
-        frame.style.height = frame.contentWindow.document.body.scrollHeight + 'px';
-
-        // set the width of the iframe as the 
-        // width of the iframe content
-        frame.style.width  = eframe.contentWindow.document.body.scrollWidth + 'px';
-    }
-  </script>
-
-<iframe id="hiatus" title="IARPA HIATUS Slicksheet PDF" src="{{site.baseurl}}/docs/expdocs/HIATUS_SlickSheet_20250131.pdf#toolbar=0" width="100%" height="auto"></iframe>
+<iframe id="hiatus" title="IARPA HIATUS Slicksheet PDF" src="{{site.baseurl}}/docs/expdocs/HIATUS_SlickSheet_20250131.pdf#toolbar=0" width="100%" height="100%"></iframe>
