@@ -479,9 +479,7 @@ Table 01. Example Common Name in Role-Based Digital Signature Certificates
 | Administrator | CN: Administrator NASA Jane Smith (OFR) | Exclusive to the Administrator Role. |
 | Director | CN: Director ATF Jane Smith (OFR) | Exclusive to the Director Role. |
 
-{% include alert-info.html heading="If your PKI SSP does not currently provide delegated digital signature
-certificates, you will need to coordinate with them to build an appropriate CA
-certificate template based on the <a href=\"{{site.baseurl}}/docs/fpki-x509-cert-profile-common.pdf#page=43\" target=\"\">Common Certificate Profiles Worksheet 18</a>, and also potentially work with your RA or Card Management System administrators to create templates for these new delegated digital signature certificate hardware credentials." %}
+{% include alert-info.html heading="If your PKI SSP does not currently provide delegated digital signature certificates, you will need to coordinate with them to build an appropriate CA certificate template based on the pki-x509-cert-profile-common.pdf#page=43 Common Certificate Profiles Worksheet 18, and also potentially work with your RA or Card Management System administrators to create templates for these new delegated digital signature certificate hardware credentials." %}
 
 ## Summary
 
