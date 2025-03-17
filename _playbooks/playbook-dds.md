@@ -43,7 +43,7 @@ digital autopen for Federal Register documents.
 
 Version 2.0 of this playbook was developed by Federal PKI Policy Authority support
 based on modifications to the [X.509 Certificate Policy for the U.S. Federal PKI
-Common Policy Framework](https://www.idmanagement.gov/docs/fpki-x509-cert-policy-common.pdf), specifically starting with [Version 2.9](https://www.idmanagement.gov/docs/archived/fpki-x509-cert-policy-common-29.pdf) supporting the use
+Common Policy Framework](/docs/fpki-x509-cert-policy-common.pdf), specifically starting with [Version 2.9](/docs/archived/fpki-x509-cert-policy-common-29.pdf) supporting the use
 case of role-based digital delegated signatures for OFR submissions.
 
 <img src="{{site.baseurl}}/assets/logo/logo-gsa.png" width="64" height='64' align="left" alt="U.S. General Services Administration Logo">
@@ -107,11 +107,11 @@ the document. This playbook assumes that the agency has existing rules governing
 the delegation of authority and builds upon such rules to outline a three-step
 process to create a delegated digital signature to sign a Federal Register document.
 
-1. [Define the agency process](https://www.idmanagement.gov/playbooks/autopen/#step-1-define-the-agency-process) to delegate the authority for signing Federal
+1. [Define the agency process](#step-1-define-the-agency-process) to delegate the authority for signing Federal
 Register documents.
-2. [Define controls](https://www.idmanagement.gov/playbooks/autopen/#step-2-define-controls) to ensure the certificate and associated private key are used
+2. [Define controls](#step-2-define-controls) to ensure the certificate and associated private key are used
 only for the intended purpose 
-3. [Obtain a role-based delegated digital signature certificate](https://www.idmanagement.gov/playbooks/autopen/#step-3-obtain-a-digital-autopen-certificate) from a Federal
+3. [Obtain a role-based delegated digital signature certificate](#step-3-obtain-a-digital-autopen-certificate) from a Federal
 Public Key Infrastructure (PKI) Shared Service Provider or other approved
 Federal PKI issuer.
  
@@ -127,7 +127,7 @@ of the signer." %}
 This playbook recommends using a role-based delegated digital signature certificate
 issued to a hardware device (e.g., smart card, USB hardware device, or other
 FIPS–140 Level 2 certified hardware) from a [Federal PKI Certification Authority.
-Federal Agency Certification Authorities](https://www.idmanagement.gov/trust-services/#government-identity-services) may also be configured to issue these
+Federal Agency Certification Authorities]({{site.baseurl}}/trust-services/#government-identity-services){:target="_blank"}{:rel="noopener noreferrer"} may also be configured to issue these
 delegated digital signature certificates from their own managed Certification
 Authorities (CAs) that assert or map to the id-fpki-common-hardware certificate
 policy object identifier defined by the Federal Common Policy CA. The delegated
@@ -136,7 +136,7 @@ certificate types are specifically prohibited from asserting client authenticati
 enhanced key usages by policy and are not appropriate for logical or physical access
 assuming the named role holder’s identity. An agency should consider additional
 controls to limit its use **only** to sign _Federal Register_ documents. This playbook
-supports [OMB Circular A-130 goals](https://obamawhitehouse.archives.gov/sites/default/files/omb/assets/OMB/circulars/a130/a130revised.pdf), including developing and implementing
+supports [OMB Circular A-130 goals](https://obamawhitehouse.archives.gov/sites/default/files/omb/assets/OMB/circulars/a130/a130revised.pdf){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}, including developing and implementing
 processes to support employee digital signatures.
 
 Send any questions on the process to [icam@gsa.gov](mailto:icam@gsa.gov), and certificate
@@ -265,7 +265,7 @@ agency achieves the cryptographic component by applying a private signature key 
 hashed digital data that recipients can verify a PKI certificate that contains an
 associated public key. For more information on the difference between electronic
 and digital signatures, see the [Federal CIO Council guidance on the Use of Electronic
-Signatures in Federal Organization Transactions](https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/1151/2016/10/Use_of_ESignatures_in_Federal_Agency_Transactions_v1-0_20130125.pdf). An agency can request a
+Signatures in Federal Organization Transactions](https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/1151/2016/10/Use_of_ESignatures_in_Federal_Agency_Transactions_v1-0_20130125.pdf){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}. An agency can request a
 role-based delegated digital signature certificate from a Federal PKI Shared Service
 Provider or other approved Federal issuer. Like a PIV card, a delegated digital
 signature hardware token is issued to a single person and not shared under any
@@ -277,7 +277,7 @@ the purpose of submitting official documents to the Federal Register. It outline
 controls around the delegated digital signature certificate to meet the OFR’s digital
 signature requirements for Federal Register documents and federal cybersecurity.
 For instructions on digitally signing a Federal Register document, see the [FICAM
-Playbook Digitally Sign an Office of the Federal Register Document](https://www.idmanagement.gov/playbooks/signfedregister/).
+Playbook Digitally Sign an Office of the Federal Register Document]({{site.baseurl}}/playbooks/signfedregister/).
 
 An agency may implement or update a process by following these three playbook
 steps.
@@ -394,13 +394,13 @@ recipient must keep a record of each approval ([Template](#appendix-c-templates)
 6. Maximum of two digital autopen recipients to one authorizing sponsor which
 shall be enforced by the requesting agency.
 
-### Required Certificate Controls
+### Required Certificate and Token Controls
 
 Please note that many of these controls will be inherited based on the CA and Card
 Management System (CMS) configurations, and may not be customizable by the
 agency requesting the delegated digital signature certificate.
 
-1. A digital autopen certificate and private key are never issued on a pre-existing
+1. A digital autopen certificate and private key are **never** issued on a pre-existing
 individually assigned and personalized PIV card.
 2. Issue a delegated digital certificate to an authorized hardware device such as
 a smart card on GSA’s FIPS 201 Evaluation Program Approved Product List or
@@ -486,7 +486,7 @@ Table 01. Example Common Name in Role-Based Digital Signature Certificates
 
 {% include alert-info.html heading="If your PKI SSP does not currently provide delegated digital signature
 certificates, you will need to coordinate with them to build an appropriate CA
-certificate template based on the [Common Certificate Profiles Worksheet 18]({{site.baseurl}}/docs/fpki-x509-cert-profile-common.pdf#page=43), and
+certificate template based on the [Common Certificate Profiles Worksheet 18]({{site.baseurl}}/docs/fpki-x509-cert-profile-common.pdf#page=43){:target="_blank"}{:rel="noopener noreferrer"}, and
 also potentially work with your RA or Card Management System administrators to
 create templates for these new delegated digital signature certificate hardware
 credentials." %}
@@ -502,33 +502,43 @@ the CIO Council E-Signature Document.
 
 ## Appendix A. References
 
-1. [Office of the Federal Register's Document Drafting Handbook](https://www.archives.gov/files/federal-register/write/handbook/ddh.pdf){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
-2. [Federal CIO Council & Federal Public Key Infrastructure Policy Authority (FPKIPA) - Use of Electronic Signatures in Federal Organization Transactions](https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/1151/2016/10/Use_of_ESignatures_in_Federal_Agency_Transactions_v1-0_20130125.pdf){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
+1. [Office of the Federal Register’s Document Drafting Handbook](https://www.archives.gov/files/federal-register/write/handbook/ddh.pdf){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
+2. [Federal CIO Council & Federal Public Key Infrastructure Policy Authority
+(FPKIPA) - Use of Electronic Signatures in Federal Organization Transactions](https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/1151/2016/10/Use_of_ESignatures_in_Federal_Agency_Transactions_v1-0_20130125.pdf){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
 3. [FICAM Playbook - How to Digitally Sign an Office of the Federal Register Document]({{site.baseurl}}/playbooks/signfedregister/){:target="_blank"}{:rel="noopener noreferrer"}
 4. [X.509 Certificate Policy for the U.S. Federal PKI Common Policy Framework]({{site.baseurl}}/docs/fpki-x509-cert-policy-common.pdf){:target="_blank"}{:rel="noopener noreferrer"}
+
 
 ## Appendix B. Policy Recommendations
 
 The Delegated Digital Signature Working Group identified policy update recommendations to streamline signature processes.
 
-### Recommendation 1. Update OFR's Document Drafting Handbook
+### Recommendation 1. Update OFR’s Document Drafting Handbook
 
-Recommendation: Update the Document Drafting Handbook consistent with this paper to clarify guidance on digital autopen signatures.
-Resolution: Pending final digital autopen paper.
+Recommendation: Update the Document Drafting Handbook consistent with this
+paper to clarify guidance on digital autopen signatures.
 
-### Recommendation 2. Update Federal PKI Certificate Policy for Digital Autopen
+Resolution: Pending final delegated digital signature certificates paper.
 
-Recommendation: Update the Federal Common Policy Certificate Policy for specific procedures to issue a digital autopen certificate. 
-Resolution: The Federal PKI Policy Authority identified existing procedures for role-based certificates are sufficient.
+### Recommendation 2. Update Federal PKI Certificate Policy for Delegated Digital Signature Certificates
+
+Recommendation: Update the Federal Common Policy Certificate Policy for specific
+procedures to issue a digital autopen certificate.
+
+Resolution: The Federal PKI Policy Authority identified existing procedures for role-based certificates are sufficient; however, due to the potential confusion by relying parties consuming digital signature certificates, a Policy update was conducted in Version 2.9 to ensure appropriate certificate naming and profiles were developed to clarify the use case
 
 ### Recommendation 3. Update FICAM Playbook on Digitally Signing an OFR Document
 
-Recommendation: Update the [FICAM Playbook - How to Digitally Sign an Office of the Federal Register Document]({{site.baseurl}}/playbooks/signfedregister/){:target="_blank"}{:rel="noopener noreferrer"} in line with this paper.
+Recommendation: Update the [FICAM Playbook - How to Digitally Sign an Office of
+the Federal Register Document]({{site.baseurl}}/playbooks/signfedregister/){:target="_blank"}{:rel="noopener noreferrer"} in line with this paper. 
+
 Resolution: Pending final digital autopen paper.
 
 ### Recommendation 4. Update the Federal CIO E-Signature Document
 
-Recommendation: Update the [Federal CIO E-signature document](https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/1151/2016/10/Use_of_ESignatures_in_Federal_Agency_Transactions_v1-0_20130125.pdf){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} to reference this paper.
+Recommendation: Update the Federal CIO E-signature document to reference this
+paper. 
+
 Resolution: Pending final digital autopen paper.
 
 ## Appendix C. Templates
