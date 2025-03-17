@@ -13,24 +13,24 @@ version: 2.0
 pubdate: March 15, 2025
 
 subnav:
-  # - text: Executive Summary
-  #   href: '#executive-summary'
-  # - text: The Digital Autopen
-  #   href: '#the-digital-autopen'
-  # - text: Step 1. Define the Agency Process
-  #   href: '#step-1-define-the-agency-process'
-  # - text: Step 2. Define Controls
-  #   href: '#step-2-define-controls'
-  # - text: Step 3. Obtain a Digital Autopen Certificate
-  #   href: '#step-3-obtain-a-digital-autopen-certificate'
-  # - text: Summary
-  #   href: '#summary'
-  # - text: Appendix A. References
-  #   href: '#appendix-a-references'
-  # - text: Appendix B. Policy Recommendations
-  #   href: '#appendix-b-policy-recommendations'
-  # - text: Appendix C. Templates
-  #   href: '#appendix-c-templates'
+  - text: Executive Summary
+    href: '#executive-summary'
+  - text: The Delegated Digital Signature
+    href: '#the-digital-digital-signature'
+  - text: Step 1. Define the Agency Process
+    href: '#step-1-define-the-agency-process'
+  - text: Step 2. Define Controls
+    href: '#step-2-define-controls'
+  - text: Step 3. Obtain a Digital Autopen Certificate
+    href: '#step-3-obtain-a-digital-autopen-certificate'
+  - text: Summary
+    href: '#summary'
+  - text: Appendix A. References
+    href: '#appendix-a-references'
+  - text: Appendix B. Policy Recommendations
+    href: '#appendix-b-policy-recommendations'
+  - text: Appendix C. Templates
+    href: '#appendix-c-templates'
 ---
 
 <!-- Version 2.0  
@@ -202,7 +202,7 @@ members include:
 
 [Appendix B](#appendix-b-policy-recommendations) includes recommended policy and guidance updates identified by the working group. Many of these recommendations have been addressed since the release of v1.0 of this playbook.
 
-## The Digital Autopen
+## The Delegated Digital Signature
 
 Federal agencies must publish documents in the Federal Register for various
 reasons. Only federal employees assigned to designated roles or with the proper
