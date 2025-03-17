@@ -117,11 +117,7 @@ Federal PKI issuer.
  
 {% include alert-info.html heading="Although Federal PKI is traditionally used only to
 facilitate authentication transactions based on a legitimate identity, the delegated
-digital signature use case is the **only** FPKI-approved scenario where authorization
-from one individual can be leveraged by a different person who controls the private
-signature key. As a result, security of the signing key and the supporting issuance
-process is of critical importance provided this new and unique PKI issuance model,
-based on the need to convey authorization as opposed to providing non-repudation
+digital signature use case is the <strong>only</strong> FPKI-approved scenario where authorization from one individual can be leveraged by a different person who controls the private signature key. As a result, security of the signing key and the supporting issuance process is of critical importance provided this new and unique PKI issuance model, based on the need to convey authorization as opposed to providing non-repudation
 of the signer." %}
 
 This playbook recommends using a role-based delegated digital signature certificate
@@ -237,8 +233,7 @@ appears in the digital signature certificate subject name. See the OFR
 Document Drafting Handbook for accepted variations. The Personal Identity
 Verification (PIV) card is a primary means for digitally signing a document.
 
-{% include alert-info.html heading="Note - most common applications that leverage digital
-signatures, display the common name element which is a component of the
+{% include alert-info.html heading="Note - most common applications that leverage digital signatures, display the common name element which is a component of the
 complete subject distinguished name contained in a digital signature certificate." %}
 
 An agency may delegate the authority to digitally sign a document to someone with
@@ -486,10 +481,7 @@ Table 01. Example Common Name in Role-Based Digital Signature Certificates
 
 {% include alert-info.html heading="If your PKI SSP does not currently provide delegated digital signature
 certificates, you will need to coordinate with them to build an appropriate CA
-certificate template based on the [Common Certificate Profiles Worksheet 18]({{site.baseurl}}/docs/fpki-x509-cert-profile-common.pdf#page=43){:target="_blank"}{:rel="noopener noreferrer"}, and
-also potentially work with your RA or Card Management System administrators to
-create templates for these new delegated digital signature certificate hardware
-credentials." %}
+certificate template based on the <a href=\"{{site.baseurl}}/docs/fpki-x509-cert-profile-common.pdf#page=43\" target=\"\">Common Certificate Profiles Worksheet 18</a>, and also potentially work with your RA or Card Management System administrators to create templates for these new delegated digital signature certificate hardware credentials." %}
 
 ## Summary
 
