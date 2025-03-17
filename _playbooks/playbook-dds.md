@@ -326,7 +326,6 @@ certificate. Mandatory and optional controls are in [Step 2](#step-2-define-cont
 
 See [Appendix C](#appendix-c-templates) for sample artifact templates including standard operating procedures.
 
-
 ### User Agreement
 
 A user authorized to sign a Federal Register document conveying the authority of the
@@ -335,7 +334,6 @@ protect a delegated digital signature certificate. See the [Appendix C](#appendi
 of a user agreement. An agency may define additional annual training or refresher
 requirements to ensure the protection of the individually issued private key. The user
 must sign an agreement to obtain a delegated digital signature certificate.
-
 
 ### Issuance Request
 
@@ -402,13 +400,11 @@ a smart card on GSA’s FIPS 201 Evaluation Program Approved Product List or
 a FIPS-140 Level 2 certified security module.
 3. If the delegated digital signature certificate is issued on a smart card form
 factor, the physically printed topography of the card:
-
-    1. must be visually distinct from a PIV card.
-    2. must not have a printed photo, or other personally identifiable
-    information (e.g., authorizing sponsor or recipient’s name, title or role).
-    3. may contain printed information that identifies the card holder such as
-    its requesting office or user.
-
+  1. must be visually distinct from a PIV card.
+  2. must not have a printed photo, or other personally identifiable
+  information (e.g., authorizing sponsor or recipient’s name, title or role).
+  3. may contain printed information that identifies the card holder such as
+  its requesting office or user.
 4. Authentication of the authorizing sponsor and delegated digital signature
 certificate recipient is performed using their PIV cards, such as a signed
 object, such as a user agreement or authorization memo, leveraging their PIV
@@ -423,11 +419,9 @@ certificate must include a unique identifier for the recipient of the delegated
 digital signature certificate (e.g., RFC822 email, UPN, or another internal
 identifier such as an EDIPI)
 7. The validity period of the delegated digital signature certificate must:
-
     1. not exceed 36 months or
     2. be set to the associated expiration date of the digital autopen
     recipient’s PIV authentication certificate.
-
 8. The Enhanced Key Usage (EKU) field is recommended to assert document
 signing or email protection, **but must** not contain client authentication related
 usages, nor separate authentication certificates.
