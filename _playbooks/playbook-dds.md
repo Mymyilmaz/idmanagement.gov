@@ -124,8 +124,6 @@ process is of critical importance provided this new and unique PKI issuance mode
 based on the need to convey authorization as opposed to providing non-repudation
 of the signer." %}
 
-
-
 This playbook recommends using a role-based delegated digital signature certificate
 issued to a hardware device (e.g., smart card, USB hardware device, or other
 FIPS–140 Level 2 certified hardware) from a [Federal PKI Certification Authority.
@@ -143,7 +141,6 @@ processes to support employee digital signatures.
 
 Send any questions on the process to [icam@gsa.gov](mailto:icam@gsa.gov), and certificate
 implementation questions should be sent to [fpki@gsa.gov](mailto:fpki@gsa.gov).
-
 
 ### Key Terms
 - Authorizing sponsor – The federal official authorized to sign Federal Register
@@ -209,134 +206,299 @@ members include:
 
 [Appendix B](#appendix-b-policy-recommendations) includes recommended policy and guidance updates identified by the working group. Many of these recommendations have been addressed since the release of v1.0 of this playbook.
 
-
-
-<!-- Stopping point -->
-
 ## The Digital Autopen
 
-Federal agencies must publish documents in the *Federal Register* for various reasons. Only federal employees with the proper authority may sign those documents. This authority is referred to as the Authorizing Sponsor in this document. When that Authorizing Sponsor is unavailable, they may authorize the use of a digital autopen to affix their signature to a *Federal Register* document. Multiple reasons exist why an authorizing sponsor may be unavailable.
+Federal agencies must publish documents in the Federal Register for various
+reasons. Only federal employees assigned to designated roles or with the proper
+authority may sign those documents. This authority is referred to as the Authorizing
+Sponsor in this document. When that Authorizing Sponsor is unavailable, they may
+authorize the use of a delegated digital signature to affix their signature to a Federal
+Register document. Multiple reasons exist as to why an authorizing sponsor may be
+unavailable.
 
-1. No access to technology that can leverage a PIV card or digital signature certificate.
-2. Travel situations outside of normal working hours that require Federal Register submission.
+1. No access to technology that can leverage a PIV card or digital signature
+certificate.
+2. Travel situations outside of normal working hours that require Federal
+Register submission.
 3. Efficiency when multiple documents must be signed.
 
-The OFR outlines signing requirements in the [Document Drafting Handbook](https://www.archives.gov/files/federal-register/write/handbook/ddh.pdf){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}. There are three main requirements.
+The OFR outlines their signing requirements in the [Document Drafting Handbook](https://www.archives.gov/files/federal-register/write/handbook/ddh.pdf){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}.
 
-1. The signer must be a federal employee with the authority to act for an agency. Laws or Executive Orders define which agency is the regulatory body, while an agency determines who has the authority to sign Federal Register documents.
-2. The title in the signature block must be related to the authority to sign the document. It cannot include honorary titles or titles associated with a different agency role.
-3. The signature block must match the signer's full name as it appears in the digital signature certificate subject name. See the OFR Document Drafting Handbook for accepted variations. The Personal Identity Verification (PIV) card is a primary means for digitally signing a document.
+There are three main requirements.
 
-An agency may delegate the authority to electronically sign a document to someone with an official executive agency billet to sign a document, such as a Deputy Secretary or General Counsel. An agency may delegate a signature to an appropriate authority named in a Federal Register document (see Figure 1).
+1. The signer must be a federal employee with the authority to act for an agency.
+Laws or Executive Orders define which agency is the regulatory body, while an
+agency determines who has the authority to sign Federal Register documents.
+2. The title in the signature block must be related to the authority to sign the
+document. It cannot include honorary titles or titles associated with a
+different agency role.
+3. The document signature block must match the signer’s full name as it
+appears in the digital signature certificate subject name. See the OFR
+Document Drafting Handbook for accepted variations. The Personal Identity
+Verification (PIV) card is a primary means for digitally signing a document.
+
+{% include alert-info.html heading="Note - most common applications that leverage digital
+signatures, display the common name element which is a component of the
+complete subject distinguished name contained in a digital signature certificate." %}
+
+An agency may delegate the authority to digitally sign a document to someone with
+an official executive agency billet to sign a document, such as a Deputy Secretary or
+General Counsel. An agency authorizing sponsor may delegate a signatory authority
+to an appropriately named individual in a Federal Register document (see Figure 1).
 
 Figure 1. Named Delegation Example
 <img src="{{site.baseurl}}/assets/playbooks/autopen-1-nameddelegation.png" align="center" alt="An example of a named delegation in a Federal Register document.">
 <br>
 
-However, in some circumstances, only the federal executive has the authority to sign a Federal Register document. The Federal Register document may face various legal challenges if not signed by the proper authority. This paper proposes a second option when the Authorizing Sponsor completes an official agency delegation of authority process to authorize the use of a digital autopen. A digital autopen leverages a Federal PKI role-based digital signature certificate. **This option is the method proposed by this paper and the focus for the remainder of this paper**.
+However, in some circumstances, only the federal executive has the authority to sign
+a Federal Register document. The Office of the Federal Register and the submitting
+agency may face various legal challenges if a document is not signed by the proper
+authority. This paper proposes an alternative option when the Authorizing Sponsor
+completes an official agency delegation of authority process to authorize the use of
+a delegated digital signature certificate. A Federal PKI role-based delegated digital
+signature certificate is a technological solution that can facilitate this delegation of
+signatory authority. This option is the proposed solution and the focus for the
+remainder of this paper.
 
-A digital signature is a cryptographically secure electronic signature. An agency achieves the cryptographic component by using a PKI certificate. For more information on the difference between electronic and digital signatures, see the [Federal CIO Council guidance on the Use of Electronic Signatures in Federal Organization Transactions](https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/1151/2016/10/Use_of_ESignatures_in_Federal_Agency_Transactions_v1-0_20130125.pdf){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}. An agency can request a role-based digital signature certificate from a Federal PKI Shared Service Provider. A PIV card is issued to a single person and not shared under any circumstance. 
+A digital signature is a cryptographically secured form of electronic signature. An
+agency achieves the cryptographic component by applying a private signature key to
+hashed digital data that recipients can verify a PKI certificate that contains an
+associated public key. For more information on the difference between electronic
+and digital signatures, see the [Federal CIO Council guidance on the Use of Electronic
+Signatures in Federal Organization Transactions](https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/1151/2016/10/Use_of_ESignatures_in_Federal_Agency_Transactions_v1-0_20130125.pdf). An agency can request a
+role-based delegated digital signature certificate from a Federal PKI Shared Service
+Provider or other approved Federal issuer. Like a PIV card, a delegated digital
+signature hardware token is issued to a single person and not shared under any
+circumstance.
 
-This playbook outlines the process for federal agencies to create a Federal Register digital autopen process. It outlines controls around the digital autopen certificate to meet the OFR's digital signature requirements for Federal Register documents and federal cybersecurity. For instructions on digitally signing a Federal Register document, see the [FICAM Playbook Digitally Sign an Office of the Federal Register Document]({{site.baseurl}}/playbooks/signfedregister/).
+This playbook outlines the process for federal agencies to create a process for
+authorizing and requesting issuance of a delegated digital signature certificate for
+the purpose of submitting official documents to the Federal Register. It outlines
+controls around the delegated digital signature certificate to meet the OFR’s digital
+signature requirements for Federal Register documents and federal cybersecurity.
+For instructions on digitally signing a Federal Register document, see the [FICAM
+Playbook Digitally Sign an Office of the Federal Register Document](https://www.idmanagement.gov/playbooks/signfedregister/).
 
-An agency may implement or update a process by following these three playbook steps.
+An agency may implement or update a process by following these three playbook
+steps.
 
-1. [Define the agency process](#step-1-define-the-agency-process) to delegate signing Federal Register documents. 
-2. [Define controls](#step-2-define-controls) to ensure the certificate and associated key are used only for the intended purpose. 
-3. [Obtain a role-based digital signature certificate](#step-3-obtain-a-digital-autopen-certificate) from a PKI Shared Service Provider. 
+1. [Define the agency process](#step-1-define-the-agency-process) to delegate signing Federal Register documents.
+2. [Define controls](#step-2-define-controls) to ensure the certificate and associated key are used only for the intended purpose.
+3. [Obtain a role-based digital signature certificate](#step-3-obtain-a-digital-autopen-certificate) from a PKI Shared Service
+Provider.
 
-Send any process questions or concerns to [icam@gsa.gov](mailto:icam@gsa.gov).
+Send any process questions or concerns to [icam@gsa.gov](mailto:icam@gsa.gov), and certificate implementation questions should also be sent to [fpki@gsa.gov](mailto:fpki@gsa.gov).
 
 ## Step 1. Define the Agency Process
 
-This section is written for executive staff to understand an overall digital autopen process. An agency owns the process for identifying authorized individuals and delegating authority to others. This playbook builds on the assumption that agencies have a defined process for Federal Register documents, which should be updated to include the extra steps and guidance to leverage a digital autopen. At the end of this step, agency executive staff will have the following deliverables. 
+This section is written for executive staff to understand an overall delegated digital
+signature process. An agency owns the process for identifying authorized
+individuals and delegating authority to others not directly assigned or appointed to
+that role. This playbook builds on the assumption that agencies have a defined
+process for Federal Register documents, which should be updated to include the
+extra steps and guidance to leverage a delegated digital signature certificate. At the
+end of this step, agency executive staff will have the following artifacts.
 
 1. A delegation of authority through an agency policy.
-2. A digital autopen standard operating procedure.
-3. Signed user agreements from the Authorizing Sponsor and Digital Autopen Recipient.
+2. A delegated digital signature standard operating procedure.
+3. Signed user agreements from the Authorizing Sponsor and Delegated Digital
+Signature Certificate Recipient.
 4. Senior security official approval.
 
 ### Delegate Authority Through An Agency Policy
 
-An agency has the authority and should have an existing process to delegate specific agency activity. An agency should follow its existing delegation process to delegate digitally signing Federal Register documents. This paper will not outline how to create a delegation process. Agencies should involve their General Counsel’s Office for advice and recommendations on the agency’s authority and delegation process. 
+An agency has the authority and should have an existing process to delegate
+specific agency activities. An agency should follow its existing delegation process to
+delegate signing Federal Register documents. This paper will not outline how to
+create a delegation process. Agencies should involve their General Counsel’s Office
+for advice and recommendations on the agency’s authority and delegation process.
 
 ### Develop a Standard Operating Procedure
 
-An agency must define the delegation process, including maintaining, auditing, and measuring the process through a standard operating procedure. Collaborate in the early stages of development with your technology and security officials to create an agreeable process within the agency's risk appetite. The rules or Standard Operating Procedure should include the following elements.
+An agency must define and document the delegation process, including maintaining,
+auditing, and measuring the process through a standard operating procedure.
+Collaborate in the early stages of development with your technology and security
+officials to create an agreeable process within the agency’s risk appetite. The rules
+or Standard Operating Procedure should include the following elements.
 
-1. An agency policy that delegates the Federal Register signing authority to leverage a digital autopen.
-2. A process to receive delegation approval and affix a digital autopen signature to a document. See [Appendix C](#appendix-c-templates) for an example of a decision document.
-3. A process to obtain a role-based certificate. Required and optional controls are in [Step 2](#step-2-define-controls).
+1. An agency policy that delegates the Federal Register signing authority to
+leverage a delegated digital signature certificate.
+2. A process to receive delegation approval and affix a delegated digital
+signature to a document. See [Appendix C](#appendix-c-templates) for an example of a decision
+document.
+3. A process to request and obtain a role-based delegated digital signature
+certificate. Mandatory and optional controls are in [Step 2](#step-2-define-controls).
 
-See [Appendix C](#appendix-c-templates) for sample templates including standard operating procedures.
+See [Appendix C](#appendix-c-templates) for sample artifact templates including standard operating procedures.
+
 
 ### User Agreement
-A user must understand their responsibilities and the requirements to use and protect a digital autopen certificate. See the [Appendix C](#appendix-c-templates) for an example of a user agreement. An agency may define additional annual training or refresher requirements. The user signs the agreement to obtain a certificate.
+
+A user authorized to sign a Federal Register document conveying the authority of the
+sponsor must understand their responsibilities and the requirements to use and
+protect a delegated digital signature certificate. See the [Appendix C](#appendix-c-templates) for an example
+of a user agreement. An agency may define additional annual training or refresher
+requirements to ensure the protection of the individually issued private key. The user
+must sign an agreement to obtain a delegated digital signature certificate.
+
 
 ### Issuance Request
 
-The final step involves an agency defining the issuance request procedures. The issuance document is signed by the agency's senior security official such as the Chief Security Officer or Chief Information Security Office. As part of the issuance, the requesting office may submit the following verification documents:
+The final step involves an agency defining the issuance request procedures. The
+issuance request procedure document is signed by the agency’s senior security
+official such as the Chief Security Officer or Chief Information Security Office. As
+part of the delegated digital signature certificate issuance request, the requesting
+office may submit the following verification documents:
 
-1. An agency policy delegating signing authority to an office or a designated individual.
-2. The requesting office document identifies the digital autopen recipient.
-3. The current version of a digital autopen standard operating procedure.
-4. Verify this request doesn't exceed the maximum number of allowed delegates.
+1. An official agency artifact conveying the delegation of signatory authority of
+the authorizing sponsor to an office or a designated individual.
+2. The requesting office document that individually identifies the intended
+recipient of the delegated digital signature certificate/key.
+3. The current version of a delegated digital signature standard operating
+procedure.
+4. Verify this request doesn’t exceed the maximum number of allowed
+delegates, as defined by the agency.
 5. A signed user agreement.
 
-The agency senior security official or designate verifies the request with supporting documentation and approves or disapproves as appropriate.  Once the request is approved, the agency stores the evidence for audit or review purposes and submits the required information to their certificate issuer. See [Appendix C](#appendix-c-templates) for an issuance request example.
+The agency senior security official or designee verifies the request with supporting
+documentation and approves or disapproves the request, as appropriate. Once the
+request is approved, the agency submits the required information to their certificate
+issuer or Registration Authority (RA) and stores the evidence for audit or review
+purposes. See [Appendix C](#appendix-c-templates) for an issuance request example.
 
 ## Step 2. Define Controls
 
-This section is written for security and risk managers to identify specific controls to mitigate digital autopen unintended use risks. An agency should define and implement controls to ensure the digital autopen certificate is only used for its intended purpose. Controls may include a combination of physical or logical controls to limit how or when a digital autopen certificate is used. Agencies should integrate these controls into an existing audit process. Agencies must adopt the following required administrative and certificate controls.
+This section is written for security and risk managers to identify specific controls to
+mitigate risks associated with misissuance or misuse of delegated digital signature
+certificates. An agency should define and implement controls to ensure the
+delegated digital signature certificate is only issued after appropriate authorization
+and authentications of all parties and that it is only used for its intended purpose.
+Controls may include a combination of physical or logical controls to limit how or
+when a delegated digital signature certificate is accessed and the private key
+activated to support approved signing uses. Agencies should integrate these
+controls into an existing audit process. Agencies must adopt the following required
+administrative and certificate controls.
 
 ### Required Administrative Controls
 
-1. Review the digital autopen standard operating procedures annually, or more frequently ([Template](#appendix-c-templates)).
-2. Before digital autopen issuance, verify the authorizing sponsor and each digital autopen recipient have a valid PIV card.
+1. Review the digital autopen standard operating procedures annually, or more
+frequently ([Template](#appendix-c-templates)).
+2. Before digital autopen issuance, verify the authorizing sponsor and each
+digital autopen recipient have a valid PIV card through an auditable
+authentication or signing event.
 3. The digital autopen recipient must be a federal employee.
 4. The digital autopen recipient must sign a user agreement ([Template](#appendix-c-templates)).
-5. The authorizing sponsor must separately authorize each use of the digital autopen signature, and the digital autopen recipient must keep a record of each approval ([Template](#appendix-c-templates)).
+5. The authorizing sponsor must separately authorize each application of the
+delegated digital signature, and the delegated digital signature certificate
+recipient must keep a record of each approval ([Template](#appendix-c-templates)).
+6. Maximum of two digital autopen recipients to one authorizing sponsor which
+shall be enforced by the requesting agency.
 
 ### Required Certificate Controls
 
-1. A digital autopen certificate is never issued on a PIV card.
-2. Issue a digital autopen certificate to a hardware device such as a smart card on GSA’s FIPS 201 Evaluation Program Approved Product List or a FIPS-140 Level 2 certified authenticator or security module.
-3. If the digital autopen certificate is issued to a smart card:
-   1. It shall be visually distinct from a PIV card.
-   2. It shall not have a photo.
-   3. It shall have the words “digital autopen” or similar to identify the card uniquely.
-4. Maximum of two digital autopen recipients to one authorizing sponsor.
-5. Authentication of the authorizing sponsor and digital autopen recipient is performed using their PIV cards.
-6. The common name in the certificate must state the role of authorizing official such as “Secretary of Homeland Security” or “Secretary Name - Secretary of Homeland Security.”
-7. The validity period of the digital autopen certificate must:
-    1. not exceed twelve months or
-    2. be set to the associated expiration date of the digital autopen recipient's PIV card if less than twelve months remains until expiration.
-8. After issuance, the authorizing sponsor is notified of digital autopen certificate issuance via email or other means of communication.
+Please note that many of these controls will be inherited based on the CA and Card
+Management System (CMS) configurations, and may not be customizable by the
+agency requesting the delegated digital signature certificate.
 
-Due to unique agency risks, the working group identifies the below optional controls for additional consideration. Consider remote work and exigent circumstances before applying a physical location control. For example, limiting use to during working hours will hinder agency signing operations during off hours when the Authorizing Sponsor is not available to digitally sign.
+1. A digital autopen certificate and private key are never issued on a pre-existing
+individually assigned and personalized PIV card.
+2. Issue a delegated digital certificate to an authorized hardware device such as
+a smart card on GSA’s FIPS 201 Evaluation Program Approved Product List or
+a FIPS-140 Level 2 certified security module.
+3. If the delegated digital signature certificate is issued on a smart card form
+factor, the physically printed topography of the card:
+
+    1. must be visually distinct from a PIV card.
+    2. must not have a printed photo, or other personally identifiable
+    information (e.g., authorizing sponsor or recipient’s name, title or role).
+    3. may contain printed information that identifies the card holder such as
+    its requesting office or user.
+
+4. Authentication of the authorizing sponsor and delegated digital signature
+certificate recipient is performed using their PIV cards, such as a signed
+object, such as a user agreement or authorization memo, leveraging their PIV
+signature certificate(s).
+5. The common name in the certificate must state the role of authorizing
+sponsor such as “Secretary of Homeland Security” or “Secretary Name -
+Secretary of Homeland Security.,” and be suffixed with a certificate purpose
+such as “(OFR).” Note that OFR signature block requirements include the
+authorizing sponsor’s name to align with the document signature block.
+6. The Subject Alternative Name (SAN) of the delegated digital signature
+certificate must include a unique identifier for the recipient of the delegated
+digital signature certificate (e.g., RFC822 email, UPN, or another internal
+identifier such as an EDIPI)
+7. The validity period of the delegated digital signature certificate must:
+
+    1. not exceed 36 months or
+    2. be set to the associated expiration date of the digital autopen
+    recipient’s PIV authentication certificate.
+
+8. The Enhanced Key Usage (EKU) field is recommended to assert document
+signing or email protection, **but must** not contain client authentication related
+usages, nor separate authentication certificates.
+9. The delegated digital signature certificate recipient must be the individual that
+generates the PIN which makes the private key available for signature
+functions.
+
+Due to unique agency risks, the working group identifies the below optional controls
+for additional consideration. Consider remote work and exigent circumstances
+before applying a physical location control. For example, limiting use to during
+working hours will hinder agency signing operations during off hours when the
+Authorizing Sponsor is not available to digitally sign.
 
 ### Optional Controls
 
-1. Develop an automated approval workflow as an automated and auditable mechanism to record when a delegation is given.
+1. Develop an automated approval workflow as an automated and auditable
+mechanism to record when a delegation is given.
+2. If feasible, multi person physical access controls for storage of a delegated
+digital signature certificate when not in use, and a log of when it is accessed
+and re-secured.
 
 ## Step 3. Obtain a Digital Autopen Certificate
 
-A digital autopen certificate is available from any Federal PKI Shared Service Provider. [Federal Agency Legacy PKI]({{site.baseurl}}/university/fpki/){:target="_blank"}{:rel="noopener noreferrer"} may also issue this certificate for their agency. An agency must request a **ROLE-BASED SIGNATURE CERTIFICATE**. Check with your Homeland Security Presidential Directive-12 Security Office or PIV card issuer if they can issue a role-based certificate. Federal PKI Shared Service Providers are listed as government identity providers on [idmanagement.gov]({{site.baseurl}}/trust-services/#government-identity-services){:target="_blank"}{:rel="noopener noreferrer"}. They provide Federal PKI certificates and PIV services.
+A delegated digital signature certificate may be issued from any Federal PKI Shared
+Service Provider, though some may need to update their Certificate Practices
+Statements (CPSs) and certificate templates based on newer versions of certificate
+policy and profiles. Federal Agency Legacy PKI may also issue this certificate for
+their agency. An agency must request a ROLE-BASED DELEGATED DIGITAL
+SIGNATURE CERTIFICATE. Check with your Homeland Security Presidential
+Directive-12 Security Office or PIV card issuer if they can issue a role-based
+certificate generally or a delegated digital signature certificate specifically. Federal
+PKI Shared Service Providers are listed as government identity providers on
+idmanagement.gov. They provide Federal PIV services and other PKI certificate
+types as approved by the FPKI Policy Authority (FPKIPA).
 
-While OFR accepts any Federal PKI digital signature certificate, this playbook recommends a hardware-based certificate issued to a FIPS-140 Level 2 certified hardware device such as a visually distinct, approved smart card or USB device such as a FIDO authenticator. Below are examples of the Common Name used in digital autopen certificates.
+While OFR accepts any Federal PKI digital signature certificate that chains up to the
+Federal Common Policy CA G2, this playbook recommends, and FPKI certificate
+policy requires, hardware-based certificate issued to a FIPS-140 Level 2 certified
+device such as a visually distinct, approved smart card or USB device such as a FIDO
+authenticator containing a validated PIV applet. Below are examples of the Common
+Names used in delegated digital signature certificates.
 
-Table 01. Example Common Name in Role-Based Certificate
+Table 01. Example Common Name in Role-Based Digital Signature Certificates
 
-| Position | Common Name Example | Note |
-| -------- | ------------------- | ---- |
-| Secretary | CN: Secretary of DHS Jane Smith | Exclusive to the Secretary Role. |
-| Commissioner | CN: Commissioner FDA John Smith | Exclusive to the Commissioner Role. |
-| Administrator | CN: Administrator NASA Jane Smith | Exclusive to the Administrator Role. |
-| Director | CN: Director ATF Jane Smith | Exclusive to the Director Role. |
+| Position | Common Name | Example Note |
+|----------|-------------|--------------|
+| Secretary | CN: Secretary of DHS Jane Smith (OFR) | Exclusive to the Secretary Role. |
+| Commissioner | CN: Commissioner FDA John Smith (OFR) | Exclusive to the Commissioner Role. |
+| Administrator | CN: Administrator NASA Jane Smith (OFR) | Exclusive to the Administrator Role. |
+| Director | CN: Director ATF Jane Smith (OFR) | Exclusive to the Director Role. |
+
+{% include alert-info.html heading="If your PKI SSP does not currently provide delegated digital signature
+certificates, you will need to coordinate with them to build an appropriate CA
+certificate template based on the [Common Certificate Profiles Worksheet 18]({{site.baseurl}}/docs/fpki-x509-cert-profile-common.pdf#page=43), and
+also potentially work with your RA or Card Management System administrators to
+create templates for these new delegated digital signature certificate hardware
+credentials." %}
 
 ## Summary
 
-This paper outlines a process for an agency to create and leverage a digital autopen for Federal Register documents. An agency must define its approach in a policy, identify a solution, and then obtain a certificate. This paper recommends an agency use a hardware-based certificate for added security and control. This paper also includes policy recommendations for suggested updates to the OFR Document Drafting Handbook, Federal PKI Certificate Policy, FICAM playbooks, and the CIO Council E-Signature Document.
+This paper outlines a process for an agency to create and leverage a delegated
+digital signature certificate for authorized signatures on Federal Register
+documents. An agency must define its approach in a policy, identify agency level
+security controls, and finally request and obtain a hardware based PKI certificate.
+This paper also includes policy recommendations for suggested updates to the OFR Document Drafting Handbook, Federal PKI Certificate Policy, FICAM playbooks, and
+the CIO Council E-Signature Document.
 
 ## Appendix A. References
 
