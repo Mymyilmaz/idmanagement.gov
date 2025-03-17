@@ -523,7 +523,7 @@ the Federal Register Document]({{site.baseurl}}/playbooks/signfedregister/){:tar
 **Recommendation:** Update the Federal CIO E-signature document to reference this
 paper. 
 
-*Resolution:** Pending final digital autopen paper.
+**Resolution:** Pending final digital autopen paper.
 
 ## Appendix C. Templates
 
