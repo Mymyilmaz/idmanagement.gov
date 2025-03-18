@@ -9,9 +9,33 @@ sticky_sidenav: true
 subnav:
   # - text: Introduction
   #   href: '#introduction'
+- text: IARPA HIATUS
+  href: '#iarpa-hiatus'
 ---
 
 This section of IDManagement.gov is dedicated to ongoing experiments and research initiated by the GSA Office of Government-wide Policy, Identity Assurance and Trusted Access Division, other agencies, industry and academia partners. 
 
 Please reach out to [icam@gsa.gov](mailto:icam@gsa.gov) with ideas, questions, and collaboration opportunities for us to consider.  
 
+
+## IARPA HIATUS
+
+The HIATUS program aims to address various Intelligence Community (IC) and Law Enforcement (LE) needs such as combating sophisticated malicious information campaigns online, addressing counterintelligence risks, and fighting human trafficking and online fraud. It does so by developing novel Artificial Intelligence (AI) systems for attributing document authorship (Who is the author of this text?) in an explainable way (What is 
+the evidence of authorship?), detecting AI-generated text (Was this document written by human or machine?) and protecting author privacy (How do I ensure that my writing is not attributable?).
+
+<script>
+  // Selecting the iframe element
+  var frame = document.getElementById("hiatus");
+  
+  // Adjusting the iframe height onload event
+  frame.onload = function() {
+      // set the height of the iframe as 
+      // the height of the iframe content
+      frame.style.height = frame.contentWindow.document.body.height + 'px';
+
+      // set the width of the iframe as the 
+      // width of the iframe content
+      frame.style.width  = frame.contentWindow.document.body.scrollWidth + 'px';
+  }
+</script>
+<iframe id="hiatus" title="IARPA HIATUS Slicksheet PDF" src="{{site.baseurl}}/docs/expdocs/HIATUS_SlickSheet_20250131.pdf#toolbar=1&zoom=100&view=Fit" width="100%" height="792px"></iframe>
