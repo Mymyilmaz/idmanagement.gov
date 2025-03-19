@@ -25,7 +25,9 @@ the evidence of authorship?), detecting AI-generated text (Was this document wri
 
 To learn more about IARPA HIATUS and how it works, click the button below.
 
-[Explore Further](https://www.iarpa.gov/research-programs/hiatus){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external usa-button"}
+<a href="" style="color:white;text-decoration:none">
+  <button class="usa-button">Explore Further</button>
+</a>
 
 
 
