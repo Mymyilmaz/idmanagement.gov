@@ -63,7 +63,7 @@ The following organizations offer Identity, Credential, and Access Management se
 
 GSA Multiple Award Schedule (MAS) provides access to long-term government-wide contracts. These contacts are with commercial firms that offer millions of commercial products and services at volume discount pricing. The MAS provides tools and expertise to shorten acquisition cycles, ensure compliance, and obtain the best value for innovative technology products, services, and solutions.
 
-- [Frequently Asked Questions (FAQs)](https://www.gsa.gov/technology/it-contract-vehicles-and-purchasing-programs/multiple-award-schedule-it/buy-from-mas-information-technology/frequently-asked-questions-faqs-for-buyers){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
+- [Help with MAS buying](https://www.gsa.gov/buy-through-us/purchasing-programs/multiple-award-schedule/help-with-mas-buying){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
 - [GSA Advantage!](https://www.gsaadvantage.gov/){:target="_blank"}{:rel="noopener noreferrer"} – Online shopping and ordering system
   - [541519ICAM](https://www.gsa.gov/technology/it-contract-vehicles-and-purchasing-programs/multiple-award-schedule-it/identity-credentialing-and-access-management){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} – ICAM Solutions
   - [541519PKI](https://www.gsa.gov/technology/it-contract-vehicles-and-purchasing-programs/multiple-award-schedule-it/pki-shared-service-providers-program){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} – PKI Shared Service Providers (SSP)

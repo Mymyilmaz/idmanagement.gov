@@ -20,22 +20,23 @@ Please reach out to [icam@gsa.gov](mailto:icam@gsa.gov) with ideas, questions, a
 
 ## IARPA HIATUS
 
-The HIATUS program aims to address various Intelligence Community (IC) and Law Enforcement (LE) needs such as combating sophisticated malicious information campaigns online, addressing counterintelligence risks, and fighting human trafficking and online fraud. It does so by developing novel Artificial Intelligence (AI) systems for attributing document authorship (Who is the author of this text?) in an explainable way (What is 
-the evidence of authorship?), detecting AI-generated text (Was this document written by human or machine?) and protecting author privacy (How do I ensure that my writing is not attributable?).
+The HIATUS - _Human Interpretable Attribution of Text using Underlying Structure_ program aims to address various Intelligence Community (IC) and Law Enforcement (LE) needs such as combating sophisticated malicious information campaigns online, addressing counterintelligence risks, and fighting human trafficking and online fraud. It does so by developing novel Artificial Intelligence (AI) systems for attributing document authorship (Who is the author of this text?) in an explainable way (What is 
+the evidence of authorship?), detecting AI-generated text (Was this document written by human or machine?) and protecting author privacy (How do I ensure that my writing is not attributable?). 
 
-<script>
-  // Selecting the iframe element
-  var frame = document.getElementById("hiatus");
-  
-  // Adjusting the iframe height onload event
-  frame.onload = function() {
-      // set the height of the iframe as 
-      // the height of the iframe content
-      frame.style.height = frame.contentWindow.document.body.height + 'px';
+HIATUS program artifacts such as trainable Dockerized text author attribution/privatization systems, auxiliary data processing and annotation scripts, and datasets are available at no cost to USG agencies and their contractors. Since the program kick-off in 2022, IARPA has successfully transitioned some of these artifacts to several Government agencies.
+ 
+If your mission relies on determining authorship of text, text privatization or detection of machine-generated text content, please reach out to [dni-iarpa-hiatus@iarpa.gov](mailto:dni-iarpa-hiatus@iarpa.gov) to discuss transition of HIATUS technology. The program is also interested in learning about new use cases.
 
-      // set the width of the iframe as the 
-      // width of the iframe content
-      frame.style.width  = frame.contentWindow.document.body.scrollWidth + 'px';
-  }
-</script>
-<iframe id="hiatus" title="IARPA HIATUS Slicksheet PDF" src="{{site.baseurl}}/docs/expdocs/HIATUS_SlickSheet_20250131.pdf#toolbar=1&zoom=100&view=Fit" width="100%" height="792px"></iframe>
+To learn more about the **IARPA HIATUS** program and how it works, click the button below.
+
+<a href="https://www.iarpa.gov/research-programs/hiatus" 
+   style="text-decoration:none;" 
+   target="_blank" 
+   title="IARPA HIATUS Program">
+  <button class="usa-button usa-link usa-link--external" style="color:#ffffff;">Explore Further</button>
+</a>
+
+
+
+
+
