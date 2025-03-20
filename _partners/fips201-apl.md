@@ -103,7 +103,7 @@ The Physical Access Control System (PACS) products listed under the â€œApprovedâ
 - [Gallagher T Series PIV Readers]({{site.baseurl}}/docs/apl-10021-10023-10038-10039-10099-10102-10185-10186-gallagher.pdf){:target="_blank"}{:rel="noopener noreferrer"}
 - [HID pivCLASS Series Readers]({{site.baseurl}}/docs/apl-10003-10008-26-52-85-pivclass.pdf){:target="_blank"}{:rel="noopener noreferrer"}
 - [HID Signo Series Readers]({{site.baseurl}}/docs/apl-10134-10137-signo.pdf){:target="_blank"}{:rel="noopener noreferrer"}
-- [Identiv uTrust Series Readers]({{site.baseurl}}/docs/apl-10104-07-19-24-25-47-58-74-80-utrust.pdf){:target="_blank"}{:rel="noopener noreferrer"}
+- [Identiv uTrust Series Readers]({{site.baseurl}}/docs/apl-10104-07-19-24-25-47-58-74-80-96-utrust.pdf){:target="_blank"}{:rel="noopener noreferrer"}
 - [IDFACTORS Readers]({{site.baseurl}}/docs/apl-10112-10113-idfactors.pdf){:target="_blank"}{:rel="noopener noreferrer"}
 - [Innometriks Cheetah Series Readers]({{site.baseurl}}/docs/apl-10109-30-60-62-81-84-cheetah.pdf){:target="_blank"}{:rel="noopener noreferrer"}
 - [Veridt Series Readers]({{site.baseurl}}/docs/apl-10031-35-10092-96-10163-67-10186-87-10194-95-veridt.pdf){:target="_blank"}{:rel="noopener noreferrer"}
