@@ -90,7 +90,7 @@ case of role-based digital delegated signatures for OFR submissions.
   </div>
 </div>
 
-{% include alert-warning.html content="**Note** - v2.0 generated a title change, the previous playbook was referred to as the \"Digital Autopen Playbook\", the update to \"Delegated Digital Signature\" aligns with FPKI and CIO Council terminology for the use case." %}
+{% include alert-warning.html content="**Note** - v2.0 generated a title change, the previous playbook was referred to as the \"Digital Autopen Playbook\", the update to \"Delegated Digital Signature\" aligns with Federal PKI and CIO Council terminology for the use case." %}
 
 ## Executive Summary
 
@@ -173,8 +173,8 @@ the Federal Register.
 The Delegated Digital Signature Working Group of the Federal Chief Information
 Security Officer Council ICAM Subcommittee developed v1.0 of this Playbook. U.S.
 Federal Executive Branch agencies can use this Playbook to supplement existing
-electronic signature policy and implement specific procedures to create a digital
-autopen to sign Federal Register documents. This Playbook is not official policy,
+electronic signature policy and implement specific procedures to create a delegated digital
+signature certificate to sign Federal Register documents. This Playbook is not official policy,
 mandated action, or provides authoritative information technology terms. It includes
 best practices to supplement existing federal policies and builds upon Office of
 Management and Budget Memorandum 19-17, A-130, and existing FICAM guidance
@@ -402,10 +402,10 @@ a smart card on GSA’s FIPS 201 Evaluation Program Approved Product List or
 a FIPS-140 Level 2 certified security module.
 3. If the delegated digital signature certificate is issued on a smart card form
 factor, the physically printed topography of the card:
-  1. must be visually distinct from a PIV card.
-  2. must not have a printed photo, or other personally identifiable
+    1. must be visually distinct from a PIV card.
+    2. must not have a printed photo, or other personally identifiable
   information (e.g., authorizing sponsor or recipient’s name, title or role).
-  3. may contain printed information that identifies the card holder such as
+    3. may contain printed information that identifies the card holder such as
   its requesting office or user.
 4. Authentication of the authorizing sponsor and delegated digital signature
 certificate recipient is performed using their PIV cards, such as a signed
@@ -422,8 +422,7 @@ digital signature certificate (e.g., RFC822 email, UPN, or another internal
 identifier such as an EDIPI)
 7. The validity period of the delegated digital signature certificate must:
     1. not exceed 36 months or
-    2. be set to the associated expiration date of the digital autopen
-    recipient’s PIV authentication certificate.
+    2. be set to the associated expiration date of the recipient’s PIV authentication certificate.
 8. The Enhanced Key Usage (EKU) field is recommended to assert document
 signing or email protection, but **must not** contain client authentication related
 usages, nor separate authentication certificates.
@@ -502,14 +501,14 @@ The Delegated Digital Signature Working Group identified policy update recommend
 ### Recommendation 1. Update OFR’s Document Drafting Handbook
 
 **Recommendation:** Update the Document Drafting Handbook consistent with this
-paper to clarify guidance on digital autopen signatures.
+paper to clarify guidance on delegated digital signatures.
 
 **Resolution:** Pending final delegated digital signature certificates paper.
 
 ### Recommendation 2. Update Federal PKI Certificate Policy for Delegated Digital Signature Certificates
 
 **Recommendation:** Update the Federal Common Policy Certificate Policy for specific
-procedures to issue a digital autopen certificate.
+procedures to issue a delegated digital signature certificate.
 
 **Resolution:** The Federal PKI Policy Authority identified existing procedures for role-based certificates are sufficient; however, due to the potential confusion by relying parties consuming digital signature certificates, a Policy update was conducted in Version 2.9 to ensure appropriate certificate naming and profiles were developed to clarify the use case
 
@@ -518,14 +517,14 @@ procedures to issue a digital autopen certificate.
 **Recommendation:** Update the [FICAM Playbook - How to Digitally Sign an Office of
 the Federal Register Document]({{site.baseurl}}/playbooks/signfedregister/){:target="_blank"}{:rel="noopener noreferrer"} in line with this paper. 
 
-**Resolution:** Pending final digital autopen paper.
+**Resolution:** Pending final delegated digital signature paper.
 
 ### Recommendation 4. Update the Federal CIO E-Signature Document
 
 **Recommendation:** Update the Federal CIO E-signature document to reference this
 paper. 
 
-**Resolution:** Pending final digital autopen paper.
+**Resolution:** Pending final delegated digital signature paper.
 
 ## Appendix C. Templates
 
