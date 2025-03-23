@@ -111,7 +111,7 @@ process to create a delegated digital signature to sign a Federal Register docum
 Register documents.
 2. [Define controls](#step-2-define-controls) to ensure the certificate and associated private key are used
 only for the intended purpose 
-3. [Obtain a role-based delegated digital signature certificate](#step-3-obtain-a-digital-autopen-certificate) from a Federal
+3. [Obtain a role-based delegated digital signature certificate](#step-3-obtain-a-delegated-digital-signature-certificate) from a Federal
 Public Key Infrastructure (PKI) Shared Service Provider or other approved
 Federal PKI issuer.
  
