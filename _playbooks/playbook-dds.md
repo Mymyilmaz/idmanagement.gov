@@ -241,9 +241,8 @@ an official executive agency billet to sign a document, such as a Deputy Secreta
 General Counsel. An agency authorizing sponsor may delegate a signatory authority
 to an appropriately named individual in a Federal Register document (see Figure 1).
 
-Figure 1. Named Delegation Example
-<img src="{{site.baseurl}}/assets/playbooks/autopen-1-nameddelegation.png" align="center" alt="An example of a named delegation in a Federal Register document.">
-<br>
+![An example of a named delegation in a Federal Register document.]({{site.baseurl}}/assets/playbooks/autopen-1-nameddelegation.png "Figure 1. Named Delegation Example"){:align="center"}
+
 
 However, in some circumstances, only the federal executive has the authority to sign
 a Federal Register document. The Office of the Federal Register and the submitting
