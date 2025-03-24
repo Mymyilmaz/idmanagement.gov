@@ -125,7 +125,7 @@ issued to a hardware device (e.g., smart card, USB hardware device, or other
 FIPS–140 Level 2 certified hardware) from a [Federal PKI Certification Authority.
 Federal Agency Certification Authorities]({{site.baseurl}}/trust-services/#government-identity-services){:target="_blank"}{:rel="noopener noreferrer"} may also be configured to issue these
 delegated digital signature certificates from their own managed Certification
-Authorities (CAs) that assert or map to the id-fpki-common-hardware certificate
+Authorities (CAs) that assert the id-fpki-common-hardware certificate
 policy object identifier defined by the Federal Common Policy CA. The delegated
 digital signature certificates can only be used to digitally sign documents, these
 certificate types are specifically prohibited from asserting client authentication
