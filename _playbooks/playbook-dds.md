@@ -244,7 +244,7 @@ to an appropriately named individual in a Federal Register document (see Figure 
 <div style="text-align:center">
   <img src="{{site.baseurl}}/assets/playbooks/autopen-1-nameddelegation.png" alt="An example of a named delegation in a Federal Register document." title="Figure 1. Named Delegation Example">
   <br>
-  Figure 1. Named Delegation Example
+  <strong>Figure 1. Named Delegation Example</strong>
 </div>
 
 However, in some circumstances, only the federal executive has the authority to sign
