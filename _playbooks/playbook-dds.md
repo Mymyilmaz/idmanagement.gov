@@ -21,8 +21,8 @@ subnav:
     href: '#step-1-define-the-agency-process'
   - text: Step 2. Define Controls
     href: '#step-2-define-controls'
-  - text: Step 3. Obtain a Digital Autopen Certificate
-    href: '#step-3-obtain-a-digital-autopen-certificate'
+  - text: Step 3. Obtain a Delegated Digital Signature Certificate
+    href: '#step-3-obtain-a-delegated-digital-signature-certificate'
   - text: Summary
     href: '#summary'
   - text: Appendix A. References
@@ -39,7 +39,7 @@ March 15, 2005 -->
 The Delegated Digital Signature Working Group of the Federal Chief Information
 Security Officer Council Identity, Credential, and Access Management Subcommittee
 developed this playbook to outline the process for a federal agency to implement a
-digital autopen for Federal Register documents.
+digital autopen-like capability for Federal Register documents.
 
 Version 2.0 of this playbook was developed by Federal PKI Policy Authority support
 based on modifications to the [X.509 Certificate Policy for the U.S. Federal PKI
@@ -90,7 +90,7 @@ case of role-based digital delegated signatures for OFR submissions.
   </div>
 </div>
 
-{% include alert-warning.html content="**Note** - v2.0 generated a title change, the previous playbook was referred to as the \"Digital Autopen Playbook\", the update to \"Delegated Digital Signature\" aligns with FPKI and CIO Council terminology for the use case." %}
+{% include alert-warning.html content="**Note** - v2.0 generated a title change, the previous playbook was referred to as the \"Digital Autopen Playbook\", the update to \"Delegated Digital Signature\" aligns with Federal PKI and CIO Council terminology for the use case." %}
 
 ## Executive Summary
 
@@ -111,7 +111,7 @@ process to create a delegated digital signature to sign a Federal Register docum
 Register documents.
 2. [Define controls](#step-2-define-controls) to ensure the certificate and associated private key are used
 only for the intended purpose 
-3. [Obtain a role-based delegated digital signature certificate](#step-3-obtain-a-digital-autopen-certificate) from a Federal
+3. [Obtain a role-based delegated digital signature certificate](#step-3-obtain-a-delegated-digital-signature-certificate) from a Federal
 Public Key Infrastructure (PKI) Shared Service Provider or other approved
 Federal PKI issuer.
  
@@ -125,13 +125,13 @@ issued to a hardware device (e.g., smart card, USB hardware device, or other
 FIPS–140 Level 2 certified hardware) from a [Federal PKI Certification Authority.
 Federal Agency Certification Authorities]({{site.baseurl}}/trust-services/#government-identity-services){:target="_blank"}{:rel="noopener noreferrer"} may also be configured to issue these
 delegated digital signature certificates from their own managed Certification
-Authorities (CAs) that assert or map to the id-fpki-common-hardware certificate
+Authorities (CAs) that assert the id-fpki-common-hardware certificate
 policy object identifier defined by the Federal Common Policy CA. The delegated
 digital signature certificates can only be used to digitally sign documents, these
 certificate types are specifically prohibited from asserting client authentication
 enhanced key usages by policy and are not appropriate for logical or physical access
 assuming the named role holder’s identity. An agency should consider additional
-controls to limit its use **only** to sign _Federal Register_ documents. This playbook
+controls to limit its use to **only**  sign _Federal Register_ documents. This playbook
 supports [OMB Circular A-130 goals](https://obamawhitehouse.archives.gov/sites/default/files/omb/assets/OMB/circulars/a130/a130revised.pdf){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}, including developing and implementing
 processes to support employee digital signatures.
 
@@ -141,7 +141,7 @@ implementation questions should be sent to [fpki@gsa.gov](mailto:fpki@gsa.gov).
 ### Key Terms
 - Authorizing sponsor – The federal official authorized to sign Federal Register
 documents; the authorizing sponsor is referred to as the “role-holder” in the
-context of the Federal PKI certificate policy
+context of the Federal PKI certificate policy.
 - Delegated digital signature - A cryptographic digital signature generated using
 control over a private asymmetric key and associated with a public certificate
 that conveys the authority of the identified authorizing sponsor.
@@ -173,8 +173,8 @@ the Federal Register.
 The Delegated Digital Signature Working Group of the Federal Chief Information
 Security Officer Council ICAM Subcommittee developed v1.0 of this Playbook. U.S.
 Federal Executive Branch agencies can use this Playbook to supplement existing
-electronic signature policy and implement specific procedures to create a digital
-autopen to sign Federal Register documents. This Playbook is not official policy,
+electronic signature policy and implement specific procedures to create a delegated digital
+signature certificate to sign Federal Register documents. This Playbook is not official policy,
 mandated action, or provides authoritative information technology terms. It includes
 best practices to supplement existing federal policies and builds upon Office of
 Management and Budget Memorandum 19-17, A-130, and existing FICAM guidance
@@ -257,13 +257,13 @@ remainder of this paper.
 
 A digital signature is a cryptographically secured form of electronic signature. An
 agency achieves the cryptographic component by applying a private signature key to
-hashed digital data that recipients can verify a PKI certificate that contains an
+hashed digital data that recipients can verify with a PKI certificate that contains an
 associated public key. For more information on the difference between electronic
 and digital signatures, see the [Federal CIO Council guidance on the Use of Electronic
 Signatures in Federal Organization Transactions](https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/1151/2016/10/Use_of_ESignatures_in_Federal_Agency_Transactions_v1-0_20130125.pdf){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}. An agency can request a
 role-based delegated digital signature certificate from a Federal PKI Shared Service
 Provider or other approved Federal issuer. Like a PIV card, a delegated digital
-signature hardware token is issued to a single person and not shared under any
+signature hardware token is issued to a single person, referred to as the delegated digital signature certifiate recipient, and must not be shared under any
 circumstance.
 
 This playbook outlines the process for federal agencies to create a process for
@@ -326,7 +326,7 @@ certificate. Mandatory and optional controls are in [Step 2](#step-2-define-cont
 
 See [Appendix C](#appendix-c-templates) for sample artifact templates including standard operating procedures.
 
-### User Agreement
+### Agency User Agreement
 
 A user authorized to sign a Federal Register document conveying the authority of the
 sponsor must understand their responsibilities and the requirements to use and
@@ -334,6 +334,8 @@ protect a delegated digital signature certificate. See the [Appendix C](#appendi
 of a user agreement. An agency may define additional annual training or refresher
 requirements to ensure the protection of the individually issued private key. The user
 must sign an agreement to obtain a delegated digital signature certificate.
+
+{% include alert-info.html content="Your PKI issuer may have a separate delegated digital signature certificate user agreement form that conveys the PKI-related security stipulations the certificate recipient may be required to sign before issuance.  This form is distinct from an agency level user agreement." %}
 
 ### Issuance Request
 
@@ -349,9 +351,9 @@ the authorizing sponsor to an office or a designated individual.
 recipient of the delegated digital signature certificate/key.
 3. The current version of a delegated digital signature standard operating
 procedure.
-4. Verify this request doesn’t exceed the maximum number of allowed
+4. Verify this request does not exceed the maximum number of allowed
 delegates, as defined by the agency.
-5. A signed user agreement.
+5. A signed agency user agreement.
 
 The agency senior security official or designee verifies the request with supporting
 documentation and approves or disapproves the request, as appropriate. Once the
@@ -370,21 +372,21 @@ Controls may include a combination of physical or logical controls to limit how 
 when a delegated digital signature certificate is accessed and the private key
 activated to support approved signing uses. Agencies should integrate these
 controls into an existing audit process. Agencies must adopt the following required
-administrative and certificate controls.
+administrative controls and may inherit several certificate controls.
 
 ### Required Administrative Controls
 
-1. Review the digital autopen standard operating procedures annually, or more
+1. Review the delegated digital signature standard operating procedures annually, or more
 frequently ([Template](#appendix-c-templates)).
-2. Before digital autopen issuance, verify the authorizing sponsor and each
-digital autopen recipient have a valid PIV card through an auditable
+2. Before selegated digital signature certificate issuance, verify the authorizing sponsor and each
+certificate recipient has a valid PIV card through an auditable
 authentication or signing event.
-3. The digital autopen recipient must be a federal employee.
-4. The digital autopen recipient must sign a user agreement ([Template](#appendix-c-templates)).
+3. The delegated digital signature certificate recipient must be a federal employee.
+4. The delegated digital siganture certificate recipient must sign an agency user agreement ([Template](#appendix-c-templates)).
 5. The authorizing sponsor must separately authorize each application of the
 delegated digital signature, and the delegated digital signature certificate
 recipient must keep a record of each approval ([Template](#appendix-c-templates)).
-6. Maximum of two digital autopen recipients to one authorizing sponsor which
+6. Maximum of two delegated digital siganture certificate recipients to one authorizing sponsor which
 shall be enforced by the requesting agency.
 
 ### Required Certificate and Token Controls
@@ -393,17 +395,17 @@ Please note that many of these controls will be inherited based on the CA and Ca
 Management System (CMS) configurations, and may not be customizable by the
 agency requesting the delegated digital signature certificate.
 
-1. A digital autopen certificate and private key are **never** issued on a pre-existing
+1. A delegated digital signature certificate and private key are **never** issued on a pre-existing
 individually assigned and personalized PIV card.
 2. Issue a delegated digital certificate to an authorized hardware device such as
 a smart card on GSA’s FIPS 201 Evaluation Program Approved Product List or
 a FIPS-140 Level 2 certified security module.
 3. If the delegated digital signature certificate is issued on a smart card form
 factor, the physically printed topography of the card:
-  1. must be visually distinct from a PIV card.
-  2. must not have a printed photo, or other personally identifiable
+    1. must be visually distinct from a PIV card.
+    2. must not have a printed photo, or other personally identifiable
   information (e.g., authorizing sponsor or recipient’s name, title or role).
-  3. may contain printed information that identifies the card holder such as
+    3. may contain printed information that identifies the card holder such as
   its requesting office or user.
 4. Authentication of the authorizing sponsor and delegated digital signature
 certificate recipient is performed using their PIV cards, such as a signed
@@ -420,10 +422,9 @@ digital signature certificate (e.g., RFC822 email, UPN, or another internal
 identifier such as an EDIPI)
 7. The validity period of the delegated digital signature certificate must:
     1. not exceed 36 months or
-    2. be set to the associated expiration date of the digital autopen
-    recipient’s PIV authentication certificate.
+    2. be set to the associated expiration date of the recipient’s PIV authentication certificate.
 8. The Enhanced Key Usage (EKU) field is recommended to assert document
-signing or email protection, **but must** not contain client authentication related
+signing or email protection, but **must not** contain client authentication related
 usages, nor separate authentication certificates.
 9. The delegated digital signature certificate recipient must be the individual that
 generates the PIN which makes the private key available for signature
@@ -443,7 +444,7 @@ mechanism to record when a delegation is given.
 digital signature certificate when not in use, and a log of when it is accessed
 and re-secured.
 
-## Step 3. Obtain a Digital Autopen Certificate
+## Step 3. Obtain a Delegated Digital Signature Certificate
 
 A delegated digital signature certificate may be issued from any Federal PKI Shared
 Service Provider, though some may need to update their Certificate Practices
@@ -500,14 +501,14 @@ The Delegated Digital Signature Working Group identified policy update recommend
 ### Recommendation 1. Update OFR’s Document Drafting Handbook
 
 **Recommendation:** Update the Document Drafting Handbook consistent with this
-paper to clarify guidance on digital autopen signatures.
+paper to clarify guidance on delegated digital signatures.
 
 **Resolution:** Pending final delegated digital signature certificates paper.
 
 ### Recommendation 2. Update Federal PKI Certificate Policy for Delegated Digital Signature Certificates
 
 **Recommendation:** Update the Federal Common Policy Certificate Policy for specific
-procedures to issue a digital autopen certificate.
+procedures to issue a delegated digital signature certificate.
 
 **Resolution:** The Federal PKI Policy Authority identified existing procedures for role-based certificates are sufficient; however, due to the potential confusion by relying parties consuming digital signature certificates, a Policy update was conducted in Version 2.9 to ensure appropriate certificate naming and profiles were developed to clarify the use case
 
@@ -516,14 +517,14 @@ procedures to issue a digital autopen certificate.
 **Recommendation:** Update the [FICAM Playbook - How to Digitally Sign an Office of
 the Federal Register Document]({{site.baseurl}}/playbooks/signfedregister/){:target="_blank"}{:rel="noopener noreferrer"} in line with this paper. 
 
-**Resolution:** Pending final digital autopen paper.
+**Resolution:** Pending final delegated digital signature paper.
 
 ### Recommendation 4. Update the Federal CIO E-Signature Document
 
 **Recommendation:** Update the Federal CIO E-signature document to reference this
 paper. 
 
-**Resolution:** Pending final digital autopen paper.
+**Resolution:** Pending final delegated digital signature paper.
 
 ## Appendix C. Templates
 
