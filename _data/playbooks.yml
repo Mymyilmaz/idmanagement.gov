@@ -26,11 +26,11 @@
   header: "/assets/playbooks/headers/playbook_04.webp"
   target: _self
 
-- title: Digital Autopen Playbook
+- title: Delegated Digital Signature Playbook
   type: Webpage
-  pubdate: 2023-03
-  description: This playbook outlines the process for an agency to implement a Digital Autopen for Federal Register documents.
-  url: "/playbooks/autopen/"
+  pubdate: 2025-03
+  description: This playbook outlines the process for an agency to implement a Delegated Digital Signature for Federal Register documents. 
+  url: "/playbooks/dds/"
   header: "/assets/playbooks/headers/playbook_02.webp"
   target: _self
 
