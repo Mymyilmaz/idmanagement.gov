@@ -4,7 +4,10 @@ collection: playbooks
 title: Digital Autopen Playbook 
 pubdate: 2023-03
 type: Markdown
-permalink: /playbooks/autopen/
+# Archived Page (CJB)
+# Date: 03/15/2025
+# Reason: Page superseded by /playbooks/dds/
+# permalink: /playbooks/autopen/
 description: This playbook outlines the process for an agency to implement a Digital Autopen for Federal Register documents.
 sidenav: playbooks
 sticky_sidenav: true
