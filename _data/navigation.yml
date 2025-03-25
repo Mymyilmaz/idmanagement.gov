@@ -84,8 +84,8 @@ university:
     href: /university/policymap/
 
 experiments:
-  # - text: Experiments
-  #   href: /experiments/
+  - text: Experiments
+    href: /experiments/
 
 playbooks:
   - text: Introduction
