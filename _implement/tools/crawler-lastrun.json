@@ -107,7 +107,6 @@
         "common_name:U.S. Department of Transportation Device CA G5,organizational_unit_name:U.S. Department of Transportation,organization_name:U.S. Government,country_name:US",
         "common_name:U.S. Department of Transportation Device CA G6,organizational_unit_name:U.S. Department of Transportation,organization_name:U.S. Government,country_name:US",
         "common_name:USPTO_INTR_CA1,common_name:AIA,common_name:Public Key Services,common_name:Services,common_name:Configuration,domain_component:uspto,domain_component:gov",
-        "common_name:Verizon SSP CA A2,organizational_unit_name:SSP,organization_name:Verizon,country_name:US",
         "common_name:WidePoint ECA 8,organizational_unit_name:Certification Authorities,organizational_unit_name:ECA,organization_name:U.S. Government,country_name:US",
         "common_name:WidePoint ECA 9,organizational_unit_name:Certification Authorities,organizational_unit_name:ECA,organization_name:U.S. Government,country_name:US",
         "common_name:WidePoint NFI CA 5,organization_name:ORC PKI,country_name:US",
@@ -172,8 +171,8 @@
             ],
             "sia-entries": {
                 "http://certdata.northropgrumman.com/certdata/p7c/IssuedByNorthropGrummanCorporateRootCA-G2.p7c": [
-                    "common_name:CertiPath Bridge CA - G3,organizational_unit_name:Certification Authorities,organization_name:CertiPath,country_name:US",
-                    "common_name:Northrop Grumman Corporate Signing CA-G2,organizational_unit_name:Northrop Grumman Information Technology,organization_name:Northrop Grumman Corporation,country_name:US"
+                    "common_name:Northrop Grumman Corporate Signing CA-G2,organizational_unit_name:Northrop Grumman Information Technology,organization_name:Northrop Grumman Corporation,country_name:US",
+                    "common_name:CertiPath Bridge CA - G3,organizational_unit_name:Certification Authorities,organization_name:CertiPath,country_name:US"
                 ]
             },
             "aia-entries": {
@@ -2410,7 +2409,6 @@
                     "common_name:Federal Bridge CA G4,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
                     "common_name:U.S. Department of State AD Root CA,common_name:AIA,common_name:Public Key Services,common_name:Services,common_name:Configuration,domain_component:state,domain_component:sbu",
                     "organizational_unit_name:US Treasury Root CA,organizational_unit_name:Certification Authorities,organizational_unit_name:Department of the Treasury,organization_name:U.S. Government,country_name:US",
-                    "common_name:Verizon SSP CA A2,organizational_unit_name:SSP,organization_name:Verizon,country_name:US",
                     "common_name:WidePoint ORC SSP 5,organization_name:ORC PKI,country_name:US",
                     "common_name:WidePoint SSP Intermediate CA,organization_name:ORC PKI,country_name:US"
                 ]
@@ -2561,32 +2559,6 @@
                     "common_name:Entrust Derived Credential SSP CA,organizational_unit_name:Certification Authorities,organization_name:Entrust,country_name:US",
                     "common_name:DOE SSP CA,organizational_unit_name:Certification Authorities,organizational_unit_name:Department of Energy,organization_name:U.S. Government,country_name:US",
                     "organizational_unit_name:Entrust Managed Services SSP CA,organizational_unit_name:Certification Authorities,organization_name:Entrust,country_name:US"
-                ]
-            },
-            "aia-entries": {
-                "http://repo.fpki.gov/fcpca/caCertsIssuedTofcpcag2.p7c": [
-                    "common_name:Federal Bridge CA G4,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US"
-                ]
-            }
-        },
-        {
-            "subject": "common_name:Verizon SSP CA A2,organizational_unit_name:SSP,organization_name:Verizon,country_name:US",
-            "issuer": "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-            "serial-number": "216867099100030496712731972985788689052539129402",
-            "akid": "f4 27 5c a9 c3 7c 47 f4 fa a6 a7 b0 59 97 aa dd 35 26 17 e3",
-            "skid": "fb 37 dd 47 41 3f 3d 71 22 60 7f 9f 82 84 02 40 09 aa ca 8b",
-            "status": "Certificate Valid and Chains to Common",
-            "pathbuilder-result": {
-                "result": "true",
-                "details": "CRL Only Validation"
-            },
-            "path-to-common": [
-                "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US"
-            ],
-            "sia-entries": {
-                "http://sia1.ssp-strong-id.net/CA/VZ-SSP-CA-A2-SIA.p7c": [
-                    "common_name:Veterans Affairs User CA B1,organizational_unit_name:PKI,organizational_unit_name:Services,domain_component:va,domain_component:gov",
-                    "common_name:Veterans Affairs CA B3,organizational_unit_name:PKI,organizational_unit_name:Services,domain_component:va,domain_component:gov"
                 ]
             },
             "aia-entries": {
@@ -4278,8 +4250,32 @@
         },
         {
             "subject": "common_name:CertiPath Bridge CA - G3,organizational_unit_name:Certification Authorities,organization_name:CertiPath,country_name:US",
+            "issuer": "common_name:Northrop Grumman Corporate Root CA-384,organizational_unit_name:Northrop Grumman Enterprise Services,organization_name:Northrop Grumman Corporation,country_name:US",
+            "serial-number": "1516450673565757850452928502360103058591973388",
+            "akid": "fb 48 aa 61 49 80 d4 f7 a6 85 82 a2 44 dd 97 d6 9b a6 71 05",
+            "skid": "7a 8b 3c 06 92 dc 1e a8 d2 82 ac 1b 74 6f 74 3d 4e d1 a8 9b",
+            "status": "Certificate Valid, but no Path to Common",
+            "pathbuilder-result": {
+                "result": "false",
+                "details": "Unable to build Path"
+            }
+        },
+        {
+            "subject": "common_name:CertiPath Bridge CA - G3,organizational_unit_name:Certification Authorities,organization_name:CertiPath,country_name:US",
             "issuer": "common_name:Northrop Grumman Corporate Root CA-G2,organizational_unit_name:Northrop Grumman Information Technology,organization_name:Northrop Grumman Corporation,country_name:US",
             "serial-number": "1850961851685814569780028617528331475527663656",
+            "akid": "7f 43 ea 3c 20 77 3e 92 cb 8d 85 a2 88 06 30 5e 1e 43 3e b7",
+            "skid": "7a 8b 3c 06 92 dc 1e a8 d2 82 ac 1b 74 6f 74 3d 4e d1 a8 9b",
+            "status": "Certificate Valid, but no Path to Common",
+            "pathbuilder-result": {
+                "result": "false",
+                "details": "Unable to build Path"
+            }
+        },
+        {
+            "subject": "common_name:CertiPath Bridge CA - G3,organizational_unit_name:Certification Authorities,organization_name:CertiPath,country_name:US",
+            "issuer": "common_name:Northrop Grumman Corporate Root CA-G2,organizational_unit_name:Northrop Grumman Information Technology,organization_name:Northrop Grumman Corporation,country_name:US",
+            "serial-number": "1850961851696815824028221940352654997540831274",
             "akid": "7f 43 ea 3c 20 77 3e 92 cb 8d 85 a2 88 06 30 5e 1e 43 3e b7",
             "skid": "7a 8b 3c 06 92 dc 1e a8 d2 82 ac 1b 74 6f 74 3d 4e d1 a8 9b",
             "status": "Certificate Valid, but no Path to Common",
@@ -4400,30 +4396,6 @@
             }
         },
         {
-            "subject": "common_name:Veterans Affairs CA B3,organizational_unit_name:PKI,organizational_unit_name:Services,domain_component:va,domain_component:gov",
-            "issuer": "common_name:Verizon SSP CA A2,organizational_unit_name:SSP,organization_name:Verizon,country_name:US",
-            "serial-number": "541183969108318241482288737465085124701815448830",
-            "akid": "fb 37 dd 47 41 3f 3d 71 22 60 7f 9f 82 84 02 40 09 aa ca 8b",
-            "skid": "e3 76 e0 a5 94 27 e8 35 7d f8 63 3c ff f3 f8 56 5b 68 17 2f",
-            "status": "Status set to other because we didn't handle an error condition well",
-            "pathbuilder-result": {
-                "result": "false",
-                "details": "Path Built but could not be validated"
-            }
-        },
-        {
-            "subject": "common_name:Veterans Affairs User CA B1,organizational_unit_name:PKI,organizational_unit_name:Services,domain_component:va,domain_component:gov",
-            "issuer": "common_name:Verizon SSP CA A2,organizational_unit_name:SSP,organization_name:Verizon,country_name:US",
-            "serial-number": "211915914620421814630739146678823081726843118985",
-            "akid": "fb 37 dd 47 41 3f 3d 71 22 60 7f 9f 82 84 02 40 09 aa ca 8b",
-            "skid": "af 9a 21 c5 b3 17 29 ab a8 39 95 3e 71 15 75 a1 f0 f5 16 07",
-            "status": "Status set to other because we didn't handle an error condition well",
-            "pathbuilder-result": {
-                "result": "false",
-                "details": "Path Built but could not be validated"
-            }
-        },
-        {
             "subject": "organizational_unit_name:US Treasury Root CA,organizational_unit_name:Certification Authorities,organizational_unit_name:Department of the Treasury,organization_name:U.S. Government,country_name:US",
             "issuer": "organizational_unit_name:US Treasury Root CA,organizational_unit_name:Certification Authorities,organizational_unit_name:Department of the Treasury,organization_name:U.S. Government,country_name:US",
             "serial-number": "1144956730",
@@ -4469,10 +4441,6 @@
         [
             "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
             "organizational_unit_name:US Treasury Root CA,organizational_unit_name:Certification Authorities,organizational_unit_name:Department of the Treasury,organization_name:U.S. Government,country_name:US"
-        ],
-        [
-            "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-            "common_name:Verizon SSP CA A2,organizational_unit_name:SSP,organization_name:Verizon,country_name:US"
         ],
         [
             "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
