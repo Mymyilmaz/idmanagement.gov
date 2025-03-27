@@ -181,7 +181,7 @@ Please note:
 
 ## Legacy PIV Cards
 
-<p id="legacy-summary">The FIPS 201 Evaluation Program no longer approves the purchase of legacy PIV cards. Any cardstock designated as “legacy” is placed on this legacy list for three (3) years and then placed on the [Removed Product List]({{site.baseurl}}/fips201/#removed-product-list) for three (3) years. However, some federal agencies still need to procure the legacy cardstock while upgrading existing systems. Agencies must stop using cardstock on the legacy list by June 30, 2027.</p>
+<p id="legacy-summary">The FIPS 201 Evaluation Program no longer approves the purchase of legacy PIV cards. Any cardstock designated as "legacy" is placed on this legacy list for three (3) years and then placed on the <a href="{{site.baseurl}}/fips201/#removed-product-list"  target="_blank" rel="noopener noreferrer">Removed Product List</a> for three (3) years. However, some federal agencies still need to procure the legacy cardstock while upgrading existing systems. Agencies must stop using cardstock on the legacy list by June 30, 2027.</p>
 
 Legacy PIV cards include the following:
 <!-- Legacy PIV Card Listing -->
