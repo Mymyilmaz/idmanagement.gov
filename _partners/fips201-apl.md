@@ -43,8 +43,8 @@ The Physical Access Control System (PACS) products listed under the â€œApprovedâ
 
 ## Approved 13.01 Topology PACS Products
 
-<table class="usa-table usa-table--borderless">
-  <caption>
+<table class="usa-table usa-table--borderless" aria-labelledby="pacs-topology-caption-one">
+  <caption id="pacs-topology-caption-one">
     Approved 13.01 Topology PACS Products List
   </caption>
   <thead>
@@ -73,8 +73,8 @@ The Physical Access Control System (PACS) products listed under the â€œApprovedâ
 
 ## Approved 13.02 Topology PACS Products
 
-<table class="usa-table usa-table--borderless">
-  <caption>
+<table class="usa-table usa-table--borderless" aria-labelledby="pacs-topology-caption-two">
+  <caption id="pacs-topology-caption-two">
     Approved 13.02 Topology PACS Products List
   </caption>
   <thead>
@@ -112,8 +112,8 @@ The Physical Access Control System (PACS) products listed under the â€œApprovedâ
 
 ## PACS Solutions Awaiting Approval
 
-<table class="usa-table">
-  <caption>
+<table class="usa-table" aria-labelledby="pacs-caption">
+  <caption id="pacs-caption">
     PACS Solutions Awaiting Approval List
   </caption>
   <thead>
@@ -144,7 +144,7 @@ Cycle 2 and 3 updates are moved to the front of the test queue once they are ins
 
 ## Approved Products - PIV Smart Cards
 
-The Personal Identity Verification (PIV) cards listed below are approved for FICAM implementation under the FIPS 201 Evaluation Program. They are blank PIV cards that are available for purchase. A PIV service provider will personalize these blank cards for federal agencies and contractors. PIV service providers are required to use PIV cardstock from the Approved Products List (APL).
+<p id="apl-summary">The Personal Identity Verification (PIV) cards listed below are approved for FICAM implementation under the FIPS 201 Evaluation Program. They are blank PIV cards that are available for purchase. A PIV service provider will personalize these blank cards for federal agencies and contractors. PIV service providers are required to use PIV cardstock from the Approved Products List (APL).</p>
  
 If you do not see a card below, it's possible it's on the [Removed Product List]({{site.baseurl}}/fips201/#removed-product-list).
 
@@ -156,8 +156,8 @@ Please note:
 
 ## Approved PIV Cards
 
-<table class="usa-table">
-  <caption>
+<table class="usa-table" aria-labelledby="apl-caption" aria-describedby="apl-summary">
+  <caption id="apl-caption">
     Approved PIV Cards List
   </caption>
   <thead>
@@ -211,12 +211,12 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
 {% endfor %}
 {% assign categories = categories | uniq | sort %}
 
-The FIPS 201 Evaluation Programâ€™s Removed Products List (RPL) displays products and services that were once on the Approved Products List but are no longer approved for government procurement. Due to security concerns, products on the RPL are not recommended for government acquisition. Products will be removed from the RPL 3 years after the removal date.
+<p id="rpl-summary">The FIPS 201 Evaluation Programâ€™s Removed Products List (RPL) displays products and services that were once on the Approved Products List but are no longer approved for government procurement. Due to security concerns, products on the RPL are not recommended for government acquisition. Products will be removed from the RPL 3 years after the removal date.</p>
 
 <br>
 {% for category in categories %}
-<table class="usa-table">
-  <caption>{{ category }} Category List</caption>
+<table class="usa-table" aria-labelledby="rpl-caption" aria-describedby="rpl-summary">
+  <caption id="rpl-caption">{{ category }} Category List</caption>
   <thead>
     <!-- Output header with version based on category name -->
     <tr>
