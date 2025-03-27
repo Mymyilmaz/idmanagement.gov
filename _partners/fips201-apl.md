@@ -144,13 +144,13 @@ Cycle 2 and 3 updates are moved to the front of the test queue once they are ins
 
 ## Approved Products - PIV Smart Cards
 
-The Personal Identity Verification (PIV) cards listed below are approved for FICAM implementation under the FIPS 201 Evaluation Program. These are blank PIV cards available for purchase. A PIV service provider will personalize these blank cards for federal agencies and contractors. PIV service providers are required to use PIV cardstock from the Approved Products List (APL). 
-
+The Personal Identity Verification (PIV) cards listed below are approved for FICAM implementation under the FIPS 201 Evaluation Program. They are blank PIV cards that are available for purchase. A PIV service provider will personalize these blank cards for federal agencies and contractors. PIV service providers are required to use PIV cardstock from the Approved Products List (APL).
+ 
 If you do not see a card below, it's possible it's on the [Removed Product List]({{site.baseurl}}/fips201/#removed-product-list).
 
 Please note:
 
-- Tri-Interface cards are not approved for federal government PIV or CAC card use. Agencies should not procure them. They are listed on the APL for industry-only acquisition.
+- Tri-Interface cards are not approved for federal government PIV or CAC card use, so agencies should not procure them. They are listed on the APL for industry-only acquisition.
 - Manufacturers may call Tri-Interface cards by different names (for example, Dual Hybrid). The prohibited feature of Tri-Interface cards is a prox interface (a 125 kHz antenna).
 - Agencies should procure only cards validated by the NIST Personal Identity Verification Program (NPIVP).
 
@@ -181,7 +181,7 @@ Please note:
 
 ## Legacy PIV Cards
 
-Legacy PIV cards are no longer approved for purchase by the FIPS 201 Evaluation Program. Any cardstock designated as “legacy” is placed on this legacy list and on the [Removed Product List]({{site.baseurl}}/fips201/#removed-product-list). However, some federal agencies still need to procure the legacy cardstock to use while existing systems are being upgraded. Agencies must stop using cardstock on the legacy list by **June 30, 2024**.
+The FIPS 201 Evaluation Program no longer approves the purchase of legacy PIV cards. Any cardstock designated as “legacy” is placed on this legacy list for three (3) years and then placed on the [Removed Product List]({{site.baseurl}}/fips201/#removed-product-list) for three (3) years. However, some federal agencies still need to procure the legacy cardstock while upgrading existing systems. Agencies must stop using cardstock on the legacy list by June 30, 2027.
 
 Legacy PIV cards include the following:
 
@@ -189,18 +189,18 @@ Legacy PIV cards include the following:
 - Giesecke & Devrient StarSign(R) SmartCafe(R) Expert 144K with PIV Applet – APL# 525
 - IDEMIA ID-One (Type A) Large D – APL# 587
 
-Agencies procuring cardstock from the legacy list assume all risks associated with its use from now until the NIST-mandated deadline of June 30, 2024.
+Agencies procuring cardstock from the legacy list assume all risks associated with its use.
 
 If your agency needs to purchase cardstock from this legacy list, you must submit an Assumption of Risk Memorandum (memo) from the agency Chief Information Officer(s) to the General Services Administration (GSA). The memo must contain the following information:
 
-- Acknowledgement of the assumption of all associated security risks;
-- Acknowledgement of non-compliance with NIST standards;
-- A transition plan specifying major milestones to achieve full compliance by the 2024 deadline; and
+- Acknowledgment of the assumption of all associated security risks;
+- Acknowledgment of non-compliance with NIST standards;
+- A transition plan specifying major milestones to achieve full compliance by the 2027 deadline and
 - Implications resulting from non-compliance with federal policy related to this purchase.
 
-Submit the memo to [GSA’s Associate Administrator for Government-wide Policy (OGP)](https://www.gsa.gov/about-us/organization/office-of-governmentwide-policy?_gl=1*k3bw6t*_ga*MjA1NTk4NzkwNy4xNjY5MjExMjg2*_ga_HBYXWFP794*MTcxNTg3MzE3OS40MC4xLjE3MTU4NzMyNjUuMC4wLjA){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} (regardless of the acquisition vehicle used). If using [GSA Multiple Award Schedule]({{site.baseurl}}/acquisition-professionals/#gsa-multiple-award-schedule) as the acquisition vehicle, also submit a copy of the memo to the Commissioner of GSA’s Federal Acquisition Service.
+Submit the memo to [GSA’s Associate Administrator for Government-wide Policy (OGP)](https://www.gsa.gov/about-us/organization/office-of-governmentwide-policy?_gl=1*k3bw6t*_ga*MjA1NTk4NzkwNy4xNjY5MjExMjg2*_ga_HBYXWFP794*MTcxNTg3MzE3OS40MC4xLjE3MTU4NzMyNjUuMC4wLjA){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} (regardless of the vehicle used in the acquisition). If using the [GSA Multiple Award Schedule](){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} as the acquisition vehicle, submit a copy of the memo to the Commissioner of GSA’s Federal Acquisition Service.
 
-Note that GSA will provide the Office of the Federal Chief Information Officer (OFCIO) at the Office of Management and Budget (OMB) with copies of all memos submitted.
+Note: GSA will provide the Office of the Federal Chief Information Officer (OFCIO) at the Office of Management and Budget (OMB) with copies of all memos submitted.
 
 ## Removed Product List
 
@@ -211,7 +211,7 @@ Note that GSA will provide the Office of the Federal Chief Information Officer (
 {% endfor %}
 {% assign categories = categories | uniq | sort %}
 
-The FIPS 201 Evaluation Program’s Removed Products List (RPL) displays products and services that were at one time on the Approved Products List but are no longer approved for government procurement. Due to security concerns, products on the RPL are not recommended for government acquisition. Products will be removed from the RPL after 3 years.
+The FIPS 201 Evaluation Program’s Removed Products List (RPL) displays products and services that were once on the Approved Products List but are no longer approved for government procurement. Due to security concerns, products on the RPL are not recommended for government acquisition. Products will be removed from the RPL 3 years after the removal date.
 
 <br>
 {% for category in categories %}
