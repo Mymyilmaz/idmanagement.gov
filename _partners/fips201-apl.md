@@ -181,13 +181,36 @@ Please note:
 
 ## Legacy PIV Cards
 
-The FIPS 201 Evaluation Program no longer approves the purchase of legacy PIV cards. Any cardstock designated as “legacy” is placed on this legacy list for three (3) years and then placed on the [Removed Product List]({{site.baseurl}}/fips201/#removed-product-list) for three (3) years. However, some federal agencies still need to procure the legacy cardstock while upgrading existing systems. Agencies must stop using cardstock on the legacy list by June 30, 2027.
+<p id="legacy-summary">The FIPS 201 Evaluation Program no longer approves the purchase of legacy PIV cards. Any cardstock designated as “legacy” is placed on this legacy list for three (3) years and then placed on the [Removed Product List]({{site.baseurl}}/fips201/#removed-product-list) for three (3) years. However, some federal agencies still need to procure the legacy cardstock while upgrading existing systems. Agencies must stop using cardstock on the legacy list by June 30, 2027.</p>
 
 Legacy PIV cards include the following:
+<!-- Legacy PIV Card Listing -->
+<table class="usa-table" aria-labelledby="legacy-caption" aria-describedby="legacy-summary">
+  <caption id="legacy-caption">
+    Legacy PIV Cards List
+  </caption>
+  <thead>
+    <tr>
+      <th data-sortable scope="col" role="columnheader" aria-sort="ascending">APL Number</th>
+      <th data-sortable scope="col" role="columnheader">Product Name</th>
+      <th data-sortable scope="col" role="columnheader">Valid Date</th>
+    </tr>    
+  </thead>
+  <tbody>
+    {% for lpc in site.data.legacy-piv %}
+      <tr>
+        <th scope="row" role="rowheader">{{ lpc.aplnumber }}</th>
+        <td data-sort-value="{{ lpc.productname }}"><a href="{{ lpc.url | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">{{ lpc.productname }}</a></td>
+        <td data-sort-value="{{ apl.validdate }}">{{ lpc.validdate }}</td>
+      </tr>
+    {% endfor %} <!-- Legacy PIV Card Listing -->
+  </tbody>
+</table>
+<div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
 
-- Gemalto IDCore 3020 v1, 128k dual-interface with ActivIdentity Digital Identity Applet Suite – APL# 1244
+<!-- - Gemalto IDCore 3020 v1, 128k dual-interface with ActivIdentity Digital Identity Applet Suite – APL# 1244
 - Giesecke & Devrient StarSign(R) SmartCafe(R) Expert 144K with PIV Applet – APL# 525
-- IDEMIA ID-One (Type A) Large D – APL# 587
+- IDEMIA ID-One (Type A) Large D – APL# 587 -->
 
 Agencies procuring cardstock from the legacy list assume all risks associated with its use.
 
