@@ -148,7 +148,7 @@ All applicants, please complete the following steps:
 11. Include all relevant UL-294 listing documents (Mandatory, if applicable).
 12. Include all applicable FIPS 140-2/140-3 listing documents (Mandatory, if applicable).
 13. The vendors must submit the ISO 7816 and ISO 14443 test reports for new PIV PACS Readers. If the vendor has determined that the reports contain company-sensitive information, they may complete and sign the [Vendor Self-Attestation Form for ISO/IEC Test Reports]({{site.baseurl}}/docs/vendor-self-attestation-form.docx){:target="_blank"}{:rel="noopener noreferrer"}, confirming ISO/IEC 7816 conformance to satisfy FRTC Test Case # 7.07.09 and ISO/IEC 10373-6:2020 and ISO/IEC 10373-6:2020/Amd.1:2022 conformance to satisfy FRTC Test Case # 7.07.10.
-14. Respond to the [Vendor FRTC Questionnaire, v1.1.0]({{site.baseurl}}/docs/vendor-frtc-questions.docx){:target="_blank"}{:rel="noopener noreferrer"}(Mandatory).
+14. Respond to the [Vendor FRTC Questionnaire, v1.1.0]({{site.baseurl}}/docs/vendor-frtc-questions.docx){:target="_blank"}{:rel="noopener noreferrer"} (Mandatory).
 15. Submit all completed forms to [fips201ep@gsa.gov](mailto:fips201ep@gsa.gov).
 
 
