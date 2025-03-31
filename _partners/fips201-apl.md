@@ -201,7 +201,7 @@ Legacy PIV cards include the following:
       <tr>
         <th scope="row" role="rowheader">{{ lpc.aplnumber }}</th>
         <td data-sort-value="{{ lpc.productname }}"><a href="{{ lpc.url | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">{{ lpc.productname }}</a></td>
-        <td data-sort-value="{{ apl.validdate | remove: '/'}}">{{ lpc.validdate }}</td>
+        <td data-sort-value="{{ lpc.validdate | remove: '/'}}">{{ lpc.validdate }}</td>
       </tr>
     {% endfor %} <!-- Legacy PIV Card Listing -->
   </tbody>
