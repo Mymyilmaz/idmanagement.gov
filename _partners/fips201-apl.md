@@ -172,7 +172,7 @@ Please note:
       <tr>
         <th scope="row" role="rowheader">{{ apl.aplnumber }}</th>
         <td data-sort-value="{{ apl.productname }}"><a href="{{ apl.url | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">{{ apl.productname }}</a></td>
-        <td data-sort-value="{{ apl.validdate }}">{{ apl.validdate }}</td>
+        <td data-sort-value="{{ apl.validdate | remove: '/' }}">{{ apl.validdate }}</td>
       </tr>
     {% endfor %} <!--apl-->
   </tbody>
@@ -201,16 +201,12 @@ Legacy PIV cards include the following:
       <tr>
         <th scope="row" role="rowheader">{{ lpc.aplnumber }}</th>
         <td data-sort-value="{{ lpc.productname }}"><a href="{{ lpc.url | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">{{ lpc.productname }}</a></td>
-        <td data-sort-value="{{ apl.validdate }}">{{ lpc.validdate }}</td>
+        <td data-sort-value="{{ apl.validdate | remove: '/'}}">{{ lpc.validdate }}</td>
       </tr>
     {% endfor %} <!-- Legacy PIV Card Listing -->
   </tbody>
 </table>
 <div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
-
-<!-- - Gemalto IDCore 3020 v1, 128k dual-interface with ActivIdentity Digital Identity Applet Suite – APL# 1244
-- Giesecke & Devrient StarSign(R) SmartCafe(R) Expert 144K with PIV Applet – APL# 525
-- IDEMIA ID-One (Type A) Large D – APL# 587 -->
 
 Agencies procuring cardstock from the legacy list assume all risks associated with its use.
 
@@ -262,7 +258,7 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
             <td data-sort-value="{{ rpl.supplier }}">{{ rpl.supplier }}</td>
             <td data-sort-value="{{ rpl.nameProduct}}">{{ rpl.nameProduct}}</td>
             <td data-sort-value="{{ rpl.numberProduct }}">{{ rpl.numberProduct }}</td>
-            <td data-sort-value="{{ rpl.dateRemoval | remove: '-'}}">{{ rpl.dateRemoval}}</td>
+            <td data-sort-value="{{ rpl.dateRemoval | remove: '/'}}">{{ rpl.dateRemoval}}</td>
             <td data-sort-value="{{ rpl.reason}}">{{ rpl.reason}}</td>
           </tr>
         {% endif %}
