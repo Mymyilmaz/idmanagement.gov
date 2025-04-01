@@ -252,8 +252,8 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
   </thead>
   <tbody>
    {% for rpl in site.data.fips201rpl %}
-        {% assign dateformat = rpl.dateRemoval | date: '%Y-%m-%d' %}
         {% if rpl.category == category %}
+        {% assign dateformat = rpl.dateRemoval | date: '%Y-%m-%d' %}
           <tr>
             <th scope="row">{{ rpl.numberApl }}</th>
             <td data-sort-value="{{ rpl.supplier }}">{{ rpl.supplier }}</td>
