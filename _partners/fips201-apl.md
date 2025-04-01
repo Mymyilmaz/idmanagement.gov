@@ -223,16 +223,10 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
 
 ## Removed Product List
 
-
-{% for rpld in site.data.fips201rpl %}
-  {% assign category = rpld.category | strip %}
-  {% assign categories = categories | push: category | uniq | sort %}
-{% endfor %}
-
 <p id="rpl-summary">The FIPS 201 Evaluation Program’s Removed Products List (RPL) displays products and services that were once on the Approved Products List but are no longer approved for government procurement. Due to security concerns, products on the RPL are not recommended for government acquisition. Products will be removed from the RPL 3 years after the removal date.</p>
 
 <br>
-{% for category in categories %}
+{% assign category == '13.01 PACS Infrastructure' %}
 <table class="usa-table" aria-labelledby="rpl-caption" aria-describedby="rpl-summary">
   <caption id="rpl-caption">{{ category }} Category List</caption>
   <thead>
@@ -265,4 +259,4 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
   </tbody>
 </table>
 <div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
-{% endfor %}<!--category-->
+{% endfor %}
