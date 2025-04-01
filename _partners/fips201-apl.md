@@ -350,7 +350,7 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
   </thead>
   <tbody>
    {% for rplpivcard in site.data.fips201rpl %} <!-- start of loop -->
-        {% if rpl.category == category %}
+        {% if rplpivcard.category == category %}
           <tr> 
             <th scope="row" data-sort-value="{{ rplpivcard.numberApl }}">{{ rplpivcard.numberApl }}</th>
             <td data-sort-value="{{ rplpivcard.supplier }}">{{ rplpivcard.supplier }}</td>
