@@ -255,10 +255,10 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
           <tr>
             <th scope="row">{{ rpl.numberApl }}</th>
             <td data-sort-value="{{ rpl.supplier }}">{{ rpl.supplier }}</td>
-            <td data-sort-value="{{ rpl.nameProduct}}">{{ rpl.nameProduct}}</td>
+            <td data-sort-value="{{ rpl.nameProduct }}">{{ rpl.nameProduct}}</td>
             <td data-sort-value="{{ rpl.numberProduct }}">{{ rpl.numberProduct }}</td>
-            <td data-sort-value="{{ rpl.dateRemoval | date: '%Y-%m-%d' }}">{{ rpl.dateRemoval}}</td>
-            <td data-sort-value="{{ rpl.reason}}">{{ rpl.reason}}</td>
+            <td data-sort-value="{{ rpl.dateRemoval | date: '%Y-%d-%m' }}">{{ rpl.dateRemoval}}</td>
+            <td data-sort-value="{{ rpl.reason }}">{{ rpl.reason}}</td>
           </tr>
         {% endif %}
     {% endfor %} <!--rpl-->
