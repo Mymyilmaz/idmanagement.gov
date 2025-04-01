@@ -226,36 +226,141 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
 <p id="rpl-summary">The FIPS 201 Evaluation Program’s Removed Products List (RPL) displays products and services that were once on the Approved Products List but are no longer approved for government procurement. Due to security concerns, products on the RPL are not recommended for government acquisition. Products will be removed from the RPL 3 years after the removal date.</p>
 
 <br>
+<!-- PACS Infrastructure Table -->
 {% assign category = '13.01 PACS Infrastructure' %}
 <table class="usa-table" aria-labelledby="rpl-caption" aria-describedby="rpl-summary">
   <caption id="rpl-caption">{{ category }} Category List</caption>
   <thead>
-    <!-- Output header with version based on category name -->
     <tr>
       <th scope="col" role="columnheader" colspan="6"><b>{{ category }} Category</b></th>
     </tr>
     <tr>
-      <th data-sortable scope="col" role="columnheader" aria-sort="descending">APL #</th>
+      <th data-sortable scope="col" role="columnheader" >APL #</th>
       <th data-sortable scope="col" role="columnheader" >Supplier</th>
       <th data-sortable scope="col" role="columnheader" >Product Name(s)</th>
       <th data-sortable scope="col" role="columnheader" >Product Number</th>
-      <th data-sortable scope="col" role="columnheader" >Removal Date</th>
+      <th data-sortable scope="col" role="columnheader" aria-sort="descending">Removal Date</th>
       <th data-sortable scope="col" role="columnheader" >Reason For Removal</th>
     </tr>
   </thead>
   <tbody>
-   {% for rpl in site.data.fips201rpl %}
+   {% for rpl in site.data.fips201rpl %} <!-- start of loop -->
         {% if rpl.category == category %}
-          <tr>
+          <tr> 
             <th scope="row" data-sort-value="{{ rpl.numberApl }}">{{ rpl.numberApl }}</th>
             <td data-sort-value="{{ rpl.supplier }}">{{ rpl.supplier }}</td>
             <td data-sort-value="{{ rpl.nameProduct }}">{{ rpl.nameProduct}}</td>
             <td data-sort-value="{{ rpl.numberProduct }}">{{ rpl.numberProduct }}</td>
-            <td data-sort-value="{{ rpl.dateRemoval }}">{{ rpl.dateRemoval}}</td>
+            <td data-sort-value="{{ rpl.dateRemoval | date: '%Y-%d-%m'}}">{{ rpl.dateRemoval}}</td>
             <td data-sort-value="{{ rpl.reason }}">{{ rpl.reason}}</td>
           </tr>
         {% endif %}
-    {% endfor %} <!--rpl-->
+    {% endfor %} <!-- end of loop -->
+  </tbody>
+</table>
+<div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
+
+<br>
+<!-- PACS Validation System Table -->
+{% assign category = '13.01 PACS Validation System' %}
+<table class="usa-table" aria-labelledby="rpl-caption" aria-describedby="rpl-summary">
+  <caption id="rpl-caption">{{ category }} Category List</caption>
+  <thead>
+    <tr>
+      <th scope="col" role="columnheader" colspan="6"><b>{{ category }} Category</b></th>
+    </tr>
+    <tr>
+      <th data-sortable scope="col" role="columnheader" >APL #</th>
+      <th data-sortable scope="col" role="columnheader" >Supplier</th>
+      <th data-sortable scope="col" role="columnheader" >Product Name(s)</th>
+      <th data-sortable scope="col" role="columnheader" >Product Number</th>
+      <th data-sortable scope="col" role="columnheader" aria-sort="descending">Removal Date</th>
+      <th data-sortable scope="col" role="columnheader" >Reason For Removal</th>
+    </tr>
+  </thead>
+  <tbody>
+   {% for rpl in site.data.fips201rpl %} <!-- start of loop -->
+        {% if rpl.category == category %}
+          <tr> 
+            <th scope="row" data-sort-value="{{ rpl.numberApl }}">{{ rpl.numberApl }}</th>
+            <td data-sort-value="{{ rpl.supplier }}">{{ rpl.supplier }}</td>
+            <td data-sort-value="{{ rpl.nameProduct }}">{{ rpl.nameProduct}}</td>
+            <td data-sort-value="{{ rpl.numberProduct }}">{{ rpl.numberProduct }}</td>
+            <td data-sort-value="{{ rpl.dateRemoval | date: '%Y-%d-%m'}}">{{ rpl.dateRemoval}}</td>
+            <td data-sort-value="{{ rpl.reason }}">{{ rpl.reason}}</td>
+          </tr>
+        {% endif %}
+    {% endfor %} <!-- end of loop -->
+  </tbody>
+</table>
+<div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
+
+<br>
+<!-- PACS and Validation Infrastructure Table -->
+{% assign category = '13.02 PACS and Validation Infrastructure' %}
+<table class="usa-table" aria-labelledby="rpl-caption" aria-describedby="rpl-summary">
+  <caption id="rpl-caption">{{ category }} Category List</caption>
+  <thead>
+    <tr>
+      <th scope="col" role="columnheader" colspan="6"><b>{{ category }} Category</b></th>
+    </tr>
+    <tr>
+      <th data-sortable scope="col" role="columnheader" >APL #</th>
+      <th data-sortable scope="col" role="columnheader" >Supplier</th>
+      <th data-sortable scope="col" role="columnheader" >Product Name(s)</th>
+      <th data-sortable scope="col" role="columnheader" >Product Number</th>
+      <th data-sortable scope="col" role="columnheader" aria-sort="descending">Removal Date</th>
+      <th data-sortable scope="col" role="columnheader" >Reason For Removal</th>
+    </tr>
+  </thead>
+  <tbody>
+   {% for rpl in site.data.fips201rpl %} <!-- start of loop -->
+        {% if rpl.category == category %}
+          <tr> 
+            <th scope="row" data-sort-value="{{ rpl.numberApl }}">{{ rpl.numberApl }}</th>
+            <td data-sort-value="{{ rpl.supplier }}">{{ rpl.supplier }}</td>
+            <td data-sort-value="{{ rpl.nameProduct }}">{{ rpl.nameProduct}}</td>
+            <td data-sort-value="{{ rpl.numberProduct }}">{{ rpl.numberProduct }}</td>
+            <td data-sort-value="{{ rpl.dateRemoval | date: '%Y-%d-%m'}}">{{ rpl.dateRemoval}}</td>
+            <td data-sort-value="{{ rpl.reason }}">{{ rpl.reason}}</td>
+          </tr>
+        {% endif %}
+    {% endfor %} <!-- end of loop -->
+  </tbody>
+</table>
+<div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
+
+<br>
+<!-- PIV Card Table -->
+{% assign category = 'PIV Card' %}
+<table class="usa-table" aria-labelledby="rpl-caption" aria-describedby="rpl-summary">
+  <caption id="rpl-caption">{{ category }} Category List</caption>
+  <thead>
+    <tr>
+      <th scope="col" role="columnheader" colspan="6"><b>{{ category }} Category</b></th>
+    </tr>
+    <tr>
+      <th data-sortable scope="col" role="columnheader" >APL #</th>
+      <th data-sortable scope="col" role="columnheader" >Supplier</th>
+      <th data-sortable scope="col" role="columnheader" >Product Name(s)</th>
+      <th data-sortable scope="col" role="columnheader" >Product Number</th>
+      <th data-sortable scope="col" role="columnheader" aria-sort="descending">Removal Date</th>
+      <th data-sortable scope="col" role="columnheader" >Reason For Removal</th>
+    </tr>
+  </thead>
+  <tbody>
+   {% for rpl in site.data.fips201rpl %} <!-- start of loop -->
+        {% if rpl.category == category %}
+          <tr> 
+            <th scope="row" data-sort-value="{{ rpl.numberApl }}">{{ rpl.numberApl }}</th>
+            <td data-sort-value="{{ rpl.supplier }}">{{ rpl.supplier }}</td>
+            <td data-sort-value="{{ rpl.nameProduct }}">{{ rpl.nameProduct}}</td>
+            <td data-sort-value="{{ rpl.numberProduct }}">{{ rpl.numberProduct }}</td>
+            <td data-sort-value="{{ rpl.dateRemoval | date: '%Y-%d-%m'}}">{{ rpl.dateRemoval}}</td>
+            <td data-sort-value="{{ rpl.reason }}">{{ rpl.reason}}</td>
+          </tr>
+        {% endif %}
+    {% endfor %} <!-- end of loop -->
   </tbody>
 </table>
 <div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>

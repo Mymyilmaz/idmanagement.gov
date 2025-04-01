@@ -1,5 +1,4 @@
 # FIPS 201 Removed Product List
-# Note: Do not use 'N/A' as a field value, it interfears with template looping and affects it next neighboring field. 
 
 - category: '13.01 PACS Infrastructure'
   supplier: 'American Direct Procurement, Inc.'
