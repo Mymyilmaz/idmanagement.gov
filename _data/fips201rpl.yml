@@ -633,6 +633,18 @@
   reason: 'CMVP certificate is now historical.'
   status: post
 
+# Note: This table exists to create an empty table to the 13.02 table which is empty
+- category: '13.02 PACS and Validation Infrastructure'
+  supplier: 
+  nameProduct: ''
+  numberProduct: ''
+  # dateRemoval: ''
+  dateRemoval: 
+  numberApl: ''
+  reason: ''
+  status: post
+
+
 # Template
 # - category: ''
 #   supplier: ''
