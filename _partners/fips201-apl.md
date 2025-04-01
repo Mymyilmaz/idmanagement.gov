@@ -334,7 +334,7 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
 <!-- PIV Card Table -->
 {% assign category = 'PIV Card' %}
 <table class="usa-table" aria-labelledby="rpl-caption" aria-describedby="rpl-summary">
-  <caption id="rplpiv-caption">{{ category }} Category List</caption>
+  <caption id="rpl-caption">{{ category }} Category List</caption>
   <thead>
     <tr>
       <th scope="col" role="columnheader" colspan="6"><b>{{ category }} Category</b></th>
