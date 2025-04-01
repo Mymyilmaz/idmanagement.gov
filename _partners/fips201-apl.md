@@ -258,7 +258,7 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
             <td data-sort-value="{{ rpl.supplier }}">{{ rpl.supplier }}</td>
             <td data-sort-value="{{ rpl.nameProduct}}">{{ rpl.nameProduct}}</td>
             <td data-sort-value="{{ rpl.numberProduct }}">{{ rpl.numberProduct }}</td>
-            <td data-sort-value="{{ rpl.datecode }}">{{ rpl.dateRemoval}}</td>
+            <td data-sort-value="{{ rpl.dateCode }}">{{ rpl.dateRemoval}}</td>
             <td data-sort-value="{{ rpl.reason}}">{{ rpl.reason}}</td>
           </tr>
         {% endif %}
