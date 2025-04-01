@@ -241,11 +241,11 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
       <th scope="col" role="columnheader" colspan="6"><b>{{ category }} Category</b></th>
     </tr>
     <tr>
-      <th data-sortable scope="col" role="columnheader" >APL #</th>
+      <th data-sortable scope="col" role="columnheader" aria-sort="descending">APL #</th>
       <th data-sortable scope="col" role="columnheader" >Supplier</th>
       <th data-sortable scope="col" role="columnheader" >Product Name(s)</th>
       <th data-sortable scope="col" role="columnheader" >Product Number</th>
-      <th data-sortable scope="col" role="columnheader" aria-sort="descending">Removal Date</th>
+      <th data-sortable scope="col" role="columnheader" >Removal Date</th>
       <th data-sortable scope="col" role="columnheader" >Reason For Removal</th>
     </tr>
   </thead>
@@ -253,7 +253,7 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
    {% for rpl in site.data.fips201rpl %}
         {% if rpl.category == category %}
           <tr>
-            <th scope="row">{{ rpl.numberApl }}</th>
+            <th scope="row" data-sort-value="{{ rpl.numberApl }}">{{ rpl.numberApl }}</th>
             <td data-sort-value="{{ rpl.supplier }}">{{ rpl.supplier }}</td>
             <td data-sort-value="{{ rpl.nameProduct }}">{{ rpl.nameProduct}}</td>
             <td data-sort-value="{{ rpl.numberProduct }}">{{ rpl.numberProduct }}</td>
