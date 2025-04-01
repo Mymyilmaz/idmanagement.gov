@@ -244,15 +244,15 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
     </tr>
   </thead>
   <tbody>
-   {% for rpl in site.data.fips201rpl %} <!-- start of loop -->
-        {% if rpl.category == category %}
+   {% for rplpacsi in site.data.fips201rpl %} <!-- start of loop -->
+        {% if rplpacsi.category == category %}
           <tr> 
-            <th scope="row" data-sort-value="{{ rpl.numberApl }}">{{ rpl.numberApl }}</th>
-            <td data-sort-value="{{ rpl.supplier }}">{{ rpl.supplier }}</td>
-            <td data-sort-value="{{ rpl.nameProduct }}">{{ rpl.nameProduct}}</td>
-            <td data-sort-value="{{ rpl.numberProduct }}">{{ rpl.numberProduct }}</td>
-            <td data-sort-value="{{ rpl.dateRemoval }}">{{ rpl.dateRemoval}}</td>
-            <td data-sort-value="{{ rpl.reason }}">{{ rpl.reason}}</td>
+            <th scope="row" data-sort-value="{{ rplpacsi.numberApl }}">{{ rplpacsi.numberApl }}</th>
+            <td data-sort-value="{{ rplpacsi.supplier }}">{{ rplpacsi.supplier }}</td>
+            <td data-sort-value="{{ rplpacsi.nameProduct }}">{{ rplpacsi.nameProduct}}</td>
+            <td data-sort-value="{{ rplpacsi.numberProduct }}">{{ rplpacsi.numberProduct }}</td>
+            <td data-sort-value="{{ rplpacsi.dateRemoval | sort }}">{{ rplpacsi.dateRemoval}}</td>
+            <td data-sort-value="{{ rplpacsi.reason }}">{{ rplpacsi.reason}}</td>
           </tr>
         {% endif %}
     {% endfor %} <!-- end of loop -->
@@ -279,15 +279,15 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
     </tr>
   </thead>
   <tbody>
-   {% for rpl in site.data.fips201rpl %} <!-- start of loop -->
-        {% if rpl.category == category %}
+   {% for rplpacsvs in site.data.fips201rpl %} <!-- start of loop -->
+        {% if rplpacsvs.category == category %}
           <tr> 
-            <th scope="row" data-sort-value="{{ rpl.numberApl }}">{{ rpl.numberApl }}</th>
-            <td data-sort-value="{{ rpl.supplier }}">{{ rpl.supplier }}</td>
-            <td data-sort-value="{{ rpl.nameProduct }}">{{ rpl.nameProduct}}</td>
-            <td data-sort-value="{{ rpl.numberProduct }}">{{ rpl.numberProduct }}</td>
-            <td data-sort-value="{{ rpl.dateRemoval }}">{{ rpl.dateRemoval}}</td>
-            <td data-sort-value="{{ rpl.reason }}">{{ rpl.reason}}</td>
+            <th scope="row" data-sort-value="{{ rplpacsvs.numberApl }}">{{ rplpacsvs.numberApl }}</th>
+            <td data-sort-value="{{ rplpacsvs.supplier }}">{{ rplpacsvs.supplier }}</td>
+            <td data-sort-value="{{ rplpacsvs.nameProduct }}">{{ rplpacsvs.nameProduct}}</td>
+            <td data-sort-value="{{ rplpacsvs.numberProduct }}">{{ rplpacsvs.numberProduct }}</td>
+            <td data-sort-value="{{ rplpacsvs.dateRemoval }}">{{ rplpacsvs.dateRemoval}}</td>
+            <td data-sort-value="{{ rplpacsvs.reason }}">{{ rplpacsvs.reason}}</td>
           </tr>
         {% endif %}
     {% endfor %} <!-- end of loop -->
@@ -314,15 +314,15 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
     </tr>
   </thead>
   <tbody>
-   {% for rpl in site.data.fips201rpl %} <!-- start of loop -->
-        {% if rpl.category == category %}
+   {% for rplpacsvi in site.data.fips201rpl %} <!-- start of loop -->
+        {% if rplpacsvi.category == category %}
           <tr> 
-            <th scope="row" data-sort-value="{{ rpl.numberApl }}">{{ rpl.numberApl }}</th>
-            <td data-sort-value="{{ rpl.supplier }}">{{ rpl.supplier }}</td>
-            <td data-sort-value="{{ rpl.nameProduct }}">{{ rpl.nameProduct}}</td>
-            <td data-sort-value="{{ rpl.numberProduct }}">{{ rpl.numberProduct }}</td>
-            <td data-sort-value="{{ rpl.dateRemoval }}">{{ rpl.dateRemoval}}</td>
-            <td data-sort-value="{{ rpl.reason }}">{{ rpl.reason}}</td>
+            <th scope="row" data-sort-value="{{ rplpacsvi.numberApl }}">{{ rplpacsvi.numberApl }}</th>
+            <td data-sort-value="{{ rplpacsvi.supplier }}">{{ rplpacsvi.supplier }}</td>
+            <td data-sort-value="{{ rplpacsvi.nameProduct }}">{{ rplpacsvi.nameProduct}}</td>
+            <td data-sort-value="{{ rplpacsvi.numberProduct }}">{{ rplpacsvi.numberProduct }}</td>
+            <td data-sort-value="{{ rplpacsvi.dateRemoval }}">{{ rplpacsvi.dateRemoval}}</td>
+            <td data-sort-value="{{ rplpacsvi.reason }}">{{ rplpacsvi.reason}}</td>
           </tr>
         {% endif %}
     {% endfor %} <!-- end of loop -->
@@ -334,7 +334,7 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
 <!-- PIV Card Table -->
 {% assign category = 'PIV Card' %}
 <table class="usa-table" aria-labelledby="rpl-caption" aria-describedby="rpl-summary">
-  <caption id="rpl-caption">{{ category }} Category List</caption>
+  <caption id="rplpiv-caption">{{ category }} Category List</caption>
   <thead>
     <tr>
       <th scope="col" role="columnheader" colspan="6"><b>{{ category }} Category</b></th>
@@ -349,15 +349,15 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
     </tr>
   </thead>
   <tbody>
-   {% for rpl in site.data.fips201rpl %} <!-- start of loop -->
-        {% if rpl.category == category %}
+   {% for rplpivcard in site.data.fips201rpl %} <!-- start of loop -->
+        {% if rplpivcard.category == category %}
           <tr> 
-            <th scope="row" data-sort-value="{{ rpl.numberApl }}">{{ rpl.numberApl }}</th>
-            <td data-sort-value="{{ rpl.supplier }}">{{ rpl.supplier }}</td>
-            <td data-sort-value="{{ rpl.nameProduct }}">{{ rpl.nameProduct}}</td>
-            <td data-sort-value="{{ rpl.numberProduct }}">{{ rpl.numberProduct }}</td>
-            <td data-sort-value="{{ rpl.dateRemoval }}">{{ rpl.dateRemoval}}</td>
-            <td data-sort-value="{{ rpl.reason }}">{{ rpl.reason}}</td>
+            <th scope="row" data-sort-value="{{ rplpivcard.numberApl }}">{{ rplpivcard.numberApl }}</th>
+            <td data-sort-value="{{ rplpivcard.supplier }}">{{ rplpivcard.supplier }}</td>
+            <td data-sort-value="{{ rplpivcard.nameProduct }}">{{ rplpivcard.nameProduct}}</td>
+            <td data-sort-value="{{ rplpivcard.numberProduct }}">{{ rplpivcard.numberProduct }}</td>
+            <td data-sort-value="{{ rplpivcard.dateRemoval }}">{{ rplpivcard.dateRemoval}}</td>
+            <td data-sort-value="{{ rplpivcard.reason }}">{{ rplpivcard.reason}}</td>
           </tr>
         {% endif %}
     {% endfor %} <!-- end of loop -->
