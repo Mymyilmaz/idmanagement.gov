@@ -4,7 +4,6 @@
   supplier: 'American Direct Procurement, Inc.'
   nameProduct: 'Quintron AccessNsite'
   numberProduct: 'F96-002-600-XX**'
-  # dateRemoval: 'Tuesday, November 1, 2022'
   dateRemoval: 11/01/2022
   numberApl: '10043'
   reason: 'Not approved for FRTC 1.4.2'
@@ -14,7 +13,6 @@
   supplier: 'Amag Symmetry Professional V8.1'
   nameProduct: 'Amag Symmetry'
   numberProduct: 'PRO-PLAT-v8.1-HSE'
-  # dateRemoval: 'Thursday, June 9, 2022'
   dateRemoval: 06/09/2022
   numberApl: '10087'
   reason: 'Not approved for FRTC 1.3.3'
@@ -24,7 +22,6 @@
   supplier: 'HID Global'
   nameProduct: '13.01 - pivCLASS validation system 5.20 for Hirsch-Identiv Velocity 3.8.4'
   numberProduct: 'None'
-  # dateRemoval: 'Monday, October 16, 2023'
   dateRemoval: 10/16/2023
   numberApl: '10014'
   reason: 'Per vendor request'
@@ -34,7 +31,6 @@
   supplier: 'Identiv'
   nameProduct: '13.01 - Identiv Velocity 3.8.4 w/pivCLASS validation 5.20'
   numberProduct: 'None'
-  # dateRemoval: 'Monday, October 16, 2023'
   dateRemoval: 10/16/2023 
   numberApl: '10013'
   reason: '13.01 removed per vendor request. The approved 13.02 Identiv Velocity System is APL #10103'
@@ -44,7 +40,6 @@
   supplier: 'HID Global'
   nameProduct: 'pivCLASS Registration Engine for AccesNsite'
   numberProduct: 'PVCP-D/S-17-00'
-  # dateRemoval: 'Tuesday, November 1, 2022'
   dateRemoval: 11/01/2022
   numberApl: '10044'
   reason: 'Not approved for FRTC 1.4.2'
@@ -54,7 +49,6 @@
   supplier: 'Technology Industries'
   nameProduct: 'Technology Industries Validation System for AMAG Professional'
   numberProduct: 'EP-IDM-STE'
-  # dateRemoval: 'Thursday, June 9, 2022'
   dateRemoval: 06/09/2022
   numberApl: '10086'
   reason: 'Not approved for FRTC 1.3.3'
@@ -64,7 +58,6 @@
   supplier: 'Brivo'
   nameProduct: 'Brivo OnSite server'
   numberProduct: 'B-OSS-BA(X), B-ACS5000(y), B-ACS5000-DB, B-ACS-IPDC-(Z)A, B-ACS6000-DB, B-ACS300-A, B-ACS300-A-FIPS, B-ACS6000-A-FIPS'
-  # dateRemoval: 'Wednesday, October 13, 2021'
   dateRemoval: 10/13/2021
   numberApl: '10009 & 10010'
   reason: 'Components end of sale'
@@ -638,7 +631,6 @@
   supplier: 
   nameProduct: ''
   numberProduct: ''
-  # dateRemoval: ''
   dateRemoval: 
   numberApl: ''
   reason: ''
