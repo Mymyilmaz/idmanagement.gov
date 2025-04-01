@@ -225,7 +225,7 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
 
 
 {% for rpld in site.data.fips201rpl %}
-  {% assign categories = rpld.category | strip %}
+  {% assign category = rpld.category | strip %}
   {% assign categories = categories | push: category | uniq | sort %}
 {% endfor %}
 
