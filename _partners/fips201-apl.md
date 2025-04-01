@@ -259,4 +259,3 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
   </tbody>
 </table>
 <div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
-{% endfor %}
