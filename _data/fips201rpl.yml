@@ -5,6 +5,7 @@
   nameProduct: 'Quintron AccessNsite'
   numberProduct: 'F96-002-600-XX**'
   dateRemoval: 11/01/2022
+  dateCode: 2022-11-01
   numberApl: '10043'
   reason: 'Not approved for FRTC 1.4.2'
   status: post
@@ -14,6 +15,7 @@
   nameProduct: 'Amag Symmetry'
   numberProduct: 'PRO-PLAT-v8.1-HSE'
   dateRemoval: 06/09/2022
+  dateCode: 2022-06-09
   numberApl: '10087'
   reason: 'Not approved for FRTC 1.3.3'
   status: post
@@ -23,6 +25,7 @@
   nameProduct: '13.01 - pivCLASS validation system 5.20 for Hirsch-Identiv Velocity 3.8.4'
   numberProduct: 'None'
   dateRemoval: 10/16/2023
+  dateCode: 2023-10-16
   numberApl: '10014'
   reason: 'Per vendor request'
   status: post
@@ -32,6 +35,7 @@
   nameProduct: '13.01 - Identiv Velocity 3.8.4 w/pivCLASS validation 5.20'
   numberProduct: 'None'
   dateRemoval: 10/16/2023 
+  dateCode: 2023-10-16
   numberApl: '10013'
   reason: '13.01 removed per vendor request. The approved 13.02 Identiv Velocity System is APL #10103'
   status: post
@@ -41,6 +45,7 @@
   nameProduct: 'pivCLASS Registration Engine for AccesNsite'
   numberProduct: 'PVCP-D/S-17-00'
   dateRemoval: 11/01/2022
+  dateCode: 2022-11-01
   numberApl: '10044'
   reason: 'Not approved for FRTC 1.4.2'
   status: post
@@ -50,6 +55,7 @@
   nameProduct: 'Technology Industries Validation System for AMAG Professional'
   numberProduct: 'EP-IDM-STE'
   dateRemoval: 06/09/2022
+  dateCode: 2022-06-09
   numberApl: '10086'
   reason: 'Not approved for FRTC 1.3.3'
   status: post
@@ -59,6 +65,7 @@
   nameProduct: 'Brivo OnSite server'
   numberProduct: 'B-OSS-BA(X), B-ACS5000(y), B-ACS5000-DB, B-ACS-IPDC-(Z)A, B-ACS6000-DB, B-ACS300-A, B-ACS300-A-FIPS, B-ACS6000-A-FIPS'
   dateRemoval: 10/13/2021
+  dateCode: 2021-10-13
   numberApl: '10009 & 10010'
   reason: 'Components end of sale'
   status: post
@@ -541,6 +548,7 @@
   nameProduct: '1501381'
   numberProduct: 'ID-One PIV v2.4 on Cosmos V8.1 (EEPROM)'
   dateRemoval: 07/01/2024
+  dateCode: 2024-07-01
   numberApl: '1428'
   reason: 'CMVP certificate is now historical.'
   status: post
@@ -550,6 +558,7 @@
   nameProduct: 'ID-One PIV v 2.4.1 on Cosmo V8.1 (ROM)'
   numberProduct: '1585242'
   dateRemoval: 07/01/2024
+  dateCode: 2024-07-01
   numberApl: '1428'
   reason: 'CMVP certificate is now historical.'
   status: post
@@ -559,6 +568,7 @@
   nameProduct: 'ID-One PIV v 2.3.5 on Cosmo V8 (High Speed)'
   numberProduct: '1276885-XS'
   dateRemoval: 07/01/2024
+  dateCode: 2024-07-01
   numberApl: '1355'
   reason: 'CMVP certificate is now historical.'
   status: post
@@ -568,6 +578,7 @@
   nameProduct: 'ID-One PIV v 2.3.5 on Cosmo V8'
   numberProduct: '1276885'
   dateRemoval: 07/01/2024
+  dateCode: 2024-07-01
   numberApl: '1354'
   reason: 'CMVP certificate is now historical.'
   status: post
@@ -577,6 +588,7 @@
   nameProduct: 'HID Global Crescendo PIV'
   numberProduct: '40030M-D14'
   dateRemoval: 07/01/2024
+  dateCode: 2024-07-01
   numberApl: '1431'
   reason: 'CMVP certificate is now historical.'
   status: post
@@ -586,6 +598,7 @@
   nameProduct: 'Gemalto TOP DL v2.1 with HID Global ActivID Applet Suite v2.7.4'
   numberProduct: 'O1115095'
   dateRemoval: 07/01/2024
+  dateCode: 2024-07-01
   numberApl: '1500'
   reason: 'CMVP certificate is now historical.'
   status: post
@@ -595,6 +608,7 @@
   nameProduct: 'Safenet IDPrime PIV v3.0'
   numberProduct: 'O1138439'
   dateRemoval: 07/01/2024
+  dateCode: 2024-07-01
   numberApl: '1510'
   reason: 'CMVP certificate is now historical.'
   status: post
@@ -604,6 +618,7 @@
   nameProduct: 'IDPrime PIV v.2.1'
   numberProduct: 'O1110994'
   dateRemoval: 07/01/2024
+  dateCode: 2024-07-01
   numberApl: '1430'
   reason: 'CMVP certificate is now historical.'
   status: post
@@ -613,6 +628,7 @@
   nameProduct: 'SmartCafe Expert 7.0 with HID Global ActivID Applet v2.7.5'
   numberProduct: '50192769'
   dateRemoval: 07/01/2024
+  dateCode: 2024-07-01
   numberApl: '1429'
   reason: 'CMVP certificate is now historical.'
   status: post
