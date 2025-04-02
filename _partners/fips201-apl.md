@@ -251,7 +251,7 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
             <td data-sort-value="{{ rplpacsi.supplier }}">{{ rplpacsi.supplier }}</td>
             <td data-sort-value="{{ rplpacsi.nameProduct }}">{{ rplpacsi.nameProduct}}</td>
             <td data-sort-value="{{ rplpacsi.numberProduct }}">{{ rplpacsi.numberProduct }}</td>
-            <td data-sort-value="{{ rplpacsi.dateRemoval }}">{{ rplpacsi.dateRemoval}}</td>
+            <td data-sort-value="{{ rplpacsi.dateCode }}">{{ rplpacsi.dateRemoval}}</td>
             <td data-sort-value="{{ rplpacsi.reason }}">{{ rplpacsi.reason}}</td>
           </tr>
         {% endif %}
@@ -286,7 +286,7 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
             <td data-sort-value="{{ rplpacsvs.supplier }}">{{ rplpacsvs.supplier }}</td>
             <td data-sort-value="{{ rplpacsvs.nameProduct }}">{{ rplpacsvs.nameProduct}}</td>
             <td data-sort-value="{{ rplpacsvs.numberProduct }}">{{ rplpacsvs.numberProduct }}</td>
-            <td data-sort-value="{{ rplpacsvs.dateRemoval }}">{{ rplpacsvs.dateRemoval}}</td>
+            <td data-sort-value="{{ rplpacsvs.dateCode }}">{{ rplpacsvs.dateRemoval}}</td>
             <td data-sort-value="{{ rplpacsvs.reason }}">{{ rplpacsvs.reason}}</td>
           </tr>
         {% endif %}
@@ -321,7 +321,7 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
             <td data-sort-value="{{ rplpacsvi.supplier }}">{{ rplpacsvi.supplier }}</td>
             <td data-sort-value="{{ rplpacsvi.nameProduct }}">{{ rplpacsvi.nameProduct}}</td>
             <td data-sort-value="{{ rplpacsvi.numberProduct }}">{{ rplpacsvi.numberProduct }}</td>
-            <td data-sort-value="{{ rplpacsvi.dateRemoval }}">{{ rplpacsvi.dateRemoval}}</td>
+            <td data-sort-value="{{ rplpacsvi.dateCode }}">{{ rplpacsvi.dateRemoval}}</td>
             <td data-sort-value="{{ rplpacsvi.reason }}">{{ rplpacsvi.reason}}</td>
           </tr>
         {% endif %}
@@ -356,7 +356,7 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
             <td data-sort-value="{{ rplpivcard.supplier }}">{{ rplpivcard.supplier }}</td>
             <td data-sort-value="{{ rplpivcard.nameProduct }}">{{ rplpivcard.nameProduct}}</td>
             <td data-sort-value="{{ rplpivcard.numberProduct }}">{{ rplpivcard.numberProduct }}</td>
-            <td data-sort-value="{{ rplpivcard.dateRemoval }}">{{ rplpivcard.dateRemoval}}</td>
+            <td data-sort-value="{{ rplpivcard.dateCode }}">{{ rplpivcard.dateRemoval}}</td>
             <td data-sort-value="{{ rplpivcard.reason }}">{{ rplpivcard.reason}}</td>
           </tr>
         {% endif %}
