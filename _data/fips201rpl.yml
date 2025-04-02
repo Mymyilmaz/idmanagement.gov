@@ -1,6 +1,16 @@
 # FIPS 201 Removed Product List
 
 - category: '13.01 PACS Infrastructure'
+  supplier: 'Identiv'
+  nameProduct: '13.01 - Identiv Velocity 3.8.4 w/pivCLASS validation 5.20'
+  numberProduct: 'None'
+  dateRemoval: 10/16/2023 
+  dateCode: 2023-10-16
+  numberApl: '10013'
+  reason: '13.01 removed per vendor request. The approved 13.02 Identiv Velocity System is APL #10103'
+  status: post
+
+- category: '13.01 PACS Infrastructure'
   supplier: 'American Direct Procurement, Inc.'
   nameProduct: 'Quintron AccessNsite'
   numberProduct: 'F96-002-600-XX**'
@@ -9,7 +19,7 @@
   numberApl: '10043'
   reason: 'Not approved for FRTC 1.4.2'
   status: post
-    
+
 - category: '13.01 PACS Infrastructure'
   supplier: 'Amag Symmetry Professional V8.1'
   nameProduct: 'Amag Symmetry'
@@ -20,6 +30,16 @@
   reason: 'Not approved for FRTC 1.3.3'
   status: post
 
+- category: '13.01 PACS Infrastructure'
+  supplier: 'Brivo'
+  nameProduct: 'Brivo OnSite server'
+  numberProduct: 'B-OSS-BA(X), B-ACS5000(y), B-ACS5000-DB, B-ACS-IPDC-(Z)A, B-ACS6000-DB, B-ACS300-A, B-ACS300-A-FIPS, B-ACS6000-A-FIPS'
+  dateRemoval: 10/13/2021
+  dateCode: 2021-10-13
+  numberApl: '10009 & 10010'
+  reason: 'Components end of sale'
+  status: post
+
 - category: '13.01 PACS Validation System'
   supplier: 'HID Global'
   nameProduct: '13.01 - pivCLASS validation system 5.20 for Hirsch-Identiv Velocity 3.8.4'
@@ -28,16 +48,6 @@
   dateCode: 2023-10-16
   numberApl: '10014'
   reason: 'Per vendor request'
-  status: post
-
-- category: '13.01 PACS Infrastructure'
-  supplier: 'Identiv'
-  nameProduct: '13.01 - Identiv Velocity 3.8.4 w/pivCLASS validation 5.20'
-  numberProduct: 'None'
-  dateRemoval: 10/16/2023 
-  dateCode: 2023-10-16
-  numberApl: '10013'
-  reason: '13.01 removed per vendor request. The approved 13.02 Identiv Velocity System is APL #10103'
   status: post
     
 - category: '13.01 PACS Validation System'
@@ -60,15 +70,6 @@
   reason: 'Not approved for FRTC 1.3.3'
   status: post
 
-- category: '13.01 PACS Infrastructure'
-  supplier: 'Brivo'
-  nameProduct: 'Brivo OnSite server'
-  numberProduct: 'B-OSS-BA(X), B-ACS5000(y), B-ACS5000-DB, B-ACS-IPDC-(Z)A, B-ACS6000-DB, B-ACS300-A, B-ACS300-A-FIPS, B-ACS6000-A-FIPS'
-  dateRemoval: 10/13/2021
-  dateCode: 2021-10-13
-  numberApl: '10009 & 10010'
-  reason: 'Components end of sale'
-  status: post
 
 # - category: '13.02 PACS and Validation Infrastructure'
 #   supplier: Vicount
