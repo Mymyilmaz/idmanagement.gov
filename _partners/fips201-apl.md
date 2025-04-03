@@ -285,7 +285,7 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
     </tr>
   </thead>
   <tbody>
-   {% assign rplpacsvs in site.data.fips201rpl | sort: "dateCode" | reverse %}
+   {% assign rplpacsvs = site.data.fips201rpl | sort: "dateCode" | reverse %}
    {% for pacsvs in rplpacsvs %}
         {% if pacsvs.category == category %}
           <tr> 
