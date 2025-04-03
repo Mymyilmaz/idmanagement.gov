@@ -168,7 +168,7 @@ Please note:
     </tr>    
   </thead>
   <tbody>
-    {% for apl in site.data.fips201piv %}
+    {% for apl in site.data.fips201piv | sort_natural: "aplnumber" %}
       <tr>
         <th scope="row" role="rowheader">{{ apl.aplnumber }}</th>
         <td data-sort-value="{{ apl.productname }}"><a href="{{ apl.url | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">{{ apl.productname }}</a></td>
