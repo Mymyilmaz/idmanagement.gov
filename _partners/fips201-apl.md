@@ -197,7 +197,7 @@ Legacy PIV cards include the following:
     </tr>    
   </thead>
   <tbody>
-    {% for lpc in site.data.legacy-piv %}
+    {% for lpc in site.data.legacy-piv | sort_natural: "dateCode" %}
       <tr>
         <th scope="row" role="rowheader" data-sort-value="{{ lpc.aplnumber }}">{{ lpc.aplnumber }}</th>
         <td data-sort-value="{{ lpc.productname }}"><a href="{{ lpc.url | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">{{ lpc.productname }}</a></td>
