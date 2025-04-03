@@ -26,6 +26,21 @@
 # ee_cdp_uri:
 # ee_ocsp_uri:
 
+- notice_date: April 2, 2025
+  change_type: CA Certificate Issuance
+  system: FPKI Trust Infrastructure - Federal Common Policy CA G2
+  change_description: The Federal Common Policy CA G2 issued a new cross certificate to WidePoint SSP Intermediate CA2 that is valid from 3/31/2025 to 2/13/2035.
+  contact: fpki dash help at gsa dot gov
+  ca_certificate_hash: 9ddaea4fa63e9813b04ae4918e438d69ccdfdadd
+  ca_certificate_issuer: CN=Federal Common Policy CA G2, OU=FPKI, O=U.S. Government, C=US
+  ca_certificate_subject: CN=WidePoint SSP Intermediate CA 2, O=ORC PKI, C=US
+  cdp_uri: http://repo.fpki.gov/fcpca/fcpcag2.crl
+  aia_uri: http://repo.fpki.gov/fcpca/caCertsIssuedTofcpcag2.p7c
+  sia_uri: http://crl-server.orc.com/caCerts/caCertsIssuedByWPSSPIntCA2.p7c
+  ocsp_uri: N/A
+  ee_cdp_uri: N/A
+  ee_ocsp_uri: N/A
+
 - notice_date: March 27, 2025
   change_type: Intent to Issue CA Certificate
   system: Entrust PKI SSP
