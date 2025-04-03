@@ -172,7 +172,7 @@ Please note:
       <tr>
         <th scope="row" role="rowheader">{{ apl.aplnumber }}</th>
         <td data-sort-value="{{ apl.productname }}"><a href="{{ apl.url | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">{{ apl.productname }}</a></td>
-        <td data-sort-value="{{ apl.validdate | remove: '/' }}">{{ apl.validdate }}</td>
+        <td data-sort-value="{{ apl.dateCode }}">{{ apl.validdate }}</td>
       </tr>
     {% endfor %} <!--apl-->
   </tbody>
@@ -191,17 +191,17 @@ Legacy PIV cards include the following:
   </caption>
   <thead>
     <tr>
-      <th data-sortable scope="col" role="columnheader" aria-sort="ascending">APL Number</th>
+      <th data-sortable scope="col" role="columnheader" >APL Number</th>
       <th data-sortable scope="col" role="columnheader">Product Name</th>
-      <th data-sortable scope="col" role="columnheader">Valid Date</th>
+      <th data-sortable scope="col" role="columnheader" aria-sort="descending">Valid Date</th>
     </tr>    
   </thead>
   <tbody>
     {% for lpc in site.data.legacy-piv %}
       <tr>
-        <th scope="row" role="rowheader">{{ lpc.aplnumber }}</th>
+        <th scope="row" role="rowheader" data-sort-value="{{ lpc.aplnumber }}">{{ lpc.aplnumber }}</th>
         <td data-sort-value="{{ lpc.productname }}"><a href="{{ lpc.url | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">{{ lpc.productname }}</a></td>
-        <td data-sort-value="{{ lpc.validdate | remove: '/'}}">{{ lpc.validdate }}</td>
+        <td data-sort-value="{{ lpc.dateCode }}">{{ lpc.validdate }}</td>
       </tr>
     {% endfor %} <!-- Legacy PIV Card Listing -->
   </tbody>
