@@ -111,7 +111,7 @@ The Physical Access Control System (PACS) products listed under the â€œApprovedâ
 - [WaveLynx Technologies Readers]({{site.baseurl}}/docs/apl-10168-69-70-71-72-73-wavelynx.pdf){:target="_blank"}{:rel="noopener noreferrer"}
 
 ## PACS Solutions Awaiting Approval
-
+<!-- Start of PACS Solutions Awaiting Approval -->
 <table class="usa-table" aria-labelledby="pacs-caption">
   <caption id="pacs-caption">
     PACS Solutions Awaiting Approval List
@@ -126,7 +126,8 @@ The Physical Access Control System (PACS) products listed under the â€œApprovedâ
     </tr>
   </thead>
   <tbody>
-  {% for psaal in site.data.fips201pacs-await-list %}
+  {% assign pacsawaitlist = site.data.fips201pacs-await-list | sort: "position" %}
+  {% for psaal in pacsawaitlist %}
     <tr>
       <th scope="row" role="rowheader" style="text-align: center;">{{ psaal.position }}</th>
       <td>{{ psaal.solution }}</td>
@@ -138,7 +139,7 @@ The Physical Access Control System (PACS) products listed under the â€œApprovedâ
   </tbody>
 </table>
 <div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
-
+<!-- End of PACS Solutions Awaiting Approval -->
 
 Cycle 2 and 3 updates are moved to the front of the test queue once they are installed. While between cycles, solutions may not appear here.
 
@@ -155,7 +156,7 @@ Please note:
 - Agencies should procure only cards validated by the NIST Personal Identity Verification Program (NPIVP).
 
 ## Approved PIV Cards
-
+<!-- Start of Approved PIV Cards -->
 <table class="usa-table" aria-labelledby="apl-caption" aria-describedby="apl-summary">
   <caption id="apl-caption">
     Approved PIV Cards List
@@ -168,23 +169,25 @@ Please note:
     </tr>    
   </thead>
   <tbody>
-    {% for apl in site.data.fips201piv | sort_natural: "aplnumber" %}
+    {% assign approvedpiv = site.data.fips201piv | sort: "aplnumber" %}
+    {% for apl in approvedpiv %}
       <tr>
         <th scope="row" role="rowheader">{{ apl.aplnumber }}</th>
         <td data-sort-value="{{ apl.productname }}"><a href="{{ apl.url | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">{{ apl.productname }}</a></td>
         <td data-sort-value="{{ apl.dateCode }}">{{ apl.validdate }}</td>
       </tr>
-    {% endfor %} <!--apl-->
+    {% endfor %} 
   </tbody>
 </table>
 <div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
+<!-- End of Approved PIV Cards -->
 
 ## Legacy PIV Cards
 
 <p id="legacy-summary">The FIPS 201 Evaluation Program no longer approves the purchase of legacy PIV cards. Any cardstock designated as "legacy" is placed on this legacy list for three (3) years and then placed on the <a href="{{site.baseurl}}/fips201/#removed-product-list"  target="_blank" rel="noopener noreferrer">Removed Product List</a> for three (3) years. However, some federal agencies still need to procure the legacy cardstock while upgrading existing systems. Agencies must stop using cardstock on the legacy list by June 30, 2027.</p>
 
 Legacy PIV cards include the following:
-<!-- Legacy PIV Card Listing -->
+<!-- Start of Legacy PIV Card Listing -->
 <table class="usa-table" aria-labelledby="legacy-caption" aria-describedby="legacy-summary">
   <caption id="legacy-caption">
     Legacy PIV Cards List
@@ -197,17 +200,18 @@ Legacy PIV cards include the following:
     </tr>    
   </thead>
   <tbody>
-    {% assign legacypiv = site.data.legacy-piv | sort: "dateCode" | reverse  %}
+    {% assign legacypiv = site.data.legacy-piv | sort: "dateCode" | reverse %}
     {% for lpc in legacypiv %}
       <tr>
         <th scope="row" role="rowheader" data-sort-value="{{ lpc.aplnumber }}">{{ lpc.aplnumber }}</th>
         <td data-sort-value="{{ lpc.productname }}"><a href="{{ lpc.url | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">{{ lpc.productname }}</a></td>
         <td data-sort-value="{{ lpc.dateCode }}">{{ lpc.validdate }}</td>
       </tr>
-    {% endfor %} <!-- Legacy PIV Card Listing -->
+    {% endfor %} 
   </tbody>
 </table>
 <div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
+<!-- End of Legacy PIV Card Listing -->
 
 Agencies procuring cardstock from the legacy list assume all risks associated with its use.
 
@@ -227,7 +231,7 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
 <p id="rpl-summary">The FIPS 201 Evaluation Programâ€™s Removed Products List (RPL) displays products and services that were once on the Approved Products List but are no longer approved for government procurement. Due to security concerns, products on the RPL are not recommended for government acquisition. Products will be removed from the RPL 3 years after the removal date.</p>
 
 <br>
-<!-- PACS Infrastructure Table -->
+<!-- Start of PACS Infrastructure Table -->
 {% assign category = '13.01 PACS Infrastructure' %}
 <table class="usa-table" aria-labelledby="rpl-caption" aria-describedby="rpl-summary">
   <caption id="rpl-caption">{{ category }} Category List</caption>
@@ -245,24 +249,25 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
     </tr>
   </thead>
   <tbody>
-   {% for rplpacsi in site.data.fips201rpl %} <!-- start of loop -->
-        {% if rplpacsi.category == category %}
+   {% assign rplpacsi = site.data.fips201rpl | sort: "dateCode" | reverse %} 
+   {% for pacsi in rplpacsi %} 
+        {% if pacsi.category == category %}
           <tr> 
-            <th scope="row" data-sort-value="{{ rplpacsi.numberApl }}">{{ rplpacsi.numberApl }}</th>
-            <td data-sort-value="{{ rplpacsi.supplier }}">{{ rplpacsi.supplier }}</td>
-            <td data-sort-value="{{ rplpacsi.nameProduct }}">{{ rplpacsi.nameProduct}}</td>
-            <td data-sort-value="{{ rplpacsi.numberProduct }}">{{ rplpacsi.numberProduct }}</td>
-            <td data-sort-value="{{ rplpacsi.dateCode }}">{{ rplpacsi.dateRemoval}}</td>
-            <td data-sort-value="{{ rplpacsi.reason }}">{{ rplpacsi.reason}}</td>
+            <th scope="row" data-sort-value="{{ pacsi.numberApl }}">{{ pacsi.numberApl }}</th>
+            <td data-sort-value="{{ pacsi.supplier }}">{{ pacsi.supplier }}</td>
+            <td data-sort-value="{{ pacsi.nameProduct }}">{{ pacsi.nameProduct }}</td>
+            <td data-sort-value="{{ pacsi.numberProduct }}">{{ pacsi.numberProduct }}</td>
+            <td data-sort-value="{{ pacsi.dateCode }}">{{ pacsi.dateRemoval }}</td>
+            <td data-sort-value="{{ pacsi.reason }}">{{ pacsi.reason }}</td>
           </tr>
         {% endif %}
-    {% endfor %} <!-- end of loop -->
+    {% endfor %} 
   </tbody>
 </table>
 <div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
-
+<!-- End of PACS Infrastructure Table -->
 <br>
-<!-- PACS Validation System Table -->
+<!-- Start of PACS Validation System Table -->
 {% assign category = '13.01 PACS Validation System' %}
 <table class="usa-table" aria-labelledby="rpl-caption" aria-describedby="rpl-summary">
   <caption id="rpl-caption">{{ category }} Category List</caption>
@@ -280,24 +285,25 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
     </tr>
   </thead>
   <tbody>
-   {% for rplpacsvs in site.data.fips201rpl %} <!-- start of loop -->
-        {% if rplpacsvs.category == category %}
+   {% assign rplpacsvs in site.data.fips201rpl | sort: "dateCode" | reverse %}
+   {% for pacsvs in rplpacsvs %}
+        {% if pacsvs.category == category %}
           <tr> 
-            <th scope="row" data-sort-value="{{ rplpacsvs.numberApl }}">{{ rplpacsvs.numberApl }}</th>
-            <td data-sort-value="{{ rplpacsvs.supplier }}">{{ rplpacsvs.supplier }}</td>
-            <td data-sort-value="{{ rplpacsvs.nameProduct }}">{{ rplpacsvs.nameProduct}}</td>
-            <td data-sort-value="{{ rplpacsvs.numberProduct }}">{{ rplpacsvs.numberProduct }}</td>
-            <td data-sort-value="{{ rplpacsvs.dateCode }}">{{ rplpacsvs.dateRemoval}}</td>
-            <td data-sort-value="{{ rplpacsvs.reason }}">{{ rplpacsvs.reason}}</td>
+            <th scope="row" data-sort-value="{{ pacsvs.numberApl }}">{{ pacsvs.numberApl }}</th>
+            <td data-sort-value="{{ pacsvs.supplier }}">{{ pacsvs.supplier }}</td>
+            <td data-sort-value="{{ pacsvs.nameProduct }}">{{ pacsvs.nameProduct }}</td>
+            <td data-sort-value="{{ pacsvs.numberProduct }}">{{ pacsvs.numberProduct }}</td>
+            <td data-sort-value="{{ pacsvs.dateCode }}">{{ pacsvs.dateRemoval }}</td>
+            <td data-sort-value="{{ pacsvs.reason }}">{{ pacsvs.reason }}</td>
           </tr>
         {% endif %}
-    {% endfor %} <!-- end of loop -->
+    {% endfor %}
   </tbody>
 </table>
 <div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
-
+<!-- End of PACS Validation System Table -->
 <br>
-<!-- PACS and Validation Infrastructure Table -->
+<!-- Start of PACS and Validation Infrastructure Table -->
 {% assign category = '13.02 PACS and Validation Infrastructure' %}
 <table class="usa-table" aria-labelledby="rpl-caption" aria-describedby="rpl-summary">
   <caption id="rpl-caption">{{ category }} Category List</caption>
@@ -315,24 +321,25 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
     </tr>
   </thead>
   <tbody>
-   {% for rplpacsvi in site.data.fips201rpl %} <!-- start of loop -->
-        {% if rplpacsvi.category == category %}
+   {% assign rplpacsvi = site.data.fips201rpl | sort: "dateCode" | reverse %}
+   {% for pacsvi in rplpacsvi %}
+        {% if pacsvi.category == category %}
           <tr> 
-            <th scope="row" data-sort-value="{{ rplpacsvi.numberApl }}">{{ rplpacsvi.numberApl }}</th>
-            <td data-sort-value="{{ rplpacsvi.supplier }}">{{ rplpacsvi.supplier }}</td>
-            <td data-sort-value="{{ rplpacsvi.nameProduct }}">{{ rplpacsvi.nameProduct}}</td>
-            <td data-sort-value="{{ rplpacsvi.numberProduct }}">{{ rplpacsvi.numberProduct }}</td>
-            <td data-sort-value="{{ rplpacsvi.dateCode }}">{{ rplpacsvi.dateRemoval}}</td>
-            <td data-sort-value="{{ rplpacsvi.reason }}">{{ rplpacsvi.reason}}</td>
+            <th scope="row" data-sort-value="{{ pacsvi.numberApl }}">{{ pacsvi.numberApl }}</th>
+            <td data-sort-value="{{ pacsvi.supplier }}">{{ pacsvi.supplier }}</td>
+            <td data-sort-value="{{ pacsvi.nameProduct }}">{{ pacsvi.nameProduct }}</td>
+            <td data-sort-value="{{ pacsvi.numberProduct }}">{{ pacsvi.numberProduct }}</td>
+            <td data-sort-value="{{ pacsvi.dateCode }}">{{ pacsvi.dateRemoval }}</td>
+            <td data-sort-value="{{ pacsvi.reason }}">{{ pacsvi.reason }}</td>
           </tr>
         {% endif %}
-    {% endfor %} <!-- end of loop -->
+    {% endfor %}
   </tbody>
 </table>
 <div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
-
+<!-- End of PACS and Validation Infrastructure Table -->
 <br>
-<!-- PIV Card Table -->
+<!-- Start of PIV Card Table -->
 {% assign category = 'PIV Card' %}
 <table class="usa-table" aria-labelledby="rpl-caption" aria-describedby="rpl-summary">
   <caption id="rpl-caption">{{ category }} Category List</caption>
@@ -350,18 +357,20 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
     </tr>
   </thead>
   <tbody>
-   {% for rplpivcard in site.data.fips201rpl %} <!-- start of loop -->
-        {% if rplpivcard.category == category %}
+   {% assign rplpivcard = site.data.fips201rpl | sort: "dateCode" | reverse %}
+   {% for pivcard in rplpivcard %}
+        {% if pivcard.category == category %}
           <tr> 
-            <th scope="row" data-sort-value="{{ rplpivcard.numberApl }}">{{ rplpivcard.numberApl }}</th>
-            <td data-sort-value="{{ rplpivcard.supplier }}">{{ rplpivcard.supplier }}</td>
-            <td data-sort-value="{{ rplpivcard.nameProduct }}">{{ rplpivcard.nameProduct}}</td>
-            <td data-sort-value="{{ rplpivcard.numberProduct }}">{{ rplpivcard.numberProduct }}</td>
-            <td data-sort-value="{{ rplpivcard.dateCode }}">{{ rplpivcard.dateRemoval}}</td>
-            <td data-sort-value="{{ rplpivcard.reason }}">{{ rplpivcard.reason}}</td>
+            <th scope="row" data-sort-value="{{ pivcard.numberApl }}">{{ pivcard.numberApl }}</th>
+            <td data-sort-value="{{ pivcard.supplier }}">{{ pivcard.supplier }}</td>
+            <td data-sort-value="{{ pivcard.nameProduct }}">{{ pivcard.nameProduct }}</td>
+            <td data-sort-value="{{ pivcard.numberProduct }}">{{ pivcard.numberProduct }}</td>
+            <td data-sort-value="{{ pivcard.dateCode }}">{{ pivcard.dateRemoval }}</td>
+            <td data-sort-value="{{ pivcard.reason }}">{{ pivcard.reason }}</td>
           </tr>
         {% endif %}
-    {% endfor %} <!-- end of loop -->
+    {% endfor %}
   </tbody>
 </table>
 <div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
+<!-- End of PIV Card Table -->
