@@ -42,7 +42,7 @@ The Physical Access Control System (PACS) products listed under the “Approved�
 - [13.02 Topology](#approved-1302-topology-pacs-products) – end-to-end systems which integrate the first two components (PACS Infrastructure; Validation System) into a “PACS Validation Infrastructure,” which is then integrated with the third component category (PIV Reader).
 
 ## Approved 13.01 Topology PACS Products
-
+<!-- Start of Approved 13.01 Topology PACS Products -->
 <table class="usa-table usa-table--borderless" aria-labelledby="pacs-topology-caption-one">
   <caption id="pacs-topology-caption-one">
     Approved 13.01 Topology PACS Products List
@@ -67,12 +67,13 @@ The Physical Access Control System (PACS) products listed under the “Approved�
   </tbody>
 </table>
 <div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
+<!-- Start of Approved 13.01 Topology PACS Products -->
 
 **NOTE:** APL listings 10027 and 10028 are consolidated into APL listings 10112 and 10113, respectively.
 
 
 ## Approved 13.02 Topology PACS Products
-
+<!-- Start of Approved 13.02 Topology PACS Products -->
 <table class="usa-table usa-table--borderless" aria-labelledby="pacs-topology-caption-two">
   <caption id="pacs-topology-caption-two">
     Approved 13.02 Topology PACS Products List
@@ -93,6 +94,7 @@ The Physical Access Control System (PACS) products listed under the “Approved�
   </tbody>
 </table>
 <div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
+<!-- End of Approved 13.02 Topology PACS Products -->
 
 ## PACS Readers
 
@@ -200,12 +202,12 @@ Legacy PIV cards include the following:
     </tr>    
   </thead>
   <tbody>
-    {% assign legacypiv = site.data.legacy-piv | sort: "dateCode" | reverse %}
+    {% assign legacypiv = site.data.legacy-piv | sort: "validdate" | reverse %}
     {% for lpc in legacypiv %}
       <tr>
         <th scope="row" role="rowheader" data-sort-value="{{ lpc.aplnumber }}">{{ lpc.aplnumber }}</th>
         <td data-sort-value="{{ lpc.productname }}"><a href="{{ lpc.url | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">{{ lpc.productname }}</a></td>
-        <td data-sort-value="{{ lpc.dateCode }}">{{ lpc.validdate }}</td>
+        <td data-sort-value="{{ lpc.validdate }}">{{ lpc.validdate }}</td>
       </tr>
     {% endfor %} 
   </tbody>
