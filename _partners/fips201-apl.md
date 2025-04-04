@@ -56,7 +56,8 @@ The Physical Access Control System (PACS) products listed under the â€œApprovedâ
     </tr>
   </thead>
   <tbody>
-      {% for guide in site.data.fips201pacs1301 %}
+      {% assign pacs1301 = site.data.fips201pacs1301 | sort: "infrastructure" %}
+      {% for guide in pacs1301 %}
           <tr>
             <th scope="row" role="rowheader"><a href="{{ guide.infraurl | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">{{ guide.infrastructure }}</a></th>
             <td  data-sort-value="{{ guide.infraapl }}">{{ guide.infraapl }}</td>
@@ -85,7 +86,8 @@ The Physical Access Control System (PACS) products listed under the â€œApprovedâ
     </tr>
   </thead>
   <tbody>
-      {% for guide in site.data.fips201pacs1302 %}
+      {% assign pacs1302 = site.data.fips201pacs1302 | sort: "infraapl" %}
+      {% for guide in pacs1302 %}
           <tr>
             <th scope="row" role="rowheader"><a href="{{ guide.infraurl | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">{{ guide.infrastructure }}</a></th>
             <td data-sort-value="{{ guide.infraapl }}">{{ guide.infraapl }}</td>
