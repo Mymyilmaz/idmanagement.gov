@@ -659,13 +659,13 @@
   reason: 'CMVP certificate is now historical.'
   status: post
 
-# Blank entry for 13.01 PACS Validation System 
-# - category: '13.01 PACS Validation System'
-#   supplier: ''
-#   nameProduct: ''
-#   numberProduct: ''
-#   dateRemoval: 
-#   dateCode: 
-#   numberApl: ''
-#   reason: ''
-#   status: post
+# Blank entry for 13.02 PACS and Validation Infrastructure 
+- category: '13.02 PACS and Validation Infrastructure'
+  supplier: ''
+  nameProduct: ''
+  numberProduct: ''
+  dateRemoval: 
+  dateCode: 
+  numberApl: ''
+  reason: ''
+  status: post
