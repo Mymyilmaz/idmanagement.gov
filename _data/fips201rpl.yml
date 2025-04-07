@@ -83,16 +83,16 @@
   reason: 'Not approved for FRTC 1.3.3'
   status: post
 
-- category: '13.02 PACS and Validation Infrastructure'
-  supplier: Vicount
-  nameProduct: 'PACS and Validation Software for Viscount Freedom 1302'
-  numberProduct: '30-1302-PVS,50-1302-PIV,30-1302-FCM,50-1302-1'
-  # dateRemoval: 'Wednesday, November 25, 2020'
-  dateRemoval: 11/25/2020
-  dateCode: 2020-11-25
-  numberApl: '10029'
-  reason: 'Not approved for FRTC 1.3.3'
-  status: post
+# - category: '13.02 PACS and Validation Infrastructure'
+#   supplier: Vicount
+#   nameProduct: 'PACS and Validation Software for Viscount Freedom 1302'
+#   numberProduct: '30-1302-PVS,50-1302-PIV,30-1302-FCM,50-1302-1'
+#   # dateRemoval: 'Wednesday, November 25, 2020'
+#   dateRemoval: 11/25/2020
+#   dateCode: 2020-11-25
+#   numberApl: '10029'
+#   reason: 'Not approved for FRTC 1.3.3'
+#   status: post
     
 # - category: '13.01 PACS Infrastructure'
 #   supplier: 'Galaxy Control Systems'
