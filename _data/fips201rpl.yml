@@ -53,36 +53,35 @@
   reason: 'Components end of sale'
   status: post
 
-# - category: '13.01 PACS Validation System'
-#   supplier: 'HID Global'
-#   nameProduct: '13.01 - pivCLASS validation system 5.20 for Hirsch-Identiv Velocity 3.8.4'
-#   numberProduct: 'None'
-#   dateRemoval: 10/16/2023
-#   dateCode: 2023-10-16
-#   numberApl: '10014'
-#   reason: 'Per vendor request'
-#   status: post
+- category: '13.01 PACS Validation System'
+  supplier: 'HID Global'
+  nameProduct: '13.01 - pivCLASS validation system 5.20 for Hirsch-Identiv Velocity 3.8.4'
+  numberProduct: 'None'
+  dateRemoval: 10/16/2023
+  dateCode: 2023-10-16
+  numberApl: '10014'
+  reason: 'Per vendor request'
+  status: post
     
-# - category: '13.01 PACS Validation System'
-#   supplier: 'HID Global'
-#   nameProduct: 'pivCLASS Registration Engine for AccesNsite'
-#   numberProduct: 'PVCP-D/S-17-00'
-#   dateRemoval: 11/01/2022
-#   dateCode: 2022-11-01
-#   numberApl: '10044'
-#   reason: 'Not approved for FRTC 1.4.2'
-#   status: post
+- category: '13.01 PACS Validation System'
+  supplier: 'HID Global'
+  nameProduct: 'pivCLASS Registration Engine for AccesNsite'
+  numberProduct: 'PVCP-D/S-17-00'
+  dateRemoval: 11/01/2022
+  dateCode: 2022-11-01
+  numberApl: '10044'
+  reason: 'Not approved for FRTC 1.4.2'
+  status: post
 
-# - category: '13.01 PACS Validation System'
-#   supplier: 'Technology Industries'
-#   nameProduct: 'Technology Industries Validation System for AMAG Professional'
-#   numberProduct: 'EP-IDM-STE'
-#   dateRemoval: 06/09/2022
-#   dateCode: 2022-06-09
-#   numberApl: '10086'
-#   reason: 'Not approved for FRTC 1.3.3'
-#   status: post
-
+- category: '13.01 PACS Validation System'
+  supplier: 'Technology Industries'
+  nameProduct: 'Technology Industries Validation System for AMAG Professional'
+  numberProduct: 'EP-IDM-STE'
+  dateRemoval: 06/09/2022
+  dateCode: 2022-06-09
+  numberApl: '10086'
+  reason: 'Not approved for FRTC 1.3.3'
+  status: post
 
 - category: '13.02 PACS and Validation Infrastructure'
   supplier: Vicount
@@ -661,12 +660,12 @@
   status: post
 
 # Blank entry for 13.01 PACS Validation System 
-- category: '13.01 PACS Validation System'
-  supplier: ''
-  nameProduct: ''
-  numberProduct: ''
-  dateRemoval: 
-  dateCode: 
-  numberApl: ''
-  reason: ''
-  status: post
+# - category: '13.01 PACS Validation System'
+#   supplier: ''
+#   nameProduct: ''
+#   numberProduct: ''
+#   dateRemoval: 
+#   dateCode: 
+#   numberApl: ''
+#   reason: ''
+#   status: post
