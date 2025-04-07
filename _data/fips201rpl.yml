@@ -105,15 +105,15 @@
 #   reason: 'Not approved for FRTC 1.3.3'
 #   status: post
 
-- category: '13.01 PACS Validation System'
-  supplier: 'HID Global'
-  nameProduct: 'pivCLASS Registration Engine for Galaxy GCS'
-  numberProduct: PVCP-D/S-32-00
-  dateRemoval: 02/13/2020
-  dateCode: 2020-02-13
-  numberApl: '10098'
-  reason: 'Not approved for FRTC 1.3.3'
-  status: post
+# - category: '13.01 PACS Validation System'
+#   supplier: 'HID Global'
+#   nameProduct: 'pivCLASS Registration Engine for Galaxy GCS'
+#   numberProduct: PVCP-D/S-32-00
+#   dateRemoval: 02/13/2020
+#   dateCode: 2020-02-13
+#   numberApl: '10098'
+#   reason: 'Not approved for FRTC 1.3.3'
+#   status: post
 
 # - category: '13.01 PACS Infrastructure'
 #   supplier: 'Monitor Dynamics'
@@ -125,15 +125,15 @@
 #   reason: 'Not approved for FRTC 1.3.3'
 #   status: post
 
-- category: '13.01 PACS Validation System'
-  supplier: 'HID Global'
-  nameProduct: 'FIPS 201 SDK Runtime with SafeNET Plug-in'
-  numberProduct: PVC-API-RTL-25-00
-  dateRemoval: 02/13/2020
-  dateCode: 2020-02-13
-  numberApl: '10025'
-  reason: 'Not approved for FRTC 1.3.3'
-  status: post
+# - category: '13.01 PACS Validation System'
+#   supplier: 'HID Global'
+#   nameProduct: 'FIPS 201 SDK Runtime with SafeNET Plug-in'
+#   numberProduct: PVC-API-RTL-25-00
+#   dateRemoval: 02/13/2020
+#   dateCode: 2020-02-13
+#   numberApl: '10025'
+#   reason: 'Not approved for FRTC 1.3.3'
+#   status: post
 
 # - category: '13.01 PACS Infrastructure'
 #   supplier: BridgePoint
@@ -145,36 +145,36 @@
 #   reason: 'Not approved for FRTC 1.3.3'
 #   status: post
 
-- category: '13.01 PACS Validation System'
-  supplier: BridgePoint
-  nameProduct: 'Trust Alert Enrollment Software, 1-factor Enrollment Reader'
-  numberProduct: '67-32-1216, 78-02-1102'
-  dateRemoval: 09/13/2018
-  dateCode: 2018-09-13
-  numberApl: '10050'
-  reason: 'Not approved for FRTC 1.3.3'
-  status: archive
+# - category: '13.01 PACS Validation System'
+#   supplier: BridgePoint
+#   nameProduct: 'Trust Alert Enrollment Software, 1-factor Enrollment Reader'
+#   numberProduct: '67-32-1216, 78-02-1102'
+#   dateRemoval: 09/13/2018
+#   dateCode: 2018-09-13
+#   numberApl: '10050'
+#   reason: 'Not approved for FRTC 1.3.3'
+#   status: archive
 
 # - category: '13.01 PACS Validation System'
 
-  supplier: 'HID Global'
-  nameProduct: 'pivCLASS Registration Engine for JCI P2000'
-  numberProduct: PVCP-D/S-11-00
-  dateRemoval: 09/13/2018
-  dateCode: 2018-09-13
-  numberApl: '10018'
-  reason: 'Not approved for FRTC 1.3.3'
-  status: archive
+  # supplier: 'HID Global'
+  # nameProduct: 'pivCLASS Registration Engine for JCI P2000'
+  # numberProduct: PVCP-D/S-11-00
+  # dateRemoval: 09/13/2018
+  # dateCode: 2018-09-13
+  # numberApl: '10018'
+  # reason: 'Not approved for FRTC 1.3.3'
+  # status: archive
 
-- category: '13.01 PACS Validation System'
-  supplier: 'HID Global'
-  nameProduct: 'pivCLASS Registration Engine for C*CURE 800'
-  numberProduct: PVCP-D/S-23-01
-  dateRemoval: 09/13/2018
-  dateCode: 2018-09-13
-  numberApl: '10012'
-  reason: 'Not approved for FRTC 1.3.3'
-  status: archive
+# - category: '13.01 PACS Validation System'
+#   supplier: 'HID Global'
+#   nameProduct: 'pivCLASS Registration Engine for C*CURE 800'
+#   numberProduct: PVCP-D/S-23-01
+#   dateRemoval: 09/13/2018
+#   dateCode: 2018-09-13
+#   numberApl: '10012'
+#   reason: 'Not approved for FRTC 1.3.3'
+#   status: archive
 
 # - category: '13.01 PACS Infrastructure'
 #   supplier: 'Johnson Controls'
@@ -196,24 +196,24 @@
 #   reason: 'Not approved for FRTC 1.3.3'
 #   status: archive
 
-- category: '13.01 PACS Validation System'
-  supplier: 'Technology Industries'
-  nameProduct: 'EntryPoint PACS Connector for JCI P2000'
-  numberProduct: EP-PACS-2000
-  dateRemoval: 09/13/2018
-  dateCode: 2018-09-13
-  numberApl: '10045'
-  reason: 'Not approved for FRTC 1.3.3'
-  status: archive
+# - category: '13.01 PACS Validation System'
+#   supplier: 'Technology Industries'
+#   nameProduct: 'EntryPoint PACS Connector for JCI P2000'
+#   numberProduct: EP-PACS-2000
+#   dateRemoval: 09/13/2018
+#   dateCode: 2018-09-13
+#   numberApl: '10045'
+#   reason: 'Not approved for FRTC 1.3.3'
+#   status: archive
 
-- category: '13.01 PACS Validation System'
-  supplier: 'Technology Industries'
-  nameProduct: 'EntryPoint PACS Connector for Lynx Predator, Identity Management Suite, Validation Service, High Assurance Reader Service'
-  numberProduct: EP-PACS-LINX
-  dateRemoval: 09/13/2018
-  dateCode: 2018-09-13
-  numberApl: '10066'
-  reason: 'Not approved for FRTC 1.3.3'
+# - category: '13.01 PACS Validation System'
+#   supplier: 'Technology Industries'
+#   nameProduct: 'EntryPoint PACS Connector for Lynx Predator, Identity Management Suite, Validation Service, High Assurance Reader Service'
+#   numberProduct: EP-PACS-LINX
+#   dateRemoval: 09/13/2018
+#   dateCode: 2018-09-13
+#   numberApl: '10066'
+#   reason: 'Not approved for FRTC 1.3.3'
 
 # - category: '13.01 PACS Infrastructure'
 #   supplier: 'The Will-Burt Company'
@@ -541,15 +541,15 @@
 #   reason: 'Discontinued product'
 #   status: archive
 
-- category: '13.01 PACS Validation System'
-  supplier: 'HID Global'
-  nameProduct: 'pivCLASS Registration Engine (Brivo OnAir for Government)'
-  numberProduct: 'PVCP-D/S 03-01'
-  dateRemoval: 03/18/2017
-  dateCode: 2017-03-18
-  numberApl: '10074'
-  reason: 'Discontinued product'
-  status: archive
+# - category: '13.01 PACS Validation System'
+#   supplier: 'HID Global'
+#   nameProduct: 'pivCLASS Registration Engine (Brivo OnAir for Government)'
+#   numberProduct: 'PVCP-D/S 03-01'
+#   dateRemoval: 03/18/2017
+#   dateCode: 2017-03-18
+#   numberApl: '10074'
+#   reason: 'Discontinued product'
+#   status: archive
 
 - category: 'PIV Card'
   supplier: 'Oberthur Technologies'
