@@ -564,8 +564,8 @@
 # New: Added 03/27/2025 (cjb)
 - category: 'PIV Card'
   supplier: 'Idemia'
-  nameProduct: '1501381'
-  numberProduct: 'ID-One PIV v2.4 on Cosmos V8.1 (EEPROM)'
+  nameProduct: 'ID-One PIV v2.4 on Cosmos V8.1 (EEPROM)'
+  numberProduct: '1501381' 
   dateRemoval: 07/01/2024
   dateCode: 2024-07-01
   numberApl: '1428'
