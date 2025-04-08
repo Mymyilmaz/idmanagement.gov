@@ -43,15 +43,16 @@
   reason: 'Not approved for FRTC 1.3.3'
   status: post
 
-- category: '13.01 PACS Infrastructure'
-  supplier: 'Brivo'
-  nameProduct: 'Brivo OnSite server'
-  numberProduct: 'B-OSS-BA(X), B-ACS5000(y), B-ACS5000-DB, B-ACS-IPDC-(Z)A, B-ACS6000-DB, B-ACS300-A, B-ACS300-A-FIPS, B-ACS6000-A-FIPS'
-  dateRemoval: 10/13/2021
-  dateCode: 2021-10-13
-  numberApl: '10009 & 10010'
-  reason: 'Components end of sale'
-  status: post
+# Removed 04/08/2025 per Sutapa (cjb)
+# - category: '13.01 PACS Infrastructure'
+#   supplier: 'Brivo'
+#   nameProduct: 'Brivo OnSite server'
+#   numberProduct: 'B-OSS-BA(X), B-ACS5000(y), B-ACS5000-DB, B-ACS-IPDC-(Z)A, B-ACS6000-DB, B-ACS300-A, B-ACS300-A-FIPS, B-ACS6000-A-FIPS'
+#   dateRemoval: 10/13/2021
+#   dateCode: 2021-10-13
+#   numberApl: '10009 & 10010'
+#   reason: 'Components end of sale'
+#   status: post
 
 - category: '13.01 PACS Validation System'
   supplier: 'HID Global'
