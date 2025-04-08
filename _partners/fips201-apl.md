@@ -42,9 +42,9 @@ The Physical Access Control System (PACS) products listed under the “Approved�
 - [13.02 Topology](#approved-1302-topology-pacs-products) – end-to-end systems which integrate the first two components (PACS Infrastructure; Validation System) into a “PACS Validation Infrastructure,” which is then integrated with the third component category (PIV Reader).
 
 ## Approved 13.01 Topology PACS Products
-
-<table class="usa-table usa-table--borderless">
-  <caption>
+<!-- Start of Approved 13.01 Topology PACS Products -->
+<table class="usa-table usa-table--borderless" aria-labelledby="pacs-topology-caption-one">
+  <caption id="pacs-topology-caption-one">
     Approved 13.01 Topology PACS Products List
   </caption>
   <thead>
@@ -56,7 +56,8 @@ The Physical Access Control System (PACS) products listed under the “Approved�
     </tr>
   </thead>
   <tbody>
-      {% for guide in site.data.fips201pacs1301 %}
+      {% assign pacs1301 = site.data.fips201pacs1301 | sort: "infrastructure" %}
+      {% for guide in pacs1301 %}
           <tr>
             <th scope="row" role="rowheader"><a href="{{ guide.infraurl | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">{{ guide.infrastructure }}</a></th>
             <td  data-sort-value="{{ guide.infraapl }}">{{ guide.infraapl }}</td>
@@ -67,14 +68,15 @@ The Physical Access Control System (PACS) products listed under the “Approved�
   </tbody>
 </table>
 <div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
+<!-- Start of Approved 13.01 Topology PACS Products -->
 
 **NOTE:** APL listings 10027 and 10028 are consolidated into APL listings 10112 and 10113, respectively.
 
 
 ## Approved 13.02 Topology PACS Products
-
-<table class="usa-table usa-table--borderless">
-  <caption>
+<!-- Start of Approved 13.02 Topology PACS Products -->
+<table class="usa-table usa-table--borderless" aria-labelledby="pacs-topology-caption-two">
+  <caption id="pacs-topology-caption-two">
     Approved 13.02 Topology PACS Products List
   </caption>
   <thead>
@@ -84,7 +86,8 @@ The Physical Access Control System (PACS) products listed under the “Approved�
     </tr>
   </thead>
   <tbody>
-      {% for guide in site.data.fips201pacs1302 %}
+      {% assign pacs1302 = site.data.fips201pacs1302 | sort: "infraapl" %}
+      {% for guide in pacs1302 %}
           <tr>
             <th scope="row" role="rowheader"><a href="{{ guide.infraurl | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">{{ guide.infrastructure }}</a></th>
             <td data-sort-value="{{ guide.infraapl }}">{{ guide.infraapl }}</td>
@@ -93,6 +96,7 @@ The Physical Access Control System (PACS) products listed under the “Approved�
   </tbody>
 </table>
 <div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
+<!-- End of Approved 13.02 Topology PACS Products -->
 
 ## PACS Readers
 
@@ -111,9 +115,9 @@ The Physical Access Control System (PACS) products listed under the “Approved�
 - [WaveLynx Technologies Readers]({{site.baseurl}}/docs/apl-10168-69-70-71-72-73-wavelynx.pdf){:target="_blank"}{:rel="noopener noreferrer"}
 
 ## PACS Solutions Awaiting Approval
-
-<table class="usa-table">
-  <caption>
+<!-- Start of PACS Solutions Awaiting Approval -->
+<table class="usa-table" aria-labelledby="pacs-caption">
+  <caption id="pacs-caption">
     PACS Solutions Awaiting Approval List
   </caption>
   <thead>
@@ -126,7 +130,8 @@ The Physical Access Control System (PACS) products listed under the “Approved�
     </tr>
   </thead>
   <tbody>
-  {% for psaal in site.data.fips201pacs-await-list %}
+  {% assign pacsawaitlist = site.data.fips201pacs-await-list | sort: "position" %}
+  {% for psaal in pacsawaitlist %}
     <tr>
       <th scope="row" role="rowheader" style="text-align: center;">{{ psaal.position }}</th>
       <td>{{ psaal.solution }}</td>
@@ -138,26 +143,26 @@ The Physical Access Control System (PACS) products listed under the “Approved�
   </tbody>
 </table>
 <div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
-
+<!-- End of PACS Solutions Awaiting Approval -->
 
 Cycle 2 and 3 updates are moved to the front of the test queue once they are installed. While between cycles, solutions may not appear here.
 
 ## Approved Products - PIV Smart Cards
 
-The Personal Identity Verification (PIV) cards listed below are approved for FICAM implementation under the FIPS 201 Evaluation Program. These are blank PIV cards available for purchase. A PIV service provider will personalize these blank cards for federal agencies and contractors. PIV service providers are required to use PIV cardstock from the Approved Products List (APL). 
-
+<p id="apl-summary">The Personal Identity Verification (PIV) cards listed below are approved for FICAM implementation under the FIPS 201 Evaluation Program. They are blank PIV cards that are available for purchase. A PIV service provider will personalize these blank cards for federal agencies and contractors. PIV service providers are required to use PIV cardstock from the Approved Products List (APL).</p>
+ 
 If you do not see a card below, it's possible it's on the [Removed Product List]({{site.baseurl}}/fips201/#removed-product-list).
 
 Please note:
 
-- Tri-Interface cards are not approved for federal government PIV or CAC card use. Agencies should not procure them. They are listed on the APL for industry-only acquisition.
+- Tri-Interface cards are not approved for federal government PIV or CAC card use, so agencies should not procure them. They are listed on the APL for industry-only acquisition.
 - Manufacturers may call Tri-Interface cards by different names (for example, Dual Hybrid). The prohibited feature of Tri-Interface cards is a prox interface (a 125 kHz antenna).
 - Agencies should procure only cards validated by the NIST Personal Identity Verification Program (NPIVP).
 
 ## Approved PIV Cards
-
-<table class="usa-table">
-  <caption>
+<!-- Start of Approved PIV Cards -->
+<table class="usa-table" aria-labelledby="apl-caption" aria-describedby="apl-summary">
+  <caption id="apl-caption">
     Approved PIV Cards List
   </caption>
   <thead>
@@ -168,57 +173,73 @@ Please note:
     </tr>    
   </thead>
   <tbody>
-    {% for apl in site.data.fips201piv %}
+    {% assign approvedpiv = site.data.fips201piv | sort: "aplnumber" %}
+    {% for apl in approvedpiv %}
       <tr>
         <th scope="row" role="rowheader">{{ apl.aplnumber }}</th>
         <td data-sort-value="{{ apl.productname }}"><a href="{{ apl.url | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">{{ apl.productname }}</a></td>
-        <td data-sort-value="{{ apl.validdate }}">{{ apl.validdate }}</td>
+        <td data-sort-value="{{ apl.dateCode }}">{{ apl.validdate }}</td>
       </tr>
-    {% endfor %} <!--apl-->
+    {% endfor %} 
   </tbody>
 </table>
 <div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
+<!-- End of Approved PIV Cards -->
 
 ## Legacy PIV Cards
 
-Legacy PIV cards are no longer approved for purchase by the FIPS 201 Evaluation Program. Any cardstock designated as “legacy” is placed on this legacy list and on the [Removed Product List]({{site.baseurl}}/fips201/#removed-product-list). However, some federal agencies still need to procure the legacy cardstock to use while existing systems are being upgraded. Agencies must stop using cardstock on the legacy list by **June 30, 2024**.
+<p id="legacy-summary">The FIPS 201 Evaluation Program no longer approves the purchase of legacy PIV cards. Any cardstock designated as "legacy" is placed on this legacy list for three (3) years and then placed on the <a href="{{site.baseurl}}/fips201/#removed-product-list">Removed Product List</a> for three (3) years. However, some federal agencies still need to procure the legacy cardstock while upgrading existing systems. Agencies must stop using cardstock on the legacy list by June 30, 2027.</p>
 
 Legacy PIV cards include the following:
+<!-- Start of Legacy PIV Card Listing -->
+<table class="usa-table" aria-labelledby="legacy-caption" aria-describedby="legacy-summary">
+  <caption id="legacy-caption">
+    Legacy PIV Cards List
+  </caption>
+  <thead>
+    <tr>
+      <th data-sortable scope="col" role="columnheader" >APL Number</th>
+      <th data-sortable scope="col" role="columnheader">Product Name</th>
+      <th data-sortable scope="col" role="columnheader" aria-sort="descending">Valid Date</th>
+    </tr>    
+  </thead>
+  <tbody>
+    {% assign legacypiv = site.data.legacy-piv | sort: "dateCode" | reverse %}
+    {% for lpc in legacypiv %}
+      <tr>
+        <th scope="row" role="rowheader" data-sort-value="{{ lpc.aplnumber }}">{{ lpc.aplnumber }}</th>
+        <td data-sort-value="{{ lpc.productname }}"><a href="{{ lpc.url | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">{{ lpc.productname }}</a></td>
+        <td data-sort-value="{{ lpc.dateCode }}">{{ lpc.validdate }}</td>
+      </tr>
+    {% endfor %} 
+  </tbody>
+</table>
+<div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
+<!-- End of Legacy PIV Card Listing -->
 
-- Gemalto IDCore 3020 v1, 128k dual-interface with ActivIdentity Digital Identity Applet Suite – APL# 1244
-- Giesecke & Devrient StarSign(R) SmartCafe(R) Expert 144K with PIV Applet – APL# 525
-- IDEMIA ID-One (Type A) Large D – APL# 587
-
-Agencies procuring cardstock from the legacy list assume all risks associated with its use from now until the NIST-mandated deadline of June 30, 2024.
+Agencies procuring cardstock from the legacy list assume all risks associated with its use.
 
 If your agency needs to purchase cardstock from this legacy list, you must submit an Assumption of Risk Memorandum (memo) from the agency Chief Information Officer(s) to the General Services Administration (GSA). The memo must contain the following information:
 
-- Acknowledgement of the assumption of all associated security risks;
-- Acknowledgement of non-compliance with NIST standards;
-- A transition plan specifying major milestones to achieve full compliance by the 2024 deadline; and
+- Acknowledgment of the assumption of all associated security risks;
+- Acknowledgment of non-compliance with NIST standards;
+- A transition plan specifying major milestones to achieve full compliance by the 2027 deadline and
 - Implications resulting from non-compliance with federal policy related to this purchase.
 
-Submit the memo to [GSA’s Associate Administrator for Government-wide Policy (OGP)](https://www.gsa.gov/about-us/organization/office-of-governmentwide-policy?_gl=1*k3bw6t*_ga*MjA1NTk4NzkwNy4xNjY5MjExMjg2*_ga_HBYXWFP794*MTcxNTg3MzE3OS40MC4xLjE3MTU4NzMyNjUuMC4wLjA){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} (regardless of the acquisition vehicle used). If using [GSA Multiple Award Schedule]({{site.baseurl}}/acquisition-professionals/#gsa-multiple-award-schedule) as the acquisition vehicle, also submit a copy of the memo to the Commissioner of GSA’s Federal Acquisition Service.
+Submit the memo to [GSA’s Associate Administrator for Government-wide Policy (OGP)](https://www.gsa.gov/about-us/organization/office-of-governmentwide-policy?_gl=1*k3bw6t*_ga*MjA1NTk4NzkwNy4xNjY5MjExMjg2*_ga_HBYXWFP794*MTcxNTg3MzE3OS40MC4xLjE3MTU4NzMyNjUuMC4wLjA){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} (regardless of the vehicle used in the acquisition). If using the [GSA Multiple Award Schedule](){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} as the acquisition vehicle, submit a copy of the memo to the Commissioner of GSA’s Federal Acquisition Service.
 
-Note that GSA will provide the Office of the Federal Chief Information Officer (OFCIO) at the Office of Management and Budget (OMB) with copies of all memos submitted.
+Note: GSA will provide the Office of the Federal Chief Information Officer (OFCIO) at the Office of Management and Budget (OMB) with copies of all memos submitted.
 
 ## Removed Product List
 
-{% assign categories = "" | split: "" %}
-{% for rpl in site.data.fips201rpl %}
-  {% assign category = rpl.category | strip %}
-  {% assign categories = categories | push: category | uniq | sort %}
-{% endfor %}
-{% assign categories = categories | uniq | sort %}
-
-The FIPS 201 Evaluation Program’s Removed Products List (RPL) displays products and services that were at one time on the Approved Products List but are no longer approved for government procurement. Due to security concerns, products on the RPL are not recommended for government acquisition. Products will be removed from the RPL after 3 years.
+<p id="rpl-summary">The FIPS 201 Evaluation Program’s Removed Products List (RPL) displays products and services that were once on the Approved Products List but are no longer approved for government procurement. Due to security concerns, products on the RPL are not recommended for government acquisition. Products will be removed from the RPL 3 years after the removal date.</p>
 
 <br>
-{% for category in categories %}
-<table class="usa-table">
-  <caption>{{ category }} Category List</caption>
+<!-- Start of PACS Infrastructure Table -->
+{% assign category = '13.01 PACS Infrastructure' %}
+<table class="usa-table" aria-labelledby="rpl-caption" aria-describedby="rpl-summary">
+  <caption id="rpl-caption">{{ category }} Category List</caption>
   <thead>
-    <!-- Output header with version based on category name -->
     <tr>
       <th scope="col" role="columnheader" colspan="6"><b>{{ category }} Category</b></th>
     </tr>
@@ -232,19 +253,128 @@ The FIPS 201 Evaluation Program’s Removed Products List (RPL) displays product
     </tr>
   </thead>
   <tbody>
-   {% for rpl in site.data.fips201rpl %}
-        {% if rpl.category == category %}
-          <tr>
-            <th scope="row">{{ rpl.numberApl }}</th>
-            <td data-sort-value="{{ rpl.supplier }}">{{ rpl.supplier }}</td>
-            <td data-sort-value="{{ rpl.nameProduct}}">{{ rpl.nameProduct}}</td>
-            <td data-sort-value="{{ rpl.numberProduct }}">{{ rpl.numberProduct }}</td>
-            <td data-sort-value="{{ rpl.dateRemoval | remove: '-'}}">{{ rpl.dateRemoval}}</td>
-            <td data-sort-value="{{ rpl.reason}}">{{ rpl.reason}}</td>
+   {% assign rplpacsi = site.data.fips201rpl | sort: "dateCode" | reverse %} 
+   {% for pacsi in rplpacsi %} 
+        {% if pacsi.category == category %}
+          <tr> 
+            <th scope="row" data-sort-value="{{ pacsi.numberApl }}">{{ pacsi.numberApl }}</th>
+            <td data-sort-value="{{ pacsi.supplier }}">{{ pacsi.supplier }}</td>
+            <td data-sort-value="{{ pacsi.nameProduct }}">{{ pacsi.nameProduct }}</td>
+            <td data-sort-value="{{ pacsi.numberProduct }}">{{ pacsi.numberProduct }}</td>
+            <td data-sort-value="{{ pacsi.dateCode }}">{{ pacsi.dateRemoval }}</td>
+            <td data-sort-value="{{ pacsi.reason }}">{{ pacsi.reason }}</td>
           </tr>
         {% endif %}
-    {% endfor %} <!--rpl-->
+    {% endfor %} 
   </tbody>
 </table>
 <div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
-{% endfor %}<!--category-->
+<!-- End of PACS Infrastructure Table -->
+<br>
+<!-- Start of PACS Validation System Table -->
+{% assign category = '13.01 PACS Validation System' %}
+<table class="usa-table" aria-labelledby="rpl-caption" aria-describedby="rpl-summary">
+  <caption id="rpl-caption">{{ category }} Category List</caption>
+  <thead>
+    <tr>
+      <th scope="col" role="columnheader" colspan="6"><b>{{ category }} Category</b></th>
+    </tr>
+    <tr>
+      <th data-sortable scope="col" role="columnheader" >APL #</th>
+      <th data-sortable scope="col" role="columnheader" >Supplier</th>
+      <th data-sortable scope="col" role="columnheader" >Product Name(s)</th>
+      <th data-sortable scope="col" role="columnheader" >Product Number</th>
+      <th data-sortable scope="col" role="columnheader" aria-sort="descending">Removal Date</th>
+      <th data-sortable scope="col" role="columnheader" >Reason For Removal</th>
+    </tr>
+  </thead>
+  <tbody>
+   {% assign rplpacsvs = site.data.fips201rpl | sort: "dateCode" | reverse %}
+   {% for pacsvs in rplpacsvs %}
+        {% if pacsvs.category == category %}
+          <tr> 
+            <th scope="row" data-sort-value="{{ pacsvs.numberApl }}">{{ pacsvs.numberApl }}</th>
+            <td data-sort-value="{{ pacsvs.supplier }}">{{ pacsvs.supplier }}</td>
+            <td data-sort-value="{{ pacsvs.nameProduct }}">{{ pacsvs.nameProduct }}</td>
+            <td data-sort-value="{{ pacsvs.numberProduct }}">{{ pacsvs.numberProduct }}</td>
+            <td data-sort-value="{{ pacsvs.dateCode }}">{{ pacsvs.dateRemoval }}</td>
+            <td data-sort-value="{{ pacsvs.reason }}">{{ pacsvs.reason }}</td>
+          </tr>
+        {% endif %}
+    {% endfor %}
+  </tbody>
+</table>
+<div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
+<!-- End of PACS Validation System Table -->
+<br>
+<!-- Start of PACS and Validation Infrastructure Table -->
+{% assign category = '13.02 PACS and Validation Infrastructure' %}
+<table class="usa-table" aria-labelledby="rpl-caption" aria-describedby="rpl-summary">
+  <caption id="rpl-caption">{{ category }} Category List</caption>
+  <thead>
+    <tr>
+      <th scope="col" role="columnheader" colspan="6"><b>{{ category }} Category</b></th>
+    </tr>
+    <tr>
+      <th data-sortable scope="col" role="columnheader" >APL #</th>
+      <th data-sortable scope="col" role="columnheader" >Supplier</th>
+      <th data-sortable scope="col" role="columnheader" >Product Name(s)</th>
+      <th data-sortable scope="col" role="columnheader" >Product Number</th>
+      <th data-sortable scope="col" role="columnheader" aria-sort="descending">Removal Date</th>
+      <th data-sortable scope="col" role="columnheader" >Reason For Removal</th>
+    </tr>
+  </thead>
+  <tbody>
+   {% assign rplpacsvi = site.data.fips201rpl | sort: "dateCode" | reverse %}
+   {% for pacsvi in rplpacsvi %}
+        {% if pacsvi.category == category %}
+          <tr> 
+            <th scope="row" data-sort-value="{{ pacsvi.numberApl }}">{{ pacsvi.numberApl }}</th>
+            <td data-sort-value="{{ pacsvi.supplier }}">{{ pacsvi.supplier }}</td>
+            <td data-sort-value="{{ pacsvi.nameProduct }}">{{ pacsvi.nameProduct }}</td>
+            <td data-sort-value="{{ pacsvi.numberProduct }}">{{ pacsvi.numberProduct }}</td>
+            <td data-sort-value="{{ pacsvi.dateCode }}">{{ pacsvi.dateRemoval }}</td>
+            <td data-sort-value="{{ pacsvi.reason }}">{{ pacsvi.reason }}</td>
+          </tr>
+        {% endif %}
+    {% endfor %}
+  </tbody>
+</table>
+<div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
+<!-- End of PACS and Validation Infrastructure Table -->
+<br>
+<!-- Start of PIV Card Table -->
+{% assign category = 'PIV Card' %}
+<table class="usa-table" aria-labelledby="rpl-caption" aria-describedby="rpl-summary">
+  <caption id="rpl-caption">{{ category }} Category List</caption>
+  <thead>
+    <tr>
+      <th scope="col" role="columnheader" colspan="6"><b>{{ category }} Category</b></th>
+    </tr>
+    <tr>
+      <th data-sortable scope="col" role="columnheader" >APL #</th>
+      <th data-sortable scope="col" role="columnheader" >Supplier</th>
+      <th data-sortable scope="col" role="columnheader" >Product Name(s)</th>
+      <th data-sortable scope="col" role="columnheader" >Product Number</th>
+      <th data-sortable scope="col" role="columnheader" aria-sort="descending">Removal Date</th>
+      <th data-sortable scope="col" role="columnheader" >Reason For Removal</th>
+    </tr>
+  </thead>
+  <tbody>
+   {% assign rplpivcard = site.data.fips201rpl | sort: "dateCode" | reverse %}
+   {% for pivcard in rplpivcard %}
+        {% if pivcard.category == category %}
+          <tr> 
+            <th scope="row" data-sort-value="{{ pivcard.numberApl }}">{{ pivcard.numberApl }}</th>
+            <td data-sort-value="{{ pivcard.supplier }}">{{ pivcard.supplier }}</td>
+            <td data-sort-value="{{ pivcard.nameProduct }}">{{ pivcard.nameProduct }}</td>
+            <td data-sort-value="{{ pivcard.numberProduct }}">{{ pivcard.numberProduct }}</td>
+            <td data-sort-value="{{ pivcard.dateCode }}">{{ pivcard.dateRemoval }}</td>
+            <td data-sort-value="{{ pivcard.reason }}">{{ pivcard.reason }}</td>
+          </tr>
+        {% endif %}
+    {% endfor %}
+  </tbody>
+</table>
+<div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
+<!-- End of PIV Card Table -->
