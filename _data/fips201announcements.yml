@@ -16,7 +16,7 @@
 #   status: Active
 
 - name: "FIPS 201 EP's guidance on solution deployment" 
-  summary: "<p>The agency procuring the PACS solution is responsible for assessing whether the chosen solution's deployment architecture (e.g., on-site, private cloud, public cloud, etc.) aligns with its security and operational requirements.</p>"
+  summary: "<p>The agency procuring the PACS solution is responsible for assessing whether the chosen solution's deployment architecture (e.g., on-site, private cloud, public cloud, etc.) aligns with its security and operational requirements. The Approved 13.01 and 13.02 PACS topologies have been further refined to highlight the Cloud infrastructure, see: <a href=\"https://www.idmanagement.gov/fips201/#approved-products---physical-access-control-systems\" title=\"Approved Products - Physical Access Control Systems\" target=\"_blank\">Approved Products - Physical Access Control Systems</a></p>"
   pubdate: April 09, 2025
   url: 
   source: IDManagement.gov
