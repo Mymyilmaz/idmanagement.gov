@@ -93,7 +93,7 @@
   target: _blank
   expanded: false
   doctype: Announcement
-  status: Archived
+  status: Active
 
 - name: GSA FIPS 201 Testing Lab Transition Planning
   summary: GSA FICAM Testing Program Vendor - The current contract with the testing services provider for the GSA FICAM Testing Lab concludes on June 15, 2022. We are working to ensure a smooth transition for all our Vendors as we onboard a new provider.During the transition period, please note the following<br><ol><li><b>Vendor Verification of System Health</b> - We ask that each Vendor schedule an in-person appointment with the Lab prior to June 3, 2022, to verify the health of its installed system. Each Vendor representative may test its system during the visit, but updating software and hardware will not be permitted. The Lab will perform a small number of tests from the FRTC during the visit. Results will be documented, signed by Vendor and Lab representatives, and submitted to GSA. For any Vendor that is unable to go to the Lab in person prior to June 3, 2022, the Lab will issue a status report to GSA reflecting the system’s state as “unknown.” Until an in-person visit with the new Lab provider occurs to establish system status, no new applications will be accepted.</li><li><b>Testing in Progress</b> - The Lab is making every effort to complete as much testing as possible before we enter the transition phase. Testing for Vendor systems in process will conclude by May 27, 2022.</li><li><b>New Vendor Applications</b> - Applications received <b>before</b> May 31, 2022, will be reviewed by the existing Lab provider. Applications received <b>after</b> May 31, 2022, will be paused until the new provider is in place.</li><li><b>System Updates and New Installations</b> - System updates and new installations will not be processed until the new Lab provider is in place.<br><br>We will issue an announcement in June detailing next steps in the transition process, including the process of moving existing systems to a new physical location.</li></ol>
@@ -103,7 +103,7 @@
   target: _blank
   expanded: false
   doctype: Announcement
-  status: Archived
+  status: Active
 
 - name: PACS APL Application Form Revision
   summary: PACS APL testing form has undergone a major revision.  The new testing APL Application form consolidates multiple documents and reduces redundant information across those forms.  All submissions for upgrade will only need to submit a completed new APL Application form unless a significant change to architecture requires new FRTC per the lab's discretion.
@@ -113,7 +113,7 @@
   target: _blank
   expanded: false
   doctype: Announcement
-  status: Archived
+  status: Active
 
 - name: PACS FRTC v1.4.2 Rev B Released
   summary: PACS FRTC v1.4.2 Rev B has been published and is in effect immediately. This revision includes the following updates.<br>- Mobile / Handheld FRTC Test Cases (Section 8) are re-instated.<br>- Corrections and clarifications to existing test cases.
@@ -123,7 +123,7 @@
   target: _blank
   expanded: false
   doctype: PDF
-  status: Archived
+  status: Active
 
 - name: PACS FRTC v1.4.2 Update Released
   summary: PACS FRTC v1.4.2 Revision A has been published and is in effect immediately. This update includes optional test cases associated with the following functionalities.<ul><li>Secure Messaging (SM)</li><li>On-Card Comparison (OCC)</li><li>Backend Registration for PACS</li></ul>Additionally, a new testing procedure called the FRTC Express has been published and will be enacted for those solutions that have previously undergone full testing. The FRTC Express is aimed at streamlining testing associated with solution updates.
@@ -133,7 +133,7 @@
   target: _blank
   expanded: false
   doctype: Announcement
-  status: Archived
+  status: Active
 
 - name: APL Category Removal -- Card Holders
   summary: The FIPS 201 Evaluation Program will be removing card holders (also known as badge holders or electromagnetically opaque sleeves) from the Approved Products List on January 31st, 2021. GSA will no longer accept applications to certify card holders. Card holders and related products are still commercially available off-the-shelf; however, the use of these products is optional and testing is no longer in the best interests of the government.<br><br>Please note the removal of this category should not impact any existing acquisitions. Product categories not identified by the Program have no requirement for FIPS 201 conformance and available products should be able to satisfy the agency defined security requirements provided direct testing.
