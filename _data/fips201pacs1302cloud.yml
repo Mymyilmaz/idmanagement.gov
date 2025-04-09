@@ -1,3 +1,7 @@
+# FIPS201 PACS 13.02 Cloud (since: 04/07/2025) (cjb)
+# Cloud records are taken from fips201pacs1302.yml
+#
+
 - category: 13.02
   fipsstatus: Approved
   infrastructure: Kastle Systems CPS (EP) PACS and Validation Infrastructure
