@@ -38,7 +38,6 @@ Announcements older than four years are removed. [Contact us]({{site.baseurl}}/c
 {% assign lcount = 0 %}
 {% for announcement in site.data.fips201announcements %}
   {% if announcement.status == "Active" %}
-  <!-- The status of announcements older than 3 years is set to: Archived  -->
   <div class="usa-accordion usa-accordion--bordered">
     <h4 class="usa-accordion__heading">
       <button type="button" class="usa-accordion__button gsa-normal-text gsa-target-accordion-header" aria-expanded="{{announcement.expanded}}" aria-controls="gsa-{{forloop.index}}">{{announcement.name}} ({{announcement.pubdate}})</button>
