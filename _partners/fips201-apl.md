@@ -13,8 +13,12 @@ subnav:
     href: '#approved-products---physical-access-control-systems'
   - text: Approved 13.01 Topology PACS Products
     href: '#approved-1301-topology-pacs-products'
+  - text: Approved 13.01 Cloud Topology PACS Products
+    href: '#approved-1301-cloud-topology-pacs-products'
   - text: Approved 13.02 Topology PACS Products
     href: '#approved-1302-topology-pacs-products'
+  - text: Approved 13.02 Cloud Topology PACS Products
+    href: '#approved-1302-cloud-topology-pacs-products'
   - text: PACS Readers
     href: '#pacs-readers'
   - text: PACS Solutions Awaiting Approval
@@ -34,17 +38,17 @@ If you think this page is missing something, [contact us]({{site.baseurl}}/conta
 
 Visit the [Buy Page]({{site.baseurl}}/acquisition-professionals/) to view FICAM products, services and purchasing guidance.
 
-## Approved Products - Physical Access Control Systems
+## Approved Products - 13.01 and 13.02 Topology
 
-The Physical Access Control System (PACS) products listed under the “Approved” section below have met the security and functional requirements set by GSA’s FIPS 201 Evaluation Program, and have been approved for use by the Federal Government. Note that the Approved PACS Products below are grouped by either 13.01 or 13.02 topologies:
+The Physical Access Control System (PACS) products listed under the “Approved” section below have met the security and functional requirements set by GSA’s FIPS 201 Evaluation Program, and have been approved for use by the Federal Government. The agency deploying the solution is responsible for verifying that the deployment architecture (e.g., on-site, private cloud, public cloud, etc.) meets the agency's security requirements, such as FedRAMP. Note that the Approved PACS Products below are grouped by either 13.01 or 13.02 topologies and indicated as Cloud infrastructure where appropriate:
 
-- [13.01 Topology](#approved-1301-topology-pacs-products) – end-to-end systems which integrate components from three categories (PACS Infrastructure; Validation System; and PIV Reader) together through software (SDK or API).
-- [13.02 Topology](#approved-1302-topology-pacs-products) – end-to-end systems which integrate the first two components (PACS Infrastructure; Validation System) into a “PACS Validation Infrastructure,” which is then integrated with the third component category (PIV Reader).
+- [13.01 Topology](#approved-1301-topology-pacs-products) – end-to-end systems that integrate components from three categories: PACS Infrastructure, Validation System, and PIV PACS Reader.
+- [13.02 Topology](#approved-1302-topology-pacs-products) – end-to-end systems that integrate the first two components (PACS Infrastructure and Validation System) into a PACS Validation Infrastructure, which is then integrated with the third component category (PIV PACS Reader).
 
 ## Approved 13.01 Topology PACS Products
 <!-- Start of Approved 13.01 Topology PACS Products -->
-<table class="usa-table usa-table--borderless" aria-labelledby="pacs-topology-caption-one">
-  <caption id="pacs-topology-caption-one">
+<table class="usa-table usa-table--borderless">
+  <caption>
     Approved 13.01 Topology PACS Products List
   </caption>
   <thead>
@@ -56,27 +60,56 @@ The Physical Access Control System (PACS) products listed under the “Approved�
     </tr>
   </thead>
   <tbody>
-      {% assign pacs1301 = site.data.fips201pacs1301 | sort: "infrastructure" %}
-      {% for guide in pacs1301 %}
+      {% assign pacs1301topology = site.data.fips201pacs1301 | sort: "infrastructure" %}
+      {% for pacs1301top in pacs1301topology %}
           <tr>
-            <th scope="row" role="rowheader"><a href="{{ guide.infraurl | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">{{ guide.infrastructure }}</a></th>
-            <td  data-sort-value="{{ guide.infraapl }}">{{ guide.infraapl }}</td>
-            <th scope="row" role="rowheader"><a href="{{ guide.valurl | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">{{ guide.validation}}</a></th>
-             <td data-sort-value="{{ guide.valapl }}">{{ guide.valapl }}</td>
+            <th scope="row" role="rowheader"><a href="{{ pacs1301top.infraurl | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">{{ pacs1301top.infrastructure }}</a></th>
+            <td  data-sort-value="{{ pacs1301top.infraapl }}">{{ pacs1301top.infraapl }}</td>
+            <th scope="row" role="rowheader"><a href="{{ pacs1301top.valurl | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">{{ pacs1301top.validation}}</a></th>
+             <td data-sort-value="{{ pacs1301top.valapl }}">{{ pacs1301top.valapl }}</td>
           </tr>
       {% endfor %}
   </tbody>
 </table>
 <div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
-<!-- Start of Approved 13.01 Topology PACS Products -->
+<!-- End of Approved 13.01 Topology PACS Products -->
 
-**NOTE:** APL listings 10027 and 10028 are consolidated into APL listings 10112 and 10113, respectively.
+## Approved 13.01 Cloud Topology PACS Products
+<!-- Start of  Approved 13.01 Cloud Topology PACS Products -->
+<table class="usa-table usa-table--borderless">
+  <caption>
+    Approved 13.01 Cloud Topology PACS Products
+  </caption>
+  <thead>
+    <tr>
+      <th data-sortable scope="col" role="columnheader" aria-sort="ascending">PACS Infrastructure</th>
+      <th data-sortable scope="col" role="columnheader">PACS APL #</th>
+      <th data-sortable scope="col" role="columnheader">Validation System</th>
+      <th data-sortable scope="col" role="columnheader">Validation APL #</th>
+    </tr>
+  </thead>
+  <tbody>
+      {% assign pacs1301cloudtopology = site.data.fips201pacs1301cloud | sort: "infrastructure" %}
+      {% for pacs1301cloud in pacs1301cloudtopology %}
+          <tr>
+            <th scope="row" role="rowheader"><a href="{{ pacs1301cloud.infraurl | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">{{ pacs1301cloud.infrastructure }}</a></th>
+            <td  data-sort-value="{{ pacs1301cloud.infraapl }}">{{ pacs1301cloud.infraapl }}</td>
+            <th scope="row" role="rowheader"><a href="{{ pacs1301cloud.valurl | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">{{ pacs1301cloud.validation}}</a></th>
+             <td data-sort-value="{{ pacs1301cloud.valapl }}">{{ pacs1301cloud.valapl }}</td>
+          </tr>
+      {% endfor %}
+  </tbody>
+</table>
+<div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
+<!-- End of  Approved 13.01 Cloud Topology PACS Products -->
 
+<!-- **NOTE:** APL listings 10027 and 10028 are consolidated into APL listings 10112 and 10113, respectively. -->
+**Note:** The agency deploying the solution is responsible for verifying that the deployment architecture (e.g., on-site, private cloud, public cloud, etc.) meets the agency's security requirements, such as FedRAMP.
 
 ## Approved 13.02 Topology PACS Products
 <!-- Start of Approved 13.02 Topology PACS Products -->
-<table class="usa-table usa-table--borderless" aria-labelledby="pacs-topology-caption-two">
-  <caption id="pacs-topology-caption-two">
+<table class="usa-table usa-table--borderless">
+  <caption>
     Approved 13.02 Topology PACS Products List
   </caption>
   <thead>
@@ -86,17 +119,44 @@ The Physical Access Control System (PACS) products listed under the “Approved�
     </tr>
   </thead>
   <tbody>
-      {% assign pacs1302 = site.data.fips201pacs1302 | sort: "infraapl" %}
-      {% for guide in pacs1302 %}
+      {% assign pacs1302topology = site.data.fips201pacs1302 | sort: "infraapl" %}
+      {% for pacs1302top in pacs1302topology %}
           <tr>
-            <th scope="row" role="rowheader"><a href="{{ guide.infraurl | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">{{ guide.infrastructure }}</a></th>
-            <td data-sort-value="{{ guide.infraapl }}">{{ guide.infraapl }}</td>
+            <th scope="row" role="rowheader"><a href="{{ pacs1302top.infraurl | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">{{ pacs1302top.infrastructure }}</a></th>
+            <td data-sort-value="{{ pacs1302top.infraapl }}">{{ pacs1302top.infraapl }}</td>
           </tr>
       {% endfor %}
   </tbody>
 </table>
 <div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
 <!-- End of Approved 13.02 Topology PACS Products -->
+
+## Approved 13.02 Cloud Topology PACS Products
+<!-- Start of  Approved 13.02 Cloud Topology PACS Products -->
+<table class="usa-table usa-table--borderless">
+  <caption>
+    Approved 13.02 Cloud Topology PACS Products
+  </caption>
+  <thead>
+    <tr>
+      <th data-sortable scope="col" role="columnheader">PACS Infrastructure and Validation System</th>
+      <th data-sortable scope="col" role="columnheader" aria-sort="ascending"> APL # </th>
+    </tr>
+  </thead>
+  <tbody>
+      {% assign pacs1302cloudtopology = site.data.fips201pacs1302cloud | sort: "infraapl" %}
+      {% for pacs1302cloud in pacs1302cloudtopology %}
+          <tr>
+            <th scope="row" role="rowheader"><a href="{{ pacs1302cloud.infraurl | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">{{ pacs1302cloud.infrastructure }}</a></th>
+            <td data-sort-value="{{ pacs1302cloud.infraapl }}">{{ pacs1302cloud.infraapl }}</td>
+          </tr>
+      {% endfor %}
+  </tbody>
+</table>
+<div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
+<!-- End of  Approved 13.02 Cloud Topology PACS Products -->
+
+**Note:** The agency deploying the solution is responsible for verifying that the deployment architecture (e.g., on-site, private cloud, public cloud, etc.) meets the agency's security requirements, such as FedRAMP.
 
 ## PACS Readers
 
