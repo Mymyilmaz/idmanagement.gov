@@ -13,8 +13,12 @@ subnav:
     href: '#approved-products---physical-access-control-systems'
   - text: Approved 13.01 Topology PACS Products
     href: '#approved-1301-topology-pacs-products'
+  - text: Approved 13.01 Cloud Topology PACS Products
+    href: '#approved-1301-cloud-topology-pacs-products'
   - text: Approved 13.02 Topology PACS Products
     href: '#approved-1302-topology-pacs-products'
+  - text: Approved 13.02 Cloud Topology PACS Products
+    href: '#approved-1302-cloud-topology-pacs-products'
   - text: PACS Readers
     href: '#pacs-readers'
   - text: PACS Solutions Awaiting Approval
