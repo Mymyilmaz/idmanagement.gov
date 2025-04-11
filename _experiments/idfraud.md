@@ -480,7 +480,7 @@ By incorporating awareness and defenses against deepfake threats into these stru
 There are multiple ways victims can report deepfake attacks. Victims of deepfakes could:
 
 - Contact law enforcement officials who could possibly help victims by conducting forensic investigations using police reports and evidence gathered from victims.
-- Contact the Federal Bureau of Investigations and report incidents to local FBI offices or the FBI’s 24/7 Cyber Watch at CyWatch@fbi.gov.
+- Contact the Federal Bureau of Investigations and report incidents to local FBI offices or the FBI’s 24/7 Cyber Watch at [CyWatch@fbi.gov](mailto:cyWatch@fbi.gov).
 - Utilize the Securities and Exchange Commission’s services to investigate financial crimes.
 - Report inappropriate content and abuse on social media platforms (i.e. Facebook, Twitter, Instagram, etc.) using the platforms’ reporting procedures.
 - If a victim is under 18 years of age, incidents can be reported to the National Center for Missing and Exploited Children via their cyber tip line at [https://report.cybertip.org](https://report.cybertip.org){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}.
