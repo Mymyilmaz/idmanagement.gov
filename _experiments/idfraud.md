@@ -80,18 +80,18 @@ This playbook is a collaboration between the Federal Chief Information Security 
 
 ## Acknowledgments 
 
-This playbook was developed by GSA’s Office of Technology Policy’s Identity and Trusted Access Division. Key contributions were made by the members of the Defense Advanced Research Projects Agency Semantic Forensics (SemaFor) Program team. OGP IATAD appreciates the collaboration and ongoing support from DARPA on this effort and looks forward to jointly collaborating on other high impact engagements.
+This playbook was developed by GSA’s Office of Technology Policy’s Identity and Trusted Access Division. Technical contributions pertaining to media forensics were made by the members of the Defense Advanced Research Projects Agency Semantic Forensics (SemaFor) program team. OGP IATAD appreciates the collaboration and ongoing support from DARPA on this effort and looks forward to jointly collaborating on other high impact engagements as opportunities arise.
 
 ## Executive Summary
 
-In today's increasingly digital world, federal agencies face a growing threat of identity fraud. Sophisticated actors continually develop new tactics to exploit vulnerabilities and compromise sensitive information. This playbook serves as a resource and provides a foundational understanding of identity fraud techniques, detection methods, and mitigation strategies. By establishing a common terminology and framework, this guide empowers agencies to.
+In today's increasingly digital world, federal agencies face a growing threat of identity fraud. Sophisticated actors continually develop new tactics to exploit vulnerabilities and compromise sensitive information. This playbook serves as a resource and provides a foundational understanding of identity fraud techniques, detection methods, and mitigation strategies. By establishing a common terminology and framework, this guide empowers agencies to:
 
-- Recognize the diverse landscape of identity fraud techniques.
+- Recognize the diverse landscape of identity fraud techniques. 
 - Detect suspicious activities and potential threats.
 - Implement effective mitigation strategies to protect sensitive data and systems.
 - Foster cross-agency collaboration and information sharing to combat identity fraud collectively.
 
-This playbook will delve into the intricacies of identity fraud, and equip federal agencies with the knowledge and tools necessary to safeguard their operations.
+This playbook will delve into the intricacies of identity fraud and equip federal agencies with the knowledge and tools necessary to safeguard their operations.
 
 **Figure 1: Identity Fraud Detection Overview**
 
