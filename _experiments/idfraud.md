@@ -264,85 +264,83 @@ In today's interconnected digital world, identity fraud has become increasingly 
     - Potentially irreversible reputational and financial damage.
     - Generation of non-consensual explicit content.
 
-
 ## Fraud Detection Capabilities
 
 ### Introduction
 
-The use cases below exhibit DARPA’s Semantic Forensics image, voice and video identity fraud detection capabilities using their SemaFor program. “The SemaFor program seeks to develop innovative semantic technologies for analyzing media. These technologies include semantic detection algorithms, which will determine if multi-modal media assets have been generated or manipulated” (DARPA).2
+The use cases below exhibit sample media forensic workflows drawn from DARPA’s Semantic Forensics (SemaFor) program capabilities, including analytics for image, voice and video identity fraud detection. SemaFor technologies are utilized here to illustrate elements of an exemplar workflow, for which an increasing marketplace of academic and industry products exist. This section provides a discussion of potential requirements of such a technical workflow in government fraud detection goals.
 
 ### The Technology Platform
 
-The SemaFor Forensics program has developed technologies to automatically detect, attribute, and characterize falsified, multi-modal media assets (e.g., text, audio, image, video) to defend against large-scale, automated disinformation attacks. Models like ChatGPT, DALL-E, and Midjourney are all recent tools that enable the automated generation of content, and the widespread adoption of such technologies has resulted in an explosion of AI-generated multimedia that makes it challenging to understand the provenance and authenticity of online material. Additionally, media generation and manipulation technologies are advancing rapidly, and traditional detection techniques that rely on a file’s statistical fingerprints are insufficient for detecting modern manipulated media.
+Recent industry and academic efforts have created multiple families of technologies designed to help mitigate online threats perpetuated via synthetic and manipulated media. These technologies include algorithms that can detect, attribute, and characterize manipulated or synthesized media multi-modal media assets (e.g., text, audio, image, video). Models like ChatGPT, DALL-E, and Midjourney are all recent tools that enable the automated generation of content, and the widespread adoption of such technologies has resulted in an explosion of AI-generated multimedia that makes it challenging to understand the provenance and authenticity of online material. Additionally, media generation and manipulation technologies are advancing rapidly, and traditional detection techniques that rely on a file’s statistical fingerprints are insufficient for detecting modern manipulated media. 
 
-The suite of analytics developed during the SemaFor program detect, attribute, and localize manipulations in media through the identification of artifacts and inconsistencies in order to provide an informative, probabilistic assessment of file manipulation.
+The workflow below illustrates a suite of analytics leveraged to detect, attribute, and localize manipulations in media through the identification of artifacts and inconsistencies, with the goal of providing an informative, probabilistic assessment of file manipulation. 
 
 **Scenario 1 - Image**
 
-Analyst Task - Determine if presented image is generated or manipulated; localize the manipulation if present
+A digital photograph file, of individual, individual’s location,  or documents such as a passport, are submitted electronically for purposes of identification or verification of identity or location or association with another individual (this image may be potentially morphed, generated or modified).
 
-Analytics, developed during the DARPA SemaFor program, analyze the image and provide a finding of “Likely Manipulated”, along with detailed information to assist the analyst in making a judgement on a particular piece of media, in this case a generated image.
+**Analyst Task - Determine if presented image is generated or manipulated; localize the manipulation if present**
+
+Algorithms, such as those displayed in the DARPA SemaFor program prototype user interface depicted below, analyze the image and provide a finding of “Likely Manipulated,” along with detailed information to assist the analyst in making a judgement on a particular piece of media, in this case a generated image. 
 
 **Figure 2 - Image**
 
 <figure>
-  <img src="{{site.baseurl}}/assets/experiments/idfraud/figure2-image.jpg" alt="Results for a SemaFor analytic on a single generated image, displaying high confidence by the Detection Score that the image is synthetically generated. A detailed description of the specific analytics’ purpose is highlighted above. This image required only a few seconds for analytic results, but the time required for analysis varies based on factors such as analysis hardware capabilities, number of images and analytics run per analysis.">
-  <figcaption class="gsa-figcaption">Results for a SemaFor analytic on a single generated image, displaying high confidence by the Detection Score that the image is synthetically generated. A detailed description of the specific analytics’ purpose is highlighted above. This image required only a few seconds for analytic results, but the time required for analysis varies based on factors such as analysis hardware capabilities, number of images and analytics run per analysis.</figcaption>
+  <img src="{{site.baseurl}}/assets/experiments/idfraud/figure2-image.jpg" alt="Results for an image analytic on a single generated image, displaying high confidence by the Detection Score that the image is synthetically generated. A detailed description of the analytic utility is highlighted above. This image required only a few seconds to process, but the runtime required varies based on factors such as analysis hardware capabilities, number of images and number of analytics run per batch.">
+  <figcaption class="gsa-figcaption">Results for an image analytic on a single generated image, displaying high confidence by the Detection Score that the image is synthetically generated. A detailed description of the analytic utility is highlighted above. This image required only a few seconds to process, but the runtime required varies based on factors such as analysis hardware capabilities, number of images and number of analytics run per batch.</figcaption>
 </figure>
 
 **Scenario 2 - Audio**
 
-Analyst is presented with a recorded audio clip, such as a voicemail on a unified communications system. The speaker asserts identity or verification of an identity (this file may be a potential impersonation).
+Analyst is presented with a recorded audio clip, such as a voicemail on a unified communications system. The speaker asserts identity or verification of an identity (this file may be a potential impersonation). 
 
-Analyst Task: Determine if voice/audio is generated or audio manipulated; localize the manipulation if present.
+**Analyst Task: Determine if voice/audio is generated or audio manipulated; localize the manipulation if present**
 
-Analytics, developed during the DARPA SemaFor program, analyze the audio and provide a finding, along with detailed information to assist the analyst in making a judgement on a particular piece of media. In the collection of files below, the audio files are identified as having manipulations detected.
+The workflow selects analytics appropriate to the type of file submitted for analysis; most of the analytics are designed to analyze specific media types, or to look for features of the media that are specific to a particular type of modification or generative model. In the collection of files below, the audio files are identified as having manipulations detected.
 
 <figure>
-  <img src="{{site.baseurl}}/assets/experiments/idfraud/figure3-audio.jpg" alt="The Collections page of the SemaFor interface, showing the analyst’s individual collections of media.">
-  <figcaption class="gsa-figcaption">The Collections page of the SemaFor interface, showing the analyst’s individual collections of media.</figcaption>
+  <img src="{{site.baseurl}}/assets/experiments/idfraud/figure3-audio.jpg" alt="The Collections page of the user interface, showing the analyst’s individual collections of media.">
+  <figcaption class="gsa-figcaption">The Collections page of the user interface, showing the analyst’s individual collections of media.</figcaption>
 </figure>
-
-OR
-
-Multiple analytics analyze the audio and provide findings of generated audio, along with detailed information to assist the analyst in making an assessment. In the file analysis below, the audio file is identified as manipulated by several analytics.
 
 **Figure 4 - Audio**
 
 <figure>
-  <img src="{{site.baseurl}}/assets/experiments/idfraud/figure4-audio.jpg" alt="Multiple analytics analyze the audio and provide findings of generated audio, along with detailed information to assist the analyst in making an assessment. In the file analysis below, the audio file is identified as manipulated by several analytics. The audio pattern in red indicates the portion of the audio identified as manipulated in the analysis.">
-  <figcaption class="gsa-figcaption">Multiple analytics analyze the audio and provide findings of generated audio, along with detailed information to assist the analyst in making an assessment. In the file analysis below, the audio file is identified as manipulated by several analytics. The audio pattern in red indicates the portion of the audio identified as manipulated in the analysis.</figcaption>
+  <img src="{{site.baseurl}}/assets/experiments/idfraud/figure4-audio.jpg" alt="Multiple algorithms analyze the audio and provide findings of generated audio, along with detailed information to assist the analyst in making an assessment. In the file-level findings illustrated above, the audio file is identified as manipulated by several analytics. The audio pattern in red indicates the portion of the audio identified as manipulated in the analysis.">Multiple algorithms analyze the audio and provide findings of generated audio, along with detailed information to assist the analyst in making an assessment. In the file-level findings illustrated above, the audio file is identified as manipulated by several analytics. The audio pattern in red indicates the portion of the audio identified as manipulated in the analysis.</figcaption>
 </figure>
 
 
 **Scenario 3 - Video**
 
-A short video file is submitted electronically for purposes of identification or verification of identity or location or association with another individual (either video or audio track potentially manipulated or generated).
+A short video file is submitted electronically for purposes of identification or verification of identity or location or association with another individual (either video or audio track potentially manipulated or generated). 
 
-Analyst Task: Determine if video or voice/audio track is generated or manipulated; localize the manipulation if present.
+**Analyst Task: Determine if video or voice/audio track is generated or manipulated; localize the manipulation if present.**
 
-Analytics process both the audio track and video tracks for semantic consistency and provide a finding of “Likely Manipulated”, along with detailed information to assist the analyst in making a judgement on a particular piece of media.
+Analytics process both the audio track and video tracks for semantic consistency. 
 
 **Figure 5: Video**
 
 <figure>
-  <img src="{{site.baseurl}}/assets/experiments/idfraud/figure5-video.jpg" alt="The analytic analysis, with the higher analytic score on the right of the image, indicates this video is probably manipulated. This video is identified as a deepfake with an analytic runtime of approximately two minutes.">
-  <figcaption class="gsa-figcaption">The analytic analysis, with the higher analytic score on the right of the image, indicates this video is probably manipulated. This video is identified as a deepfake with an analytic runtime of approximately two minutes.</figcaption>
+  <img src="{{site.baseurl}}/assets/experiments/idfraud/figure5-video.jpg" alt="Workflow output, with the higher analytic score on the right of the image, indicates this video is probably manipulated. This video is identified as a deepfake with an analytic runtime of approximately two minutes.">Workflow output, with the higher analytic score on the right of the image, indicates this video is probably manipulated. This video is identified as a deepfake with an analytic runtime of approximately two minutes.</figcaption>
 </figure>
 
 **Deepfake Scenario Impacts for Image, Audio, Video**
 
+Deepfake technologies may be utilized to perpetrate different types of harm depending on the media modality and victim type, including:
+
 - Targeting public or corporate figures’ voices or videos.
 - Information manipulation at scale, targeting individual or organizational reputation.
-- Social Engineering in an attempt to gain access or resources.
+- Social engineering in an attempt to gain access or resources.
 - Individual targeting for exploitation or extortion.
 - Non-consensual explicit content.
 - Advanced image morphing (use of an image by one or more individuals) for impersonation.
 
+This portion of the document has provided a walkthrough of sample detection, attribution, and characterization techniques that may be orchestrated to protect against malicious manipulated and synthetic media. Analytics such as these may inform fraud detection practices, as described in the following section.
 
 ## Identity Fraud Detection Steps
 
-The Identity Fraud Detection Steps framework provides a comprehensive guide for agencies to establish resilient infrastructures, precisely detect fraudulent activities, and mitigate their impact effectively. This process encompasses preparation, swift action, thorough investigation, recovery, and transparent reporting, ensuring robust protection of sensitive information and maintenance of public trust. By integrating advanced technological tools and fostering a collaborative environment, agencies can enhance their defenses against identity fraud and emerging threats like deepfakes.
+ The Identity Fraud Detection Steps framework provides a comprehensive guide for agencies to establish resilient infrastructures, precisely detect fraudulent activities, and mitigate their impact effectively. This process encompasses preparation, swift action, thorough investigation, recovery, and transparent reporting, ensuring robust protection of sensitive information and maintenance of public trust. By integrating advanced technological tools and fostering a collaborative environment, agencies can enhance their defenses against identity fraud and emerging threats like deepfakes.
 
 **Figure 6: Identity Fraud Detection Steps**
 
@@ -353,9 +351,9 @@ The Identity Fraud Detection Steps framework provides a comprehensive guide for 
 
 ### Step 0 - Establishing a Resilient Infrastructure
 
-Before identity fraud incidents, including deepfake-related attacks, ever occur, it is critical for government agencies to proactively establish and maintain a resilient infrastructure. This preparatory phase ensures that the agency is well-positioned to detect, respond, and recover from security incidents swiftly and effectively. Building a resilient infrastructure involves comprehensive planning, implementation of security best practices, ongoing training, and continuous improvement of security measures.
+Before identity fraud incidents, including deepfake-related attacks, ever occur, it is critical for government agencies to proactively establish and maintain a resilient infrastructure. This preparatory phase ensures that the agency is well-positioned to detect, respond, and recover from security incidents swiftly and effectively. Building a resilient infrastructure involves comprehensive planning, implementation of security best practices, ongoing training, and continuous improvement of security measures. 
 
-Key initiatives in this phase include.
+Key initiatives in this phase include:
 
 **System Hardening**
 
@@ -400,7 +398,7 @@ By establishing a resilient infrastructure, government agencies can significantl
 
 Detecting identity fraud within government agencies involves implementing comprehensive surveillance and monitoring techniques to identify unusual or unauthorized activities. This includes analyzing system access logs for anomalies, utilizing advanced analytics and machine learning tools to detect patterns indicative of fraud, and employing strong multi-factor authentication mechanisms to verify identities. The growing threat of deepfakes, means that government agencies should also incorporate deepfake detection tools that analyze video and audio for inconsistencies that may indicate manipulation. Establishing internal hotlines for reporting suspicious activities and regularly auditing identity management systems to ensure compliance with security protocols are also crucial steps. 
 
-Hardening processes also play a significant role in detection, which may include.
+Hardening processes also play a significant role in detection, which may include:
 
 - Training staff to recognize potential deepfake content and report it promptly.
 - System hardening to reduce attack surfaces, such as disabling unnecessary services and ports.
@@ -411,7 +409,7 @@ Hardening processes also play a significant role in detection, which may include
 
 **Methods of Mitigation**
 
-Upon detecting identity fraud, including incidents involving deepfakes, government agencies must take immediate and decisive actions to mitigate its impact. Key steps include immediately revoking access to compromised accounts, contacting relevant authorities and internal security teams, and notifying potentially affected individuals or departments. Agencies should deploy incident response teams to perform a comprehensive analysis of the breach and implement temporary measures such as suspending system components involved in the fraud. To further mitigate the impact, hardening processes must be enhanced, including.
+Upon detecting identity fraud, including incidents involving deepfakes, government agencies must take immediate and decisive actions to mitigate its impact. Key steps include immediately revoking access to compromised accounts, contacting relevant authorities and internal security teams, and notifying potentially affected individuals or departments. Agencies should deploy incident response teams to perform a comprehensive analysis of the breach and implement temporary measures such as suspending system components involved in the fraud. To further mitigate the impact, hardening processes must be enhanced, including:
 
 - Enforcing strong password policies, such as requiring complex passwords and regular changes.
 - Enhancing verification processes and employing biometric authentication where possible.
@@ -471,25 +469,26 @@ By incorporating awareness and defenses against deepfake threats into these stru
 
 **Reporting Deepfakes**
 
-There are multiple ways victims can report deepfake attacks. Victims of deepfakes could.
+There are multiple ways victims can report deepfake attacks. Victims of deepfakes could:
 
 - Contact law enforcement officials who could possibly help victims by conducting forensic investigations using police reports and evidence gathered from victims.
-- Contact the Federal Bureau of Investigations and report incidents to local FBI offices or the FBI’s 24/7 Cyber Watch at [CyWatch@fbi.gov](mailto:CyWatch@fbi.gov){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}.
+- Contact the Federal Bureau of Investigations and report incidents to local FBI offices or the FBI’s 24/7 Cyber Watch at CyWatch@fbi.gov.
 - Utilize the Securities and Exchange Commission’s services to investigate financial crimes.
 - Report inappropriate content and abuse on social media platforms (i.e. Facebook, Twitter, Instagram, etc.) using the platforms’ reporting procedures.
 - If a victim is under 18 years of age, incidents can be reported to the National Center for Missing and Exploited Children via their cyber tip line at [https://report.cybertip.org](https://report.cybertip.org){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}.
 
 **Available Resources**
 
-According to Bobby Chesney and Danielle Citron authors of Deep Fakes: A Looming Challenge for Privacy, Democracy, and National Security, victims may find it challenging taking the civil liability route if overwhelming evidence is unavailable, and even if a malign actor is identified, it may be impossible to use civil remedies if the malign actor is outside of the United States or in a jurisdiction where local legal action is unsuccessful. However, there are several resources available for victims of online abuse that could possibly support them in other ways. Organizations that are dedicated to helping victims include but are not limited to.
+According to Bobby Chesney and Danielle Citron authors of Deep Fakes: A Looming Challenge for Privacy, Democracy, and National Security, victims may find it challenging taking the civil liability route if overwhelming evidence is unavailable, and even if a malign actor is identified, it may be impossible to use civil remedies if the malign actor is outside of the United States or in a jurisdiction where local legal action is unsuccessful. However, there are several resources available for victims of online abuse that could possibly support them in other ways. Organizations that are dedicated to helping victims include but are not limited to:
 
 - [Cyber Civil Rights Initiative](https://cybercivilrights.org/contact-us/){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} is an organization that provides a 24-hour crisis helpline, attorney referrals, and guides for removing images from social media platforms and other websites.
 - [EndTab](https://www.endtab.org/){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} is an organization that provides victims, including universities, law enforcement, nonprofits, judicial systems, healthcare networks, with resources for education and reporting abuse.
-- [The National Suicide Prevention Lifeline]https://988lifeline.org/){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} is a national network of local crisis centers that provides free and confidential emotional support for people in distress.
-- [Cybersmile]https://www.cybersmile.org/){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} is a non-profit anti-bullying organization that provides expert support for victims of cyberbullying and online hate campaigns.
-- [Identitytheft.gov](http://identitytheft.gov/) is the federal government’s one-stop resource for identity theft victims.
+- [The National Suicide Prevention Lifeline](https://988lifeline.org/){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} is a national network of local crisis centers that provides free and confidential emotional support for people in distress.
+- [Cybersmile](https://www.cybersmile.org/){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} is a non-profit anti-bullying organization that provides expert support for victims of cyberbullying and online hate campaigns.
+- [Identitytheft.gov](http://identitytheft.gov){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} is the federal government’s one-stop resource for identity theft victims.
 - [Withoutmyconsent.org](https://withoutmyconsent.org/resources/something-can-be-done-guide/evidence-preservation/){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} is a non-profit organization that provides guides for preserving evidence that could be used in a civil suit.
 - [Google’s Help Center](https://support.google.com/websearch/answer/9116649?hl=en&ref_topic=9173608){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} a resource available via Google that enables victims to remove explicit fake imagery from Google searches.
+
   
 ## Conclusion
 
