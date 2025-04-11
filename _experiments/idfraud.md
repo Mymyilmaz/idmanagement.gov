@@ -214,43 +214,36 @@ This section of the playbook highlights a few key fraud techniques, methods, and
 - **Forgery Techniques** - Advanced document and credential falsification, including altering or counterfeiting government documents such as passports, driver's licenses, or diplomas.
 - **Data Aggregation and Data Breaches** - Unlawful access to sensitive data through breaches which can be used for various fraudulent activities including identity theft, synthetic identity fraud, and credential stuffing.
 
-
 **Combinations of Identity Fraud Techniques**
 
 In today's interconnected digital world, identity fraud has become increasingly intricate, exploiting advanced technologies and social engineering tactics. Fraudsters often blend multiple techniques to create sophisticated and highly effective fraud schemes, significantly enhancing their ability to deceive victims and evade detection. By understanding the synergy between these various methods, we can better equip ourselves against such multifaceted identity fraud attacks. The following are some examples of damaging combinations of identity fraud techniques.
 
-- Email Phishing with Credential Stuffing
-  - Mechanism: Attackers initiate a phishing campaign by sending deceptive emails that prompt victims to reveal their login credentials. The obtained credentials are then used in credential stuffing attacks to access additional systems where the same usernames and passwords have been reused.
-  - Impact: This combination can compromise multiple accounts, leading to unauthorized transactions, data breaches, and further exploitation of the user's digital footprint across various platforms.
-- Spear Phishing with Forgery Techniques
-  - Mechanism: Fraudsters conduct in-depth research on a specific individual or organization to send highly personalized phishing emails. They bolster their credibility by using forged documents, such as fake invoices or official-looking correspondence, to convince the target to provide sensitive information or authorize fraudulent activities.
-  - Impact: The success rate of spear phishing increases significantly when paired with forgery techniques, resulting in considerable financial and reputational damage to the targeted entities.
+- **Email Phishing with Credential Stuffing**
+  - **Mechanism** - Attackers initiate a phishing campaign by sending deceptive emails that prompt victims to reveal their login credentials. The obtained credentials are then used in credential stuffing attacks to access additional systems where the same usernames and passwords have been reused.
+  - **Impact** - This combination can compromise multiple accounts, leading to unauthorized transactions, data breaches, and further exploitation of the user's digital footprint across various platforms.
+- **Spear Phishing with Forgery Techniques**
+  - **Mechanism** - Fraudsters conduct in-depth research on a specific individual or organization to send highly personalized phishing emails. They bolster their credibility by using forged documents, such as fake invoices or official-looking correspondence, to convince the target to provide sensitive information or authorize fraudulent activities.
+  - **Impact** - The success rate of spear phishing increases significantly when paired with forgery techniques, resulting in considerable financial and reputational damage to the targeted entities.
 - Whaling with Deepfake Technology
-  - Mechanism: High-profile individuals such as executives are targeted using whaling techniques combined with deepfake technology. Fraudsters create realistic deepfake videos or audio messages impersonating trusted colleagues or partners, persuading these high-level targets to disclose sensitive information or approve significant financial transactions.
-  - Impact: The convincing nature of the deepfakes, coupled with the high stakes involved in whaling attacks, can lead to substantial financial losses and breaches of highly sensitive corporate data.
-- SMS Phishing with Social Engineering
-  - Mechanism: Attackers use smishing to send deceptive SMS messages that appear to be from reputable sources, often claiming an urgent issue like a compromised bank account. They then employ social engineering tactics, such as creating a sense of urgency or fear, to manipulate victims into clicking on malicious links or calling phone numbers to provide personal information.
-  - Impact: The combination of smishing and social engineering can effectively pressure victims into acting quickly and irrationally, leading to the rapid disclosure of sensitive information and unauthorized financial transactions.
+  - **Mechanism** - High-profile individuals such as executives are targeted using whaling techniques combined with deepfake technology. Fraudsters create realistic deepfake videos or audio messages impersonating trusted colleagues or partners, persuading these high-level targets to disclose sensitive information or approve significant financial transactions.
+  - **Impact** - The convincing nature of the deepfakes, coupled with the high stakes involved in whaling attacks, can lead to substantial financial losses and breaches of highly sensitive corporate data.
+- **SMS Phishing with Social Engineering**
+  - **Mechanism** - Attackers use smishing to send deceptive SMS messages that appear to be from reputable sources, often claiming an urgent issue like a compromised bank account. They then employ social engineering tactics, such as creating a sense of urgency or fear, to manipulate victims into clicking on malicious links or calling phone numbers to provide personal information.
+  - **Impact** - The combination of smishing and social engineering can effectively pressure victims into acting quickly and irrationally, leading to the rapid disclosure of sensitive information and unauthorized financial transactions.
 - Vishing (Voice Phishing) with Audio Deepfake Technology
-  - Mechanism: Fraudsters use audio deepfake technology to replicate the voice of a trusted individual, such as a company executive or a bank representative. They then make vishing calls using spoofed caller IDs, convincing the target to share confidential information or authorize fraudulent activities.
-  - Impact: The use of deepfake audio adds realism to vishing attacks and increases their success rate dramatically, making it more likely for victims to fall for the scam and divulge critical information.
-
-
-
-
-
-
+  - **Mechanism** - Fraudsters use audio deepfake technology to replicate the voice of a trusted individual, such as a company executive or a bank representative. They then make vishing calls using spoofed caller IDs, convincing the target to share confidential information or authorize fraudulent activities.
+  - **Impact** - The use of deepfake audio adds realism to vishing attacks and increases their success rate dramatically, making it more likely for victims to fall for the scam and divulge critical information.
 
 ## Effects of Identity Fraud
 
-- **Fraud Technique** - Forgery - Document and Credential Falsification
+- **Fraud Technique** -  Forgery -  Document and Credential Falsification
   - **Scalability**
     - Digital Tools - The use of sophisticated software tools enables forgers to create highly accurate counterfeit documents. This includes advanced image editing software for precision alteration of document features like holograms, watermarks, and microprints.
-    - Printing Technology - High-resolution printers and specialized printing techniques allow the production of near-identical replicas of official documents.
-    - Distributed Networks - The proliferation of underground online marketplaces and distribution networks facilitates the wide dissemination and sale of forged documents globally.
-    - Machine Learning Models - Emerging utilization of machine learning allows algorithms to replicate security features and anti-counterfeiting measures more effectively.
-    - Easier Access and Collaboration - Increased online tutorials, forums, and dark web collaborations provide forgers with the knowledge and resources to enhance their techniques quickly.
-  - **Potential Impact**
+    - **Printing Technology** - High-resolution printers and specialized printing techniques allow the production of near-identical replicas of official documents.
+    - **Distributed Networks** - The proliferation of underground online marketplaces and distribution networks facilitates the wide dissemination and sale of forged documents globally.
+    - **Machine Learning Models** - Emerging utilization of machine learning allows algorithms to replicate security features and anti-counterfeiting measures more effectively.
+    - **Easier Access and Collaboration** - Increased online tutorials, forums, and dark web collaborations provide forgers with the knowledge and resources to enhance their techniques quickly.
+- **Potential Impact**
     - Unauthorized access to secured locations and systems by exploiting counterfeit credentials, posing significant security risks to institutions and critical infrastructure.
     - Creation of false identities allowing criminals to engage in illegal activities, such as financial fraud, without being easily traced.
     - Erosion of trust in official documents and institutions, as widespread falsification questions the authenticity of legitimate credentials.
@@ -258,11 +251,11 @@ In today's interconnected digital world, identity fraud has become increasingly 
     - Individuals obtaining employment, educational opportunities, or professional licenses using fake diplomas, certifications, or professional credentials, potentially leading to unqualified personnel in crucial roles.
     - Opening bank accounts, taking loans, or conducting financial transactions under false pretenses, resulting in substantial monetary losses for institutions and individuals.
     - Misuse of falsified documents to obtain sensitive or dangerous materials, such as pharmaceuticals, firearms, or hazardous chemicals.
-- **Fraud Technique - Deepfake (synthetic media)**
+- **Fraud Technique: Deepfake (synthetic media)**
   - **Scalability**
-    - Image - Image generators are improving, becoming more customizable with better control and are easier to use.
-    - Audio - Improved fidelity of voice generation with less source material required; increasingly refined controls of auditory/vocal qualities, such as environment, accent, gender, emotion, etc.
-    - Video - Longer-lasting and more photorealistic text-guided video generation & editing; more natural audio-driven deep fake video; full body video generation & reenactment
+    - Image: Image generators are improving, becoming more customizable with better control and are easier to use. 
+    - Audio: Improved fidelity of voice generation with less source material required; increasingly refined controls of auditory/vocal qualities, such as environment, accent, gender, emotion, etc.
+    - Video: Longer-lasting and more photorealistic text-guided video generation & editing; more natural audio-driven deep fake video; full body video generation & reenactment
   - **Potential Impact**
     - Gaining access to critical resources by cloning senior executives or decision makers’ voices or video.
     - Information manipulation at scale, exploiting a public figure’s reputation for mass effect.
