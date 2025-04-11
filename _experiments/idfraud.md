@@ -10,12 +10,20 @@ pubdate: February 2025
 version: 1.0
 
 subnav:
-  # - text: Introduction
-  #   href: '#introduction'
   - text: Acknowledgments
     href: '#acknowledgments'
   - text: Executive Summary
     href: '#executive-summary'
+  - text: Purpose
+    href: '#purpose'
+  - text: Scope
+    href: '#scope'
+  - text: Key Terms
+    href: '#key-terms'
+  - text: Audience
+    href: '#audience'
+  - text: Disclaimer
+    href: '#disclaimer'   
   - text: Identity Fraud 101
     href: '#identity-fraud-101'
   - text: Effects of Identity Fraud
