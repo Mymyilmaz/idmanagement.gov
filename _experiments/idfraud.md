@@ -63,12 +63,14 @@ This playbook is a collaboration between the Federal Chief Information Security 
       <thead>
       <tr>
         <th scope='col'>Version Number</th>
+        <th scope='col'>Author</th>
         <th scope='col'>Date</th>
-        <th scope='col'>Change Description</th>
+        <th scope='col'>Change/Updates</th>
       </tr>
       </thead>
       <tr>
         <th scope='row'>1.0</th>
+        <td>OGP Identity Assurance and Trust Access Division</td>
         <td>February 2025</td>
         <td>Developed template and completed the document.</td>
       </tr>
