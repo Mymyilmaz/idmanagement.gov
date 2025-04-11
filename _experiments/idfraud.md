@@ -128,8 +128,6 @@ These are key terms used throughout this document:
 - [Social Engineering](https://csrc.nist.gov/glossary/term/social_engineering){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} - An attempt to trick someone into revealing information (e.g., a password) that can be used to attack systems or networks.
 - [Synthetic Media](https://www.techuk.org/resource/synthetic-media-what-are-they-and-how-are-techuk-members-taking-steps-to-tackle-misinformation-and-fraud.html){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} - Synthetic Media is an all encompassing term to describe any type of content whether video, image, text or voice that has been partially or fully generated using artificial intelligence or machine learning.
 
-
-
 ## Audience
 
 The primary audience for this playbook are agency digital identity and security program managers. Table 1 lists stakeholders and stakeholder types digital identity program managers engage with during identity fraud prevention, detection and mitigation. An internal stakeholder is within the agency and external stakeholders are outside the agency.
@@ -178,7 +176,7 @@ The primary audience for this playbook are agency digital identity and security 
 
 ## Disclaimer
 
-This playbook was developed by the General Services Administration Office of Government-wide Policy with input from federal IT practitioners. This document shouldn’t be interpreted as official policy or mandated action, and doesn’t provide authoritative definitions for IT terms. Instead, this playbook supplements existing federal IT policies and builds upon the [Office of Management and Budget Memorandum 19-17 (OMB M-19-17), Enabling Mission Delivery through Improved Identity, Credential, and Access Management](https://bidenwhitehouse.archives.gov/wp-content/uploads/2019/05/M-19-17.pdf){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}, as well as existing federal identity guidance and playbooks. Privileged user access (e.g., superusers, domain administrators) is out of scope for this playbook.
+This playbook was developed by the General Services Administration Office of Government-wide Policy with input from federal IT practitioners. This document shouldn’t be interpreted as official policy or mandated action, and doesn’t provide authoritative definitions for IT terms. Instead, this playbook supplements existing federal IT policies and builds upon the [Office of Management and Budget Memorandum 19-17 (OMB M-19-17), Enabling Mission Delivery through Improved Identity, Credential, and Access Management](https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}, as well as existing federal identity guidance and playbooks. Privileged user access (e.g., superusers, domain administrators) is out of scope for this playbook.
 
 ## Identity Fraud 101 
 
