@@ -109,17 +109,17 @@ The scope of this playbook covers critical fraud detection techniques such as de
 
 ## Key Terms
 
-These are key terms used throughout this document
+These are key terms used throughout this document:
 
 - [Behavioral Biometrics](https://www.biometricsinstitute.org/physiological-and-behavioural-biometrics/#:~:text=A%20behavioural%20biometric%20system%20measures,profile%20or%20is%20an%20imposter){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} - Behavioral biometrics establish identity by monitoring the distinctive characteristics of movements, gestures, and motor-skills of individuals as they perform a task or series of tasks.
-- [Biometrics](https://csrc.nist.gov/glossary/term/biometrics){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}  - Unique biological markers (e.g., fingerprints, facial patterns) used for identity verification.
+- [Biometrics](https://csrc.nist.gov/glossary/term/biometrics){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} - Unique biological markers (e.g., fingerprints, facial patterns) used for identity verification.
 - [Blockchain](https://csrc.nist.gov/glossary/term/blockchain){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} - A distributed ledger technology used for secure and immutable credential verification.
 - [Credential Stuffing](https://owasp.org/www-community/attacks/Credential_stuffing){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} - Credential stuffing is the automated injection of stolen username and password pairs (“credentials”) into website login forms, in order to fraudulently gain access to user accounts.
 - [Deepfake](https://www.gao.gov/assets/gao-20-379sp.pdf){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} - A deepfake is a video, photo, or audio recording that seems real but has been manipulated with AI.
 - [Digital Content Forgery](https://www.dhs.gov/sites/default/files/2023-06/23_0630_st_digital_forgeries_report_signed.pdf){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} - Digital content forgery technologies enable adversaries to create or manipulate digital audio, visual, or textual content, to distort information, undermine security and authority, and ultimately erode trust in each other and in our government.
 - [Facial Recognition](https://www.dhs.gov/publication/facial-recognition-technology){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} - Facial recognition technology is a contemporary security solution that automatically identifies and verifies the identity of an individual from a digital image or video frame. This technology can be compared to other biometric technologies, and used for a number of activities.
 - [FISMA](https://csrc.nist.gov/glossary/term/fisma){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} - A U.S. law requiring federal agencies to protect information and information systems.
-- [Generative Adversarial Networks](https://www.nist.gov/publications/generative-adversarial-network-performance-low-dimensional-settings){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} - A generative adversarial network is an articial neural network with a distinctive training architecture, designed to create examples that faithfully reproduce a target distribution.
+- [Generative Adversarial Networks](https://www.nist.gov/publications/generative-adversarial-network-performance-low-dimensional-settings){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}  - A generative adversarial network is an artificial neural network with a distinctive training architecture, designed to create examples that faithfully reproduce a target distribution. 
 - [Hardening](https://csrc.nist.gov/glossary/term/hardening){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} - A process intended to eliminate a means of attack by patching vulnerabilities and turning off nonessential services.
 - [Spoofing](https://csrc.nist.gov/glossary/term/spoofing){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} - The deliberate inducement of a user or resource to take incorrect action. Note: Impersonating, masquerading, piggybacking, and mimicking are forms of spoofing
 - [Iris Recognition](https://ucr.fbi.gov/fingerprints_biometrics/biometric-center-of-excellence/files/iris-recognition.pdf){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} - Iris recognition is the process of recognizing a person by analyzing the random pattern of the iris.
@@ -127,6 +127,7 @@ These are key terms used throughout this document
 - [Phishing](https://csrc.nist.gov/glossary/term/phishing){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} - The act of tricking individuals into disclosing sensitive personal information through deceptive computer-based means.
 - [Social Engineering](https://csrc.nist.gov/glossary/term/social_engineering){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} - An attempt to trick someone into revealing information (e.g., a password) that can be used to attack systems or networks.
 - [Synthetic Media](https://www.techuk.org/resource/synthetic-media-what-are-they-and-how-are-techuk-members-taking-steps-to-tackle-misinformation-and-fraud.html){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} - Synthetic Media is an all encompassing term to describe any type of content whether video, image, text or voice that has been partially or fully generated using artificial intelligence or machine learning.
+
 
 
 ## Audience
