@@ -224,13 +224,13 @@ In today's interconnected digital world, identity fraud has become increasingly 
 - **Spear Phishing with Forgery Techniques**
   - **Mechanism** - Fraudsters conduct in-depth research on a specific individual or organization to send highly personalized phishing emails. They bolster their credibility by using forged documents, such as fake invoices or official-looking correspondence, to convince the target to provide sensitive information or authorize fraudulent activities.
   - **Impact** - The success rate of spear phishing increases significantly when paired with forgery techniques, resulting in considerable financial and reputational damage to the targeted entities.
-- Whaling with Deepfake Technology
+- **Whaling with Deepfake Technology**
   - **Mechanism** - High-profile individuals such as executives are targeted using whaling techniques combined with deepfake technology. Fraudsters create realistic deepfake videos or audio messages impersonating trusted colleagues or partners, persuading these high-level targets to disclose sensitive information or approve significant financial transactions.
   - **Impact** - The convincing nature of the deepfakes, coupled with the high stakes involved in whaling attacks, can lead to substantial financial losses and breaches of highly sensitive corporate data.
 - **SMS Phishing with Social Engineering**
   - **Mechanism** - Attackers use smishing to send deceptive SMS messages that appear to be from reputable sources, often claiming an urgent issue like a compromised bank account. They then employ social engineering tactics, such as creating a sense of urgency or fear, to manipulate victims into clicking on malicious links or calling phone numbers to provide personal information.
   - **Impact** - The combination of smishing and social engineering can effectively pressure victims into acting quickly and irrationally, leading to the rapid disclosure of sensitive information and unauthorized financial transactions.
-- Vishing (Voice Phishing) with Audio Deepfake Technology
+- **Vishing (Voice Phishing) with Audio Deepfake Technology**
   - **Mechanism** - Fraudsters use audio deepfake technology to replicate the voice of a trusted individual, such as a company executive or a bank representative. They then make vishing calls using spoofed caller IDs, convincing the target to share confidential information or authorize fraudulent activities.
   - **Impact** - The use of deepfake audio adds realism to vishing attacks and increases their success rate dramatically, making it more likely for victims to fall for the scam and divulge critical information.
 
@@ -492,7 +492,7 @@ According to Bobby Chesney and Danielle Citron authors of Deep Fakes: A Looming 
   
 ## Conclusion
 
-This playbook is a comprehensive guide for agencies to have a common understanding of emerging identity fraud detection techniques such as deepfakes and forgery. This playbook covers preventing, detecting and managing identity fraud techniques effectively along with use cases as examples from DARPA’s SemaFor program.
+This playbook is a comprehensive guide for agencies to have a common understanding of emerging identity fraud detection techniques such as deepfakes and forgery. This playbook covers preventing, detecting and managing identity fraud techniques effectively. 
 
 ## Appendix A - Policies, Standards, and Guidance
 
@@ -510,12 +510,12 @@ This playbook is a comprehensive guide for agencies to have a common understandi
 - [Increasing Threat of DeepFake Identities](https://www.dhs.gov/sites/default/files/publications/increasing_threats_of_deepfake_identities_0.pdf){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
 - [Increasing Threats of Deepfake Identities – Phase 2: Mitigation Measures](https://www.dhs.gov/sites/default/files/2022-10/AEP%20DeepFake%20PHASE2%20FINAL%20corrected20221006.pdf){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
 
-
 ## Appendix B - Outside References
 
 - [GAO Framework for Managing Fraud Risk in Federal Programs](https://www.gao.gov/assets/gao-15-593sp.pdf){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
 - [The Identity Fraud Prevention Playbook](https://risk.lexisnexis.com/cross-industry-fraud-files/risk/downloads/assets/id-fraud-prevention-playbook.pdf){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
 - [SemaFor: Semantic Forensics](https://www.darpa.mil/research/programs/semantic-forensics){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
+
 
 ## Appendix C - Overview of GAO’s A Framework for Managing Fraud Risks in Federal Programs
 
@@ -528,13 +528,13 @@ This playbook is a comprehensive guide for agencies to have a common understandi
 ### Critical Identity Fraud Techniques
 
 - Deepfake (video, audio, picture (face morphing, writing)
-- Forgery techniques (altered,falsified, counterfeit)
+- Forgery techniques (altered, falsified, counterfeit) 
 
 ### Detection Techniques
 
 - Transaction Monitoring
 - Analytics and Modeling
-- Redfl ags and Alerts
+- Redflags and Alerts
 
 ### Response and Recovery
 
@@ -620,4 +620,5 @@ This playbook is a comprehensive guide for agencies to have a common understandi
 </tbody>
 </table>
 
+<!-- Footnote Markdown section -->
 [^1]:  LexisNexis, 2016 The Identity Fraud Prevention Playbook, [https://risk.lexisnexis.com/cross-industry-fraud-files/risk/downloads/assets/id-fraud-prevention-playbook.pdf](https://risk.lexisnexis.com/cross-industry-fraud-files/risk/downloads/assets/id-fraud-prevention-playbook.pdf){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
