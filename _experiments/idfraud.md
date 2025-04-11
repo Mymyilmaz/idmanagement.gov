@@ -621,4 +621,4 @@ This playbook is a comprehensive guide for agencies to have a common understandi
 </tbody>
 </table>
 
-[^1]:  LexisNexis, 2016 The Identity Fraud Prevention Playbook, [https://risk.lexisnexis.com/cross-industry-fraud-files/risk/downloads/assets/id-fraud-prevention-playbook.pdf](https://risk.lexisnexis.com/cross-industry-fraud-files/risk/downloads/assets/id-fraud-prevention-playbook.pdf)
+[^1]:  LexisNexis, 2016 The Identity Fraud Prevention Playbook, [https://risk.lexisnexis.com/cross-industry-fraud-files/risk/downloads/assets/id-fraud-prevention-playbook.pdf](https://risk.lexisnexis.com/cross-industry-fraud-files/risk/downloads/assets/id-fraud-prevention-playbook.pdf){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
