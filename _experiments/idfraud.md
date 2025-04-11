@@ -627,10 +627,5 @@ This playbook is a comprehensive guide for agencies to have a common understandi
   </tr>
 </tbody>
 </table>
-<script>
-  // sets the footnote link role to note for ARIA role. 
-  const footnote = docuemnt.getElementById('fn:1');
-    footnote.setAttribute("role","note");
-</script>
 <!-- Footnote Markdown section -->
 [^1]: LexisNexis, 2016 The Identity Fraud Prevention Playbook, [https://risk.lexisnexis.com/cross-industry-fraud-files/risk/downloads/assets/id-fraud-prevention-playbook.pdf](https://risk.lexisnexis.com/cross-industry-fraud-files/risk/downloads/assets/id-fraud-prevention-playbook.pdf){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
