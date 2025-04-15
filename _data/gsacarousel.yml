@@ -20,11 +20,11 @@
 
 - orderNumber: 0
   initialState: active
-  delay: 20000
-  heroHeading: "ICAM FIBF" 
-  heroText: "The ICAM FIBF Working Group has released Component 4 and 5 for Comment."
+  delay: 30000
+  heroHeading: "Identity Fraud Detection Playbook" 
+  heroText: "This playbook serves as a resource and provides a foundational understanding of identity fraud techniques, detection methods, and mitigation strategies."
   actionButtonText: Learn more about the 
-  actionLocation: icam-fibf/
+  actionLocation: playbooks/idfraud/
   actionTarget: _self
 
 - orderNumber: 1
