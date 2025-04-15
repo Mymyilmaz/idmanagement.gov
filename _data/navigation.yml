@@ -110,6 +110,8 @@ playbooks:
     href: /playbooks/altauthn/
   - text: ICAM Governance Framework Version 1.0
     href: /docs/playbook-identity-governance-framework.pdf
+  - text: Identity Fraud Detection Playbook
+    href: /playbooks/idfraud/
   - text: Identity Lifecycle Management Playbook
     href: /playbooks/ilm/ 
   - text: Privileged Identity Playbook
