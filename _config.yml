@@ -114,7 +114,11 @@ primary_navigation:
       - name: ICAM Policy Matrix
         url: /university/policymatrix/
   - name: Experiments 
-    url: /experiments/
+    children: 
+    - name: Introduction
+      url: /experiments/
+    - name: Identity Fraud Detection Playbook
+      url: /experiments/idfraud/
 
 secondary_navigation:
   - name: Contact Us

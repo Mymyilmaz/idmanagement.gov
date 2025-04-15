@@ -85,7 +85,9 @@ university:
 
 experiments:
   - text: Experiments
-    href: /experiments/
+    href: /experiments/     
+  - text: Identity Fraud Detection
+    href: /experiments/idfraud/
 
 playbooks:
   - text: Introduction
