@@ -117,8 +117,6 @@ primary_navigation:
     children: 
     - name: Introduction
       url: /experiments/
-    - name: Identity Fraud Detection Playbook
-      url: /experiments/idfraud/
 
 secondary_navigation:
   - name: Contact Us
