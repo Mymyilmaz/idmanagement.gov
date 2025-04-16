@@ -10,6 +10,20 @@ sticky_sidenav: true
 subnav:
   # - text: Introduction
   #   href: '#introduction'
+  - text: Compromised CDNs and Unauthorized Access
+    href: '#compromised-cdns-and-unauthorized-access'
+  - text: Analysis of Attack Methods Targeting CDNs
+    href: '#analysis-of-attack-methods-targeting-cdns'
+  - text: How to Prevent Malicious JavaScript Injection via CDNs
+    href: '#how-to-prevent-malicious-javascript-injection-via-cdns'
+  - text: Case Studies of CDN-Based Compromises
+    href: '#case-studies-of-cdn-based-compromises'
+  - text: Implications for Government and Organizational Security
+    href: '#implications-for-government-and-organizational-security'
+  - text: Deception as a Defensive Security Posture
+    href: '#deception-as-a-defensive-security-posture'
+  - text: Conclusion
+    href: '#conclusion'
 
 ---
 
