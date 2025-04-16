@@ -71,7 +71,7 @@ Most modern applications use client-side code (like JavaScript) to provide real-
 
 **Why It’s Important**
 
-![Why It’s Important]({{site.baseurl}}/assets/experiments/cdns/cdns-paper-1-fig-1.jpeg)
+![Why It’s Important]({{site.baseurl}}/assets/experiments/cdns/cdns-paper-1-fig-2.jpeg)
 
 ### CDN Assumptions
 
