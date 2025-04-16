@@ -186,7 +186,7 @@ Mitigation Strategies for Comprehensive Defense:
 **For Website Owners:**
 
 - **Use Subresource Integrity (SRI):**
-  - Add an SRI attribute to <script> tags to verify the hash of a loaded file. If the file is altered, the browser will reject it.
+  - Add an SRI attribute to `<script>` tags to verify the hash of a loaded file. If the file is altered, the browser will reject it.
   - Example: 
   ``` 
     <script src="https://cdn.example.com/script.js" integrity="sha384-abc123" crossorigin="anonymous"></script>
