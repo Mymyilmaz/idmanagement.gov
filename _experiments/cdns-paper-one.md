@@ -15,8 +15,6 @@ subnav:
 
 {% include alert-warning.html heading="Pre-Decisional Draft" content="The following document is a Pre-Decisional Draft and should not be interpreted as a finalized rule." %}
 
-## CDNs - Reliability, Assumptions, and Vulnerabilities
-
 A Content Delivery Network (CDN) is a system of distributed servers strategically placed across various geographic locations to deliver digital content—such as websites, videos, applications, and other data—quickly and reliably to users. By caching content closer to the end user, CDNs reduce latency, improve loading times, and enhance the overall user experience. They also help balance traffic loads, ensuring that no single server is overwhelmed during spikes in demand. CDNs are commonly used for streaming media, e-commerce platforms, and large-scale web applications. Additionally, they provide an extra layer of security by mitigating Distributed Denial of Service (DDoS) attacks and offering encryption protocols to protect data in transit.
 
 Content Delivery Networks (CDNs) are integral to modern web infrastructure, offering improved performance, scalability, and security. However, they are often assumed to be infallible, which can cause people to overlook the potential vulnerabilities that cyber actors can exploit to access individual digital profiles, credentials, and sensitive information. Below, we examine these assumptions and associated risks.
