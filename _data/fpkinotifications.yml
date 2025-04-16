@@ -26,6 +26,21 @@
 # ee_cdp_uri:
 # ee_ocsp_uri:
 
+- notice_date: April 16, 2025
+  change_type: Intent to issue CA Certificate
+  system: CertiPath Bridge Certification Authority
+  change_description: The CertiPath Bridge CA intends to issue a new cross certificate to the Lockheed Martin Root Certification Authority 6 prior to April 30, 2025.
+  contact: judith dot spencer at certipath dot com
+  ca_certificate_hash: TBD
+  ca_certificate_issuer: CN=CertiPath Bridge CA - G3, OU=Certification Authorities, O=CertiPath, C=US
+  ca_certificate_subject: CN=Lockheed Martin Root Certification Authority 6, OU=Certification Authority, O=Lockheed Martin Corporation, L=Denver, S=Colorado, C=US
+  cdp_uri: http://crl.certipath.com/CertiPathBridgeCA-G3.crl
+  aia_uri: http://aia.certipath.com/CertiPathBridgeCA-G3.p7c
+  sia_uri: http://crl.external.lmco.com/crl/certupd/issuedby-lmrca6.p7c
+  ocsp_uri: N/A
+  ee_cdp_uri: N/A
+  ee_ocsp_uri: N/A
+
 - notice_date: April 14, 2025
   change_type: Intent to issue CA Certificate
   system: U.S. Department of State AD Root CA
