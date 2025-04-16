@@ -1,9 +1,10 @@
 ---
 layout: page
-collection: experiments
+collection: playbooks
 title:  Identity Fraud Detection Playbook
-permalink: /experiments/idfraud/
-sidenav: experiments
+permalink: /playbooks/idfraud/
+description: This playbook serves as a resource and provides a foundational understanding of identity fraud techniques, detection methods, and mitigation strategies.
+sidenav: playbooks
 sticky_sidenav: true
 
 pubdate: February 2025
