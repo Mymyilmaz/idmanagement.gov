@@ -188,7 +188,7 @@ Mitigation Strategies for Comprehensive Defense:
 - **Use Subresource Integrity (SRI):**
   - Add an SRI attribute to <script> tags to verify the hash of a loaded file. If the file is altered, the browser will reject it.
   - Example: 
-  ``` javascript 
+  ``` 
     <script src="https://cdn.example.com/script.js" integrity="sha384-abc123" crossorigin="anonymous"></script>
   ```
 - **Content Security Policy (CSP):**
