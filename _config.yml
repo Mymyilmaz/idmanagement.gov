@@ -43,7 +43,7 @@ ga:
 primary_navigation:
   - name: Home
     url: /
-  - name: Why FICAM
+  - name: FICAM
     children:
       - name: FICAM Architecture
         url: /arch/
@@ -83,7 +83,7 @@ primary_navigation:
         url: /implement/yubikey-guide/
       - name: Unifyia Implementation Guide for Passkeys (FIDO2)
         url: /implement/unifyia-guide/
-  - name: Coordination Functions
+  - name: Functions
     children: 
       - name: FICAM Program
         url: /ficam/
@@ -117,8 +117,6 @@ primary_navigation:
     children: 
     - name: Introduction
       url: /experiments/
-    - name: Identity Fraud Detection Playbook
-      url: /experiments/idfraud/
 
 secondary_navigation:
   - name: Contact Us
