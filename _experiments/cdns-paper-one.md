@@ -15,9 +15,9 @@ subnav:
 - text: CDN Assumptions
   href: '#cdn-assumptions'
 - text: Understanding JavaScript Injection via a CDN
-  href: '#understanding-javaScript-injection-via-a-cdn'
+  href: '#understanding-javascript-injection-via-a-cdn'
 - text: "Example: BrowseAloud - A Case Study in Malicious JavaScript Injection via CDNs"
-  href: '#example--BrowseAloud---a-case-study-in-malicious-javaScript-injection-via-cdns'
+  href: '#example-browsealoud---a-case-study-in-malicious-javascript-injection-via-cdns'
 - text: Conclusion
   href: '#conclusion'
 ---
