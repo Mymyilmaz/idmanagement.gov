@@ -2,7 +2,7 @@
 
 layout: page
 collection: experiments
-title:  CDNs - Reliability, Assumptions, and Vulnerabilities
+title: CDNs - Reliability, Assumptions, and Vulnerabilities
 permalink: /experiments/cdns/paper1/
 sidenav: experiments
 sticky_sidenav: true
@@ -10,7 +10,16 @@ sticky_sidenav: true
 subnav:
   # - text: Introduction
   #   href: '#introduction'
-
+- text: What CDNs Provide
+  href: '#what-cdns-provide'
+- text: CDN Assumptions
+  href: '#cdn-assumptions'
+- text: Understanding JavaScript Injection via a CDN
+  href: '#understanding-javaScript-injection-via-a-cdn'
+- text: "Example: BrowseAloud - A Case Study in Malicious JavaScript Injection via CDNs"
+  href: '#example--BrowseAloud---a-case-study-in-malicious-javaScript-injection-via-cdns'
+- text: Conclusion
+  href: '#conclusion'
 ---
 
 {% include alert-warning.html heading="Pre-Decisional Draft" content="The following document is a Pre-Decisional Draft and should not be interpreted as a finalized rule." %}
