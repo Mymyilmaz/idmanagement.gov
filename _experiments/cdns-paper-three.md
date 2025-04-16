@@ -10,6 +10,25 @@ sticky_sidenav: true
 subnav:
   # - text: Introduction
   #   href: '#introduction'
+  - text: "Enhancing Your Security: The PDD™ Framework"
+    href: '#enhancing-your-security-the-pdd-framework'
+  - text: The PDD™ Framework Explained
+    href: '#the-pdd-framework-explained'
+  - text: Building Your Security Posture
+    href: '#building-your-security-posture'
+  - text: Best Security Practices for Social Media and Managing Publicly Available Information
+    href: '#best-security-practices-for-social-media-and-managing-publicly-available-information'
+  - text: Operational and Practical Digital Security Hygiene
+    href: '#operational-and-practical-digital-security-hygiene'
+  - text: Secure Credential Management: Methods and Best Practices for Individuals
+    href: '#secure-credential-management-methods-and-best-practices-for-individuals'
+  - text: Secure Credential Management: Methods and Best Practices in an Organization
+    href: '#secure-credential-management-methods-and-best-practices-in-an-organization'
+  - text: Recommendations for Multi-Layered Protection of Digital Personas
+    href: '#recommendations-for-multi-layered-protection-of-digital-personas'
+  - text: Conclusion
+    href: '#conclusion'
+    
 
 ---
 
