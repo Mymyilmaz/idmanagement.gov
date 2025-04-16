@@ -67,11 +67,11 @@ Most modern applications use client-side code (like JavaScript) to provide real-
 
 **Examples**
 
-![Examples]({{site.baseurl}}/assets/experiments/cdns/cdns-paper-1-fig-1.jpeg})
+![Examples]({{site.baseurl}}/assets/experiments/cdns/cdns-paper-1-fig-1.jpeg)
 
 **Why It’s Important**
 
-![Why It’s Important]({{site.baseurl}}/assets/experiments/cdns/cdns-paper-1-fig-1.jpeg})
+![Why It’s Important]({{site.baseurl}}/assets/experiments/cdns/cdns-paper-1-fig-1.jpeg)
 
 ### CDN Assumptions
 
@@ -120,13 +120,13 @@ CDNs offer tools such as Web Application Firewalls (WAFs) to mitigate threats, b
 
 A **malicious JavaScript injection** occurs when attackers alter a legitimate JavaScript file hosted on a CDN. Once injected, this malicious code is distributed to all the websites relying on that CDN to serve the affected file. Users of those websites unknowingly execute the malicious script in their browsers, potentially exposing sensitive information or enabling other types of attacks.
 
-![Steps in a Malicious JavaScript Injection Attack]({{site.baseurl}}/assets/experiments/cdns/cdns-paper-1-fig-3.jpeg})
+![Steps in a Malicious JavaScript Injection Attack]({{site.baseurl}}/assets/experiments/cdns/cdns-paper-1-fig-3.jpeg)
 
 Widespread use of CDNs introduces unique security challenges, as CDNs become attractive targets for threat actors seeking to exploit their role in critical data transmission. To address these risks, a structured and proactive approach to CDN security is critical for ensuring network resilience, safeguarding sensitive information, and mitigating potential vulnerabilities in the digital supply chain. By integrating security principles into every phase of CDN deployment and management, organizations can achieve a balance between performance optimization and operational integrity.
 
 The accompanying chart outlines a strategic process for securing your systems, focusing on key concepts such as access control, encryption, real-time monitoring, and vendor risk assessment. This framework emphasizes the importance of traceability, resilience, and exposure mitigation, in alignment with best practices for digital risk management. By adopting a comprehensive strategy, organizations can identify vulnerabilities, protect against infiltration, and establish a robust response mechanism for mitigating threats to CDN infrastructure. The process not only ensures compliance with security standards but also enhances the overall trustworthiness and scalability of critical online services.
 
-![Mitigation Process]({{site.baseurl}}/assets/experiments/cdns/cdns-paper-1-fig-4.jpeg})
+![Mitigation Process]({{site.baseurl}}/assets/experiments/cdns/cdns-paper-1-fig-4.jpeg)
 
 ## Example: BrowseAloud - A Case Study in Malicious JavaScript Injection via CDNs
 
