@@ -86,6 +86,12 @@ university:
 experiments:
   - text: Experiments
     href: /experiments/     
+  - text: CDNs Part 1
+    href: /experiments/cdns/paper1/     
+  - text: CDNs Part 2
+    href: /experiments/cdns/paper2/     
+  # - text: CDNs Part 3
+  #   href: /experiments/cdns/paper3/     
 
 playbooks:
   - text: Introduction
