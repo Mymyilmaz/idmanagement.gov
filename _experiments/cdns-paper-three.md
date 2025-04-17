@@ -273,7 +273,7 @@ In the digital age, protecting digital personas is essential for safeguarding bo
     - Deploy enterprise-grade SSO solutions with multi-factor authentication (MFA).  
     - Limit SSO access to verified applications and enforce strong password policies.
 
-  *Tactical Example*: Using Okta or Azure AD with biometric authentication enhances the security of login sessions.
+    *Tactical Example*: Using Okta or Azure AD with biometric authentication enhances the security of login sessions.
 
 2. **Limit Persona Information Exposure**:
 
