@@ -33,7 +33,7 @@ subnav:
 
 {% include alert-warning.html heading="Pre-Decisional Draft" content="The following document is a Pre-Decisional Draft and should not be interpreted as a finalized rule." %}
 
-## Enhancing Your Security - The PDD™ Framework 
+## Enhancing Your Security: The PDD™ Framework 
 
 (Source: Beware the Predator, 2016, ISBN 0692775293)
 
