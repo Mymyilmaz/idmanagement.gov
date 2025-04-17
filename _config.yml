@@ -114,9 +114,7 @@ primary_navigation:
       - name: ICAM Policy Matrix
         url: /university/policymatrix/
   - name: Experiments 
-    children: 
-    - name: Introduction
-      url: /experiments/
+    url: /experiments/
 
 secondary_navigation:
   - name: Contact Us
