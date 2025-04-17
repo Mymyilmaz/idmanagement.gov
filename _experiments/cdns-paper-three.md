@@ -189,38 +189,38 @@ In an era of increasing cyber threats, secure credential management is essential
     Hardware tokens, such as YubiKeys or smart cards, provide physical authentication factors that are highly secure.
 
     *Tactical Example*: Plugging a YubiKey into a computer’s USB port to authenticate a login adds an additional security layer.
-    
+
 ## Secure Credential Management: Methods and Best Practices in an Organization
 
 While strengthening your personal security posture using the above best practices is essential, it’s equally important to consider how security practices extend into your professional environment. Whether you’re part of a small team or a large organization, managing credentials securely plays a critical role in protecting both individual and enterprise data. Depending on your role within an organization, you can use and promote the following best practices: 
 
 1. **Educate Users on Security Awareness**
 
-  Conduct regular training sessions on recognizing phishing attempts, the importance of strong passwords, and the use of MFA.
+    Conduct regular training sessions on recognizing phishing attempts, the importance of strong passwords, and the use of MFA.
 
 2. **Centralize Credential Management**
 
-  Use enterprise-grade identity and access management (IAM) solutions, such as Okta or Azure AD, to centralize credential storage and enforce security policies.
+    Use enterprise-grade identity and access management (IAM) solutions, such as Okta or Azure AD, to centralize credential storage and enforce security policies.
 
 3. **Automate Password Expiry and Rotation**
 
-  Set automated policies for password expiry and ensure that your users rotate passwords regularly.
+    Set automated policies for password expiry and ensure that your users rotate passwords regularly.
 
 4. **Restrict Privileged Account Access**
 
-  Limit access to critical systems to only those in your organization who need it and regularly review access permissions.
+    Limit access to critical systems to only those in your organization who need it and regularly review access permissions.
 
 5. **Implement Recovery Protocols**
 
-  Ensure there are secure processes for credential recovery, such as requiring identity verification before resetting passwords.
+    Ensure there are secure processes for credential recovery, such as requiring identity verification before resetting passwords.
 
 6. **Conduct Regular Security Audits**
 
-  Periodically review and update your organization’s credential management practices to stay ahead of evolving threats.
+    Periodically review and update your organization’s credential management practices to stay ahead of evolving threats.
 
 7. **Adopt Zero-Trust Principles**
 
-  Implement continuous monitoring of user behavior to detect anomalies, such as login attempts from unusual locations, and limit trust in any single authentication factor. 
+    Implement continuous monitoring of user behavior to detect anomalies, such as login attempts from unusual locations, and limit trust in any single authentication factor. 
 
 ## Recommendations for Multi-Layered Protection of Digital Personas
 
@@ -230,107 +230,107 @@ In the digital age, protecting digital personas is essential for safeguarding bo
 
 1. **Content Security Policies (CSPs)**:
 
-  CSPs prevent the execution of unauthorized scripts, reducing the risk of data theft and injection attacks.
+    CSPs prevent the execution of unauthorized scripts, reducing the risk of data theft and injection attacks.
 
-  *Implementation:*
+    *Implementation:*
 
-  - Define and enforce a restrictive CSP that permits only trusted sources for scripts, stylesheets, and media.  
-  - Regularly review and update CSP rules to adapt to emerging threats.
+    - Define and enforce a restrictive CSP that permits only trusted sources for scripts, stylesheets, and media.  
+    - Regularly review and update CSP rules to adapt to emerging threats.
 
-  *Tactical Example*: A CSP can block third-party scripts that attempt to access sensitive profile data or inject malicious payloads.
+    *Tactical Example*: A CSP can block third-party scripts that attempt to access sensitive profile data or inject malicious payloads.
 
 2. **Secure Content Delivery Network (CDN) Management**:
 
-  A Content Delivery Network (CDN) is a distributed network of servers strategically located around the world that store cached copies of website content, enabling faster and more reliable delivery of digital information to users by serving content from the geographically nearest server. CDNs improve performance but can be exploited to distribute malicious content.
+    A Content Delivery Network (CDN) is a distributed network of servers strategically located around the world that store cached copies of website content, enabling faster and more reliable delivery of digital information to users by serving content from the geographically nearest server. CDNs improve performance but can be exploited to distribute malicious content.
 
-  *Implementation:*
+    *Implementation:*
 
-  - Use Subresource Integrity (SRI) to verify the integrity of CDN-hosted assets.  
-  - Collaborate with CDN providers to ensure robust security practices, including traffic monitoring and incident response plans.  
-  - Restrict CDN access to authorized IP ranges and enforce HTTPS for secure communication.
+    - Use Subresource Integrity (SRI) to verify the integrity of CDN-hosted assets.  
+    - Collaborate with CDN providers to ensure robust security practices, including traffic monitoring and incident response plans.  
+    - Restrict CDN access to authorized IP ranges and enforce HTTPS for secure communication.
 
-  *Tactical Example:* Agencies can monitor CDN activity to detect unauthorized changes to hosted assets, such as altered scripts.
+    *Tactical Example:* Agencies can monitor CDN activity to detect unauthorized changes to hosted assets, such as altered scripts.
 
 3. **Regular Audits to Detect Unauthorized Changes**:
 
-  Audits identify anomalies in digital persona data and unauthorized modifications to resources.
+    Audits identify anomalies in digital persona data and unauthorized modifications to resources.
 
-  *Implementation*:
+    *Implementation*:
 
-  - Conduct periodic reviews of profile data, permissions, and hosted content.  
-  - Use version control and checksums to ensure data integrity.
+    - Conduct periodic reviews of profile data, permissions, and hosted content.  
+    - Use version control and checksums to ensure data integrity.
 
-  *Tactical Example*: Auditing email signature settings across a department can prevent the misuse of altered identifiers for phishing campaigns.
+    *Tactical Example*: Auditing email signature settings across a department can prevent the misuse of altered identifiers for phishing campaigns.
 
 **Best Practices for Government Personnel**
 
 1. **Use Secure Single Sign-On (SSO)**:
 
-  SSO simplifies authentication while centralizing security controls.
+    SSO simplifies authentication while centralizing security controls.
 
-  *Implementation:*
+    *Implementation:*
 
-  - Deploy enterprise-grade SSO solutions with multi-factor authentication (MFA).  
-  - Limit SSO access to verified applications and enforce strong password policies.
+    - Deploy enterprise-grade SSO solutions with multi-factor authentication (MFA).  
+    - Limit SSO access to verified applications and enforce strong password policies.
 
-*Tactical Example*: Using Okta or Azure AD with biometric authentication enhances the security of login sessions.
+  *Tactical Example*: Using Okta or Azure AD with biometric authentication enhances the security of login sessions.
 
 2. **Limit Persona Information Exposure**:
 
-  Minimizing publicly available persona details reduces the attack surface for social engineering and impersonation attempts.
+    Minimizing publicly available persona details reduces the attack surface for social engineering and impersonation attempts.
 
-  *Implementation:*
+    *Implementation:*
 
-  - Avoid sharing job titles, email addresses, and direct contact information on public platforms.  
-  - Use pseudonyms or generic titles for public-facing accounts where appropriate.
+    - Avoid sharing job titles, email addresses, and direct contact information on public platforms.  
+    - Use pseudonyms or generic titles for public-facing accounts where appropriate.
 
-  *Tactical Example:* Replacing direct email links with secure contact forms on official websites protects against spam and phishing.
+    *Tactical Example:* Replacing direct email links with secure contact forms on official websites protects against spam and phishing.
 
 3. **Set Stringent Permissions for CDN Access**:
 
-  Government agencies and large institutions increasingly deploy CDNs to ensure rapid, secure, and resilient access to critical digital services, particularly during high-traffic events or potential cyber incidents that could overwhelm traditional web infrastructure. Restricting access prevents unauthorized modifications to profile data and hosted content.
+    Government agencies and large institutions increasingly deploy CDNs to ensure rapid, secure, and resilient access to critical digital services, particularly during high-traffic events or potential cyber incidents that could overwhelm traditional web infrastructure. Restricting access prevents unauthorized modifications to profile data and hosted content.
 
-  *Implementation:*
+    *Implementation:*
 
-  - Use role-based access control (RBAC) to manage permissions for modifying CDN-hosted resources.  
-  - Monitor access logs for unusual activity.
+    - Use role-based access control (RBAC) to manage permissions for modifying CDN-hosted resources.  
+    - Monitor access logs for unusual activity.
 
-  *Tactical Example*: Limiting administrative privileges to specific personnel prevents accidental or malicious changes to critical CDN assets.
+    *Tactical Example*: Limiting administrative privileges to specific personnel prevents accidental or malicious changes to critical CDN assets.
 
 **Persona-Focused Anomaly Detection and Behavioral Monitoring**
 
 1. **Implement Behavioral Monitoring Systems**:
 
-  These systems identify unusual activity patterns that may indicate compromised digital identities.
+    These systems identify unusual activity patterns that may indicate compromised digital identities.
 
-  *Implementation*:
+    *Implementation*:
 
-  - Deploy tools that analyze login times, IP addresses, and session durations to detect anomalies.  
-  - Flag behaviors such as multiple login attempts from different locations or devices within a short timeframe.
+    - Deploy tools that analyze login times, IP addresses, and session durations to detect anomalies.  
+    - Flag behaviors such as multiple login attempts from different locations or devices within a short timeframe.
 
-  *Tactical Example*: Monitoring for login attempts from foreign IPs outside normal working hours can help identify unauthorized access.
+    *Tactical Example*: Monitoring for login attempts from foreign IPs outside normal working hours can help identify unauthorized access.
 
 2. **Automate Alerts for Persona-Specific Risks**:
 
-  Automated alerts ensure rapid response to potential threats.
+    Automated alerts ensure rapid response to potential threats.
 
-  *Implementation:*
+    *Implementation:*
 
-  - Configure alerts for changes to key identifiers, such as job titles or email signatures.  
-  - Use machine learning algorithms to refine detection capabilities based on historical data.
+    - Configure alerts for changes to key identifiers, such as job titles or email signatures.  
+    - Use machine learning algorithms to refine detection capabilities based on historical data.
 
-  *Tactical Example*: An alert triggered by an unauthorized update to a government official’s contact information can prevent the misuse of altered details.
+    *Tactical Example*: An alert triggered by an unauthorized update to a government official’s contact information can prevent the misuse of altered details.
 
 3. **Integrate Zero-Trust Principles**:
 
-  Continuous verification ensures that access is granted only to authorized users and devices.
+    Continuous verification ensures that access is granted only to authorized users and devices.
 
-  *Implementation:*
+    *Implementation:*
 
-  - Require MFA for all access attempts and validate device compliance before granting entry.  
-  - Regularly reassess trust levels based on real-time data.
+    - Require MFA for all access attempts and validate device compliance before granting entry.  
+    - Regularly reassess trust levels based on real-time data.
 
-  *Example*: Requiring re-authentication for sensitive actions, such as exporting profile data, adds an additional layer of security.
+    *Example*: Requiring re-authentication for sensitive actions, such as exporting profile data, adds an additional layer of security.
 
 ## Conclusion
 
