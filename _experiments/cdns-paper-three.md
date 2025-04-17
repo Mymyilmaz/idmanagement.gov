@@ -94,45 +94,45 @@ In today’s digital world, protecting yourself online doesn’t have to be comp
 
 1. **Use Strong, Unique Passwords**
 
-  One of the easiest ways hackers gain access to accounts is by guessing or stealing passwords. Avoid using simple passwords like “password123” or reusing the same password across multiple sites.
+    One of the easiest ways hackers gain access to accounts is by guessing or stealing passwords. Avoid using simple passwords like “password123” or reusing the same password across multiple sites.
 
-  *Tactical Example:* Use a free password manager like Bitwarden or LastPass to create and store strong, unique passwords for each account. A strong password should be at least 12 characters long and include a mix of letters, numbers, and symbols. For instance, instead of "John2023," try "JoHn$ecUr3\!2023."
+    *Tactical Example:* Use a free password manager like Bitwarden or LastPass to create and store strong, unique passwords for each account. A strong password should be at least 12 characters long and include a mix of letters, numbers, and symbols. For instance, instead of "John2023," try "JoHn$ecUr3\!2023."
 
 2. **Enable Multi-Factor Authentication (MFA)**
 
-  MFA adds an extra layer of security by requiring a second form of verification, such as a code sent to your phone, in addition to your password.
+    MFA adds an extra layer of security by requiring a second form of verification, such as a code sent to your phone, in addition to your password.
 
-  *Tactical Example:* Turn on MFA for critical accounts like email, banking, and social media. Platforms like Gmail, Facebook, and Amazon have easy-to-follow guides to enable MFA. This way, even if someone steals your password, they can’t log in without the second verification step.
+    *Tactical Example:* Turn on MFA for critical accounts like email, banking, and social media. Platforms like Gmail, Facebook, and Amazon have easy-to-follow guides to enable MFA. This way, even if someone steals your password, they can’t log in without the second verification step.
 
 3. **Keep Software Updated**
 
-  Outdated software often has security flaws that hackers can exploit. Regular updates fix these vulnerabilities.
+    Outdated software often has security flaws that hackers can exploit. Regular updates fix these vulnerabilities.
 
-  *Tactical Example:* Enable automatic updates on your devices, including smartphones, computers, and applications. For example, on Windows, go to Settings \> Update & Security \> Windows Update to ensure your system is always up to date.
+    *Tactical Example:* Enable automatic updates on your devices, including smartphones, computers, and applications. For example, on Windows, go to Settings \> Update & Security \> Windows Update to ensure your system is always up to date.
 
 4. **Be Cautious with Links and Attachments**
 
-  Phishing scams trick you into clicking malicious links or downloading harmful files. Always verify before interacting with suspicious content.
+    Phishing scams trick you into clicking malicious links or downloading harmful files. Always verify before interacting with suspicious content.
 
-  *Tactical Example:* If you receive an unexpected email claiming to be from your bank, don’t click any links. Instead, go to your bank’s website directly by typing the URL into your browser or call their customer service department. Use free online tools like VirusTotal to scan links or attachments for malware before opening them.
+    *Tactical Example:* If you receive an unexpected email claiming to be from your bank, don’t click any links. Instead, go to your bank’s website directly by typing the URL into your browser or call their customer service department. Use free online tools like VirusTotal to scan links or attachments for malware before opening them.
 
 5. **Use Public Wi-Fi Safely**
 
-  Public Wi-Fi networks are often unsecured, making it easy for hackers to intercept your data.
+    Public Wi-Fi networks are often unsecured, making it easy for hackers to intercept your data.
 
-  *Tactical Example:* Avoid logging into sensitive accounts, like banking, while on public Wi-Fi. If you must use public Wi-Fi, use a Virtual Private Network (VPN) app like ProtonVPN or NordVPN to encrypt your connection. Many free VPN options exist for casual use.
+    *Tactical Example:* Avoid logging into sensitive accounts, like banking, while on public Wi-Fi. If you must use public Wi-Fi, use a Virtual Private Network (VPN) app like ProtonVPN or NordVPN to encrypt your connection. Many free VPN options exist for casual use.
 
 6. **Back Up Your Data Regularly**
 
-  Backing up your data ensures you can recover important files if your device is lost, stolen, or infected with ransomware.
+    Backing up your data ensures you can recover important files if your device is lost, stolen, or infected with ransomware.
 
-  *Tactical Example:* Use cloud services like Google Drive or iCloud for automatic backups. For physical backups, an external hard drive updated monthly can also be a lifesaver.
+    *Tactical Example:* Use cloud services like Google Drive or iCloud for automatic backups. For physical backups, an external hard drive updated monthly can also be a lifesaver.
 
 7. **Secure Your Home Network**
 
-  Your home Wi-Fi is the gateway to all your devices. Keep it safe by changing default settings and passwords.
+    Your home Wi-Fi is the gateway to all your devices. Keep it safe by changing default settings and passwords.
 
-  *Tactical Example:* Change your router’s default password to something strong. Set your Wi-Fi encryption to WPA3 (or WPA2 if WPA3 isn’t available) to ensure connections are secure. Many routers have step-by-step guides for this in their user manuals.
+    *Tactical Example:* Change your router’s default password to something strong. Set your Wi-Fi encryption to WPA3 (or WPA2 if WPA3 isn’t available) to ensure connections are secure. Many routers have step-by-step guides for this in their user manuals.
 
 ## Secure Credential Management: Methods and Best Practices for Individuals
 
@@ -140,56 +140,56 @@ In an era of increasing cyber threats, secure credential management is essential
 
 1. **Use Strong, Unique Passwords**
 
-  Each of your accounts should have a strong, unique password that is difficult to guess or crack. A strong password typically contains at least 12 characters, including a mix of uppercase and lowercase letters, numbers, and special symbols.
+    Each of your accounts should have a strong, unique password that is difficult to guess or crack. A strong password typically contains at least 12 characters, including a mix of uppercase and lowercase letters, numbers, and special symbols.
 
-  *Tactical Example:* Replace simple passwords like “John1234” with complex ones such as “7$K8q\!Lf@X9%rH”. 
+    *Tactical Example:* Replace simple passwords like “John1234” with complex ones such as “7$K8q\!Lf@X9%rH”. 
 
-  *Tools*: Password managers like LastPass, 1Password, and Bitwarden can generate and store complex passwords securely. Apple and Android phones also have built-in password managers with these capabilities. 
+    *Tools*: Password managers like LastPass, 1Password, and Bitwarden can generate and store complex passwords securely. Apple and Android phones also have built-in password managers with these capabilities. 
 
 2. **Enable Multi-Factor Authentication (MFA)**
 
-  MFA adds an extra layer of security by requiring a second form of verification, such as a code sent to your phone, a biometric scan, or a hardware token.
+    MFA adds an extra layer of security by requiring a second form of verification, such as a code sent to your phone, a biometric scan, or a hardware token.
 
-  *Tactical Example:* After entering a password, a user receives a one-time code via an app like Google Authenticator or by SMS to complete the login process.
+    *Tactical Example:* After entering a password, a user receives a one-time code via an app like Google Authenticator or by SMS to complete the login process.
 
-  *Tools:* Popular MFA tools include Duo Security, Microsoft Authenticator, and YubiKey.
+    *Tools:* Popular MFA tools include Duo Security, Microsoft Authenticator, and YubiKey.
 
 3. **Avoid Credential Reuse**
 
-  Reusing the same password across multiple accounts increases your vulnerability to credential stuffing attacks. Each account should have its own unique credentials.
+    Reusing the same password across multiple accounts increases your vulnerability to credential stuffing attacks. Each account should have its own unique credentials.
 
-  *Tactical Example:* If the password for a social media account is compromised, it should not also provide access to email or banking accounts.
+    *Tactical Example:* If the password for a social media account is compromised, it should not also provide access to email or banking accounts.
 
 4. **Store Credentials Securely**
 
-  Avoid storing your passwords in plain text or insecure locations. Use encrypted storage solutions for sensitive credentials.
+    Avoid storing your passwords in plain text or insecure locations. Use encrypted storage solutions for sensitive credentials.
 
-  *Tactical Example:* Instead of saving passwords in a text file, use a password manager that encrypts data.
+    *Tactical Example:* Instead of saving passwords in a text file, use a password manager that encrypts data.
 
 5. **Regularly Update Credentials**
 
-  Change your passwords periodically and immediately after a breach. Set calendar reminders to update critical credentials every 90 days.
+    Change your passwords periodically and immediately after a breach. Set calendar reminders to update critical credentials every 90 days.
 
-  *Tactical Example*: Rotate administrative passwords for corporate systems every three months.
+    *Tactical Example*: Rotate administrative passwords for corporate systems every three months.
 
 6. **Use Passphrases for Enhanced Security**
 
-  Passphrases are longer strings of words or phrases that are easier to remember but hard to crack. They provide an alternative to complex passwords.
+    Passphrases are longer strings of words or phrases that are easier to remember but hard to crack. They provide an alternative to complex passwords.
 
-  *Tactical Example*: A passphrase like “PurpleElephant$Dances\!OnMars” is memorable and secure.
+    *Tactical Example*: A passphrase like “PurpleElephant$Dances\!OnMars” is memorable and secure.
 
 7. **Monitor for Credential Exposure**
 
-  Regularly check if your credentials have been compromised in data breaches using services like Have I Been Pwned.
+    Regularly check if your credentials have been compromised in data breaches using services like Have I Been Pwned.
 
-  *Tactical Example:* If an email address is found in a breach, update associated passwords immediately.
+    *Tactical Example:* If an email address is found in a breach, update associated passwords immediately.
 
 8. **Use Hardware-Based Authentication**
 
-  Hardware tokens, such as YubiKeys or smart cards, provide physical authentication factors that are highly secure.
+    Hardware tokens, such as YubiKeys or smart cards, provide physical authentication factors that are highly secure.
 
-  *Tactical Example*: Plugging a YubiKey into a computer’s USB port to authenticate a login adds an additional security layer.
-
+    *Tactical Example*: Plugging a YubiKey into a computer’s USB port to authenticate a login adds an additional security layer.
+    
 ## Secure Credential Management: Methods and Best Practices in an Organization
 
 While strengthening your personal security posture using the above best practices is essential, it’s equally important to consider how security practices extend into your professional environment. Whether you’re part of a small team or a large organization, managing credentials securely plays a critical role in protecting both individual and enterprise data. Depending on your role within an organization, you can use and promote the following best practices: 
