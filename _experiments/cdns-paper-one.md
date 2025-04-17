@@ -10,16 +10,16 @@ sticky_sidenav: true
 subnav:
   # - text: Introduction
   #   href: '#introduction'
-- text: What CDNs Provide
-  href: '#what-cdns-provide'
-- text: CDN Assumptions
-  href: '#cdn-assumptions'
-- text: Understanding JavaScript Injection via a CDN
-  href: '#understanding-javascript-injection-via-a-cdn'
-- text: "Example: BrowseAloud - A Case Study in Malicious JavaScript Injection via CDNs"
-  href: '#example-browsealoud---a-case-study-in-malicious-javascript-injection-via-cdns'
-- text: Conclusion
-  href: '#conclusion'
+  - text: What CDNs Provide
+    href: '#what-cdns-provide'
+  - text: CDN Assumptions
+    href: '#cdn-assumptions'
+  - text: Understanding JavaScript Injection via a CDN
+    href: '#understanding-javascript-injection-via-a-cdn'
+  - text: "Example: BrowseAloud - A Case Study in Malicious JavaScript Injection via CDNs"
+    href: '#example-browsealoud---a-case-study-in-malicious-javascript-injection-via-cdns'
+  - text: Conclusion
+    href: '#conclusion'
 ---
 
 {% include alert-warning.html heading="Pre-Decisional Draft" content="The following document is a Pre-Decisional Draft and should not be interpreted as a finalized rule." %}

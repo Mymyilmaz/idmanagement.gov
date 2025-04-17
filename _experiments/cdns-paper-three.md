@@ -20,9 +20,9 @@ subnav:
     href: '#best-security-practices-for-social-media-and-managing-publicly-available-information'
   - text: Operational and Practical Digital Security Hygiene
     href: '#operational-and-practical-digital-security-hygiene'
-  - text: Secure Credential Management: Methods and Best Practices for Individuals
+  - text: "Secure Credential Management: Methods and Best Practices for Individuals"
     href: '#secure-credential-management-methods-and-best-practices-for-individuals'
-  - text: Secure Credential Management: Methods and Best Practices in an Organization
+  - text: "Secure Credential Management: Methods and Best Practices in an Organization"
     href: '#secure-credential-management-methods-and-best-practices-in-an-organization'
   - text: Recommendations for Multi-Layered Protection of Digital Personas
     href: '#recommendations-for-multi-layered-protection-of-digital-personas'
