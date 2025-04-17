@@ -27,8 +27,7 @@ subnav:
   - text: Recommendations for Multi-Layered Protection of Digital Personas
     href: '#recommendations-for-multi-layered-protection-of-digital-personas'
   - text: Conclusion
-    href: '#conclusion'
-    
+    href: '#conclusion'   
 
 ---
 
