@@ -41,7 +41,7 @@ How objective are you when assessing your vulnerabilities? You likely believe yo
 
 This is where the **Prevention, Deterrence, and Defense (PDD™)** framework comes into play. It helps you objectively evaluate your security posture by conceptualizing layers of protection, forming concentric rings of increasing security around your life and family. The closer you get to your core—the things and people you value most—the stronger your protective measures must be. Security can seem overwhelming, but the PDD™ framework simplifies it by providing an organized approach to assess and enhance your security strategy. This process applies to every aspect of your life, regardless of the specific circumstances addressed in this guide.
 
-![Prevention, Deterrence, and Defense (PDD™)]({{site.baseurl}}/assets/experiments/cdns/cdns-paper-3-fig-1.jpeg)
+![Prevention, Deterrence, and Defense (PDD™)]({{site.baseurl}}/assets/experiments/cdns/cdns-paper-3-fig-1.jpeg){:width="80%"}{:height="80%"}
 
 ## The PDD™ Framework Explained
 
