@@ -2,7 +2,7 @@
 
 layout: page
 collection: experiments
-title: CDNs - Attack Vectors and Mitigation
+title: CDN - Attack Vectors and Mitigation
 permalink: /experiments/cdns/paper2/
 sidenav: experiments
 sticky_sidenav: true
