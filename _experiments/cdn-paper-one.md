@@ -2,16 +2,16 @@
 
 layout: page
 collection: experiments
-title: CDNs - Reliability, Assumptions, and Vulnerabilities
-permalink: /experiments/cdns/paper1/
+title: CDN - Reliability, Assumptions, and Vulnerabilities
+permalink: /experiments/cdn/paper1/
 sidenav: experiments
 sticky_sidenav: true
 
 subnav:
   # - text: Introduction
   #   href: '#introduction'
-  - text: What CDNs Provide
-    href: '#what-cdns-provide'
+  - text: What CDN Provide
+    href: '#what-cdn-provide'
   - text: CDN Assumptions
     href: '#cdn-assumptions'
   - text: Understanding JavaScript Injection via a CDN
@@ -67,11 +67,11 @@ Most modern applications use client-side code (like JavaScript) to provide real-
 
 **Examples**
 
-![Examples]({{site.baseurl}}/assets/experiments/cdns/cdns-paper-1-fig-1.jpeg)
+![Examples]({{site.baseurl}}/assets/experiments/cdns/cdn-paper-1-fig-1.jpeg)
 
 **Why It’s Important**
 
-![Why It’s Important]({{site.baseurl}}/assets/experiments/cdns/cdns-paper-1-fig-2.jpeg)
+![Why It’s Important]({{site.baseurl}}/assets/experiments/cdns/cdn-paper-1-fig-2.jpeg)
 
 ### CDN Assumptions
 
