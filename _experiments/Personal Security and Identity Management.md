@@ -3,7 +3,7 @@
 layout: page
 collection: experiments
 title: Personal Security and Identity Management 
-permalink: /experiments/cdn/Personal Security and Identity Management/
+permalink: /experiments/cdns/Personal Security and Identity Management/
 sidenav: experiments
 sticky_sidenav: true
 
