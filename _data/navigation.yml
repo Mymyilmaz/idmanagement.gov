@@ -86,11 +86,11 @@ university:
 experiments:
   - text: Experiments
     href: /experiments/
-  - text: CDNs Paper 1
+  - text: CDN Paper 1
     href: /experiments/cdns/paper1/
-  - text: CDNs Paper 2
+  - text: CDN Paper 2
     href: /experiments/cdns/paper2/
-  - text: CDNs Paper 3
+  - text: Personal Security and Identity Management
     href: /experiments/cdns/paper3/ 
 
 playbooks:
