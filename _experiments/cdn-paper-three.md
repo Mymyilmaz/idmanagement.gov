@@ -2,7 +2,7 @@
 
 layout: page
 collection: experiments
-title: Personal Security and Identity Management 
+title: CDN - Personal Security and Identity Management 
 permalink: /experiments/cdns/paper3/
 sidenav: experiments
 sticky_sidenav: true
