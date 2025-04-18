@@ -39,7 +39,7 @@ When CDNs are compromised, attackers can bypass security controls that depend on
 - **Behavior Monitoring:**
   - **Methodology:** By embedding trackers or keyloggers in CDN-distributed resources, attackers can monitor user behaviors on government platforms.
   - **Implications:** Tracking user habits, login patterns, and activity logs can help attackers map organizational workflows and identify potential weaknesses for exploitation.
-- **Manipulation of Identifiers:*
+- **Manipulation of Identifiers:**
   - **Methodology:** Altering scripts or cached content on a CDN enables attackers to modify data fields like email signatures, job titles, and other visible identifiers.
   - **Implications:** Misinformation can be spread through altered identifiers, damaging trust and creating confusion within government agencies and among external stakeholders.
 
