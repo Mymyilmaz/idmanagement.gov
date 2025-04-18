@@ -3,15 +3,15 @@
 layout: page
 collection: experiments
 title: CDN - Reliability, Assumptions, and Vulnerabilities
-permalink: /experiments/cdn/paper1/
+permalink: /experiments/cdns/paper1/
 sidenav: experiments
 sticky_sidenav: true
 
 subnav:
   # - text: Introduction
   #   href: '#introduction'
-  - text: What CDN Provide
-    href: '#what-cdn-provide'
+  - text: What CDNs Provide
+    href: '#what-cdns-provide'
   - text: CDN Assumptions
     href: '#cdn-assumptions'
   - text: Understanding JavaScript Injection via a CDN
