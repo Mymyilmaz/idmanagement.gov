@@ -113,8 +113,16 @@ primary_navigation:
         url: /university/pm/
       - name: ICAM Policy Matrix
         url: /university/policymatrix/
-  - name: Experiments 
-    url: /experiments/
+  - name: Experiments
+    children:
+      - name: Experiments
+        url: /experiments/
+      - name: CDN Paper 1
+        url: /experiments/cdns/paper1/
+      - name: CDN Paper 2
+        url: /experiments/cdns/paper2/
+      - name: Personal Security and Identity Management
+        url: /experiments/cdns/paper3/ 
 
 secondary_navigation:
   - name: Contact Us
