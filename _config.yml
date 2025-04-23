@@ -91,6 +91,8 @@ primary_navigation:
         url: /fpki/
       - name: FIPS 201 Evaluation Program
         url: /fips201ep/
+      - name: PIV Card Approval Procedures
+        url: /piv-card-approval/
       - name: GSA PKI SSP Program
         url: /gsapkissp/
   - name: Playbooks
