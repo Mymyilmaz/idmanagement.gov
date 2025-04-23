@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Personal Identity Verification (PIV) Card Body Approval Procedures
+title: PIV Card Body Approval Procedures
 collection: ficampmo
 permalink: /piv-card-approval/
 sidenav: functions
@@ -28,11 +28,11 @@ subnav:
     href: '#3-1-requirements' 
   - text: 3.2 Evaluation Criteria
     href: '#3-2-evaluation-criteria'
-  - text: 3.2.1 Supplier/ Vendor Documentation Review (PIV-C.1 to PIV-C.7) 
+  - text: "3.2.1 Supplier/Vendor Documentation Review (PIV-C.1 to PIV-C.7)" 
     href: '#3-2-1-supplier--Vendor-documentation-review--piv---c-1-to-piv-c-7'
-  - text: 3.2.2 Vendor/ Lab Test Data Report (PIV-C.8 to PIV-C.23 
+  - text: "3.2.2 Vendor/ Lab Test Data Report (PIV-C.8 to PIV-C.23)" 
     href: '#3-2-2-vendor--lab-test-data-report--piv-c-8-to-piv-c-23'
-  - text: 3.2.3 Certification (PIV-C.25 to PIV-C.26)
+  - text: "3.2.3 Certification (PIV-C.25 to PIV-C.26)"
     href: '#3-2-3-certification--piv-c-25-to-piv-c-26'
 
 ---
@@ -63,13 +63,6 @@ subnav:
             <td>03/21/06</td>
             <td>Document creation.</td>
             <td>Limited</td>
-        </tr>
-        <tr>
-            <th scope='row'>Draft</th>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
         </tr>
         <tr>
             <th scope='row'>Draft</th>
@@ -206,29 +199,14 @@ subnav:
 
 ### 1.1 Overview
 
-The FIPS 201 Evaluation Program (EP) is a federal compliance program administered by the
-Office of Government-wide Policy (OGP), within the General Services Administration (GSA)
-agency. The FIPS 201 Evaluation Program (EP) evaluates products and services against the
-requirements outlined in FIPS 201 and its supporting documents. In addition to test requirements
-developed to test conformance to the National Institute of Standards and Technology (NIST)
-specifications, GSA has established interoperability and performance metrics to further
-determine product suitability. To qualify as an Evaluation Lab (Lab) for the GSA FIPS 201 EP,
-the laboratory shall have received NIST National Voluntary Laboratory Accreditation Program
-(NVLAP) accreditation (refer to NIST HB 150-17e2022, Annex D), to perform FIPS 201
-conformance testing on products submitted by the suppliers/ vendors. A set of approval
-procedures have been developed which outline the evaluation criteria, approval mechanisms, and
-validation test reports to be employed and provided by the Evaluation Laboratory during their
-evaluation of a Supplier’s product against the requirements for that category.
+The FIPS 201 Evaluation Program (EP) is a federal compliance program administered by the Office of Government-wide Policy (OGP), within the General Services Administration (GSA) agency. The FIPS 201 Evaluation Program (EP) evaluates products and services against the requirements outlined in FIPS 201 and its supporting documents. In addition to test requirements developed to test conformance to the National Institute of Standards and Technology (NIST) specifications, GSA has established interoperability and performance metrics to further determine product suitability. To qualify as an Evaluation Lab (Lab) for the GSA FIPS 201 EP, the laboratory shall have received NIST National Voluntary Laboratory Accreditation Program
+(NVLAP) accreditation (refer to NIST HB 150-17e2022, Annex D), to perform FIPS 201 conformance testing on products submitted by the suppliers/ vendors. A set of approval procedures have been developed which outline the evaluation criteria, approval mechanisms, and validation test reports to be employed and provided by the Evaluation Laboratory during their evaluation of a Supplier’s product against the requirements for that category.
 
-A Vendor/Supplier desiring to submit a PIV Card body (hereafter referred to as the Product) for
-evaluation must follow these Approval Procedures, which provide the necessary
-category-specific details to have a Supplier’s Product evaluated by the EP and placed on the
-Approved Products List (APL).
+A Vendor/Supplier desiring to submit a PIV Card body (hereafter referred to as the Product) for evaluation must follow these Approval Procedures, which provide the necessary category-specific details to have a Supplier’s Product evaluated by the EP and placed on the Approved Products List (APL).
 
 ### 1.2 Category Description
 
-The PIV Card is a smart card with contact and contactless interfaces that meet the interface, data
-format, graphical, and physical requirements outlined in FIPS 201 and SP 800-73.
+The PIV Card is a smart card with contact and contactless interfaces that meet the interface, data format, graphical, and physical requirements outlined in FIPS 201 and SP 800-73.
 
 ### 1.3 Purpose
 
@@ -313,7 +291,7 @@ Certification |
 This section provides details on the process employed by the Lab for evaluating the Product against
 the requirements indicated above.
 
-### 3.2.2 Vendor/ Lab Test Data Report (PIV-C.8 to PIV-C.23)
+### 3.2.2 Vendor/Lab Test Data Report (PIV-C.8 to PIV-C.23)
 
 As a result of the testing to ensure compliance with the respective standards, the following must
 be included as part of the Vendor/Lab Test Data report:
