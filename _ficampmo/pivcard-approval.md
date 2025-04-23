@@ -135,8 +135,7 @@ subnav:
             <td>Public</td>
         </tr>
         <tr>
-            <th scope='row'>Revision</th>
-            <td>Revision<br/>Revision<br/>Revision</td>
+            <th scope='row'>Revision<br/>Revision<br/>Revision<br/>Revision</th>
             <td>2.0.1<br/>2.1.0<br/>3.2.0<br/>3.3.0</td>
             <td>09/11/06<br/>9/20/06<br/>10/20/06<br/>11/13/06</td>
             <td>Revised based on feedback from the Evaluation Program and GSA Submitted to GSA for approval  Updated and Submitted to GSA for approval  Updated and Submitted to GSA for approval</td>
