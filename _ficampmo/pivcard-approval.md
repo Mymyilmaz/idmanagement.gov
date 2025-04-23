@@ -281,7 +281,7 @@ the card. | FIPS 201-3, Section 4.1.3 | Vendor/Lab Test Data Report |
 the Federal Information Processing Standard (FIPS) 140-3, Security Requirements for Cryptographic Modules: https://csrc.nist.gov/projects/cryptographic-module-validation-program | SP 800-73 Appendix A - PIV Data Model | Supplier/Vendor Documentation Review and
 Certification |
 
-{:style="text-align:center;"}
+
 **Table 1 - Applicable Requirements**
 
 
