@@ -225,16 +225,16 @@ that need to be submitted by the Evaluation Lab to perform validation. The Appli
 Contents for this category include the following:
 
 - The Product itself.
-  - (a) The vendor should deliver the product to the Lab (address found at https://www.idmanagement.gov/vendors/) using a secure delivery method requiring receipt acknowledgement (e.g., FedEx, UPS, hand delivery)
+  - (a) The vendor should deliver the product to the Lab (address found at [{{site.baseurl}}/vendors/]({{site.baseurl}}/vendors/)) using a secure delivery method requiring receipt acknowledgement (e.g., FedEx, UPS, hand delivery)
   - (b) The Lab should deliver the Product to the FIPS 201 EP at 1893 Metro Center Dr., Ste 228, Reston, VA 20190 using secure delivery methods requiring receipt acknowledgement (e.g., FedEx, UPS, hand delivery).
-- Completed and signed “PIV Card APL Evaluation Program Application Form” (link:https://www.idmanagement.gov/fips201/, under PIV Card Body Application Package Requirements)
-- Completed and signed “FIPS 201 Evaluation Program Lab Services Agreement_v3.0.0” (link: https://www.idmanagement.gov/fips201/, under PIV Card Body Application Package Requirements)
+- Completed and signed “PIV Card APL Evaluation Program Application Form” (link:[{{site.baseurl}}/fips201/]({{site.baseurl}}/fips201/){:target="_blank"}{:rel="noopener noreferrer"}, under PIV Card Body Application Package Requirements)
+- Completed and signed “FIPS 201 Evaluation Program Lab Services Agreement_v3.0.0” (link: [{{site.baseurl}}/fips201/]({{site.baseurl}}/fips201/){:target="_blank"}{:rel="noopener noreferrer"}, under PIV Card Body Application Package Requirements)
 - Completed and signed “FIPS 201 Evaluation Program Attestations to Federal
 Acquisition Regulations related to the Trade Agreement Act” (link:
-https://www.idmanagement.gov/fips201/, under PIV Card Body Application Package
+[{{site.baseurl}}/fips201/]({{site.baseurl}}/fips201/){:target="_blank"}{:rel="noopener noreferrer"}, under PIV Card Body Application Package
 Requirements)
 - Completed and signed “FIPS 201 Evaluation Program Attestation Form for PIV Card
-Body Approval_v1.0” (link: https://www.idmanagement.gov/fips201/, under PIV Card
+Body Approval_v1.0” (link: [{{site.baseurl}}/fips201/]({{site.baseurl}}/fips201/){:target="_blank"}{:rel="noopener noreferrer"}, under PIV Card
 Body Application Package Requirements)
 - A Vendor/ Lab Test Data Report, which provides test results showing that the Product complies with the requirements indicated in Section 3.1, Table 1 of this document and as indicated against the tests conducted in the FIPS 201 Evaluation Program Attestation Form for PIV Card Body Approval_v1.0. The Lab is required to develop test methods for conformance testing as required by the FIPS 201 EP and validate that the test methods developed comply with the requirements set forth by the International Organization Standardization (ISO) 17025 for Testing and Calibration laboratories to
 verify the effectiveness of the testing method to produce valid results. In this regard, the Supplier/ Lab is expected to develop and document the test procedures used to determine how the Product was tested to conclude that it met all requirements to be compliant. In addition, the following will be provided as part of the Supplier/Vendor Documentation Review and Certification:
@@ -277,9 +277,9 @@ States’ sunlight exposure. The tests shall be in accordance with ISO 10373. Co
 | PIV-C.22 | The card shall be 27- to 33-mil thick (before lamination) in accordance with ISO 7810. | FIPS 201-3, Section 4.1.3 | Vendor/Lab Test Data Report |
 | PIV-C.23 | The card material shall allow the production of a flat card in accordance with ISO 7810 after the lamination of one or both sides of
 the card. | FIPS 201-3, Section 4.1.3 | Vendor/Lab Test Data Report |
-| PIV-C.24 | A validation certificate from the NIST Personal Identity Verification Program (NPIVP) detailing that the Product being tested is listed in the PIV Card Application Validation list as conformant as defined in SP 800-73: https://csrc.nist.gov/Projects/nistpersonal-identity-verificationprogram/Validation-Lists/piv-cardapplication-validation-list | SP 800-73 Appendix A - PIV Data Model | Supplier/Vendor Documentation Review and Certification |
+| PIV-C.24 | A validation certificate from the NIST Personal Identity Verification Program (NPIVP) detailing that the Product being tested is listed in the PIV Card Application Validation list as conformant as defined in SP 800-73: [https://csrc.nist.gov/Projects/nistpersonal-identity-verificationprogram/Validation-Lists/piv-cardapplication-validation-list](https://csrc.nist.gov/Projects/nistpersonal-identity-verificationprogram/Validation-Lists/piv-cardapplication-validation-list){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} | SP 800-73 Appendix A - PIV Data Model | Supplier/Vendor Documentation Review and Certification |
 | PIV-C.25 | A validation certificate from The NIST Cryptographic Module Validation Program (CMVP) which validates cryptographic modules to
-the Federal Information Processing Standard (FIPS) 140-3, Security Requirements for Cryptographic Modules: https://csrc.nist.gov/projects/cryptographic-module-validation-program | SP 800-73 Appendix A - PIV Data Model | Supplier/Vendor Documentation Review and
+the Federal Information Processing Standard (FIPS) 140-3, Security Requirements for Cryptographic Modules: [https://csrc.nist.gov/projects/cryptographic-module-validation-program](https://csrc.nist.gov/projects/cryptographic-module-validation-program){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} | SP 800-73 Appendix A - PIV Data Model | Supplier/Vendor Documentation Review and
 Certification |
 
 
@@ -304,7 +304,7 @@ be included as part of the Vendor/Lab Test Data report:
 The Lab will perform the necessary activities to ensure the authenticity and validity of the
 certification status for the Product being tested and provide the following:
 
-- A validation certificate from the NIST Personal Identity Verification Program (NPIVP) detailing that the Product being tested is listed in the PIV Card Application Validation list as conformant as defined in SP 800-73: https://csrc.nist.gov/Projects/nist-personal-identity-verification-program/Validation-Lists/piv-card-application-validation-list.
+- A validation certificate from the NIST Personal Identity Verification Program (NPIVP) detailing that the Product being tested is listed in the PIV Card Application Validation list as conformant as defined in SP 800-73: [https://csrc.nist.gov/Projects/nist-personal-identity-verification-program/Validation-Lists/piv-card-application-validation-list](https://csrc.nist.gov/Projects/nist-personal-identity-verification-program/Validation-Lists/piv-card-application-validation-list){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}.
 - A validation certificate from The NIST Cryptographic Module Validation Program (CMVP) which validates cryptographic modules to the Federal Information Processing Standard (FIPS) 140-3, Security Requirements for Cryptographic
-Modules: https://csrc.nist.gov/projects/cryptographic-module-validation-program.
+Modules: [https://csrc.nist.gov/projects/cryptographic-module-validation-program](https://csrc.nist.gov/projects/cryptographic-module-validation-program){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}.
 
