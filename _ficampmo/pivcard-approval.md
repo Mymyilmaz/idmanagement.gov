@@ -12,28 +12,28 @@ version: 11.0.0
 subnav:
 #   - text: 
 #     href: '#'
-  - text: 1 Introduction 
-    href: '#1-introduction' 
-  - text: 1 Overview
-    href: '#1-1-overview' 
-  - text: 1.2 Category Description
-    href: '#1-2-Category-Description'
-  - text: 1.3 Purpose
-    href: '#1-3-purpose'
-  - text: 2 Application Package Contents
-    href: '#2-application-package-contents'
-  - text: 3 Evaluation Procedure for PIV Card Body Testing
-    href: '#3-evaluation-procedure-for-piv-card-body-testing'
-  - text: 3.1 Requirements
-    href: '#3-1-requirements' 
-  - text: 3.2 Evaluation Criteria
-    href: '#3-2-evaluation-criteria'
-  - text: "3.2.1 Supplier/Vendor Documentation Review (PIV-C.1 to PIV-C.7)" 
-    href: '#3-2-1-supplier--Vendor-documentation-review--piv---c-1-to-piv-c-7'
-  - text: "3.2.2 Vendor/ Lab Test Data Report (PIV-C.8 to PIV-C.23)" 
-    href: '#3-2-2-vendor--lab-test-data-report--piv-c-8-to-piv-c-23'
-  - text: "3.2.3 Certification (PIV-C.25 to PIV-C.26)"
-    href: '#3-2-3-certification--piv-c-25-to-piv-c-26'
+  # - text: 1 Introduction 
+  #   href: '#1-introduction' 
+  # - text: 1 Overview
+  #   href: '#1-1-overview' 
+  # - text: 1.2 Category Description
+  #   href: '#1-2-Category-Description'
+  # - text: 1.3 Purpose
+  #   href: '#1-3-purpose'
+  # - text: 2 Application Package Contents
+  #   href: '#2-application-package-contents'
+  # - text: 3 Evaluation Procedure for PIV Card Body Testing
+  #   href: '#3-evaluation-procedure-for-piv-card-body-testing'
+  # - text: 3.1 Requirements
+  #   href: '#3-1-requirements' 
+  # - text: 3.2 Evaluation Criteria
+  #   href: '#3-2-evaluation-criteria'
+  # - text: "3.2.1 Supplier/Vendor Documentation Review (PIV-C.1 to PIV-C.7)" 
+  #   href: '#3-2-1-supplier--Vendor-documentation-review--piv---c-1-to-piv-c-7'
+  # - text: "3.2.2 Vendor/ Lab Test Data Report (PIV-C.8 to PIV-C.23)" 
+  #   href: '#3-2-2-vendor--lab-test-data-report--piv-c-8-to-piv-c-23'
+  # - text: "3.2.3 Certification (PIV-C.25 to PIV-C.26)"
+  #   href: '#3-2-3-certification--piv-c-25-to-piv-c-26'
 
 ---
 
@@ -47,8 +47,6 @@ subnav:
   </h4>
   <div id="v-a1" class="usa-accordion__content usa-prose">
     <table>
-        <caption>Identity Fraud Detection Playbook version table</caption>
-        <thead>
         <tr>
             <th scope='col'>Status</th>
             <th scope='col'>Version</th>
@@ -56,7 +54,6 @@ subnav:
             <th scope='col'>Comment</th>
             <th scope='col'>Audience</th>
         </tr>
-        </thead>
         <tr>
             <th scope='row'>Draft</th>
             <td>0.0.1</td>
@@ -193,6 +190,7 @@ subnav:
     </table>
   </div>
 </div>
+<br/>
 
 ## 1 Introduction
 
