@@ -37,7 +37,7 @@ subnav:
 
 ---
 
-<br/>
+<!-- <br/>
 
 <div class="usa-accordion usa-accordion--bordered">
   <h4 class="usa-accordion__heading">
@@ -190,7 +190,7 @@ subnav:
     </table>
   </div>
 </div>
-<br/>
+<br/> -->
 
 
 
