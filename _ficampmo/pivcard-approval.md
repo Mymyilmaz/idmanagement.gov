@@ -260,7 +260,8 @@ PIV-C.3 | The PIV Card body shall comply with characteristics as described in IS
 | PIV-C.6 | The PIV Card shall contain a contact and a contactless ICC interface. | FIPS 201-3, Section 4.1.3 | Supplier/Vendor Documentation Review |
 | PIV-C.7 | The card body structure shall consist of card material(s) that satisfy the test methods in American National Standards Institute (ANSI)322. | FIPS 201-3, Section 4.1.3 | Supplier/Vendor Documentation Review |
 | PIV-C.8 | The ANSI 322 test methods tests shall be used to evaluate card material durability and performance. | FIPS 201-3, Section 4.1.3 | Vendor/Lab Test Data Report |
-| PIV-C.9 | The ANSI 322 tests shall include the card flexure test. | FIPS 201-3, Section 4.1.3 | Vendor/Lab Test Data Report | FIPS 201-3, Section 4.1.3 | Vendor/Lab Test Data Report |
+| PIV-C.9 | The ANSI 322 tests shall include the card flexure test. | FIPS 201-3, Section 4.1.3 | Vendor/Lab Test Data Report | 
+| PIV-C.10 | The ANSI 322 tests shall include the card static stress test.FIPS 201-3, Section 4.1.3 | Vendor/Lab Test Data Report |
 | PIV-C.11 | The ANSI322 tests shall include the plasticizer exposure test. | FIPS 201-3, Section 4.1.3 | Vendor/Lab Test Data Report |
 | PIV-C.12 | The ANSI 322 tests shall include the impact resistance test. | FIPS 201-3, Section 4.1.3 | Vendor/Lab Test Data Report |
 | PIV-C.13 | The ANSI 322 tests shall include the card structural integrity test. | FIPS 201-3, Section 4.1.3 | Vendor/Lab Test Data Report |
