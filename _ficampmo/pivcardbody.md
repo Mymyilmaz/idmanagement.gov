@@ -39,7 +39,7 @@ subnav:
 
 <div class="usa-alert usa-alert--info">
   <div class="usa-alert__body">
-    <h4 class="usa-alert__heading">Vendors or Suppliers</h4>
+    <h4 class="usa-alert__heading">Vendors and Suppliers</h4>
     <p class="usa-alert__text">If you are looking for the form required for submission of each of your products, please use the button below to access this form.</p>
     <br/>
       <a href="{{site.baseurl}}/docs/piv-card-apl-evaluation-program-application-form.docx" target="_blank">
