@@ -11,6 +11,14 @@ subnav:
   #   href: '#introduction'
 - text: IARPA HIATUS
   href: '#iarpa-hiatus'
+- text: CDN Paper 1
+  href: /experiments/cdns/paper1/
+- text: CDN Paper 2
+  href: /experiments/cdns/paper2/
+- text: Personal Security and Identity Management
+  href: /experiments/cdns/paper3/ 
+
+
 ---
 
 This section of IDManagement.gov is dedicated to ongoing experiments and research initiated by the GSA Office of Government-wide Policy, Identity Assurance and Trusted Access Division, other agencies, industry and academia partners. 
@@ -36,7 +44,20 @@ To learn more about the **IARPA HIATUS** program and how it works, click the but
   <button class="usa-button usa-link usa-link--external" style="color:#ffffff;">Explore Further</button>
 </a>
 
+## CDN Paper 1
 
+Content Delivery Networks (CDNs) are integral to modern web infrastructure, offering improved performance, scalability, and security. However, they are often assumed to be infallible, which can cause people to overlook the potential vulnerabilities that cyber actors can exploit to access individual digital profiles, credentials, and sensitive information. In this paper, we examine these assumptions and associated risks.
 
+[Read CDN Paper 1]({{site.baseurl}}/experiments/cdns/paper1/){:class="usa-button"}
 
+## CDN Paper 2
 
+Content Delivery Networks (CDNs) are critical to ensuring fast and reliable web services. However, their ubiquity and central role in web infrastructure make them attractive targets for attackers. This paper provides a detailed analysis of attack methods, including supply chain attacks, cache poisoning, and DNS spoofing, which can exploit CDNs to spread malicious scripts and compromise digital personas.
+
+[Read CDN Paper 2]({{site.baseurl}}/experiments/cdns/paper2/){:class="usa-button"}
+
+## Personal Security and Identity Management
+
+Many people inadvertently create a false sense of security, mistaking the feeling of safety for actual security. To truly protect yourself and your loved ones, it’s vital to explore the distinction between feeling secure and being secure. While feeling secure is comforting, genuine security is what ultimately matters. Security can seem overwhelming, but the PDD™ framework simplifies it by providing an organized approach to assess and enhance your security strategy.
+
+[Read Personal Security and Identity Management]({{site.baseurl}}/experiments/cdns/paper3/){:class="usa-button"}
