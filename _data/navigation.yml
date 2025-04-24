@@ -86,6 +86,8 @@ university:
 experiments:
   - text: Experiments
     href: /experiments/
+  - text: Coming Soon
+    href: '/experiments/#coming-soon' 
 
 
 playbooks:
