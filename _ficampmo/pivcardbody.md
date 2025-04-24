@@ -37,7 +37,9 @@ subnav:
 
 ---
 
-<br />
+{% include alert-info.html heading="PIV Card APL Evaluation Program Application Form" content="If you are a Vendor/Supplier looking for the required *PIV Card APL Evaluation Program Application Form*, click the link below to access this form. <br> [PIV Card APL Evaluation Program Application Form]({{site.baseurl}}/docs/piv-card-apl-evaluation-program-application-form.docx){\:target=\"_blank\"}{\:rel=\"noopener noreferrer\"}" %}
+
+<br/>
 
 <div class="usa-accordion usa-accordion--bordered">
   <h4 class="usa-accordion__heading">
@@ -194,12 +196,7 @@ subnav:
   </div>
 </div>
 
-<br/> 
-
 ## 1 Introduction
-
-{% include alert-info.html heading="PIV Card APL Evaluation Program Application Form" content="If you are a Vendor/Supplier looking for the required *PIV Card APL Evaluation Program Application Form*, click the button below to access this form. [<button class=\"usa-button\" type=\"button\">Default</button>]({{site.baseurl}}/docs/piv-card-apl-evaluation-program-application-form.docx){:target=\"_blank\"}{:rel=\"noopener noreferrer\"}" %}
-
 
 ### 1.1 Overview
 
