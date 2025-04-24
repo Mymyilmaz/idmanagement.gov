@@ -72,7 +72,7 @@ subnav:
             <td>GSA</td> 
         </tr>
         <tr>
-            <th scope="row">Draft
+            <th scope="row">Draft</th>
             <td>0.1.1</td>
             <td>05/11/06</td>
             <td>Updated based on GSA feedback</td>
