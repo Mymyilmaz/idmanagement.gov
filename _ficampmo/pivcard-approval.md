@@ -47,23 +47,29 @@ subnav:
   </h4>
   <div id="v-a1" class="usa-accordion__content usa-prose">
     <table>
-      <caption>Phishing-resistant authenticator version table</caption>
+      <caption>PIV Card Body Approval Procedures version table</caption>
       <thead>
       <tr>
-        <th scope='col'>Version Number</th>
-        <th scope='col'>Date</th>
-        <th scope='col'>Change Description</th>
+        <th scope="col">Status</th>
+        <th scope="col">Version</th>
+        <th scope="col">Date</th>
+        <th scope="col">Comment</th>
+        <th scope="col">Audience</th>
       </tr>
       </thead>
       <tr>
-        <th scope='row'>1.1</th>
-        <td>02/22/2024</td>
-        <td>Clarified passkey, added FIDO attestation example, added pilot criteria, and examples in lifecycle. See <a href="https://github.com/GSA/idmanagement.gov/issues/798">Issue 798</a>.</td>
+        <th scope="row">Draft</th>
+        <td>0.0.1</td>
+        <td>03/21/06</td>
+        <td>Document creation.</td>
+        <td>Limited</td>
       </tr>
       <tr>
-        <th scope='row'>1.0</th>
-        <td>02/15/2024</td>
-        <td>Initial draft.</td>
+        <th scope="row">Draft</th>
+        <td>0.1.0</td>
+        <td>03/21/06</td>
+        <td>Submitted to GSA for approval.</td>
+        <td>GSA</td> 
       </tr>
     </table>
   </div>
@@ -303,8 +309,7 @@ PIV-C.3 | The PIV Card body shall comply with characteristics as described in IS
 | PIV-C.16 | The ANSI 322 tests shall include card ultraviolet light exposure. | FIPS 201-3, Section 4.1.3 | Vendor/Lab Test Data Report |
 | PIV-C.17 | The ANSI 322 tests shall include the card laundry test. | FIPS 201-3, Section 4.1.3 | Vendor/Lab Test Data Report |
 | PIV-C.18 | The cards shall not malfunction or delaminate after hand cleaning with a mild soap and water mixture. | FIPS 201-3, Section 4.1.3 | Vendor/Lab Test Data Report |
-| PIV-C.19 | The cards shall be subjected to sunlight exposure in accordance with Section 5.12 of ISO 10373 or to ultraviolet and daylight fading
-exposure in accordance with ANSI 322. | FIPS 201-3, Section 4.1.3 | Vendor/Lab Test Data Report |
+| PIV-C.19 | The cards shall be subjected to sunlight exposure in accordance with Section 5.12 of ISO 10373 or to ultraviolet and daylight fading in accordance with ANSI 322. | FIPS 201-3, Section 4.1.3 | Vendor/Lab Test Data Report |
 | PIV-C.20 | The card shall be subjected to actual, concentrated, or artificial sunlight to appropriately reflect 2000 hours of southwestern United
 States’ sunlight exposure. The tests shall be in accordance with ISO 10373. Concentrated sunlight exposure shall be performed in accordance with G90-17, and accelerated exposure in accordance with G155-2013. | FIPS 201-3, Section 4.1.3 | Vendor/Lab Test Data Report |
 | PIV-C.21 | The card shall be subjected to the ISO 10373 dynamic bending test and shall have no visible cracks or failures after exposure to ISO 10373 or ANSI 322. | FIPS 201-3, Section 4.1.3 | Vendor/Lab Test Data Report |
