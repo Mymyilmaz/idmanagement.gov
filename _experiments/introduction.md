@@ -12,11 +12,11 @@ subnav:
 - text: IARPA HIATUS
   href: '#iarpa-hiatus'
 - text: CDN Paper 1
-  href: /experiments/cdns/paper1/
+  href: '#cdn-paper-1'
 - text: CDN Paper 2
-  href: /experiments/cdns/paper2/
+  href: '#cdn-paper-2'
 - text: Personal Security and Identity Management
-  href: /experiments/cdns/paper3/ 
+  href: '#personal-security-and-identity-management' 
 
 
 ---
