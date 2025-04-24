@@ -66,6 +66,8 @@ Many people inadvertently create a false sense of security, mistaking the feelin
 
 ## Coming Soon
 
+We are continuously adding new content to the Experiments section, the following is a list of whats next. 
+
 - Public Identity Best Practices Guide
 - Post Quantum Crypto(PQC) and Post Quantum Encryption(PQE) for logical and Physical Access
-- Mobile PIV.
+- Mobile PIV
