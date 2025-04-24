@@ -47,7 +47,7 @@ subnav:
           <button class="usa-button" type="button">PIV Card APL Evaluation Program Application Form</button>
         </a>
       <br/><br/>
-      Additional required forms can be found on the <a href="{{site.baseurl}}/fips201ep/#piv-card-body">FIPS 201 Evaluation Program</a> page, under <i>PIV Card Body</i>.
+      Additional required forms can be found on the <a href="{{site.baseurl}}/fips201ep/#piv-card-body">FIPS 201 Evaluation Program</a> page.
     </p>
   </div>
 </div>
