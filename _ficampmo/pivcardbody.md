@@ -2,7 +2,7 @@
 layout: page
 title: PIV Card Body Approval Procedures
 collection: ficampmo
-permalink: /piv-card-approval/
+permalink: /pivcardbody/
 sidenav: functions
 sticky_sidenav: true
 
@@ -17,7 +17,7 @@ subnav:
   - text: 1 Overview
     href: '#11-overview' 
   - text: 1.2 Category Description
-    href: '#12-Category-Description'
+    href: '#12-category-description'
   - text: 1.3 Purpose
     href: '#13-purpose'
   - text: 2 Application Package Contents
@@ -196,9 +196,9 @@ subnav:
 
 <br/> 
 
-
-
 ## 1 Introduction
+
+{% include alert-info.html heading="PIV Card APL Evaluation Program Application Form" content="If you are a Vendor/Supplier looking for the required *PIV Card APL Evaluation Program Application Form*, click the button below to access this form. [<button class=\"usa-button\" type=\"button\">Default</button>]({{site.baseurl}}/docs/piv-card-apl-evaluation-program-application-form.docx){:target=\"_blank\"}{:rel=\"noopener noreferrer\"}" %}
 
 
 ### 1.1 Overview
