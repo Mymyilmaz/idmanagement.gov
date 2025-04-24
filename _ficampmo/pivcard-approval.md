@@ -15,25 +15,25 @@ subnav:
   # - text: 1 Introduction 
   #   href: '#1-introduction' 
   # - text: 1 Overview
-  #   href: '#1-1-overview' 
+  #   href: '#11-overview' 
   # - text: 1.2 Category Description
-  #   href: '#1-2-Category-Description'
+  #   href: '#12-Category-Description'
   # - text: 1.3 Purpose
-  #   href: '#1-3-purpose'
+  #   href: '#13-purpose'
   # - text: 2 Application Package Contents
   #   href: '#2-application-package-contents'
   # - text: 3 Evaluation Procedure for PIV Card Body Testing
   #   href: '#3-evaluation-procedure-for-piv-card-body-testing'
   # - text: 3.1 Requirements
-  #   href: '#3-1-requirements' 
+  #   href: '#31-requirements' 
   # - text: 3.2 Evaluation Criteria
-  #   href: '#3-2-evaluation-criteria'
+  #   href: '#32-evaluation-criteria'
   # - text: "3.2.1 Supplier/Vendor Documentation Review (PIV-C.1 to PIV-C.7)" 
-  #   href: '#3-2-1-supplier--Vendor-documentation-review--piv---c-1-to-piv-c-7'
+  #   href: '#321-supplier--Vendor-documentation-review--piv---c-1-to-piv-c-7'
   # - text: "3.2.2 Vendor/ Lab Test Data Report (PIV-C.8 to PIV-C.23)" 
-  #   href: '#3-2-2-vendor--lab-test-data-report--piv-c-8-to-piv-c-23'
+  #   href: '#322-vendor--lab-test-data-report--piv-c-8-to-piv-c-23'
   # - text: "3.2.3 Certification (PIV-C.25 to PIV-C.26)"
-  #   href: '#3-2-3-certification--piv-c-25-to-piv-c-26'
+  #   href: '#323-certification--piv-c-25-to-piv-c-26'
 
 ---
 
@@ -187,166 +187,12 @@ subnav:
             <th scope="row"> -- </th>
             <td>11.0.0</td>
             <td>04/23/2025</td>
-            <td>Converted to Markdown</td>
-            <td> -- </td>
+            <td>Converted PDF to Markdown</td>
+            <td>Public</td>
         </tr>
     </table>
   </div>
 </div>
-<!-- 
-<div class="usa-accordion usa-accordion--bordered">
-  <h4 class="usa-accordion__heading">
-    <button type="button" class="usa-accordion__button" aria-expanded="false" aria-controls="v-a1">
-      Date: {{page.pubdate}} - Version: {{page.version}}
-    </button>
-  </h4>
-  <div id="v-a1" class="usa-accordion__content usa-prose">
-    <table>
-    <thead>
-    <tr>
-        <th scope="col">Status</th>
-        <th scope="col">Version</th>
-        <th scope="col">Date</th>
-        <th scope="col">Comment</th>
-        <th scope="col">Audience</th>
-    </tr>
-    </thead>
-    <tr>
-        <th scope="row">Draft</th>
-        <td>0.0.1</td>
-        <td>03/21/06</td>
-        <td>Document creation.</td>
-        <td>Limited</td>
-    </tr>
-    <tr>
-        <th scope="row">Draft</th>
-        <td>0.1.0</td>
-        <td>03/21/06</td>
-        <td>Submitted to GSA for approval.</td>
-        <td>GSA</td> 
-    </tr>
-    <tr>
-        <th scope="row">Draft
-        <td>0.1.1</td>
-        <td>05/11/06</td>
-        <td>Updated based on GSA feedback</td>
-        <td>Limited</td>
-    </tr>
-    <tr>
-        <th scope="row">Draft</th>
-        <td>0.1.2</td>
-        <td>05/23/06</td>
-        <td>Updated based on GSA feedback.</td>
-        <td>Limited</td>
-    </tr>
-    <tr>
-        <th scope="row">Draft</th>
-        <td>0.2.0</td>
-        <td>05/23/06</td>
-        <td>Submitted to GSA for approval.</td>
-        <td>GSA</td>
-    </tr>
-    <tr>
-        <th scope="row">Approved</th>
-        <td>1.0.0</td>
-        <td>05/24/06</td>
-        <td>Approved by GSA.</td>
-        <td>Public</td>
-    </tr>
-    <tr>
-        <th scope="row">Revision</th>
-        <td>1.0.1</td>
-        <td>06/29/06</td>
-        <td>Updated based on feedback from GSA.</td>
-        <td>Limited</td>
-    </tr>
-    <tr>
-        <th scope="row">Revision</th>
-        <td>1.1.0</td>
-        <td>06/29/06</td>
-        <td>Submitted to GSA for approval</td>
-        <td>GSA</td>
-    </tr>
-    <tr>
-        <th scope="row">Revision</th>
-        <td>1.1.1</td>
-        <td>06/30/06</td>
-        <td>Updated based on feedback from GSA.</td>
-        <td>Limited</td> 
-    </tr>
-    <tr>
-        <th scope="row">Revision</th>
-        <td>1.2.0</td>
-        <td>06/30/06</td>
-        <td>Submitted to GSA for approval</td>
-        <td>GSA</td>
-    </tr>
-    <tr>
-        <th scope="row">Approved</th>
-        <td>2.0.0</td>
-        <td>06/30/06</td>
-        <td>Approved by GSA</td>
-        <td>Public</td>
-    </tr>
-    <tr>
-        <th scope="row">Revision<br/>Revision<br/>Revision<br/>Revision</th>
-        <td>2.0.1<br/>2.1.0<br/>3.2.0<br/>3.3.0</td>
-        <td>09/11/06<br/>9/20/06<br/>10/20/06<br/>11/13/06</td>
-        <td>Revised based on feedback from the Evaluation Program and GSA Submitted to GSA for approval  Updated and Submitted to GSA for approval  Updated and Submitted to GSA for approval</td>
-        <td>Limited<br/>GSA<br/>GSA<br/>GSA</td>
-    </tr>
-    <tr>
-        <th scope="row">Revision<br/>Revision<br/>Revision<br/>Approved</th>
-        <td>3.4.0<br/>3.5.0<br/>3.6.0<br/>4.0.0</td>
-        <td>12/11/06<br/>01/10/07<br/>01/30/07<br/>02/19/07</td>
-        <td>Updated and Submitted to GSA for approval  Updated and Submitted to GSA for approval  Updated and Submitted to GSA for approval  Approved by GSA</td>
-        <td>GSA<br/>GSA<br/>GSA<br/>Public</td>
-    </tr>
-    <tr>
-        <th scope="row">Approved<br/>Approved<br/>Approved</th>
-        <td>5.0.0<br/>6.0.0<br/>7.0.0</td>
-        <td>04/02/07<br/>04/26/07<br/>10/31/07</td>
-        <td>Updated with details for the evaluation fees.  Updated with details for the upgrade process.  Updated to split approval processes from document. Processes can now be found in Suppliers Handbook.</td>
-        <td>Public<br/>Public<br/>Public</td>
-    </tr>
-    <tr>
-        <th scope="row">Approved</th>
-        <td>8.0.0</td>
-        <td>05/28/08</td>
-        <td>Updated card durability requirements.</td>
-        <td>Public</td>
-    </tr>
-    <tr>
-        <th scope="row">Approved</th>
-        <td>9.0.0</td>
-        <td>07/30/08</td>
-        <td>Updated acceptance criteria for card durability requirements(Magnetic Stripe and UV light resistance) and clarified sampling sizes.</td>
-        <td>Public</td>
-    </tr>
-    <tr>
-        <th scope="row">Approved</th>
-        <td>10.0.0</td>
-        <td>07/08/11</td>
-        <td>Updated evaluation procedures to reflect new NIST SP 800-73-3 requirements</td>
-        <td>GSA</td>
-    </tr>
-    <tr>
-        <th scope="row"></th>
-        <td>11.0.0</td>
-        <td>04/24/2023</td>
-        <td>Updated title and version of the document from PIV Card ApprovalProcedure, Version 10.0.0 to PIV Card Body Test Procedures, Version 11.0.0 and updated overall document to align with updated procedures and compliance requirements.</td>
-        <td>Public</td>
-    </tr>
-    <tr>
-        <th scope="row"> -- </th>
-        <td>11.0.0</td>
-        <td>04/23/2025</td>
-        <td>Converted to Markdown</td>
-        <td> -- </td>
-    </tr>
-    </table>
-  </div>
-</div> -->
 
 <br/> 
 
@@ -443,6 +289,21 @@ PIV-C.3 | The PIV Card body shall comply with characteristics as described in IS
 
 This section provides details on the process employed by the Lab for evaluating the Product against
 the requirements indicated above.
+
+
+### 3.2.1 Supplier/ Vendor Documentation Review (PIV-C.1 to PIV-C.7)
+
+The Lab will review the documentation submitted by the Supplier/ Vendor to ascertain the
+following and provide documentation to support their review:
+
+- The card’s physical characteristics comply with the following:
+  - ISO 7810
+  - ISO 10373
+  - ISO 7816
+  - ISO 14443
+  - ICC Interfaces
+
+The card durability and performance tests conform to the ANSI 322 test methods.
 
 ### 3.2.2 Vendor/Lab Test Data Report (PIV-C.8 to PIV-C.23)
 
