@@ -40,7 +40,7 @@ subnav:
 <div class="usa-alert usa-alert--info">
   <div class="usa-alert__body">
     <h4 class="usa-alert__heading">PIV Card APL Evaluation Program Application Form</h4>
-    <p class="usa-alert__text">If you are a Vendor Supplier looking for the required **PIV Card APL Evaluation Program Application Form**, click the button below to access this form.
+    <p class="usa-alert__text">If you are a Vendor Supplier looking for the required <strong>PIV Card APL Evaluation Program Application Form</strong>, use the button below to access this form.
     </p>
     <p>
       <a href="{{site.baseurl}/docs/piv-card-apl-evaluation-program-application-form.docx" target="_blank">
