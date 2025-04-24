@@ -47,6 +47,36 @@ subnav:
   </h4>
   <div id="v-a1" class="usa-accordion__content usa-prose">
     <table>
+      <caption>Phishing-resistant authenticator version table</caption>
+      <thead>
+      <tr>
+        <th scope='col'>Version Number</th>
+        <th scope='col'>Date</th>
+        <th scope='col'>Change Description</th>
+      </tr>
+      </thead>
+      <tr>
+        <th scope='row'>1.1</th>
+        <td>02/22/2024</td>
+        <td>Clarified passkey, added FIDO attestation example, added pilot criteria, and examples in lifecycle. See <a href="https://github.com/GSA/idmanagement.gov/issues/798">Issue 798</a>.</td>
+      </tr>
+      <tr>
+        <th scope='row'>1.0</th>
+        <td>02/15/2024</td>
+        <td>Initial draft.</td>
+      </tr>
+    </table>
+  </div>
+</div>
+<!-- 
+<div class="usa-accordion usa-accordion--bordered">
+  <h4 class="usa-accordion__heading">
+    <button type="button" class="usa-accordion__button" aria-expanded="false" aria-controls="v-a1">
+      Date: {{page.pubdate}} - Version: {{page.version}}
+    </button>
+  </h4>
+  <div id="v-a1" class="usa-accordion__content usa-prose">
+    <table>
     <thead>
     <tr>
         <th scope="col">Status</th>
@@ -191,7 +221,7 @@ subnav:
     </tr>
     </table>
   </div>
-</div>
+</div> -->
 
 <br/> 
 
