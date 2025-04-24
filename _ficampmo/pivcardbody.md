@@ -40,7 +40,7 @@ subnav:
 <div class="usa-alert usa-alert--info">
   <div class="usa-alert__body">
     <h4 class="usa-alert__heading">Vendors and Suppliers</h4>
-    <p class="usa-alert__text">If you are looking for the PIV Card Body form required for submitting each of your products, please use the button below to access this form.</p> Additional required forms can also be found on the <a href="{{site.baseurl}}/fips201ep/#piv-card-body">FIPS 201 Evaluation Program</a> page, under <i>PIV Card Body</i>.
+    <p class="usa-alert__text">If you are looking for the PIV Card Body form required for submitting each of your products, please use the button below to access this form. Additional required forms can also be found on the <a href="{{site.baseurl}}/fips201ep/#piv-card-body">FIPS 201 Evaluation Program</a> page, under <i>PIV Card Body</i>.</p>
     <br/>
       <a href="{{site.baseurl}}/docs/piv-card-apl-evaluation-program-application-form.docx" target="_blank">
         <button class="usa-button" type="button">PIV Card APL Evaluation Program Application Form</button>
