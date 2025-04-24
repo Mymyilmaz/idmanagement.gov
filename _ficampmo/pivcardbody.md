@@ -39,8 +39,8 @@ subnav:
 
 <div class="usa-alert usa-alert--info">
   <div class="usa-alert__body">
-    <h4 class="usa-alert__heading">PIV Card Body Form</h4>
-    <p class="usa-alert__text">If you are a PIV card body <i>Vendor or Supplier</i> looking for the form required for submission of each of your products, please use the button below to access this form.</p>
+    <h4 class="usa-alert__heading">Vendors or Suppliers</h4>
+    <p class="usa-alert__text">If you are looking for the form required for submission of each of your products, please use the button below to access this form.</p>
     <br/>
       <a href="{{site.baseurl}}/docs/piv-card-apl-evaluation-program-application-form.docx" target="_blank">
         <button class="usa-button" type="button">PIV Card APL Evaluation Program Application Form</button>
