@@ -28,16 +28,16 @@ subnav:
     href: '#31-requirements' 
   - text: 3.2 Evaluation Criteria
     href: '#32-evaluation-criteria'
-  - text: "3.2.1 Supplier/Vendor Documentation Review (PIV-C.1 to PIV-C.7)" 
+  - text: 3.2.1 Supplier/Vendor Documentation Review (PIV-C.1 to PIV-C.7) 
     href: '#321-supplier-vendor-documentation-review-piv-c1-to-piv-c7'
-  - text: "3.2.2 Vendor/ Lab Test Data Report (PIV-C.8 to PIV-C.23)" 
+  - text: 3.2.2 Vendor/ Lab Test Data Report (PIV-C.8 to PIV-C.23) 
     href: '#322-vendorlab-test-data-report-piv-c8-to-piv-c23'
-  - text: "3.2.3 Certification (PIV-C.25 to PIV-C.26)"
+  - text: 3.2.3 Certification (PIV-C.25 to PIV-C.26)
     href: '#323-certification-piv-c25-to-piv-c26'
 
 ---
 
-<!-- <div class="usa-alert usa-alert--info">
+<div class="usa-alert usa-alert--info">
   <div class="usa-alert__body">
     <h4 class="usa-alert__heading">PIV Card APL Evaluation Program Application Form</h4>
     <p class="usa-alert__text">If you are a Vendor Supplier looking for the required <strong>PIV Card APL Evaluation Program Application Form</strong>, use the button below to access this form.
@@ -48,7 +48,7 @@ subnav:
       </a>
     </p>
   </div>
-</div> -->
+</div>
 
 <br/>
 
