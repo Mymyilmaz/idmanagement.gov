@@ -12,28 +12,28 @@ version: 11.0.0
 subnav:
 #   - text: 
 #     href: '#'
-  # - text: 1 Introduction 
-  #   href: '#1-introduction' 
-  # - text: 1 Overview
-  #   href: '#11-overview' 
-  # - text: 1.2 Category Description
-  #   href: '#12-category-description'
-  # - text: 1.3 Purpose
-  #   href: '#13-purpose'
-  # - text: 2 Application Package Contents
-  #   href: '#2-application-package-contents'
-  # - text: 3 Evaluation Procedure for PIV Card Body Testing
-  #   href: '#3-evaluation-procedure-for-piv-card-body-testing'
-  # - text: 3.1 Requirements
-  #   href: '#31-requirements' 
-  # - text: 3.2 Evaluation Criteria
-  #   href: '#32-evaluation-criteria'
-  # - text: 3.2.1 Supplier/Vendor Documentation Review (PIV-C.1 to PIV-C.7) 
-  #   href: '#321-supplier-vendor-documentation-review-piv-c1-to-piv-c7'
-  # - text: 3.2.2 Vendor/ Lab Test Data Report (PIV-C.8 to PIV-C.23) 
-  #   href: '#322-vendorlab-test-data-report-piv-c8-to-piv-c23'
-  # - text: 3.2.3 Certification (PIV-C.25 to PIV-C.26)
-  #   href: '#323-certification-piv-c25-to-piv-c26'
+  - text: 1 Introduction 
+    href: '#1-introduction' 
+  - text: 1 Overview
+    href: '#11-overview' 
+  - text: 1.2 Category Description
+    href: '#12-category-description'   
+  - text: 1.3 Purpose
+    href: '#13-purpose'
+  - text: 2 Application Package Contents
+    href: '#2-application-package-contents'
+  - text: 3 Evaluation Procedure for PIV Card Body Testing
+    href: '#3-evaluation-procedure-for-piv-card-body-testing'
+  - text: 3.1 Requirements
+    href: '#31-requirements' 
+  - text: 3.2 Evaluation Criteria
+    href: '#32-evaluation-criteria'
+  - text: 3.2.1 Supplier/Vendor Documentation Review (PIV-C.1 to PIV-C.7) 
+    href: '#321-supplier-vendor-documentation-review-piv-c1-to-piv-c7'
+  - text: 3.2.2 Vendor/ Lab Test Data Report (PIV-C.8 to PIV-C.23) 
+    href: '#322-vendorlab-test-data-report-piv-c8-to-piv-c23'
+  - text: 3.2.3 Certification (PIV-C.25 to PIV-C.26)
+    href: '#323-certification-piv-c25-to-piv-c26'
 
 ---
 
@@ -43,7 +43,7 @@ subnav:
     <p class="usa-alert__text">If you are a Vendor Supplier looking for the required <strong>PIV Card APL Evaluation Program Application Form</strong>, use the button below to access this form.
     </p>
     <p>
-      <a href="{{site.baseurl}/docs/piv-card-apl-evaluation-program-application-form.docx" target="_blank">
+      <a href="{{site.baseurl}}/docs/piv-card-apl-evaluation-program-application-form.docx" target="_blank">
         <button class="usa-button" type="button">PIV Card APL Evaluation Program Application Form</button>
       </a>
     </p>
