@@ -57,20 +57,139 @@ subnav:
         <th scope="col">Audience</th>
       </tr>
       </thead>
-      <tr>
-        <th scope="row">Draft</th>
-        <td>0.0.1</td>
-        <td>03/21/06</td>
-        <td>Document creation.</td>
-        <td>Limited</td>
-      </tr>
-      <tr>
-        <th scope="row">Draft</th>
-        <td>0.1.0</td>
-        <td>03/21/06</td>
-        <td>Submitted to GSA for approval.</td>
-        <td>GSA</td> 
-      </tr>
+        <tr>
+            <th scope="row">Draft</th>
+            <td>0.0.1</td>
+            <td>03/21/06</td>
+            <td>Document creation.</td>
+            <td>Limited</td>
+        </tr>
+        <tr>
+            <th scope="row">Draft</th>
+            <td>0.1.0</td>
+            <td>03/21/06</td>
+            <td>Submitted to GSA for approval.</td>
+            <td>GSA</td> 
+        </tr>
+        <tr>
+            <th scope="row">Draft
+            <td>0.1.1</td>
+            <td>05/11/06</td>
+            <td>Updated based on GSA feedback</td>
+            <td>Limited</td>
+        </tr>
+        <tr>
+            <th scope="row">Draft</th>
+            <td>0.1.2</td>
+            <td>05/23/06</td>
+            <td>Updated based on GSA feedback.</td>
+            <td>Limited</td>
+        </tr>
+        <tr>
+            <th scope="row">Draft</th>
+            <td>0.2.0</td>
+            <td>05/23/06</td>
+            <td>Submitted to GSA for approval.</td>
+            <td>GSA</td>
+        </tr>
+        <tr>
+            <th scope="row">Approved</th>
+            <td>1.0.0</td>
+            <td>05/24/06</td>
+            <td>Approved by GSA.</td>
+            <td>Public</td>
+        </tr>
+        <tr>
+            <th scope="row">Revision</th>
+            <td>1.0.1</td>
+            <td>06/29/06</td>
+            <td>Updated based on feedback from GSA.</td>
+            <td>Limited</td>
+        </tr>
+        <tr>
+            <th scope="row">Revision</th>
+            <td>1.1.0</td>
+            <td>06/29/06</td>
+            <td>Submitted to GSA for approval</td>
+            <td>GSA</td>
+        </tr>
+        <tr>
+            <th scope="row">Revision</th>
+            <td>1.1.1</td>
+            <td>06/30/06</td>
+            <td>Updated based on feedback from GSA.</td>
+            <td>Limited</td> 
+        </tr>
+        <tr>
+            <th scope="row">Revision</th>
+            <td>1.2.0</td>
+            <td>06/30/06</td>
+            <td>Submitted to GSA for approval</td>
+            <td>GSA</td>
+        </tr>
+        <tr>
+            <th scope="row">Approved</th>
+            <td>2.0.0</td>
+            <td>06/30/06</td>
+            <td>Approved by GSA</td>
+            <td>Public</td>
+        </tr>
+        <tr>
+            <th scope="row">Revision<br/>Revision<br/>Revision<br/>Revision</th>
+            <td>2.0.1<br/>2.1.0<br/>3.2.0<br/>3.3.0</td>
+            <td>09/11/06<br/>9/20/06<br/>10/20/06<br/>11/13/06</td>
+            <td>Revised based on feedback from the Evaluation Program and GSA Submitted to GSA for approval  Updated and Submitted to GSA for approval  Updated and Submitted to GSA for approval</td>
+            <td>Limited<br/>GSA<br/>GSA<br/>GSA</td>
+        </tr>
+        <tr>
+            <th scope="row">Revision<br/>Revision<br/>Revision<br/>Approved</th>
+            <td>3.4.0<br/>3.5.0<br/>3.6.0<br/>4.0.0</td>
+            <td>12/11/06<br/>01/10/07<br/>01/30/07<br/>02/19/07</td>
+            <td>Updated and Submitted to GSA for approval  Updated and Submitted to GSA for approval  Updated and Submitted to GSA for approval  Approved by GSA</td>
+            <td>GSA<br/>GSA<br/>GSA<br/>Public</td>
+        </tr>
+        <tr>
+            <th scope="row">Approved<br/>Approved<br/>Approved</th>
+            <td>5.0.0<br/>6.0.0<br/>7.0.0</td>
+            <td>04/02/07<br/>04/26/07<br/>10/31/07</td>
+            <td>Updated with details for the evaluation fees.  Updated with details for the upgrade process.  Updated to split approval processes from document. Processes can now be found in Suppliers Handbook.</td>
+            <td>Public<br/>Public<br/>Public</td>
+        </tr>
+        <tr>
+            <th scope="row">Approved</th>
+            <td>8.0.0</td>
+            <td>05/28/08</td>
+            <td>Updated card durability requirements.</td>
+            <td>Public</td>
+        </tr>
+        <tr>
+            <th scope="row">Approved</th>
+            <td>9.0.0</td>
+            <td>07/30/08</td>
+            <td>Updated acceptance criteria for card durability requirements(Magnetic Stripe and UV light resistance) and clarified sampling sizes.</td>
+            <td>Public</td>
+        </tr>
+        <tr>
+            <th scope="row">Approved</th>
+            <td>10.0.0</td>
+            <td>07/08/11</td>
+            <td>Updated evaluation procedures to reflect new NIST SP 800-73-3 requirements</td>
+            <td>GSA</td>
+        </tr>
+        <tr>
+            <th scope="row"></th>
+            <td>11.0.0</td>
+            <td>04/24/2023</td>
+            <td>Updated title and version of the document from PIV Card ApprovalProcedure, Version 10.0.0 to PIV Card Body Test Procedures, Version 11.0.0 and updated overall document to align with updated procedures and compliance requirements.</td>
+            <td>Public</td>
+        </tr>
+        <tr>
+            <th scope="row"> -- </th>
+            <td>11.0.0</td>
+            <td>04/23/2025</td>
+            <td>Converted to Markdown</td>
+            <td> -- </td>
+        </tr>
     </table>
   </div>
 </div>
@@ -266,11 +385,10 @@ Contents for this category include the following:
 - The Product itself.
   - (a) The vendor should deliver the product to the Lab (address found at [https://www.idmanagement.gov/vendors/]({{site.baseurl}}/vendors/)) using a secure delivery method requiring receipt acknowledgement (e.g., FedEx, UPS, hand delivery)
   - (b) The Lab should deliver the Product to the FIPS 201 EP at 1893 Metro Center Dr., Ste 228, Reston, VA 20190 using secure delivery methods requiring receipt acknowledgement (e.g., FedEx, UPS, hand delivery).
-- Completed and signed “PIV Card APL Evaluation Program Application Form” (link:[https://www.idmanagement.gov/fips201/]({{site.baseurl}}/fips201/){:target="_blank"}{:rel="noopener noreferrer"}, under PIV Card Body Application Package Requirements)
+- Completed and signed “PIV Card APL Evaluation Program Application Form” (link: [https://www.idmanagement.gov/fips201/]({{site.baseurl}}/fips201/){:target="_blank"}{:rel="noopener noreferrer"}, under PIV Card Body Application Package Requirements)
 - Completed and signed “FIPS 201 Evaluation Program Lab Services Agreement_v3.0.0” (link: [https://www.idmanagement.gov/fips201/]({{site.baseurl}}/fips201/){:target="_blank"}{:rel="noopener noreferrer"}, under PIV Card Body Application Package Requirements)
 - Completed and signed “FIPS 201 Evaluation Program Attestations to Federal
-Acquisition Regulations related to the Trade Agreement Act” (link:
-[https://www.idmanagement.gov/fips201/]({{site.baseurl}}/fips201/){:target="_blank"}{:rel="noopener noreferrer"}, under PIV Card Body Application Package
+Acquisition Regulations related to the Trade Agreement Act” (link: [https://www.idmanagement.gov/fips201/]({{site.baseurl}}/fips201/){:target="_blank"}{:rel="noopener noreferrer"}, under PIV Card Body Application Package
 Requirements)
 - Completed and signed “FIPS 201 Evaluation Program Attestation Form for PIV Card
 Body Approval_v1.0” (link: [https://www.idmanagement.gov/fips201/]({{site.baseurl}}/fips201/){:target="_blank"}{:rel="noopener noreferrer"}, under PIV Card
