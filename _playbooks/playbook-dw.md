@@ -160,7 +160,7 @@ The four-step process depicted in Figure 1 is a structured, iterative approach w
 
 **Figure 1: A Four-Step Process for Digital Worker Identity Management**
 
-**![][image1]**
+![A Four-Step Process for Digital Worker Identity Management]({{site.baseurl}}/assets/playbooks/dwi/dwi-figure-1.jpeg)
 
 [Step 1\. Determine the Impact](#step-1-determine-the-impact): Consider the potential impacts, if any, when deciding whether to establish a digital worker identity. Much like a human worker, a digital worker should undergo a vetting process before being granted network or application access. Not all digital workers may require a unique identity. Work with the agency’s Identity, Credential, and Access Management (ICAM) governance structure to:
 
@@ -185,7 +185,7 @@ This playbook should aid agencies in integrating digital worker identity managem
 
 **Figure 2: Step 1 \- Determine the Impact**
 
-![][image2]
+![Figure 2: Step 1 - Determine the Impact]({{site.baseurl}}/assets/playbooks/dwi/dwi-figure-2.jpeg)
 
 Ensure digital worker identity management has proper governance, score the function of the digital worker across six categories, and then use the risk score to arrive at an adverse impact level. For this step, use the Digital Worker Impact Evaluation Matrix presented in Table 1\.
 
@@ -267,7 +267,7 @@ The four adverse impact levels represent a different scale of harm a digital wor
 
 **Figure 3: Step 2 \- Create an Identity**
 
-![][image3]
+![Figure 3: Step 2 - Create an Identity]({{site.baseurl}}/assets/playbooks/dwi/dwi-figure-3.jpeg)
 
 Once your agency has determined the digital worker’s level of potential adverse impact, a digital worker identity is created, if needed. The identity process includes sponsorship and validation activities based on the adverse impact level from Step 1\.
 
@@ -341,7 +341,7 @@ Validation actions record the activities to ensure the digital worker continues 
 
 **Figure 4: Step 3 \- Provision an Identity**
 
-![][image4]
+![Figure 4: Step 3 - Provision an Identity]({{site.baseurl}}/assets/playbooks/dwi/dwi-figure-4.jpeg)
 
 Capture the appropriate digital worker data elements and store these attributes in the agency Identity Management System (IDMS) or other systems.
 
@@ -394,7 +394,7 @@ Agencies may store and track identity governance data elements in an existing sy
 
 **Figure 5: Step 4 \- Maintain and Deprovision Identity**
 
-**![][image5]**
+![Figure 5: Step 4 \- Maintain and Deprovision Identity]({{site.baseurl}}/assets/playbooks/dwi/dwi-figure-5.jpeg)
 
 ### 4.1 Continuous Behavioral Monitoring {#4.1-continuous-behavioral-monitoring}
 
