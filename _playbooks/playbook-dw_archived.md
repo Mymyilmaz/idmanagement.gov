@@ -1,34 +1,34 @@
 ---
-layout: page
-collection: playbooks
-title: Digital Worker Identity Playbook
-pubdate: 2022-12
-date: December 29, 2022
-type: Markdown
-#permalink: /playbooks/dw/
-description: The Digital Worker Identity Playbook is a practical guide for managing digital worker identities.
-pdf: "docs/playbook-digital-worker.pdf"
-sidenav: playbooks
-sticky_sidenav: true
+# layout: page
+# collection: playbooks
+# title: Digital Worker Identity Playbook
+# pubdate: 2022-12
+# date: December 29, 2022
+# type: Markdown
+# # permalink: /playbooks/dw/
+# description: The Digital Worker Identity Playbook is a practical guide for managing digital worker identities.
+# pdf: "docs/playbook-digital-worker.pdf"
+# sidenav: playbooks
+# sticky_sidenav: true
 
-version: 1.2
-pubdate: December 29, 2022
+# version: 1.2
+# pubdate: December 29, 2022
 
-subnav:
-  - text: Executive Summary
-    href: '#executive-summary'
-  - text: A Three-Step Process for Digital Worker Identity Management
-    href: '#a-three-step-process-for-digital-worker-identity-management'
-  - text: Step 1. Determine the Impact
-    href: '#step-1-determine-the-impact'
-  - text: Step 2. Create an Identity
-    href: '#step-2-create-an-identity'
-  - text: Step 3. Provision an Identity
-    href: '#step-3-provision-an-identity'
-  - text: Conclusion
-    href: '#conclusion'
-  - text: References
-    href: '#appendix-a-digital-worker-impact-evaluation-factors'
+# subnav:
+#   - text: Executive Summary
+#     href: '#executive-summary'
+#   - text: A Three-Step Process for Digital Worker Identity Management
+#     href: '#a-three-step-process-for-digital-worker-identity-management'
+#   - text: Step 1. Determine the Impact
+#     href: '#step-1-determine-the-impact'
+#   - text: Step 2. Create an Identity
+#     href: '#step-2-create-an-identity'
+#   - text: Step 3. Provision an Identity
+#     href: '#step-3-provision-an-identity'
+#   - text: Conclusion
+#     href: '#conclusion'
+#   - text: References
+#     href: '#appendix-a-digital-worker-impact-evaluation-factors'
     
 ---
 
