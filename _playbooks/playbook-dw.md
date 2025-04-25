@@ -186,7 +186,7 @@ This playbook should aid agencies in integrating digital worker identity managem
 
 ![Figure 2: Step 1 - Determine the Impact]({{site.baseurl}}/assets/playbooks/dwi/dwi-figure-2.jpeg)
 
-Ensure digital worker identity management has proper governance, score the function of the digital worker across six categories, and then use the risk score to arrive at an adverse impact level. For this step, use the Digital Worker Impact Evaluation Matrix presented in Table 1\.
+Ensure digital worker identity management has proper governance, score the function of the digital worker across six categories, and then use the risk score to arrive at an adverse impact level. For this step, use the Digital Worker Impact Evaluation Matrix presented in Table 1.
 
 ### 1.1 Ensure Proper Oversight
 
@@ -207,28 +207,28 @@ Each factor has an associated score, and the sum of these six-factor scores is t
 
 | Score each factor based on the most applicable scenario |   |
 | ----- | :---: |
-| Factor 1 \- Is the digital worker attended or unattended? | Score |
+| Factor 1 - Is the digital worker attended or unattended? | Score |
 | ● Attended | 0 |
 | ● Unattended | 10 |
-| Factor 2 \- What is the highest level of data access by the digital worker? |   |
+| Factor 2 - What is the highest level of data access by the digital worker? |   |
 | ● Data available to the public (either without a user account or with unvetted user account) | 0 |
 | ● Agency operational data, controlled unclassified information (CUI), or data on individuals in low volumes. Does not contain personally identifiable information (PII) or personal health information (PHI). | 5 |
 | ● PII and/or PHI | 55 |
 | ● Agency critical operational data or data that could impact life, health, or safety of individuals/systems relied on for health and safety; or very high volumes of agency operational data | 90 |
-| Factor 3 \- Does the digital worker have access to internal and/or external networks? |   |
+| Factor 3 - Does the digital worker have access to internal and/or external networks? |   |
 | ● No internal intranet or external Internet connection | 0 |
 | ● Either internal intranet access only OR external Internet access (not both) | 5 |
 | ● Internal and external network access (i.e., Internet and intranet) | 10 |
-| Factor 4 \- What is the impact of the digital worker output? |   |
+| Factor 4 - What is the impact of the digital worker output? |   |
 | ● Output impacts general internal business operations, but not critical processes or decisions | 5 |
 | ● Output impacts outside organizations in general business operations or public reporting (e.g., public-facing websites or chatbots), but not critical processes or decisions | 25 |
 | ● Output impacts mission-critical organization operations of the agency or other organizations, health or safety of individuals, national economic stability, national security, critical infrastructure, or similarly consequential operations | 90 |
-| Factor 5 \- What type of system account privileges does the digital worker require? |   |
+| Factor 5 - What type of system account privileges does the digital worker require? |   |
 | ● No system accounts | 0 |
 | ● Standard system account(s) (roles limited by the business function) | 10 |
 | ● System admin account (privileged access) | 35 |
 | ● Multiple system admin accounts (multiple privileged access roles) | 40 |
-| Factor 6 \- Does the digital worker act on its own insights? |   |
+| Factor 6 - Does the digital worker act on its own insights? |   |
 | ● Digital worker develops insights, but does not act on these insights | 0 |
 | ● Digital worker develops insights and acts on the insights after human review | 5 |
 | ● Digital worker develops insights and acts on the insights without prior human review or approval | 10 |
@@ -350,8 +350,8 @@ Capture the appropriate digital worker data elements and store these attributes 
 | DF-1 | Digital Worker *(new field)* | Boolean *(e.g., Checkbox, True/False, Yes/No, etc.)* | *Denote if this is (Yes/True) or is not (No/False) a digital worker.* |
 | DF-2 | Agency Unique User ID *(existing field)* | Text *Recommend using “DW” or other uniqueness element followed by the identifier based on agency naming conventions.* | *Use a distinguishing and standard naming convention for digital workers. This is not a card holder unique identifier (CHUID) or related to PIV.* |
 | DF-3 | First Name and Last Name *(existing fields)* | Text *First name: group function Last name: “DW” followed by a numerical value* | *Use agency naming convention if IDMS requires first and last name. The first name field should be completed with the group function (e.g., Technology Division, CFO) and the last name field should be completed with “DW” followed by a numerical value corresponding with the sequential order in which the digital worker was built within the associated group function.* |
-| DF-4 | Digital Worker Sponsor Name *(new field\[s\])* | Text *Recommend the individual’s full name (generally first and last name)* | *Specify the sponsor of the digital worker.* |
-| DF-5 | Digital Worker Custodian Name *(new field\[s\])* | Text *Recommend the individual’s full name (generally first and last name)* | *Specify the custodian of the digital worker.* |
+| DF-4 | Digital Worker Sponsor Name *(new field[s])* | Text *Recommend the individual’s full name (generally first and last name)* | *Specify the sponsor of the digital worker.* |
+| DF-5 | Digital Worker Custodian Name *(new field[s])* | Text *Recommend the individual’s full name (generally first and last name)* | *Specify the custodian of the digital worker.* |
 | DF-6 | Digital Worker Description *(optional new field)* | Text (250) *Recommend including a brief description of the digital worker (e.g., the type of AI used, the purpose, and actions of the digital worker)* | *Provide a short description of what the digital worker does and the type of digital technology used.* |
 | DF-7 | Responsible Organization *(optional new field)* | Text *Include the name of the organization according to the official agency organizational chart* | *Specify the name of the responsible agency organization or group.* |
 
@@ -654,7 +654,7 @@ This factor assesses the extent to which a human is involved in approving the de
 | Criteria | Details | Score |
 | :---: | ----- | :---: |
 | 6a) Digital worker develops insights but does not act on its insights | The digital worker develops insights but does not take separate action based on the insights (e.g., a digital worker helps diagnose a patient based on medical history data fed to a machine learning algorithm. The digital worker only provides a diagnosis recommendation and does not take any additional actions). | 0 |
-| 6b) Digital worker develops insights and acts on the insights after human review | The digital worker first helps to develop insights. A human then reviews the insights and either edits or approves them (e.g., a digital worker helps diagnose a patient based on medical history data. Then the tool uses the data to develop a diagnosis and a recommended treatment \[insight\]. The doctor will review the diagnosis and the recommended treatment. If the doctor disagrees with the insight, the doctor will amend it; if the doctor agrees, the doctor will approve it. Then, the digital worker will administer the treatment to the patient). | 5 |
+| 6b) Digital worker develops insights and acts on the insights after human review | The digital worker first helps to develop insights. A human then reviews the insights and either edits or approves them (e.g., a digital worker helps diagnose a patient based on medical history data. Then the tool uses the data to develop a diagnosis and a recommended treatment [insight]. The doctor will review the diagnosis and the recommended treatment. If the doctor disagrees with the insight, the doctor will amend it; if the doctor agrees, the doctor will approve it. Then, the digital worker will administer the treatment to the patient). | 5 |
 | 6c) Digital worker develops insight and acts on the insights without human review or approval before the action is taken | The tool develops insights and then uses these insights to determine a course of action. The tool proceeds with this action without human review of the initial insight (e.g., a digital worker recommends a diagnosis and treatment based on data from the patient’s medical history. The digital worker acts on this recommendation by administering treatment to the patient without a doctor’s intermediary review). | 10 |
 
 ## Appendix B. Critical Case Study
@@ -672,17 +672,17 @@ Table 14 illustrates computation of the impact score for this digital worker usi
 
 | Digital Worker Impact Evaluation Matrix |   |
 | ----- | :---: |
-| Factor 1 \- Is the digital worker attended or unattended? | Score |
+| Factor 1 - Is the digital worker attended or unattended? | Score |
 | ● Unattended | 10 |
-| Factor 2 \- What is the highest level of sensitive data access? |   |
+| Factor 2 - What is the highest level of sensitive data access? |   |
 | ● PII and/or PHI | 55 |
-| Factor 3 \- Does the digital worker have network access? |   |
+| Factor 3 - Does the digital worker have network access? |   |
 | ● Either internal intranet access only OR external Internet access (not both) | 5 |
-| Factor 4 \- What is the impact of the digital worker output? |   |
+| Factor 4 - What is the impact of the digital worker output? |   |
 | ● Output impacts mission-critical organizational operations of the agency or other organizations, health or safety of individuals, national economic stability, national security, critical infrastructure, or similarly consequential operations | 90 |
-| Factor 5 \- What system account privileges are required to perform the task? |   |
+| Factor 5 - What system account privileges are required to perform the task? |   |
 | ● Standard system account(s) (roles limited by the business function) | 10 |
-| Factor 6 \- Does the digital worker act on its own insights? |   |
+| Factor 6 - Does the digital worker act on its own insights? |   |
 | ● Digital worker develops insights, but does not act on them | 0 |
 | Total Score | 170 |
 | Digital Worker Adverse Impact Level | Critical |
@@ -716,8 +716,8 @@ After the sponsorship and validation activities are complete and documented, the
 | DF-1 | Digital Worker *(new field)* | True |
 | DF-2 | Agency Unique User ID *(existing field)* | Diagnosis.DW01@agency.gov |
 | DF-3 | First Name and Last Name *(existing fields)* | Diagnosis DW01 |
-| DF-4 | Digital Worker Sponsor Name *(new field\[s\])* | Jane ISSM |
-| DF-5 | Digital Worker Custodian Name *(new field\[s\])* | Stacy Contractor |
+| DF-4 | Digital Worker Sponsor Name *(new field[s])* | Jane ISSM |
+| DF-5 | Digital Worker Custodian Name *(new field[s])* | Stacy Contractor |
 | DF-6 | Digital Worker Description *(optional new field)* | N/A |
 | DF-7 | Responsible Organization *(optional new field)* | Patient Health Division |
 |   | Additional Identity Governance Data Fields |   |
@@ -750,17 +750,17 @@ Table 17 presents the Impact Evaluation Matrix for this digital worker.
 
 | Digital Worker Impact Evaluation Matrix |   |
 | ----- | ----- |
-| Factor 1 \- Is the digital worker attended or unattended? | Score |
+| Factor 1 - Is the digital worker attended or unattended? | Score |
 | ● Unattended | 10 |
-| Factor 2 \- What is the highest level of sensitive data access? |   |
+| Factor 2 - What is the highest level of sensitive data access? |   |
 | ● Data available to the public (either without a user account or with unvetted user account) | 0 |
-| Factor 3 \- Does the digital worker have network access? |   |
+| Factor 3 - Does the digital worker have network access? |   |
 | ● Internal and external network access (i.e., Internet and intranet) | 10 |
-| Factor 4 \- What is the impact of the digital worker output? |   |
+| Factor 4 - What is the impact of the digital worker output? |   |
 | ● Output impacts general internal business operations, but not for critical processes or decisions | 5 |
-| Factor 5 \- What system account privileges are required to perform the task? |   |
+| Factor 5 - What system account privileges are required to perform the task? |   |
 | ● Standard system account(s) (roles limited by the business function) | 10 |
-| Factor 6 \- Does the digital worker act on its own insights? |   |
+| Factor 6 - Does the digital worker act on its own insights? |   |
 | ● Digital worker develops insights, but does not act on them | 0 |
 | Total Score | 35 |
 | Digital Worker Adverse Impact Level | Low |
