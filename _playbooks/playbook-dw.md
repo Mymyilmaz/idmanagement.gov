@@ -154,7 +154,7 @@ The list below includes the most common types of digital workers.
 
 The General Services Administration Office of Government-wide Policy developed this playbook with input from federal IT practitioners. This document should not be interpreted as official policy or mandated action, and it does not provide authoritative definitions for IT terms. Instead, this playbook supplements existing federal IT policies and builds on OMB Memorandum M-19-17, Enabling Mission Delivery Through Improved Identity, Credential, and Access Management and existing federal identity guidance and playbooks. Subject areas with intersecting scope, such as the ethical use and development of digital workers, are considered only to the extent that they relate to digital identity management and credentialing for digital workers. Specific security control implementations are outside the scope of this playbook, as are any elements of data protection requirements and the suitability process for a digital worker sponsor and custodian.
 
-## A Four-Step Process for Digital Worker Identity Management {#a-four-step-process-for-digital-worker-identity-management}
+## A Four-Step Process for Digital Worker Identity Management 
 
 The four-step process depicted in Figure 1 is a structured, iterative approach with discrete actions to create a digital worker identity management process. CIO and CISO offices, the intended audience of this playbook, should use its contents to write, update, or enhance existing enterprise identity management policies. Agencies are encouraged to tailor these steps to meet their organizational structures, unique requirements, and mission needs.
 
@@ -181,7 +181,7 @@ The Digital Worker Impact Evaluation Matrix (Table 1\) is a scoring tool. It use
 
 This playbook should aid agencies in integrating digital worker identity management processes into existing enterprise identity management policies.
 
-## Step 1. Determine the Impact {#step-1.-determine-the-impact}
+## Step 1. Determine the Impact
 
 **Figure 2: Step 1 - Determine the Impact**
 
@@ -189,7 +189,7 @@ This playbook should aid agencies in integrating digital worker identity managem
 
 Ensure digital worker identity management has proper governance, score the function of the digital worker across six categories, and then use the risk score to arrive at an adverse impact level. For this step, use the Digital Worker Impact Evaluation Matrix presented in Table 1\.
 
-### 1.1 Ensure Proper Oversight {#1.1-ensure-proper-oversight}
+### 1.1 Ensure Proper Oversight
 
 The ICAM governance structure ensures enterprise identity management policies are updated to include digital worker management and use. For ICAM oversight and program management examples, see the [ICAM Program Management Playbook]({{site.baseurl}}/pm/){:target="_blank"}{:rel="noopener noreferrer"}.
 
@@ -198,7 +198,7 @@ The ICAM governance structure ensures enterprise identity management policies ar
 | GovernanceCollaborationExample | Before creating and provisioning a digital worker, the agency ICAMgovernance structure can collaborate with Information System SecurityOfficers on digital worker identity management. Collaboration mayinclude:● Digital worker security and non-functional requirements verification● Security and privacy assessments● Executable, vulnerability and other scans● Digital worker logic and decision-making design documents |
 | :---- | :---- |
 
-### 1.2 Score Risk Impact {#1.2-score-risk-impact}
+### 1.2 Score Risk Impact
 
 Risk impact requires calculation of a risk score across six factors, based on worker autonomy, content handled, type of access, and privileges required.
 
@@ -234,7 +234,7 @@ Each factor has an associated score, and the sum of these six-factor scores is t
 | ● Digital worker develops insights and acts on the insights after human review | 5 |
 | ● Digital worker develops insights and acts on the insights without prior human review or approval | 10 |
 
-### 1.3 Determine Adverse Impact Level {#1.3-determine-adverse-impact-level}
+### 1.3 Determine Adverse Impact Level
 
 The adverse impact level is the potential magnitude of harm a digital worker can cause to the organization, assets, individuals, other organizations, and U.S. economic and national security interests. Specific impacts include:
 
@@ -263,7 +263,7 @@ The four adverse impact levels represent a different scale of harm a digital wor
 | 56-90 | High | Effects of an error or accident are wide-ranging and could result in serious or long-term impact on organizational missions/business functions, organizational assets, or the nation. Effects include significant financial losses for the agency; substantially reduced capacity to conduct mission-critical business; loss of PII, Business Identifiable Information, or PHI; and/or damage to agency image or reputation. |
 | 91+ | Critical | Effects of an error or accident are extensive and will have severe or catastrophic impact on organizational missions/business functions, assets, or the nation. Effects include major financial losses for the agency or other organizations, loss of government continuity of operations or ability to conduct mission-critical business, life-threatening injury or loss of life, and/or harm to national security. |
 
-## Step 2. Create an Identity {#step-2.-create-an-identity}
+## Step 2. Create an Identity
 
 **Figure 3: Step 2 - Create an Identity**
 
@@ -271,7 +271,7 @@ The four adverse impact levels represent a different scale of harm a digital wor
 
 Once your agency has determined the digital worker’s level of potential adverse impact, a digital worker identity is created, if needed. The identity process includes sponsorship and validation activities based on the adverse impact level from Step 1\.
 
-### 2.1 Assign a Sponsor and Custodian {#2.1-assign-a-sponsor-and-custodian}
+### 2.1 Assign a Sponsor and Custodian
 
 The sponsorship process allows agencies to assign specific roles and responsibilities for oversight of digital workers. The agency’s ICAM governance structure ensures the sponsorship process actions are completed; however, it is up to the individual agencies to define how to assign a sponsor and custodian.
 
@@ -302,7 +302,7 @@ Agencies may adjust recertification frequency, but should meet or exceed the rec
 | SP-5 | Have the sponsor notify the custodian of their responsibility. | N/A | ✓ | ✓ | ✓ |
 | SP-6 | Confirm the custodian acknowledges responsibility for the digital worker on an initial and routine basis. | N/A | ✓Recertify custodian annually | ✓Recertify custodian annually | ✓Recertify custodian every six months |
 
-### 2.2 Validate Worker Access {#2.2-validate-worker-access}
+### 2.2 Validate Worker Access
 
 Validation actions record the activities to ensure the digital worker continues to behave as expected throughout the lifecycle. The agency’s ICAM governance structure should ensure completion and tracking of validation process actions, but individual agencies must define a process that fits their mission needs and requirements. The following factors provide a starting point for validation. Agencies may include other mission-specific review factors as needed.
 
@@ -337,7 +337,7 @@ Validation actions record the activities to ensure the digital worker continues 
 | Key Point VD-3, VD-4, and VD-5 validate that the code, ethics, and bias reviews have been conducted. It is up to individual agencies to ensure they follow a standard for conducting such reviews. Agency representatives, such as the sponsor or custodian, should collaborate within a community of practice to capture best practices on how to perform the various reviews in Step 2.2. |
 | :---- |
 
-## Step 3. Provision an Identity {#step-3.-provision-an-identity}
+## Step 3. Provision an Identity
 
 **Figure 4: Step 3 - Provision an Identity**
 
@@ -345,7 +345,7 @@ Validation actions record the activities to ensure the digital worker continues 
 
 Capture the appropriate digital worker data elements and store these attributes in the agency Identity Management System (IDMS) or other systems.
 
-### 3.1 Capture and Store Identity Management Data Elements {#3.1-capture-and-store-identity-management-data-elements}
+### 3.1 Capture and Store Identity Management Data Elements
 
 *Identity management system data elements* are identification and sponsorship elements. They include information to uniquely identify a digital worker or contact information when in need of more details. Agencies usually store identity management data elements in an IDMS or directory. Agencies should require data element storage for any digital worker with a unique identity regardless of adverse impact level. Table 6 provides guidance and recommended data fields for capturing the necessary digital worker identity elements.
 
@@ -361,7 +361,7 @@ Capture the appropriate digital worker data elements and store these attributes 
 | DF-6 | Digital Worker Description*(optional new field)* | Text (250)*Recommend including a brief description of the digital worker (e.g., the type of AI used, the purpose, and actions of the digital worker)* | *Provide a short description of what the digital worker does and the type of digital technology used.* |
 | DF-7 | Responsible Organization*(optional new field)* | Text*Include the name of the organization according to the official agency organizational chart* | *Specify the name of the responsible agency organization or group.* |
 
-### 3.2 Capture and Store Identity Governance Data Elements {#3.2-capture-and-store-identity-governance-data-elements}
+### 3.2 Capture and Store Identity Governance Data Elements
 
 *Identity governance data elements* validate and recertify access. They include information used to report on digital worker access and include information on:
 
@@ -390,13 +390,13 @@ Agencies may store and track identity governance data elements in an existing sy
 
 [https://playbooks.idmanagement.gov/playbooks/dw/\#conclusion](https://playbooks.idmanagement.gov/playbooks/dw/#conclusion)
 
-## Step 4. Maintain and Deprovision Identity {#step-4.-maintain-and-deprovision-identity}
+## Step 4. Maintain and Deprovision Identity
 
 **Figure 5: Step 4 - Maintain and Deprovision Identity**
 
 ![Figure 5: Step 4 - Maintain and Deprovision Identity]({{site.baseurl}}/assets/playbooks/dwi/dwi-figure-5.jpeg)
 
-### 4.1 Continuous Behavioral Monitoring {#4.1-continuous-behavioral-monitoring}
+### 4.1 Continuous Behavioral Monitoring
 
 Continuous behavioral monitoring ensures that digital workers operate within expected parameters and do not deviate from their intended functions, potentially causing adverse impacts. It involves regular assessment and review of activities to detect any anomalies or unauthorized behaviors. Below are the necessary actions and key points for continuous monitoring:
 
@@ -442,7 +442,7 @@ Continuous behavioral monitoring ensures that digital workers operate within exp
 | CM-8 | Recertify custodian acknowledgment |  |  |  |  |
 | CM-9 | Integrate continuous monitoring into existing agency IT operations |  |  |  |  |
 
-### 4.2 Deprovision Digital Worker {#4.2-deprovision-digital-worker}
+### 4.2 Deprovision Digital Worker
 
 When a digital worker is no longer required or is being replaced, it should be deprovisioned to prevent unauthorized access and eliminate any potential security risks. Below are the steps for safe and effective deprovisioning:
 
@@ -487,9 +487,9 @@ When a digital worker is no longer required or is being replaced, it should be d
 | DV-7 | Notify relevant stakeholders of deprovisioning |  |  |  |  |
 | DV-8 | Document deprovisioning process and maintain logs for auditing and reporting |  |  |  |  |
 
-## **Digital Worker Identity Management Checklist** {#digital-worker-identity-management-checklist}
+## Digital Worker Identity Management Checklist
 
-### Step 1: Determine the Impact {#step-1:-determine-the-impact}
+### Step 1: Determine the Impact
 
 ☐ *1.1* **Ensure Proper Oversight**  
   Update enterprise identity management policies to include digital worker management.  
@@ -517,7 +517,7 @@ When a digital worker is no longer required or is being replaced, it should be d
     ☐ Critical (91+)  
 *(Reference - Table 2. Potential Adverse Impact Levels)*
 
-### Step 2: Create an Identity {#step-2:-create-an-identity}
+### Step 2: Create an Identity
 
 ☐*2.1* **Assign a Sponsor and Custodian**  
   ☐ Assign a sponsor responsible for digital worker compliance.  
@@ -533,7 +533,7 @@ When a digital worker is no longer required or is being replaced, it should be d
   ☐ Recertify acknowledgement of responsibilities for sponsor and custodian.  
 *(Reference - Table 5. Validation (VD) Process)*
 
-### Step 3: Provision an Identity {#step-3:-provision-an-identity}
+### Step 3: Provision an Identity
 
 ☐*3.1* **Capture and Store Identity Management Data Elements**  
   Store identification and sponsorship elements in the Identity Management System (IDMS):  
@@ -561,7 +561,7 @@ When a digital worker is no longer required or is being replaced, it should be d
     ☐ Next Bias Review Date  
 *(Reference - Table 7. Identity Governance Data Elements)*
 
-### Step 4: Maintain and Deprovision Identity {#step-4:-maintain-and-deprovision-identity}
+### Step 4: Maintain and Deprovision Identity
 
 ☐*4.1* **Continuous Behavioral Monitoring**  
   ☐ Establish continuous monitoring procedures.  
@@ -584,7 +584,7 @@ When a digital worker is no longer required or is being replaced, it should be d
   ☐ Document the deprovisioning process and maintain logs.  
 *(Reference - Table 9: Deprovisioning Process)*
 
-## Conclusion {#conclusion}
+## Conclusion
 
 Digital worker identity management requires new government-wide policies and guidance tailored to digital workers’ unique functional and security considerations. Adoption and implementation of this playbook provide agencies distinct ways to manage and maintain their digital workforce.
 
@@ -598,7 +598,7 @@ Digital worker identity management requires new government-wide policies and gui
 
 This playbook is iterative, and agencies are encouraged to collaborate, share best practices, and share lessons learned. Consider joining a federal committee and community of practice to learn and engage in digital worker identity management.
 
-## Appendix A. Digital Worker Impact Evaluation Factors {#appendix-a.-digital-worker-impact-evaluation-factors}
+## Appendix A. Digital Worker Impact Evaluation Factors
 
 This section provides a detailed breakdown of the information contained in Table 1, the Digital Worker Impact Evaluation Matrix. Tables 8 through 13 individually provide criteria details for Factors 1 through 6, respectively.
 
@@ -669,7 +669,7 @@ This factor assesses the extent to which a human is involved in approving the de
 | 6b) Digital worker develops insights and acts on the insights after human review | The digital worker first helps to develop insights. A human then reviews the insights and either edits or approves them (e.g., a digital worker helps diagnose a patient based on medical history data. Then the tool uses the data to develop a diagnosis and a recommended treatment \[insight\]. The doctor will review the diagnosis and the recommended treatment. If the doctor disagrees with the insight, the doctor will amend it; if the doctor agrees, the doctor will approve it. Then, the digital worker will administer the treatment to the patient). | 5 |
 | 6c) Digital worker develops insight and acts on the insights without human review or approval before the action is taken | The tool develops insights and then uses these insights to determine a course of action. The tool proceeds with this action without human review of the initial insight (e.g., a digital worker recommends a diagnosis and treatment based on data from the patient’s medical history. The digital worker acts on this recommendation by administering treatment to the patient without a doctor’s intermediary review). | 10 |
 
-## Appendix B. Critical Case Study {#appendix-b.-critical-case-study}
+## Appendix B. Critical Case Study
 
 A government hospital uses a digital worker to diagnose patients.
 
@@ -746,7 +746,7 @@ After the sponsorship and validation activities are complete and documented, the
 | DF-18 | DW Bias Review Completion Date | 07/11/2020 |
 | DF-19 | DW Next Bias Review Date *(optional)* | 01/11/2021 |
 
-## Appendix C. Low Case Study {#appendix-c.-low-case-study}
+## Appendix C. Low Case Study
 
 A digital worker helps the General Services Administration gather data on COVID-19.
 
@@ -779,7 +779,7 @@ Table 17 presents the Impact Evaluation Matrix for this digital worker.
 
 This digital worker impact level is Low. The effect of an error or accident is minimal, resulting in negligible impacts. Thus, the digital worker does not require a unique identity. The impact level is documented and a reminder is set to reassess the impact level with any code change.
 
-## Footnotes {#footnotes}
+## Footnotes
 
 1. Digital worker is not synonymous with non-person entity (NPE), as NPE encompasses all entities with a digital identity including organizations, hardware devices, software applications, and information artifacts. [↩](#fnref:1)  
 2. OMB Memorandum M-19-17 instructs federal agencies to designate an integrated agency-wide ICAM office, team, or other governance structure in support of its Enterprise Risk Management capability to effectively govern and enforce ICAM efforts. [↩](#fnref:2)  
