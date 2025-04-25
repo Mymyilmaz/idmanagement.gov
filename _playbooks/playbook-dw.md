@@ -134,9 +134,9 @@ Federal agencies use digital workers to automate processes, increase efficiencie
 
 This playbook is iterative, and agencies are encouraged to collaborate, share best practices, and share lessons learned. Federal employees may consider joining a relevant committee or community of practice to learn and engage in digital worker identity management.
 
-- [Identity, Credential, and Access Management subcommittee (ICAMSC)](https://community.max.gov/pages/viewpage.action?pageId=234815732)
-- [Robotic Process Automation Community of Practice](https://digital.gov/communities/rpa/)
-- [Artificial Intelligence Community of Practice](https://digital.gov/communities/artificial-intelligence/)
+- [Identity, Credential, and Access Management subcommittee (ICAMSC)](https://community.max.gov/pages/viewpage.action?pageId=234815732){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
+- [Robotic Process Automation Community of Practice](https://digital.gov/communities/rpa/){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
+- [Artificial Intelligence Community of Practice](https://digital.gov/communities/artificial-intelligence/){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
 
 ## Key Terms
 
@@ -162,7 +162,7 @@ The four-step process depicted in Figure 1 is a structured, iterative approach w
 
 ![A Four-Step Process for Digital Worker Identity Management]({{site.baseurl}}/assets/playbooks/dwi/dwi-figure-1.jpeg)
 
-[Step 1\. Determine the Impact](#step-1-determine-the-impact): Consider the potential impacts, if any, when deciding whether to establish a digital worker identity. Much like a human worker, a digital worker should undergo a vetting process before being granted network or application access. Not all digital workers may require a unique identity. Work with the agency’s Identity, Credential, and Access Management (ICAM) governance structure to:
+[Step 1. Determine the Impact](#step-1-determine-the-impact): Consider the potential impacts, if any, when deciding whether to establish a digital worker identity. Much like a human worker, a digital worker should undergo a vetting process before being granted network or application access. Not all digital workers may require a unique identity. Work with the agency’s Identity, Credential, and Access Management (ICAM) governance structure to:
 
 - Create or expand the agency ICAM governance structure and policies for digital worker identity management oversight.
 - Score risk using the Digital Worker Impact Assessment.
@@ -173,17 +173,17 @@ The Digital Worker Impact Evaluation Matrix (Table 1\) is a scoring tool. It use
 | Key Point Agencies may decide that digital workers with low adverse impact levels do not require a digital identity. If an agency’s policy demands that all digital workers require a digital identity, they should follow the Moderate level process |
 | :---- |
 
-[Step 2\. Create an Identity](#step-2-create-an-identity): Ensure the created identity complies with agency ICAM policies. Assign the digital worker a sponsor and a custodian who maintain the digital worker processes. The sponsorship process creates and assigns digital worker oversight roles and responsibilities for a sponsor and a custodian. After appointing a sponsor and a custodian, follow security best practices when validating a digital worker level of access. Best practices include employing least privilege, separation of duties, and regular access recertification, similar to human workers.
+[Step 2. Create an Identity](#step-2-create-an-identity): Ensure the created identity complies with agency ICAM policies. Assign the digital worker a sponsor and a custodian who maintain the digital worker processes. The sponsorship process creates and assigns digital worker oversight roles and responsibilities for a sponsor and a custodian. After appointing a sponsor and a custodian, follow security best practices when validating a digital worker level of access. Best practices include employing least privilege, separation of duties, and regular access recertification, similar to human workers.
 
-[Step 3\. Provision an Identity](#step-3-provision-an-identity): Assign the digital worker an identity in the agency enterprise identity management systems. After appointing both a sponsor and custodian and validating access, capture the appropriate data elements in the digital worker identity record. These data elements enable the agency to appropriately catalog and monitor digital workers throughout the identity lifecycle.
+[Step 3. Provision an Identity](#step-3-provision-an-identity): Assign the digital worker an identity in the agency enterprise identity management systems. After appointing both a sponsor and custodian and validating access, capture the appropriate data elements in the digital worker identity record. These data elements enable the agency to appropriately catalog and monitor digital workers throughout the identity lifecycle.
 
-[Step 4\. Maintain and Deprovision Identity:](#step-4.-maintain-and-deprovision-identity) Continuously manage the digital worker's identity by ensuring up-to-date record-keeping and adherence to ICAM governance policies throughout its lifecycle. Regularly review and update the digital worker’s access levels to align with their role and to maintain security standards, including the principle of least privilege. Conduct periodic recertifications to verify whether the assigned access is still necessary and identify any potential discrepancies. In the event a digital worker's function is no longer required, follow the proper procedures to deprovision its identity, ensuring that all access is completely revoked, and the identity is appropriately archived. This process safeguards the integrity and security of the agency’s network and applications by preventing unauthorized access through obsolete digital identities. Properly maintaining and deprovisioning digital worker identities help mitigate risks and ensure compliance with the agency’s security policies.
+[Step 4. Maintain and Deprovision Identity:](#step-4.-maintain-and-deprovision-identity) Continuously manage the digital worker's identity by ensuring up-to-date record-keeping and adherence to ICAM governance policies throughout its lifecycle. Regularly review and update the digital worker’s access levels to align with their role and to maintain security standards, including the principle of least privilege. Conduct periodic recertifications to verify whether the assigned access is still necessary and identify any potential discrepancies. In the event a digital worker's function is no longer required, follow the proper procedures to deprovision its identity, ensuring that all access is completely revoked, and the identity is appropriately archived. This process safeguards the integrity and security of the agency’s network and applications by preventing unauthorized access through obsolete digital identities. Properly maintaining and deprovisioning digital worker identities help mitigate risks and ensure compliance with the agency’s security policies.
 
 This playbook should aid agencies in integrating digital worker identity management processes into existing enterprise identity management policies.
 
-## Step 1\. Determine the Impact {#step-1.-determine-the-impact}
+## Step 1. Determine the Impact {#step-1.-determine-the-impact}
 
-**Figure 2: Step 1 \- Determine the Impact**
+**Figure 2: Step 1 - Determine the Impact**
 
 ![Figure 2: Step 1 - Determine the Impact]({{site.baseurl}}/assets/playbooks/dwi/dwi-figure-2.jpeg)
 
@@ -263,9 +263,9 @@ The four adverse impact levels represent a different scale of harm a digital wor
 | 56-90 | High | Effects of an error or accident are wide-ranging and could result in serious or long-term impact on organizational missions/business functions, organizational assets, or the nation. Effects include significant financial losses for the agency; substantially reduced capacity to conduct mission-critical business; loss of PII, Business Identifiable Information, or PHI; and/or damage to agency image or reputation. |
 | 91+ | Critical | Effects of an error or accident are extensive and will have severe or catastrophic impact on organizational missions/business functions, assets, or the nation. Effects include major financial losses for the agency or other organizations, loss of government continuity of operations or ability to conduct mission-critical business, life-threatening injury or loss of life, and/or harm to national security. |
 
-## Step 2\. Create an Identity {#step-2.-create-an-identity}
+## Step 2. Create an Identity {#step-2.-create-an-identity}
 
-**Figure 3: Step 2 \- Create an Identity**
+**Figure 3: Step 2 - Create an Identity**
 
 ![Figure 3: Step 2 - Create an Identity]({{site.baseurl}}/assets/playbooks/dwi/dwi-figure-3.jpeg)
 
@@ -275,7 +275,7 @@ Once your agency has determined the digital worker’s level of potential advers
 
 The sponsorship process allows agencies to assign specific roles and responsibilities for oversight of digital workers. The agency’s ICAM governance structure ensures the sponsorship process actions are completed; however, it is up to the individual agencies to define how to assign a sponsor and custodian.
 
-**Table 3\. Sponsor and Custodian Responsibilities**
+**Table 3. Sponsor and Custodian Responsibilities**
 
 | Role | Description | Responsibilities |
 | :---: | ----- | ----- |
@@ -337,9 +337,9 @@ Validation actions record the activities to ensure the digital worker continues 
 | Key Point VD-3, VD-4, and VD-5 validate that the code, ethics, and bias reviews have been conducted. It is up to individual agencies to ensure they follow a standard for conducting such reviews. Agency representatives, such as the sponsor or custodian, should collaborate within a community of practice to capture best practices on how to perform the various reviews in Step 2.2. |
 | :---- |
 
-## Step 3\. Provision an Identity {#step-3.-provision-an-identity}
+## Step 3. Provision an Identity {#step-3.-provision-an-identity}
 
-**Figure 4: Step 3 \- Provision an Identity**
+**Figure 4: Step 3 - Provision an Identity**
 
 ![Figure 4: Step 3 - Provision an Identity]({{site.baseurl}}/assets/playbooks/dwi/dwi-figure-4.jpeg)
 
@@ -390,11 +390,11 @@ Agencies may store and track identity governance data elements in an existing sy
 
 [https://playbooks.idmanagement.gov/playbooks/dw/\#conclusion](https://playbooks.idmanagement.gov/playbooks/dw/#conclusion)
 
-## Step 4\. Maintain and Deprovision Identity {#step-4.-maintain-and-deprovision-identity}
+## Step 4. Maintain and Deprovision Identity {#step-4.-maintain-and-deprovision-identity}
 
-**Figure 5: Step 4 \- Maintain and Deprovision Identity**
+**Figure 5: Step 4 - Maintain and Deprovision Identity**
 
-![Figure 5: Step 4 \- Maintain and Deprovision Identity]({{site.baseurl}}/assets/playbooks/dwi/dwi-figure-5.jpeg)
+![Figure 5: Step 4 - Maintain and Deprovision Identity]({{site.baseurl}}/assets/playbooks/dwi/dwi-figure-5.jpeg)
 
 ### 4.1 Continuous Behavioral Monitoring {#4.1-continuous-behavioral-monitoring}
 
@@ -507,7 +507,7 @@ When a digital worker is no longer required or is being replaced, it should be d
     ☐ What is the impact of the digital worker output?  
     ☐ What type of system account privileges does the digital worker require?  
     ☐ Does the digital worker act on its own insights?  
-*(Reference \- Table 1\. Digital Worker Impact Evaluation Matrix)*
+*(Reference - Table 1. Digital Worker Impact Evaluation Matrix)*
 
 ☐*1.3* **Determine Adverse Impact Level**  
   Calculate the total risk score to determine the adverse impact level:  
@@ -515,7 +515,7 @@ When a digital worker is no longer required or is being replaced, it should be d
     ☐ Moderate (36-55)  
     ☐ High (56-90)  
     ☐ Critical (91+)  
-*(Reference \- Table 2\. Potential Adverse Impact Levels)*
+*(Reference - Table 2. Potential Adverse Impact Levels)*
 
 ### Step 2: Create an Identity {#step-2:-create-an-identity}
 
@@ -523,7 +523,7 @@ When a digital worker is no longer required or is being replaced, it should be d
   ☐ Assign a sponsor responsible for digital worker compliance.  
   ☐ Assign a custodian for day-to-day operational management.  
   ☐ Acknowledge responsibilities of sponsor and custodian initially and on a routine basis (annually or every six months depending on impact level).  
-*(Reference \- Table 4\. Sponsorship (SP) Process)*
+*(Reference - Table 4. Sponsorship (SP) Process)*
 
 ☐*2.2* **Validate Worker Access**  
   ☐ Employ least privilege principle.  
@@ -531,7 +531,7 @@ When a digital worker is no longer required or is being replaced, it should be d
   ☐ Conduct code reviews initially and after changes.  
   ☐ Complete ethics and bias reviews based on government standards.  
   ☐ Recertify acknowledgement of responsibilities for sponsor and custodian.  
-*(Reference \- Table 5\. Validation (VD) Process)*
+*(Reference - Table 5. Validation (VD) Process)*
 
 ### Step 3: Provision an Identity {#step-3:-provision-an-identity}
 
@@ -544,7 +544,7 @@ When a digital worker is no longer required or is being replaced, it should be d
     ☐ Digital Worker Custodian Name  
     ☐ Digital Worker Description  
     ☐ Responsible Organization  
-*(Reference \- Table 6\. Identity Management System Data Fields)*
+*(Reference - Table 6. Identity Management System Data Fields)*
 
 ☐*3.2* **Capture and Store Identity Governance Data Elements**  
   Store the following data elements for governance:  
@@ -559,7 +559,7 @@ When a digital worker is no longer required or is being replaced, it should be d
     ☐ Next Ethics Review Date  
     ☐ Bias Review Completion Date  
     ☐ Next Bias Review Date  
-*(Reference \- Table 7\. Identity Governance Data Elements)*
+*(Reference - Table 7. Identity Governance Data Elements)*
 
 ### Step 4: Maintain and Deprovision Identity {#step-4:-maintain-and-deprovision-identity}
 
@@ -571,7 +571,7 @@ When a digital worker is no longer required or is being replaced, it should be d
   ☐ Conduct regular drills and exercises.  
   ☐ Perform regular reviews of performance, compliance, and access levels.  
   ☐ Recertify sponsor and custodian acknowledgments at the required intervals.  
-*(Reference \- Table 8: Continuous Monitoring Process)*
+*(Reference - Table 8: Continuous Monitoring Process)*
 
 ☐*4.2* **Deprovision Digital Worker**  
   ☐ Assess the need for the digital worker.  
@@ -582,7 +582,7 @@ When a digital worker is no longer required or is being replaced, it should be d
   ☐ Update the Identity Management System to indicate deactivation.  
   ☐ Notify relevant stakeholders of deprovisioning.  
   ☐ Document the deprovisioning process and maintain logs.  
-*(Reference \- Table 9: Deprovisioning Process)*
+*(Reference - Table 9: Deprovisioning Process)*
 
 ## Conclusion {#conclusion}
 
