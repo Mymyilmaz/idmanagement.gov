@@ -4,7 +4,7 @@ layout: page
 collection: experiments
 title: CDN - Personal Security and Identity Management 
 permalink: /experiments/cdns/paper3/
-sidenav: experiments
+sidenav: papers
 sticky_sidenav: true
 
 subnav:
