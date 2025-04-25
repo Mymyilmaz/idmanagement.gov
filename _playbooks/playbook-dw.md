@@ -194,7 +194,7 @@ The ICAM governance structure ensures enterprise identity management policies ar
 
 **Update the agency enterprise identity management policies to include digital worker identity management.**
 
-| GovernanceCollaborationExample | Before creating and provisioning a digital worker, the agency ICAMgovernance structure can collaborate with Information System SecurityOfficers on digital worker identity management. Collaboration mayinclude:● Digital worker security and non-functional requirements verification● Security and privacy assessments● Executable, vulnerability and other scans● Digital worker logic and decision-making design documents |
+| Governance Collaboration Example | Before creating and provisioning a digital worker, the agency ICAM governance structure can collaborate with Information System Security Officers on digital worker identity management. Collaboration may include: ● Digital worker security and non-functional requirements verification ● Security and privacy assessments ● Executable, vulnerability and other scans ● Digital worker logic and decision-making design documents |
 | :---- | :---- |
 
 ### 1.2 Score Risk Impact
@@ -267,7 +267,7 @@ The four adverse impact levels represent a different scale of harm a digital wor
 
 ![Figure 3: Step 2 - Create an Identity]({{site.baseurl}}/assets/playbooks/dwi/dwi-figure-3.jpeg)
 
-Once your agency has determined the digital worker’s level of potential adverse impact, a digital worker identity is created, if needed. The identity process includes sponsorship and validation activities based on the adverse impact level from Step 1\.
+Once your agency has determined the digital worker’s level of potential adverse impact, a digital worker identity is created, if needed. The identity process includes sponsorship and validation activities based on the adverse impact level from Step 1.
 
 ### 2.1 Assign a Sponsor and Custodian
 
@@ -277,8 +277,8 @@ The sponsorship process allows agencies to assign specific roles and responsibil
 
 | Role | Description | Responsibilities |
 | :---: | ----- | ----- |
-| Sponsor | ● Responsible for digital worker compliance; and● A federal government employee. | ● Assign roles and responsibilities to govern the digital worker such as a primary and backup custodian;● Field digital worker inquiries from agency or other government entity leaders; and● Oversee who has access to the digital worker. |
-| Custodian | ● Responsible for digital worker day-to-day operational management; and● A federal government employee or contractor. | ● Hold a comparable level of access as the digital worker;● Complete initial and routine training in digital worker management and security;● Rotate digital worker password or authenticators;● Maintain digital worker access;● Oversee retraining or tuning of an underlying model; and● Track and monitor digital worker data input and output. |
+| Sponsor | ● Responsible for digital worker compliance; and ● A federal government employee. | ● Assign roles and responsibilities to govern the digital worker such as a primary and backup custodian; ● Field digital worker inquiries from agency or other government entity leaders; and ● Oversee who has access to the digital worker. |
+| Custodian | ● Responsible for digital worker day-to-day operational management; and ● A federal government employee or contractor. | ● Hold a comparable level of access as the digital worker; ● Complete initial and routine training in digital worker management and security; ● Rotate digital worker password or authenticators; ● Maintain digital worker access; ● Oversee retraining or tuning of an underlying model; and ● Track and monitor digital worker data input and output. |
 
 **Industry Best Practice**
 
@@ -293,11 +293,11 @@ Agencies may adjust recertification frequency, but should meet or exceed the rec
 |    ID [5](https://playbooks.idmanagement.gov/playbooks/dw/#fn:5) | Action    | Low | Moderate | High | Critical |
 | :---: | ----- | :---: | :---: | :---: | :---: |
 | SP-1 | Document a business need for the digital worker. | N/A | ✓ | ✓ | ✓ |
-| SP-2 | Assign an organizational sponsor for the digital worker. | N/A | ✓ | ✓ | ✓Suggested CIO, CISO, or equivalent |
-| SP-3 | Have sponsor acknowledge responsibility for the digital worker on an initial and routine basis. | N/A | ✓Recertify sponsor annually | ✓Recertify sponsor annually | ✓Recertify sponsor every six months |
+| SP-2 | Assign an organizational sponsor for the digital worker. | N/A | ✓ | ✓ | ✓ Suggested CIO, CISO, or equivalent |
+| SP-3 | Have sponsor acknowledge responsibility for the digital worker on an initial and routine basis. | N/A | ✓ Recertify sponsor annually | ✓ Recertify sponsor annually | ✓ Recertify sponsor every six months |
 | SP-4 | Have the sponsor assign a custodian for the digital worker. | N/A | ✓ | ✓ | ✓ |
 | SP-5 | Have the sponsor notify the custodian of their responsibility. | N/A | ✓ | ✓ | ✓ |
-| SP-6 | Confirm the custodian acknowledges responsibility for the digital worker on an initial and routine basis. | N/A | ✓Recertify custodian annually | ✓Recertify custodian annually | ✓Recertify custodian every six months |
+| SP-6 | Confirm the custodian acknowledges responsibility for the digital worker on an initial and routine basis. | N/A | ✓ Recertify custodian annually | ✓ Recertify custodian annually | ✓ Recertify custodian every six months |
 
 ### 2.2 Validate Worker Access
 
@@ -321,11 +321,11 @@ Validation actions record the activities to ensure the digital worker continues 
 | :---: | ----- | :---: | :---: | :---: | :---: |
 | VD-1 | Validate that the digital worker role employs the least privilege necessary to accomplish its task. | N/A | ✓ | ✓ | ✓ |
 | VD-2 | Validate that the digital worker role does not create separation-of-duty conflicts for the digital worker or any human users. | N/A | ✓ | ✓ | ✓ |
-| VD-3 | Validate that the digital worker has undergone a code review prior to release. Additional code reviews are required for any code changes at higher impact. | N/A | ✓Following major changes to code | ✓Following any changes to code | ✓Following any changes to code |
-| VD-4 | Validate that the digital worker has undergone a review of ethics according to applicable government and/or agency standards. | N/A | N/A | ✓Conduct initial review and annual periodic review | ✓Conduct initial review and periodic review every six months |
-| VD-5 | Validate that the digital worker has undergone review for bias according to applicable government standards. | N/A | ✓Conduct initial bias review | ✓Conduct initial bias review and annual periodic review | ✓Conduct initial bias review and periodic review every six months |
-| VD-6 | Validate that the sponsor has recertified acknowledgment of responsibility for the digital worker at required intervals. | N/A | ✓Verify sponsor recertification annually | ✓Verify sponsor recertification annually | ✓Verify sponsor recertification every six months |
-| VD-7 | Validate that the custodian has recertified acknowledgment of responsibility for the digital worker at required intervals. | N/A | ✓Verify custodian recertification annually | ✓Verify custodian recertification annually | ✓Verify custodian recertification every six months |
+| VD-3 | Validate that the digital worker has undergone a code review prior to release. Additional code reviews are required for any code changes at higher impact. | N/A | ✓ Following major changes to code | ✓ Following any changes to code | ✓ Following any changes to code |
+| VD-4 | Validate that the digital worker has undergone a review of ethics according to applicable government and/or agency standards. | N/A | N/A | ✓ Conduct initial review and annual periodic review | ✓ Conduct initial review and periodic review every six months |
+| VD-5 | Validate that the digital worker has undergone review for bias according to applicable government standards. | N/A | ✓ Conduct initial bias review | ✓ Conduct initial bias review and annual periodic review | ✓ Conduct initial bias review and periodic review every six months |
+| VD-6 | Validate that the sponsor has recertified acknowledgment of responsibility for the digital worker at required intervals. | N/A | ✓ Verify sponsor recertification annually | ✓ Verify sponsor recertification annually | ✓ Verify sponsor recertification every six months |
+| VD-7 | Validate that the custodian has recertified acknowledgment of responsibility for the digital worker at required intervals. | N/A | ✓ Verify custodian recertification annually | ✓ Verify custodian recertification annually | ✓ Verify custodian recertification every six months |
 
 {% include alert-success.html heading="Key Point" content="SP-3 is a similar but separate activity than VD-6. In SP-3, sponsors acknowledge their roles and responsibilities initially and reacknowledge them every six months. VD-6 is validation of the acknowledgment. Perform each action together or separately, but track them separately for flexibility." %}
 
@@ -347,13 +347,13 @@ Capture the appropriate digital worker data elements and store these attributes 
 
 |    ID    | IDMS Field Name | Field Type | Additional Guidance |
 | :---: | :---: | ----- | ----- |
-| DF-1 | Digital Worker*(new field)* | Boolean*(e.g., Checkbox, True/False, Yes/No, etc.)* | *Denote if this is (Yes/True) or is not (No/False) a digital worker.* |
-| DF-2 | Agency Unique User ID*(existing field)* | Text*Recommend using “DW” or other uniqueness element followed by the identifier based on agency naming conventions.* | *Use a distinguishing and standard naming convention for digital workers. This is not a card holder unique identifier (CHUID) or related to PIV.* |
-| DF-3 | First Name andLast Name*(existing fields)* | Text*First name: group functionLast name: “DW” followed by a numerical value* | *Use agency naming convention if IDMS requires first and last name. The first name field should be completed with the group function (e.g., Technology Division, CFO) and the last name field should be completed with “DW” followed by a numerical value corresponding with the sequential order in which the digital worker was built within the associated group function.* |
-| DF-4 | Digital Worker Sponsor Name*(new field\[s\])* | Text*Recommend the individual’s full name (generally first and last name)* | *Specify the sponsor of the digital worker.* |
-| DF-5 | Digital Worker Custodian Name*(new field\[s\])* | Text*Recommend the individual’s full name (generally first and last name)* | *Specify the custodian of the digital worker.* |
-| DF-6 | Digital Worker Description*(optional new field)* | Text (250)*Recommend including a brief description of the digital worker (e.g., the type of AI used, the purpose, and actions of the digital worker)* | *Provide a short description of what the digital worker does and the type of digital technology used.* |
-| DF-7 | Responsible Organization*(optional new field)* | Text*Include the name of the organization according to the official agency organizational chart* | *Specify the name of the responsible agency organization or group.* |
+| DF-1 | Digital Worker *(new field)* | Boolean *(e.g., Checkbox, True/False, Yes/No, etc.)* | *Denote if this is (Yes/True) or is not (No/False) a digital worker.* |
+| DF-2 | Agency Unique User ID *(existing field)* | Text *Recommend using “DW” or other uniqueness element followed by the identifier based on agency naming conventions.* | *Use a distinguishing and standard naming convention for digital workers. This is not a card holder unique identifier (CHUID) or related to PIV.* |
+| DF-3 | First Name and Last Name *(existing fields)* | Text *First name: group function Last name: “DW” followed by a numerical value* | *Use agency naming convention if IDMS requires first and last name. The first name field should be completed with the group function (e.g., Technology Division, CFO) and the last name field should be completed with “DW” followed by a numerical value corresponding with the sequential order in which the digital worker was built within the associated group function.* |
+| DF-4 | Digital Worker Sponsor Name *(new field\[s\])* | Text *Recommend the individual’s full name (generally first and last name)* | *Specify the sponsor of the digital worker.* |
+| DF-5 | Digital Worker Custodian Name *(new field\[s\])* | Text *Recommend the individual’s full name (generally first and last name)* | *Specify the custodian of the digital worker.* |
+| DF-6 | Digital Worker Description *(optional new field)* | Text (250) *Recommend including a brief description of the digital worker (e.g., the type of AI used, the purpose, and actions of the digital worker)* | *Provide a short description of what the digital worker does and the type of digital technology used.* |
+| DF-7 | Responsible Organization *(optional new field)* | Text *Include the name of the organization according to the official agency organizational chart* | *Specify the name of the responsible agency organization or group.* |
 
 ### 3.2 Capture and Store Identity Governance Data Elements
 
@@ -371,18 +371,17 @@ Agencies may store and track identity governance data elements in an existing sy
 |   ID       | Data Element | Additional Guidance |
 | :---: | :---: | ----- |
 | DF-8 | Digital Worker Sponsor Date of Last Acknowledgment | *Specify the date the sponsor last acknowledged responsibility for the digital worker. Recommend including the date in the format specified by agency guidelines (e.g., 01/01/2020).* |
-| DF-9 | Digital Worker Date of Sponsor Acknowledgment Recertification*(optional)* | *Track when the sponsor acknowledgment must be recertified. It can be tracked as a formula based on the last acknowledgment date and adverse impact level requirements, or a format and method specified by agency guidelines.* |
+| DF-9 | Digital Worker Date of Sponsor Acknowledgment Recertification *(optional)* | *Track when the sponsor acknowledgment must be recertified. It can be tracked as a formula based on the last acknowledgment date and adverse impact level requirements, or a format and method specified by agency guidelines.* |
 | DF-10 | Level of Potential Adverse Impact | *Specify the level of potential adverse impact as determined using the methodology in section 3.2 of this document. Limited response (e.g., “Low,” “Moderate,” “High,” or “Critical”).* |
 | DF-11 | Digital Worker Date of Last Custodian Acknowledgment | *Specify the date the custodian last acknowledged responsibility for the digital worker. Recommend including the date in the format specified by agency guidelines (e.g., 01/01/2020).* |
-| DF-12 | Digital Worker Date of Custodian Acknowledgment Recertification*(optional)* | *Track when the custodian acknowledgment must be recertified. It can be tracked as a formula based on the last acknowledgment date and adverse impact level requirements, or a format and method specified by agency guidelines.* |
-| DF-13 | Approved Source Internet Protocol (IP) Address Range*(only for High and Critical)* | *Specify the range of source IP addresses on which the digital worker may operate.* |
-| DF-14 | Code Review Completion Date*(optional)* | *Specify the code review completion date (refer to VD-3 for more details). Recommend including the date in the format specified by agency guidelines (e.g., 01/01/2020).* |
+| DF-12 | Digital Worker Date of Custodian Acknowledgment Recertification *(optional)* | *Track when the custodian acknowledgment must be recertified. It can be tracked as a formula based on the last acknowledgment date and adverse impact level requirements, or a format and method specified by agency guidelines.* |
+| DF-13 | Approved Source Internet Protocol (IP) Address Range *(only for High and Critical)* | *Specify the range of source IP addresses on which the digital worker may operate.* |
+| DF-14 | Code Review Completion Date *(optional)* | *Specify the code review completion date (refer to VD-3 for more details). Recommend including the date in the format specified by agency guidelines (e.g., 01/01/2020).* |
 | DF-15 | Ethics Review Completion Date | *Specify the digital worker ethics review completion date (refer to VD-4 for more details). Recommend including the date in the format specified by agency guidelines (e.g., 01/01/2020).* |
-| DF-16 | Next Ethics Review Date*(optional)* | *Track when the next ethics review date must be conducted. It can be tracked as a formula based on the last ethics review date and adverse impact level requirements, or a format and method specified by agency guidelines.* |
+| DF-16 | Next Ethics Review Date *(optional)* | *Track when the next ethics review date must be conducted. It can be tracked as a formula based on the last ethics review date and adverse impact level requirements, or a format and method specified by agency guidelines.* |
 | DF-17 | Digital Worker Bias Review Completion Date | *Specify the digital worker bias review completion date (refer to VD-5 for more details). Recommend including the date in the format specified by agency guidelines (e.g., 01/01/2020).* |
-| DF-18 | Next Bias Review Date*(optional)* | *Track when the next bias review date must be conducted. It can be tracked as a formula based on the last bias review date and adverse impact level requirements, or a format and method specified by agency guidelines.* |
+| DF-18 | Next Bias Review Date *(optional)* | *Track when the next bias review date must be conducted. It can be tracked as a formula based on the last bias review date and adverse impact level requirements, or a format and method specified by agency guidelines.* |
 
-[https://playbooks.idmanagement.gov/playbooks/dw/\#conclusion](https://playbooks.idmanagement.gov/playbooks/dw/#conclusion)
 
 ## Step 4. Maintain and Deprovision Identity
 
@@ -610,8 +609,8 @@ This factor assesses the impact-based sensitivity of data accessed by the digita
 | :---: | ----- | :---: |
 | 2a) Data available to the public (either without a user account or with unvetted user account) | The digital worker only works with/has access to data that is fully available for use and access by the general public. It includes all information available on public forums (open websites and networks) and all information that the public may access through the setup of unvetted user accounts (e.g., a citizen can use an unvetted account to access Centers for Disease Control “public” data). | 0 |
 | 2b) Agency operational data, CUI, or data on individuals (no PII) in low volumes | The digital worker works with/has access to data that is not for public consumption, including CUI, intellectual property owned by the government or outside organizations, and information related to agency operations. | 5 |
-| 2c) PII and PHI | The digital worker works with/has access to public data, agency operational data, and PII or PHI.This is a “trigger” criterion, meaning if the digital worker meets this criterion, it automatically should be in at least a High potential adverse impact level according to the scale in Table 1\. | 55 |
-| 2d) Agency critical operational data or data that could impact life, health, or safety of individuals/systems relied on for health and safety; or very high volumes of agency operational data | The digital worker works with/has access to data that could have catastrophic effects if made public, such as information about mission-critical agency operations or information that impacts the life, health, and safety of individuals.This is a “trigger” criterion, meaning if the digital worker meets this criterion, it automatically should be in a Critical potential adverse impact level according to the scale in Table 1\. | 90 |
+| 2c) PII and PHI | The digital worker works with/has access to public data, agency operational data, and PII or PHI.  This is a “trigger” criterion, meaning if the digital worker meets this criterion, it automatically should be in at least a High potential adverse impact level according to the scale in Table 1. | 55 |
+| 2d) Agency critical operational data or data that could impact life, health, or safety of individuals/systems relied on for health and safety; or very high volumes of agency operational data | The digital worker works with/has access to data that could have catastrophic effects if made public, such as information about mission-critical agency operations or information that impacts the life, health, and safety of individuals.  This is a “trigger” criterion, meaning if the digital worker meets this criterion, it automatically should be in a Critical potential adverse impact level according to the scale in Table 1. | 90 |
 
 **Factor 3 – Does the digital worker have access to internal and/or external networks?**  
 This factor assesses what type of networks the digital worker accesses. There are different levels of potential impact depending on whether access is granted to internal networks, external networks, or both.
@@ -633,7 +632,7 @@ This factor assesses the potential worst-case scenario impact of the output the 
 | :---: | ----- | :---: |
 | 4a) Output impacts general internal business operations, but not critical processes or decisions | The output of the digital worker is used solely for and/or may impact internal organizational business processes, operations, and decisions. However, the output is not used in critical organizational processes; if it is, then this would fall under criterion 4c. | 5 |
 | 4b) Output impacts outside organizations in general business operations or public reporting, but not critical processes or decisions | The output of the digital worker is used for and/or may impact external organizational business processes, operations, and decisions. In addition, the output may be used in public reporting (e.g., Government Accountability Office audits). However, the output should not be used in critical organizational processes; if it is, then this would fall under criterion 4c. | 25 |
-| 4c) Output impacts mission-critical organization operations of the agency or other organizations, health or safety of individuals, national economic stability, national security, critical infrastructure, or similarly consequential operations | The output of the digital worker is used for and/or may impact mission-critical operations of an organization, health and safety of individuals, national economic stability, national security, critical national infrastructure, or other similarly consequential operations.This is a “trigger” criterion, meaning if the digital worker meets this criterion, it automatically should be in a Critical potential adverse impact level according to the scale in Table 1\. | 90 |
+| 4c) Output impacts mission-critical organization operations of the agency or other organizations, health or safety of individuals, national economic stability, national security, critical infrastructure, or similarly consequential operations | The output of the digital worker is used for and/or may impact mission-critical operations of an organization, health and safety of individuals, national economic stability, national security, critical national infrastructure, or other similarly consequential operations.  This is a “trigger” criterion, meaning if the digital worker meets this criterion, it automatically should be in a Critical potential adverse impact level according to the scale in Table 1. | 90 |
 
 **Factor 5 – What type of system account privileges does the digital worker require?**  
 This factor assesses the type and level of system account access that the digital worker requires to complete its tasks. Privileged access, especially for multiple systems, creates higher potential adverse impact than standard user accounts or no account use at all.
@@ -644,8 +643,8 @@ This factor assesses the type and level of system account access that the digita
 | :---: | ----- | :---: |
 | 5a) No system accounts used | The digital worker does not use any system accounts to access databases, web applications, etc. | 0 |
 | 5b) Standard system account(s) (Roles limited by the business function) | The digital worker uses one or more system accounts that have a login (e.g., username, password, multifactor authentication) to access databases, web applications, etc. The user privileges within the system account(s) are standard business user roles and have no system administrator privileges. Agencies define the standard user roles, and they may include any combination of the following: read, write, execute, and delete. | 10 |
-| 5c) System admin account (privileged access) | The technology uses one or more system accounts that have a login (e.g., username, password, multifactor authentication) to access databases, web applications, etc. Select this criterion if the digital worker will, or may need to have, access to systems or web applications with admin or otherwise privileged access. If there are multiple system or web application accounts used by a technology, then only one may be admin or privileged access, as defined by the agency. User roles may include any combination of the following: read, write, execute, and delete.This is a “trigger” criterion, meaning if the digital worker meets this criterion, it automatically should be in at least a Moderate potential adverse impact level according to the scale in Table 1\. | 35 |
-| 5d) Multiple system admin accounts (multiple privileged access roles) | The digital worker uses one or more system accounts that have a login (e.g., username, password, multifactor authentication) to access databases, web applications, etc. Select this criterion if the digital worker will, or may need to have, access to systems or web applications with admin or some sort of privileged access. In addition, select this criterion if the digital worker requires, or may in the future require, admin or privileged access to multiple systems or web applications, as defined by the agency. User roles may include any combination of the following: read, write, execute, and delete.This is a “trigger” criterion, meaning if the digital worker meets this criterion, it automatically should be in at least a Moderate potential adverse impact level according to the scale in Table 1\. | 40 |
+| 5c) System admin account (privileged access) | The technology uses one or more system accounts that have a login (e.g., username, password, multifactor authentication) to access databases, web applications, etc. Select this criterion if the digital worker will, or may need to have, access to systems or web applications with admin or otherwise privileged access. If there are multiple system or web application accounts used by a technology, then only one may be admin or privileged access, as defined by the agency. User roles may include any combination of the following: read, write, execute, and delete.  This is a “trigger” criterion, meaning if the digital worker meets this criterion, it automatically should be in at least a Moderate potential adverse impact level according to the scale in Table 1. | 35 |
+| 5d) Multiple system admin accounts (multiple privileged access roles) | The digital worker uses one or more system accounts that have a login (e.g., username, password, multifactor authentication) to access databases, web applications, etc. Select this criterion if the digital worker will, or may need to have, access to systems or web applications with admin or some sort of privileged access. In addition, select this criterion if the digital worker requires, or may in the future require, admin or privileged access to multiple systems or web applications, as defined by the agency. User roles may include any combination of the following: read, write, execute, and delete.  This is a “trigger” criterion, meaning if the digital worker meets this criterion, it automatically should be in at least a Moderate potential adverse impact level according to the scale in Table 1\. | 40 |
 
 **Factor 6 – Does the digital worker act on its own insights?**  
 This factor assesses the extent to which a human is involved in approving the decisions of digital workers. Digital workers that generate insights and then use those insights to make decisions or complete actions have a greater potential adverse impact compared to digital workers that only generate insights or that generate insights but have a human review an action before its completion.
@@ -698,15 +697,15 @@ The hospital digital worker in this case study has a *Critical* adverse impact
 | :---: | :---: |
 |    ID    | Critical Actions |
 | SP-1 | The business owner documents the business need to use a digital worker. |
-| SP-2SP-3 | The CISO reviews the business need and assigns the systems Information Security System Manager (ISSM) as sponsor. The CISO notifies the ISSM, and the ISSM electronically signs an acknowledgment letter every six months. |
-| SP-4SP-5 | As sponsor, the ISSM assigns and notifies the contractor maintaining the digital worker of their responsibility as custodian. |
+| SP-2 SP-3 | The CISO reviews the business need and assigns the systems Information Security System Manager (ISSM) as sponsor. The CISO notifies the ISSM, and the ISSM electronically signs an acknowledgment letter every six months. |
+| SP-4 SP-5 | As sponsor, the ISSM assigns and notifies the contractor maintaining the digital worker of their responsibility as custodian. |
 | SP-6 | The contractor, as custodian, acknowledges their assignment and responsibility every six months. |
 |   | Hospital Digital Worker Validation (VD) |
 | VD-1 | The ISSM, as sponsor, reviews the digital worker design document with the ISSO to verify a level of access that employs least privilege. They verify a standard system account is necessary. |
 | VD-2 | The ISSM and ISSO validate that the standard system account does not create a separation-of-duty conflict with a human user. |
 | VD-3 | The ISSM verifies a code review was conducted with the business owner and sets a reminder to verify a code review every six months. |
-| VD-4VD-5 | The ISSM verifies with the ethics office that the digital worker output is in line with agency ethics and bias standards and sets a reminder to verify that fact with the ethics office every six months. |
-| VD-6VD-7 | The ISSM and contractor, as sponsor and custodian, recertify acknowledgment of responsibility for the digital worker and set a reminder to conduct this action every six months. |
+| VD-4 VD-5 | The ISSM verifies with the ethics office that the digital worker output is in line with agency ethics and bias standards and sets a reminder to verify that fact with the ethics office every six months. |
+| VD-6 VD-7 | The ISSM and contractor, as sponsor and custodian, recertify acknowledgment of responsibility for the digital worker and set a reminder to conduct this action every six months. |
 
 After the sponsorship and validation activities are complete and documented, the hospital digital worker identity was created and provisioned. Table 16 shows the data fields captured. Identity management data fields are captured in the directory service while identity governance data fields are captured in an agency security assessment tool.
 
@@ -723,11 +722,11 @@ After the sponsorship and validation activities are complete and documented, the
 | DF-7 | Responsible Organization *(optional new field)* | Patient Health Division |
 |   | Additional Identity Governance Data Fields |   |
 | DF-8 | DW Sponsor Acknowledgment Date | 09/1/2020 |
-| DF-9 | DW Sponsor Acknowledgment RecertificationDate *(optional)* | 02/1/2021 |
+| DF-9 | DW Sponsor Acknowledgment Recertification Date *(optional)* | 02/1/2021 |
 | DF-10 | DW Level of Potential Adverse Impact | Critical |
 | DF-11 | DW Custodian Acknowledgment Date | 09/10/2020 |
-| DF-12 | DW Custodian Acknowledgment RecertificationDate *(optional)* | 02/10/2021 |
-| DF-13 | DW Approved Source Internet Protocol (IP)Address Range *(only for High and Critical)* | 192.168.0.0/16 |
+| DF-12 | DW Custodian Acknowledgment Recertification Date *(optional)* | 02/10/2021 |
+| DF-13 | DW Approved Source Internet Protocol (IP) Address Range *(only for High and Critical)* | 192.168.0.0/16 |
 | DF-14 | DW Code Review Completion Date *(optional)* | 07/04/2020 |
 | DF-15 | DW Next Code Review Date *(optional)* | 01/04/2021 |
 | DF-16 | DW Ethics Review Completion Date | 07/11/2020 |
