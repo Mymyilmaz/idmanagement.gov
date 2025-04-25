@@ -13,9 +13,9 @@ pubdate: April 2025
 subnav:
   - text: Executive Summary
     href: '#executive-summary'
-  - text: Key Terms	4
+  - text: Key Terms
     href: '#key-terms'
-  - text: Disclaimer	5
+  - text: Disclaimer
     href: '#disclaimer'
   - text: A Four-Step Process for Digital Worker Identity Management
     href: '#a-four-step-process-for-digital-worker-identity-management'
@@ -51,7 +51,7 @@ subnav:
     href: '#step-1:-determine-the-impact'
   - text: "Step 2: Create an Identity"
     href: '#step-2:-create-an-identity'
-  - text: "Step 3: Provision an Identity	22
+  - text: "Step 3: Provision an Identity
     href: '#step-3:-provision-an-identity'
   - text: "Step 4: Maintain and Deprovision Identity"
     href: '#step-4:-maintain-and-deprovision-identity'
@@ -168,10 +168,9 @@ The four-step process depicted in Figure 1 is a structured, iterative approach w
 - Score risk using the Digital Worker Impact Assessment.
 - Identify a digital worker adverse impact level.[3](#fn:3)
 
-The Digital Worker Impact Evaluation Matrix (Table 1\) is a scoring tool. It uses six factors to score the risk of a digital worker’s scope and access. Agencies can use the risk score to determine an overall adverse impact level.
+The Digital Worker Impact Evaluation Matrix (Table 1) is a scoring tool. It uses six factors to score the risk of a digital worker’s scope and access. Agencies can use the risk score to determine an overall adverse impact level.
 
-| Key Point Agencies may decide that digital workers with low adverse impact levels do not require a digital identity. If an agency’s policy demands that all digital workers require a digital identity, they should follow the Moderate level process |
-| :---- |
+{% include alert-success.html heading="Key Point" content="Agencies may decide that digital workers with low adverse impact levels do not require a digital identity. If an agency’s policy demands that all digital workers require a digital identity, they should follow the Moderate level process" %}
 
 [Step 2. Create an Identity](#step-2-create-an-identity): Ensure the created identity complies with agency ICAM policies. Assign the digital worker a sponsor and a custodian who maintain the digital worker processes. The sponsorship process creates and assigns digital worker oversight roles and responsibilities for a sponsor and a custodian. After appointing a sponsor and a custodian, follow security best practices when validating a digital worker level of access. Best practices include employing least privilege, separation of duties, and regular access recertification, similar to human workers.
 
@@ -251,8 +250,7 @@ The four adverse impact levels represent a different scale of harm a digital wor
 3. High
 4. Critical
 
-| Key Point The Potential Adverse Impact Levels derive from National Institute of Standards and Technology (NIST) Special Publication 800-30 and are recommendations. Agencies may adjust or tailor the levels to fit their individual risk levels or descriptions. |
-| :---- |
+{% include alert-success.html heading="Key Point" content="The Potential Adverse Impact Levels derive from National Institute of Standards and Technology (NIST) Special Publication 800-30 and are recommendations. Agencies may adjust or tailor the levels to fit their individual risk levels or descriptions." %}
 
 **Table 2: Potential Adverse Impact Levels**
 
@@ -288,8 +286,7 @@ Agencies should periodically assess recertification or access reviews if access 
 
 Agencies may adjust recertification frequency, but should meet or exceed the recommended intervals. When certifying human access to IT platforms, specific systems and applications may impact the frequency of necessary certifications. Agencies should assess the platforms that digital workers access and use this knowledge to help evaluate certification frequency.
 
-| Key Point Agencies may decide that digital workers with low adverse impact levels do not require a digital identity. If an agency’s policy demands that all digital workers have a digital identity, they should follow the Moderate level process. |
-| :---- |
+{% include alert-success.html heading="Key Point" content="Agencies may decide that digital workers with low adverse impact levels do not require a digital identity. If an agency’s policy demands that all digital workers have a digital identity, they should follow the Moderate level process." %}
 
 **Table 4: Sponsorship (SP) Process**
 
@@ -316,8 +313,7 @@ Validation actions record the activities to ensure the digital worker continues 
 
 5. **Recertification acknowledgment (VD-6 and VD-7).** Recertification is the act of reviewing access on a periodic basis. It should occur on an annual or biannual schedule based on the adverse impact level.
 
-| Key Point Existing validation activities can be leveraged and integrated into the digital worker validation process. Even though there are no activities for low impact, reassess a digital worker impact level every time there is a code change or update to ensure the impact level has not changed. |
-| :---- |
+{% include alert-success.html heading="Key Point" content="Existing validation activities can be leveraged and integrated into the digital worker validation process. Even though there are no activities for low impact, reassess a digital worker impact level every time there is a code change or update to ensure the impact level has not changed." %}
 
 **Table 5: Validation (VD) Process**
 
@@ -331,11 +327,9 @@ Validation actions record the activities to ensure the digital worker continues 
 | VD-6 | Validate that the sponsor has recertified acknowledgment of responsibility for the digital worker at required intervals. | N/A | ✓Verify sponsor recertification annually | ✓Verify sponsor recertification annually | ✓Verify sponsor recertification every six months |
 | VD-7 | Validate that the custodian has recertified acknowledgment of responsibility for the digital worker at required intervals. | N/A | ✓Verify custodian recertification annually | ✓Verify custodian recertification annually | ✓Verify custodian recertification every six months |
 
-| Key Point SP-3 is a similar but separate activity than VD-6. In SP-3, sponsors acknowledge their roles and responsibilities initially and reacknowledge them every six months. VD-6 is validation of the acknowledgment. Perform each action together or separately, but track them separately for flexibility. |
-| :---- |
+{% include alert-success.html heading="Key Point" content="SP-3 is a similar but separate activity than VD-6. In SP-3, sponsors acknowledge their roles and responsibilities initially and reacknowledge them every six months. VD-6 is validation of the acknowledgment. Perform each action together or separately, but track them separately for flexibility." %}
 
-| Key Point VD-3, VD-4, and VD-5 validate that the code, ethics, and bias reviews have been conducted. It is up to individual agencies to ensure they follow a standard for conducting such reviews. Agency representatives, such as the sponsor or custodian, should collaborate within a community of practice to capture best practices on how to perform the various reviews in Step 2.2. |
-| :---- |
+{% include alert-success.html heading="Key Point" content="VD-3, VD-4, and VD-5 validate that the code, ethics, and bias reviews have been conducted. It is up to individual agencies to ensure they follow a standard for conducting such reviews. Agency representatives, such as the sponsor or custodian, should collaborate within a community of practice to capture best practices on how to perform the various reviews in Step 2.2." %}
 
 ## Step 3. Provision an Identity
 
@@ -423,10 +417,7 @@ Continuous behavioral monitoring ensures that digital workers operate within exp
 - Recertify sponsor and custodian acknowledgments at intervals specified earlier: annually for Moderate and High levels, and every six months for Critical levels (VD-6 and VD-7).  
 - Validate that the sponsor and custodian adhere to their responsibilities and that their recertification dates are tracked and up-to-date (DF-8, DF-9, DF-11, DF-12).  
   
-
-
-| Key Point  Integrate these continuous monitoring activities into existing agency monitoring infrastructures to ensure they are performed seamlessly and consistently alongside other IT operations. |
-| :---- |
+{% include alert-success.html heading="Key Point" content="Integrate these continuous monitoring activities into existing agency monitoring infrastructures to ensure they are performed seamlessly and consistently alongside other IT operations." %}
 
 **Table 8: Continuous Monitoring Process**
 
@@ -470,9 +461,7 @@ When a digital worker is no longer required or is being replaced, it should be d
 - Notify all relevant stakeholders (sponsor, custodian, IT staff, and other impacted parties) of the deprovisioning action.  
 - Document the deprovisioning process and maintain logs for auditing and reporting purposes.  
   
-
-| Key Point  A well-documented deprovisioning process increases security by ensuring that the digital worker’s access is properly audited and removed. This helps maintain compliance with agency policies and mitigates potential risks. |
-| :---- |
+{% include alert-success.html heading="Key Point" content="A well-documented deprovisioning process increases security by ensuring that the digital worker’s access is properly audited and removed. This helps maintain compliance with agency policies and mitigates potential risks." %}
 
 **Table 9: Deprovisioning Process**
 
