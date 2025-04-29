@@ -60,6 +60,8 @@ functions:
     href: /fpki/
   - text: FIPS 201 Evaluation Program
     href: /fips201ep/
+  - text: PIV Card Body Approval Procedures
+    href: /pivcardbody/
   - text: GSA PKI Shared Service Provider Program
     href: /gsapkissp/
 
