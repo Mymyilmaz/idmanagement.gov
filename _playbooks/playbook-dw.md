@@ -116,7 +116,7 @@ This playbook is iterative, and agencies are encouraged to collaborate, share be
 
 This document uses the following key terms:
 
-- **Digital Worker ** - An automated, software-based tool, application, or agent that performs a business task or process similar to a human user and uses AI or other autonomous decision-making capabilities.[1](#fn:1)
+- **Digital Worker ** - An automated, software-based tool, application, or agent that performs a business task or process similar to a human user and uses AI or other autonomous decision-making capabilities.[^1]
 
 The list below includes the most common types of digital workers.
 
@@ -140,7 +140,7 @@ The four-step process depicted in Figure 1 is a structured, iterative approach w
 
 - Create or expand the agency ICAM governance structure and policies for digital worker identity management oversight.
 - Score risk using the Digital Worker Impact Assessment.
-- Identify a digital worker adverse impact level.[3](#fn:3)
+- Identify a digital worker adverse impact level.[^3]
 
 The Digital Worker Impact Evaluation Matrix (Table 1) is a scoring tool. It uses six factors to score the risk of a digital worker’s scope and access. Agencies can use the risk score to determine an overall adverse impact level.
 
@@ -177,7 +177,7 @@ Risk impact requires calculation of a risk score across six factors, based on wo
 
 Each factor has an associated score, and the sum of these six-factor scores is the overall impact score. If multiple criteria within a factor apply to a digital worker, agencies should select the criterion with the highest score.
 
-**Table 1: Digital Worker Impact Evaluation Matrix[4](#fn:4)**
+**Table 1: Digital Worker Impact Evaluation Matrix[^4]**
 
 | Score each factor based on the most applicable scenario |   |
 | ----- | :---: |
