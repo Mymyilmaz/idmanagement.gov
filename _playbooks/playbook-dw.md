@@ -442,6 +442,7 @@ When a digital worker is no longer required or is being replaced, it should be d
 
 **Table 9: Deprovisioning Process**
 
+
 | ID | Action | Low | Moderate | High | Critical |
 | :---: | :---: | ----- | ----- | ----- | ----- |
 | DV-1 | Assess the ongoing need for the digital worker |  |  |  |  |
@@ -453,56 +454,72 @@ When a digital worker is no longer required or is being replaced, it should be d
 | DV-7 | Notify relevant stakeholders of deprovisioning |  |  |  |  |
 | DV-8 | Document deprovisioning process and maintain logs for auditing and reporting |  |  |  |  |
 
+
 ## Digital Worker Identity Management Checklist
 
 ### Step 1: Determine the Impact
 
 ☐ *1.1* **Ensure Proper Oversight**  
+
   Update enterprise identity management policies to include digital worker management.  
-  Collaborate with Information System Security Officers on digital worker identity management.  
+
+  Collaborate with Information System Security Officers on digital worker identity management.
+
     ☐ Verify security and non-functional requirements.  
     ☐ Conduct security and privacy assessments.  
     ☐ Perform executable and vulnerability scans.  
     ☐ Review digital worker logic and decision-making design documents.
 
 ☐*1.2* **Score Risk Impact** 
+
   Use the Digital Worker Impact Evaluation Matrix to score the six factors of risk:  
+
     ☐ Is the digital worker attended or unattended?  
     ☐ What is the highest level of data access?
     ☐ Does the digital worker have internal and/or external network access?  
     ☐ What is the impact of the digital worker output?  
     ☐ What type of system account privileges does the digital worker require?  
     ☐ Does the digital worker act on its own insights?  
+
 *(Reference - Table 1. Digital Worker Impact Evaluation Matrix)*
 
 ☐*1.3* **Determine Adverse Impact Level**  
-  Calculate the total risk score to determine the adverse impact level:  
+
+  Calculate the total risk score to determine the adverse impact level: 
+
     ☐ Low (0-35)  
     ☐ Moderate (36-55)  
     ☐ High (56-90)  
     ☐ Critical (91+)  
+
 *(Reference - Table 2. Potential Adverse Impact Levels)*
 
 ### Step 2: Create an Identity
 
 ☐*2.1* **Assign a Sponsor and Custodian**  
+
   ☐ Assign a sponsor responsible for digital worker compliance.  
   ☐ Assign a custodian for day-to-day operational management.  
   ☐ Acknowledge responsibilities of sponsor and custodian initially and on a routine basis (annually or every six months depending on impact level).  
+
 *(Reference - Table 4. Sponsorship (SP) Process)*
 
 ☐*2.2* **Validate Worker Access**  
+
   ☐ Employ least privilege principle.  
   ☐ Ensure no separation-of-duty conflicts.  
   ☐ Conduct code reviews initially and after changes.  
   ☐ Complete ethics and bias reviews based on government standards.  
   ☐ Recertify acknowledgement of responsibilities for sponsor and custodian.  
+
 *(Reference - Table 5. Validation (VD) Process)*
 
 ### Step 3: Provision an Identity
 
 ☐*3.1* **Capture and Store Identity Management Data Elements**  
+
   Store identification and sponsorship elements in the Identity Management System (IDMS):  
+
     ☐ Digital Worker (Boolean)  
     ☐ Agency Unique User ID  
     ☐ First Name and Last Name  
@@ -510,10 +527,13 @@ When a digital worker is no longer required or is being replaced, it should be d
     ☐ Digital Worker Custodian Name  
     ☐ Digital Worker Description  
     ☐ Responsible Organization  
+
 *(Reference - Table 6. Identity Management System Data Fields)*
 
 ☐*3.2* **Capture and Store Identity Governance Data Elements**  
+
   Store the following data elements for governance:  
+
     ☐ Sponsor Date of Last Acknowledgment  
     ☐ Sponsor Acknowledgment Recertification Date  
     ☐ Level of Potential Adverse Impact  
@@ -525,11 +545,13 @@ When a digital worker is no longer required or is being replaced, it should be d
     ☐ Next Ethics Review Date  
     ☐ Bias Review Completion Date  
     ☐ Next Bias Review Date  
+
 *(Reference - Table 7. Identity Governance Data Elements)*
 
 ### Step 4: Maintain and Deprovision Identity
 
 ☐*4.1* **Continuous Behavioral Monitoring**  
+
   ☐ Establish continuous monitoring procedures.  
   ☐ Use automated tools for real-time alerts.  
   ☐ Develop an incident response plan.  
@@ -537,9 +559,11 @@ When a digital worker is no longer required or is being replaced, it should be d
   ☐ Conduct regular drills and exercises.  
   ☐ Perform regular reviews of performance, compliance, and access levels.  
   ☐ Recertify sponsor and custodian acknowledgments at the required intervals.  
+
 *(Reference - Table 8: Continuous Monitoring Process)*
 
 ☐*4.2* **Deprovision Digital Worker**  
+
   ☐ Assess the need for the digital worker.  
   ☐ Backup critical data and configurations.  
   ☐ Archive relevant logs, configurations, operational data, and access records.  
@@ -548,6 +572,7 @@ When a digital worker is no longer required or is being replaced, it should be d
   ☐ Update the Identity Management System to indicate deactivation.  
   ☐ Notify relevant stakeholders of deprovisioning.  
   ☐ Document the deprovisioning process and maintain logs.  
+
 *(Reference - Table 9: Deprovisioning Process)*
 
 ## Conclusion
