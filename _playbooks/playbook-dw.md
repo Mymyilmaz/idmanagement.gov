@@ -179,7 +179,7 @@ Each factor has an associated score, and the sum of these six-factor scores is t
 
 **Table 1: Digital Worker Impact Evaluation Matrix**
 
-Info[^4]
+Info [^4]
 
 | Score each factor based on the most applicable scenario |   |
 | ----- | :---: |
@@ -266,7 +266,7 @@ Agencies may adjust recertification frequency, but should meet or exceed the rec
 
 **Table 4: Sponsorship (SP) Process** 
 
-ID[^5]
+ID [^5]
 
 |  ID | Action    | Low | Moderate | High | Critical |
 | :---: | ----- | :---: | :---: | :---: | :---: |
@@ -498,19 +498,19 @@ When a digital worker is no longer required or is being replaced, it should be d
 
 ☐*2.1* **Assign a Sponsor and Custodian**  
 
-  ☐ Assign a sponsor responsible for digital worker compliance.  
-  ☐ Assign a custodian for day-to-day operational management.  
-  ☐ Acknowledge responsibilities of sponsor and custodian initially and on a routine basis (annually or every six months depending on impact level).  
+    ☐ Assign a sponsor responsible for digital worker compliance.  
+    ☐ Assign a custodian for day-to-day operational management.  
+    ☐ Acknowledge responsibilities of sponsor and custodian initially and on a routine basis (annually or every six months depending on impact level).  
 
 *(Reference - Table 4. Sponsorship (SP) Process)*
 
 ☐*2.2* **Validate Worker Access**  
 
-  ☐ Employ least privilege principle.  
-  ☐ Ensure no separation-of-duty conflicts.  
-  ☐ Conduct code reviews initially and after changes.  
-  ☐ Complete ethics and bias reviews based on government standards.  
-  ☐ Recertify acknowledgement of responsibilities for sponsor and custodian.  
+    ☐ Employ least privilege principle.  
+    ☐ Ensure no separation-of-duty conflicts.  
+    ☐ Conduct code reviews initially and after changes.  
+    ☐ Complete ethics and bias reviews based on government standards.  
+    ☐ Recertify acknowledgement of responsibilities for sponsor and custodian.  
 
 *(Reference - Table 5. Validation (VD) Process)*
 
@@ -552,26 +552,26 @@ When a digital worker is no longer required or is being replaced, it should be d
 
 ☐*4.1* **Continuous Behavioral Monitoring**  
 
-  ☐ Establish continuous monitoring procedures.  
-  ☐ Use automated tools for real-time alerts.  
-  ☐ Develop an incident response plan.  
-  ☐ Define roles and responsibilities for incident response.  
-  ☐ Conduct regular drills and exercises.  
-  ☐ Perform regular reviews of performance, compliance, and access levels.  
-  ☐ Recertify sponsor and custodian acknowledgments at the required intervals.  
+    ☐ Establish continuous monitoring procedures.  
+    ☐ Use automated tools for real-time alerts.  
+    ☐ Develop an incident response plan.  
+    ☐ Define roles and responsibilities for incident response.  
+    ☐ Conduct regular drills and exercises.  
+    ☐ Perform regular reviews of performance, compliance, and access levels.  
+    ☐ Recertify sponsor and custodian acknowledgments at the required intervals.  
 
 *(Reference - Table 8: Continuous Monitoring Process)*
 
 ☐*4.2* **Deprovision Digital Worker**  
 
-  ☐ Assess the need for the digital worker.  
-  ☐ Backup critical data and configurations.  
-  ☐ Archive relevant logs, configurations, operational data, and access records.  
-  ☐ Remove the digital worker’s access to all systems and networks.  
-  ☐ Disable or remove associated system accounts.  
-  ☐ Update the Identity Management System to indicate deactivation.  
-  ☐ Notify relevant stakeholders of deprovisioning.  
-  ☐ Document the deprovisioning process and maintain logs.  
+    ☐ Assess the need for the digital worker.  
+    ☐ Backup critical data and configurations.  
+    ☐ Archive relevant logs, configurations, operational data, and access records.  
+    ☐ Remove the digital worker’s access to all systems and networks.  
+    ☐ Disable or remove associated system accounts.  
+    ☐ Update the Identity Management System to indicate deactivation.  
+    ☐ Notify relevant stakeholders of deprovisioning.  
+    ☐ Document the deprovisioning process and maintain logs.  
 
 *(Reference - Table 9: Deprovisioning Process)*
 
