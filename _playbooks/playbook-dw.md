@@ -138,7 +138,7 @@ This playbook is iterative, and agencies are encouraged to collaborate, share be
 - [Robotic Process Automation Community of Practice](https://digital.gov/communities/rpa/){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
 - [Artificial Intelligence Community of Practice](https://digital.gov/communities/artificial-intelligence/){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
 
-## Key Terms
+<!-- ## Key Terms
 
 This document uses the following key terms:
 
@@ -773,6 +773,6 @@ This digital worker impact level is Low. The effect of an error or accident is m
 2. OMB Memorandum M-19-17 instructs federal agencies to designate an integrated agency-wide ICAM office, team, or other governance structure in support of its Enterprise Risk Management capability to effectively govern and enforce ICAM efforts. [↩](#fnref:2)  
 3. The adverse impact levels are grounded in NIST Special Publication 800-30, Guide for Conducting Risk Assessments, but do not align with it. Agencies can adjust the impact levels to match agency risk tolerance. [↩](#fnref:3)  
 4. For more information on the methodology used to develop the Digital Worker Evaluation Matrix, see Appendix A. [↩](#fnref:4)  
-5. The ID number is specific to this playbook and does not map or correlate to requirements in other federal security publications. [↩](#fnref:5)
+5. The ID number is specific to this playbook and does not map or correlate to requirements in other federal security publications. [↩](#fnref:5) -->
 
 <!-- cjb 04.25.2025 -->
