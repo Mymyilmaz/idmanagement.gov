@@ -460,13 +460,13 @@ When a digital worker is no longer required or is being replaced, it should be d
 
 ### Step 1: Determine the Impact
 
-- ☐ *1.1* **Ensure Proper Oversight**  
+- [ ] *1.1* **Ensure Proper Oversight**  
   - Update enterprise identity management policies to include digital worker management.  
   - Collaborate with Information System Security Officers on digital worker identity management.
-    - ☐ Verify security and non-functional requirements.  
-    - ☐ Conduct security and privacy assessments.  
-    - ☐ Perform executable and vulnerability scans.  
-    - ☐ Review digital worker logic and decision-making design documents.
+    - [ ] Verify security and non-functional requirements.  
+    - [ ] Conduct security and privacy assessments.  
+    - [ ] Perform executable and vulnerability scans.  
+    - [ ] Review digital worker logic and decision-making design documents.
 
 - ☐ *1.2* **Score Risk Impact** 
   - Use the Digital Worker Impact Evaluation Matrix to score the six factors of risk:  
