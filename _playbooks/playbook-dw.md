@@ -11,7 +11,34 @@ version: 1.3
 pubdate: April 2025
 
 subnav:
-
+  - text: Executive Summary
+    href: '#executive-summary'
+  - text: Key Terms
+    href: '#key-terms'
+  - text: Disclaimer
+    href: '#disclaimer'
+  - text: A Four-Step Process for Digital Worker Identity Management
+    href: '#a-four-step-process-for-digital-worker-identity-management'
+  - text: Step 1. Determine the Impact
+    href: '#step-1-determine-the-impact'
+  - text: Step 2. Create an Identity
+    href: '#step-2-create-an-identity'
+  - text: Step 3. Provision an Identity
+    href: '#step-3-provision-an-identity'
+  - text: Step 4. Maintain and Deprovision Identity
+    href: '#step-4-maintain-and-deprovision-identity'
+  - text: Digital Worker Identity Management Checklist
+    href: '#digital-worker-identity-management-checklist'
+  - text: Conclusion
+    href: '#conclusion'
+  - text: Appendix A. Digital Worker Impact Evaluation Factors
+    href: '#appendix-a-digital-worker-impact-evaluation-factors'
+  - text: Appendix B. Critical Case Study
+    href: '#appendix-b-critical-case-study'
+  - text: Appendix C. Low Case Study
+    href: '#appendix-c-low-case-study'
+  - text: Footnotes
+    href: '#footnotes'
 
 ---
 
