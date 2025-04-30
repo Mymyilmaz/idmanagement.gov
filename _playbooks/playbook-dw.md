@@ -167,9 +167,12 @@ Ensure digital worker identity management has proper governance, score the funct
 The ICAM governance structure ensures enterprise identity management policies are updated to include digital worker management and use. For ICAM oversight and program management examples, see the [ICAM Program Management Playbook]({{site.baseurl}}/pm/){:target="_blank"}{:rel="noopener noreferrer"}.
 
 **Update the agency enterprise identity management policies to include digital worker identity management.**
-|       |       |
-| :---- | :---- |
-| Governance Collaboration Example | Before creating and provisioning a digital worker, the agency ICAM governance structure can collaborate with Information System Security Officers on digital worker identity management. Collaboration may include: ● Digital worker security and non-functional requirements verification ● Security and privacy assessments ● Executable, vulnerability and other scans ● Digital worker logic and decision-making design documents |
+
+<table class="usa-table">
+  <tr>
+    <td>Governance Collaboration Example</td>
+    <td>Before creating and provisioning a digital worker, the agency ICAM governance structure can collaborate with Information System Security Officers on digital worker identity management. Collaboration may include: <ul><li>Digital worker security and non-functional requirements verification</li><li>Security and privacy assessments</li><li>Executable, vulnerability and other scans</li><li>Digital worker logic and decision-making design documents</li></ul>
+</table>
 
 
 ### 1.2 Score Risk Impact
