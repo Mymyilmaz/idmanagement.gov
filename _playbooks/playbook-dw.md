@@ -262,9 +262,7 @@ Agencies may adjust recertification frequency, but should meet or exceed the rec
 
 {% include alert-success.html heading="Key Point" content="Agencies may decide that digital workers with low adverse impact levels do not require a digital identity. If an agency’s policy demands that all digital workers have a digital identity, they should follow the Moderate level process." %}
 
-**Table 4: Sponsorship (SP) Process**
-
-ID[^5]
+**Table 4: Sponsorship (SP) Process**[^5]
 
 |  ID | Action    | Low | Moderate | High | Critical |
 | :---: | ----- | :---: | :---: | :---: | :---: |
