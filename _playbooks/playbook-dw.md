@@ -11,65 +11,12 @@ version: 1.3
 pubdate: April 2025
 
 subnav:
-  - text: Executive Summary
-    href: '#executive-summary'
-  - text: Key Terms
-    href: '#key-terms'
-  - text: Disclaimer
-    href: '#disclaimer'
-  - text: A Four-Step Process for Digital Worker Identity Management
-    href: '#a-four-step-process-for-digital-worker-identity-management'
-  - text: Step 1\. Determine the Impact
-    href: '#step-1.-determine-the-impact'
-  - text: 1.1 Ensure Proper Oversight	
-    href: '#1.1-ensure-proper-oversight'
-  - text: 1.2 Score Risk Impact
-    href: '#1.2-score-risk-impact'
-  - text: 1.3 Determine Adverse Impact Level
-    href: '#1.3-determine-adverse-impact-level'
-  - text: Step 2\. Create an Identity
-    href: '#step-2.-create-an-identity'
-  - text: 2.1 Assign a Sponsor and Custodian
-    href: '#2.1-assign-a-sponsor-and-custodian'
-  - text: 2.2 Validate Worker Access
-    href: '#2.2-validate-worker-access'
-  - text: Step 3\. Provision an Identity
-    href: '#step-3.-provision-an-identity'
-  - text: 3.1 Capture and Store Identity Management Data Elements
-    href: '#3.1-capture-and-store-identity-management-data-elements'
-  - text: 3.2 Capture and Store Identity Governance Data Elements
-    href: '#3.2-capture-and-store-identity-governance-data-elements'
-  - text: Step 4\. Maintain and Deprovision Identity
-    href: '#step-4.-maintain-and-deprovision-identity'
-  - text: 4.1 Continuous Behavioral Monitoring
-    href: '#4.1-continuous-behavioral-monitoring'
-  - text: 4.2 Deprovision Digital Worker
-    href: '#4.2-deprovision-digital-worker'
-  - text: Digital Worker Identity Management Checklist
-    href: '#digital-worker-identity-management-checklist'
-  - text: "Step 1: Determine the Impact"
-    href: '#step-1:-determine-the-impact'
-  - text: "Step 2: Create an Identity"
-    href: '#step-2:-create-an-identity'
-  - text: "Step 3: Provision an Identity
-    href: '#step-3:-provision-an-identity'
-  - text: "Step 4: Maintain and Deprovision Identity"
-    href: '#step-4:-maintain-and-deprovision-identity'
-  - text: Conclusion
-    href: '#conclusion'
-  - text: Appendix A. Digital Worker Impact Evaluation Factors
-    href: '#appendix-a.-digital-worker-impact-evaluation-factors'
-  - text: Appendix B. Critical Case Study
-    href: '#appendix-b.-critical-case-study'
-  - text: Appendix C. Low Case Study
-    href: '#appendix-c.-low-case-study'
-  - text: Footnotes
-    href: '#footnotes'
+
 
 ---
 
-<img src="{{site.baseurl}}/assets/logo/logo-gsa.png" width="64" height='64' align="left" alt="U.S. General Services Administration Logo">
-<img src="{{site.baseurl}}/assets/logo/logo-cio-round.png" width="64" height='64' align="left" alt="U.S. Federal Chief Information Officer Council Logo"><br><br><br>
+<img src="{{site.baseurl}}/assets/logo/logo-gsa.png" width="64" height="64" align="left" alt="U.S. General Services Administration Logo">
+<img src="{{site.baseurl}}/assets/logo/logo-cio-round.png" width="64" height="64" align="left" alt="U.S. Federal Chief Information Officer Council Logo"><br><br><br>
 
 This playbook is a collaboration between the Identity, Credential, and Access Management Subcommittee of the Federal Chief Information Security Officer (CISO) Council and the General Services Administration Office of Government-wide Policy identity Assurance and Trusted Access Division
 
@@ -138,7 +85,7 @@ This playbook is iterative, and agencies are encouraged to collaborate, share be
 - [Robotic Process Automation Community of Practice](https://digital.gov/communities/rpa/){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
 - [Artificial Intelligence Community of Practice](https://digital.gov/communities/artificial-intelligence/){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
 
-<!-- ## Key Terms
+## Key Terms
 
 This document uses the following key terms:
 
@@ -773,6 +720,6 @@ This digital worker impact level is Low. The effect of an error or accident is m
 2. OMB Memorandum M-19-17 instructs federal agencies to designate an integrated agency-wide ICAM office, team, or other governance structure in support of its Enterprise Risk Management capability to effectively govern and enforce ICAM efforts. [↩](#fnref:2)  
 3. The adverse impact levels are grounded in NIST Special Publication 800-30, Guide for Conducting Risk Assessments, but do not align with it. Agencies can adjust the impact levels to match agency risk tolerance. [↩](#fnref:3)  
 4. For more information on the methodology used to develop the Digital Worker Evaluation Matrix, see Appendix A. [↩](#fnref:4)  
-5. The ID number is specific to this playbook and does not map or correlate to requirements in other federal security publications. [↩](#fnref:5) -->
+5. The ID number is specific to this playbook and does not map or correlate to requirements in other federal security publications. [↩](#fnref:5)
 
 <!-- cjb 04.25.2025 -->
