@@ -516,18 +516,15 @@ When a digital worker is no longer required or is being replaced, it should be d
 
 ### Step 3: Provision an Identity
 
-☐*3.1* **Capture and Store Identity Management Data Elements**  
-
+[] *3.1* **Capture and Store Identity Management Data Elements**  
   Store identification and sponsorship elements in the Identity Management System (IDMS):  
-
-    ☐ Digital Worker (Boolean)  
-    ☐ Agency Unique User ID  
-    ☐ First Name and Last Name  
-    ☐ Digital Worker Sponsor Name  
-    ☐ Digital Worker Custodian Name  
-    ☐ Digital Worker Description  
-    ☐ Responsible Organization  
-
+    [] Digital Worker (Boolean)  
+    [] Agency Unique User ID  
+    [] First Name and Last Name  
+    [] Digital Worker Sponsor Name  
+    [] Digital Worker Custodian Name  
+    [] Digital Worker Description  
+    [] Responsible Organization  
 *(Reference - Table 6. Identity Management System Data Fields)*
 
 ☐*3.2* **Capture and Store Identity Governance Data Elements**  
@@ -562,7 +559,7 @@ When a digital worker is no longer required or is being replaced, it should be d
 
 *(Reference - Table 8: Continuous Monitoring Process)*
 
-☐*4.2* **Deprovision Digital Worker**  
+☐ *4.2* **Deprovision Digital Worker**  
 
     ☐ Assess the need for the digital worker.  
     ☐ Backup critical data and configurations.  
