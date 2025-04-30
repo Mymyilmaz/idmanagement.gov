@@ -167,9 +167,10 @@ Ensure digital worker identity management has proper governance, score the funct
 The ICAM governance structure ensures enterprise identity management policies are updated to include digital worker management and use. For ICAM oversight and program management examples, see the [ICAM Program Management Playbook]({{site.baseurl}}/pm/){:target="_blank"}{:rel="noopener noreferrer"}.
 
 **Update the agency enterprise identity management policies to include digital worker identity management.**
-
-| Governance Collaboration Example | Before creating and provisioning a digital worker, the agency ICAM governance structure can collaborate with Information System Security Officers on digital worker identity management. Collaboration may include: ● Digital worker security and non-functional requirements verification ● Security and privacy assessments ● Executable, vulnerability and other scans ● Digital worker logic and decision-making design documents |
+|       |       |
 | :---- | :---- |
+| Governance Collaboration Example | Before creating and provisioning a digital worker, the agency ICAM governance structure can collaborate with Information System Security Officers on digital worker identity management. Collaboration may include: ● Digital worker security and non-functional requirements verification ● Security and privacy assessments ● Executable, vulnerability and other scans ● Digital worker logic and decision-making design documents |
+
 
 ### 1.2 Score Risk Impact
 
@@ -475,6 +476,7 @@ When a digital worker is no longer required or is being replaced, it should be d
     - ☐ What is the impact of the digital worker output?  
     - ☐ What type of system account privileges does the digital worker require?  
     - ☐ Does the digital worker act on its own insights?  
+
 *(Reference - Table 1. Digital Worker Impact Evaluation Matrix)*
 
 - ☐ *1.3* **Determine Adverse Impact Level**  
@@ -483,6 +485,7 @@ When a digital worker is no longer required or is being replaced, it should be d
     - ☐ Moderate (36-55)  
     - ☐ High (56-90)  
     - ☐ Critical (91+)  
+
 *(Reference - Table 2. Potential Adverse Impact Levels)*
 
 ### Step 2: Create an Identity
@@ -491,6 +494,7 @@ When a digital worker is no longer required or is being replaced, it should be d
     - ☐ Assign a sponsor responsible for digital worker compliance.  
     - ☐ Assign a custodian for day-to-day operational management.  
     - ☐ Acknowledge responsibilities of sponsor and custodian initially and on a routine basis (annually or every six months depending on impact level).  
+
 *(Reference - Table 4. Sponsorship (SP) Process)*
 
 - ☐ *2.2* **Validate Worker Access**  
@@ -499,6 +503,7 @@ When a digital worker is no longer required or is being replaced, it should be d
   - ☐ Conduct code reviews initially and after changes.  
   - ☐ Complete ethics and bias reviews based on government standards.  
   - ☐ Recertify acknowledgement of responsibilities for sponsor and custodian.  
+
 *(Reference - Table 5. Validation (VD) Process)*
 
 ### Step 3: Provision an Identity
@@ -512,6 +517,7 @@ When a digital worker is no longer required or is being replaced, it should be d
     - ☐ Digital Worker Custodian Name  
     - ☐ Digital Worker Description  
     - ☐ Responsible Organization  
+
 *(Reference - Table 6. Identity Management System Data Fields)*
 
 - ☐ *3.2* **Capture and Store Identity Governance Data Elements**  
@@ -527,6 +533,7 @@ When a digital worker is no longer required or is being replaced, it should be d
     - ☐ Next Ethics Review Date  
     - ☐ Bias Review Completion Date  
     - ☐ Next Bias Review Date  
+
 *(Reference - Table 7. Identity Governance Data Elements)*
 
 ### Step 4: Maintain and Deprovision Identity
@@ -539,6 +546,7 @@ When a digital worker is no longer required or is being replaced, it should be d
     - ☐ Conduct regular drills and exercises.  
     - ☐ Perform regular reviews of performance, compliance, and access levels.  
     - ☐ Recertify sponsor and custodian acknowledgments at the required intervals.  
+
 *(Reference - Table 8: Continuous Monitoring Process)*
 
 - ☐ *4.2* **Deprovision Digital Worker**  
@@ -550,6 +558,7 @@ When a digital worker is no longer required or is being replaced, it should be d
     - ☐ Update the Identity Management System to indicate deactivation.  
     - ☐ Notify relevant stakeholders of deprovisioning.  
     - ☐ Document the deprovisioning process and maintain logs.  
+
 *(Reference - Table 9: Deprovisioning Process)*
 
 ## Conclusion
