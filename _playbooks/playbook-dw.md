@@ -746,7 +746,7 @@ Table 17 presents the Impact Evaluation Matrix for this digital worker.
 | Digital Worker Impact Evaluation Matrix |   |
 | ----- | ----- |
 | Factor 1 - Is the digital worker attended or unattended? | Score |
-| ● Unattended | 10 |
+|  - Unattended | 10 |
 | Factor 2 - What is the highest level of sensitive data access? |   |
 | ● Data available to the public (either without a user account or with unvetted user account) | 0 |
 | Factor 3 - Does the digital worker have network access? |   |
