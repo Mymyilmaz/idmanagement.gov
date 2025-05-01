@@ -109,8 +109,8 @@ Federal agencies use digital workers to automate processes, increase efficiencie
 This playbook is iterative, and agencies are encouraged to collaborate, share best practices, and share lessons learned. Federal employees may consider joining a relevant committee or community of practice to learn and engage in digital worker identity management.
 
 - [Identity, Credential, and Access Management subcommittee (ICAMSC)](https://community.max.gov/pages/viewpage.action?pageId=234815732){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
-<!-- - [Robotic Process Automation Community of Practice](https://digital.gov/communities/rpa/){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
-- [Artificial Intelligence Community of Practice](https://digital.gov/communities/artificial-intelligence/){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} -->
+<!-- [Robotic Process Automation Community of Practice](https://digital.gov/communities/rpa/){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
+[Artificial Intelligence Community of Practice](https://digital.gov/communities/artificial-intelligence/){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} -->
 
 ## Key Terms
 
