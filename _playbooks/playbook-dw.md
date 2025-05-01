@@ -704,7 +704,7 @@ After the sponsorship and validation activities are complete and documented, the
 
 **Table 18: Critical Case Study Data Fields**
 
-|   | Identity Management System Data Fields (DF) |   |
+| &nbp;&nbp;&nbp;&nbp;  | Identity Management System Data Fields (DF) |   |
 | :----: | :----: | ----- |
 |  DF-1  | Digital Worker *(new field)* | True |
 |  DF-2  | Agency Unique User ID *(existing field)* | Diagnosis.DW01@agency.gov |
