@@ -690,13 +690,13 @@ The hospital digital worker in this case study has a *Critical* adverse impact
 | :---: | :---: |
 |    ID    | Critical Actions |
 | SP-1 | The business owner documents the business need to use a digital worker. |
-| SP-2 SP-3 | The CISO reviews the business need and assigns the systems Information Security System Manager (ISSM) as sponsor. The CISO notifies the ISSM, and the ISSM electronically signs an acknowledgment letter every six months. |
-| SP-4 SP-5 | As sponsor, the ISSM assigns and notifies the contractor maintaining the digital worker of their responsibility as custodian. |
-| SP-6 | The contractor, as custodian, acknowledges their assignment and responsibility every six months. |
+| SP-2 SP-3  | The CISO reviews the business need and assigns the systems Information Security System Manager (ISSM) as sponsor. The CISO notifies the ISSM, and the ISSM electronically signs an acknowledgment letter every six months. |
+| SP-4 SP-5  | As sponsor, the ISSM assigns and notifies the contractor maintaining the digital worker of their responsibility as custodian. |
+| SP-6  | The contractor, as custodian, acknowledges their assignment and responsibility every six months. |
 |   | Hospital Digital Worker Validation (VD) |
-| VD-1 | The ISSM, as sponsor, reviews the digital worker design document with the ISSO to verify a level of access that employs least privilege. They verify a standard system account is necessary. |
-| VD-2 | The ISSM and ISSO validate that the standard system account does not create a separation-of-duty conflict with a human user. |
-| VD-3 | The ISSM verifies a code review was conducted with the business owner and sets a reminder to verify a code review every six months. |
+| VD-1  | The ISSM, as sponsor, reviews the digital worker design document with the ISSO to verify a level of access that employs least privilege. They verify a standard system account is necessary. |
+| VD-2  | The ISSM and ISSO validate that the standard system account does not create a separation-of-duty conflict with a human user. |
+| VD-3  | The ISSM verifies a code review was conducted with the business owner and sets a reminder to verify a code review every six months. |
 | VD-4 VD-5 | The ISSM verifies with the ethics office that the digital worker output is in line with agency ethics and bias standards and sets a reminder to verify that fact with the ethics office every six months. |
 | VD-6 VD-7 | The ISSM and contractor, as sponsor and custodian, recertify acknowledgment of responsibility for the digital worker and set a reminder to conduct this action every six months. |
 
@@ -706,26 +706,26 @@ After the sponsorship and validation activities are complete and documented, the
 
 |   | Identity Management System Data Fields (DF) |   |
 | :----: | :----: | ----- |
-| DF-1 | Digital Worker *(new field)* | True |
-| DF-2 | Agency Unique User ID *(existing field)* | Diagnosis.DW01@agency.gov |
-| DF-3 | First Name and Last Name *(existing fields)* | Diagnosis DW01 |
-| DF-4 | Digital Worker Sponsor Name *(new field[s])* | Jane ISSM |
-| DF-5 | Digital Worker Custodian Name *(new field[s])* | Stacy Contractor |
-| DF-6 | Digital Worker Description *(optional new field)* | N/A |
-| DF-7 | Responsible Organization *(optional new field)* | Patient Health Division |
-|   | Additional Identity Governance Data Fields |   |
-| DF-8 | DW Sponsor Acknowledgment Date | 09/1/2020 |
-| DF-9 | DW Sponsor Acknowledgment Recertification Date *(optional)* | 02/1/2021 |
-| DF-10 | DW Level of Potential Adverse Impact | Critical |
-| DF-11 | DW Custodian Acknowledgment Date | 09/10/2020 |
-| DF-12 | DW Custodian Acknowledgment Recertification Date *(optional)* | 02/10/2021 |
-| DF-13 | DW Approved Source Internet Protocol (IP) Address Range *(only for High and Critical)* | 192.168.0.0/16 |
-| DF-14 | DW Code Review Completion Date *(optional)* | 07/04/2020 |
-| DF-15 | DW Next Code Review Date *(optional)* | 01/04/2021 |
-| DF-16 | DW Ethics Review Completion Date | 07/11/2020 |
-| DF-17 | DW Next Ethics Review Date *(optional)* | 01/11/2021 |
-| DF-18 | DW Bias Review Completion Date | 07/11/2020 |
-| DF-19 | DW Next Bias Review Date *(optional)* | 01/11/2021 |
+|  DF-1  | Digital Worker *(new field)* | True |
+|  DF-2  | Agency Unique User ID *(existing field)* | Diagnosis.DW01@agency.gov |
+|  DF-3  | First Name and Last Name *(existing fields)* | Diagnosis DW01 |
+|  DF-4  | Digital Worker Sponsor Name *(new field[s])* | Jane ISSM |
+|  DF-5  | Digital Worker Custodian Name *(new field[s])* | Stacy Contractor |
+|  DF-6  | Digital Worker Description *(optional new field)* | N/A |
+|  DF-7  | Responsible Organization *(optional new field)* | Patient Health Division |
+|        | Additional Identity Governance Data Fields |   |
+|  DF-8  | DW Sponsor Acknowledgment Date | 09/1/2020 |
+|  DF-9  | DW Sponsor Acknowledgment Recertification Date *(optional)* | 02/1/2021 |
+|  DF-10 | DW Level of Potential Adverse Impact | Critical |
+|  DF-11 | DW Custodian Acknowledgment Date | 09/10/2020 |
+|  DF-12 | DW Custodian Acknowledgment Recertification Date *(optional)* | 02/10/2021 |
+|  DF-13 | DW Approved Source Internet Protocol (IP) Address Range *(only for High and Critical)* | 192.168.0.0/16 |
+|  DF-14 | DW Code Review Completion Date *(optional)* | 07/04/2020 |
+|  DF-15 | DW Next Code Review Date *(optional)* | 01/04/2021 |
+|  DF-16 | DW Ethics Review Completion Date | 07/11/2020 |
+|  DF-17 | DW Next Ethics Review Date *(optional)* | 01/11/2021 |
+|  DF-18 | DW Bias Review Completion Date | 07/11/2020 |
+|  DF-19 | DW Next Bias Review Date *(optional)* | 01/11/2021 |
 
 ## Appendix C. Low Case Study
 
