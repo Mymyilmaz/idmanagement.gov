@@ -273,7 +273,7 @@ Agencies may adjust recertification frequency, but should meet or exceed the rec
 
 **Table 4: Sponsorship (SP) Process** 
 
-ID[^5]
+ID [^5] 
 
 |  ID | Action    | Low | Moderate | High | Critical |
 | :---: | ----- | :---: | :---: | :---: | :---: |
