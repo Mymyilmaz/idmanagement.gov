@@ -273,7 +273,7 @@ Agencies may adjust recertification frequency, but should meet or exceed the rec
 
 
 
-|  ID \[^5\] | Action    | Low | Moderate | High | Critical |
+|  ID [^5] | Action    | Low | Moderate | High | Critical |
 | :---: | ----- | :---: | :---: | :---: | :---: |
 | SP-1 | Document a business need for the digital worker. | N/A | ✓ | ✓ | ✓ |
 | SP-2 | Assign an organizational sponsor for the digital worker. | N/A | ✓ | ✓ | ✓ Suggested CIO, CISO, or equivalent |
