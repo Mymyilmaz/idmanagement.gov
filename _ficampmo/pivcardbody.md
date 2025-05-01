@@ -6,8 +6,8 @@ permalink: /pivcardbody/
 sidenav: functions
 sticky_sidenav: true
 
-pubdate: April 2023
-version: 11.0.0
+pubdate: May 2025
+version: 11.1.0
 
 subnav:
 #   - text: 
@@ -201,8 +201,8 @@ subnav:
         <tr>
             <th scope="row"></th>
             <td>11.0.0</td>
-            <td>04/23/2025</td>
-            <td>Converted PDF to Markdown</td>
+            <td>05/10/2025</td>
+            <td>Updated this version based on feedback from the community. Documenting that Version 11.1.0 is based on NIST FIPS 201-3, SP 800-78-4, SP 800-76-2, and SP 800-73-4.</td>
             <td>Public</td>
         </tr>
     </table>
@@ -213,10 +213,11 @@ subnav:
 
 ### 1.1 Overview
 
-The FIPS 201 Evaluation Program (EP) is a federal compliance program administered by the Office of Government-wide Policy (OGP), within the General Services Administration (GSA) agency. The FIPS 201 Evaluation Program (EP) evaluates products and services against the requirements outlined in FIPS 201 and its supporting documents. In addition to test requirements developed to test conformance to the National Institute of Standards and Technology (NIST) specifications, GSA has established interoperability and performance metrics to further determine product suitability. To qualify as an Evaluation Lab (Lab) for the GSA FIPS 201 EP, the laboratory shall have received NIST National Voluntary Laboratory Accreditation Program
-(NVLAP) accreditation (refer to NIST HB 150-17e2022, Annex D), to perform FIPS 201 conformance testing on products submitted by the suppliers/ vendors. A set of approval procedures have been developed which outline the evaluation criteria, approval mechanisms, and validation test reports to be employed and provided by the Evaluation Laboratory during their evaluation of a Supplier’s product against the requirements for that category.
+The FIPS 201 Evaluation Program (EP) is a federal compliance program administered by the Office of Government-wide Policy (OGP) within the General Services Administration (GSA). The FIPS 201 Evaluation Program (EP) evaluates products and services against the requirements outlined in FIPS 201 and its supporting documents. In addition to test requirements developed to test conformance to the National Institute of Standards and Technology (NIST) specifications, GSA has established interoperability and performance metrics to further determine product suitability. To qualify as an Evaluation Lab (Lab) for the GSA FIPS 201 EP, the laboratory shall have received either NIST National Voluntary Laboratory Accreditation Program (NVLAP) accreditation (refer to NIST HB 150-17e2022, Annex D) or the International Organization of Standards (ISO) 17025 to perform FIPS 201 conformance testing review on products submitted by the Card Manufacturers, or Suppliers/Vendors (Applicant). A set of approval procedures has been developed that outlines the evaluation criteria, approval mechanisms, and validation test reports to be employed and provided by the Lab when evaluating an Applicant’s product against the requirements for that category.
 
-A Vendor/Supplier desiring to submit a PIV Card body (hereafter referred to as the Product) for evaluation must follow these Approval Procedures, which provide the necessary category-specific details to have a Supplier’s Product evaluated by the EP and placed on the Approved Products List (APL).
+An Applicant desiring to submit a PIV Card body (hereafter referred to as the Product) for evaluation must follow these Approval Procedures. These procedures provide the necessary category-specific details for the EP to evaluate an Applicant’s Product and place it on the Approved Products List (APL).
+
+If you have any questions or need clarification regarding the PIV Card Body APL process, please contact the FIPS 201 Evaluation Program at [fips201ep@gsa.gov](mailto:fips201ep@gsa.gov).
 
 ### 1.2 Category Description
 
