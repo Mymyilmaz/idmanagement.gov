@@ -706,26 +706,26 @@ After the sponsorship and validation activities are complete and documented, the
 
 |          | Identity Management System Data Fields (DF) |   |
 | :------: | :---: | ----- |
-|  DF-1  | Digital Worker *(new field)* | True |
-|  DF-2  | Agency Unique User ID *(existing field)* | Diagnosis.DW01@agency.gov |
-|  DF-3  | First Name and Last Name *(existing fields)* | Diagnosis DW01 |
-|  DF-4  | Digital Worker Sponsor Name *(new field[s])* | Jane ISSM |
-|  DF-5  | Digital Worker Custodian Name *(new field[s])* | Stacy Contractor |
-|  DF-6  | Digital Worker Description *(optional new field)* | N/A |
-|  DF-7  | Responsible Organization *(optional new field)* | Patient Health Division |
-|        | Additional Identity Governance Data Fields |   |
-|  DF-8  | DW Sponsor Acknowledgment Date | 09/1/2020 |
-|  DF-9  | DW Sponsor Acknowledgment Recertification Date *(optional)* | 02/1/2021 |
-|  DF-10 | DW Level of Potential Adverse Impact | Critical |
-|  DF-11 | DW Custodian Acknowledgment Date | 09/10/2020 |
-|  DF-12 | DW Custodian Acknowledgment Recertification Date *(optional)* | 02/10/2021 |
-|  DF-13 | DW Approved Source Internet Protocol (IP) Address Range *(only for High and Critical)* | 192.168.0.0/16 |
-|  DF-14 | DW Code Review Completion Date *(optional)* | 07/04/2020 |
-|  DF-15 | DW Next Code Review Date *(optional)* | 01/04/2021 |
-|  DF-16 | DW Ethics Review Completion Date | 07/11/2020 |
-|  DF-17 | DW Next Ethics Review Date *(optional)* | 01/11/2021 |
-|  DF-18 | DW Bias Review Completion Date | 07/11/2020 |
-|  DF-19 | DW Next Bias Review Date *(optional)* | 01/11/2021 |
+|  DF-1   | Digital Worker *(new field)* | True |
+|  DF-2   | Agency Unique User ID *(existing field)* | Diagnosis.DW01@agency.gov |
+|  DF-3   | First Name and Last Name *(existing fields)* | Diagnosis DW01 |
+|  DF-4   | Digital Worker Sponsor Name *(new field[s])* | Jane ISSM |
+|  DF-5   | Digital Worker Custodian Name *(new field[s])* | Stacy Contractor |
+|  DF-6   | Digital Worker Description *(optional new field)* | N/A |
+|  DF-7   | Responsible Organization *(optional new field)* | Patient Health Division |
+|         | Additional Identity Governance Data Fields |   |
+|  DF-8   | DW Sponsor Acknowledgment Date | 09/1/2020 |
+|  DF-9   | DW Sponsor Acknowledgment Recertification Date *(optional)* | 02/1/2021 |
+|  DF-10  | DW Level of Potential Adverse Impact | Critical |
+|  DF-11  | DW Custodian Acknowledgment Date | 09/10/2020 |
+|  DF-12  | DW Custodian Acknowledgment Recertification Date *(optional)* | 02/10/2021 |
+|  DF-13  | DW Approved Source Internet Protocol (IP) Address Range *(only for High and Critical)* | 192.168.0.0/16 |
+|  DF-14  | DW Code Review Completion Date *(optional)* | 07/04/2020 |
+|  DF-15  | DW Next Code Review Date *(optional)* | 01/04/2021 |
+|  DF-16  | DW Ethics Review Completion Date | 07/11/2020 |
+|  DF-17  | DW Next Ethics Review Date *(optional)* | 01/11/2021 |
+|  DF-18  | DW Bias Review Completion Date | 07/11/2020 |
+|  DF-19  | DW Next Bias Review Date *(optional)* | 01/11/2021 |
 
 ## Appendix C. Low Case Study
 
