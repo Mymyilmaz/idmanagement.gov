@@ -228,9 +228,9 @@ The PIV Card is a smart card with contact and contactless interfaces that meet t
 The purpose of this document is to provide the following information:
 
 <ol type="i">
-    <li>Provide a list of the artifacts, forms and/or documentation that must be submitted bythe Evaluation Lab (Lab) to the FIPS 201 EP as part of the application package submission.</li>
-    <li>Document the requirements that apply to the PIV Card body evaluation.</li>
-    <li>Specify the evaluation criteria along with their approval mechanisms that the Evaluation Labs will use to verify compliance of the Product against the requirements that apply to this category.</li>
+    <li>Provide a list of the artifacts, forms, and/or documentation that must be submitted by the Evaluation Lab (Lab) to the FIPS 201 EP as part of the application package submission.</li>
+    <li>Document the requirements that apply to the PIV Card Body evaluation.</li>
+    <li>Specify the evaluation criteria and approval mechanisms that the Labs will use to verify the Product's compliance with the requirements that apply to this category.</li>
 </ol>
 
 ## 2 Application Package Contents
