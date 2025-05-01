@@ -437,7 +437,7 @@ Privileged users are at the core of protecting federal information technology as
 The following documentation references help inform the development and direction of a privileged user program.
 
 1. [National Insider Threat Policy, November 2012](https://www.dni.gov/files/NCSC/documents/nittf/National_Insider_Threat_Policy.pdf){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} 
-   -  This policy sets two priorities to strengthen the protection and safeguarding of classified information. It also references [Executive Order 13587 (October 2011)](https://www.dni.gov/files/NCSC/documents/nittf/EO_13587.pdf){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} as the primary authority to establish insider threat programs.
+   -  This policy sets two priorities to strengthen the protection and safeguarding of classified information. It also references [Executive Order 13587 (October 2011)](https://obamawhitehouse.archives.gov/the-press-office/2011/10/07/executive-order-13587-structural-reforms-improve-security-classified-net){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} as the primary authority to establish insider threat programs.
       1. Create the Insider Threat Task Force.
       2. Set the minimum standards for Executive Branch Insider Threat programs.
    
