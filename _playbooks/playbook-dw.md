@@ -126,7 +126,7 @@ The list below includes the most common types of digital workers.
 
 ## Disclaimer
 
-The General Services Administration Office of Government-wide Policy developed this playbook with input from federal IT practitioners. This document should not be interpreted as official policy or mandated action, and it does not provide authoritative definitions for IT terms. Instead, this playbook supplements existing federal IT policies and builds on OMB Memorandum M-19-17, Enabling Mission Delivery Through Improved Identity, Credential, and Access Management and existing federal identity guidance and playbooks. Subject areas with intersecting scope, such as the ethical use and development of digital workers, are considered only to the extent that they relate to digital identity management and credentialing for digital workers. Specific security control implementations are outside the scope of this playbook, as are any elements of data protection requirements and the suitability process for a digital worker sponsor and custodian.
+The General Services Administration Office of Government-wide Policy developed this playbook with input from federal IT practitioners. This document should not be interpreted as official policy or mandated action, and it does not provide authoritative definitions for IT terms. Instead, this playbook supplements existing federal IT policies and builds on OMB Memorandum M-19-17[^2], Enabling Mission Delivery Through Improved Identity, Credential, and Access Management and existing federal identity guidance and playbooks. Subject areas with intersecting scope, such as the ethical use and development of digital workers, are considered only to the extent that they relate to digital identity management and credentialing for digital workers. Specific security control implementations are outside the scope of this playbook, as are any elements of data protection requirements and the suitability process for a digital worker sponsor and custodian.
 
 ## A Four-Step Process for Digital Worker Identity Management 
 
@@ -186,7 +186,7 @@ Each factor has an associated score, and the sum of these six-factor scores is t
 
 **Table 1: Digital Worker Impact Evaluation Matrix**
 
-Info[^4]
+Info [^4]
 
 | Score each factor based on the most applicable scenario |   |
 | ----- | :---: |
@@ -353,7 +353,7 @@ Agencies may store and track identity governance data elements in an existing sy
 
 **Table 7: Identity Governance Data Elements**
 
-|   ID       | Data Element | Additional Guidance |
+|   ID  | Data Element | Additional Guidance |
 | :---: | :---: | ----- |
 | DF-8 | Digital Worker Sponsor Date of Last Acknowledgment | *Specify the date the sponsor last acknowledged responsibility for the digital worker. Recommend including the date in the format specified by agency guidelines (e.g., 01/01/2020).* |
 | DF-9 | Digital Worker Date of Sponsor Acknowledgment Recertification *(optional)* | *Track when the sponsor acknowledgment must be recertified. It can be tracked as a formula based on the last acknowledgment date and adverse impact level requirements, or a format and method specified by agency guidelines.* |
