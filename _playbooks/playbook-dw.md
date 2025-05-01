@@ -184,9 +184,7 @@ Risk impact requires calculation of a risk score across six factors, based on wo
 
 Each factor has an associated score, and the sum of these six-factor scores is the overall impact score. If multiple criteria within a factor apply to a digital worker, agencies should select the criterion with the highest score.
 
-**Table 1: Digital Worker Impact Evaluation Matrix**
-
-Info [^4]
+**Table 1: Digital Worker Impact Evaluation Matrix** [^4] 
 
 | Score each factor based on the most applicable scenario |   |
 | ----- | :---: |
@@ -273,9 +271,9 @@ Agencies may adjust recertification frequency, but should meet or exceed the rec
 
 **Table 4: Sponsorship (SP) Process** 
 
-ID [^5] 
 
-|  ID | Action    | Low | Moderate | High | Critical |
+
+|  ID \[^5\] | Action    | Low | Moderate | High | Critical |
 | :---: | ----- | :---: | :---: | :---: | :---: |
 | SP-1 | Document a business need for the digital worker. | N/A | ✓ | ✓ | ✓ |
 | SP-2 | Assign an organizational sponsor for the digital worker. | N/A | ✓ | ✓ | ✓ Suggested CIO, CISO, or equivalent |
