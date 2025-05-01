@@ -517,7 +517,6 @@ This playbook is a comprehensive guide for agencies to have a common understandi
 ### Government Guidance
 
 - [Increasing Threat of DeepFake Identities](https://www.dhs.gov/sites/default/files/publications/increasing_threats_of_deepfake_identities_0.pdf){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
-- [Increasing Threats of Deepfake Identities – Phase 2: Mitigation Measures](https://www.dhs.gov/sites/default/files/2022-10/AEP%20DeepFake%20PHASE2%20FINAL%20corrected20221006.pdf){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
 
 ## Appendix B - Outside References
 
