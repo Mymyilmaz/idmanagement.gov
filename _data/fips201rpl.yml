@@ -641,15 +641,16 @@
   reason: 'CMVP certificate is now historical.'
   status: post
 
-- category: 'PIV Card'
-  supplier: 'Giesecke + Devrient Mobile Security'
-  nameProduct: 'SmartCafe Expert 7.0 with HID Global ActivID Applet v2.7.5'
-  numberProduct: '50192769'
-  dateRemoval: 07/01/2024
-  dateCode: 2024-07-01
-  numberApl: '1429'
-  reason: 'CMVP certificate is now historical.'
-  status: post
+# Removed from RPL per request of vendor via James (05/01/2025) 
+# - category: 'PIV Card'
+#   supplier: 'Giesecke + Devrient Mobile Security'
+#   nameProduct: 'SmartCafe Expert 7.0 with HID Global ActivID Applet v2.7.5'
+#   numberProduct: '50192769'
+#   dateRemoval: 07/01/2024
+#   dateCode: 2024-07-01
+#   numberApl: '1429'
+#   reason: 'CMVP certificate is now historical.'
+#   status: post
 
 - category: 'PIV Card'
   supplier: 'Giesecke + Devrient Mobile Security'
