@@ -186,7 +186,7 @@ Each factor has an associated score, and the sum of these six-factor scores is t
 
 **Table 1: Digital Worker Impact Evaluation Matrix**
 
-Info [^4]
+Info[^4]
 
 | Score each factor based on the most applicable scenario |   |
 | ----- | :---: |
