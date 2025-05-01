@@ -746,17 +746,17 @@ Table 17 presents the Impact Evaluation Matrix for this digital worker.
 | Digital Worker Impact Evaluation Matrix |   |
 | ----- | ----- |
 | Factor 1 - Is the digital worker attended or unattended? | Score |
-| <ul><li>Unattended</li></ul> | 10 |
+| ● Unattended | 10 |
 | Factor 2 - What is the highest level of sensitive data access? |   |
-| <ul><li>Data available to the public (either without a user account or with unvetted user account)</li></ul> | 0 |
+| ● Data available to the public (either without a user account or with unvetted user account) | 0 |
 | Factor 3 - Does the digital worker have network access? |   |
-| <ul><li>Internal and external network access (i.e., Internet and intranet)</li></ul> | 10 |
+| ● Internal and external network access (i.e., Internet and intranet) | 10 |
 | Factor 4 - What is the impact of the digital worker output? |   |
-| <ul><li>Output impacts general internal business operations, but not for critical processes or decisions</li></ul> | 5 |
+| ● Output impacts general internal business operations, but not for critical processes or decisions | 5 |
 | Factor 5 - What system account privileges are required to perform the task? |   |
-| <ul><li>Standard system account(s) (roles limited by the business function)</li></ul> | 10 |
+| ● Standard system account(s) (roles limited by the business function) | 10 |
 | Factor 6 - Does the digital worker act on its own insights? |   |
-| <ul><li>Digital worker develops insights, but does not act on them</li></ul> | 0 |
+| ● Digital worker develops insights, but does not act on them | 0 |
 | Total Score | 35 |
 | Digital Worker Adverse Impact Level | Low |
 
