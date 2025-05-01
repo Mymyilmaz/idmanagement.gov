@@ -68,7 +68,7 @@ This playbook is a collaboration between the Identity, Credential, and Access Ma
       <tr>
         <th scope='row'>1.3</th>
         <td>OGP Identity Assurance and Trust Access Division</td>
-        <td>March 2025</td>
+        <td>April 2025</td>
         <td>Updated the Digital Worker Identity Management Process, Formatting (Table of Contents/Titles)</td>
       </tr>
       <tr>
