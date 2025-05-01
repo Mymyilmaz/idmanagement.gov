@@ -28,12 +28,14 @@ subnav:
     href: '#31-requirements' 
   - text: 3.2 Evaluation Criteria
     href: '#32-evaluation-criteria'
-  - text: 3.2.1 Supplier/Vendor Documentation Review (PIV-C.1 to PIV-C.7) 
-    href: '#321-supplier-vendor-documentation-review-piv-c1-to-piv-c7'
-  - text: 3.2.2 Vendor/ Lab Test Data Report (PIV-C.8 to PIV-C.23) 
-    href: '#322-vendorlab-test-data-report-piv-c8-to-piv-c23'
-  - text: 3.2.3 Certification (PIV-C.25 to PIV-C.26)
-    href: '#323-certification-piv-c25-to-piv-c26'
+  - text: "3.2.1 Card Manufacturer, or the Applicant, or the ISO/ANSI Approved Labs Documentation Review (PIV-C.1 to PIV-C.6)"
+    href: '#321-card-manufacturer-or-the-applicant-or-the-isoansi-approved-labs-documentation-review-piv-c1-to-piv-c6'
+  - text: 3.2.2 ISO/ANSI Approved Labs Test Data Report (PIV-C.7 to PIV-C.23)
+    href: '#322-322-isoansi-approved-labs-test-data-report-piv-c7-to-piv-c23'
+  - text: 3.2.3 Certification (PIV-C.24 to PIV-C.25)
+    href: '#323-certification-piv-c24-to-piv-c25'
+  - text: 4 Resources
+    href: '#4-resources'
 
 ---
 
@@ -298,7 +300,7 @@ To approve the Product as conformant to the requirements of FIPS 201, it, at a m
 
 This section details the *Lab's* process for evaluating the Product against the above-mentioned requirements.
 
-### Card Manufacturer, or the *Applicant*, or the ISO/ANSI Approved Labs Documentation Review (PIV-C.1 to PIV-C.6)
+### 3.2.1 Card Manufacturer, or the *Applicant*, or the ISO/ANSI Approved Labs Documentation Review (PIV-C.1 to PIV-C.6)
 
 The *Lab* will review the documentation submitted by the *Applicant* or perform the tests required to create the test results/report to ascertain the following and provide documentation to support their review:
 
@@ -334,7 +336,7 @@ The *Lab* will perform the necessary activities to ensure the authenticity and v
 
 If you have any questions or need clarification regarding the PIV Card Body APL process, please contact the FIPS 201 Evaluation Program at [fips201ep@gsa.gov](mailto:fips201ep@gsa.gov).
 
-**4 Resources**
+### 4 Resources
 
 While GSA does not endorse any specific laboratory, the following lab resources are provided for informational purposes only to assist applicants in the evaluation process. If your lab has one of the required certifications and wishes to be added to this list, please contact [fips201ep@gsa.gov](mailto:fips201ep@gsa.gov).
 
