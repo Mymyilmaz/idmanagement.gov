@@ -194,14 +194,14 @@ subnav:
             <td>GSA</td>
         </tr>
         <tr>
-            <th scope="row"></th>
+            <th scope="row">Approved</th>
             <td>11.0.0</td>
             <td>04/24/2023</td>
             <td>Updated title and version of the document from PIV Card ApprovalProcedure, Version 10.0.0 to PIV Card Body Test Procedures, Version 11.0.0 and updated overall document to align with updated procedures and compliance requirements.</td>
             <td>Public</td>
         </tr>
         <tr>
-            <th scope="row"></th>
+            <th scope="row">Approved</th>
             <td>11.1.0</td>
             <td>05/01/2025</td>
             <td>Updated this version based on feedback from the community. Documenting that Version 11.1.0 is based on NIST FIPS 201-3, SP 800-78-4, SP 800-76-2, and SP 800-73-4.</td>
