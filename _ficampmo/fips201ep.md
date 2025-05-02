@@ -182,16 +182,16 @@ Upon successful completion of DPCI testing, the agency or organization will be a
 
 ## PIV Card Body
 
-- [Personal Identity Verification (PIV) Card Body Approval Procedures, V 11.0 (PDF, April 2023)]({{site.baseurl}}/docs/piv-card-body-approval-procedures.pdf) – indicates the approval procedures, outlines the evaluation criteria, approval mechanisms, and validation test reports to be employed and provided by the Evaluation Laboratory based on their evaluation of a vendor/ supplier’s PIV Card body (product), to be provided to the FIPS 201 EP for evaluation to be placed on the Approved Products List (APL).
-
 All applicants, please complete the following steps:
 
-1. Review the [Personal Identity Verification (PIV) Card Body Approval Procedures v11.0 (PDF, April 2023)]({{site.baseurl}}/docs/piv-card-body-approval-procedures.pdf){:target="_blank"}{:rel="noopener noreferrer"} – outlining the approval procedures and evaluation criterion for getting the PIV Card body (Product) on the APL and Section 2 Application Package
-2. Provide the Product itself (see Section 2) of the [Personal Identity Verification (PIV) Card Body Approval Procedures v11.0 (PDF, April 2023)]({{site.baseurl}}/docs/piv-card-body-approval-procedures.pdf){:target="_blank"}{:rel="noopener noreferrer"} 
-3. Complete and provide the [FIPS 201 PIV Card APL EP Application and Services Agreement, v1.0]({{site.baseurl}}/docs/fips201-piv-card-apl-evaluation-application-and-services-agreement.docx){:target="_blank"}{:rel="noopener noreferrer"} (Word, May 2025) – Required for each product submission.
-4. Complete and provide the [FIPS 201 Evaluation Program Lab Services Agreement, V3.0.0 (PDF)]({{site.baseurl}}/docs/fips201-evaluation-program-lab-services-agreement.pdf){:target="_blank"}{:rel="noopener noreferrer"}{:download}{:download="fips201-evaluation-program-lab-services-agreement.pdf"} – Required for each product submission.
-5. Complete and provide the [FIPS 201 Evaluation Program Attestations to Federal Acquisition Regulations related to the Trade Agreement Act v3.3]({{site.baseurl}}/docs/fips201-evaluation-program-attestations-to-federal-acquisition-regulations-related-to-the-trade-agreement-act.pdf){:target="_blank"}{:rel="noopener noreferrer"}{:download="fips201-evaluation-program-attestations-to-federal-acquisition-regulations-related-to-the-trade-agreement-act.pdf"} – Required for each product submission.
-6. Complete and provide the [FIPS 201 Evaluation Program Attestations Form for PIV Card Body Approval v1.1]({{site.baseurl}}/docs/fips201-evaluation-program-attestation-form-for-piv-card-body-approval.docx){:target="_blank"}{:rel="noopener noreferrer"} – Required for each product submission.
+1. [Personal Identity Verification (PIV) Card Body Approval Procedures v11.1 (PDF, May 2025)]({{site.baseurl}}/docs/piv-card-body-approval-procedures.pdf) – indicates the approval procedures, outlines the evaluation criteria, approval mechanisms, and validation test reports to be employed and provided by the Evaluation Laboratory based on their evaluation of a vendor/ supplier’s PIV Card body (product), to be provided to the FIPS 201 EP for evaluation to be placed on the Approved Products List (APL). A web version may be found here: [PIV Card Body Approval Procedures]({{site.baseurl}}/pivcardbody/)
+
+2. Complete and provide the [PIV Card APL EP Application and Service Agreement v1.0.0]({{site.baseurl}}/docs/piv-card-apl-evaluation-program-application-form.docx) (Word, May 2025).
+
+3. Complete and provide the [FIPS 201 Evaluation Program Attestations Form for PIV Card Body Approval v1.1]({{site.baseurl}}/docs/fips201-evaluation-program-attestation-form-for-piv-card-body-approval.docx) (Word, May 2025).
+
+4. Complete and signed FIPS [201 Evaluation Program Attestations to Federal Acquisition Regulations related to the Trade Agreement Act v3.3]({{site.baseurl}}/docs/fips201-evaluation-program-attestations-to-federal-acquisition-regulations-related-to-the-trade-agreement-act.pdf).
+
 
 ## Test Card Loaners
 
