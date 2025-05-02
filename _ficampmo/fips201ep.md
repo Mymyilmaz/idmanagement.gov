@@ -186,7 +186,7 @@ All applicants, please complete the following steps:
 
 1. [Personal Identity Verification (PIV) Card Body Approval Procedures v11.1 (PDF, May 2025)]({{site.baseurl}}/docs/piv-card-body-approval-procedures.pdf){:target="_blank"}{:rel="noopener noreferrer"}  – indicates the approval procedures, outlines the evaluation criteria, approval mechanisms, and validation test reports to be employed and provided by the Evaluation Laboratory based on their evaluation of a vendor/ supplier’s PIV Card body (product), to be provided to the FIPS 201 EP for evaluation to be placed on the Approved Products List (APL). A web version may be found here: [PIV Card Body Approval Procedures]({{site.baseurl}}/pivcardbody/){:target="_blank"}{:rel="noopener noreferrer"}.
 
-2. Complete and provide the [PIV Card APL EP Application and Service Agreement v1.0.0]({{site.baseurl}}/docs/piv-card-apl-evaluation-program-application-form.docx){:target="_blank"}{:rel="noopener noreferrer"}  (Word, May 2025).
+2. Complete and provide the [PIV Card APL EP Application and Service Agreement v1.0.0]({{site.baseurl}}/docs/fips201-piv-card-apl-evaluation-application-and-services-agreement){:target="_blank"}{:rel="noopener noreferrer"}  (Word, May 2025).
 
 3. Complete and provide the [FIPS 201 Evaluation Program Attestations Form for PIV Card Body Approval v1.1]({{site.baseurl}}/docs/fips201-evaluation-program-attestation-form-for-piv-card-body-approval.docx){:target="_blank"}{:rel="noopener noreferrer"}  (Word, May 2025).
 
