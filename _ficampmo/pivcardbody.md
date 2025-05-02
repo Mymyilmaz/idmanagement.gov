@@ -46,7 +46,7 @@ subnav:
       If you are looking for the <i>PIV Card Body</i> application form required to submit each of your products, please use the button below to access that form.
       <br/><br/>
         <a href="{{site.baseurl}}/docs/piv-card-apl-evaluation-program-application-form.docx" target="_blank" aria-label="PIV Card APL Evaluation Program Application Form">
-          <button class="usa-button" type="button">FIPS201 PIV Card APL EP Application and Services Agreement</button>
+          <button class="usa-button" type="button">FIPS 201 PIV Card APL EP Application and Services Agreement</button>
         </a>
       <br/><br/>
       Additional required forms can be found on the <a href="{{site.baseurl}}/fips201ep/#piv-card-body">FIPS 201 Evaluation Program</a> page.
