@@ -343,31 +343,31 @@ While GSA does not endorse any specific laboratory, the following lab resources 
 Evaluation Lab (Alphabetical Order):
 
 1. ATSEC: Information Security Corporation  
-  a. Contact: Andreas Fabis  
-  b. Phone: [(512) 615-7300](tel:5126157300)
-  c. Email: [fabis@atsec.com](mailto:fabis@atsec.com)
-  d. [https://www.atsec.com](https://www.atsec.com){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}   
+  - Contact: Andreas Fabis  
+  - Phone: [(512) 615-7300](tel:5126157300)
+  - Email: [fabis@atsec.com](mailto:fabis@atsec.com)
+  - [https://www.atsec.com](https://www.atsec.com){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}   
 2. Eclipse Laboratories:   
-  a. Contact: Dr. Bradley A. Paulson
-  b. Phone: [(952) 946-8843](tel:9529468843)
-  c. Email: [bpaulson@eclipselaboratories.com](mailto:bpaulson@eclipselaboratories.com)
-  d. Website: [http://www.eclipselaboratories.com/](http://www.eclipselaboratories.com/){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}  
+  - Contact: Dr. Bradley A. Paulson
+  - Phone: [(952) 946-8843](tel:9529468843)
+  - Email: [bpaulson@eclipselaboratories.com](mailto:bpaulson@eclipselaboratories.com)
+  - Website: [http://www.eclipselaboratories.com/](http://www.eclipselaboratories.com/){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}  
 3. Exponent:   
-  a. Contact: Brad A. McGoran, P.E., CSCIP, GIAC
-  b. Phone: [(650) 688-7013](tel:6506887013)
-  c. Email: [bmcgoran@exponent.com](mailto:bmcgoran@exponent.com)
-  d. Website: [https://www.exponent.com/testing-evaluations](https://www.exponent.com/testing-evaluations){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} 
+  - Contact: Brad A. McGoran, P.E., CSCIP, GIAC
+  - Phone: [(650) 688-7013](tel:6506887013)
+  - Email: [bmcgoran@exponent.com](mailto:bmcgoran@exponent.com)
+  - Website: [https://www.exponent.com/testing-evaluations](https://www.exponent.com/testing-evaluations){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} 
 
 ISO/ANSI Labs (Alphabetical Order):
 
 1. Eclipse Laboratories:   
-  a. Contact: Dr. Bradley A. Paulson
-  b. Phone: [(952) 946-8843](tel:9529468843)
-  c. Email: [bpaulson@eclipselaboratories.com](mailto:bpaulson@eclipselaboratories.com )
-  d. Website: [http://www.eclipselaboratories.com/](http://www.eclipselaboratories.com/){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
+  - Contact: Dr. Bradley A. Paulson
+  - Phone: [(952) 946-8843](tel:9529468843)
+  - Email: [bpaulson@eclipselaboratories.com](mailto:bpaulson@eclipselaboratories.com )
+  - Website: [http://www.eclipselaboratories.com/](http://www.eclipselaboratories.com/){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
 
 2. Exponent:   
-  a. Contact: Brad A. McGoran, P.E., CSCIP, GIAC
-  b. Phone: [(650) 688-7013](tel:6506887013)
-  c. Email: [bmcgoran@exponent.com](mailto:bmcgoran@exponent.com)
-  d. Website: [https://www.exponent.com/testing-evaluations](https://www.exponent.com/testing-evaluations){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
+  - Contact: Brad A. McGoran, P.E., CSCIP, GIAC
+  - Phone: [(650) 688-7013](tel:6506887013)
+  - Email: [bmcgoran@exponent.com](mailto:bmcgoran@exponent.com)
+  - Website: [https://www.exponent.com/testing-evaluations](https://www.exponent.com/testing-evaluations){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
