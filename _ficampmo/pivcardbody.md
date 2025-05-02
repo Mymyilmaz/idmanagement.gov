@@ -34,8 +34,8 @@ subnav:
     href: '#322-isoansi-approved-labs-test-data-report-piv-c7-to-piv-c23'
   - text: 3.2.3 Certification (PIV-C.24 to PIV-C.25)
     href: '#323-certification-piv-c24-to-piv-c25'
-  - text: Resources
-    href: '#resources'
+  - text: Lab Resources
+    href: '#lab-resources'
 
 ---
 
@@ -336,7 +336,7 @@ The *Lab* will perform the necessary activities to ensure the authenticity and v
 
 If you have any questions or need clarification regarding the PIV Card Body APL process, please contact the FIPS 201 Evaluation Program at [fips201ep@gsa.gov](mailto:fips201ep@gsa.gov).
 
-### Resources
+### Lab Resources
 
 While GSA does not endorse any specific laboratory, the following lab resources are provided for informational purposes only to assist applicants in the evaluation process. If your lab has one of the required certifications and wishes to be added to this list, please contact [fips201ep@gsa.gov](mailto:fips201ep@gsa.gov).
 
