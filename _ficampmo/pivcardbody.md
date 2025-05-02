@@ -31,7 +31,7 @@ subnav:
   - text: "3.2.1 Card Manufacturer, or the Applicant, or the ISO/ANSI Approved Labs Documentation Review (PIV-C.1 to PIV-C.6)"
     href: '#321-card-manufacturer-or-the-applicant-or-the-isoansi-approved-labs-documentation-review-piv-c1-to-piv-c6'
   - text: 3.2.2 ISO/ANSI Approved Labs Test Data Report (PIV-C.7 to PIV-C.23)
-    href: '#322-322-isoansi-approved-labs-test-data-report-piv-c7-to-piv-c23'
+    href: '#322-isoansi-approved-labs-test-data-report-piv-c7-to-piv-c23'
   - text: 3.2.3 Certification (PIV-C.24 to PIV-C.25)
     href: '#323-certification-piv-c24-to-piv-c25'
   - text: Resources
