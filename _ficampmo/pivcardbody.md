@@ -43,7 +43,7 @@ subnav:
   <div class="usa-alert__body">
     <h4 class="usa-alert__heading">Card Manufacturers or Suppliers/Vendors</h4>
     <p class="usa-alert__text">
-      If you are looking for the <i>PIV Card Body</i> application form required to submit each of your products, please use the button below to access that form and email the completed and signed form to [fips201ep@gsa.gov](mailto:fips201ep@gsa.gov). 
+      If you are looking for the <i>PIV Card Body</i> application form required to submit each of your products, please use the button below to access that form and email the completed and signed form to <a href="mailto:fips201ep@gsa.gov">fips201ep@gsa.gov</a>. 
       <br/><br/>
         <a href="{{site.baseurl}}/docs/fips201-piv-card-apl-evaluation-application-and-services-agreement.docx" target="_blank" aria-label="PIV Card APL Evaluation Program Application Form">
           <button class="usa-button" type="button">FIPS 201 PIV Card APL EP Application and Services Agreement</button>
