@@ -41,12 +41,12 @@ subnav:
 
 <div class="usa-alert usa-alert--info">
   <div class="usa-alert__body">
-    <h4 class="usa-alert__heading">Card Manufacturers, or Suppliers/Vendors</h4>
+    <h4 class="usa-alert__heading">Card Manufacturers or Suppliers/Vendors</h4>
     <p class="usa-alert__text">
       If you are looking for the <i>PIV Card Body</i> application form required to submit each of your products, please use the button below to access that form.
       <br/><br/>
         <a href="{{site.baseurl}}/docs/piv-card-apl-evaluation-program-application-form.docx" target="_blank" aria-label="PIV Card APL Evaluation Program Application Form">
-          <button class="usa-button" type="button">FIPS 201 PIV Card APL EP Application and Services Agreement</button>
+          <button class="usa-button" type="button">FIPS201 PIV Card APL EP Application and Services Agreement</button>
         </a>
       <br/><br/>
       Additional required forms can be found on the <a href="{{site.baseurl}}/fips201ep/#piv-card-body">FIPS 201 Evaluation Program</a> page.
@@ -247,11 +247,11 @@ The Application Package Contents for this category include the following:
 
   - (b) The *Lab* should deliver the Product along with the other application package documentation to the *FIPS 201 EP at 1893 Metro Center Dr., Ste 228, Reston, VA 20190* using a secure delivery method that requires receipt acknowledgement (e.g., FedEx, UPS, or hand delivery).
 
-- Complete and provide the [FIPS 201 EP PIV Card APL Application and Service Agreement”  PIV Card APL EP Application and Service Agreement v1.0.0 (Word, May 2025)](#){:target="_blank"}{:rel="noopener noreferrer"} (link: [https://www.idmanagement.gov/fips201/]({{site.baseurl}}/fips201/), under PIV Card Body Application Package Requirements).
+- Complete and provide the [FIPS 201 EP PIV Card APL Application and Service Agreement, v1.0 (Word, May 2025)]({{site.baseurl}}/docs/fips201-piv-card-apl-evaluation-application-and-services-agreement.docx){:target="_blank"}{:rel="noopener noreferrer"}.
 
-- Complete and provide the FIPS 201 Evaluation Program Attestations Form for PIV Card Body Approval v1.1 (Word, May 2025) – Required for each product submission.
+- Complete and provide the [FIPS 201 Evaluation Program Attestations Form for PIV Card Body Approval, v1.1 (Word, May 2025)]({{site.baseurl}}/docs/fips201-evaluation-program-attestation-form-for-piv-card-body-approval.docx) – Required for each product submission.
 
-- Completed and signed [FIPS 201 Evaluation Program Attestations to Federal Acquisition Regulations related to the Trade Agreement Act v3.3](#){:target="_blank"}{:rel="noopener noreferrer"} (link: [https://www.idmanagement.gov/fips201/]({{site.baseurl}}/fips201/), under PIV Card Body Application Package Requirements).
+- Completed and signed [FIPS 201 Evaluation Program Attestations to Federal Acquisition Regulations related to the Trade Agreement Act v3.3]({{site.baseurl}}/docs/fips201-evaluation-program-attestations-to-federal-acquisition-regulations-related-to-the-trade-agreement-act.pdf){:target="_blank"}{:rel="noopener noreferrer"}.
 
 - The *Lab’s* Evaluation Report, which provides test results and an evaluation of the findings with recommendations for conformance or non-conformance for the Product based on the requirements indicated in Section 3.1, Table 1 of this document, and as indicated against the tests conducted in the FIPS 201 Evaluation Program Attestation Form for PIV Card Body Approval_v1.0. The *Lab* is required to develop test methods or review test reports for conformance testing as required by the FIPS 201 EP and validate that the test methods developed comply with the requirements set forth by the International Organization for Standardization (ISO) 17025 for Testing and Calibration laboratories to verify the effectiveness of the testing method to produce valid results. In this regard, the Card Manufacturer or the *Applicant*, or the ISO/ANSI Approved Labs, is expected to develop and document the test procedures used to determine how the Product was tested to conclude that it met all requirements to be compliant. In addition, the following will be provided as part of the *Applicant’s* Documentation Review and Certification:
 
