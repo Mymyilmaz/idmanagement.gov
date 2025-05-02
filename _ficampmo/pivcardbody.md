@@ -300,7 +300,7 @@ To approve the Product as conformant to the requirements of FIPS 201, it, at a m
 
 This section details the *Lab's* process for evaluating the Product against the above-mentioned requirements.
 
-### 3.2.1 Card Manufacturer, or the *Applicant*, or the ISO/ANSI Approved Labs Documentation Review (PIV-C.1 to PIV-C.6)
+### 3.2.1 Card Manufacturer, or the Applicant, or the ISO/ANSI Approved Labs Documentation Review (PIV-C.1 to PIV-C.6)
 
 The *Lab* will review the documentation submitted by the *Applicant* or perform the tests required to create the test results/report to ascertain the following and provide documentation to support their review:
 
