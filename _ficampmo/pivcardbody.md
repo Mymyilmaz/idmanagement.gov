@@ -217,30 +217,28 @@ subnav:
 <ol class="usa-process-list">
   <li class="usa-process-list__item">
    <h4 class="usa-process-list__heading">Introduction</h4>
+    <h3>1.1 Overview</h3>
     <p>
-  <h3>1.1 Overview</h3>
-  <p>
-    The FIPS 201 Evaluation Program (EP) is a federal compliance program administered by the Office of Government-wide Policy (OGP) within the General Services Administration (GSA). The FIPS 201 Evaluation Program (EP) evaluates products and services against the requirements outlined in FIPS 201 and its supporting documents. In addition to test requirements developed to test conformance to the National Institute of Standards and Technology (NIST) specifications, GSA has established interoperability and performance metrics to further determine product suitability. To qualify as an Evaluation Lab (<i>Lab</i>) for the GSA FIPS 201 EP, the laboratory shall have received either NIST National Voluntary Laboratory Accreditation Program (NVLAP) accreditation (refer to NIST HB 150-17e2022, Annex D) or the International Organization of Standards (ISO) 17025 to perform FIPS 201 conformance testing review on products submitted by the Card Manufacturers, or Suppliers/Vendors (<i>Applicant</i>). A set of approval procedures has been developed that outlines the evaluation criteria, approval mechanisms, and validation test reports to be employed and provided by the *Lab* when evaluating an *Applicant’s* product against the requirements for that category.    
-  </p>
-  <p>
-    An <i>Applicant</i> desiring to submit a PIV Card body (hereafter referred to as the Product) for evaluation must follow these Approval Procedures. These procedures provide the necessary category-specific details for the EP to evaluate an *Applicant’s* Product and place it on the Approved Products List (APL).
-  </p>
-  <p>
-    If you have any questions or need clarification regarding the PIV Card Body APL process, please contact the FIPS 201 Evaluation Program at <a href="mailto:fips201ep@gsa.gov">fips201ep@gsa.gov</a>.
-  </p>
-  <h3>1.2 Category Description</h3>
-  <p>    
-    The PIV Card is a smart card with contact and contactless interfaces that meet the interface, data format, graphical, and physical requirements outlined in FIPS 201 and SP 800-73.
-  </p>
-  <h3>1.3 Purpose</h3>
-  <p>
-    The purpose of this document is to provide the following information:
-    <ol type="i">
-        <li>Provide a list of the artifacts, forms, and/or documentation that must be submitted by the Evaluation Lab (<i>Lab</i>) to the FIPS 201 EP as part of the application package submission.</li>
-        <li>Document the requirements that apply to the PIV Card Body evaluation.</li>
-        <li>Specify the evaluation criteria and approval mechanisms that the <i>Labs</i> will use to verify the Product's compliance with the requirements that apply to this category.</li>
-    </ol>
-  </p>
+      The FIPS 201 Evaluation Program (EP) is a federal compliance program administered by the Office of Government-wide Policy (OGP) within the General Services Administration (GSA). The FIPS 201 Evaluation Program (EP) evaluates products and services against the requirements outlined in FIPS 201 and its supporting documents. In addition to test requirements developed to test conformance to the National Institute of Standards and Technology (NIST) specifications, GSA has established interoperability and performance metrics to further determine product suitability. To qualify as an Evaluation Lab (<i>Lab</i>) for the GSA FIPS 201 EP, the laboratory shall have received either NIST National Voluntary Laboratory Accreditation Program (NVLAP) accreditation (refer to NIST HB 150-17e2022, Annex D) or the International Organization of Standards (ISO) 17025 to perform FIPS 201 conformance testing review on products submitted by the Card Manufacturers, or Suppliers/Vendors (<i>Applicant</i>). A set of approval procedures has been developed that outlines the evaluation criteria, approval mechanisms, and validation test reports to be employed and provided by the *Lab* when evaluating an *Applicant’s* product against the requirements for that category.    
+    </p>
+    <p>
+      An <i>Applicant</i> desiring to submit a PIV Card body (hereafter referred to as the Product) for evaluation must follow these Approval Procedures. These procedures provide the necessary category-specific details for the EP to evaluate an *Applicant’s* Product and place it on the Approved Products List (APL).
+    </p>
+    <p>
+      If you have any questions or need clarification regarding the PIV Card Body APL process, please contact the FIPS 201 Evaluation Program at <a href="mailto:fips201ep@gsa.gov">fips201ep@gsa.gov</a>.
+    </p>
+    <h3>1.2 Category Description</h3>
+    <p>    
+      The PIV Card is a smart card with contact and contactless interfaces that meet the interface, data format, graphical, and physical requirements outlined in FIPS 201 and SP 800-73.
+    </p>
+    <h3>1.3 Purpose</h3>
+    <p>
+      The purpose of this document is to provide the following information:
+      <ol type="i">
+          <li>Provide a list of the artifacts, forms, and/or documentation that must be submitted by the Evaluation Lab (<i>Lab</i>) to the FIPS 201 EP as part of the application package submission.</li>
+          <li>Document the requirements that apply to the PIV Card Body evaluation.</li>
+          <li>Specify the evaluation criteria and approval mechanisms that the <i>Labs</i> will use to verify the Product's compliance with the requirements that apply to this category.</li>
+      </ol>
     </p>
   </li>
   <li class="usa-process-list__item">
@@ -254,7 +252,7 @@ subnav:
         <li>
           The Product itself.
           <ul>
-            <li>(a) The <li>Applicant</i> should deliver the product to the *Lab* (address found in Section 4 Resources) using a secure delivery method that requires receipt acknowledgement (e.g., FedEx, UPS, or hand delivery).
+            <li>(a) The <i>Applicant</i> should deliver the product to the *Lab* (address found in Section 4 Resources) using a secure delivery method that requires receipt acknowledgement (e.g., FedEx, UPS, or hand delivery).
             </li>
             <li>(b) The <i>Lab</i> should deliver the Product along with the other application package documentation to the *FIPS 201 EP at 1893 Metro Center Dr., Ste 228, Reston, VA 20190* using a secure delivery method that requires receipt acknowledgement (e.g., FedEx, UPS, or hand delivery).
             <li> 
@@ -306,37 +304,37 @@ subnav:
           <th>PIV-C.1</th>
           <td>The PIV Card body shall comply with the physical characteristics and durability described in FIPS 201.</td>
           <td>FIPS 201-3, Section 4.1.3</td>
-          <td>Card Manufacturer, or the *Applicant*, or the ISO/ANSI Approved Labs.</td>
+          <td>Card Manufacturer, or the <i>Applicant</i>, or the ISO/ANSI Approved Labs.</td>
         </tr>
         <tr>
           <th>PIV-C.2</th>
           <td>The PIV Card body structure shall consist of card material(s) that satisfy the card characteristics described in ISO/IEC 7810.</td>
           <td>FIPS 201-3 Section 4.1.3</td>
-          <td>Card Manufacturer, or the *Applicant*, or the ISO/ANSI Approved Labs.</td>
+          <td>Card Manufacturer, or the <i>Applicant</i>, or the ISO/ANSI Approved Labs.</td>
         </tr>
         <tr>
           <th>PIV-C.3</th>
           <td>The PIV Card body shall comply with characteristics as described in ISO/IEC 10373.</td>
           <td>FIPS 201-3, Section 4.1.3</td>
-          <td>Card Manufacturer, or the *Applicant*, or the ISO/ANSI Approved Labs.</td>
+          <td>Card Manufacturer, or the <i>Applicant</i>, or the ISO/ANSI Approved Labs.</td>
         </tr>
         <tr>
           <th>PIV-C.4</th>
           <td>The PIV Card body shall comply with the characteristics described in ISO/IEC 7816 for contact cards.</td>
           <td>FIPS 201-3, Section 4.1</td>
-          <td>Card Manufacturer, or the *Applicant*, or the ISO/ANSI Approved Labs.</td>
+          <td>Card Manufacturer, or the <i>Applicant</i>, or the ISO/ANSI Approved Labs.</td>
         </tr>
         <tr>
           <th>PIV-C.5</th>
           <td>The PIV Card body shall comply with characteristics described in ISO/IEC 14443 for contactless cards.</td>
           <td>FIPS 201-3, Section 4.1</td>
-          <td>Card Manufacturer, or the *Applicant*, or the ISO/ANSI Approved Labs.</td>
+          <td>Card Manufacturer, or the <i>Applicant</i>, or the ISO/ANSI Approved Labs.</td>
         </tr>
         <tr>
           <th>PIV-C.6</th>
           <td>The PIV Card shall contain a contact and a contactless ICC interface.</td>
           <td>FIPS 201-3, Section 4.1.3</td>
-          <td>Card Manufacturer, or the *Applicant*, or the ISO/ANSI Approved Labs.</td>
+          <td>Card Manufacturer, or the <i>Applicant</i>, or the ISO/ANSI Approved Labs.</td>
         </tr>
         <tr>
           <th>PIV-C.7</th>
