@@ -249,7 +249,7 @@ subnav:
         <li>
           The Product itself.
           <ul>
-            <li>(a) The <li>Applicant</i> should deliver the product to the *Lab* (address found in Section 4 Resources) using a secure delivery method that requires receipt acknowledgement (e.g., FedEx, UPS, or hand delivery).
+            <li>(a) The <i>Applicant</i> should deliver the product to the *Lab* (address found in Section 4 Resources) using a secure delivery method that requires receipt acknowledgement (e.g., FedEx, UPS, or hand delivery).
             </li>
             <li>(b) The <i>Lab</i> should deliver the Product along with the other application package documentation to the *FIPS 201 EP at 1893 Metro Center Dr., Ste 228, Reston, VA 20190* using a secure delivery method that requires receipt acknowledgement (e.g., FedEx, UPS, or hand delivery).
             <li> 
