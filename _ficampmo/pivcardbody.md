@@ -218,10 +218,10 @@ subnav:
    <h4 class="usa-process-list__heading">Introduction</h4>
     <h3>1.1 Overview</h3>
     <p>
-      The FIPS 201 Evaluation Program (EP) is a federal compliance program administered by the Office of Government-wide Policy (OGP) within the General Services Administration (GSA). The FIPS 201 Evaluation Program (EP) evaluates products and services against the requirements outlined in FIPS 201 and its supporting documents. In addition to test requirements developed to test conformance to the National Institute of Standards and Technology (NIST) specifications, GSA has established interoperability and performance metrics to further determine product suitability. To qualify as an Evaluation Lab (<i>Lab</i>) for the GSA FIPS 201 EP, the laboratory shall have received either NIST National Voluntary Laboratory Accreditation Program (NVLAP) accreditation (refer to NIST HB 150-17e2022, Annex D) or the International Organization of Standards (ISO) 17025 to perform FIPS 201 conformance testing review on products submitted by the Card Manufacturers, or Suppliers/Vendors (<i>Applicant</i>). A set of approval procedures has been developed that outlines the evaluation criteria, approval mechanisms, and validation test reports to be employed and provided by the *Lab* when evaluating an *Applicant’s* product against the requirements for that category.    
+      The FIPS 201 Evaluation Program (EP) is a federal compliance program administered by the Office of Government-wide Policy (OGP) within the General Services Administration (GSA). The FIPS 201 Evaluation Program (EP) evaluates products and services against the requirements outlined in FIPS 201 and its supporting documents. In addition to test requirements developed to test conformance to the National Institute of Standards and Technology (NIST) specifications, GSA has established interoperability and performance metrics to further determine product suitability. To qualify as an Evaluation Lab (<i>Lab</i>) for the GSA FIPS 201 EP, the laboratory shall have received either NIST National Voluntary Laboratory Accreditation Program (NVLAP) accreditation (refer to NIST HB 150-17e2022, Annex D) or the International Organization of Standards (ISO) 17025 to perform FIPS 201 conformance testing review on products submitted by the Card Manufacturers, or Suppliers/Vendors (<i>Applicant</i>). A set of approval procedures has been developed that outlines the evaluation criteria, approval mechanisms, and validation test reports to be employed and provided by the <i>Lab</i> when evaluating an <i>Applicant’s</i> product against the requirements for that category.    
     </p>
     <p>
-      An <i>Applicant</i> desiring to submit a PIV Card body (hereafter referred to as the Product) for evaluation must follow these Approval Procedures. These procedures provide the necessary category-specific details for the EP to evaluate an *Applicant’s* Product and place it on the Approved Products List (APL).
+      An <i>Applicant</i> desiring to submit a PIV Card body (hereafter referred to as the Product) for evaluation must follow these Approval Procedures. These procedures provide the necessary category-specific details for the EP to evaluate an <i>Applicant’s</i> Product and place it on the Approved Products List (APL).
     </p>
     <p>
       If you have any questions or need clarification regarding the PIV Card Body APL process, please contact the FIPS 201 Evaluation Program at <a href="mailto:fips201ep@gsa.gov">fips201ep@gsa.gov</a>.
@@ -250,9 +250,9 @@ subnav:
         <li>
           The Product itself.
           <ul>
-            <li>(a) The <i>Applicant</i> should deliver the product to the *Lab* (address found in Section 4 Resources) using a secure delivery method that requires receipt acknowledgement (e.g., FedEx, UPS, or hand delivery).
+            <li>(a) The <i>Applicant</i> should deliver the product to the <i>Lab</i> (address found in Section 4 Resources) using a secure delivery method that requires receipt acknowledgement (e.g., FedEx, UPS, or hand delivery).
             </li>
-            <li>(b) The <i>Lab</i> should deliver the Product along with the other application package documentation to the *FIPS 201 EP at 1893 Metro Center Dr., Ste 228, Reston, VA 20190* using a secure delivery method that requires receipt acknowledgement (e.g., FedEx, UPS, or hand delivery).
+            <li>(b) The <i>Lab</i> should deliver the Product along with the other application package documentation to the <i>FIPS 201 EP at 1893 Metro Center Dr., Ste 228, Reston, VA 20190</i> using a secure delivery method that requires receipt acknowledgement (e.g., FedEx, UPS, or hand delivery).
             </li> 
           </ul>
         </li>
@@ -455,11 +455,11 @@ subnav:
     </p>
     <h3>3.2 Evaluation Criteria</h3>
     <p>
-      This section details the *Lab's* process for evaluating the Product against the above-mentioned requirements.
+      This section details the <i>Lab's</i> process for evaluating the Product against the above-mentioned requirements.
     </p>
     <h3>3.2.1 Card Manufacturer, or the Applicant, or the ISO/ANSI Approved Labs Documentation Review (PIV-C.1 to PIV-C.6)</h3>
     <p>
-      The *Lab* will review the documentation submitted by the *Applicant* or perform the tests required to create the test results/report to ascertain the following and provide documentation to support their review:
+      The <i>Lab</i> will review the documentation submitted by the <i>Applicant</i> or perform the tests required to create the test results/report to ascertain the following and provide documentation to support their review:
       <ul>
         <li>
           The card’s physical characteristics comply with the following:
@@ -481,7 +481,7 @@ subnav:
       As a result of the testing to ensure compliance with the respective standards, the following must be included as part of the FIPS 201 Evaluation Program Attestation Form for PIV Card Body Approval:
       <ul>
         <li>
-          A report was generated to ensure that the test performed to evaluate the card characteristics, durability, and performance complies with the test methods in ANSI 322. *These tests shall include card flexure, static stress, plasticizer exposure, impact resistance, card structural integrity, surface abrasion, temperature and humidity-induced dye migration, ultraviolet light exposure, and laundry test. Cards SHALL NOT malfunction or delaminate after hand cleaning with a mild soap and water mixture (FIPS 201-3)*.
+          A report was generated to ensure that the test performed to evaluate the card characteristics, durability, and performance complies with the test methods in ANSI 322. <i>These tests shall include card flexure, static stress, plasticizer exposure, impact resistance, card structural integrity, surface abrasion, temperature and humidity-induced dye migration, ultraviolet light exposure, and laundry test. Cards SHALL NOT malfunction or delaminate after hand cleaning with a mild soap and water mixture (FIPS 201-3)</i>.
         </li>
         <li>
           A sampling of a minimum of four (4) out of five (5) cards, or 80% if a sampling size of greater than five (5) cards is used, should successfully fulfill the requirement being tested to ensure that the product passes the specific test.
@@ -490,7 +490,7 @@ subnav:
     </p>
     <h3>3.2.3 Certification (PIV-C.24 to PIV-C.25)</h3>
     <p>
-      The *Lab* will perform the necessary activities to ensure the authenticity and validity of the certification status for the Product being tested and provide the following:
+      The <i>Lab</i> will perform the necessary activities to ensure the authenticity and validity of the certification status for the Product being tested and provide the following:
       <ul>
         <li>
           A validation certificate from the NIST Personal Identity Verification Program (NPIVP) detailing that the Product being tested is listed in the PIV Card Application Validation list as conformant, as defined in SP 800-73: <a class="usa-link usa-link--external" href="https://csrc.nist.gov/Projects/nist-personal-identity-verification-program/Validation-Lists/piv-card-application-validation-list" rel="noopener noreferrer" target="_blank">https://csrc.nist.gov/Projects/nist-personal-identity-verification-program/Validation-Lists/piv-card-application-validation-list</a>.
@@ -535,8 +535,6 @@ subnav:
             <li>Email: <a href="mailto:bmcgoran@exponent.com">bmcgoran@exponent.com</a></li>
             <li>Website: <a class="usa-link usa-link--external" href="https://www.exponent.com/testing-evaluations" rel="noopener noreferrer" target="_blank">https://www.exponent.com/testing-evaluations</a></li>
           </ul>
-        </li>
-        <li>
         </li>
       </ol>
       ISO/ANSI Labs (Alphabetical Order):
