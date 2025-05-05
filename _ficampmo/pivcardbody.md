@@ -229,7 +229,6 @@ subnav:
     <p><h3>1.2 Category Description</h3>    
       The PIV Card is a smart card with contact and contactless interfaces that meet the interface, data format, graphical, and physical requirements outlined in FIPS 201 and SP 800-73.
     </p>
-    
     <p><h3>1.3 Purpose</h3>
       The purpose of this document is to provide the following information:
       <ol type="i">
