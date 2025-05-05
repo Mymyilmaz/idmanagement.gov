@@ -265,6 +265,7 @@ subnav:
           Completed and signed <a href="{{site.baseurl}}/docs/fips201-evaluation-program-attestations-to-federal-acquisition-regulations-related-to-the-trade-agreement-act.pdf" target="_blank" rel="noopener noreferrer">FIPS 201 Evaluation Program Attestations to Federal Acquisition Regulations related to the Trade Agreement Act v3.3</a>.
         </li>
         <li>
+        <p>
           The <i>Lab’s</i> Evaluation Report, which provides test results and an evaluation of the findings with recommendations for conformance or non-conformance for the Product based on the requirements indicated in Section 3.1, Table 1 of this document, and as indicated against the tests conducted in the FIPS 201 Evaluation Program Attestation Form for PIV Card Body Approval_v1.0. The <i>Lab</i> is required to develop test methods or review test reports for conformance testing as required by the FIPS 201 EP and validate that the test methods developed comply with the requirements set forth by the International Organization for Standardization (ISO) 17025 for Testing and Calibration laboratories to verify the effectiveness of the testing method to produce valid results. In this regard, the Card Manufacturer or the <i>Applicant</i>, or the ISO/ANSI Approved Labs, is expected to develop and document the test procedures used to determine how the Product was tested to conclude that it met all requirements to be compliant. In addition, the following will be provided as part of the <i>Applicant’s</i> Documentation Review and Certification:
           <ul>
             <li>
@@ -274,6 +275,7 @@ subnav:
               Official Certification documentation from the appropriate entity (e.g., NIST) indicating the Product’s conformance to the tested requirements of FIPS 201. Specific reference to the exact type of certification necessary can be found in the Certification section found in Section 3.2.3 of this document.
             </li>
           </ul>
+        </p>
         </li>
       </ul>
     </p>
@@ -536,6 +538,7 @@ subnav:
           </ul>
         </li>
       </ol>
+      <br>
       ISO/ANSI Labs (Alphabetical Order):
       <ol>
         <li>Eclipse Laboratories:
