@@ -214,8 +214,8 @@ subnav:
 <ol class="usa-process-list">
   <li>
     <h4 class="usa-process-list__heading">Introduction</h4>
-    <h3>1.1 Overview</h3>
     <p>
+    <h3>1.1 Overview</h3>
       The FIPS 201 Evaluation Program (EP) is a federal compliance program administered by the Office of Government-wide Policy (OGP) within the General Services Administration (GSA). The FIPS 201 Evaluation Program (EP) evaluates products and services against the requirements outlined in FIPS 201 and its supporting documents. In addition to test requirements developed to test conformance to the National Institute of Standards and Technology (NIST) specifications, GSA has established interoperability and performance metrics to further determine product suitability. To qualify as an Evaluation Lab (<i>Lab</i>) for the GSA FIPS 201 EP, the laboratory shall have received either NIST National Voluntary Laboratory Accreditation Program (NVLAP) accreditation (refer to NIST HB 150-17e2022, Annex D) or the International Organization of Standards (ISO) 17025 to perform FIPS 201 conformance testing review on products submitted by the Card Manufacturers, or Suppliers/Vendors (<i>Applicant</i>). A set of approval procedures has been developed that outlines the evaluation criteria, approval mechanisms, and validation test reports to be employed and provided by the *Lab* when evaluating an *Applicant’s* product against the requirements for that category.    
     </p>
     <p>
@@ -238,7 +238,7 @@ subnav:
       </ol>
     </p>
   </li>
-  <li class="usa-process-list__item">
+  <li class="usa-process-list__item"> <!-- #2 -->
     <h4 class="usa-process-list__heading">Application Package Contents</h4>
     <p>
       The Application Package Contents include the artifacts, documentation, and product that the *Lab* must submit to the EP to perform validation and add to the APL. Submit the associated agreements and reports listed below to <a href="mailto:fips201ep@gsa.gov">fips201ep@gsa.gov</a> and mail the product to the FIPS 201 EP address provided below.
@@ -491,21 +491,21 @@ subnav:
       The *Lab* will perform the necessary activities to ensure the authenticity and validity of the certification status for the Product being tested and provide the following:
       <ul>
         <li>
-          A validation certificate from the NIST Personal Identity Verification Program (NPIVP) detailing that the Product being tested is listed in the PIV Card Application Validation list as conformant, as defined in SP 800-73: [https://csrc.nist.gov/Projects/nist-personal-identity-verification-program/Validation-Lists/piv-card-application-validation-list](https://csrc.nist.gov/Projects/nist-personal-identity-verification-program/Validation-Lists/piv-card-application-validation-list){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}.
+          A validation certificate from the NIST Personal Identity Verification Program (NPIVP) detailing that the Product being tested is listed in the PIV Card Application Validation list as conformant, as defined in SP 800-73: <a class="usa-link usa-link--external" href="https://csrc.nist.gov/Projects/nist-personal-identity-verification-program/Validation-Lists/piv-card-application-validation-list" rel="noopener noreferrer" target="_blank">https://csrc.nist.gov/Projects/nist-personal-identity-verification-program/Validation-Lists/piv-card-application-validation-list</a>.
         </li>
         <li>
-          A validation certificate from the NIST Cryptographic Module Validation Program (CMVP), which validates cryptographic modules to the Federal Information Processing Standard (FIPS) 140-3, Security Requirements for Cryptographic Modules: [https://csrc.nist.gov/projects/cryptographic-module-validation-program](https://csrc.nist.gov/projects/cryptographic-module-validation-program){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}.
+          A validation certificate from the NIST Cryptographic Module Validation Program (CMVP), which validates cryptographic modules to the Federal Information Processing Standard (FIPS) 140-3, Security Requirements for Cryptographic Modules: <a class="usa-link usa-link--external" href="https://csrc.nist.gov/projects/cryptographic-module-validation-program" rel="noopener noreferrer" target="_blank">https://csrc.nist.gov/projects/cryptographic-module-validation-program</a>.
         </li>
       </ul>
     </p>
     <p>
-      If you have any questions or need clarification regarding the PIV Card Body APL process, please contact the FIPS 201 Evaluation Program at [fips201ep@gsa.gov](mailto:fips201ep@gsa.gov).
+      If you have any questions or need clarification regarding the PIV Card Body APL process, please contact the FIPS 201 Evaluation Program at <a href="mailto:fips201ep@gsa.gov">fips201ep@gsa.gov</a>.
     </p>
   </li>
   <li class="usa-process-list__item">
     <h4 class="usa-process-list__heading">Lab Resources</h4>
     <p>
-      While GSA does not endorse any specific laboratory, the following lab resources are provided for informational purposes only to assist applicants in the evaluation process. If your lab has one of the required certifications and wishes to be added to this list, please contact [fips201ep@gsa.gov](mailto:fips201ep@gsa.gov).
+      While GSA does not endorse any specific laboratory, the following lab resources are provided for informational purposes only to assist applicants in the evaluation process. If your lab has one of the required certifications and wishes to be added to this list, please contact <a href="mailto:fips201ep@gsa.gov">fips201ep@gsa.gov</a>.
     </p>
     <p>
       Evaluation Lab (Alphabetical Order):
@@ -514,26 +514,26 @@ subnav:
           ATSEC: Information Security Corporation
           <ul>
             <li>Contact: Andreas Fabis</li>
-            <li>Phone: [(512) 615-7300](tel:5126157300)</li>
-            <li>Email: [fabis@atsec.com](mailto:fabis@atsec.com)</li>
-            <li>[https://www.atsec.com](https://www.atsec.com){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} </li>
+            <li>Phone: <a href="tel:5126157300">(512) 615-7300</a></li>
+            <li>Email: <a href="mailto:fabis@atsec.com">fabis@atsec.com</a></li>
+            <li><a class="usa-link usa-link--external" href="https://www.atsec.com" rel="noopener noreferrer" target="_blank">https://www.atsec.com</a></li>
           </ul>
         </li>
         <li>
           Eclipse Laboratories:
           <ul>
             <li>Contact: Dr. Bradley A. Paulson</li>
-            <li>Phone: [(952) 946-8843](tel:9529468843)</li>
-            <li>Email: [bpaulson@eclipselaboratories.com](mailto:bpaulson@eclipselaboratories.com)</li>
-            <li>Website: [http://www.eclipselaboratories.com/](http://www.eclipselaboratories.com/){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}</li>
+            <li>Phone: <a href="tel:9529468843">(952) 946-8843</a></li>
+            <li>Email: <a href="mailto:bpaulson@eclipselaboratories.com">bpaulson@eclipselaboratories.com</a></li>
+            <li>Website: <a class="usa-link usa-link--external" href="http://www.eclipselaboratories.com/" rel="noopener noreferrer" target="_blank">http://www.eclipselaboratories.com/</a></li>
           </ul>
         </li>
           Exponent:
           <ul>
             <li>Contact: Brad A. McGoran, P.E., CSCIP, GIAC</li>
-            <li>Phone: [(650) 688-7013](tel:6506887013)</li>
-            <li>Email: [bmcgoran@exponent.com](mailto:bmcgoran@exponent.com)</li>
-            <li>Website: [https://www.exponent.com/testing-evaluations](https://www.exponent.com/testing-evaluations){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} </li>
+            <li>Phone: <a href="tel:6506887013">(650) 688-7013</a></li>
+            <li>Email: <a href="mailto:bmcgoran@exponent.com">bmcgoran@exponent.com</a></li>
+            <li>Website: <a class="usa-link usa-link--external" href="https://www.exponent.com/testing-evaluations" rel="noopener noreferrer" target="_blank">https://www.exponent.com/testing-evaluations</a></li>
           </ul>
         <li>
         </li>
@@ -546,18 +546,18 @@ subnav:
           Eclipse Laboratories:
           <ul>
             <li>Contact: Dr. Bradley A. Paulson</li>
-            <li>Phone: [(952) 946-8843](tel:9529468843)</li>
-            <li>Email: [bpaulson@eclipselaboratories.com](mailto:bpaulson@eclipselaboratories.com )</li>
-            <li>Website: [http://www.eclipselaboratories.com/](http://www.eclipselaboratories.com/){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}</li>
+            <li>Phone: [(952) 946-8843](tel:9529468843)</a></li>
+            <li>Email: [bpaulson@eclipselaboratories.com](mailto:bpaulson@eclipselaboratories.com )</a></li>
+            <li>Website: [http://www.eclipselaboratories.com/](http://www.eclipselaboratories.com/){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}</a></li>
           </ul>
         </li>
         <li>
           Exponent:
           <ul>
             <li>Contact: Brad A. McGoran, P.E., CSCIP, GIAC</li>
-            <li>Phone: [(650) 688-7013](tel:6506887013)</li>
-            <li>Email: [bmcgoran@exponent.com](mailto:bmcgoran@exponent.com)</li>
-            <li>Website: [https://www.exponent.com/testing-evaluations](https://www.exponent.com/testing-evaluations){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}</li>
+            <li>Phone: [(650) 688-7013](tel:6506887013)</a></li>
+            <li>Email: [bmcgoran@exponent.com](mailto:bmcgoran@exponent.com)</a></li>
+            <li>Website: [https://www.exponent.com/testing-evaluations](https://www.exponent.com/testing-evaluations){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}</a></li>
           </ul>
         </li>
       </ol>
