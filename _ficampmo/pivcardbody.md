@@ -532,6 +532,7 @@ subnav:
             <li>Website: <a class="usa-link usa-link--external" href="http://www.eclipselaboratories.com/" rel="noopener noreferrer" target="_blank">http://www.eclipselaboratories.com/</a></li>
           </ul>
         </li>
+        <li>
           Exponent:
           <ul>
             <li>Contact: Brad A. McGoran, P.E., CSCIP, GIAC</li>
