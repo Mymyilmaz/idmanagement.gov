@@ -443,7 +443,7 @@ subnav:
           <td>A validation certificate from the NIST Personal Identity Verification Program (NPIVP) detailing that the Product being tested is listed in the PIV Card Application Validation list as conformant, as defined in SP 800-73: <a class="usa-link usa-link--external" href="https://csrc.nist.gov/projects/nist-personal-identity-verification-program/validation-lists/piv-card-application-validation-list" target="_blank" rel="noopener noreferrer">https://csrc.nist.gov/projects/nist-personal-identity-verification-program/validation-lists/piv-card-application-validation-list</a>
           </td>
           <td>SP 800-73 Appendix A - PIV Data Model</td>
-          <td>Card Manufacturer, or the *Applicant*, or the ISO/ANSI Approved Lab, or the Evaluating Lab.</td>
+          <td>Card Manufacturer, or the <i>Applicant</i>, or the ISO/ANSI Approved Lab, or the Evaluating Lab.</td>
         </tr>
         <tr>
           <th>PIV-C.25</th>
@@ -451,7 +451,7 @@ subnav:
             A validation certificate from The NIST Cryptographic Module Validation Program (CMVP), which validates cryptographic modules to the Federal Information Processing Standard (FIPS) 140-3, Security Requirements for Cryptographic Modules: <a href="https://csrc.nist.gov/projects/cryptographic-module-validation-program" target="_blank" rel="noopener noreferrer">https://csrc.nist.gov/projects/cryptographic-module-validation-program</a>
           </td>
           <td>SP 800-73 Appendix A - PIV Data Model</td>
-          <td>Card Manufacturer, or the *Applicant*, or the ISO/ANSI Approved Labs, or the Evaluating Lab.</td>
+          <td>Card Manufacturer, or the <i>Applicant</i>, or the ISO/ANSI Approved Labs, or the Evaluating Lab.</td>
         </tr>
       </table>
     </p>
@@ -514,8 +514,7 @@ subnav:
     <p>
       Evaluation Lab (Alphabetical Order):
       <ol>
-        <li>
-          ATSEC: Information Security Corporation
+        <li>ATSEC: Information Security Corporation
           <ul>
             <li>Contact: Andreas Fabis</li>
             <li>Phone: <a href="tel:5126157300">(512) 615-7300</a></li>
@@ -523,8 +522,7 @@ subnav:
             <li><a class="usa-link usa-link--external" href="https://www.atsec.com" rel="noopener noreferrer" target="_blank">https://www.atsec.com</a></li>
           </ul>
         </li>
-        <li>
-          Eclipse Laboratories:
+        <li>Eclipse Laboratories:
           <ul>
             <li>Contact: Dr. Bradley A. Paulson</li>
             <li>Phone: <a href="tel:9529468843">(952) 946-8843</a></li>
@@ -532,8 +530,7 @@ subnav:
             <li>Website: <a class="usa-link usa-link--external" href="http://www.eclipselaboratories.com/" rel="noopener noreferrer" target="_blank">http://www.eclipselaboratories.com/</a></li>
           </ul>
         </li>
-        <li>
-          Exponent:
+        <li>Exponent:
           <ul>
             <li>Contact: Brad A. McGoran, P.E., CSCIP, GIAC</li>
             <li>Phone: <a href="tel:6506887013">(650) 688-7013</a></li>
@@ -545,10 +542,9 @@ subnav:
         <li>
         </li>
       </ol>
-        ISO/ANSI Labs (Alphabetical Order):
+      ISO/ANSI Labs (Alphabetical Order):
       <ol>
-        <li>
-          Eclipse Laboratories:
+        <li>Eclipse Laboratories:
           <ul>
             <li>Contact: Dr. Bradley A. Paulson</li>
             <li>Phone: <a href="tel:9529468843">(952) 946-8843</a></li>
@@ -556,8 +552,7 @@ subnav:
             <li>Website: <a class="usa-link usa-link--external" href="http://www.eclipselaboratories.com/" rel="noopener noreferrer" target="_blank">http://www.eclipselaboratories.com/</a></li>
           </ul>
         </li>
-        <li>
-          Exponent:
+        <li>Exponent:
           <ul>
             <li>Contact: Brad A. McGoran, P.E., CSCIP, GIAC</li>
             <li>Phone: <a href="tel:6506887013">(650) 688-7013</a></li>
@@ -567,6 +562,7 @@ subnav:
         </li>
       </ol>
     </p>
+    
   </li>
 </ol>
 
