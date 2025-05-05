@@ -462,6 +462,7 @@ subnav:
       The <i>Lab</i> will review the documentation submitted by the <i>Applicant</i> or perform the tests required to create the test results/report to ascertain the following and provide documentation to support their review:
       <ul>
         <li>
+          <p>
           The card’s physical characteristics comply with the following:
           <ul>
             <li>ISO 7810</li>
@@ -470,6 +471,7 @@ subnav:
             <li>ISO 14443</li>
             <li>ICC Interfaces</li>
           </ul>
+          </p>
         </li>
       </ul>
     </p>
