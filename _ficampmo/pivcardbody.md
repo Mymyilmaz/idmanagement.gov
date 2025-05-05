@@ -213,7 +213,6 @@ subnav:
 </div>
 
 
-
 <ol class="usa-process-list">
   <li class="usa-process-list__item">
    <h4 class="usa-process-list__heading">Introduction</h4>
@@ -227,12 +226,11 @@ subnav:
     <p>
       If you have any questions or need clarification regarding the PIV Card Body APL process, please contact the FIPS 201 Evaluation Program at <a href="mailto:fips201ep@gsa.gov">fips201ep@gsa.gov</a>.
     </p>
-    <h3>1.2 Category Description</h3>
-    <p>    
+    <p><h3>1.2 Category Description</h3>    
       The PIV Card is a smart card with contact and contactless interfaces that meet the interface, data format, graphical, and physical requirements outlined in FIPS 201 and SP 800-73.
     </p>
-    <h3>1.3 Purpose</h3>
-    <p>
+    
+    <p><h3>1.3 Purpose</h3>
       The purpose of this document is to provide the following information:
       <ol type="i">
           <li>Provide a list of the artifacts, forms, and/or documentation that must be submitted by the Evaluation Lab (<i>Lab</i>) to the FIPS 201 EP as part of the application package submission.</li>
@@ -537,7 +535,6 @@ subnav:
             <li>Email: <a href="mailto:bmcgoran@exponent.com">bmcgoran@exponent.com</a></li>
             <li>Website: <a class="usa-link usa-link--external" href="https://www.exponent.com/testing-evaluations" rel="noopener noreferrer" target="_blank">https://www.exponent.com/testing-evaluations</a></li>
           </ul>
-        <li>
         </li>
         <li>
         </li>
@@ -562,7 +559,7 @@ subnav:
         </li>
       </ol>
     </p>
-    
+
   </li>
 </ol>
 
