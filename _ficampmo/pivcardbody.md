@@ -244,7 +244,7 @@ subnav:
   <li class="usa-process-list__item">
     <h4 class="usa-process-list__heading">Application Package Contents</h4>
     <p>
-      The Application Package Contents include the artifacts, documentation, and product that the *Lab* must submit to the EP to perform validation and add to the APL. Submit the associated agreements and reports listed below to <a href="mailto:fips201ep@gsa.gov">fips201ep@gsa.gov</a> and mail the product to the FIPS 201 EP address provided below.
+      The Application Package Contents include the artifacts, documentation, and product that the <i>Lab</i> must submit to the EP to perform validation and add to the APL. Submit the associated agreements and reports listed below to <a href="mailto:fips201ep@gsa.gov">fips201ep@gsa.gov</a> and mail the product to the FIPS 201 EP address provided below.
     </p>
     <p>
       The Application Package Contents for this category include the following:
