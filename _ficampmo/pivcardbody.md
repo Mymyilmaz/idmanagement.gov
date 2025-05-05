@@ -212,7 +212,8 @@ subnav:
 </div>
 
 {:class="usa-process-list"}
-- 1 Introduction{:class="usa-process-list__item"}
+{:class="usa-process-list__item"}
+- 1 Introduction
 
   ### 1.1 Overview
 
@@ -236,7 +237,9 @@ subnav:
       <li>Specify the evaluation criteria and approval mechanisms that the <i>Labs</i> will use to verify the Product's compliance with the requirements that apply to this category.</li>
   </ol>
 
-- 2 Application Package Contents{:class="usa-process-list__item"}
+
+{:class="usa-process-list__item"}
+- 2 Application Package Contents
 
   The Application Package Contents include the artifacts, documentation, and product that the *Lab* must submit to the EP to perform validation and add to the APL. Submit the associated agreements and reports listed below to [fips201ep@gsa.gov](mailto:fips201ep@gsa.gov) and mail the product to the FIPS 201 EP address provided below.
 
@@ -260,7 +263,8 @@ subnav:
 
     - Official Certification documentation from the appropriate entity (e.g., NIST) indicating the Product’s conformance to the tested requirements of FIPS 201. Specific reference to the exact type of certification necessary can be found in the Certification section found in Section 3.2.3 of this document.
 
-- 3 Evaluation Procedure for PIV Card Body Testing{:class="usa-process-list__item"}
+{:class="usa-process-list__item"}
+- 3 Evaluation Procedure for PIV Card Body Testing
 
   ### 3.1 Requirements
 
