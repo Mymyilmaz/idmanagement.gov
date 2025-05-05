@@ -211,11 +211,9 @@ subnav:
   </div>
 </div>
 
-<ol class="usa-process-list">
-  <li>
     <h4 class="usa-process-list__heading">Introduction</h4>
-    <p>
     <h3>1.1 Overview</h3>
+    <p>
       The FIPS 201 Evaluation Program (EP) is a federal compliance program administered by the Office of Government-wide Policy (OGP) within the General Services Administration (GSA). The FIPS 201 Evaluation Program (EP) evaluates products and services against the requirements outlined in FIPS 201 and its supporting documents. In addition to test requirements developed to test conformance to the National Institute of Standards and Technology (NIST) specifications, GSA has established interoperability and performance metrics to further determine product suitability. To qualify as an Evaluation Lab (<i>Lab</i>) for the GSA FIPS 201 EP, the laboratory shall have received either NIST National Voluntary Laboratory Accreditation Program (NVLAP) accreditation (refer to NIST HB 150-17e2022, Annex D) or the International Organization of Standards (ISO) 17025 to perform FIPS 201 conformance testing review on products submitted by the Card Manufacturers, or Suppliers/Vendors (<i>Applicant</i>). A set of approval procedures has been developed that outlines the evaluation criteria, approval mechanisms, and validation test reports to be employed and provided by the *Lab* when evaluating an *Applicant’s* product against the requirements for that category.    
     </p>
     <p>
@@ -237,8 +235,7 @@ subnav:
           <li>Specify the evaluation criteria and approval mechanisms that the <i>Labs</i> will use to verify the Product's compliance with the requirements that apply to this category.</li>
       </ol>
     </p>
-  </li>
-  <li class="usa-process-list__item"> <!-- #2 -->
+
     <h4 class="usa-process-list__heading">Application Package Contents</h4>
     <p>
       The Application Package Contents include the artifacts, documentation, and product that the *Lab* must submit to the EP to perform validation and add to the APL. Submit the associated agreements and reports listed below to <a href="mailto:fips201ep@gsa.gov">fips201ep@gsa.gov</a> and mail the product to the FIPS 201 EP address provided below.
@@ -249,7 +246,7 @@ subnav:
         <li>
           The Product itself.
           <ul>
-            <li>(a) The <i>Applicant</i> should deliver the product to the *Lab* (address found in Section 4 Resources) using a secure delivery method that requires receipt acknowledgement (e.g., FedEx, UPS, or hand delivery).
+            <li>(a) The <li>Applicant</i> should deliver the product to the *Lab* (address found in Section 4 Resources) using a secure delivery method that requires receipt acknowledgement (e.g., FedEx, UPS, or hand delivery).
             </li>
             <li>(b) The <i>Lab</i> should deliver the Product along with the other application package documentation to the *FIPS 201 EP at 1893 Metro Center Dr., Ste 228, Reston, VA 20190* using a secure delivery method that requires receipt acknowledgement (e.g., FedEx, UPS, or hand delivery).
             <li> 
@@ -277,8 +274,7 @@ subnav:
         </li>
       </ul>
     </p>
-  </li>
-  <li class="usa-process-list__item">
+
     <h4 class="usa-process-list__heading">Evaluation Procedure for PIV Card Body Testing</h4>
     <h3>3.1 Requirements</h3>
     <p>
@@ -501,8 +497,7 @@ subnav:
     <p>
       If you have any questions or need clarification regarding the PIV Card Body APL process, please contact the FIPS 201 Evaluation Program at <a href="mailto:fips201ep@gsa.gov">fips201ep@gsa.gov</a>.
     </p>
-  </li>
-  <li class="usa-process-list__item">
+
     <h4 class="usa-process-list__heading">Lab Resources</h4>
     <p>
       While GSA does not endorse any specific laboratory, the following lab resources are provided for informational purposes only to assist applicants in the evaluation process. If your lab has one of the required certifications and wishes to be added to this list, please contact <a href="mailto:fips201ep@gsa.gov">fips201ep@gsa.gov</a>.
@@ -562,5 +557,3 @@ subnav:
         </li>
       </ol>
     </p>
-  </li>
-</ol>
