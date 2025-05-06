@@ -215,7 +215,7 @@ subnav:
 
 <ol class="usa-process-list">
   <li class="usa-process-list__item">
-    <p class="usa-process-list__heading">Introduction</p>
+    <h5 class="usa-process-list__heading">Introduction</h5>
     <p><strong>1.1 Overview</strong></p>
     <p>
       The FIPS 201 Evaluation Program (EP) is a federal compliance program administered by the Office of Government-wide Policy (OGP) within the General Services Administration (GSA). The FIPS 201 Evaluation Program (EP) evaluates products and services against the requirements outlined in FIPS 201 and its supporting documents. In addition to test requirements developed to test conformance to the National Institute of Standards and Technology (NIST) specifications, GSA has established interoperability and performance metrics to further determine product suitability. To qualify as an Evaluation Lab (<i>Lab</i>) for the GSA FIPS 201 EP, the laboratory shall have received either NIST National Voluntary Laboratory Accreditation Program (NVLAP) accreditation (refer to NIST HB 150-17e2022, Annex D) or the International Organization of Standards (ISO) 17025 to perform FIPS 201 conformance testing review on products submitted by the Card Manufacturers, or Suppliers/Vendors (<i>Applicant</i>). A set of approval procedures has been developed that outlines the evaluation criteria, approval mechanisms, and validation test reports to be employed and provided by the <i>Lab</i> when evaluating an <i>Applicant’s</i> product against the requirements for that category.    
@@ -241,7 +241,7 @@ subnav:
     </p>
   </li>
   <li class="usa-process-list__item">
-    <p class="usa-process-list__heading">Application Package Contents</p>
+    <h5 class="usa-process-list__heading">Application Package Contents</h5>
     <p>
       The Application Package Contents include the artifacts, documentation, and product that the <i>Lab</i> must submit to the EP to perform validation and add to the APL. Submit the associated agreements and reports listed below to <a href="mailto:fips201ep@gsa.gov">fips201ep@gsa.gov</a> and mail the product to the FIPS 201 EP address provided below.
     </p>
@@ -283,7 +283,7 @@ subnav:
     </p>
   </li>
   <li class="usa-process-list__item">
-    <p class="usa-process-list__heading">Complete the step-by-step process</p>
+    <h5 class="usa-process-list__heading">Complete the step-by-step process</h5>
     <p><strong>3.1 Requirements</strong></p>
     <p>
       To approve the Product as conformant to the requirements of FIPS 201, it, at a minimum, must comply with all the requirements listed below. The approval mechanism column describes the lab's technique for evaluating compliance with that requirement.
@@ -508,7 +508,7 @@ subnav:
     </p>
   </li>
   <li class="usa-process-list__item">
-    <p class="usa-process-list__heading">Lab Resources</p>
+    <h5 class="usa-process-list__heading">Lab Resources</h5>
     <p>
       While GSA does not endorse any specific laboratory, the following lab resources are provided for informational purposes only to assist applicants in the evaluation process. If your lab has one of the required certifications and wishes to be added to this list, please contact <a href="mailto:fips201ep@gsa.gov">fips201ep@gsa.gov</a>.
     </p>
