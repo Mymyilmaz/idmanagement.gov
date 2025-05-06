@@ -287,7 +287,6 @@ subnav:
       To approve the Product as conformant to the requirements of FIPS 201, it, at a minimum, must comply with all the requirements listed below. The approval mechanism column describes the lab's technique for evaluating compliance with that requirement.
     </p>
     <p>
-      <!-- Table 1 - Applicable Requirements -->
       <table class="usa-table">
         <thead>
           <caption>Table 1 - Applicable Requirements</caption>
