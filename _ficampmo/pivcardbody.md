@@ -215,8 +215,9 @@ subnav:
 
 <ol class="usa-process-list">
   <li class="usa-process-list__item">
-   <h4 class="usa-process-list__heading">Introduction</h4>
-    <p><h5>1.1 Overview</h5> 
+    <p class="usa-process-list__heading">Introduction</p>
+    <p><strong>1.1 Overview</strong></p>
+    <p>
       The FIPS 201 Evaluation Program (EP) is a federal compliance program administered by the Office of Government-wide Policy (OGP) within the General Services Administration (GSA). The FIPS 201 Evaluation Program (EP) evaluates products and services against the requirements outlined in FIPS 201 and its supporting documents. In addition to test requirements developed to test conformance to the National Institute of Standards and Technology (NIST) specifications, GSA has established interoperability and performance metrics to further determine product suitability. To qualify as an Evaluation Lab (<i>Lab</i>) for the GSA FIPS 201 EP, the laboratory shall have received either NIST National Voluntary Laboratory Accreditation Program (NVLAP) accreditation (refer to NIST HB 150-17e2022, Annex D) or the International Organization of Standards (ISO) 17025 to perform FIPS 201 conformance testing review on products submitted by the Card Manufacturers, or Suppliers/Vendors (<i>Applicant</i>). A set of approval procedures has been developed that outlines the evaluation criteria, approval mechanisms, and validation test reports to be employed and provided by the <i>Lab</i> when evaluating an <i>Applicant’s</i> product against the requirements for that category.    
     </p>
     <p>
@@ -225,10 +226,12 @@ subnav:
     <p>
       If you have any questions or need clarification regarding the PIV Card Body APL process, please contact the FIPS 201 Evaluation Program at <a href="mailto:fips201ep@gsa.gov">fips201ep@gsa.gov</a>.
     </p>
-    <p><h5>1.2 Category Description</h5>    
+    <p><strong>1.2 Category Description</strong></p>
+    <p>    
       The PIV Card is a smart card with contact and contactless interfaces that meet the interface, data format, graphical, and physical requirements outlined in FIPS 201 and SP 800-73.
     </p>
-    <p><h5>1.3 Purpose</h5>
+    <p><strong>1.3 Purpose</strong></p>
+    <p>
       The purpose of this document is to provide the following information:
       <ol type="i">
           <li>Provide a list of the artifacts, forms, and/or documentation that must be submitted by the Evaluation Lab (<i>Lab</i>) to the FIPS 201 EP as part of the application package submission.</li>
@@ -238,7 +241,7 @@ subnav:
     </p>
   </li>
   <li class="usa-process-list__item">
-    <h4 class="usa-process-list__heading">Application Package Contents</h4>
+    <p class="usa-process-list__heading">Application Package Contents</p>
     <p>
       The Application Package Contents include the artifacts, documentation, and product that the <i>Lab</i> must submit to the EP to perform validation and add to the APL. Submit the associated agreements and reports listed below to <a href="mailto:fips201ep@gsa.gov">fips201ep@gsa.gov</a> and mail the product to the FIPS 201 EP address provided below.
     </p>
@@ -280,9 +283,8 @@ subnav:
     </p>
   </li>
   <li class="usa-process-list__item">
-    <h4 class="usa-process-list__heading">Complete the step-by-step process</h4>
-    <p>
-    <h5>3.1 Requirements</h5>
+    <p class="usa-process-list__heading">Complete the step-by-step process</p>
+    <p><strong>3.1 Requirements</strong></p>
     <p>
       To approve the Product as conformant to the requirements of FIPS 201, it, at a minimum, must comply with all the requirements listed below. The approval mechanism column describes the lab's technique for evaluating compliance with that requirement.
     </p>
@@ -452,11 +454,11 @@ subnav:
         </tr>
       </table>
     </p>
-    <h5>3.2 Evaluation Criteria</h5>
+    <p><strong>3.2 Evaluation Criteria</strong></p>
     <p>
       This section details the <i>Lab's</i> process for evaluating the Product against the above-mentioned requirements.
     </p>
-    <h5>3.2.1 Card Manufacturer, or the Applicant, or the ISO/ANSI Approved Labs Documentation Review (PIV-C.1 to PIV-C.6)</h5>
+    <p>3.2.1 Card Manufacturer, or the Applicant, or the ISO/ANSI Approved Labs Documentation Review (PIV-C.1 to PIV-C.6)</p>
     <p>
       The <i>Lab</i> will review the documentation submitted by the <i>Applicant</i> or perform the tests required to create the test results/report to ascertain the following and provide documentation to support their review:
       <ul>
@@ -474,7 +476,7 @@ subnav:
         </li>
       </ul>
     </p>
-    <h5>3.2.2 ISO/ANSI Approved Labs Test Data Report (PIV-C.7 to PIV-C.23)</h5>
+    <p><strong>3.2.2 ISO/ANSI Approved Labs Test Data Report (PIV-C.7 to PIV-C.23)</strong></p>
     <p>
       The card durability and performance tests conform to the ANSI 322 test methods.
     </p>
@@ -489,7 +491,7 @@ subnav:
         </li>
       </ul>
     </p>
-    <h5>3.2.3 Certification (PIV-C.24 to PIV-C.25)</h5>
+    <p><strong>3.2.3 Certification (PIV-C.24 to PIV-C.25)</strong></p>
     <p>
       The <i>Lab</i> will perform the necessary activities to ensure the authenticity and validity of the certification status for the Product being tested and provide the following:
       <ul>
@@ -506,7 +508,7 @@ subnav:
     </p>
   </li>
   <li class="usa-process-list__item">
-    <h4 class="usa-process-list__heading">Lab Resources</h4>
+    <p class="usa-process-list__heading">Lab Resources</p>
     <p>
       While GSA does not endorse any specific laboratory, the following lab resources are provided for informational purposes only to assist applicants in the evaluation process. If your lab has one of the required certifications and wishes to be added to this list, please contact <a href="mailto:fips201ep@gsa.gov">fips201ep@gsa.gov</a>.
     </p>
