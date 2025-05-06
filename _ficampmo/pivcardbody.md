@@ -234,9 +234,9 @@ subnav:
     <p>
       The purpose of this document is to provide the following information:
       <ol type="i">
-          <li>Provide a list of the artifacts, forms, and/or documentation that must be submitted by the Evaluation Lab (<i>Lab</i>) to the FIPS 201 EP as part of the application package submission.</li>
-          <li>Document the requirements that apply to the PIV Card Body evaluation.</li>
-          <li>Specify the evaluation criteria and approval mechanisms that the <i>Labs</i> will use to verify the Product's compliance with the requirements that apply to this category.</li>
+          <li class="margin-bottom-03">Provide a list of the artifacts, forms, and/or documentation that must be submitted by the Evaluation Lab (<i>Lab</i>) to the FIPS 201 EP as part of the application package submission.</li>
+          <li class="margin-bottom-03">Document the requirements that apply to the PIV Card Body evaluation.</li>
+          <li class="margin-bottom-03">Specify the evaluation criteria and approval mechanisms that the <i>Labs</i> will use to verify the Product's compliance with the requirements that apply to this category.</li>
       </ol>
     </p>
   </li>
@@ -251,9 +251,9 @@ subnav:
         <li>
           The Product itself.
           <ul>
-            <li>(a) The <i>Applicant</i> should deliver the product to the <i>Lab</i> (address found in Section 4 Resources) using a secure delivery method that requires receipt acknowledgement (e.g., FedEx, UPS, or hand delivery).
+            <li class="margin-bottom-03">(a) The <i>Applicant</i> should deliver the product to the <i>Lab</i> (address found in Section 4 Resources) using a secure delivery method that requires receipt acknowledgement (e.g., FedEx, UPS, or hand delivery).
             </li>
-            <li>(b) The <i>Lab</i> should deliver the Product along with the other application package documentation to the <i>FIPS 201 EP at 1893 Metro Center Dr., Ste 228, Reston, VA 20190</i> using a secure delivery method that requires receipt acknowledgement (e.g., FedEx, UPS, or hand delivery).
+            <li class="margin-bottom-03">(b) The <i>Lab</i> should deliver the Product along with the other application package documentation to the <i>FIPS 201 EP at 1893 Metro Center Dr., Ste 228, Reston, VA 20190</i> using a secure delivery method that requires receipt acknowledgement (e.g., FedEx, UPS, or hand delivery).
             </li> 
           </ul>
         </li>
@@ -270,10 +270,10 @@ subnav:
         <p>
           The <i>Lab's</i> Evaluation Report, which provides test results and an evaluation of the findings with recommendations for conformance or non-conformance for the Product based on the requirements indicated in Section 3.1, Table 1 of this document, and as indicated against the tests conducted in the FIPS 201 Evaluation Program Attestation Form for PIV Card Body Approval_v1.0. The <i>Lab</i> is required to develop test methods or review test reports for conformance testing as required by the FIPS 201 EP and validate that the test methods developed comply with the requirements set forth by the International Organization for Standardization (ISO) 17025 for Testing and Calibration laboratories to verify the effectiveness of the testing method to produce valid results. In this regard, the Card Manufacturer or the <i>Applicant</i>, or the ISO/ANSI Approved Labs, is expected to develop and document the test procedures used to determine how the Product was tested to conclude that it met all requirements to be compliant. In addition, the following will be provided as part of the <i>Applicant's</i> Documentation Review and Certification:
           <ul>
-            <li>
+            <li class="margin-bottom-03">
               All necessary Card Manufacturer / <i>Applicant</i>, and ISO/ANSI Approved Labs documentation providing proof that the Product complies with the category-specific requirements as outlined in Section 3.1, Table 1 and complies with the evaluation criteria in Section 3.2.1 and Section 3.2.2, for the category, which has report documentation review as its approval mechanism. Examples of specific documentation include: user guides, technical specifications, white papers, sample cards, etc.
             </li>
-            <li>
+            <li class="margin-bottom-03">
               Official Certification documentation from the appropriate entity (e.g., NIST) indicating the Product's conformance to the tested requirements of FIPS 201. Specific reference to the exact type of certification necessary can be found in the Certification section found in Section 3.2.3 of this document.
             </li>
           </ul>
@@ -483,10 +483,10 @@ subnav:
     <p>
       As a result of the testing to ensure compliance with the respective standards, the following must be included as part of the FIPS 201 Evaluation Program Attestation Form for PIV Card Body Approval:
       <ul>
-        <li>
+        <li class="margin-bottom-03">
           A report was generated to ensure that the test performed to evaluate the card characteristics, durability, and performance complies with the test methods in ANSI 322. <i>These tests shall include card flexure, static stress, plasticizer exposure, impact resistance, card structural integrity, surface abrasion, temperature and humidity-induced dye migration, ultraviolet light exposure, and laundry test. Cards SHALL NOT malfunction or delaminate after hand cleaning with a mild soap and water mixture (FIPS 201-3)</i>.
         </li>
-        <li>
+        <li class="margin-bottom-03">
           A sampling of a minimum of four (4) out of five (5) cards, or 80% if a sampling size of greater than five (5) cards is used, should successfully fulfill the requirement being tested to ensure that the product passes the specific test.
         </li>
       </ul>
@@ -512,8 +512,7 @@ subnav:
     <p>
       While GSA does not endorse any specific laboratory, the following lab resources are provided for informational purposes only to assist applicants in the evaluation process. If your lab has one of the required certifications and wishes to be added to this list, please contact <a href="mailto:fips201ep@gsa.gov">fips201ep@gsa.gov</a>.
     </p>
-    <p>
-      Evaluation Lab (Alphabetical Order):
+    <p>Evaluation Lab (Alphabetical Order):
       <ol>
         <li>ATSEC: Information Security Corporation
           <ul>
