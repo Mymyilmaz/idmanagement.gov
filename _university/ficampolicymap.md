@@ -814,7 +814,7 @@ sticky_sidenav: true
       </a>
     </g>
     <g id="NISTIR_8149" data-name="NISTIR 8149">
-      <a href="https://csrc.nist.gov/pubs/ir/8149/final" title="NISTIR 8149" target="_blank" rel="noopener noreferrer">
+      <a href="https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8149.pdf" title="NISTIR 8149" target="_blank" rel="noopener noreferrer">
       <rect class="tsbutton" id="gbrect-39" data-name="gbrect" x="487.28" y="795.3" width="90.22" height="31" />
       <text id="NISTIR_8149t" data-name="NISTIR 8149t" transform="translate(499.39 814.38) scale(1.27 1)" style="font-family: Arial-BoldMT, Arial; font-size: 9px; font-weight: 700;"><tspan x="0" y="0">NISTIR 8149</tspan></text>
       </a>
