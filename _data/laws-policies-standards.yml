@@ -1561,7 +1561,7 @@
   type: Guidance
   shortName: "NIST SP 800-78"
   longName: "NIST Special Publication 800-78: Cryptographic Algorithms and Key Sizes for Personal Identity Verification"
-  description: "This document contains the technical specifications needed for the mandatory and optional cryptographic keys specified in FIPS 201-2 as well as the supporting infrastructure specified in FIPS 201-2 and the related NIST Special Publication 800-73-4, Interfaces for Personal Identity Verification [SP800-73], and NIST SP 800-76-2, Biometric Specifications for Personal Identity Verification [SP800-76], that rely on cryptographic functions."
+  description: "This document contains the technical specifications needed for the mandatory and optional cryptographic keys specified in FIPS 201-3, as well as the supporting infrastructure specified in FIPS 201-3 and the related NIST Special Publication (SP) 800-73, Interfaces for Personal Identity Verification, and SP 800-76, Biometric Specifications for Personal Identity Verification, which rely on cryptographic functions."
   externalURL: "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-78-5.pdf"
   published: 2024-07-15
   authored-by:
