@@ -927,7 +927,7 @@ sticky_sidenav: true
       </a>
     </g>
     <g id="Facility_Acess" data-name="Facility Acess"><!-- site down at time of update -->
-      <a href="https://www.cisa.gov/sites/default/files/publications/Facility%20Access%20Control%20-%20An%20Interagency%20Security%20Committee%20Best%20Practice.pdf" title="Facility Acess Control" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.cisa.gov/sites/default/files/2025-02/Facility%20Access%20Control%20-%20An%20Interagency%20Security%20Committee%20Best%20Practice-02-20.pdf" title="Facility Acess Control" target="_blank" rel="noopener noreferrer">
       <rect class="tsbutton" id="gbrect-56" data-name="gbrect" x="1306.5" y="864.3" width="111" height="51" />
       <text id="Facility_Acess-2" data-name="Facility Acess" transform="translate(1327.19 887.16) scale(1.33 1)" style="font-family: Arial-BoldMT, Arial; font-size: 8px; font-weight: 700;"><tspan x="0" y="0">Facility</tspan><tspan x="27.57" y="0" style="letter-spacing: -.04em;"> </tspan><tspan x="29.49" y="0">Acess</tspan><tspan x="12.31" y="12">Control</tspan></text>
       </a>
