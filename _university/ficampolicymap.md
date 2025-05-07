@@ -896,7 +896,7 @@ sticky_sidenav: true
       </a>
     </g>
     <g id="SP_800-171" data-name="SP 800-171">
-      <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-171r2.pdf" title="SP 800-171" target="_blank" rel="noopener noreferrer">
+      <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-171Ar3.pdf" title="SP 800-171" target="_blank" rel="noopener noreferrer">
       <rect class="tsbutton" id="gbrect-51" data-name="gbrect" x="787.23" y="544.3" width="80.27" height="23" />
       <text id="SP_800-171-2" data-name="SP 800-171" transform="translate(799.48 559) scale(1.33 1)" style="font-family: Arial-BoldMT, Arial; font-size: 8px; font-weight: 700;"><tspan x="0" y="0">S</tspan><tspan x="5.34" y="0" style="letter-spacing: -.02em;">P</tspan><tspan x="10.53" y="0" xml:space="preserve"> 800-171</tspan></text>
       </a>
