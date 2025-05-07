@@ -700,7 +700,7 @@ sticky_sidenav: true
       </a>
     </g>
     <g id="SP_1800-13" data-name="SP 1800-13">
-      <a href="https://csrc.nist.gov/pubs/sp/1800/13/final" title="SP 1800-13" target="_blank" rel="noopener noreferrer">
+      <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1800-13.pdf" title="SP 1800-13" target="_blank" rel="noopener noreferrer">
       <rect id="gbrect-22" class="tsbutton" data-name="gbrect" x="47.41" y="674.3" width="90.19" height="41.5"/>
       <text id="SP_1800-13-2" data-name="SP 1800-13" transform="translate(66.58 698.56)" style="font-family: Arial-BoldMT, Arial; font-size: 9.8px; font-weight: 700;"><tspan x="0" y="0">S</tspan><tspan x="6.53" y="0" style="letter-spacing: -.02em;">P</tspan><tspan x="12.89" y="0" xml:space="preserve"> 1800-13</tspan></text>
       </a>
