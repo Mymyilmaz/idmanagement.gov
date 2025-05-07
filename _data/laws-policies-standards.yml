@@ -759,7 +759,7 @@
     Describes trust frameworks for identity federations, which provide a secure method for leveraging shared 
     identity credentials across communities of similarly-focused online service providers.
   published: 2018-01-12
-  externalURL: "https://csrc.nist.gov/publications/detail/nistir/8149/final"
+  externalURL: "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8149.pdf"
   authored-by:
     - *NIST
   ficam-services:
@@ -789,7 +789,7 @@
     technologies to enhance public safety mission capabilities by using standards-based
     commercially available or open-source products.
   published: 2021-08-25
-  externalURL: "https://csrc.nist.gov/pubs/sp/1800/13/final"
+  externalURL: "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1800-13.pdf"
   authored-by:
     - *NIST
   ficam-services:
@@ -1035,8 +1035,8 @@
     credential service provider (CSP) reliably identifying themselves, thereby allowing the CSP to assert 
     that identification at an Identity Assurance Level (IAL). This document defines technical requirements 
     for each of the three IALs.
-  externalURL: "https://csrc.nist.gov/publications/detail/sp/800-63a/4/draft"
-  published: 2022-12-16
+  externalURL: "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63A-4.2pd.pdf"
+  published: 2024-08-21
   authored-by:
     - *NIST
   authorized-by:
@@ -1057,8 +1057,8 @@
     result of the authentication process may be used locally by the system performing the authentication or 
     may be asserted elsewhere in a federated identity system. This document defines technical requirements 
     for each of the three Authentication Assurance Levels (AALs).
-  externalURL: "https://csrc.nist.gov/publications/detail/sp/800-63b/4/draft"
-  published: 2022-12-16
+  externalURL: "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63B-4.2pd.pdf "
+  published: 2024-08-21
   authored-by:
     - *NIST
   authorized-by:
@@ -1080,8 +1080,8 @@
     focuses on the use of federated identity and the use of assertions to implement identity federations. 
     Federation allows a given CSP to provide authentication and (optionally) subscriber attributes to a number 
     of separately-administered relying parties. Similarly, relying parties may use more than one CSP.
-  externalURL: "https://csrc.nist.gov/publications/detail/sp/800-63c/4/draft"
-  published: 2022-12-16
+  externalURL: "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63C-4.2pd.pdf"
+  published: 2024-08-21
   authored-by:
     - *NIST
   authorized-by:
@@ -1321,12 +1321,12 @@
 - &SP800171
   type: Guidance
   shortName: NIST SP 800-171
-  longName: "NIST Special Publication 800-171 Revision 2: Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations"
+  longName: "NIST Special Publication 800-171 Revision 3: Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations"
   description: >-
     This publication provides guidance for operators of non-federal (e.g. commercial) systems hosting Controlled 
     Unclassified Information (CUI). It includes several FICAM relevant requirements.
-  published: 2021-01-28
-  externalURL: "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-171r2.pdf"
+  published: 2021-05-01
+  externalURL: "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-171Ar3.pdf"
   authored-by:
     - *NIST
   authorized-by:
@@ -1478,8 +1478,8 @@
   shortName: "NIST SP 800-73"
   longName: "NIST Special Publication 800-73-4: Interfaces for Personal Identity Verification"
   description: "This document, SP 800-73, contains the technical specifications to interface with the smart card to retrieve and use the PIV identity credentials."
-  externalURL: "https://csrc.nist.gov/publications/detail/sp/800-73/4/final"
-  published: 2016-02-12
+  externalURL: "https://csrc.nist.gov/pubs/sp/800/73/pt1/5/final"
+  published: 2024-07-15
   authored-by:
     - *NIST
   subspec-of:
@@ -1562,8 +1562,8 @@
   shortName: "NIST SP 800-78"
   longName: "NIST Special Publication 800-78: Cryptographic Algorithms and Key Sizes for Personal Identity Verification"
   description: "This document contains the technical specifications needed for the mandatory and optional cryptographic keys specified in FIPS 201-2 as well as the supporting infrastructure specified in FIPS 201-2 and the related NIST Special Publication 800-73-4, Interfaces for Personal Identity Verification [SP800-73], and NIST SP 800-76-2, Biometric Specifications for Personal Identity Verification [SP800-76], that rely on cryptographic functions."
-  externalURL: "https://csrc.nist.gov/publications/detail/sp/800-78/4/final"
-  published: 2015-05-29
+  externalURL: "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-78-5.pdf"
+  published: 2024-07-15
   authored-by:
     - *NIST
   subspec-of:
