@@ -842,7 +842,7 @@ sticky_sidenav: true
       <text id="FIPS_201_related_standards" data-name="FIPS 201 related standards" transform="translate(831.76 658.74) scale(1.27 1)" style="font-family: ArialMT, Arial; font-size: 11px;"><tspan x="0" y="0">FIPS 201 related standards</tspan></text>
     </g>
     <g id="SP_800-73" data-name="SP 800-73">
-      <a href="https://csrc.nist.gov/pubs/sp/800/73/4/upd1/final" title="SP 800-73" target="_blank" rel="noopener noreferrer">
+      <a href="https://csrc.nist.gov/pubs/sp/800/73/pt1/5/final" title="SP 800-73" target="_blank" rel="noopener noreferrer">
       <rect class="tsbutton" id="gbrect-42" data-name="gbrect" x="787.23" y="678.3" width="76.34" height="25.1" />
       <text id="SP_800-73-2" data-name="SP 800-73" transform="translate(800.44 694) scale(1.33 1)" style="font-family: Arial-BoldMT, Arial; font-size: 8px; font-weight: 700;"><tspan x="0" y="0">S</tspan><tspan x="5.34" y="0" style="letter-spacing: -.02em;">P</tspan><tspan x="10.53" y="0" xml:space="preserve"> 800-73</tspan></text>
       </a>
