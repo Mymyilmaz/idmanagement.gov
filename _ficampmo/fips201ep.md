@@ -186,7 +186,10 @@ Upon successful completion of DPCI testing, the agency or organization will be a
 
 <ol class="usa-process-list">
   <li class="usa-process-list__item">
-  <h4 class="usa-process-list__heading"><svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use href="/assets/img/sprite.svg#local_library"></use></svg> Read and follow Approval Procedures</h4>
+  <h4 class="usa-process-list__heading">
+  <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+    <use href="/assets/img/sprite.svg#local_library"></use>
+  </svg> Read and follow Approval Procedures</h4>
     <p class="margin-top-05">
       <a href="{{site.baseurl}}/docs/piv-card-body-approval-procedures.pdf" rel="noopener noreferrer" target="_blank">Personal Identity Verification (PIV) Card Body Approval Procedures v11.1</a> (PDF, May 2025) indicates the approval procedures, outlines the evaluation criteria, approval mechanisms, and validation test reports to be employed and provided by the Evaluation Laboratory based on their evaluation of a vendor/ supplier’s PIV Card body (product), to be provided to the FIPS 201 EP for evaluation to be placed on the Approved Products List (APL). A web version may be found here: <a href="{{site.baseurl}}/pivcardbody/" rel="noopener noreferrer" target="_blank">PIV Card Body Approval Procedures</a>.
     </p>
