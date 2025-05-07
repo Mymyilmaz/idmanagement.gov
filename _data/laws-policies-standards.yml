@@ -783,7 +783,7 @@
 - &SP180013
   type: Guidance
   shortName: "NIST SP 1800-13"
-  longName: "NIST SPECIAL PUBLICATION 1800-13A Mobile Application Single Sign-On: Improving Authentication for Public Safety First Responders"
+  longName: "NIST SPECIAL PUBLICATION 1800-13: A Mobile Application Single Sign-On: Improving Authentication for Public Safety First Responders"
   description: >-
     This NIST Cybersecurity Practice Guide describes how organizations can implement Mobile SSO
     technologies to enhance public safety mission capabilities by using standards-based
