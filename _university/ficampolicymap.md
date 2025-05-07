@@ -779,7 +779,7 @@ sticky_sidenav: true
       </a>
     </g>
     <g id="SP_800-63B" data-name="SP 800-63B">
-      <a href="https://csrc.nist.gov/pubs/sp/800/63/b/4/ipd" title="SP 800-63B" target="_blank" rel="noopener noreferrer">
+      <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63B-4.2pd.pdf" title="SP 800-63B" target="_blank" rel="noopener noreferrer">
       <rect class="tsbutton" id="gbrect-34" data-name="gbrect" x="346.28" y="745.3" width="74.22" height="17.23" />
       <text id="SP_800-63B-2" data-name="SP 800-63B" transform="translate(355.85 757.03) scale(1.27 1)" style="font-family: Arial-BoldMT, Arial; font-size: 8px; font-weight: 700;"><tspan x="0" y="0">S</tspan><tspan x="5.34" y="0" style="letter-spacing: -.02em;">P</tspan><tspan x="10.53" y="0" xml:space="preserve"> 800-63B</tspan></text>
       </a>
