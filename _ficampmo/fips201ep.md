@@ -204,7 +204,7 @@ Upon successful completion of DPCI testing, the agency or organization will be a
     </p>
   </li>
   <li class="usa-process-list__item">
-  <h4 class="usa-process-list__heading">Complete and sign Trade Agreement Form</h4>
+  <h4 class="usa-process-list__heading">Complete signed Trade Agreement Form</h4>
     <p>
        Complete and signed <a href="{{site.baseurl}}/docs/fips201-evaluation-program-attestations-to-federal-acquisition-regulations-related-to-the-trade-agreement-act.pdf" rel="noopener noreferrer" target="_blank">FIPS 201 Evaluation Program Attestations to Federal Acquisition Regulations related to the Trade Agreement Act v3.3</a>.
     </p>
