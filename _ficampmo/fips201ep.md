@@ -182,8 +182,8 @@ Upon successful completion of DPCI testing, the agency or organization will be a
 
 ## PIV Card Body
 
-All applicants, please complete the following steps:
-
+<p>All applicants, please complete the following steps:</a>
+<p>
 <ol class="usa-process-list">
   <li class="usa-process-list__item">
     <p class="margin-top-05">
@@ -206,6 +206,7 @@ All applicants, please complete the following steps:
     </p>
   </li>
 </ol>
+</p>
 
 
 
