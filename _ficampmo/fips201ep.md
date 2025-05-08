@@ -184,7 +184,7 @@ Upon successful completion of DPCI testing, the agency or organization will be a
 
 <p>All applicants, please complete the following steps:</p>
 
-<ol class="usa-process-list padding-bottom-0">
+<ol class="usa-process-list">
   <li class="usa-process-list__item">
   <h4 class="usa-process-list__heading">
   <svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use href="{{site.baseurl}}/assets/img/sprite.svg#local_library"></use></svg>&nbsp;&nbsp;Read and follow Approval Procedures</h4>
@@ -229,7 +229,7 @@ Upon successful completion of DPCI testing, the agency or organization will be a
   </li>
 </ol>
 
-
+{:style="margin-top:10px"}
 ## Test Card Loaners
 
 GSA can loan you test cards to help you pre-test your physical access control system products.
