@@ -224,7 +224,7 @@ Upon successful completion of DPCI testing, the agency or organization will be a
       </address>
     </p>
     <p>
-      If you have any questions or need clarification regarding the PIV Card Body APL process, please contact the FIPS 201 Evaluation Program at: <a href="mailto:fips201ep@gsa.gov">fips201ep@gsa.gov</a>.
+      If you have any questions or need clarification regarding the PIV Card Body APL process, please contact the <i>FIPS 201 Evaluation Program</i> at: <a href="mailto:fips201ep@gsa.gov">fips201ep@gsa.gov</a>.
     </p>
   </li>
 </ol>
