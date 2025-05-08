@@ -182,17 +182,54 @@ Upon successful completion of DPCI testing, the agency or organization will be a
 
 ## PIV Card Body
 
-All applicants, please complete the following steps:
+<p>All applicants, please complete the following steps:</p>
 
-1. [Personal Identity Verification (PIV) Card Body Approval Procedures v11.1 (PDF, May 2025)]({{site.baseurl}}/docs/piv-card-body-approval-procedures.pdf){:target="_blank"}{:rel="noopener noreferrer"}  – indicates the approval procedures, outlines the evaluation criteria, approval mechanisms, and validation test reports to be employed and provided by the Evaluation Laboratory based on their evaluation of a vendor/ supplier’s PIV Card body (product), to be provided to the FIPS 201 EP for evaluation to be placed on the Approved Products List (APL). A web version may be found here: [PIV Card Body Approval Procedures]({{site.baseurl}}/pivcardbody/){:target="_blank"}{:rel="noopener noreferrer"}.
+<ol class="usa-process-list">
+  <li class="usa-process-list__item">
+  <h4 class="usa-process-list__heading">
+  <svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use href="{{site.baseurl}}/assets/img/sprite.svg#local_library"></use></svg>&nbsp;&nbsp;Read and follow Approval Procedures</h4>
+    <p class="margin-top-05">
+      <a href="{{site.baseurl}}/docs/piv-card-body-approval-procedures.pdf" rel="noopener noreferrer" target="_blank">Personal Identity Verification (PIV) Card Body Approval Procedures v11.1</a> (PDF, May 2025) indicates the approval procedures, outlines the evaluation criteria, approval mechanisms, and validation test reports to be employed and provided by the Evaluation Laboratory based on their evaluation of a vendor/ supplier’s PIV Card body (product), to be provided to the FIPS 201 EP for evaluation to be placed on the Approved Products List (APL). A web version may be found here: <a href="{{site.baseurl}}/pivcardbody/" rel="noopener noreferrer" target="_blank">PIV Card Body Approval Procedures</a>.
+    </p>
+  </li>
+  <li class="usa-process-list__item">
+  <h4 class="usa-process-list__heading"><svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use href="{{site.baseurl}}/assets/img/sprite.svg#edit"></use></svg>&nbsp;&nbsp;Complete Application Form</h4>
+    <p>
+       Complete and provide the <a href="{{site.baseurl}}/docs/fips201-piv-card-apl-evaluation-application-and-services-agreement.docx" rel="noopener noreferrer" target="_blank">PIV Card APL EP Application and Service Agreement v1.0</a> (Word, May 2025).
+    </p>
+  </li>
+  <li class="usa-process-list__item">
+  <h4 class="usa-process-list__heading"><svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use href="{{site.baseurl}}/assets/img/sprite.svg#edit"></use></svg>&nbsp;&nbsp;Complete Attestations Form</h4>
+    <p>
+      Complete and provide the <a href="{{site.baseurl}}/docs/fips201-evaluation-program-attestation-form-for-piv-card-body-approval.docx" rel="noopener noreferrer" target="_blank">FIPS 201 Evaluation Program Attestations Form for PIV Card Body Approval v1.1</a> (Word, May 2025).
+    </p>
+  </li>
+  <li class="usa-process-list__item">
+  <h4 class="usa-process-list__heading"><svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use href="{{site.baseurl}}/assets/img/sprite.svg#edit"></use></svg>&nbsp;&nbsp;Complete and sign Trade Agreement Form</h4>
+    <p>
+       Complete and provide a signed <a href="{{site.baseurl}}/docs/fips201-evaluation-program-attestations-to-federal-acquisition-regulations-related-to-the-trade-agreement-act.pdf" rel="noopener noreferrer" target="_blank">FIPS 201 Evaluation Program Attestations to Federal Acquisition Regulations related to the Trade Agreement Act v3.3</a>.
+    </p>
+  </li>
+  <li class="usa-process-list__item">
+  <h4 class="usa-process-list__heading"><svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use href="{{site.baseurl}}/assets/img/sprite.svg#mail_outline"></use></svg>&nbsp;&nbsp;Product Delivery</h4>
+    <p>
+      The Evaluation Lab should deliver the <i>Product</i> as part of the complete application package, including documentation, using a secure delivery method that requires receipt acknowledgement (e.g., <i>FedEx, UPS, or hand delivery</i>) to:
+    </p>
+    <p>
+      <address style="padding-left:10px">
+      <strong>FIPS 201 Evaluation Program</strong><br/>
+      c/o Electrosoft<br/>
+      1893 Metro Center Dr., Ste 228<br/>
+      Reston, VA 20190
+      </address>
+    </p>
+    <p>
+      If you have any questions or need clarification regarding the PIV Card Body APL process, please contact the <i>FIPS 201 Evaluation Program</i> at: <a href="mailto:fips201ep@gsa.gov">fips201ep@gsa.gov</a>.
+    </p>
+  </li>
+</ol>
 
-2. Complete and provide the [PIV Card APL EP Application and Service Agreement v1.0.0]({{site.baseurl}}/docs/fips201-piv-card-apl-evaluation-application-and-services-agreement.docx){:target="_blank"}{:rel="noopener noreferrer"}  (Word, May 2025).
-
-3. Complete and provide the [FIPS 201 Evaluation Program Attestations Form for PIV Card Body Approval v1.1]({{site.baseurl}}/docs/fips201-evaluation-program-attestation-form-for-piv-card-body-approval.docx){:target="_blank"}{:rel="noopener noreferrer"}  (Word, May 2025).
-
-4. Complete and signed FIPS [201 Evaluation Program Attestations to Federal Acquisition Regulations related to the Trade Agreement Act v3.3]({{site.baseurl}}/docs/fips201-evaluation-program-attestations-to-federal-acquisition-regulations-related-to-the-trade-agreement-act.pdf){:target="_blank"}{:rel="noopener noreferrer"}.
-
-
+{:style="margin-top:10px"}
 ## Test Card Loaners
 
 GSA can loan you test cards to help you pre-test your physical access control system products.
@@ -200,3 +237,9 @@ GSA can loan you test cards to help you pre-test your physical access control sy
 - [PACS Test Card Loaner Process (PDF, November 2019).]({{site.baseurl}}/docs/pacstest-process.pdf){:target="_blank"}{:rel="noopener noreferrer"}
 - [PACS Test Card Loaner Set Request Form (MS Word, October 2019)]({{site.baseurl}}/docs/pacstest-loanerrequestform.docx){:target="_blank"}{:rel="noopener noreferrer"} – Sign and submit this form to [fips201ep@gsa.gov](mailto:fips201ep@gsa.gov).
 - [PACS Test Card User Guide (PDF, January 2019).]({{site.baseurl}}/docs/pacstest-testuserguide.pdf){:target="_blank"}{:rel="noopener noreferrer"}
+
+---
+
+<p class="margin-top-4">
+  <strong class="margin-right-3">Still need help?</strong><a class="usa-button usa-button--outline" href="mailto:fips201ep@gsa.gov"><svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use href="{{site.baseurl}}/assets/img/sprite.svg#mail"></use></svg>Contact us</a>
+</p>
