@@ -213,7 +213,7 @@ Upon successful completion of DPCI testing, the agency or organization will be a
     </p>
   </li>
   <li class="usa-process-list__item">
-  <h4 class="usa-process-list__heading"><svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use href="{{site.baseurl}}/assets/img/sprite.svg#send"></use></svg>  Product Delivery</h4>
+  <h4 class="usa-process-list__heading"><svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use href="{{site.baseurl}}/assets/img/sprite.svg#mail_outline"></use></svg>  Product Delivery</h4>
     <p>
       The Evaluation Lab should deliver the <i>Product</i> as part of the complete application package, including documentation, using a secure delivery method that requires receipt acknowledgement (e.g., FedEx, UPS, or hand delivery) to:<p>
       <p>
