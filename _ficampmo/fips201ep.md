@@ -216,7 +216,7 @@ Upon successful completion of DPCI testing, the agency or organization will be a
       The Evaluation Lab should deliver the <i>Product</i> as part of the complete application package, including documentation, using a secure delivery method that requires receipt acknowledgement (e.g., FedEx, UPS, or hand delivery) to:
     </p>
     <p>
-      <address>
+      <address style="padding-left:10px">
       <strong>FIPS 201 Evaluation Program</strong><br/>
       c/o ElectroSoft Inc.<br/>
       1893 Metro Center Dr., Ste 228<br/>
