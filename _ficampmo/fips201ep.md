@@ -184,7 +184,7 @@ Upon successful completion of DPCI testing, the agency or organization will be a
 
 <p>All applicants, please complete the following steps:</p>
 
-<ol class="usa-process-list">
+<ol class="usa-process-list margin-bottom-1">
   <li class="usa-process-list__item">
   <h4 class="usa-process-list__heading">
   <svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use href="{{site.baseurl}}/assets/img/sprite.svg#local_library"></use></svg>&nbsp;&nbsp;Read and follow Approval Procedures</h4>
@@ -218,7 +218,7 @@ Upon successful completion of DPCI testing, the agency or organization will be a
     <p>
       <address style="padding-left:10px">
       <strong>FIPS 201 Evaluation Program</strong><br/>
-      c/o ElectroSoft Inc.<br/>
+      c/o Electrosoft<br/>
       1893 Metro Center Dr., Ste 228<br/>
       Reston, VA 20190
       </address>
