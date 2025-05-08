@@ -240,6 +240,6 @@ GSA can loan you test cards to help you pre-test your physical access control sy
 
 ---
 
-<p class="margin-top-3">
+<p class="margin-top-4">
   <strong class="margin-right-3">Still need help?</strong><a class="usa-button usa-button--outline" href="mailto:fips201ep@gsa.gov"><svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use href="{{site.baseurl}}/assets/img/sprite.svg#mail"></use></svg>Contact us</a>
 </p>
