@@ -195,10 +195,7 @@ Upon successful completion of DPCI testing, the agency or organization will be a
   <li class="usa-process-list__item">
   <h4 class="usa-process-list__heading"><svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use href="{{site.baseurl}}/assets/img/sprite.svg#edit"></use></svg>&nbsp;&nbsp;Complete Application Form</h4>
     <p>
-       Complete and provide the <a href="{{site.baseurl}}/docs/fips201-piv-card-apl-evaluation-application-and-services-agreement.docx" rel="noopener noreferrer" target="_blank">PIV Card APL EP Application and Service Agreement v1.0.0</a> (Word, May 2025).
-    </p>
-    <p>
-      <strong class="margin-right-3">Still need help?</strong><a class="usa-button usa-button--outline" href="mailto:fips201ep@gsa.gov"><svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use href="{{site.baseurl}}/assets/img/sprite.svg#mail"></use></svg>Contact us</a>
+       Complete and provide the <a href="{{site.baseurl}}/docs/fips201-piv-card-apl-evaluation-application-and-services-agreement.docx" rel="noopener noreferrer" target="_blank">PIV Card APL EP Application and Service Agreement v1.0</a> (Word, May 2025).
     </p>
   </li>
   <li class="usa-process-list__item">
@@ -240,3 +237,9 @@ GSA can loan you test cards to help you pre-test your physical access control sy
 - [PACS Test Card Loaner Process (PDF, November 2019).]({{site.baseurl}}/docs/pacstest-process.pdf){:target="_blank"}{:rel="noopener noreferrer"}
 - [PACS Test Card Loaner Set Request Form (MS Word, October 2019)]({{site.baseurl}}/docs/pacstest-loanerrequestform.docx){:target="_blank"}{:rel="noopener noreferrer"} – Sign and submit this form to [fips201ep@gsa.gov](mailto:fips201ep@gsa.gov).
 - [PACS Test Card User Guide (PDF, January 2019).]({{site.baseurl}}/docs/pacstest-testuserguide.pdf){:target="_blank"}{:rel="noopener noreferrer"}
+
+---
+
+<p>
+  <strong class="margin-right-3">Still need help?</strong><a class="usa-button usa-button--outline" href="mailto:fips201ep@gsa.gov"><svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use href="{{site.baseurl}}/assets/img/sprite.svg#mail"></use></svg>Contact us</a>
+</p>
