@@ -700,7 +700,7 @@ sticky_sidenav: true
       </a>
     </g>
     <g id="SP_1800-13" data-name="SP 1800-13">
-      <a href="https://csrc.nist.gov/pubs/sp/1800/13/final" title="SP 1800-13" target="_blank" rel="noopener noreferrer">
+      <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1800-13.pdf" title="SP 1800-13" target="_blank" rel="noopener noreferrer">
       <rect id="gbrect-22" class="tsbutton" data-name="gbrect" x="47.41" y="674.3" width="90.19" height="41.5"/>
       <text id="SP_1800-13-2" data-name="SP 1800-13" transform="translate(66.58 698.56)" style="font-family: Arial-BoldMT, Arial; font-size: 9.8px; font-weight: 700;"><tspan x="0" y="0">S</tspan><tspan x="6.53" y="0" style="letter-spacing: -.02em;">P</tspan><tspan x="12.89" y="0" xml:space="preserve"> 1800-13</tspan></text>
       </a>
@@ -773,19 +773,19 @@ sticky_sidenav: true
       </a>
     </g>
     <g id="SP_800-63A" data-name="SP 800-63A">
-      <a href="https://csrc.nist.gov/pubs/sp/800/63/a/4/ipd" title="SP 800-63A" target="_blank" rel="noopener noreferrer">
+      <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63A-4.2pd.pdf" title="SP 800-63A" target="_blank" rel="noopener noreferrer">
       <rect class="tsbutton" id="gbrect-33" data-name="gbrect" x="346.28" y="725.3" width="74.22" height="17.23" />
       <text id="SP_800-63A-2" data-name="SP 800-63A" transform="translate(355.85 737.03) scale(1.27 1)" style="font-family: Arial-BoldMT, Arial; font-size: 8px; font-weight: 700;"><tspan x="0" y="0">S</tspan><tspan x="5.34" y="0" style="letter-spacing: -.02em;">P</tspan><tspan x="10.53" y="0" xml:space="preserve"> 800-63</tspan><tspan x="37.66" y="0" style="letter-spacing: -.04em;">A</tspan></text>
       </a>
     </g>
     <g id="SP_800-63B" data-name="SP 800-63B">
-      <a href="https://csrc.nist.gov/pubs/sp/800/63/b/4/ipd" title="SP 800-63B" target="_blank" rel="noopener noreferrer">
+      <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63B-4.2pd.pdf" title="SP 800-63B" target="_blank" rel="noopener noreferrer">
       <rect class="tsbutton" id="gbrect-34" data-name="gbrect" x="346.28" y="745.3" width="74.22" height="17.23" />
       <text id="SP_800-63B-2" data-name="SP 800-63B" transform="translate(355.85 757.03) scale(1.27 1)" style="font-family: Arial-BoldMT, Arial; font-size: 8px; font-weight: 700;"><tspan x="0" y="0">S</tspan><tspan x="5.34" y="0" style="letter-spacing: -.02em;">P</tspan><tspan x="10.53" y="0" xml:space="preserve"> 800-63B</tspan></text>
       </a>
     </g>
     <g id="SP_800-63C1" data-name="SP 800-63C1">
-      <a href="https://csrc.nist.gov/pubs/sp/800/63/c/4/ipd" title="SP 800-63C1" target="_blank" rel="noopener noreferrer">
+      <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63C-4.2pd.pdf" title="SP 800-63C1" target="_blank" rel="noopener noreferrer">
       <rect class="tsbutton" id="gbrect-35" data-name="gbrect" x="346.28" y="765.3" width="74.22" height="17.23" />
       <text id="SP_800-63C1-2" data-name="SP 800-63C-2" transform="translate(355.85 777.03) scale(1.27 1)" style="font-family: Arial-BoldMT, Arial; font-size: 8px; font-weight: 700;"><tspan x="0" y="0">S</tspan><tspan x="5.34" y="0" style="letter-spacing: -.02em;">P</tspan><tspan x="10.53" y="0" xml:space="preserve"> 800-63C</tspan></text>
       </a>
@@ -814,7 +814,7 @@ sticky_sidenav: true
       </a>
     </g>
     <g id="NISTIR_8149" data-name="NISTIR 8149">
-      <a href="https://csrc.nist.gov/pubs/ir/8149/final" title="NISTIR 8149" target="_blank" rel="noopener noreferrer">
+      <a href="https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8149.pdf" title="NISTIR 8149" target="_blank" rel="noopener noreferrer">
       <rect class="tsbutton" id="gbrect-39" data-name="gbrect" x="487.28" y="795.3" width="90.22" height="31" />
       <text id="NISTIR_8149t" data-name="NISTIR 8149t" transform="translate(499.39 814.38) scale(1.27 1)" style="font-family: Arial-BoldMT, Arial; font-size: 9px; font-weight: 700;"><tspan x="0" y="0">NISTIR 8149</tspan></text>
       </a>
@@ -842,7 +842,7 @@ sticky_sidenav: true
       <text id="FIPS_201_related_standards" data-name="FIPS 201 related standards" transform="translate(831.76 658.74) scale(1.27 1)" style="font-family: ArialMT, Arial; font-size: 11px;"><tspan x="0" y="0">FIPS 201 related standards</tspan></text>
     </g>
     <g id="SP_800-73" data-name="SP 800-73">
-      <a href="https://csrc.nist.gov/pubs/sp/800/73/4/upd1/final" title="SP 800-73" target="_blank" rel="noopener noreferrer">
+      <a href="https://csrc.nist.gov/pubs/sp/800/73/pt1/5/final" title="SP 800-73" target="_blank" rel="noopener noreferrer">
       <rect class="tsbutton" id="gbrect-42" data-name="gbrect" x="787.23" y="678.3" width="76.34" height="25.1" />
       <text id="SP_800-73-2" data-name="SP 800-73" transform="translate(800.44 694) scale(1.33 1)" style="font-family: Arial-BoldMT, Arial; font-size: 8px; font-weight: 700;"><tspan x="0" y="0">S</tspan><tspan x="5.34" y="0" style="letter-spacing: -.02em;">P</tspan><tspan x="10.53" y="0" xml:space="preserve"> 800-73</tspan></text>
       </a>
@@ -878,7 +878,7 @@ sticky_sidenav: true
       </a>
     </g>
     <g id="SP_800-78" data-name="SP 800-78">
-      <a href="https://csrc.nist.gov/pubs/sp/800/78/4/final" title="SP 800-78" target="_blank" rel="noopener noreferrer">
+      <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-78-5.pdf" title="SP 800-78" target="_blank" rel="noopener noreferrer">
       <rect class="tsbutton" id="gbrect-48" data-name="gbrect" x="967.23" y="678.3" width="76.34" height="25.1" />
       <text id="SP_800-78-2" data-name="SP 800-78" transform="translate(980.44 694) scale(1.33 1)" style="font-family: Arial-BoldMT, Arial; font-size: 8px; font-weight: 700;"><tspan x="0" y="0">S</tspan><tspan x="5.34" y="0" style="letter-spacing: -.02em;">P</tspan><tspan x="10.53" y="0" xml:space="preserve"> 800-78</tspan></text>
       </a>
@@ -896,7 +896,7 @@ sticky_sidenav: true
       </a>
     </g>
     <g id="SP_800-171" data-name="SP 800-171">
-      <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-171r2.pdf" title="SP 800-171" target="_blank" rel="noopener noreferrer">
+      <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-171Ar3.pdf" title="SP 800-171" target="_blank" rel="noopener noreferrer">
       <rect class="tsbutton" id="gbrect-51" data-name="gbrect" x="787.23" y="544.3" width="80.27" height="23" />
       <text id="SP_800-171-2" data-name="SP 800-171" transform="translate(799.48 559) scale(1.33 1)" style="font-family: Arial-BoldMT, Arial; font-size: 8px; font-weight: 700;"><tspan x="0" y="0">S</tspan><tspan x="5.34" y="0" style="letter-spacing: -.02em;">P</tspan><tspan x="10.53" y="0" xml:space="preserve"> 800-171</tspan></text>
       </a>
@@ -927,7 +927,7 @@ sticky_sidenav: true
       </a>
     </g>
     <g id="Facility_Acess" data-name="Facility Acess"><!-- site down at time of update -->
-      <a href="https://www.cisa.gov/sites/default/files/publications/Facility%20Access%20Control%20-%20An%20Interagency%20Security%20Committee%20Best%20Practice.pdf" title="Facility Acess Control" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.cisa.gov/sites/default/files/2025-02/Facility%20Access%20Control%20-%20An%20Interagency%20Security%20Committee%20Best%20Practice-02-20.pdf" title="Facility Acess Control" target="_blank" rel="noopener noreferrer">
       <rect class="tsbutton" id="gbrect-56" data-name="gbrect" x="1306.5" y="864.3" width="111" height="51" />
       <text id="Facility_Acess-2" data-name="Facility Acess" transform="translate(1327.19 887.16) scale(1.33 1)" style="font-family: Arial-BoldMT, Arial; font-size: 8px; font-weight: 700;"><tspan x="0" y="0">Facility</tspan><tspan x="27.57" y="0" style="letter-spacing: -.04em;"> </tspan><tspan x="29.49" y="0">Acess</tspan><tspan x="12.31" y="12">Control</tspan></text>
       </a>
