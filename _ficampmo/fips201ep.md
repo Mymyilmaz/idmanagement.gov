@@ -207,13 +207,13 @@ Upon successful completion of DPCI testing, the agency or organization will be a
     </p>
   </li>
   <li class="usa-process-list__item">
-  <h4 class="usa-process-list__heading"><svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use href="{{site.baseurl}}/assets/img/sprite.svg#mail_outline"></use></svg>  Complete and sign Trade Agreement Form</h4>
+  <h4 class="usa-process-list__heading"><svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use href="{{site.baseurl}}/assets/img/sprite.svg#edit"></use></svg>  Complete and sign Trade Agreement Form</h4>
     <p>
        Complete and provide a signed <a href="{{site.baseurl}}/docs/fips201-evaluation-program-attestations-to-federal-acquisition-regulations-related-to-the-trade-agreement-act.pdf" rel="noopener noreferrer" target="_blank">FIPS 201 Evaluation Program Attestations to Federal Acquisition Regulations related to the Trade Agreement Act v3.3</a>.
     </p>
   </li>
   <li class="usa-process-list__item">
-  <h4 class="usa-process-list__heading"><svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use href="/assets/img/sprite.svg#send"></use></svg>  Product Delivery</h4>
+  <h4 class="usa-process-list__heading"><svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use href="{{site.baseurl}}/assets/img/sprite.svg#send"></use></svg>  Product Delivery</h4>
     <p>
       The  Evaluation Lab should deliver the Product as part of the complete application package, including documentation, to the FIPS 201 EP, c/o ElectroSoft Inc. at 1893 Metro Center Dr., Ste 228, Reston, VA 20190 using a secure delivery method that requires receipt acknowledgement (e.g., FedEx, UPS, or hand delivery). If you have any questions or need clarification regarding the PIV Card Body APL process, please contact the FIPS 201 Evaluation Program at: <a href="mailto:fips201ep@gsa.gov">fips201ep@gsa.gov</a>.
     </p>
