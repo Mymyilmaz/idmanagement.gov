@@ -187,33 +187,31 @@ Upon successful completion of DPCI testing, the agency or organization will be a
 <ol class="usa-process-list">
   <li class="usa-process-list__item">
   <h4 class="usa-process-list__heading">
-  <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
-    <use href="{{site.baseurl}}/assets/img/sprite.svg#local_library"></use>
-  </svg>  Read and follow Approval Procedures</h4>
+  <svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use href="{{site.baseurl}}/assets/img/sprite.svg#local_library"></use></svg>&nbsp;&nbsp;Read and follow Approval Procedures</h4>
     <p class="margin-top-05">
       <a href="{{site.baseurl}}/docs/piv-card-body-approval-procedures.pdf" rel="noopener noreferrer" target="_blank">Personal Identity Verification (PIV) Card Body Approval Procedures v11.1</a> (PDF, May 2025) indicates the approval procedures, outlines the evaluation criteria, approval mechanisms, and validation test reports to be employed and provided by the Evaluation Laboratory based on their evaluation of a vendor/ supplier’s PIV Card body (product), to be provided to the FIPS 201 EP for evaluation to be placed on the Approved Products List (APL). A web version may be found here: <a href="{{site.baseurl}}/pivcardbody/" rel="noopener noreferrer" target="_blank">PIV Card Body Approval Procedures</a>.
     </p>
   </li>
   <li class="usa-process-list__item">
-  <h4 class="usa-process-list__heading"><svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use href="{{site.baseurl}}/assets/img/sprite.svg#edit"></use></svg>  Complete Application Form</h4>
+  <h4 class="usa-process-list__heading"><svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use href="{{site.baseurl}}/assets/img/sprite.svg#edit"></use></svg>&nbsp;&nbsp;Complete Application Form</h4>
     <p>
        Complete and provide the <a href="{{site.baseurl}}/docs/fips201-piv-card-apl-evaluation-application-and-services-agreement.docx" rel="noopener noreferrer" target="_blank">PIV Card APL EP Application and Service Agreement v1.0.0</a> (Word, May 2025).
     </p>
   </li>
   <li class="usa-process-list__item">
-  <h4 class="usa-process-list__heading"><svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use href="{{site.baseurl}}/assets/img/sprite.svg#edit"></use></svg>  Complete Attestations Form</h4>
+  <h4 class="usa-process-list__heading"><svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use href="{{site.baseurl}}/assets/img/sprite.svg#edit"></use></svg>&nbsp;&nbsp;Complete Attestations Form</h4>
     <p>
       Complete and provide the <a href="{{site.baseurl}}/docs/fips201-evaluation-program-attestation-form-for-piv-card-body-approval.docx" rel="noopener noreferrer" target="_blank">FIPS 201 Evaluation Program Attestations Form for PIV Card Body Approval v1.1</a> (Word, May 2025).
     </p>
   </li>
   <li class="usa-process-list__item">
-  <h4 class="usa-process-list__heading"><svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use href="{{site.baseurl}}/assets/img/sprite.svg#edit"></use></svg>  Complete and sign Trade Agreement Form</h4>
+  <h4 class="usa-process-list__heading"><svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use href="{{site.baseurl}}/assets/img/sprite.svg#edit"></use></svg>&nbsp;&nbsp;Complete and sign Trade Agreement Form</h4>
     <p>
        Complete and provide a signed <a href="{{site.baseurl}}/docs/fips201-evaluation-program-attestations-to-federal-acquisition-regulations-related-to-the-trade-agreement-act.pdf" rel="noopener noreferrer" target="_blank">FIPS 201 Evaluation Program Attestations to Federal Acquisition Regulations related to the Trade Agreement Act v3.3</a>.
     </p>
   </li>
   <li class="usa-process-list__item">
-  <h4 class="usa-process-list__heading"><svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use href="{{site.baseurl}}/assets/img/sprite.svg#mail_outline"></use></svg>  Product Delivery</h4>
+  <h4 class="usa-process-list__heading"><svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use href="{{site.baseurl}}/assets/img/sprite.svg#mail_outline"></use></svg>&nbsp;&nbsp;Product Delivery</h4>
     <p>
       The Evaluation Lab should deliver the <i>Product</i> as part of the complete application package, including documentation, using a secure delivery method that requires receipt acknowledgement (e.g., FedEx, UPS, or hand delivery) to:
     </p>
