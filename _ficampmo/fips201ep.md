@@ -195,7 +195,7 @@ Upon successful completion of DPCI testing, the agency or organization will be a
   <li class="usa-process-list__item">
   <h4 class="usa-process-list__heading"><svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use href="{{site.baseurl}}/assets/img/sprite.svg#edit"></use></svg>&nbsp;&nbsp;Complete Application Form</h4>
     <p>
-       Complete and provide the <a href="{{site.baseurl}}/docs/fips201-piv-card-apl-evaluation-application-and-services-agreement.docx" rel="noopener noreferrer" target="_blank">PIV Card APL EP Application and Service Agreement v1.0.0</a> (Word, May 2025).
+       Complete and provide the <a class="usa-button usa-button--outline" type="button" href="{{site.baseurl}}/docs/fips201-piv-card-apl-evaluation-application-and-services-agreement.docx" rel="noopener noreferrer" target="_blank">PIV Card APL EP Application and Service Agreement v1.0.0</a> (Word, May 2025).
     </p>
     <p>
       <strong>Still need help?</strong>&nbsp;&nbsp;<a href="mailto:fips201ep@gsa.gov"><svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use href="{{site.baseurl}}/assets/img/sprite.svg#mail">&nbsp;<strong>Contact us</strong></a>
