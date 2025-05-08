@@ -219,7 +219,7 @@ Upon successful completion of DPCI testing, the agency or organization will be a
     </p>
     <p>
       <address>
-      <strong>FIPS 201 EP</strong><br/>
+      <strong>FIPS 201 Evaluation Program</strong><br/>
       c/o ElectroSoft Inc.<br/>
       1893 Metro Center Dr., Ste 228<br/>
       Reston, VA 20190
