@@ -215,7 +215,14 @@ Upon successful completion of DPCI testing, the agency or organization will be a
   <li class="usa-process-list__item">
   <h4 class="usa-process-list__heading"><svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use href="{{site.baseurl}}/assets/img/sprite.svg#send"></use></svg>  Product Delivery</h4>
     <p>
-      The  Evaluation Lab should deliver the Product as part of the complete application package, including documentation, to the FIPS 201 EP, c/o ElectroSoft Inc. at 1893 Metro Center Dr., Ste 228, Reston, VA 20190 using a secure delivery method that requires receipt acknowledgement (e.g., FedEx, UPS, or hand delivery). If you have any questions or need clarification regarding the PIV Card Body APL process, please contact the FIPS 201 Evaluation Program at: <a href="mailto:fips201ep@gsa.gov">fips201ep@gsa.gov</a>.
+      The Evaluation Lab should deliver the <i>Product</i> as part of the complete application package, including documentation, using a secure delivery method that requires receipt acknowledgement (e.g., FedEx, UPS, or hand delivery) to:<p>
+      <p>
+        <strong>FIPS 201 EP</strong><br/>
+        c/o ElectroSoft Inc.<br/>
+        1893 Metro Center Dr., Ste 228<br/>
+        Reston, VA 20190
+      </p>
+      <p>If you have any questions or need clarification regarding the PIV Card Body APL process, please contact the FIPS 201 Evaluation Program at: <a href="mailto:fips201ep@gsa.gov">fips201ep@gsa.gov</a>.
     </p>
   </li>
 </ol>
