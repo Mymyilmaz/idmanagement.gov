@@ -333,6 +333,7 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
 
 
 <!-- Start of New Combined Intrastructure and Validation RPL table -->
+{% assign category = '13.01 PACS and Validation Infrastructure' %}
 <table class="usa-table usa-table--borderless">
   <caption>
     13.01 PACS and Validation Infrastructure RPL List
@@ -350,6 +351,7 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
   <tbody>
       {% assign fipscombinedrpl = site.data.fips201rplcombined | sort: "infrastructure" %}
       {% for combinedrpl in fipscombinedrpl %}
+          {% if combinedrpl.category == category %}
           <tr>
             <th scope="row" role="rowheader">{{ combinedrpl.infrastructure }}</th>
             <td  data-sort-value="{{ combinedrpl.infraapl }}">{{ combinedrpl.infraapl }}</td>
