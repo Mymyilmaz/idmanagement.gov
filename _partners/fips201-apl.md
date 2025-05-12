@@ -296,7 +296,7 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
 
 <br>
 <!-- Start of PACS Infrastructure Table -->
-{% assign category = '13.01 PACS Infrastructure' %}
+<!-- {% assign category = '13.01 PACS Infrastructure' %}
 <table class="usa-table" aria-labelledby="rpl-caption" aria-describedby="rpl-summary">
   <caption id="rpl-caption">{{ category }} Category List</caption>
   <thead>
@@ -328,7 +328,7 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
     {% endfor %} 
   </tbody>
 </table>
-<div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
+<div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div> -->
 <!-- End of PACS Infrastructure Table -->
 
 
@@ -406,7 +406,7 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
 <!-- End of PACS Validation System Table -->
 <br>
 <!-- Start of PACS and Validation Infrastructure Table -->
-<!-- {% assign category = '13.02 PACS and Validation Infrastructure' %}
+{% assign category = '13.02 PACS and Validation Infrastructure' %}
 <table class="usa-table" aria-labelledby="rpl-caption" aria-describedby="rpl-summary">
   <caption id="rpl-caption">{{ category }} Category List</caption>
   <thead>
@@ -438,7 +438,7 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
     {% endfor %}
   </tbody>
 </table>
-<div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div> -->
+<div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
 <!-- End of PACS and Validation Infrastructure Table -->
 <br>
 <!-- Start of PIV Card Table -->
