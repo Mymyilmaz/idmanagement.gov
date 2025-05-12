@@ -298,7 +298,7 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
 {% assign category = '13.01 PACS and Validation Infrastructure' %}
 <table class="usa-table" aria-labelledby="rpl-caption" aria-describedby="rpl-summary">
   <caption id="rpl-caption">
-    13.01 PACS and Validation Infrastructure RPL List
+    13.01 PACS and Validation Infrastructure List
   </caption>
   <thead>
     <tr>
