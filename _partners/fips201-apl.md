@@ -330,9 +330,44 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
 </table>
 <div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
 <!-- End of PACS Infrastructure Table -->
+
+
+<!-- Start of New Combined Intrastructure and Validation RPL table -->
+<table class="usa-table usa-table--borderless">
+  <caption>
+    13.01 PACS and Validation Infrastructure RPL List
+  </caption>
+  <thead>
+    <tr>
+      <th data-sortable scope="col" role="columnheader" aria-sort="ascending">PACS Infrastructure</th>
+      <th data-sortable scope="col" role="columnheader">PACS APL #</th>
+      <th data-sortable scope="col" role="columnheader">Validation System</th>
+      <th data-sortable scope="col" role="columnheader">Validation APL #</th>
+      <th data-sortable scope="col" role="columnheader">Removal Date</th>
+      <th data-sortable scope="col" role="columnheader">Reason</th>
+    </tr>
+  </thead>
+  <tbody>
+      {% assign fipscombinedrpl = site.data.fips201rplcombined | sort: "infrastructure" %}
+      {% for combinedrpl in fipscombinedrpl %}
+          <tr>
+            <th scope="row" role="rowheader">{{ combinedrpl.infrastructure }}</th>
+            <td  data-sort-value="{{ combinedrpl.infraapl }}">{{ combinedrpl.infraapl }}</td>
+            <th scope="row" role="rowheader">{{ combinedrpl.validation}}</th>
+            <td data-sort-value="{{ combinedrpl.valapl }}">{{ combinedrpl.valapl }}</td>
+            <td data-sort-value="{{ combinedrpl.dateRemoval }}">{{ combinedrpl.dateRemoval }}</td>
+            <td data-sort-value="{{ combinedrpl.reason }}">{{ combinedrpl.reason }}</td>
+          </tr>
+      {% endfor %}
+  </tbody>
+</table>
+<div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
+<!-- End of New Combined Intrastructure and Validation RPL table -->
+
+
 <br>
 <!-- Start of PACS Validation System Table -->
-{% assign category = '13.01 PACS Validation System' %}
+<!-- {% assign category = '13.01 PACS Validation System' %}
 <table class="usa-table" aria-labelledby="rpl-caption" aria-describedby="rpl-summary">
   <caption id="rpl-caption">{{ category }} Category List</caption>
   <thead>
@@ -364,11 +399,11 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
     {% endfor %}
   </tbody>
 </table>
-<div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
+<div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div> -->
 <!-- End of PACS Validation System Table -->
 <br>
 <!-- Start of PACS and Validation Infrastructure Table -->
-{% assign category = '13.02 PACS and Validation Infrastructure' %}
+<!-- {% assign category = '13.02 PACS and Validation Infrastructure' %}
 <table class="usa-table" aria-labelledby="rpl-caption" aria-describedby="rpl-summary">
   <caption id="rpl-caption">{{ category }} Category List</caption>
   <thead>
@@ -400,7 +435,7 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
     {% endfor %}
   </tbody>
 </table>
-<div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
+<div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div> -->
 <!-- End of PACS and Validation Infrastructure Table -->
 <br>
 <!-- Start of PIV Card Table -->
