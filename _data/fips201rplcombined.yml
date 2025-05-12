@@ -7,6 +7,7 @@
 # 2. 13.02 PACS and Validation Infrastructure
 # 3. PIV Card
 # used on page: https://www.idmanagement.gov/fips201/
+# Note: data is designed to be pulled separate for each category.
 # Developer: cjb
 
 # New Combined Template for Infrastruture and Validation
