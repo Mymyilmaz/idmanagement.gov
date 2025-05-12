@@ -294,48 +294,10 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
 
 <p id="rpl-summary">The FIPS 201 Evaluation Program’s Removed Products List (RPL) displays products and services that were once on the Approved Products List but are no longer approved for government procurement. Due to security concerns, products on the RPL are not recommended for government acquisition. Products will be removed from the RPL 3 years after the removal date.</p>
 
-<br>
-<!-- Start of PACS Infrastructure Table -->
-<!-- {% assign category = '13.01 PACS Infrastructure' %}
-<table class="usa-table" aria-labelledby="rpl-caption" aria-describedby="rpl-summary">
-  <caption id="rpl-caption">{{ category }} Category List</caption>
-  <thead>
-    <tr>
-      <th scope="col" role="columnheader" colspan="6"><b>{{ category }} Category</b></th>
-    </tr>
-    <tr>
-      <th data-sortable scope="col" role="columnheader" >APL #</th>
-      <th data-sortable scope="col" role="columnheader" >Supplier</th>
-      <th data-sortable scope="col" role="columnheader" >Product Name(s)</th>
-      <th data-sortable scope="col" role="columnheader" >Product Number</th>
-      <th data-sortable scope="col" role="columnheader" aria-sort="descending">Removal Date</th>
-      <th data-sortable scope="col" role="columnheader" >Reason For Removal</th>
-    </tr>
-  </thead>
-  <tbody>
-   {% assign rplpacsi = site.data.fips201rpl | sort: "dateCode" | reverse %} 
-   {% for pacsi in rplpacsi %} 
-        {% if pacsi.category == category %}
-          <tr> 
-            <th scope="row" data-sort-value="{{ pacsi.numberApl }}">{{ pacsi.numberApl }}</th>
-            <td data-sort-value="{{ pacsi.supplier }}">{{ pacsi.supplier }}</td>
-            <td data-sort-value="{{ pacsi.nameProduct }}">{{ pacsi.nameProduct }}</td>
-            <td data-sort-value="{{ pacsi.numberProduct }}">{{ pacsi.numberProduct }}</td>
-            <td data-sort-value="{{ pacsi.dateCode }}">{{ pacsi.dateRemoval }}</td>
-            <td data-sort-value="{{ pacsi.reason }}">{{ pacsi.reason }}</td>
-          </tr>
-        {% endif %}
-    {% endfor %} 
-  </tbody>
-</table>
-<div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div> -->
-<!-- End of PACS Infrastructure Table -->
-
-
 <!-- Start of New Combined Intrastructure and Validation RPL table -->
 {% assign category = '13.01 PACS and Validation Infrastructure' %}
-<table class="usa-table usa-table--borderless">
-  <caption>
+<table class="usa-table" aria-labelledby="rpl-caption" aria-describedby="rpl-summary">
+  <caption id="rpl-caption">
     13.01 PACS and Validation Infrastructure RPL List
   </caption>
   <thead>
@@ -366,44 +328,6 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
 </table>
 <div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
 <!-- End of New Combined Intrastructure and Validation RPL table -->
-
-
-<br>
-<!-- Start of PACS Validation System Table -->
-<!-- {% assign category = '13.01 PACS Validation System' %}
-<table class="usa-table" aria-labelledby="rpl-caption" aria-describedby="rpl-summary">
-  <caption id="rpl-caption">{{ category }} Category List</caption>
-  <thead>
-    <tr>
-      <th scope="col" role="columnheader" colspan="6"><b>{{ category }} Category</b></th>
-    </tr>
-    <tr>
-      <th data-sortable scope="col" role="columnheader" >APL #</th>
-      <th data-sortable scope="col" role="columnheader" >Supplier</th>
-      <th data-sortable scope="col" role="columnheader" >Product Name(s)</th>
-      <th data-sortable scope="col" role="columnheader" >Product Number</th>
-      <th data-sortable scope="col" role="columnheader" aria-sort="descending">Removal Date</th>
-      <th data-sortable scope="col" role="columnheader" >Reason For Removal</th>
-    </tr>
-  </thead>
-  <tbody>
-   {% assign rplpacsvs = site.data.fips201rpl | sort: "dateCode" | reverse %}
-   {% for pacsvs in rplpacsvs %}
-        {% if pacsvs.category == category %}
-          <tr> 
-            <th scope="row" data-sort-value="{{ pacsvs.numberApl }}">{{ pacsvs.numberApl }}</th>
-            <td data-sort-value="{{ pacsvs.supplier }}">{{ pacsvs.supplier }}</td>
-            <td data-sort-value="{{ pacsvs.nameProduct }}">{{ pacsvs.nameProduct }}</td>
-            <td data-sort-value="{{ pacsvs.numberProduct }}">{{ pacsvs.numberProduct }}</td>
-            <td data-sort-value="{{ pacsvs.dateCode }}">{{ pacsvs.dateRemoval }}</td>
-            <td data-sort-value="{{ pacsvs.reason }}">{{ pacsvs.reason }}</td>
-          </tr>
-        {% endif %}
-    {% endfor %}
-  </tbody>
-</table>
-<div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div> -->
-<!-- End of PACS Validation System Table -->
 <br>
 <!-- Start of PACS and Validation Infrastructure Table -->
 {% assign category = '13.02 PACS and Validation Infrastructure' %}
