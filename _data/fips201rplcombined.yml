@@ -15,7 +15,7 @@
 
 - category: 13.01 PACS and Validation Infrastructure
   status: Approved
-  infrastructure: 13.01 - Identiv Velocity 3.8.4 w/pivCLASS validation 5.20
+  infrastructure: Identiv
   infraapl: 10013
   validation: HID Global
   valapl: 10014
