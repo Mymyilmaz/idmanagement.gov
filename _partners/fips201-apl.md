@@ -360,6 +360,7 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
             <td data-sort-value="{{ combinedrpl.dateRemoval }}">{{ combinedrpl.dateRemoval }}</td>
             <td data-sort-value="{{ combinedrpl.reason }}">{{ combinedrpl.reason }}</td>
           </tr>
+          {% endif %}
       {% endfor %}
   </tbody>
 </table>
