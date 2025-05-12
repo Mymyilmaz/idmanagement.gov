@@ -332,41 +332,43 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
 <div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
 <!-- End of New Combined Intrastructure and Validation RPL table -->
 <br>
-<!-- Start of PACS and Validation Infrastructure Table -->
+<!-- Start of 13.02 PACS and Validation Infrastructure Table -->
 {% assign category = '13.02 PACS and Validation Infrastructure' %}
 <table class="usa-table" aria-labelledby="rpl-caption" aria-describedby="rpl-summary">
-  <caption id="rpl-caption">{{ category }} Category List</caption>
+  <caption id="rpl-caption">
+    13.02 PACS and Validation Infrastructure List
+  </caption>
   <thead>
     <tr>
       <th scope="col" role="columnheader" colspan="6"><b>{{ category }} Category</b></th>
     </tr>
     <tr>
-      <th data-sortable scope="col" role="columnheader" >APL #</th>
-      <th data-sortable scope="col" role="columnheader" >Supplier</th>
-      <th data-sortable scope="col" role="columnheader" >Product Name(s)</th>
-      <th data-sortable scope="col" role="columnheader" >Product Number</th>
-      <th data-sortable scope="col" role="columnheader" aria-sort="descending">Removal Date</th>
-      <th data-sortable scope="col" role="columnheader" >Reason For Removal</th>
+      <th data-sortable scope="col" role="columnheader" aria-sort="ascending">PACS Infrastructure</th>
+      <th data-sortable scope="col" role="columnheader">PACS APL #</th>
+      <th data-sortable scope="col" role="columnheader">Validation System</th>
+      <th data-sortable scope="col" role="columnheader">Validation APL #</th>
+      <th data-sortable scope="col" role="columnheader">Removal Date</th>
+      <th data-sortable scope="col" role="columnheader">Reason</th>
     </tr>
   </thead>
   <tbody>
-   {% assign rplpacsvi = site.data.fips201rpl | sort: "dateCode" | reverse %}
-   {% for pacsvi in rplpacsvi %}
-        {% if pacsvi.category == category %}
-          <tr> 
-            <th scope="row" data-sort-value="{{ pacsvi.numberApl }}">{{ pacsvi.numberApl }}</th>
-            <td data-sort-value="{{ pacsvi.supplier }}">{{ pacsvi.supplier }}</td>
-            <td data-sort-value="{{ pacsvi.nameProduct }}">{{ pacsvi.nameProduct }}</td>
-            <td data-sort-value="{{ pacsvi.numberProduct }}">{{ pacsvi.numberProduct }}</td>
-            <td data-sort-value="{{ pacsvi.dateCode }}">{{ pacsvi.dateRemoval }}</td>
-            <td data-sort-value="{{ pacsvi.reason }}">{{ pacsvi.reason }}</td>
+      {% assign fipscombinedrpl = site.data.fips201rplcombined | sort: "infrastructure" %}
+      {% for combinedrpl in fipscombinedrpl %}
+          {% if combinedrpl.category == category %}
+          <tr>
+            <th scope="row" role="rowheader">{{ combinedrpl.infrastructure }}</th>
+            <td  data-sort-value="{{ combinedrpl.infraapl }}">{{ combinedrpl.infraapl }}</td>
+            <th scope="row" role="rowheader">{{ combinedrpl.validation}}</th>
+            <td data-sort-value="{{ combinedrpl.valapl }}">{{ combinedrpl.valapl }}</td>
+            <td data-sort-value="{{ combinedrpl.dateRemoval }}">{{ combinedrpl.dateRemoval }}</td>
+            <td data-sort-value="{{ combinedrpl.reason }}">{{ combinedrpl.reason }}</td>
           </tr>
-        {% endif %}
-    {% endfor %}
+          {% endif %}
+      {% endfor %}
   </tbody>
 </table>
 <div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
-<!-- End of PACS and Validation Infrastructure Table -->
+<!-- End of 13.02 PACS and Validation Infrastructure Table -->
 <br>
 <!-- Start of PIV Card Table -->
 {% assign category = 'PIV Card' %}

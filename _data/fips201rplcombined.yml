@@ -781,12 +781,13 @@
   status: post
 
 # Blank entry for 13.02 PACS and Validation Infrastructure 
+# Based on new Template format for combined infra and validation RPLs
 - category: '13.02 PACS and Validation Infrastructure'
-  supplier: ''
-  nameProduct: ''
-  numberProduct: ''
+  status: #Approved
+  infrastructure: 
+  infraapl: 
+  validation: 
+  valapl: 
   dateRemoval: 
   dateCode: 
-  numberApl: ''
-  reason: ''
-  status: post
+  reason: ""
