@@ -302,6 +302,9 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
   </caption>
   <thead>
     <tr>
+      <th scope="col" role="columnheader" colspan="6"><b>{{ category }} Category</b></th>
+    </tr>
+    <tr>
       <th data-sortable scope="col" role="columnheader" aria-sort="ascending">PACS Infrastructure</th>
       <th data-sortable scope="col" role="columnheader">PACS APL #</th>
       <th data-sortable scope="col" role="columnheader">Validation System</th>
