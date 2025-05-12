@@ -1,10 +1,17 @@
 # FIPS 201 Removed Product List
 # Note: to create a blank table, use the template below with only the category filled out.
-# 05/12/2025 - Infrastructure and Validation were combined to display like the APL, a new combined template is below
+# 05/12/2025 - Infrastructure and Validation RPLs were combined to display like the APL, a new combined template is below
+#
+# This file contains the following categories of RPLs:
+# 1. 13.01 PACS and Validation Infrastructure
+# 2. 13.02 PACS and Validation Infrastructure
+# 3. PIV Card
+# used on page: https://www.idmanagement.gov/fips201/
+# Developer: cjb
 
 # New Combined Template for Infrastruture and Validation
 # - category: 13.01 PACS and Validation Infrastructure
-#   fipsstatus: Approved
+#   status: Approved
 #   infrastructure: [infrastructure supplier name]
 #   infraapl: [apl number for infrastructure supplier]
 #   validation: [validation supplier name]
@@ -31,7 +38,7 @@
   validation: HID Global Validation System for Pro-Watch 5.20.0
   valapl: 10064
   dateRemoval: 05/01/2025
-  dateCode: 
+  dateCode: 2025-05-01
   reason: "Didn't meet the APL resubmission timeline."
 
 - category: 13.01 PACS and Validation Infrastructure
@@ -41,7 +48,7 @@
   validation: Validation System for Galaxy Control Systems - Entrypoint 5.8.3
   valapl: 10084
   dateRemoval: 05/01/2025
-  dateCode: 
+  dateCode: 2025-05-01
   reason: "13.01 removed per vendor request. The approved 13.02 Software House CCURE-9000 V3.0 PACS is APL #10159"
 
 - category: 13.01 PACS and Validation Infrastructure
@@ -51,7 +58,7 @@
   validation: Validation System for Tyco/Software House C*CURE 9000 - IDS v2.3.2 B3
   valapl: 10108
   dateRemoval: 05/01/2025
-  dateCode: 
+  dateCode: 2025-05-01
   reason: "13.01 removed per vendor request. The approved 13.02 Software House CCURE-9000 V3.0 PACS is APL #10159"
 
 - category: 13.01 PACS and Validation Infrastructure
@@ -61,7 +68,7 @@
   validation: HID pivCLASS 5.8.1 Registration Engine for Open Options DNA Fusion 7.1
   valapl: 10121
   dateRemoval: 03/18/2025
-  dateCode: 
+  dateCode: 2025-03-18
   reason: "Not approved for FRTC 1.3.3"
 
 - category: 13.01 PACS and Validation Infrastructure
@@ -71,7 +78,7 @@
   validation: HID pivCLASS 5.19.3 Registration Engine for RS2 AccessIt!
   valapl: 10076
   dateRemoval: 05/08/2025
-  dateCode: 
+  dateCode: 2025-05-08
   reason: "Didn't meet the APL resubmission timeline."
 
 - category: 13.01 PACS and Validation Infrastructure
@@ -81,7 +88,7 @@
   validation: HID pivCLASS 5.19.3
   valapl: 10037
   dateRemoval: 05/08/2025
-  dateCode: 
+  dateCode: 2025-05-08
   reason: "Didn't meet the APL resubmission timeline."
 
 - category: 13.01 PACS and Validation Infrastructure
@@ -91,7 +98,7 @@
   validation: HID pivCLASS 5.19.3
   valapl: 10037
   dateRemoval: 05/08/2025
-  dateCode: 
+  dateCode: 2025-05-08
   reason: "Didn't meet the APL resubmission timeline."
 
 - category: 13.01 PACS and Validation Infrastructure
@@ -101,7 +108,7 @@
   validation: pivCLASS validation system 5.20 for Hirsch-Identiv Velocity 3.8.4
   valapl: 10014
   dateRemoval: 10/16/2023
-  dateCode: 
+  dateCode: 2023-10-16
   reason: "13.01 removed per vendor request. The approved 13.02 Identiv Velocity System is APL #10103"
 
 - category: 13.01 PACS and Validation Infrastructure
@@ -111,7 +118,7 @@
   validation: pivCLASS Registration Engine for AccesNsite
   valapl: 10044
   dateRemoval: 11/01/2022
-  dateCode: 
+  dateCode: 2022-11-01
   reason: "Not approved for FRTC 1.4.2"
 
 - category: 13.01 PACS and Validation Infrastructure
@@ -121,7 +128,7 @@
   validation: Technology Industries Validation System for AMAG Professional
   valapl: 10086
   dateRemoval: 06/09/2022
-  dateCode: 
+  dateCode: 2022-06-09
   reason: "Not approved for FRTC 1.3.3"
 
 
