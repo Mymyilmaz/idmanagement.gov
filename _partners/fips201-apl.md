@@ -322,7 +322,7 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
             <td  data-sort-value="{{ combinedrpl.infraapl }}">{{ combinedrpl.infraapl }}</td>
             <th scope="row" role="rowheader">{{ combinedrpl.validation}}</th>
             <td data-sort-value="{{ combinedrpl.valapl }}">{{ combinedrpl.valapl }}</td>
-            <td data-sort-value="{{ combinedrpl.datecode }}">{{ combinedrpl.dateRemoval }}</td>
+            <td data-sort-value="{{ combinedrpl.dateCode }}">{{ combinedrpl.dateRemoval }}</td>
             <td data-sort-value="{{ combinedrpl.reason }}">{{ combinedrpl.reason }}</td>
           </tr>
           {% endif %}
@@ -360,7 +360,7 @@ Note: GSA will provide the Office of the Federal Chief Information Officer (OFCI
             <td  data-sort-value="{{ combinedrpl.infraapl }}">{{ combinedrpl.infraapl }}</td>
             <th scope="row" role="rowheader">{{ combinedrpl.validation}}</th>
             <td data-sort-value="{{ combinedrpl.valapl }}">{{ combinedrpl.valapl }}</td>
-            <td data-sort-value="{{ combinedrpl.dateRemoval }}">{{ combinedrpl.dateRemoval }}</td>
+            <td data-sort-value="{{ combinedrpl.dateCode }}">{{ combinedrpl.dateRemoval }}</td>
             <td data-sort-value="{{ combinedrpl.reason }}">{{ combinedrpl.reason }}</td>
           </tr>
           {% endif %}
