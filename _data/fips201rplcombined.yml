@@ -66,7 +66,7 @@
   status: Approved
   infrastructure: ACRE Security Feenics Keep V3 SW 1.0.42 
   infraapl: 10120
-  validation: HID pivCLASS 5.8.1 Registration Engine for Open Options DNA Fusion 7.1
+  validation: HID pivCLASS 5.8.1 Registration Engine for Feenics Keep V3
   valapl: 10121
   dateRemoval: 03/18/2025
   dateCode: 2025-03-18
@@ -76,7 +76,7 @@
   status: Approved
   infrastructure: ACRE Security Open Options DNA Fusion
   infraapl: 10075
-  validation: HID pivCLASS 5.19.3 Registration Engine for RS2 AccessIt!
+  validation: HID pivCLASS 5.19.0 Registration Engine for Open Options DNA Fusion 7.1
   valapl: 10076
   dateRemoval: 05/08/2025
   dateCode: 2025-05-08
@@ -86,17 +86,7 @@
   status: Approved
   infrastructure: ACRE Security RS2 AccessIT!
   infraapl: 10036
-  validation: HID pivCLASS 5.19.3
-  valapl: 10037
-  dateRemoval: 05/08/2025
-  dateCode: 2025-05-08
-  reason: "Didn't meet the APL resubmission timeline."
-
-- category: 13.01 PACS and Validation Infrastructure
-  status: Approved
-  infrastructure: Identiv Velocity 3.8.4 w/pivCLASS validation 5.20
-  infraapl: 10036
-  validation: HID pivCLASS 5.19.3
+  validation: HID pivCLASS 5.19.3 Registration Engine for RS2 AccessIt!
   valapl: 10037
   dateRemoval: 05/08/2025
   dateCode: 2025-05-08
@@ -131,6 +121,16 @@
   dateRemoval: 06/09/2022
   dateCode: 2022-06-09
   reason: "Not approved for FRTC 1.3.3"
+
+- category: 13.01 PACS and Validation Infrastructure
+  status: Approved
+  infrastructure: Tyco Security Products Ccure 9000 2.70.SP5
+  infraapl: 10001
+  validation: Validation System for Tyco Security Products C●CURE 9000 – HID 5.11.0
+  valapl: 10002
+  dateRemoval: 05/01/2025
+  dateCode: 2025-05-01
+  reason: "13.01 removed per vendor request. The approved 13.02 Software House CCURE-9000 V3.0 PACS is APL #10159"
 
 
 
