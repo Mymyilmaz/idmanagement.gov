@@ -293,14 +293,14 @@ This identity proofing method validates an identity using a physical address tha
 
 This identity proofing method validates an identity using a mobile device number that is registered to the public citizen. The key validation component is that the mobile device number is registered under a name which matches the public citizen’s name. After this is validated, a random one-time code with an expiration period is generated and sent to the validated mobile phone number. Using this code, the public citizen can proceed to register the device metadata (such as type of device, operating system geolocation, and other identity-related attributes). Once the device is successfully registered, the public citizen identity is created with the profile data.
 
-    ![Figure 12]()
+  ![Figure 12]()
 
-    1. Public citizen accesses online registration link.  
-    2. Public citizen enters identity profile data such as First Name, Last Name, Address, Phone, and other relevant attributes.  
-    3. Public citizen performs the identity proofing step using mobile phone data.  
-    4. Mobile phone data is received and checked against phone verification solutions. If the verification process is successful, a random one-time code is generated and sent to the public citizen’s mobile device.  
-    5. After the public citizen receives the one-time code, it is entered to continue the registration process.  
-    6. Public citizen identity is created with the profile data after one-time code validation is successful and mobile phone metadata is registered.
+  1. Public citizen accesses online registration link.  
+  2. Public citizen enters identity profile data such as First Name, Last Name, Address, Phone, and other relevant attributes.  
+  3. Public citizen performs the identity proofing step using mobile phone data.  
+  4. Mobile phone data is received and checked against phone verification solutions. If the verification process is successful, a random one-time code is generated and sent to the public citizen’s mobile device.  
+  5. After the public citizen receives the one-time code, it is entered to continue the registration process.  
+  6. Public citizen identity is created with the profile data after one-time code validation is successful and mobile phone metadata is registered.
 
 ### H. Federal Employees or Contractors - PIV Card
 
@@ -308,14 +308,14 @@ This identity proofing method validates an identity using a mobile device number
 
 This identity proofing method is the process of validating an identity using a Personal Identity Verification (PIV) card registered to the public citizen. The key validation component is that a PIV card is only issued after identity proofing steps are completed by a federal agency, which typically occurs in person at a federal facility and is only done for federal employees and contractors.
 
-    ![Figure 13]()
+  ![Figure 13]()
 
-    1. Public citizen accesses online registration link.  
-    2. Public citizen enters identity profile data such as First Name, Last Name, Address, Phone, and other relevant attributes.  
-    3. Public citizen performs the identity proofing step using a PIV card.  
-    4. Public citizen inserts the PIV card into a machine-readable device  
-    5. Public citizen enters the PIN code for the PIV card.  
-    6. Public citizen identity is created with the profile data after the PIN code for the PIV card is successfully validated.
+  1. Public citizen accesses online registration link.  
+  2. Public citizen enters identity profile data such as First Name, Last Name, Address, Phone, and other relevant attributes.  
+  3. Public citizen performs the identity proofing step using a PIV card.  
+  4. Public citizen inserts the PIV card into a machine-readable device  
+  5. Public citizen enters the PIN code for the PIV card.  
+  6. Public citizen identity is created with the profile data after the PIN code for the PIV card is successfully validated.
 
 ## 10. Identity Proofing Scenarios
 
@@ -323,47 +323,47 @@ The following sections detail various scenarios which require identity proofing 
 
 ## 1. ## Initial Identity Verification for New Users 
 
-  When a new customer applies to open an online account to access federal services (such as Medicaid benefits), identity proofing is required to verify their identity in compliance with KYC regulations. This process ensures that the customer is who they claim to be, mitigating the risk of identity theft and fraudulent activity. Listed below are some scenarios involving onboarding a new public identity. 
+When a new customer applies to open an online account to access federal services (such as Medicaid benefits), identity proofing is required to verify their identity in compliance with KYC regulations. This process ensures that the customer is who they claim to be, mitigating the risk of identity theft and fraudulent activity. Listed below are some scenarios involving onboarding a new public identity. 
 
-    1. **First Time Public Citizen Registration**
+  1. **First Time Public Citizen Registration**
 
-    This use case is for a public citizen that requires an identity to create an account to access federal services. The public citizen will provide key mandatory profile attributes, some of which will be used to proceed to the identity proofing steps. Based on the federal service the public citizen is requesting, a list of identity proofing methods will be available for the public citizen to select from. 
+  This use case is for a public citizen that requires an identity to create an account to access federal services. The public citizen will provide key mandatory profile attributes, some of which will be used to proceed to the identity proofing steps. Based on the federal service the public citizen is requesting, a list of identity proofing methods will be available for the public citizen to select from. 
 
-    After identity proofing is successfully completed, an identity profile and associated account is created. If initial identity proofing attempts were unsuccessful, other options should be available. If all identity proofing options failed, then the public citizen should be instructed to visit a local facility for in-person identity proofing.
+  After identity proofing is successfully completed, an identity profile and associated account is created. If initial identity proofing attempts were unsuccessful, other options should be available. If all identity proofing options failed, then the public citizen should be instructed to visit a local facility for in-person identity proofing.
 
-    2. **Delegate Registration - Registering for Another Public Citizen**
+  2. **Delegate Registration - Registering for Another Public Citizen**
 
-    In this use case, the registration process for a public citizen is being performed by another individual serving as a delegated registration authority. For example, this could be a vendor performing registration on behalf of a public citizen with a vision impairment or who does not have access to online assets. The delegated authority will provide key mandatory profile attributes for both them and the public citizen, some of which will be used to proceed to the identity proofing steps. Based on the federal service the public citizen is requesting, a list of identity proofing methods will be available for the delegate to select from. 
+  In this use case, the registration process for a public citizen is being performed by another individual serving as a delegated registration authority. For example, this could be a vendor performing registration on behalf of a public citizen with a vision impairment or who does not have access to online assets. The delegated authority will provide key mandatory profile attributes for both them and the public citizen, some of which will be used to proceed to the identity proofing steps. Based on the federal service the public citizen is requesting, a list of identity proofing methods will be available for the delegate to select from. 
 
-    Both the delegate and public citizen need to be identity proofed. This ensures that an unauthorized individual is not attempting to fraudulently create an identity for a public citizen. After identity proofing is successfully completed for both the delegate and the public citizen, an identity profile and associated account is created only for the public citizen. If initial identity proofing attempts were unsuccessful, other options should be available. If all identity proofing options failed, then the delegated authority should be instructed to visit a local facility for in-person identity proofing.
+  Both the delegate and public citizen need to be identity proofed. This ensures that an unauthorized individual is not attempting to fraudulently create an identity for a public citizen. After identity proofing is successfully completed for both the delegate and the public citizen, an identity profile and associated account is created only for the public citizen. If initial identity proofing attempts were unsuccessful, other options should be available. If all identity proofing options failed, then the delegated authority should be instructed to visit a local facility for in-person identity proofing.
 
-    3. **First Time Public Citizen Registration for Minors or the Elderly**
+  3. **First Time Public Citizen Registration for Minors or the Elderly**
 
-    This use case is similar to Delegate Registration with the distinction that the delegate is an immediate family member or other close relation of the public citizen. The assumption is that the public citizen is a minor or elderly person and either does not have access to online assets or has an impairment preventing them from performing the registration themselves. The family member acting as a delegate will provide key mandatory profile attributes for both them and the public citizen, and some of them will be used to proceed to the identity proofing steps. Based on the federal service the public citizen is requesting; a list of identity proofing methods will be available to be selected by the delegated registration authority. 
+  This use case is similar to Delegate Registration with the distinction that the delegate is an immediate family member or other close relation of the public citizen. The assumption is that the public citizen is a minor or elderly person and either does not have access to online assets or has an impairment preventing them from performing the registration themselves. The family member acting as a delegate will provide key mandatory profile attributes for both them and the public citizen, and some of them will be used to proceed to the identity proofing steps. Based on the federal service the public citizen is requesting; a list of identity proofing methods will be available to be selected by the delegated registration authority. 
 
-    Both the family member acting as the delegate and the public citizen need to be identity proofed. This ensures that an unauthorized individual is not attempting to fraudulently create an identity for a public citizen. After identity proofing is successfully completed for both the delegate and the public citizen, an identity profile and associated account is created only for the public citizen. If initial identity proofing attempts were unsuccessful, other options should be available. If all identity proofing options failed, then the family member acting as the delegate should be instructed to visit a local facility for in-person identity proofing.
+  Both the family member acting as the delegate and the public citizen need to be identity proofed. This ensures that an unauthorized individual is not attempting to fraudulently create an identity for a public citizen. After identity proofing is successfully completed for both the delegate and the public citizen, an identity profile and associated account is created only for the public citizen. If initial identity proofing attempts were unsuccessful, other options should be available. If all identity proofing options failed, then the family member acting as the delegate should be instructed to visit a local facility for in-person identity proofing.
 
 ### 2. Identity Profile Maintenance and Updates
 
 The following relates to updating data in a public citizen’s profile that is critical to identifying their unique public identity (such as sensitive profile attributes like Address or Phone). In this scenario, the assumption is that the public identity is already onboarded, and the public citizen was identity proofed during the registration process. However, when updating sensitive profile data, verifying identity through the authentication process using MFA alone is insufficient. To add another layer of security in these circumstances, it is better to identity proof the public citizen again. Listed below are some scenarios involving updating public identity profile data. 
 
-    1. **Updating Key Profile Identity Attributes**
+  1. **Updating Key Profile Identity Attributes**
 
-    This use case is related to a public citizen seeking updates to the critical profile data that is key to identifying their unique public identity. Key profile attributes can be First Name, Middle Name, Last Name, Date of Birth, Social Security Number, Primary Address, Driver License Data, State ID Data, Passport Data, Primary Phone or Primary Email. 
+  This use case is related to a public citizen seeking updates to the critical profile data that is key to identifying their unique public identity. Key profile attributes can be First Name, Middle Name, Last Name, Date of Birth, Social Security Number, Primary Address, Driver License Data, State ID Data, Passport Data, Primary Phone or Primary Email. 
 
-    The first step is for the public citizen to authenticate successfully and then proceed to the profile page to update their identity attributes. Based on the attributes the public citizen is requesting to update, a list of identity proofing methods will be available for the public citizen to select from. 
+  The first step is for the public citizen to authenticate successfully and then proceed to the profile page to update their identity attributes. Based on the attributes the public citizen is requesting to update, a list of identity proofing methods will be available for the public citizen to select from. 
 
-    After identity proofing is successfully completed, the identity profile and associated account are updated. If initial identity proofing attempts were unsuccessful, other options should be available. If all identity proofing options failed, then the public citizen should be instructed to visit a local facility for in-person identity proofing.
+  After identity proofing is successfully completed, the identity profile and associated account are updated. If initial identity proofing attempts were unsuccessful, other options should be available. If all identity proofing options failed, then the public citizen should be instructed to visit a local facility for in-person identity proofing.
 
-    2. **Updating Key Profile Identity Attributes by Delegate**
+  2. **Updating Key Profile Identity Attributes by Delegate**
 
-    In this use case, the update process for a public citizen is being performed by another individual serving as a delegated authority. For example, this could be a vendor making updates on behalf of a public citizen with a vision impairment or who does not have access to online assets. The delegated authority will first be authenticated, and if authorized will proceed to the profile update page. The delegate then submits updates to the public citizen’s key profile attributes, some of which will be used to proceed with the identity proofing steps. Based on the attributes the delegate is seeking to update, a list of identity proofing methods will be available for the delegate to select from. 
+  In this use case, the update process for a public citizen is being performed by another individual serving as a delegated authority. For example, this could be a vendor making updates on behalf of a public citizen with a vision impairment or who does not have access to online assets. The delegated authority will first be authenticated, and if authorized will proceed to the profile update page. The delegate then submits updates to the public citizen’s key profile attributes, some of which will be used to proceed with the identity proofing steps. Based on the attributes the delegate is seeking to update, a list of identity proofing methods will be available for the delegate to select from. 
 
-    Both the delegate and public citizen need to perform the identity proofing steps. This ensures that an unauthorized individual is not attempting to fraudulently update an identity for a public citizen. After identity proofing is successfully completed for both the delegate and the public citizen, the identity profile and associated account are updated only for the public citizen. If initial identity proofing attempts were unsuccessful, other options should be available. If all identity proofing options failed, then the delegated registration authority should be instructed to visit a local facility for in-person identity proofing. 
+  Both the delegate and public citizen need to perform the identity proofing steps. This ensures that an unauthorized individual is not attempting to fraudulently update an identity for a public citizen. After identity proofing is successfully completed for both the delegate and the public citizen, the identity profile and associated account are updated only for the public citizen. If initial identity proofing attempts were unsuccessful, other options should be available. If all identity proofing options failed, then the delegated registration authority should be instructed to visit a local facility for in-person identity proofing. 
 
-    3. **Updating Non-Key Profile Identity Attributes**
+  3. **Updating Non-Key Profile Identity Attributes**
 
-    In this use case, identity proofing is generally not required. The assumption is that the profile identity attributes being updated are not sensitive and do not have any correlation to risk and fraud detection. Some non-key profile identity attributes include Secondary Address, Birth City, Secondary Phone, Gender, Age, and Contact Information.
+  In this use case, identity proofing is generally not required. The assumption is that the profile identity attributes being updated are not sensitive and do not have any correlation to risk and fraud detection. Some non-key profile identity attributes include Secondary Address, Birth City, Secondary Phone, Gender, Age, and Contact Information.
 
 ### 3.  Financial Transaction Identity Confirmation
 
@@ -420,35 +420,35 @@ Taking a risk-based approach to remote identity proofing can save an organizatio
 
 The following are theoretical ideas for approaches government agencies could take in the future to identity proof citizens (given sufficient technological and process advancements). 
 
-    A. **Replace current Social Security card with public PIV card**
+  A. **Replace current Social Security card with public PIV card**
 
-    A future identity proofing strategy could involve transitioning from the traditional Social Security card to a more secure, multi-purpose public PIV card. Such a shift would leverage existing federal identity management infrastructure to provide citizens with a more secure, technologically advanced form of personal identification that could streamline access to government services and reduce identity fraud risks.
+  A future identity proofing strategy could involve transitioning from the traditional Social Security card to a more secure, multi-purpose public PIV card. Such a shift would leverage existing federal identity management infrastructure to provide citizens with a more secure, technologically advanced form of personal identification that could streamline access to government services and reduce identity fraud risks.
 
-    ![Figure 14]()
+  ![Figure 14]()
 
-    1. Public citizen accesses online registration link and searches for a local Social Security office.  
-    2. Public citizen visits the federal facility in person.  
-    3. Public citizen performs the identity proofing step with a federal employee.  
-    4. Public citizen provides documentation such as a US government-issued photo ID or US passport.  
-    5. Federal employee uploads live image captured using a camera-enabled device and submits for validation.  
-    6. Federal employee issues public PIV card to the registered citizen in lieu of traditional Social Security card after successful verification.  
-    7. Public citizen logs in to a federal agency website with their public PIV card.  
-    8. Public citizen identity is created with the profile data after successful login.  
+  1. Public citizen accesses online registration link and searches for a local Social Security office.  
+  2. Public citizen visits the federal facility in person.  
+  3. Public citizen performs the identity proofing step with a federal employee.  
+  4. Public citizen provides documentation such as a US government-issued photo ID or US passport.  
+  5. Federal employee uploads live image captured using a camera-enabled device and submits for validation.  
+  6. Federal employee issues public PIV card to the registered citizen in lieu of traditional Social Security card after successful verification.  
+  7. Public citizen logs in to a federal agency website with their public PIV card.  
+  8. Public citizen identity is created with the profile data after successful login.  
 
-   B. **Centralized repository of consolidated public identity metadata**
+  B. **Centralized repository of consolidated public identity metadata**
 
-   The following notional approach for more efficient public identity proofing would require consolidating public identity metadata possessed by individual agencies into a single, centralized repository. This would enable individual agencies to identity proof public citizens using more attributes than they could using their agency-owned data alone.
+  The following notional approach for more efficient public identity proofing would require consolidating public identity metadata possessed by individual agencies into a single, centralized repository. This would enable individual agencies to identity proof public citizens using more attributes than they could using their agency-owned data alone.
 
-   ![Figure 15]()
+  ![Figure 15]()
 
-    1. Public citizen accesses online registration link.  
-    2. Public citizen enters identity profile data such as First Name, Last Name, Address, Phone, and other relevant attributes.   
-    3. Public citizen performs the identity proofing step using federal agency-known public identity data.  
-    4. Federal agency-known public identity data is retrieved, and using the key identifier such as Social Security number, name, or home address, a query is sent to the consolidated public identity data repository.   
-    5. Random questions are generated from the data and presented to the user.   
-    6. Public citizen selects the answers to the random questions and submits them for validation.  
-    7. The answers are validated by comparing to the federal agency-known public identity data.  
-    8. Public citizen identity is created with profile data after answers to the random questions are successfully validated.
+  1. Public citizen accesses online registration link.  
+  2. Public citizen enters identity profile data such as First Name, Last Name, Address, Phone, and other relevant attributes.   
+  3. Public citizen performs the identity proofing step using federal agency-known public identity data.  
+  4. Federal agency-known public identity data is retrieved, and using the key identifier such as Social Security number, name, or home address, a query is sent to the consolidated public identity data repository.   
+  5. Random questions are generated from the data and presented to the user.   
+  6. Public citizen selects the answers to the random questions and submits them for validation.  
+  7. The answers are validated by comparing to the federal agency-known public identity data.  
+  8. Public citizen identity is created with profile data after answers to the random questions are successfully validated.
 
 ## 12. Conclusion
 
