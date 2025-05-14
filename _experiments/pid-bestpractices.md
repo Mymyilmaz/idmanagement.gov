@@ -325,20 +325,20 @@ The following sections detail various scenarios which require identity proofing 
 
 When a new customer applies to open an online account to access federal services (such as Medicaid benefits), identity proofing is required to verify their identity in compliance with KYC regulations. This process ensures that the customer is who they claim to be, mitigating the risk of identity theft and fraudulent activity. Listed below are some scenarios involving onboarding a new public identity. 
 
-  1. **First Time Public Citizen Registration**
-  This use case is for a public citizen that requires an identity to create an account to access federal services. The public citizen will provide key mandatory profile attributes, some of which will be used to proceed to the identity proofing steps. Based on the federal service the public citizen is requesting, a list of identity proofing methods will be available for the public citizen to select from. 
+1. **First Time Public Citizen Registration**
+This use case is for a public citizen that requires an identity to create an account to access federal services. The public citizen will provide key mandatory profile attributes, some of which will be used to proceed to the identity proofing steps. Based on the federal service the public citizen is requesting, a list of identity proofing methods will be available for the public citizen to select from. 
 
-  After identity proofing is successfully completed, an identity profile and associated account is created. If initial identity proofing attempts were unsuccessful, other options should be available. If all identity proofing options failed, then the public citizen should be instructed to visit a local facility for in-person identity proofing.
+After identity proofing is successfully completed, an identity profile and associated account is created. If initial identity proofing attempts were unsuccessful, other options should be available. If all identity proofing options failed, then the public citizen should be instructed to visit a local facility for in-person identity proofing.
 
-  2. **Delegate Registration - Registering for Another Public Citizen**
-  In this use case, the registration process for a public citizen is being performed by another individual serving as a delegated registration authority. For example, this could be a vendor performing registration on behalf of a public citizen with a vision impairment or who does not have access to online assets. The delegated authority will provide key mandatory profile attributes for both them and the public citizen, some of which will be used to proceed to the identity proofing steps. Based on the federal service the public citizen is requesting, a list of identity proofing methods will be available for the delegate to select from. 
+2. **Delegate Registration - Registering for Another Public Citizen**
+In this use case, the registration process for a public citizen is being performed by another individual serving as a delegated registration authority. For example, this could be a vendor performing registration on behalf of a public citizen with a vision impairment or who does not have access to online assets. The delegated authority will provide key mandatory profile attributes for both them and the public citizen, some of which will be used to proceed to the identity proofing steps. Based on the federal service the public citizen is requesting, a list of identity proofing methods will be available for the delegate to select from. 
 
-  Both the delegate and public citizen need to be identity proofed. This ensures that an unauthorized individual is not attempting to fraudulently create an identity for a public citizen. After identity proofing is successfully completed for both the delegate and the public citizen, an identity profile and associated account is created only for the public citizen. If initial identity proofing attempts were unsuccessful, other options should be available. If all identity proofing options failed, then the delegated authority should be instructed to visit a local facility for in-person identity proofing.
+Both the delegate and public citizen need to be identity proofed. This ensures that an unauthorized individual is not attempting to fraudulently create an identity for a public citizen. After identity proofing is successfully completed for both the delegate and the public citizen, an identity profile and associated account is created only for the public citizen. If initial identity proofing attempts were unsuccessful, other options should be available. If all identity proofing options failed, then the delegated authority should be instructed to visit a local facility for in-person identity proofing.
 
-  3. **First Time Public Citizen Registration for Minors or the Elderly**
-  This use case is similar to Delegate Registration with the distinction that the delegate is an immediate family member or other close relation of the public citizen. The assumption is that the public citizen is a minor or elderly person and either does not have access to online assets or has an impairment preventing them from performing the registration themselves. The family member acting as a delegate will provide key mandatory profile attributes for both them and the public citizen, and some of them will be used to proceed to the identity proofing steps. Based on the federal service the public citizen is requesting; a list of identity proofing methods will be available to be selected by the delegated registration authority. 
+3. **First Time Public Citizen Registration for Minors or the Elderly**
+This use case is similar to Delegate Registration with the distinction that the delegate is an immediate family member or other close relation of the public citizen. The assumption is that the public citizen is a minor or elderly person and either does not have access to online assets or has an impairment preventing them from performing the registration themselves. The family member acting as a delegate will provide key mandatory profile attributes for both them and the public citizen, and some of them will be used to proceed to the identity proofing steps. Based on the federal service the public citizen is requesting; a list of identity proofing methods will be available to be selected by the delegated registration authority. 
 
-  Both the family member acting as the delegate and the public citizen need to be identity proofed. This ensures that an unauthorized individual is not attempting to fraudulently create an identity for a public citizen. After identity proofing is successfully completed for both the delegate and the public citizen, an identity profile and associated account is created only for the public citizen. If initial identity proofing attempts were unsuccessful, other options should be available. If all identity proofing options failed, then the family member acting as the delegate should be instructed to visit a local facility for in-person identity proofing.
+Both the family member acting as the delegate and the public citizen need to be identity proofed. This ensures that an unauthorized individual is not attempting to fraudulently create an identity for a public citizen. After identity proofing is successfully completed for both the delegate and the public citizen, an identity profile and associated account is created only for the public citizen. If initial identity proofing attempts were unsuccessful, other options should be available. If all identity proofing options failed, then the family member acting as the delegate should be instructed to visit a local facility for in-person identity proofing.
 
 ### 2. Identity Profile Maintenance and Updates
 
@@ -384,7 +384,7 @@ After the vendor is authenticated and authorized, they will access an online for
 
 After identity proofing is successfully completed, the request is processed and continues to the next business process activity. If initial identity proofing attempts were unsuccessful, other options should be available. If all identity proofing options failed, then the vendor should be instructed to visit a local facility for in-person identity proofing and to resubmit the request.
 
-## 4. Abnormal Behavior Identity Validation
+### 4. Abnormal Behavior Identity Validation
 
 Abnormal behavior is any behavior that deviates from what is considered normal or typical. It is identified by analyzing a user's behavior to recognize non-standard patterns. Identifying suspicious behavior can help block unauthorized access to an account. Examples of abnormal behavior which could prompt identity proofing to further confirm an individual’s identity include: 
 
@@ -393,11 +393,11 @@ Abnormal behavior is any behavior that deviates from what is considered normal o
 - Attempting to log in from a blacklisted country.  
 - Devices being used for high-risk transactions--such as requesting benefits for large dollar amounts—from a location that is not the user’s typical one. 
 
-## 5. Access Outside the United States
+### 5. Access Outside the United States
 
 Country-based access controls or location conditions can help control access from outside of the United States by blocking access from certain countries or regions. However, there are scenarios in which identity proofing can be enabled as an additional authentication for access outside of the US—such as when US citizens live in a foreign country, live on an overseas military facility, or work overseas at a US federal facility and require access to online federal services.
 
-## 6. Risk-Driven Remote Identity Proofing 
+### 6. Risk-Driven Remote Identity Proofing 
 
 Implementing a risk-based approach to remote identity proofing can enable greater adoption of remote-based verification by properly balancing the challenges of accuracy, security, and usability. Federal agencies should look at their remote identity proofing processes to make sure the proper security controls are in place and evaluate whether the organization is striking the right balance between competing challenges of ensuring public citizen identities are sufficiently identity proofed.
 
