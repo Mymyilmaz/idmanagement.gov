@@ -475,7 +475,7 @@ As this document has explained, identity proofing is a multifaceted process that
 
 ## 13. Appendix
 
-## References
+### References
 
 1. [https://login.gov/docs/login-gov-roadmap-dec-2024.pdf](https://login.gov/docs/login-gov-roadmap-dec-2024.pdf){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
 2. [https://pages.nist.gov/800-63-3-Implementation-Resources/63A/](https://pages.nist.gov/800-63-3-Implementation-Resources/63A/){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
