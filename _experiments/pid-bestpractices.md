@@ -245,17 +245,17 @@ There are other forms of biometric identity proofing that can be used, including
 
 - **Behavioral Biometrics**: Behavioral biometrics refers to a method of identity proofing that uses a person's unique behavioral patterns, like how they type, swipe, or move their mouse, to verify their identity rather than relying on physical characteristics like fingerprints or facial recognition. It analyzes how someone interacts with a device to authenticate them as a legitimate user, helping to detect potential fraud by identifying unusual behavior patterns. Examples of behavioral biometrics include:
 
-- **Mouse behavior** tracks how a user moves their mouse, including the speed and patterns of movement.
+  - **Mouse behavior** tracks how a user moves their mouse, including the speed and patterns of movement.
 
-- **Touchscreen behavior** tracks how a user interacts with a touchscreen, including how they hold the device, how much pressure they apply, and what gestures they make.
+  - **Touchscreen behavior** tracks how a user interacts with a touchscreen, including how they hold the device, how much pressure they apply, and what gestures they make.
 
-- **Voice recognition** analyzes the behavioral signals in a user's voice to authenticate them.
+  - **Voice recognition** analyzes the behavioral signals in a user's voice to authenticate them.
 
-- **Typing biometrics** analyzes a user's keystroke patterns to authenticate them.
+  - **Typing biometrics** analyzes a user's keystroke patterns to authenticate them.
 
-- **Behavioral PIN authentication** analyzes how a user holds their phone and enters their PIN, including their wrist strength and finger placement.
+  - **Behavioral PIN authentication** analyzes how a user holds their phone and enters their PIN, including their wrist strength and finger placement.
 
-- **Gesture recognition** analyzes how a user moves their hands, such as when typing on a keyboard or tapping on a screen.
+  - **Gesture recognition** analyzes how a user moves their hands, such as when typing on a keyboard or tapping on a screen.
 
 ### D. Remote Verification
 
