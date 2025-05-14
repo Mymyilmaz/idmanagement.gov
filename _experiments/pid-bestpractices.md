@@ -76,7 +76,7 @@ Identity verification is therefore crucial for safeguarding both individuals and
 
 Identity proofing is typically the first step in the authentication process. It can be performed either remotely or in person. In some cases, it may not be required to access lower-risk services. 
 
-![Figure 1]()
+![Figure 1]({{site.baseurl}}/assets/experiments/pid/figure1.jpg)
 
 **Per established federal guidelines, identity proofing should lead to the following outcomes (as depicted in the graphic above):**
 
@@ -94,7 +94,7 @@ Identity proofing is typically the first step in the authentication process. It 
 
 The Public Identity and Access Management (PIAM) framework has four components (depicted in the image below), of which one, Identity Management, encompasses identity proofing. The four components provide a common model through which agencies can understand and implement identity, credential, and access management (ICAM) processes.
 
-  ![Figure 3]()
+  ![Figure 3]({{site.baseurl}}/assets/experiments/pid/figure3.jpg)
 
   1. **Identity management** focuses on managing the lifecycle, governance, and compliance aspects of a person’s identity. This includes capabilities such as role-based access control (RBAC), access certification, and policy enforcement. It is also concerned with managing user access according to organizational policies and in alignment with regulatory requirements.
 
@@ -108,7 +108,7 @@ The Public Identity and Access Management (PIAM) framework has four components (
 
 The image below shows the various subsections of Access Management. This practical guide offers guidance around identity proofing as a subsection of the Access Management component of the PIAM framework. 
 
-![Figure 4]()
+![Figure 4]({{site.baseurl}}/assets/experiments/pid/figure4.jpg)
 
 ## 5. Identity Proofing Challenges
 
@@ -151,7 +151,7 @@ When evaluating identity proofing systems and processes, it is important to sele
 
 By preventing identity theft, fraud, and unauthorized access to sensitive information, the identity proofing process protects both individuals and federal agencies. The image below depicts one example of how identity proofing helps, specifically by enabling compliance with regulations like KYC (Know Your Customer) and AML (Anti-Money Laundering). 
 
-![Figure 5]()
+![Figure 5]({{site.baseurl}}/assets/experiments/pid/figure5.jpg)
 
 ## 9. Identity Proofing Assurance Levels & Methods
 
@@ -188,11 +188,11 @@ The following is an exploration of a variety of identity proofing methods that m
 
 ### A. Knowledge Based
 
-![icon1]()
 
-Knowledge based identity proofing refers to a method of confirming someone's identity by asking them to answer questions about personal information that theoretically only they should readily know (such as their mother's maiden name or previous address). The most common type of knowledge-based proofing uses personal credit report data for validation. 
+<p><img src="{{site.baseurl}}/assets/experiments/pid/icons/icon1.jpg" alt="Knowledge Base icon">
+Knowledge based identity proofing refers to a method of confirming someone's identity by asking them to answer questions about personal information that theoretically only they should readily know (such as their mother's maiden name or previous address). The most common type of knowledge-based proofing uses personal credit report data for validation.</p> 
 
-![Figure 6]()
+![Figure 6]({{site.baseurl}}/assets/experiments/pid/figure6.jpg)
 
 1. Public citizen accesses online registration link.  
 2. Public citizen enters identity profile data such as First Name, Last Name, Address, Phone, and other relevant attributes.  
@@ -203,11 +203,10 @@ Knowledge based identity proofing refers to a method of confirming someone's ide
 
 ### B. Third Party Provider
 
-![icon2]()
+<p><img src="{{site.baseurl}}/assets/experiments/pid/icons/icon2.jpg" alt="Third Party Provider icon">
+Third party identity proofing refers to a method of confirming someone's identity by asking them to leverage third party credentials such as banking credentials. The majority of Americans have bank accounts, and since a bank account cannot be created without first validating government-furnished documentation in accordance with strict guidelines, this method provides a mechanism to validate identity for a government service.</p>
 
-Third party identity proofing refers to a method of confirming someone's identity by asking them to leverage third party credentials such as banking credentials. The majority of Americans have bank accounts, and since a bank account cannot be created without first validating government-furnished documentation in accordance with strict guidelines, this method provides a mechanism to validate identity for a government service.
-
-![Figure 7]()
+![Figure 7]({{site.baseurl}}/assets/experiments/pid/figure7.jpg)
 
 1. Public citizen accesses online registration link.  
 2. Public citizen enters identity profile data such as First Name, Last Name, Address, Phone, and other relevant attributes.  
@@ -218,9 +217,7 @@ Third party identity proofing refers to a method of confirming someone's identit
 
 ### C. Biometrics
 
-![icon3]()
-
-Biometric identity verification is a process that uses unique physical or behavioral characteristics to confirm a person's identity. In a digital environment, biometrics give a higher assurance that a person is who they say they are than other forms of verification. Using biometrics is a secure and convenient way to prove customer identities during onboarding, verification, or authentication. 
+<p><img src="{{site.baseurl}}/assets/experiments/pid/icons/icon3.jpg" alt="Biometrics icon">Biometric identity verification is a process that uses unique physical or behavioral characteristics to confirm a person's identity. In a digital environment, biometrics give a higher assurance that a person is who they say they are than other forms of verification. Using biometrics is a secure and convenient way to prove customer identities during onboarding, verification, or authentication.</p>
 
 Public citizens can anchor their physical identity to a digital account at sign-up using a photo ID and a selfie or video. First, a user takes a picture of their identity document and then submits either a selfie or a video, which is then compared to the photo on the identity document. 
 
@@ -228,7 +225,7 @@ Public citizens can anchor their physical identity to a digital account at sign-
     
 - **Motion check (Video):** A video check requires the public citizen take a short video of themselves on their phone to prove liveness. The individual is directed to record a specific movement, such as a simple head turn to the left and right. This liveness check determines if the person is present and not using a mask or prerecorded video, and that they are the same person as the one submitting the ID. Video adds an extra layer of protection from additional and more sophisticated fraud attacks, such as spoof selfies, deep fake videos, and 2D and 3D masks.
 
-![Figure 8]()
+![Figure 8]({{site.baseurl}}/assets/experiments/pid/figure8.jpg)
 
 1. Public citizen accesses online registration link.  
 2. Public citizen enters identity profile data such as First Name, Last Name, Address, Phone, and other relevant attributes.  
@@ -267,11 +264,10 @@ There are other forms of biometric identity proofing that can be used, including
 
 ### D. Remote Verification
 
-![icon4]()
+<p><img src="{{site.baseurl}}/assets/experiments/pid/icons/icon4.jpg" alt="Remote Verification icon">
+Some members of the public want the opportunity to engage with a human during the identity verification process but are unable to visit a physical location. This method enables a user to digitally verify their identity with a human agent, such as through a live video chat with a trained identity verification professional.</p>
 
-Some members of the public want the opportunity to engage with a human during the identity verification process but are unable to visit a physical location. This method enables a user to digitally verify their identity with a human agent, such as through a live video chat with a trained identity verification professional.
-
-  ![Figure 9]()
+  ![Figure 9]({{site.baseurl}}/assets/experiments/pid/figure9.jpg)
 
   1. Public citizen accesses online registration link.  
   2. Public citizen enters identity profile data such as First Name, Last Name, Address, Phone, and other relevant attributes.  
@@ -282,13 +278,12 @@ Some members of the public want the opportunity to engage with a human during th
 
 ### E. In-Person 
 
-![icon5]()
-
-In-person identity proofing is the process of verifying that the individual requesting access to federal services both matches the identity on their submitted documents and is physically present at a federal facility. The process involves presenting original identification and proof of address documents during the verification process. This is a secure identity verification option for individuals that prefer face-to-face interactions and is available as part of both basic (non-Identity Assurance Level 2) and enhanced (IAL2) identity verification. 
+<p><img src="{{site.baseurl}}/assets/experiments/pid/icons/icon5.jpg" alt="In-Person icon">
+In-person identity proofing is the process of verifying that the individual requesting access to federal services both matches the identity on their submitted documents and is physically present at a federal facility. The process involves presenting original identification and proof of address documents during the verification process. This is a secure identity verification option for individuals that prefer face-to-face interactions and is available as part of both basic (non-Identity Assurance Level 2) and enhanced (IAL2) identity verification.</p>
 
 According to the United States Postal Service (USPS), 99% of US public citizens live within 10 miles of a USPS location, thus providing a convenient way for identity proofing a public identity if remote/virtual methods cannot be leveraged by an individual.
 
-  ![Figure 10]()
+  ![Figure 10]({{site.baseurl}}/assets/experiments/pid/figure10.jpg)
 
   1. Public citizen accesses online registration link and searches for a nearby federal facility such as a US Post Office.  
   2. Public citizen visits the federal facility in person.  
@@ -299,11 +294,10 @@ According to the United States Postal Service (USPS), 99% of US public citizens 
 
 ### F. Physical Mail - One Time Code
 
-![icon6]()
+<p><img src="{{site.baseurl}}/assets/experiments/pid/icons/icon6.jpg" alt="Physical Mail - One Time Code icon">
+This identity proofing method validates an identity using a physical address that belongs to the public citizen. The key validation component is that the physical address matches the name of the public citizen under which it is registered. After this is validated, a random one-time code will be generated with an expiration date and a letter with the code will be mailed to the physical address that was validated. Using this code, the public citizen can then proceed to register for an online account to access federal services and benefits.</p>
 
-This identity proofing method validates an identity using a physical address that belongs to the public citizen. The key validation component is that the physical address matches the name of the public citizen under which it is registered. After this is validated, a random one-time code will be generated with an expiration date and a letter with the code will be mailed to the physical address that was validated. Using this code, the public citizen can then proceed to register for an online account to access federal services and benefits.
-
-  ![Figure 11]()
+  ![Figure 11]({{site.baseurl}}/assets/experiments/pid/figure11.jpg)
 
   1. Public citizen accesses online registration link.  
   2. Public citizen enters identity profile data such as First Name, Last Name, Address, Phone, and other relevant attributes.  
@@ -314,11 +308,10 @@ This identity proofing method validates an identity using a physical address tha
 
 ### G. Mobile Phone Device
 
-![icon7]()
+<p><img src="{{site.baseurl}}/assets/experiments/pid/icons/icon7.jpg" alt="Mobile Phone Device icon">
+This identity proofing method validates an identity using a mobile device number that is registered to the public citizen. The key validation component is that the mobile device number is registered under a name which matches the public citizen’s name. After this is validated, a random one-time code with an expiration period is generated and sent to the validated mobile phone number. Using this code, the public citizen can proceed to register the device metadata (such as type of device, operating system geolocation, and other identity-related attributes). Once the device is successfully registered, the public citizen identity is created with the profile data.</p>
 
-This identity proofing method validates an identity using a mobile device number that is registered to the public citizen. The key validation component is that the mobile device number is registered under a name which matches the public citizen’s name. After this is validated, a random one-time code with an expiration period is generated and sent to the validated mobile phone number. Using this code, the public citizen can proceed to register the device metadata (such as type of device, operating system geolocation, and other identity-related attributes). Once the device is successfully registered, the public citizen identity is created with the profile data.
-
-  ![Figure 12]()
+  ![Figure 12]({{site.baseurl}}/assets/experiments/pid/figure12.jpg)
 
   1. Public citizen accesses online registration link.  
   2. Public citizen enters identity profile data such as First Name, Last Name, Address, Phone, and other relevant attributes.  
@@ -329,11 +322,10 @@ This identity proofing method validates an identity using a mobile device number
 
 ### H. Federal Employees or Contractors - PIV Card
 
-![icon8]()
+<p><img src="{{site.baseurl}}/assets/experiments/pid/icons/icon8.jpg" alt="Federal Employees or Contractors - PIV Card icon">
+This identity proofing method is the process of validating an identity using a Personal Identity Verification (PIV) card registered to the public citizen. The key validation component is that a PIV card is only issued after identity proofing steps are completed by a federal agency, which typically occurs in person at a federal facility and is only done for federal employees and contractors.</p>
 
-This identity proofing method is the process of validating an identity using a Personal Identity Verification (PIV) card registered to the public citizen. The key validation component is that a PIV card is only issued after identity proofing steps are completed by a federal agency, which typically occurs in person at a federal facility and is only done for federal employees and contractors.
-
-  ![Figure 13]()
+  ![Figure 13]({{site.baseurl}}/assets/experiments/pid/figure13.jpg)
 
   1. Public citizen accesses online registration link.  
   2. Public citizen enters identity profile data such as First Name, Last Name, Address, Phone, and other relevant attributes.  
@@ -458,7 +450,7 @@ A. **Replace current Social Security card with public PIV card**
 
   A future identity proofing strategy could involve transitioning from the traditional Social Security card to a more secure, multi-purpose public PIV card. Such a shift would leverage existing federal identity management infrastructure to provide citizens with a more secure, technologically advanced form of personal identification that could streamline access to government services and reduce identity fraud risks.
 
-  ![Figure 14]()
+  ![Figure 14]({{site.baseurl}}/assets/experiments/pid/figure14.jpg)
 
   1. Public citizen accesses online registration link and searches for a local Social Security office.  
   2. Public citizen visits the federal facility in person.  
@@ -473,7 +465,7 @@ B. **Centralized repository of consolidated public identity metadata**
 
   The following notional approach for more efficient public identity proofing would require consolidating public identity metadata possessed by individual agencies into a single, centralized repository. This would enable individual agencies to identity proof public citizens using more attributes than they could using their agency-owned data alone.
 
-  ![Figure 15]()
+  ![Figure 15]({{site.baseurl}}/assets/experiments/pid/figure15.jpg)
 
   1. Public citizen accesses online registration link.  
   2. Public citizen enters identity profile data such as First Name, Last Name, Address, Phone, and other relevant attributes.   
