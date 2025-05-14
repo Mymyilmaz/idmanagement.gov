@@ -304,7 +304,7 @@ This identity proofing method validates an identity using a mobile device number
 
 ### H. Federal Employees or Contractors - PIV Card
 
-![icon8]
+![icon8]()
 
 This identity proofing method is the process of validating an identity using a Personal Identity Verification (PIV) card registered to the public citizen. The key validation component is that a PIV card is only issued after identity proofing steps are completed by a federal agency, which typically occurs in person at a federal facility and is only done for federal employees and contractors.
 
