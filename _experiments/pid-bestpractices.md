@@ -429,35 +429,35 @@ Taking a risk-based approach to remote identity proofing can save an organizatio
 
 The following are theoretical ideas for approaches government agencies could take in the future to identity proof citizens (given sufficient technological and process advancements). 
 
-  **A. Replace current Social Security card with public PIV card**
+    **A. Replace current Social Security card with public PIV card**
 
-  A future identity proofing strategy could involve transitioning from the traditional Social Security card to a more secure, multi-purpose public PIV card. Such a shift would leverage existing federal identity management infrastructure to provide citizens with a more secure, technologically advanced form of personal identification that could streamline access to government services and reduce identity fraud risks.
+    A future identity proofing strategy could involve transitioning from the traditional Social Security card to a more secure, multi-purpose public PIV card. Such a shift would leverage existing federal identity management infrastructure to provide citizens with a more secure, technologically advanced form of personal identification that could streamline access to government services and reduce identity fraud risks.
 
-  ![Figure 14]()
+    ![Figure 14]()
 
-  1. Public citizen accesses online registration link and searches for a local Social Security office.  
-  2. Public citizen visits the federal facility in person.  
-  3. Public citizen performs the identity proofing step with a federal employee.  
-  4. Public citizen provides documentation such as a US government-issued photo ID or US passport.  
-  5. Federal employee uploads live image captured using a camera-enabled device and submits for validation.  
-  6. Federal employee issues public PIV card to the registered citizen in lieu of traditional Social Security card after successful verification.  
-  7. Public citizen logs in to a federal agency website with their public PIV card.  
-  8. Public citizen identity is created with the profile data after successful login.  
+    1. Public citizen accesses online registration link and searches for a local Social Security office.  
+    2. Public citizen visits the federal facility in person.  
+    3. Public citizen performs the identity proofing step with a federal employee.  
+    4. Public citizen provides documentation such as a US government-issued photo ID or US passport.  
+    5. Federal employee uploads live image captured using a camera-enabled device and submits for validation.  
+    6. Federal employee issues public PIV card to the registered citizen in lieu of traditional Social Security card after successful verification.  
+    7. Public citizen logs in to a federal agency website with their public PIV card.  
+    8. Public citizen identity is created with the profile data after successful login.  
 
-  **B. Centralized repository of consolidated public identity metadata**
+    **B. Centralized repository of consolidated public identity metadata**
 
-  The following notional approach for more efficient public identity proofing would require consolidating public identity metadata possessed by individual agencies into a single, centralized repository. This would enable individual agencies to identity proof public citizens using more attributes than they could using their agency-owned data alone.
+    The following notional approach for more efficient public identity proofing would require consolidating public identity metadata possessed by individual agencies into a single, centralized repository. This would enable individual agencies to identity proof public citizens using more attributes than they could using their agency-owned data alone.
 
-  ![Figure 15]()
+    ![Figure 15]()
 
-  1. Public citizen accesses online registration link.  
-  2. Public citizen enters identity profile data such as First Name, Last Name, Address, Phone, and other relevant attributes.   
-  3. Public citizen performs the identity proofing step using federal agency-known public identity data.  
-  4. Federal agency-known public identity data is retrieved, and using the key identifier such as Social Security number, name, or home address, a query is sent to the consolidated public identity data repository.   
-  5. Random questions are generated from the data and presented to the user.   
-  6. Public citizen selects the answers to the random questions and submits them for validation.  
-  7. The answers are validated by comparing to the federal agency-known public identity data.  
-  8. Public citizen identity is created with profile data after answers to the random questions are successfully validated.
+    1. Public citizen accesses online registration link.  
+    2. Public citizen enters identity profile data such as First Name, Last Name, Address, Phone, and other relevant attributes.   
+    3. Public citizen performs the identity proofing step using federal agency-known public identity data.  
+    4. Federal agency-known public identity data is retrieved, and using the key identifier such as Social Security number, name, or home address, a query is sent to the consolidated public identity data repository.   
+    5. Random questions are generated from the data and presented to the user.   
+    6. Public citizen selects the answers to the random questions and submits them for validation.  
+    7. The answers are validated by comparing to the federal agency-known public identity data.  
+    8. Public citizen identity is created with profile data after answers to the random questions are successfully validated.
 
 ## 12. Conclusion
 Identify proofing is essential for safeguarding organizations and citizens against cyber threats in an increasingly digital world. Implementing strong identity-proofing practices not only enhances security but also fosters an environment of trust and authenticity in online interactions. 
