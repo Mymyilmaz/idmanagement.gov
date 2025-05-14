@@ -20,9 +20,9 @@ subnav:
 
 As the number of identity thefts committed in the U.S. for fraud purposes increases every year, the federal government must establish common business practices for identity proofing. Identity theft occurs when rights (e.g., benefits and access) are wrongfully claimed, causing the victim financial loss, reputational (credit) damage, and legal issues. Some of the most common reasons people or criminal groups commit identity fraud are to:
 
-- Access services they’re not entitled to,  
-- Get benefits they’re not entitled to, and  
-- Steal personal, medical, or financial information from other identities.
+  - Access services they’re not entitled to,  
+  - Get benefits they’re not entitled to, and  
+  - Steal personal, medical, or financial information from other identities.
 
 The federal government has identity proofing guidelines established by the National Institute of Standards and Technology, but these guidelines are not uniformly followed—particularly when ensuring linkage between a claimed identity and the person presenting the evidence. The practice of adhering to these guidelines must become standard across the federal landscape when citizens access federal services online. This will help protect both individuals and organizations by ensuring that people are who they claim to be, mitigating the risk of financial loss, reputational damage, and legal issues associated with identity theft. 
 
@@ -278,14 +278,14 @@ According to the United States Postal Service (USPS), 99% of US public citizens 
 
 This identity proofing method validates an identity using a physical address that belongs to the public citizen. The key validation component is that the physical address matches the name of the public citizen under which it is registered. After this is validated, a random one-time code will be generated with an expiration date and a letter with the code will be mailed to the physical address that was validated. Using this code, the public citizen can then proceed to register for an online account to access federal services and benefits.
 
-    ![Figure 11]()
+  ![Figure 11]()
 
-    1. Public citizen accesses online registration link.  
-    2. Public citizen enters identity profile data such as First Name, Last Name, Address, Phone, and other relevant attributes.  
-    3. Public citizen performs the identity proofing step using physical address data.  
-    4. Physical Address data is received and checked against the address verification solution. If the verification process is successful, a random one-time code is generated and physically mailed to the public citizen’s physical address.  
-    5. After the public citizen receives the mail, the one-time code is entered to continue with the registration process.  
-    6. Public citizen identity is created with the profile data after one-time code validation is successful.
+  1. Public citizen accesses online registration link.  
+  2. Public citizen enters identity profile data such as First Name, Last Name, Address, Phone, and other relevant attributes.  
+  3. Public citizen performs the identity proofing step using physical address data.  
+  4. Physical Address data is received and checked against the address verification solution. If the verification process is successful, a random one-time code is generated and physically mailed to the public citizen’s physical address.  
+  5. After the public citizen receives the mail, the one-time code is entered to continue with the registration process.  
+  6. Public citizen identity is created with the profile data after one-time code validation is successful.
 
 ### G. Mobile Phone Device
 
