@@ -33,4 +33,13 @@ This document provides an overview of identity proofing along with use cases and
 GSA’s Office of Government-wide Policy, Identity Assurance and Trusted Access Division,  
 developed this best practice guide. U.S. Executive Branch agencies can use it to plan identity proofing processes and services. This guide is not an official policy or mandated action. However, it does provide information backed by authoritative federal sources.
 
-## 
+## 3. Key Terms
+
+**Assertion**: A digital statement from a verifier (usually an Identity Provider) to a Relying Party (usually an application) that contains subscriber (usually a username) information. It can include additional attributes such as government employee or law enforcement agent status, or authenticator type used in an access control decision.
+
+**Identity**: The set of physical and behavioral characteristics by which an individual is uniquely recognizable. The digital representation of this is called Digital Identity.
+
+**Public Identity**: A digital identity owned and managed by an agency, which may include US Citizens, service providers, and employees/contractors from Federal, State, and Local government levels.
+
+**Identity Proofing**: The process by which information is collected, validated, and verified about a person in order to issue credentials to that person.
+
