@@ -4,7 +4,7 @@ layout: page
 collection: experiments
 title: Public Identity Best Practices Guide
 permalink: /experiments/pid/bestpractices/
-sidenav: experiments
+sidenav: papers
 sticky_sidenav: true
 
 release: 1.0 
