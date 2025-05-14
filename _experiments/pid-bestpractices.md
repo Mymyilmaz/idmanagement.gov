@@ -321,7 +321,7 @@ This identity proofing method is the process of validating an identity using a P
 
 The following sections detail various scenarios which require identity proofing and give examples of how an agency can handle them.
 
-## 1. ## Initial Identity Verification for New Users 
+## 1. Initial Identity Verification for New Users 
 
 When a new customer applies to open an online account to access federal services (such as Medicaid benefits), identity proofing is required to verify their identity in compliance with KYC regulations. This process ensures that the customer is who they claim to be, mitigating the risk of identity theft and fraudulent activity. Listed below are some scenarios involving onboarding a new public identity. 
 
