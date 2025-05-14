@@ -3,7 +3,7 @@
 layout: page
 collection: experiments
 title: Public Identity Management Best Practice Guide Identity Proofing
-permalink: /experiments/pim/bestpractices/
+permalink: /experiments/pid/bestpractices/
 sidenav: experiments
 sticky_sidenav: true
 
