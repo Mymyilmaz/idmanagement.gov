@@ -36,7 +36,7 @@ subnav:
     href: '#appendix'
   - text: References
     href: '#references'
-    
+
 ---
 
 {% include alert-warning.html heading="Draft" content="The following document is a Draft and should not be interpreted as a finalized rule." %}
@@ -88,7 +88,7 @@ Identity proofing is typically the first step in the authentication process. It 
 
 - Verification that the claimed identity is associated with the real person supplying the identity evidence, i.e., that someone claiming to be a “particular John Smith” is in fact that person—and not someone who is trying to steal his identity.
 
-![Figure 2]()
+{% include alert-info.html content="Identity proofing and authentication are two related but distinct concepts in the field of online security. Identity proofing is the process of verifying an individual’s identity by collecting and verifying personal information, while authentication is the process of verifying that an individual is who they claim to be." %}
 
 ## 5. Identity Proofing in the Federal Landscape
 
