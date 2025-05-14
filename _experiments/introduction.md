@@ -67,12 +67,11 @@ Many people inadvertently create a false sense of security, mistaking the feelin
 
 The federal government has identity proofing guidelines established by the National Institute of Standards and Technology, but these guidelines are not uniformly followed—particularly when ensuring linkage between a claimed identity and the person presenting the evidence. The practice of adhering to these guidelines must become standard across the federal landscape when citizens access federal services online. 
 
-[Read the Public Identity Best Practices Guide]({{site.baseurl}}/experiments/pid/bestpractices/){:class="usa-button"}
+[Read the Public Identity Best Practice Guide]({{site.baseurl}}/experiments/pid/bestpractices/){:class="usa-button"}
 
 ## Coming Soon
 
 We are continuously adding new content to the Experiments section, the following is a list of whats next. 
 
-- Public Identity Best Practices Guide
 - Post Quantum Crypto(PQC) and Post Quantum Encryption(PQE) for logical and Physical Access
 - Mobile PIV
