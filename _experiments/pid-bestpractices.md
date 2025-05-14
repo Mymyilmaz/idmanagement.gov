@@ -34,8 +34,6 @@ subnav:
     href: '#conclusion'
   - text: Appendix
     href: '#appendix'
-  - text: References
-    href: '#references'
 
 ---
 
