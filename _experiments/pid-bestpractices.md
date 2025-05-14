@@ -188,7 +188,7 @@ The following is an exploration of a variety of identity proofing methods that m
 
 ### A. Knowledge Based
 
-<p><img class="float-left" width="105px" src="{{site.baseurl}}/assets/experiments/pid/icons/icon1.jpg" alt="Knowledge Base icon">
+<p><img class="float-left margin-right-2" width="105px" src="{{site.baseurl}}/assets/experiments/pid/icons/icon1.jpg" alt="Knowledge Base icon">
 Knowledge based identity proofing refers to a method of confirming someone's identity by asking them to answer questions about personal information that theoretically only they should readily know (such as their mother's maiden name or previous address). The most common type of knowledge-based proofing uses personal credit report data for validation.</p> 
 
 ![Figure 6]({{site.baseurl}}/assets/experiments/pid/figure6.jpg)
