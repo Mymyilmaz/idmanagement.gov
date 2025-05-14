@@ -85,7 +85,7 @@ The image below shows the various subsections of Access Management. This practic
 
 ![Figure 4]()
 
- ## 5. Identity Proofing Challenges
+## 5. Identity Proofing Challenges
 
 Identity proofing solutions for public identity must balance several challenges, including:
 
@@ -128,7 +128,7 @@ By preventing identity theft, fraud, and unauthorized access to sensitive inform
 
 ![Figure 5]()
 
-# Identity Proofing Assurance Levels & Methods
+## 9. Identity Proofing Assurance Levels & Methods
 
 The first step in identity proofing is to determine what level of identity assurance is required. NIST guidelines have established a simple framework that provides direction for federal agencies in making this determination. The framework identifies three levels of identity assurance. 
 
@@ -287,7 +287,7 @@ This identity proofing method validates an identity using a physical address tha
     5. After the public citizen receives the mail, the one-time code is entered to continue with the registration process.  
     6. Public citizen identity is created with the profile data after one-time code validation is successful.
 
-## G. Mobile Phone Device
+### G. Mobile Phone Device
 
 ![icon7]()
 
