@@ -429,7 +429,7 @@ Taking a risk-based approach to remote identity proofing can save an organizatio
 
 The following are theoretical ideas for approaches government agencies could take in the future to identity proof citizens (given sufficient technological and process advancements). 
 
-  A. **Replace current Social Security card with public PIV card**
+  **A. Replace current Social Security card with public PIV card**
 
   A future identity proofing strategy could involve transitioning from the traditional Social Security card to a more secure, multi-purpose public PIV card. Such a shift would leverage existing federal identity management infrastructure to provide citizens with a more secure, technologically advanced form of personal identification that could streamline access to government services and reduce identity fraud risks.
 
@@ -444,7 +444,7 @@ The following are theoretical ideas for approaches government agencies could tak
   7. Public citizen logs in to a federal agency website with their public PIV card.  
   8. Public citizen identity is created with the profile data after successful login.  
 
-  B. **Centralized repository of consolidated public identity metadata**
+  **B. Centralized repository of consolidated public identity metadata**
 
   The following notional approach for more efficient public identity proofing would require consolidating public identity metadata possessed by individual agencies into a single, centralized repository. This would enable individual agencies to identity proof public citizens using more attributes than they could using their agency-owned data alone.
 
