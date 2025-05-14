@@ -7,11 +7,36 @@ permalink: /experiments/pid/bestpractices/
 sidenav: experiments
 sticky_sidenav: true
 
+release: 1.0 
+
 subnav:
-  # - text: Introduction
-  #   href: '#introduction'
-
-
+  - text: Executive Summary
+    href: '#executive-summary'
+  - text: Disclaimer
+    href: '#disclaimer'
+  - text: Key Terms
+    href: '#key-terms'
+  - text: Identity Proofing Overview
+    href: '#identity-proofing-overview'
+  - text: Identity Proofing in the Federal Landscape
+    href: '#identity-proofing-in-the-federal-landscape'
+  - text: Identity Proofing Challenges
+    href: '#identity-proofing-challenges'
+  - text: Key Reasons Why Identity Proofing is Important
+    href: '#key-reasons-why-identity-proofing-is-important'
+  - text: Identity Proofing Assurance Levels & Methods
+    href: '#identity-proofing-assurance-levels--methods'
+  - text: Identity Proofing Scenarios
+    href: '#identity-proofing-scenarios'
+  - text: Future Considerations
+    href: '#future-considerations'
+  - text: Conclusion
+    href: '#conclusion'
+  - text: Appendix
+    href: '#appendix'
+  - text: References
+    href: '#references'
+    
 ---
 
 {% include alert-warning.html heading="Draft" content="The following document is a Draft and should not be interpreted as a finalized rule." %}
@@ -103,13 +128,13 @@ Identity proofing solutions for public identity must balance several challenges,
 
 When evaluating identity proofing systems and processes, it is important to select ones that are user-friendly and can be integrated seamlessly into an organization’s operational structures. Additionally, it is also imperative to ensure these solutions serve all members of the public equally, taking into account the following considerations:
 
-- 1 in 10 adults do not have a valid driver’s license or state-issued ID according to the Center for Democracy and Civic Engagement (Appendix \- Reference \#4)
+- 1 in 10 adults do not have a valid driver’s license or state-issued ID according to the Center for Democracy and Civic Engagement (Appendix - Reference #4)
 
-- 14% of US adults are considered underbanked according to the Federal Deposit Insurance Corporation (FDIC) (Appendix \- Reference \#5)
+- 14% of US adults are considered underbanked according to the Federal Deposit Insurance Corporation (FDIC) (Appendix - Reference #5)
 
-- 12% of American households do not have internet access at home according to the National Telecommunications and Information Administration (NTIA) (Appendix \- Reference \#6)
+- 12% of American households do not have internet access at home according to the National Telecommunications and Information Administration (NTIA) (Appendix - Reference #6)
 
- ## 6. Key Reasons Why Identity Proofing is Important
+## 6. Key Reasons Why Identity Proofing is Important
 
 - **Fraud prevention**: Verifying identities significantly reduces the risk of identity theft, account takeover, and other fraudulent activities.
 
@@ -466,16 +491,16 @@ As this document has explained, identity proofing is a multifaceted process that
 
 ## 13. Appendix
 
-### References
+## References
 
-1) [https://login.gov/docs/login-gov-roadmap-dec-2024.pdf](https://login.gov/docs/login-gov-roadmap-dec-2024.pdf)
+1) [https://login.gov/docs/login-gov-roadmap-dec-2024.pdf](https://login.gov/docs/login-gov-roadmap-dec-2024.pdf){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
 
-2) [https://pages.nist.gov/800-63-3-Implementation-Resources/63A/](https://pages.nist.gov/800-63-3-Implementation-Resources/63A/)
+2) [https://pages.nist.gov/800-63-3-Implementation-Resources/63A/](https://pages.nist.gov/800-63-3-Implementation-Resources/63A/){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
 
-3) [https://www.cbpp.org/research/health/remote-identity-proofing-better-solutions-needed-to-ensure-equitable-access](https://www.cbpp.org/research/health/remote-identity-proofing-better-solutions-needed-to-ensure-equitable-access)
+3) [https://www.cbpp.org/research/health/remote-identity-proofing-better-solutions-needed-to-ensure-equitable-access](https://www.cbpp.org/research/health/remote-identity-proofing-better-solutions-needed-to-ensure-equitable-access){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
 
-4) [https://www.voteriders.org/wp-content/uploads/2023/04/CDCE\_VoteRiders\_ANES2020Report\_Spring2023.pdf](https://www.voteriders.org/wp-content/uploads/2023/04/CDCE_VoteRiders_ANES2020Report_Spring2023.pdf) 
+4) [https://www.voteriders.org/wp-content/uploads/2023/04/CDCE\_VoteRiders\_ANES2020Report\_Spring2023.pdf](https://www.voteriders.org/wp-content/uploads/2023/04/CDCE_VoteRiders_ANES2020Report_Spring2023.pdf){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
 
-5) [https://www.fdic.gov/household-survey\#:\~:text=An%20estimated%204.5%20percent%20of,the%20survey%20began%20in%202009](https://www.fdic.gov/household-survey#:~:text=An%20estimated%204.5%20percent%20of,the%20survey%20began%20in%202009)
+5) [https://www.fdic.gov/household-survey\#:\~:text=An%20estimated%204.5%20percent%20of,the%20survey%20began%20in%202009](https://www.fdic.gov/household-survey#:~:text=An%20estimated%204.5%20percent%20of,the%20survey%20began%20in%202009){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
 
-6) [https://www.ntia.gov/blog/2024/new-ntia-data-show-13-million-more-internet-users-us-2023-2021](https://www.ntia.gov/blog/2024/new-ntia-data-show-13-million-more-internet-users-us-2023-2021)  
+6) [https://www.ntia.gov/blog/2024/new-ntia-data-show-13-million-more-internet-users-us-2023-2021](https://www.ntia.gov/blog/2024/new-ntia-data-show-13-million-more-internet-users-us-2023-2021){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}  
