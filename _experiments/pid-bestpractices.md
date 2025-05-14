@@ -325,16 +325,19 @@ The following sections detail various scenarios which require identity proofing 
 
 When a new customer applies to open an online account to access federal services (such as Medicaid benefits), identity proofing is required to verify their identity in compliance with KYC regulations. This process ensures that the customer is who they claim to be, mitigating the risk of identity theft and fraudulent activity. Listed below are some scenarios involving onboarding a new public identity. 
 
+{:start="1"}
 1. **First Time Public Citizen Registration**
 This use case is for a public citizen that requires an identity to create an account to access federal services. The public citizen will provide key mandatory profile attributes, some of which will be used to proceed to the identity proofing steps. Based on the federal service the public citizen is requesting, a list of identity proofing methods will be available for the public citizen to select from. 
 
 After identity proofing is successfully completed, an identity profile and associated account is created. If initial identity proofing attempts were unsuccessful, other options should be available. If all identity proofing options failed, then the public citizen should be instructed to visit a local facility for in-person identity proofing.
 
+{:start="2"}
 2. **Delegate Registration - Registering for Another Public Citizen**
 In this use case, the registration process for a public citizen is being performed by another individual serving as a delegated registration authority. For example, this could be a vendor performing registration on behalf of a public citizen with a vision impairment or who does not have access to online assets. The delegated authority will provide key mandatory profile attributes for both them and the public citizen, some of which will be used to proceed to the identity proofing steps. Based on the federal service the public citizen is requesting, a list of identity proofing methods will be available for the delegate to select from. 
 
 Both the delegate and public citizen need to be identity proofed. This ensures that an unauthorized individual is not attempting to fraudulently create an identity for a public citizen. After identity proofing is successfully completed for both the delegate and the public citizen, an identity profile and associated account is created only for the public citizen. If initial identity proofing attempts were unsuccessful, other options should be available. If all identity proofing options failed, then the delegated authority should be instructed to visit a local facility for in-person identity proofing.
 
+{:start="3"}
 3. **First Time Public Citizen Registration for Minors or the Elderly**
 This use case is similar to Delegate Registration with the distinction that the delegate is an immediate family member or other close relation of the public citizen. The assumption is that the public citizen is a minor or elderly person and either does not have access to online assets or has an impairment preventing them from performing the registration themselves. The family member acting as a delegate will provide key mandatory profile attributes for both them and the public citizen, and some of them will be used to proceed to the identity proofing steps. Based on the federal service the public citizen is requesting; a list of identity proofing methods will be available to be selected by the delegated registration authority. 
 
@@ -344,16 +347,21 @@ Both the family member acting as the delegate and the public citizen need to be 
 
 The following relates to updating data in a public citizen’s profile that is critical to identifying their unique public identity (such as sensitive profile attributes like Address or Phone). In this scenario, the assumption is that the public identity is already onboarded, and the public citizen was identity proofed during the registration process. However, when updating sensitive profile data, verifying identity through the authentication process using MFA alone is insufficient. To add another layer of security in these circumstances, it is better to identity proof the public citizen again. Listed below are some scenarios involving updating public identity profile data. 
 
+{:start="1"}
 1. **Updating Key Profile Identity Attributes**
 This use case is related to a public citizen seeking updates to the critical profile data that is key to identifying their unique public identity. Key profile attributes can be First Name, Middle Name, Last Name, Date of Birth, Social Security Number, Primary Address, Driver License Data, State ID Data, Passport Data, Primary Phone or Primary Email. 
 
 The first step is for the public citizen to authenticate successfully and then proceed to the profile page to update their identity attributes. Based on the attributes the public citizen is requesting to update, a list of identity proofing methods will be available for the public citizen to select from. 
 
 After identity proofing is successfully completed, the identity profile and associated account are updated. If initial identity proofing attempts were unsuccessful, other options should be available. If all identity proofing options failed, then the public citizen should be instructed to visit a local facility for in-person identity proofing.
+
+{:start="2"}
 2. **Updating Key Profile Identity Attributes by Delegate**
 In this use case, the update process for a public citizen is being performed by another individual serving as a delegated authority. For example, this could be a vendor making updates on behalf of a public citizen with a vision impairment or who does not have access to online assets. The delegated authority will first be authenticated, and if authorized will proceed to the profile update page. The delegate then submits updates to the public citizen’s key profile attributes, some of which will be used to proceed with the identity proofing steps. Based on the attributes the delegate is seeking to update, a list of identity proofing methods will be available for the delegate to select from. 
 
 Both the delegate and public citizen need to perform the identity proofing steps. This ensures that an unauthorized individual is not attempting to fraudulently update an identity for a public citizen. After identity proofing is successfully completed for both the delegate and the public citizen, the identity profile and associated account are updated only for the public citizen. If initial identity proofing attempts were unsuccessful, other options should be available. If all identity proofing options failed, then the delegated registration authority should be instructed to visit a local facility for in-person identity proofing. 
+
+{:start="3"}
 3. **Updating Non-Key Profile Identity Attributes**
 In this use case, identity proofing is generally not required. The assumption is that the profile identity attributes being updated are not sensitive and do not have any correlation to risk and fraud detection. Some non-key profile identity attributes include Secondary Address, Birth City, Secondary Phone, Gender, Age, and Contact Information.
 
@@ -361,6 +369,7 @@ In this use case, identity proofing is generally not required. The assumption is
 
 “Transaction” refers to an action related to financial benefits that a public citizen obtains from federal agencies. Not all transactions require additional identity proofing steps; requirements are dependent on risk factors such as transaction type, dollar amount, patterns of transactions, the public citizen’s risk score, and any type of violations. A risk management model should be developed and integrated into the authentication or authorization process to determine if identity proofing is needed for a specific transaction. Listed below are some identity proofing scenarios for transactions.  
 
+{:start="1"}
 1. **Public Citizen Requesting Benefits**
 In this use case, a public citizen is requesting financial benefits from a federal agency after having successfully been authenticated. The assumption is that the public citizen’s identity is already identity proofed and an identity profile has been created. In this scenario, the identity proofing steps are triggered only when certain conditions are true—for example, the amount requested is above a certain limit, previous transactions were flagged, or certain key identity attributes do not match. 
 
@@ -368,6 +377,7 @@ The first step is for the public citizen to access a federal agency website and 
 
 After identity proofing is successfully completed, the request is processed and continues to the next business process activity. If initial identity proofing attempts were unsuccessful, other options should be available. If all identity proofing options failed, then the public citizen should be instructed to visit a local facility for in-person identity proofing and to resubmit the request. 
 
+{:start="2"}
 2. **Delegate Requesting Benefits for Another Public Citizen**
 In this use case, the benefit request process is being performed by an individual serving as a delegated authority on behalf of a public citizen with an impairment or who does not have access to online assets. In this scenario, the identity proofing steps are triggered only when certain conditions are true—for example, the amount requested is above a certain limit, previous transactions were flagged, or certain key identity attributes do not match. 
 
@@ -377,6 +387,7 @@ Both the delegate and public citizen need to perform the identity proofing steps
 
 After identity proofing is successfully completed, the request is processed and continues to the next business process activity. If initial identity proofing attempts were unsuccessful, other options should be available. If all identity proofing options failed, then the delegate should be instructed to visit a local facility for in-person identity proofing and to resubmit the request. 
 
+{:start="3"}
 3. **Vendor Requesting Payment for Invoice**
 Federal agencies have experienced significant financial losses due to fraudulent vendor activities and ineffective controls. These incidents can involve vendors submitting large funding requests that are subsequently identified as potential fraud. In some cases, bad actors exploit vulnerabilities by misusing public citizens' personal identifying information to initiate fraudulent claims. Identity proofing helps federal agencies prevent fraud by ensuring only an authorized person is requesting funds. The identity proofing steps are only triggered in this scenario when certain conditions are true—such as if the amount requested is above a certain limit or previous transactions by the vendor were flagged. 
 
