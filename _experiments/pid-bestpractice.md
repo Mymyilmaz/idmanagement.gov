@@ -150,6 +150,7 @@ The primary audience is persons developing or maintaining a federal public-facin
 
 {:class="usa-table"}
 | Stakeholder | Stakeholder Type | Engagement Point |
+<caption>Table 1: Stakeholder Table</caption>
 | :---- | :---- | :---- |
 | Agency ICAM Governance | Governance Body | Reduce risk through lifecycle management and meet the intent of OMB Memos 19-17 and 22-09. |
 | Application Owners | System/Business Owners | ICAM service consolidation and modernization to identity-centric security processes. |
@@ -157,7 +158,7 @@ The primary audience is persons developing or maintaining a federal public-facin
 | Security/Vetting | Personnel Security | Eligibility, visibility, audit, reporting, and authoritative attribute source. |
 | Training | Compliance and Audit Teams | Authoritative attribute source. |
 | Service Desk | Operations Teams | Support Staff |
-| User | Operations Teams | All user types doing business with federal government |{caption="Table 1: Stakeholder Table"}
+| User | Operations Teams | All user types doing business with federal government |
 
 
 ## 8. Disclaimer
