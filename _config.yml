@@ -125,7 +125,7 @@ primary_navigation:
         url: /experiments/cdns/paper2/
       - name: Personal Security and Identity Management
         url: /experiments/cdns/paper3/ 
-      - name: Public Identity Best Practice Guide
+      - name: Public Identity Best Practices Guide
         url: /experiments/pid/bestpractices/
 
 secondary_navigation:
