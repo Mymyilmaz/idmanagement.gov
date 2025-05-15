@@ -16,8 +16,8 @@ subnav:
     href: '#2-identity-proofing-overview'
   - text: 3. Identity Proofing in the Federal Landscape
     href: '#3-identity-proofing-in-the-federal-landscape'
-  - text: 4. Identity Proofing Overview
-    href: '#4-identity-proofing-overview'
+  - text: 4. Identity Proofing Challenges
+    href: '#4-identity-proofing-challenges'
   - text: 5. Key Reasons Why Identity Proofing is Important
     href: '#5-key-reasons-why-identity-proofing-is-important'
   - text: 6. Key Terms
@@ -27,7 +27,7 @@ subnav:
   - text: 8. Disclaimer
     href: '#8-disclaimer'
   - text: 9. Identity Proofing Assurance Levels & Methods
-    href: '#9-identity-proofing-assurance-levels--Methods'
+    href: '#9-identity-proofing-assurance-levels--methods'
   - text: 10. Identity Proofing Scenarios
     href: '#10-identity-proofing-scenarios'
   - text: 11. Future Considerations
@@ -481,9 +481,9 @@ In summary, identity proofing is a multifaceted process that combines various me
 
 ### References
 
-1) [https://login.gov/docs/login-gov-roadmap-dec-2024.pdf](https://login.gov/docs/login-gov-roadmap-dec-2024.pdf){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
-2) [https://pages.nist.gov/800-63-3-Implementation-Resources/63A/](https://pages.nist.gov/800-63-3-Implementation-Resources/63A/){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}  
-3) [https://www.cbpp.org/research/health/remote-identity-proofing-better-solutions-needed-to-ensure-equitable-access](https://www.cbpp.org/research/health/remote-identity-proofing-better-solutions-needed-to-ensure-equitable-access){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
-4) [https://www.voteriders.org/wp-content/uploads/2023/04/CDCE\_VoteRiders\_ANES2020Report\_Spring2023.pdf](https://www.voteriders.org/wp-content/uploads/2023/04/CDCE_VoteRiders_ANES2020Report_Spring2023.pdf){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
-5) [https://www.fdic.gov/household-survey\#:\~:text=An%20estimated%204.5%20percent%20of,the%20survey%20began%20in%202009](https://www.fdic.gov/household-survey#:~:text=An%20estimated%204.5%20percent%20of,the%20survey%20began%20in%202009){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}  
-6) [https://www.ntia.gov/blog/2022/switched-why-are-one-five-us-households-not-online](https://www.ntia.gov/blog/2022/switched-why-are-one-five-us-households-not-online){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
+1. [https://login.gov/docs/login-gov-roadmap-dec-2024.pdf](https://login.gov/docs/login-gov-roadmap-dec-2024.pdf){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
+2. [https://pages.nist.gov/800-63-3-Implementation-Resources/63A/](https://pages.nist.gov/800-63-3-Implementation-Resources/63A/){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}  
+3. [https://www.cbpp.org/research/health/remote-identity-proofing-better-solutions-needed-to-ensure-equitable-access](https://www.cbpp.org/research/health/remote-identity-proofing-better-solutions-needed-to-ensure-equitable-access){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
+4. [https://www.voteriders.org/wp-content/uploads/2023/04/CDCE\_VoteRiders\_ANES2020Report\_Spring2023.pdf](https://www.voteriders.org/wp-content/uploads/2023/04/CDCE_VoteRiders_ANES2020Report_Spring2023.pdf){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
+5. [https://www.fdic.gov/household-survey\#:\~:text=An%20estimated%204.5%20percent%20of,the%20survey%20began%20in%202009](https://www.fdic.gov/household-survey#:~:text=An%20estimated%204.5%20percent%20of,the%20survey%20began%20in%202009){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}  
+6. [https://www.ntia.gov/blog/2022/switched-why-are-one-five-us-households-not-online](https://www.ntia.gov/blog/2022/switched-why-are-one-five-us-households-not-online){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
