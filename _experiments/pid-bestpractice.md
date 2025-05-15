@@ -157,9 +157,8 @@ The primary audience is persons developing or maintaining a federal public-facin
 | Security/Vetting | Personnel Security | Eligibility, visibility, audit, reporting, and authoritative attribute source. |
 | Training | Compliance and Audit Teams | Authoritative attribute source. |
 | Service Desk | Operations Teams | Support Staff |
-| User | Operations Teams | All user types doing business with federal government |
+| User | Operations Teams | All user types doing business with federal government |{caption="Table 1: Stakeholder Table"}
 
-Table 1: Stakeholder Table
 
 ## 8. Disclaimer
 
