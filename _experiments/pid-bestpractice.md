@@ -10,30 +10,30 @@ sticky_sidenav: true
 release: 1.0 
 
 subnav:
-  - text: Executive Summary
-    href: '#executive-summary'
-  - text: Disclaimer
-    href: '#disclaimer'
-  - text: Key Terms
-    href: '#key-terms'
-  - text: Identity Proofing Overview
-    href: '#identity-proofing-overview'
-  - text: Identity Proofing in the Federal Landscape
-    href: '#identity-proofing-in-the-federal-landscape'
-  - text: Identity Proofing Challenges
-    href: '#identity-proofing-challenges'
-  - text: Key Reasons Why Identity Proofing is Important
-    href: '#key-reasons-why-identity-proofing-is-important'
-  - text: Identity Proofing Assurance Levels & Methods
-    href: '#identity-proofing-assurance-levels--methods'
-  - text: Identity Proofing Scenarios
-    href: '#identity-proofing-scenarios'
-  - text: Future Considerations
-    href: '#future-considerations'
-  - text: Conclusion
-    href: '#conclusion'
-  - text: Appendix
-    href: '#appendix'
+  - text: 1. Executive Summary
+    href: '#1-executive-summary'
+  - text: 2. Disclaimer
+    href: '#2-disclaimer'
+  - text: 3. Key Terms
+    href: '#3-key-terms'
+  - text: 4. Identity Proofing Overview
+    href: '#4-identity-proofing-overview'
+  - text: 5. Identity Proofing in the Federal Landscape
+    href: '#5-identity-proofing-in-the-federal-landscape'
+  - text: 5. Identity Proofing Challenges
+    href: '#5-identity-proofing-challenges'
+  - text: 6. Key Reasons Why Identity Proofing is Important
+    href: '#6-key-reasons-why-identity-proofing-is-important'
+  - text: 9. Identity Proofing Assurance Levels & Methods
+    href: '#9-identity-proofing-assurance-levels--methods'
+  - text: 10. Identity Proofing Scenarios
+    href: '#10-identity-proofing-scenarios'
+  - text: 11. Future Considerations
+    href: '#11-future-considerations'
+  - text: 12. Conclusion
+    href: '#12-conclusion'
+  - text: 13. Appendix
+    href: '#13-appendix'
 
 ---
 
