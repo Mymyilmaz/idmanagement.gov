@@ -149,8 +149,8 @@ Identity Proofing - The process by which information is collected, validated, an
 The primary audience is persons developing or maintaining a federal public-facing service.  The table below lists secondary audience members and how to engage them.
 
 {:class="usa-table"}
-| Stakeholder | Stakeholder Type | Engagement Point |
 <caption>Table 1: Stakeholder Table</caption>
+| Stakeholder | Stakeholder Type | Engagement Point |
 | :---- | :---- | :---- |
 | Agency ICAM Governance | Governance Body | Reduce risk through lifecycle management and meet the intent of OMB Memos 19-17 and 22-09. |
 | Application Owners | System/Business Owners | ICAM service consolidation and modernization to identity-centric security processes. |
