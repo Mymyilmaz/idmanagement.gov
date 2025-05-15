@@ -326,7 +326,7 @@ According to the United States Postal Service (USPS), 99% of US public citizens 
 
 The following sections detail various scenarios which require identity proofing and give examples of how an agency can handle them.
 
-### 1. Initial Identity Verification for New Users 
+### A. Initial Identity Verification for New Users 
 
 When a new customer applies to open an online account to access federal services (such as Medicaid benefits), identity proofing is required to verify their identity in compliance with KYC regulations. This process ensures that the customer is who they claim to be, mitigating the risk of identity theft and fraudulent activity. Listed below are some scenarios involving onboarding a new public identity. 
 
@@ -351,7 +351,7 @@ When a new customer applies to open an online account to access federal services
 
     Both the family member acting as the delegate and the public citizen need to be identity proofed. This ensures that an unauthorized individual is not attempting to fraudulently create an identity for a public citizen. After identity proofing is successfully completed for both the delegate and the public citizen, an identity profile and associated account is created only for the public citizen. If initial identity proofing attempts were unsuccessful, other options should be available. If all identity proofing options failed, then the family member acting as the delegate should be instructed to visit a local facility for in-person identity proofing.
 
-### 2. Identity Profile Maintenance and Updates
+### B. Identity Profile Maintenance and Updates
 
 The following relates to updating data in a public citizen’s profile that is critical to identifying their unique public identity (such as sensitive profile attributes like Address or Phone). In this scenario, the assumption is that the public identity is already onboarded, and the public citizen was identity proofed during the registration process. However, when updating sensitive profile data, verifying identity through the authentication process using MFA alone is insufficient. To add another layer of security in these circumstances, it is better to identity proof the public citizen again. Listed below are some scenarios involving updating public identity profile data. 
 
@@ -376,7 +376,7 @@ The following relates to updating data in a public citizen’s profile that is c
 
     In this use case, identity proofing is generally not required. The assumption is that the profile identity attributes being updated are not sensitive and do not have any correlation to risk and fraud detection. Some non-key profile identity attributes include Secondary Address, Birth City, Secondary Phone, Gender, Age, and Contact Information.
 
-### 3.  Financial Transaction Identity Confirmation
+### C. Financial Transaction Identity Confirmation
 
 “Transaction” refers to an action related to financial benefits that a public citizen obtains from federal agencies. Not all transactions require additional identity proofing steps; requirements are dependent on risk factors such as transaction type, dollar amount, patterns of transactions, the public citizen’s risk score, and any type of violations. A risk management model should be developed and integrated into the authentication or authorization process to determine if identity proofing is needed for a specific transaction. Listed below are some identity proofing scenarios for transactions.  
 
@@ -409,7 +409,7 @@ The following relates to updating data in a public citizen’s profile that is c
 
     After identity proofing is successfully completed, the request is processed and continues to the next business process activity. If initial identity proofing attempts were unsuccessful, other options should be available. If all identity proofing options failed, then the vendor should be instructed to visit a local facility for in-person identity proofing and to resubmit the request.
 
-### 4. Abnormal Behavior Identity Validation
+### D. Abnormal Behavior Identity Validation
 
 Abnormal behavior is any behavior that deviates from what is considered normal or typical. It is identified by analyzing a user's behavior to recognize non-standard patterns. Identifying suspicious behavior can help block unauthorized access to an account. Examples of abnormal behavior which could prompt identity proofing to further confirm an individual’s identity include: 
 
@@ -418,11 +418,11 @@ Abnormal behavior is any behavior that deviates from what is considered normal o
 - Attempting to log in from a blacklisted country.  
 - Devices being used for high-risk transactions--such as requesting benefits for large dollar amounts—from a location that is not the user’s typical one. 
 
-### 5. Access Outside the United States
+### E. Access Outside the United States
 
 Country-based access controls or location conditions can help control access from outside of the United States by blocking access from certain countries or regions. However, there are scenarios in which identity proofing can be enabled as an additional authentication for access outside of the US—such as when US citizens live in a foreign country, live on an overseas military facility, or work overseas at a US federal facility and require access to online federal services.
 
-### 6. Risk-Driven Remote Identity Proofing 
+### F. Risk-Driven Remote Identity Proofing 
 
 Implementing a risk-based approach to remote identity proofing can enable greater adoption of remote-based verification by properly balancing the challenges of accuracy, security, and usability. Federal agencies should look at their remote identity proofing processes to make sure the proper security controls are in place and evaluate whether the organization is striking the right balance between competing challenges of ensuring public citizen identities are sufficiently identity proofed.
 
