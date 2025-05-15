@@ -2,8 +2,8 @@
 
 layout: page
 collection: experiments
-title: Public Identity Best Practices Guide
-permalink: /experiments/pid/bestpractices/
+title: Public Identity Best Practice Guide
+permalink: /experiments/pid/bestpractice/
 sidenav: papers
 sticky_sidenav: true
 
