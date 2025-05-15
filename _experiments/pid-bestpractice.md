@@ -116,17 +116,23 @@ Identity proofing prevents identity theft, fraud, and unauthorized access to sen
 
 ## 5. Key Reasons Why Identity Proofing is Important
 
-- **Fraud prevention**: Verifying identities significantly reduces the risk of identity theft, account takeover, and other fraudulent activities.
+- **Fraud prevention**
+  - Verifying identities significantly reduces the risk of identity theft, account takeover, and other fraudulent activities.
 
-- **Data security**: Identity proofing ensures that only authorized individuals can access sensitive information and services, minimizing the risk of  system or data breaches. 
+- **Data security**
+  - Identity proofing ensures that only authorized individuals can access sensitive information and services, minimizing the risk of  system or data breaches. 
 
-- **Compliance with regulations**: Many industries, and particularly financial services, are required by law to verify customer identities 
+- **Compliance with regulations**
+  - Many industries, and particularly financial services, are required by law to verify customer identities 
 
-- **Trust building**: Establishing trust between businesses and their customers is essential. Identity proofing helps build trust by ensuring that users are who they claim to be, leading to greater confidence in the security of transactions and interactions.
+- **Trust building**
+  - Establishing trust between businesses and their customers is essential. Identity proofing helps build trust by ensuring that users are who they claim to be, leading to greater confidence in the security of transactions and interactions.
 
-- **Customer experience**: While identity proofing adds an additional layer of security, it should be seamless and non-intrusive for users. Effective identity-proofing processes can enhance the overall customer experience by balancing security with convenience.
+- **Customer experience**
+  - While identity proofing adds an additional layer of security, it should be seamless and non-intrusive for users. Effective identity-proofing processes can enhance the overall customer experience by balancing security with convenience.
 
-- **Accountability**: Federal agencies may  need to prove who uses their services for accountability purposes. For example, an agency might need to identify an individual who registers for a federal service under an alias and then uses it to harass others. 
+- **Accountability**
+  - Federal agencies may  need to prove who uses their services for accountability purposes. For example, an agency might need to identify an individual who registers for a federal service under an alias and then uses it to harass others. 
 
 ## 6. Key Terms
 
