@@ -17,8 +17,8 @@ subnav:
   href: '#cdn-paper-2'
 - text: Personal Security and Identity Management
   href: '#personal-security-and-identity-management' 
-
-
+- text: Public Identity Best Practice Guide 
+  href: '#public-identity-best-practice-guide'
 
 ---
 
@@ -63,11 +63,15 @@ Many people inadvertently create a false sense of security, mistaking the feelin
 
 [Read the Personal Security and Identity Management Paper]({{site.baseurl}}/experiments/cdns/paper3/){:class="usa-button"}
 
+## Public Identity Best Practice Guide
+
+The federal government has identity proofing guidelines established by the National Institute of Standards and Technology, but these guidelines are not uniformly followed—particularly when ensuring linkage between a claimed identity and the person presenting the evidence. The practice of adhering to these guidelines must become standard across the federal landscape when citizens access federal services online. 
+
+[Read the Public Identity Best Practice Guide]({{site.baseurl}}/experiments/pid/bestpractice/){:class="usa-button"}
 
 ## Coming Soon
 
 We are continuously adding new content to the Experiments section, the following is a list of whats next. 
 
-- Public Identity Best Practices Guide
 - Post Quantum Crypto(PQC) and Post Quantum Encryption(PQE) for logical and Physical Access
 - Mobile PIV

@@ -1,9 +1,7 @@
 {
     "anchor": "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
     "changes": {
-        "new_certs": [
-            "common_name:CertiPath Bridge CA - G3,organizational_unit_name:Certification Authorities,organization_name:CertiPath,country_name:US:95186931109171770379980840224856953126"
-        ]
+        "new_certs": []
     },
     "issuers": [
         "common_name:Boeing Medium Assurance Hardware Issuing CA G3,organizational_unit_name:CertServers,organization_name:Boeing,country_name:US",
@@ -73,8 +71,6 @@
         "common_name:IGC Device CA 2,organizational_unit_name:IdenTrust Global Common,organization_name:IdenTrust,country_name:US",
         "common_name:IdenTrust ECA Component S23,organizational_unit_name:Certification Authorities,organizational_unit_name:ECA,organization_name:U.S. Government,country_name:US",
         "common_name:IdenTrust ECA Component S24,organizational_unit_name:Certification Authorities,organizational_unit_name:ECA,organization_name:U.S. Government,country_name:US",
-        "common_name:IdenTrust ECA S22,organizational_unit_name:Certification Authorities,organizational_unit_name:ECA,organization_name:U.S. Government,country_name:US",
-        "common_name:IdenTrust ECA S22C,organizational_unit_name:Certification Authorities,organizational_unit_name:ECA,organization_name:U.S. Government,country_name:US",
         "common_name:IdenTrust ECA S23,organizational_unit_name:Certification Authorities,organizational_unit_name:ECA,organization_name:U.S. Government,country_name:US",
         "common_name:IdenTrust ECA S24,organizational_unit_name:Certification Authorities,organizational_unit_name:ECA,organization_name:U.S. Government,country_name:US",
         "common_name:IdenTrust Global Common Root CA 1,organization_name:IdenTrust,country_name:US",
@@ -1706,54 +1702,6 @@
             "serial-number": "1575",
             "akid": "33 5b a5 6f 7a 55 60 2b 81 4b 26 14 cc 79 bf 4a ba 8b 32 bd",
             "skid": "b9 b2 d8 d9 1c de d3 7b d5 8e 40 98 32 76 4d 9c 5c d8 fd a9",
-            "status": "Certificate Valid and Chains to Common",
-            "pathbuilder-result": {
-                "result": "true",
-                "details": "CRL Only Validation"
-            },
-            "path-to-common": [
-                "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-                "common_name:Federal Bridge CA G4,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-                "common_name:DoD Interoperability Root CA 2,organizational_unit_name:PKI,organizational_unit_name:DoD,organization_name:U.S. Government,country_name:US",
-                "common_name:ECA Root CA 4,organizational_unit_name:ECA,organization_name:U.S. Government,country_name:US"
-            ],
-            "sia-entries": {},
-            "aia-entries": {
-                "http://crl.disa.mil/issuedto/ECAROOTCA4_IT.p7c": [
-                    "common_name:DoD Interoperability Root CA 2,organizational_unit_name:PKI,organizational_unit_name:DoD,organization_name:U.S. Government,country_name:US"
-                ]
-            }
-        },
-        {
-            "subject": "common_name:IdenTrust ECA S22,organizational_unit_name:Certification Authorities,organizational_unit_name:ECA,organization_name:U.S. Government,country_name:US",
-            "issuer": "common_name:ECA Root CA 4,organizational_unit_name:ECA,organization_name:U.S. Government,country_name:US",
-            "serial-number": "757",
-            "akid": "33 5b a5 6f 7a 55 60 2b 81 4b 26 14 cc 79 bf 4a ba 8b 32 bd",
-            "skid": "e8 a4 04 02 9e 49 d2 15 d1 a5 5f bb eb 94 39 04 bb 82 29 6e",
-            "status": "Certificate Valid and Chains to Common",
-            "pathbuilder-result": {
-                "result": "true",
-                "details": "CRL Only Validation"
-            },
-            "path-to-common": [
-                "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-                "common_name:Federal Bridge CA G4,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-                "common_name:DoD Interoperability Root CA 2,organizational_unit_name:PKI,organizational_unit_name:DoD,organization_name:U.S. Government,country_name:US",
-                "common_name:ECA Root CA 4,organizational_unit_name:ECA,organization_name:U.S. Government,country_name:US"
-            ],
-            "sia-entries": {},
-            "aia-entries": {
-                "http://crl.disa.mil/issuedto/ECAROOTCA4_IT.p7c": [
-                    "common_name:DoD Interoperability Root CA 2,organizational_unit_name:PKI,organizational_unit_name:DoD,organization_name:U.S. Government,country_name:US"
-                ]
-            }
-        },
-        {
-            "subject": "common_name:IdenTrust ECA S22C,organizational_unit_name:Certification Authorities,organizational_unit_name:ECA,organization_name:U.S. Government,country_name:US",
-            "issuer": "common_name:ECA Root CA 4,organizational_unit_name:ECA,organization_name:U.S. Government,country_name:US",
-            "serial-number": "758",
-            "akid": "33 5b a5 6f 7a 55 60 2b 81 4b 26 14 cc 79 bf 4a ba 8b 32 bd",
-            "skid": "97 62 48 c0 67 69 2c 4c 14 60 89 d1 4a 00 3c a3 9f ff a0 ae",
             "status": "Certificate Valid and Chains to Common",
             "pathbuilder-result": {
                 "result": "true",
@@ -3953,6 +3901,40 @@
             }
         },
         {
+            "subject": "common_name:IdenTrust ECA S22,organizational_unit_name:Certification Authorities,organizational_unit_name:ECA,organization_name:U.S. Government,country_name:US",
+            "issuer": "common_name:ECA Root CA 4,organizational_unit_name:ECA,organization_name:U.S. Government,country_name:US",
+            "serial-number": "757",
+            "akid": "33 5b a5 6f 7a 55 60 2b 81 4b 26 14 cc 79 bf 4a ba 8b 32 bd",
+            "skid": "e8 a4 04 02 9e 49 d2 15 d1 a5 5f bb eb 94 39 04 bb 82 29 6e",
+            "status": "Certificate Invalid",
+            "pathbuilder-result": {
+                "result": "false",
+                "details": "End Entity Cert expired or not valid"
+            },
+            "parent_path_identifier": "common_name:ECA Root CA 4,organizational_unit_name:ECA,organization_name:U.S. Government,country_name:US:335ba56f7a55602b814b2614cc79bf4aba8b32bd",
+            "validity-dates": {
+                "not-before": "2019-05-07 12:55:28+00:00",
+                "not-after": "2025-05-07 12:55:28+00:00"
+            }
+        },
+        {
+            "subject": "common_name:IdenTrust ECA S22C,organizational_unit_name:Certification Authorities,organizational_unit_name:ECA,organization_name:U.S. Government,country_name:US",
+            "issuer": "common_name:ECA Root CA 4,organizational_unit_name:ECA,organization_name:U.S. Government,country_name:US",
+            "serial-number": "758",
+            "akid": "33 5b a5 6f 7a 55 60 2b 81 4b 26 14 cc 79 bf 4a ba 8b 32 bd",
+            "skid": "97 62 48 c0 67 69 2c 4c 14 60 89 d1 4a 00 3c a3 9f ff a0 ae",
+            "status": "Certificate Invalid",
+            "pathbuilder-result": {
+                "result": "false",
+                "details": "End Entity Cert expired or not valid"
+            },
+            "parent_path_identifier": "common_name:ECA Root CA 4,organizational_unit_name:ECA,organization_name:U.S. Government,country_name:US:335ba56f7a55602b814b2614cc79bf4aba8b32bd",
+            "validity-dates": {
+                "not-before": "2019-05-07 12:57:36+00:00",
+                "not-after": "2025-05-07 12:57:36+00:00"
+            }
+        },
+        {
             "subject": "common_name:Exostar Digital Certificate Service Signing CA 1,organization_name:Exostar UK Limited,country_name:GB",
             "issuer": "common_name:Exostar Federated Identity Service Root CA 2,organizational_unit_name:Certification Authorities,organization_name:Exostar LLC,country_name:US",
             "serial-number": "1025834279162425889105434662153385551908044805",
@@ -5077,21 +5059,7 @@
             "common_name:Federal Bridge CA G4,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
             "common_name:DoD Interoperability Root CA 2,organizational_unit_name:PKI,organizational_unit_name:DoD,organization_name:U.S. Government,country_name:US",
             "common_name:ECA Root CA 4,organizational_unit_name:ECA,organization_name:U.S. Government,country_name:US",
-            "common_name:IdenTrust ECA S22C,organizational_unit_name:Certification Authorities,organizational_unit_name:ECA,organization_name:U.S. Government,country_name:US"
-        ],
-        [
-            "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-            "common_name:Federal Bridge CA G4,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-            "common_name:DoD Interoperability Root CA 2,organizational_unit_name:PKI,organizational_unit_name:DoD,organization_name:U.S. Government,country_name:US",
-            "common_name:ECA Root CA 4,organizational_unit_name:ECA,organization_name:U.S. Government,country_name:US",
             "common_name:IdenTrust ECA S23,organizational_unit_name:Certification Authorities,organizational_unit_name:ECA,organization_name:U.S. Government,country_name:US"
-        ],
-        [
-            "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-            "common_name:Federal Bridge CA G4,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
-            "common_name:DoD Interoperability Root CA 2,organizational_unit_name:PKI,organizational_unit_name:DoD,organization_name:U.S. Government,country_name:US",
-            "common_name:ECA Root CA 4,organizational_unit_name:ECA,organization_name:U.S. Government,country_name:US",
-            "common_name:IdenTrust ECA S22,organizational_unit_name:Certification Authorities,organizational_unit_name:ECA,organization_name:U.S. Government,country_name:US"
         ],
         [
             "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
