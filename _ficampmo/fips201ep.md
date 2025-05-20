@@ -179,10 +179,10 @@ Agencies that wish to issue D-PIV credentials should follow these steps:
     <p><h4 class="display-inline-block"><svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use href="{{site.baseurl}}/assets/img/sprite.svg#assessment"></use></svg></h4>&nbsp;&nbsp;Perform a NIST SP 800-79 assessment and receive an Authority To Operate (ATO).</p>
   </li>
   <li class="usa-process-list__item">
-    <p><svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use href="{{site.baseurl}}/assets/img/sprite.svg#identification"></use></svg>&nbsp;&nbsp;Work with your Shared Service Provider (SSP) to obtain D-PIV Object Identifiers (OIDs).</p>
+    <p><h4 class="display-inline-block"><svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use href="{{site.baseurl}}/assets/img/sprite.svg#identification"></use></svg></h4>&nbsp;&nbsp;Work with your Shared Service Provider (SSP) to obtain D-PIV Object Identifiers (OIDs).</p>
   </li>
   <li class="usa-process-list__item">
-    <p><svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use href="{{site.baseurl}}/assets/img/sprite.svg#send"></use></svg>&nbsp;&nbsp;Submit sample D-PIV public certificates for testing or provide results from the <a href="https://github.com/GSA/cpct-tool/releases/" target="_blank" rel="noopener noreferrer">Certificate Profile Conformance Tool (CPCT)</a> to <a href="mailto:fips201ep@gsa.gov">fips201ep@gsa.gov</a>.</p>
+    <p><h4 class="display-inline-block"><svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use href="{{site.baseurl}}/assets/img/sprite.svg#send"></use></svg></h4>&nbsp;&nbsp;Submit sample D-PIV public certificates for testing or provide results from the <a href="https://github.com/GSA/cpct-tool/releases/" target="_blank" rel="noopener noreferrer">Certificate Profile Conformance Tool (CPCT)</a> to <a href="mailto:fips201ep@gsa.gov">fips201ep@gsa.gov</a>.</p>
   </li>
 </ol>
 
