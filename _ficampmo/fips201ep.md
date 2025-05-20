@@ -176,7 +176,7 @@ Agencies that wish to issue D-PIV credentials should follow these steps:
 
 <ol class="usa-process-list">
   <li class="usa-process-list__item">
-    <p><svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use href="{{site.baseurl}}/assets/img/sprite.svg#assessment"></use></svg>&nbsp;&nbsp;Perform a NIST SP 800-79 assessment and receive an Authority To Operate (ATO).</p>
+    <p><h4 class="display-inline-block"><svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use href="{{site.baseurl}}/assets/img/sprite.svg#assessment"></use></svg></h4>&nbsp;&nbsp;Perform a NIST SP 800-79 assessment and receive an Authority To Operate (ATO).</p>
   </li>
   <li class="usa-process-list__item">
     <p><svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use href="{{site.baseurl}}/assets/img/sprite.svg#identification"></use></svg>&nbsp;&nbsp;Work with your Shared Service Provider (SSP) to obtain D-PIV Object Identifiers (OIDs).</p>
