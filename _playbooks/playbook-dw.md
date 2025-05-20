@@ -164,7 +164,7 @@ Ensure digital worker identity management has proper governance, score the funct
 
 ### 1.1 Ensure Proper Oversight
 
-The ICAM governance structure ensures enterprise identity management policies are updated to include digital worker management and use. For ICAM oversight and program management examples, see the [ICAM Program Management Playbook]({{site.baseurl}}/pm/){:target="_blank"}{:rel="noopener noreferrer"}.
+The ICAM governance structure ensures enterprise identity management policies are updated to include digital worker management and use. For ICAM oversight and program management examples, see the [ICAM Program Management Playbook]({{site.baseurl}}/playbooks/pm/){:target="_blank"}{:rel="noopener noreferrer"}.
 
 **Update the agency enterprise identity management policies to include digital worker identity management.**
 
@@ -172,7 +172,7 @@ The ICAM governance structure ensures enterprise identity management policies ar
 <thead>
   <tr>
     <th style="vertical-align:top;">Governance Collaboration Example</th>
-    <th>Before creating and provisioning a digital worker, the agency ICAM governance structure can collaborate with Information System Security Officers on digital worker identity management. Collaboration may include: <ul><li>Digital worker security and non-functional requirements verification</li><li>Security and privacy assessments</li><li>Executable, vulnerability and other scans</li><li>Digital worker logic and decision-making design documents</li></ul></th>
+    <td style="background-color:rgb(223 225 226);">Before creating and provisioning a digital worker, the agency ICAM governance structure can collaborate with Information System Security Officers on digital worker identity management. Collaboration may include: <ul><li>Digital worker security and non-functional requirements verification</li><li>Security and privacy assessments</li><li>Executable, vulnerability and other scans</li><li>Digital worker logic and decision-making design documents</li></ul></td>
   </tr>
 </thead>
 </table>
@@ -731,11 +731,11 @@ After the sponsorship and validation activities are complete and documented, the
 
 A digital worker helps the General Services Administration gather data on COVID-19.
 
-* The digital worker is unattended, uses a standard system account, and has internal and external network access.
+- The digital worker is unattended, uses a standard system account, and has internal and external network access.
 
-* The digital worker pulls data from public state government websites to aggregate and populate a Geographic Information System map.
+- The digital worker pulls data from public state government websites to aggregate and populate a Geographic Information System map.
 
-* The output is not decision critical and provides insights with no actions.
+- The output is not decision critical and provides insights with no actions.
 
 Table 17 presents the Impact Evaluation Matrix for this digital worker.
 
@@ -762,6 +762,7 @@ This digital worker impact level is Low. The effect of an error or accident is m
 
 ## Footnotes
 
+{:role="list"}
 [^1]: Digital worker is not synonymous with non-person entity (NPE), as NPE encompasses all entities with a digital identity including organizations, hardware devices, software applications, and information artifacts.  
 [^2]: OMB Memorandum M-19-17 instructs federal agencies to designate an integrated agency-wide ICAM office, team, or other governance structure in support of its Enterprise Risk Management capability to effectively govern and enforce ICAM efforts.  
 [^3]: The adverse impact levels are grounded in NIST Special Publication 800-30, Guide for Conducting Risk Assessments, but do not align with it. Agencies can adjust the impact levels to match agency risk tolerance.  
