@@ -7,6 +7,40 @@
 # 
 # Used on: https://www.idmanagement.gov/fpki/
 
+- category: Federal Bridge Certificate Policy
+  numberProposal: 3.6
+  name: X.509 Certificate Policy For The Federal Bridge CA (FBCA) v3.6
+  date: 5/5/2025
+  url: /docs/archived/fpki-x509-cert-policy-fbca-36.pdf
+  status: post
+  remove: 5/5/2028
+  
+- category: Federal Bridge Change Proposal
+  numberProposal: 2025-03
+  name: Proposal 2025-03 | Clarifications on Background Checks, PIN Reset and Auditor roles
+  description: Clarify Background Checks, Activation Data/PIN Reset Requirements and Auditor and Assessor responsibilities.
+  date: 5/5/2025
+  url: /docs/archived/fpki-fbca-cp-2503.pdf
+  status: post
+  remove: 5/5/2028
+
+- category: Common Certificate Policy
+  numberProposal: 2.10
+  name: X.509 Certificate Policy For The U.S. FPKI Common Policy Framework v2.10
+  date: 5/5/2025
+  url: /docs/archived/fpki-x509-cert-policy-common-210.pdf
+  status: post
+  remove: 5/5/2028
+
+- category: Common Change Proposal
+  numberProposal: 2025-02
+  name: Proposal 2025-02 | Clarifications on Background Checks, CA terminations, PIN Reset and Auditor roles
+  description: Clarify Trusted Role Background Reinvestigation Timelines, CA Termination Requirements, Activation Data/PIN Reset Requirements, and auditor role distinctions.
+  date: 5/5/2025
+  url: /docs/archived/fpki-common-cp-2502.pdf
+  status: post
+  remove: 5/5/2028
+
 - category: Common Certificate Policy
   numberProposal: 2.9
   name: X.509 Certificate Policy For The U.S. FPKI Common Policy Framework v2.9
