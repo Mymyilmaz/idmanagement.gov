@@ -185,7 +185,8 @@ Agencies that wish to issue D-PIV credentials should follow these steps:
     <p>Submit sample D-PIV public certificates for testing or provide results from the <a href="https://github.com/GSA/cpct-tool/releases/" target="_blank" rel="noopener noreferrer">Certificate Profile Conformance Tool (CPCT)</a> to <a href="mailto:fips201ep@gsa.gov">fips201ep@gsa.gov</a>.</p>
   </li>
 </ol>
-<p>Upon successful completion of DPCI testing, the agency or organization will be approved to issue D-PIV credentials.</p>
+
+Upon successful completion of DPCI testing, the agency or organization will be approved to issue D-PIV credentials.
 
 
 ## PIV Card Body
