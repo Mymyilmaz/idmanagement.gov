@@ -129,8 +129,8 @@ The documents in this section provide guidance and information necessary for eva
 
 All applicants, please complete the following steps:
 
-1. Review, complete, and sign the [FIPS 201 Evaluation Program PACS Application Package Checklist, v1.1.0]({{site.baseurl}}/docs/pacsapp-package-checklist.docx) (Mandatory), and ensure all the applicable and mandatory paperwork is submitted along with the application document.
-2. Complete and sign the [Approved Products List Application Form, v1.1.0 (MS Word, November 30, 2023)]({{site.baseurl}}/docs/fips201ep-application-form.docx) (Mandatory) – Required for each solution submission, new or upgrade.
+1. Review, complete, and sign the [FIPS 201 Evaluation Program PACS Application Package Checklist, v1.2.0]({{site.baseurl}}/docs/pacsapp-package-checklist.docx) (Mandatory), and ensure all the applicable and mandatory paperwork is submitted along with the application document.
+2. Complete and sign the [Approved Products List Application Form, v1.2.0 (MS Word, November 30, 2023)]({{site.baseurl}}/docs/fips201ep-application-form.docx) (Mandatory) – Required for each solution submission, new or upgrade.
 3. Complete and sign the [FIPS 201 Evaluation Program – Evaluation Agreement, version 2.1.0 (MS Word, November 30, 2023)]({{site.baseurl}}/docs/fips201ep-agreement.docx) (Mandatory) – Required for each solution submission, new or upgrade. 
 4. List the equipment used for the APL testing in the equipment table linked here – [Equipment Table GSA PACS Application v1.3.0 (MS Excel, August 2024)]({{site.baseurl}}/docs/equipment-table-gsa-pacs-application.xlsx) (Mandatory). 
 5. Complete the [PACS FRTC Workbook, v1.4.2 Rev B (MS Excel, October 2021)]({{site.baseurl}}/docs/pacsapp-frtcworkbook.xlsx) (Mandatory) for your topology.
@@ -148,7 +148,7 @@ All applicants, please complete the following steps:
 11. Include all relevant UL-294 listing documents (Mandatory, if applicable).
 12. Include all applicable FIPS 140-2/140-3 listing documents (Mandatory, if applicable).
 13. The vendors must submit the ISO 7816 and ISO 14443 test reports for new PIV PACS Readers. If the vendor has determined that the reports contain company-sensitive information, they may complete and sign the [Vendor Self-Attestation Form for ISO/IEC Test Reports]({{site.baseurl}}/docs/vendor-self-attestation-form.docx){:target="_blank"}{:rel="noopener noreferrer"}, confirming ISO/IEC 7816 conformance to satisfy FRTC Test Case # 7.07.09 and ISO/IEC 10373-6:2020 and ISO/IEC 10373-6:2020/Amd.1:2022 conformance to satisfy FRTC Test Case # 7.07.10.
-14. Respond to the [Vendor FRTC Questionnaire, v1.1.0]({{site.baseurl}}/docs/vendor-frtc-questions.docx){:target="_blank"}{:rel="noopener noreferrer"} (Mandatory).
+14. Respond to the [Vendor FRTC Questionnaire, v1.2.0]({{site.baseurl}}/docs/vendor-frtc-questions.docx){:target="_blank"}{:rel="noopener noreferrer"} (Mandatory).
 15. Submit all completed forms to [fips201ep@gsa.gov](mailto:fips201ep@gsa.gov).
 
 
