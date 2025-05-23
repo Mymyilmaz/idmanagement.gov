@@ -7,6 +7,14 @@
 # 
 # Used on: https://www.idmanagement.gov/fpki/
 
+- category: FPKI Trust Infrastructure Certificate Practice Statement
+  numberProposal: 6.4
+  name: X.509 Certificate Practice Statement For the FPKI Trust Infrastructure v6.4
+  date: 5/23/2025
+  url: /docs/archived/fpki-fpkima-cps-v64.pdf
+  status: post
+  remove: 5/23/2028
+
 - category: Federal Bridge Certificate Policy
   numberProposal: 3.6
   name: X.509 Certificate Policy For The Federal Bridge CA (FBCA) v3.6
