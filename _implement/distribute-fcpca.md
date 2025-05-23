@@ -995,6 +995,17 @@ The following certificates are published in the Federal Common Policy CA certifi
 | SHA-256 Thumbprint | edf21e73d9114477a4a4824c93414b4ec67825604575041a33ce24f0df01f66f |
 | Download Location | Click [here]({{site.baseurl}}/implement/certs/WidePoint_SSP_Intermediate_CA.cer)|
 
+#### Issued to: WidePoint SSP Intermediate CA 2
+
+| Certificate Attribute | Value |
+| :--------  | :-------- |
+| Distinguished Name | CN=WidePoint SSP Intermediate CA 2, O=ORC PKI, C=US |
+| Validity | March 31, 2025 to February 13, 2035  |
+| Serial Number | 270f14477815afa0483a3fe93e7f684082b607d9 |
+| SHA-1 Thumbprint | 9ddaea4fa63e9813b04ae4918e438d69ccdfdadd |
+| SHA-256 Thumbprint | 8b501cc59de687dee540b809d5ddbc9e81719d8aecf7139b21d3f4271ea82447 |
+| Download Location | Click [here]({{site.baseurl}}/implement/certs/WidePoint_SSP_Intermediate_CA_2.cer)|
+
 ### Certificates issued to the Federal Common Policy CA
 
 Distrusting the certificate below will prevent workstations from building a path from the Federal Common Policy CA, through the Federal Bridge CA G4, to the Federal Common Policy CA or any other root.
