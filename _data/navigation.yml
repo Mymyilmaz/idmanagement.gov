@@ -102,6 +102,8 @@ papers:
     href: /experiments/cdns/paper3/ 
   - text: Public Identity Best Practice Guide
     href: /experiments/pid/bestpractice/
+    text: Public Identity Management Service Guide
+    href: /experiments/pid/service/
   - text: Coming Soon
     href: /experiments/#coming-soon
 

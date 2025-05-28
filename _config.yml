@@ -127,6 +127,8 @@ primary_navigation:
         url: /experiments/cdns/paper3/ 
       - name: Public Identity Best Practice Guide
         url: /experiments/pid/bestpractice/
+      - name: Public Identity Management Service Guide
+        url: /experiments/pid/service/
 
 secondary_navigation:
   - name: Contact Us
