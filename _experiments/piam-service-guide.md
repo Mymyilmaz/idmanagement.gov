@@ -53,7 +53,7 @@ Several common challenges faced in implementing PIAM systems include:
 
 This guidance is a good practice recommendation to assist federal agencies to ensure secure and standardized identity management practices when providing online services to public citizens.
 
-![Figure 1]({site.baseurl}/assets/experiments/piam-service/figure1.png)
+![Figure 1]({{site.baseurl}}/assets/experiments/piam-service/figure1.png)
 
 **Unique Key for a public identity**  
 A unique key for a public identity typically refers to a piece of information like an email address, username, or a generated unique identifier that can be used to publicly identify someone online, while also acting as a key to access their associated data or services, ensuring that only the intended person can access it. 
