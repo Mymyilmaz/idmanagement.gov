@@ -9,19 +9,19 @@ sticky_sidenav: true
 
 subnav:
   - text: 1. Introduction
-    href: '#'
+    href: '#1-introduction'
   - text: 2. Public Identity Services Challenges
-    href: '#'
+    href: '#2-public-identity-services-challenges'
   - text: 3. Public Identity Services Guidance
-    href: '#'
+    href: '#3-public-identity-services-guidance'
   - text: 4. Key Terms
-    href: '#'
+    href: '#4-key-terms'
   - text: 5. Audience 
-    href: '#'
+    href: '#5-audience'
   - text: 6. Disclaimer
-    href: '#'
+    href: '#6-disclaimer'
   - text: 7. Appendix 
-    href: '#'
+    href: '#7-appendix'
 
 ---
 
