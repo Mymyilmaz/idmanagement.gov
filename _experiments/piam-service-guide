@@ -7,6 +7,24 @@ permalink: /experiments/pid/service/
 sidenav: papers
 sticky_sidenav: true
 
+subnav:
+  # - text: Introduction
+  #   href: '#introduction'
+- text: 1. Introduction
+  href: '#'
+- text: 2. Public Identity Services Challenges
+  href: '#'
+- text: 3. Public Identity Services Guidance
+  href: '#'
+- text: 4. Key Terms
+  href: '#'
+- text: 5. Audience 
+  href: '#'
+- text: 6. Disclaimer
+  href: '#'
+- text: 7. Appendix 
+  href: '#'
+
 ---
 
 ## 1. Introduction 
