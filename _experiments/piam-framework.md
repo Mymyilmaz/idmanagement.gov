@@ -399,7 +399,7 @@ Goals serve as aspirational statements for senior government leaders, agency exe
 
 As a fundamental pillar of zero trust, the principle of least privilege enables the accurate identification of applications and specific application functions across any and all ports and protocols--including dynamic ports--regardless of the IP address or fully qualified domain name (FQDN) an application uses. This functionality eliminates the need for administrators to think about network constructs and enables fine-grained access control to implement comprehensive least-privileged access.
 
-    Ongoing compliance and monitoring ensures that users within an organization only have access to the data and systems they are authorized to use. By actively monitoring user activity and regularly reviewing access privileges, organizations can maintain compliance with security policies and regulations throughout the user lifecycle.
+  Ongoing compliance and monitoring ensures that users within an organization only have access to the data and systems they are authorized to use. By actively monitoring user activity and regularly reviewing access privileges, organizations can maintain compliance with security policies and regulations throughout the user lifecycle.
 
     **Key aspects of ongoing identity access compliance and monitoring:**
 
