@@ -273,7 +273,7 @@ Goals serve as aspirational statements for senior government leaders, agency exe
   </tbody>
 </table>
 
-![Figure4]({{site.baseurl}}/assets/experiments/piam-framework/figure4.png){:width="80%"}{:style="text-align:center;"}
+![Figure4]({{site.baseurl}}/assets/experiments/piam-framework/figure4.png){:width="80%"}{:class="flex-align-center"}
 
 ### B. Access Management
 
