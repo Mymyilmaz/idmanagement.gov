@@ -189,7 +189,7 @@ Agencies implement PIAM services to unify their IT services, improve physical ac
 
 
 <div style="text-align:center;">
-  <img src="{{site.baseurl}}/assets/experiments/piam-framework/figure1.png" alt="Public Identity & Access Management (PIAM) Overview" width="75%">
+  <img src="{{site.baseurl}}/assets/experiments/piam-framework/figure1.png" alt="Public Identity & Access Management (PIAM) Overview" width="80%">
 </div>
 
 ## 5.  Public Identity & Access Management (PIAM) Goals & Objectives
@@ -366,10 +366,10 @@ Goals serve as aspirational statements for senior government leaders, agency exe
 
 
   <div style="text-align:center;">
-    <img src="{{site.baseurl}}/assets/experiments/piam-framework/figure9.png" alt="Public Identity Access Management Framework 3">
+    <img src="{{site.baseurl}}/assets/experiments/piam-framework/figure9.png" alt="Public Identity Access Management Framework 3" width="80%">
   </div>
 
-     **Best Practices:**
+  **Best Practices:**
 
   -  Implement Role-Based Access Control (RBAC)  
   -  Use Just-in-Time (JIT) Access to limit exposure  
@@ -378,11 +378,12 @@ Goals serve as aspirational statements for senior government leaders, agency exe
 
   By enforcing Least Privilege Access, organizations can significantly improve their security posture and reduce the risk of breaches.
 
-  
-  <p >
-   <strong>D. Governance</strong><img class="float-right" src="{{site.baseurl}}/assets/experiments/piam-framework/figure9.png" target="_blank" alt="Figure9">Governance is the set of practices and systems that guide PIAM functions, activities, and outcomes. Public identity governance is the management of how a government represents a person and the access they have to government services. It involves establishing policies, assigning permissions, and managing user roles.
-  </p>
+  ### D. Governance
 
+  <p>
+   <img class="float-left margin-right-4" src="{{site.baseurl}}/assets/experiments/piam-framework/figure9.png" target="_blank" alt="Governance" width="25%">Governance is the set of practices and systems that guide PIAM functions, activities, and outcomes. Public identity governance is the management of how a government represents a person and the access they have to government services. It involves establishing policies, assigning permissions, and managing user roles.
+  </p>
+  <br><br><br>
   Public identity governance has four areas of focus:  
 
   - **Identity governance and administration (IGA):** A framework that manages digital identities and permissions   
