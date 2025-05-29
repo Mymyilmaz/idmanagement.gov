@@ -288,7 +288,7 @@ Goals serve as aspirational statements for senior government leaders, agency exe
  </p>
 
  <div style="text-align:center;">
-  <img src="{{site.baseurl}}/assets/experiments/piam-framework/figure6.png" alt="Figure6">
+  <img src="{{site.baseurl}}/assets/experiments/piam-framework/figure6.png" alt="Authentication and Authorization Process">
  </div>
 
   **Authentication** is the initial access control step, verifying the legitimacy of the person or system seeking entry. This process answers the fundamental question, “Who are you?”
@@ -298,7 +298,7 @@ Goals serve as aspirational statements for senior government leaders, agency exe
   Working hand-in-hand, these two fundamental components form the backbone of effective security, creating a secure environment by ensuring that all users are subject to both identity verification and permission management. 
 
   <div style="text-align:center;">
-    <img src="{{site.baseurl}}/assets/experiments/piam-framework/figure7.png" alt="Figure7">
+    <img src="{{site.baseurl}}/assets/experiments/piam-framework/figure7.png" alt="Authentication and Authorization: Security Pillars">
   </div>
 
   Access management is a functionality that determines whether a user has permission to access a certain resource, and enables the enforcement of predefined access policies.
@@ -325,8 +325,10 @@ Goals serve as aspirational statements for senior government leaders, agency exe
 
   This sophisticated approach aims to create a seamless, transparent authentication process. By analyzing login attributes--both contextual and behavior based (e.g. typing speed, page view sequence)--single sign on and access management solutions can continuously match a user’s required level of authentication with the appropriate application-defined access policy. In this way, authentication is applied granularly, tailored to individual application access policies, rather than as rules implemented uniformly across all enterprise resources.
 
-  <p >
-   <strong>C. Privileged Access</strong><img class="float-right" src="{{site.baseurl}}/assets/experiments/piam-framework/figure7.png" target="_blank" alt="Figure7">A "privileged access public identity" refers to a user account with elevated permissions or system access that is associated with a public-facing identity. This identity is not necessarily hidden or strictly controlled, potentially creating a security risk by inadvertently enabling access to sensitive information.
+### C. Privileged Access
+
+  <p>
+   <img class="float-left margin-right-4" src="{{site.baseurl}}/assets/experiments/piam-framework/figure8.png" target="_blank" alt="Figure8" width="25%">A "privileged access public identity" refers to a user account with elevated permissions or system access that is associated with a public-facing identity. This identity is not necessarily hidden or strictly controlled, potentially creating a security risk by inadvertently enabling access to sensitive information.
   </p>
   
   **Key points about privileged access public identities:**  
