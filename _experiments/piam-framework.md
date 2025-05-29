@@ -2,7 +2,7 @@
 
 layout: page
 collection: experiments
-title: Public Identity Management Service Guide
+title: Public Identity Management Framework Guide
 permalink: /experiments/pid/framework/
 sidenav: papers
 sticky_sidenav: true
@@ -11,17 +11,15 @@ subnav:
   - text: 1. Introduction
     href: '#1-introduction'
   - text: 2. Key Terms
-    href: '#1-introduction'
-  - text: 1. Introduction
-    href: '#1-introduction'
-  - text: 1. Introduction
-    href: '#1-introduction'
-  - text: 1. Introduction
-    href: '#1-introduction'
-  - text: 1. Introduction
-    href: '#1-introduction'
-  - text: 1. Introduction
-    href: '#1-introduction'
+    href: '#2-key-terms'
+  - text: 3. Disclaimer
+    href: '#3-disclaimer'
+  - text: 4. Public Identity & Access Management (PIAM) Overview
+    href: '#4-public-identity--access-management--piam--overview'
+  - text: 5. Public Identity & Access Management (PIAM) Goals & Objectives
+    href: '#5-public-identity--access-management--piam--goals--objectives'
+  - text: 6. Public Identity & Access Management (PIAM) Services Framework
+    href: '#6-public-identity--access-management--piam--services-framework'
 
 ---
 

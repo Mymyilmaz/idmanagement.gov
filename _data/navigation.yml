@@ -104,6 +104,8 @@ papers:
     href: /experiments/pid/bestpractice/
     text: Public Identity Management Service Guide
     href: /experiments/pid/service/
+    text: Public Identity Management Framework Guide
+    href: /experiments/pid/framework/
   - text: Coming Soon
     href: /experiments/#coming-soon
 
