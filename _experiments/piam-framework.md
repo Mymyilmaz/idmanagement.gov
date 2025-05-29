@@ -202,7 +202,9 @@ Goals serve as aspirational statements for senior government leaders, agency exe
 
 ## 6. Public Identity & Access Management (PIAM) Services Framework
 
-![Figure2]({{site.baseurl}}/assets/experiments/piam-framework/figure2.png){:width="50%"}{:class="flex-align-center"}
+<div style="text-align:center;">
+  <img src="{{site.baseurl}}/assets/experiments/piam-framework/figure2.png" alt="Public Identity & Access Management (PIAM) Services Framework" width="50%">
+</div>
 
 ### A. Identity Management
   <p>
@@ -362,7 +364,10 @@ Goals serve as aspirational statements for senior government leaders, agency exe
   - **Improves Operational Efficiency:** Reduces human error and minimizes accidental data exposure risks.  
   - **Supports Zero Trust Security:** Ensures continuous verification of identities and access rights.
 
-    ![Figure8]({{site.baseurl}}/assets/experiments/piam-framework/figure8.png)
+
+  <div style="text-align:center;">
+    <img src="{{site.baseurl}}/assets/experiments/piam-framework/figure9.png" alt="Public Identity Access Management Framework 3">
+  </div>
 
      **Best Practices:**
 
