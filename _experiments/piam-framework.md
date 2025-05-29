@@ -187,7 +187,7 @@ PIAM represents the set of tools, policies, and systems that enables precise, pu
 
 Agencies implement PIAM services to unify their IT services, improve physical access control, and improve information security and decision-making. PIAM has four practice areas, shown below.
 
-![Figure1]()
+![Figure1]({{site.baseurl}}/assets/experiments/piam-framework/figure1.png)
 
 ## 5.  Public Identity & Access Management (PIAM) Goals & Objectives
 
@@ -195,12 +195,12 @@ Organizational goals and objectives define the strategic aims of a federal agenc
 
 Goals serve as aspirational statements for senior government leaders, agency executives, and agency program leadership responsible for setting program strategy. Objectives represent actionable areas where agencies can develop execution strategies, action plans, and performance metrics in alignment with mission needs.
 
-![Figure2]()
+![Figure2]({{site.baseurl}}/assets/experiments/piam-framework/figure2.png)
 
 ## 6. Public Identity & Access Management (PIAM) Services Framework
 
   <p >
-   <strong>A. Identity Management</strong><img class="float-right" src="#" target="_blank" alt="Figure3">Identity Management is the process by which an agency collects, verifies, and manages attributes and entitlements to establish and maintain enterprise identities for authorized personnel accessing federal services and mission partner systems. This service does apply to public citizen identity management. 
+   <strong>A. Identity Management</strong><img class="float-right" src="{{site.baseurl}}/assets/experiments/piam-framework/figure3.png" target="_blank" alt="Figure3">Identity Management is the process by which an agency collects, verifies, and manages attributes and entitlements to establish and maintain enterprise identities for authorized personnel accessing federal services and mission partner systems. This service does apply to public citizen identity management. 
   </p>
 
   Agencies should manage public identity attributes with a centralized approach and distribute them as needed. Examples of identity attributes include:
@@ -271,12 +271,12 @@ Goals serve as aspirational statements for senior government leaders, agency exe
 </table>
 
   <p >
-   <strong>B. Access Management</strong><img class="float-right" src="#" target="_blank" alt="Figure4">Access Management represents the process by which an agency authenticates enterprise identities and authorizes appropriate access to protected services. At its core, this framework orchestrates two fundamental, often conflated security concepts: authentication and authorization. 
+   <strong>B. Access Management</strong><img class="float-right" src="{{site.baseurl}}/assets/experiments/piam-framework/figure4.png" target="_blank" alt="Figure4">Access Management represents the process by which an agency authenticates enterprise identities and authorizes appropriate access to protected services. At its core, this framework orchestrates two fundamental, often conflated security concepts: authentication and authorization. 
   </p>
 
   These interconnected concepts play a critical role in system security, ensuring that only authorized users access sensitive information and systems. While closely related, they serve distinct purposes in maintaining a robust security architecture. 
 
-  ![Figure5]()
+  ![Figure5]({{site.baseurl}}/assets/experiments/piam-framework/figure5.png)
 
   **Authentication** is the initial access control step, verifying the legitimacy of the person or system seeking entry. This process answers the fundamental question, “Who are you?”
 
@@ -284,7 +284,7 @@ Goals serve as aspirational statements for senior government leaders, agency exe
 
   Working hand-in-hand, these two fundamental components form the backbone of effective security, creating a secure environment by ensuring that all users are subject to both identity verification and permission management. 
 
-  ![Figure6]()
+  ![Figure6]({{site.baseurl}}/assets/experiments/piam-framework/figure6.png)
 
   Access management is a functionality that determines whether a user has permission to access a certain resource, and enables the enforcement of predefined access policies.
 
@@ -311,7 +311,7 @@ Goals serve as aspirational statements for senior government leaders, agency exe
   This sophisticated approach aims to create a seamless, transparent authentication process. By analyzing login attributes--both contextual and behavior based (e.g. typing speed, page view sequence)--single sign on and access management solutions can continuously match a user’s required level of authentication with the appropriate application-defined access policy. In this way, authentication is applied granularly, tailored to individual application access policies, rather than as rules implemented uniformly across all enterprise resources.
 
   <p >
-   <strong>C. Privileged Access</strong><img class="float-right" src="#" target="_blank" alt="Figure7">A "privileged access public identity" refers to a user account with elevated permissions or system access that is associated with a public-facing identity. This identity is not necessarily hidden or strictly controlled, potentially creating a security risk by inadvertently enabling access to sensitive information.
+   <strong>C. Privileged Access</strong><img class="float-right" src="{{site.baseurl}}/assets/experiments/piam-framework/figure7.png" target="_blank" alt="Figure7">A "privileged access public identity" refers to a user account with elevated permissions or system access that is associated with a public-facing identity. This identity is not necessarily hidden or strictly controlled, potentially creating a security risk by inadvertently enabling access to sensitive information.
   </p>
   
   **Key points about privileged access public identities:**  
@@ -342,7 +342,7 @@ Goals serve as aspirational statements for senior government leaders, agency exe
   - **Improves Operational Efficiency:** Reduces human error and minimizes accidental data exposure risks.  
   - **Supports Zero Trust Security:** Ensures continuous verification of identities and access rights.
 
-    ![Figure8]()
+    ![Figure8]({{site.baseurl}}/assets/experiments/piam-framework/figure8.png)
 
      **Best Practices:**
 
@@ -355,7 +355,7 @@ Goals serve as aspirational statements for senior government leaders, agency exe
 
   
   <p >
-   <strong>D. Governance</strong><img class="float-right" src="#" target="_blank" alt="Figure9">Governance is the set of practices and systems that guide PIAM functions, activities, and outcomes. Public identity governance is the management of how a government represents a person and the access they have to government services. It involves establishing policies, assigning permissions, and managing user roles.
+   <strong>D. Governance</strong><img class="float-right" src="{{site.baseurl}}/assets/experiments/piam-framework/figure9.png" target="_blank" alt="Figure9">Governance is the set of practices and systems that guide PIAM functions, activities, and outcomes. Public identity governance is the management of how a government represents a person and the access they have to government services. It involves establishing policies, assigning permissions, and managing user roles.
   </p>
 
   Public identity governance has four areas of focus:  
