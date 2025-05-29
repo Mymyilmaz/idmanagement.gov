@@ -202,7 +202,7 @@ Goals serve as aspirational statements for senior government leaders, agency exe
 ![Figure2]({{site.baseurl}}/assets/experiments/piam-framework/figure2.png)
 
   <p >
-   <strong>A. Identity Management</strong><img class="" src="{{site.baseurl}}/assets/experiments/piam-framework/figure3.png" target="_blank" alt="Figure3">Identity Management is the process by which an agency collects, verifies, and manages attributes and entitlements to establish and maintain enterprise identities for authorized personnel accessing federal services and mission partner systems. This service does apply to public citizen identity management. 
+   <strong>A. Identity Management</strong><img class="float-left" src="{{site.baseurl}}/assets/experiments/piam-framework/figure3.png" target="_blank" alt="Figure3" width="25%">Identity Management is the process by which an agency collects, verifies, and manages attributes and entitlements to establish and maintain enterprise identities for authorized personnel accessing federal services and mission partner systems. This service does apply to public citizen identity management. 
   </p>
 
   Agencies should manage public identity attributes with a centralized approach and distribute them as needed. Examples of identity attributes include:
