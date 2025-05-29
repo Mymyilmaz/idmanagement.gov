@@ -278,11 +278,11 @@ Goals serve as aspirational statements for senior government leaders, agency exe
 ### B. Access Management
 
   <p>
-   <img class="float-left margin-right-4 clearfix" src="{{site.baseurl}}/assets/experiments/piam-framework/figure5.png" target="_blank" alt="Figure5" width="25%">Access Management represents the process by which an agency authenticates enterprise identities and authorizes appropriate access to protected services. At its core, this framework orchestrates two fundamental, often conflated security concepts: authentication and authorization.
+   <img class="float-left margin-right-4" src="{{site.baseurl}}/assets/experiments/piam-framework/figure5.png" target="_blank" alt="Figure5" width="25%">Access Management represents the process by which an agency authenticates enterprise identities and authorizes appropriate access to protected services. At its core, this framework orchestrates two fundamental, often conflated security concepts: authentication and authorization.
   </p>
-  <p>
+   {:class="margin-top-7"}
    These interconnected concepts play a critical role in system security, ensuring that only authorized users access sensitive information and systems. While closely related, they serve distinct purposes in maintaining a robust security architecture.  
-  </p>
+ 
   ![Figure6]({{site.baseurl}}/assets/experiments/piam-framework/figure6.png)
 
   **Authentication** is the initial access control step, verifying the legitimacy of the person or system seeking entry. This process answers the fundamental question, “Who are you?”
