@@ -333,7 +333,7 @@ Goals serve as aspirational statements for senior government leaders, agency exe
   <p>
    <img class="float-left margin-right-4" src="{{site.baseurl}}/assets/experiments/piam-framework/figure8.png" target="_blank" alt="Privileged Access" width="25%">A "privileged access public identity" refers to a user account with elevated permissions or system access that is associated with a public-facing identity. This identity is not necessarily hidden or strictly controlled, potentially creating a security risk by inadvertently enabling access to sensitive information.
   </p>
-  
+  <br><br>
   **Key points about privileged access public identities:**  
   - **Elevated permissions:** These accounts have significantly more access rights compared to standard user accounts, allowing them to perform sensitive tasks on behalf of other public citizens. 
 
