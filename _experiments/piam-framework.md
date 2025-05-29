@@ -381,7 +381,7 @@ Goals serve as aspirational statements for senior government leaders, agency exe
   ### D. Governance
 
   <p>
-   <img class="float-left margin-right-4" src="{{site.baseurl}}/assets/experiments/piam-framework/figure9.png" target="_blank" alt="Governance" width="25%">Governance is the set of practices and systems that guide PIAM functions, activities, and outcomes. Public identity governance is the management of how a government represents a person and the access they have to government services. It involves establishing policies, assigning permissions, and managing user roles.
+   <img class="float-left margin-right-4" src="{{site.baseurl}}/assets/experiments/piam-framework/figure10.png" target="_blank" alt="Governance" width="25%">Governance is the set of practices and systems that guide PIAM functions, activities, and outcomes. Public identity governance is the management of how a government represents a person and the access they have to government services. It involves establishing policies, assigning permissions, and managing user roles.
   </p>
   <br><br><br>
   Public identity governance has four areas of focus:  
