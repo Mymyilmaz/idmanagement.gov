@@ -199,15 +199,16 @@ Goals serve as aspirational statements for senior government leaders, agency exe
 
 ## 6. Public Identity & Access Management (PIAM) Services Framework
 
-![Figure2]({{site.baseurl}}/assets/experiments/piam-framework/figure2.png){:width="50%"}
+![Figure2]({{site.baseurl}}/assets/experiments/piam-framework/figure2.png){:width="50%"}{:align="center"}
 
 ### A. Identity Management
   <p>
    <img class="float-left margin-right-4" src="{{site.baseurl}}/assets/experiments/piam-framework/figure3.png" target="_blank" alt="Figure3" width="25%">Identity Management is the process by which an agency collects, verifies, and manages attributes and entitlements to establish and maintain enterprise identities for authorized personnel accessing federal services and mission partner systems. This service does apply to public citizen identity management. 
-   <br />
+   
   </p>
 
-
+  <br />
+  <br />
   Agencies should manage public identity attributes with a centralized approach and distribute them as needed. Examples of identity attributes include:
 
   - **Core identity attributes**  
@@ -275,16 +276,17 @@ Goals serve as aspirational statements for senior government leaders, agency exe
   </tbody>
 </table>
 
-  ![Figure4]({{site.baseurl}}/assets/experiments/piam-framework/figure4.png){:width="80%"}
+  ![Figure4]({{site.baseurl}}/assets/experiments/piam-framework/figure4.png){:width="80%"}{:align="center"}
 
 ### B. Access Management
 
   <p>
    <img class="float-left margin-right-4" src="{{site.baseurl}}/assets/experiments/piam-framework/figure5.png" target="_blank" alt="Figure5" width="25%">Access Management represents the process by which an agency authenticates enterprise identities and authorizes appropriate access to protected services. At its core, this framework orchestrates two fundamental, often conflated security concepts: authentication and authorization.
-   <br /> 
+   
   </p>
 
-
+  <br />
+  <br /> 
   These interconnected concepts play a critical role in system security, ensuring that only authorized users access sensitive information and systems. While closely related, they serve distinct purposes in maintaining a robust security architecture. 
 
   ![Figure6]({{site.baseurl}}/assets/experiments/piam-framework/figure6.png)
