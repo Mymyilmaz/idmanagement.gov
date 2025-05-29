@@ -189,7 +189,7 @@ Agencies implement PIAM services to unify their IT services, improve physical ac
 
 
 <div style="text-align:center;">
-  <img src="{{site.baseurl}}/assets/experiments/piam-framework/figure1.png" alt="Public Identity & Access Management (PIAM) Overview">
+  <img src="{{site.baseurl}}/assets/experiments/piam-framework/figure1.png" alt="Public Identity & Access Management (PIAM) Overview" width="75%">
 </div>
 
 ## 5.  Public Identity & Access Management (PIAM) Goals & Objectives
