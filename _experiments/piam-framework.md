@@ -401,7 +401,7 @@ As a fundamental pillar of zero trust, the principle of least privilege enables 
 
   Ongoing compliance and monitoring ensures that users within an organization only have access to the data and systems they are authorized to use. By actively monitoring user activity and regularly reviewing access privileges, organizations can maintain compliance with security policies and regulations throughout the user lifecycle.
 
-    **Key aspects of ongoing identity access compliance and monitoring:**
+  **Key aspects of ongoing identity access compliance and monitoring:**
 
   - **User lifecycle management**  
     - Tracking public citizen access from the moment they are onboarded through system activity, including monitoring and making changes to federal services and profile updates as needed.  
