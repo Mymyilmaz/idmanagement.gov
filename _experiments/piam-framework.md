@@ -216,12 +216,12 @@ Goals serve as aspirational statements for senior government leaders, agency exe
 
   The PIAM framework’s Identity Management services  constitute a comprehensive lifecycle approach, encompassing identity:
 
-    - Creation  
-    - Identity Proofing  
-    - Provisioning  
-    - Maintenance  
-    - Aggregation  
-    - Deactivation. 
+  - Creation  
+  - Identity Proofing  
+  - Provisioning  
+  - Maintenance  
+  - Aggregation  
+  - Deactivation. 
 
   These services are collectively known as Public Identity Lifecycle Management, representing a holistic approach to managing digital identities within federal systems.
 
@@ -398,12 +398,12 @@ As a fundamental pillar of zero trust, the principle of least privilege enables 
 
   **Key Considerations for Evaluating and Enhancing Organizational Auditing and Monitoring Capabilities**
 
-    - **Behavioral baseline establishment**: An organization must define and understand what is considered normal/acceptable behavior, suspect behavior, and misbehavior.  
-    - **Monitoring parameter development**: An organization must use defined and de-facto policy rules, requirements/models of systems, and baselines of current activity to identify monitoring and analysis parameters.  
-    - **Critical asset identification and prioritization**: An organization’s critical assets (e.g., crown jewels) and focus enhanced monitoring on critical assets (proprietary information, systems mission critical) should be identified and prioritized, and then it should identify and focus enhanced monitoring on users with access to these assets.  
-    - **Comprehensive data collection**: It is essential to collect diverse data, including standard logs/audit records, security events, and data about users, systems, applications, and network behaviors. Organizations can then use the collected data for real-time detection and alerting, storage for forensic use, baselining of current behavior, trend analysis and anomalous behavior identification.  
-    - **Behavioral analytics strategy**: Behavioral analytics will require an initial period of collection and analysis to establish baselines and thresholds.  
-    - **Intelligent data analysis**: Organizations should avoid generating unprioritized, resource-intensive alerts for analysis, and focus instead on collecting and analyzing meaningful data that provides actionable information to raise security awareness and support strategic security investment decisions.  
-    - **Tool and capability selection**: Determine the appropriate tools and capabilities to effectively derive information from collected data. Select tools capable of processing diverse data formats, and which demonstrate configurability, scalability, and the ability to interface with other systems and capabilities.  
-    - **Staff capability alignment**: Monitoring tools should be matched to organizational skill levels and staff availability. Manual reviews of logs or of overly-detailed, too-frequent tool outputs will not be effective or an efficient use of staff time. An organization with tools at the basic SIEM level should focus on configuring them to alert on the most critical events and provide the most pertinent information to staff. Organizations with more advanced capabilities can develop more sophisticated anomalous behavior detection systems and develop procedures to deal with potential insider threats. For example, when to shut down a threat immediately versus when to strategically steer an adversary to a honeypot and collect more forensic evidence.
+  - **Behavioral baseline establishment**: An organization must define and understand what is considered normal/acceptable behavior, suspect behavior, and misbehavior.  
+  - **Monitoring parameter development**: An organization must use defined and de-facto policy rules, requirements/models of systems, and baselines of current activity to identify monitoring and analysis parameters.  
+  - **Critical asset identification and prioritization**: An organization’s critical assets (e.g., crown jewels) and focus enhanced monitoring on critical assets (proprietary information, systems mission critical) should be identified and prioritized, and then it should identify and focus enhanced monitoring on users with access to these assets.  
+  - **Comprehensive data collection**: It is essential to collect diverse data, including standard logs/audit records, security events, and data about users, systems, applications, and network behaviors. Organizations can then use the collected data for real-time detection and alerting, storage for forensic use, baselining of current behavior, trend analysis and anomalous behavior identification.  
+  - **Behavioral analytics strategy**: Behavioral analytics will require an initial period of collection and analysis to establish baselines and thresholds.  
+  - **Intelligent data analysis**: Organizations should avoid generating unprioritized, resource-intensive alerts for analysis, and focus instead on collecting and analyzing meaningful data that provides actionable information to raise security awareness and support strategic security investment decisions.  
+  - **Tool and capability selection**: Determine the appropriate tools and capabilities to effectively derive information from collected data. Select tools capable of processing diverse data formats, and which demonstrate configurability, scalability, and the ability to interface with other systems and capabilities.  
+  - **Staff capability alignment**: Monitoring tools should be matched to organizational skill levels and staff availability. Manual reviews of logs or of overly-detailed, too-frequent tool outputs will not be effective or an efficient use of staff time. An organization with tools at the basic SIEM level should focus on configuring them to alert on the most critical events and provide the most pertinent information to staff. Organizations with more advanced capabilities can develop more sophisticated anomalous behavior detection systems and develop procedures to deal with potential insider threats. For example, when to shut down a threat immediately versus when to strategically steer an adversary to a honeypot and collect more forensic evidence.
 
