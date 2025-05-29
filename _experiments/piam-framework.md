@@ -386,50 +386,50 @@ Goals serve as aspirational statements for senior government leaders, agency exe
   <br><br><br>
   Public identity governance has four areas of focus:  
 
-  - **Identity governance and administration (IGA):** A framework that manages digital identities and permissions   
-  - **Access control:** The practice of ensuring that only authorized users can access specific resources   
-  - **Risk assessment:** A process involving analyzing risks and producing reports to track use and prove compliance   
-  - **Automation**: The process of using machine learning to automate tasks like password management and provisioning  
+    - **Identity governance and administration (IGA):** A framework that manages digital identities and permissions   
+    - **Access control:** The practice of ensuring that only authorized users can access specific resources   
+    - **Risk assessment:** A process involving analyzing risks and producing reports to track use and prove compliance   
+    - **Automation**: The process of using machine learning to automate tasks like password management and provisioning  
     
-  Public identity governance plays a critical role in ensuring that only authorized individuals can access government services while reducing the risk of unauthorized access and security breaches. This approach helps organizations maintain regulatory compliance and facilitates efficient public service delivery through digital platforms.  
+    Public identity governance plays a critical role in ensuring that only authorized individuals can access government services while reducing the risk of unauthorized access and security breaches. This approach helps organizations maintain regulatory compliance and facilitates efficient public service delivery through digital platforms.  
     
-  The principle of least privilege (PoLP) is an information security concept which maintains that a user or entity should have access to only the specific data, resources, and applications needed to complete required tasks. Organizations that follow this principle can improve their security posture, significantly reducing their attack surface and mitigating the risk of malware spread.   
+    The principle of least privilege (PoLP) is an information security concept which maintains that a user or entity should have access to only the specific data, resources, and applications needed to complete required tasks. Organizations that follow this principle can improve their security posture, significantly reducing their attack surface and mitigating the risk of malware spread.   
     
-  PoLP works by limiting accessible data, resources, applications, and application functions to only what specific tasks or workflows require. Organizations that fail to incorporate the principle of least privilege inadvertently create over-privileged user accounts or entities, increasing the potential for breaches and misuse of critical systems and data.
+    PoLP works by limiting accessible data, resources, applications, and application functions to only what specific tasks or workflows require. Organizations that fail to incorporate the principle of least privilege inadvertently create over-privileged user accounts or entities, increasing the potential for breaches and misuse of critical systems and data.
 
 As a fundamental pillar of zero trust, the principle of least privilege enables the accurate identification of applications and specific application functions across any and all ports and protocols--including dynamic ports--regardless of the IP address or fully qualified domain name (FQDN) an application uses. This functionality eliminates the need for administrators to think about network constructs and enables fine-grained access control to implement comprehensive least-privileged access.
 
-  Ongoing compliance and monitoring ensures that users within an organization only have access to the data and systems they are authorized to use. By actively monitoring user activity and regularly reviewing access privileges, organizations can maintain compliance with security policies and regulations throughout the user lifecycle.
+    Ongoing compliance and monitoring ensures that users within an organization only have access to the data and systems they are authorized to use. By actively monitoring user activity and regularly reviewing access privileges, organizations can maintain compliance with security policies and regulations throughout the user lifecycle.
 
-  **Key aspects of ongoing identity access compliance and monitoring:**
+    **Key aspects of ongoing identity access compliance and monitoring:**
 
-  - **User lifecycle management**  
-    - Tracking public citizen access from the moment they are onboarded through system activity, including monitoring and making changes to federal services and profile updates as needed.  
-  - **Access control mechanisms**  
-    - Implementing robust access control methods such as role-based access control (RBAC) to assign permissions based on user roles and responsibilities.  
-  - **Least privilege principle**  
-    - Granting users only the minimum level of access required to perform their job functions.  
-  - **Regular access reviews**  
-    - Periodically reviewing public citizen access rights to identify and revoke unnecessary or outdated permissions.  
-  - **User activity monitoring**  
-    - Continuously logging and analyzing user actions within systems to detect suspicious behavior or potential security breaches.  
-  - **Auditing and reporting**  
-    - Generating reports on public citizen access patterns and potential security risks to identify areas for improvement.  
-  - **Regulatory compliance**  
-    - Ensuring that access management practices align with relevant industry standards and regulations such as GDPR, HIPAA, or PCI DSS
+    - **User lifecycle management**  
+      - Tracking public citizen access from the moment they are onboarded through system activity, including monitoring and making changes to federal services and profile updates as needed.  
+    - **Access control mechanisms**  
+      - Implementing robust access control methods such as role-based access control (RBAC) to assign permissions based on user roles and responsibilities.  
+    - **Least privilege principle**  
+      - Granting users only the minimum level of access required to perform their job functions.  
+    - **Regular access reviews**  
+      - Periodically reviewing public citizen access rights to identify and revoke unnecessary or outdated permissions.  
+    - **User activity monitoring**  
+      - Continuously logging and analyzing user actions within systems to detect suspicious behavior or potential security breaches.  
+    - **Auditing and reporting**  
+      - Generating reports on public citizen access patterns and potential security risks to identify areas for improvement.  
+    - **Regulatory compliance**  
+      - Ensuring that access management practices align with relevant industry standards and regulations such as GDPR, HIPAA, or PCI DSS
 
-  Auditing and monitoring should not only check for compliance, but also monitor for threat indicators and anomalous activities. This approach encompasses the generation, collection, and analysis of logs, events, and other information to provide the best means of detecting compliance-related infractions and suspicious activities. Without an effective auditing and monitoring program, attacks such as the use of stolen credentials and misuse of privileged access by insiders would not be detected in a timely manner, if at all.. These auditing and monitoring capabilities can be integrated with automated tools that orchestrate response actions to counter these attacks. 
+    Auditing and monitoring should not only check for compliance, but also monitor for threat indicators and anomalous activities. This approach encompasses the generation, collection, and analysis of logs, events, and other information to provide the best means of detecting compliance-related infractions and suspicious activities. Without an effective auditing and monitoring program, attacks such as the use of stolen credentials and misuse of privileged access by insiders would not be detected in a timely manner, if at all.. These auditing and monitoring capabilities can be integrated with automated tools that orchestrate response actions to counter these attacks. 
 
-  Effective reporting from auditing and monitoring also provides situational awareness of an organization’s security posture. Below are key considerations for assessing an organization’s auditing and monitoring capabilities to identify improvements necessary for countering top threats. Critically, this is not a one-time assessment; organizations must periodically evaluate and update their capabilities in order to meet changing needs and counter new threats.
+    Effective reporting from auditing and monitoring also provides situational awareness of an organization’s security posture. Below are key considerations for assessing an organization’s auditing and monitoring capabilities to identify improvements necessary for countering top threats. Critically, this is not a one-time assessment; organizations must periodically evaluate and update their capabilities in order to meet changing needs and counter new threats.
 
-  **Key Considerations for Evaluating and Enhancing Organizational Auditing and Monitoring Capabilities**
+    **Key Considerations for Evaluating and Enhancing Organizational Auditing and Monitoring Capabilities**
 
-  - **Behavioral baseline establishment**: An organization must define and understand what is considered normal/acceptable behavior, suspect behavior, and misbehavior.  
-  - **Monitoring parameter development**: An organization must use defined and de-facto policy rules, requirements/models of systems, and baselines of current activity to identify monitoring and analysis parameters.  
-  - **Critical asset identification and prioritization**: An organization’s critical assets (e.g., crown jewels) and focus enhanced monitoring on critical assets (proprietary information, systems mission critical) should be identified and prioritized, and then it should identify and focus enhanced monitoring on users with access to these assets.  
-  - **Comprehensive data collection**: It is essential to collect diverse data, including standard logs/audit records, security events, and data about users, systems, applications, and network behaviors. Organizations can then use the collected data for real-time detection and alerting, storage for forensic use, baselining of current behavior, trend analysis and anomalous behavior identification.  
-  - **Behavioral analytics strategy**: Behavioral analytics will require an initial period of collection and analysis to establish baselines and thresholds.  
-  - **Intelligent data analysis**: Organizations should avoid generating unprioritized, resource-intensive alerts for analysis, and focus instead on collecting and analyzing meaningful data that provides actionable information to raise security awareness and support strategic security investment decisions.  
-  - **Tool and capability selection**: Determine the appropriate tools and capabilities to effectively derive information from collected data. Select tools capable of processing diverse data formats, and which demonstrate configurability, scalability, and the ability to interface with other systems and capabilities.  
-  - **Staff capability alignment**: Monitoring tools should be matched to organizational skill levels and staff availability. Manual reviews of logs or of overly-detailed, too-frequent tool outputs will not be effective or an efficient use of staff time. An organization with tools at the basic SIEM level should focus on configuring them to alert on the most critical events and provide the most pertinent information to staff. Organizations with more advanced capabilities can develop more sophisticated anomalous behavior detection systems and develop procedures to deal with potential insider threats. For example, when to shut down a threat immediately versus when to strategically steer an adversary to a honeypot and collect more forensic evidence.
+    - **Behavioral baseline establishment**: An organization must define and understand what is considered normal/acceptable behavior, suspect behavior, and misbehavior.  
+    - **Monitoring parameter development**: An organization must use defined and de-facto policy rules, requirements/models of systems, and baselines of current activity to identify monitoring and analysis parameters.  
+    - **Critical asset identification and prioritization**: An organization’s critical assets (e.g., crown jewels) and focus enhanced monitoring on critical assets (proprietary information, systems mission critical) should be identified and prioritized, and then it should identify and focus enhanced monitoring on users with access to these assets.  
+    - **Comprehensive data collection**: It is essential to collect diverse data, including standard logs/audit records, security events, and data about users, systems, applications, and network behaviors. Organizations can then use the collected data for real-time detection and alerting, storage for forensic use, baselining of current behavior, trend analysis and anomalous behavior identification.  
+    - **Behavioral analytics strategy**: Behavioral analytics will require an initial period of collection and analysis to establish baselines and thresholds.  
+    - **Intelligent data analysis**: Organizations should avoid generating unprioritized, resource-intensive alerts for analysis, and focus instead on collecting and analyzing meaningful data that provides actionable information to raise security awareness and support strategic security investment decisions.  
+    - **Tool and capability selection**: Determine the appropriate tools and capabilities to effectively derive information from collected data. Select tools capable of processing diverse data formats, and which demonstrate configurability, scalability, and the ability to interface with other systems and capabilities.  
+    - **Staff capability alignment**: Monitoring tools should be matched to organizational skill levels and staff availability. Manual reviews of logs or of overly-detailed, too-frequent tool outputs will not be effective or an efficient use of staff time. An organization with tools at the basic SIEM level should focus on configuring them to alert on the most critical events and provide the most pertinent information to staff. Organizations with more advanced capabilities can develop more sophisticated anomalous behavior detection systems and develop procedures to deal with potential insider threats. For example, when to shut down a threat immediately versus when to strategically steer an adversary to a honeypot and collect more forensic evidence.
 
