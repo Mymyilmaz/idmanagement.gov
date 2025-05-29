@@ -283,7 +283,7 @@ Goals serve as aspirational statements for senior government leaders, agency exe
 
   These interconnected concepts play a critical role in system security, ensuring that only authorized users access sensitive information and systems. While closely related, they serve distinct purposes in maintaining a robust security architecture. 
 
-  ![Figure6]({{site.baseurl}}/assets/experiments/piam-framework/figure6.png){:width="50%"}
+  ![Figure6]({{site.baseurl}}/assets/experiments/piam-framework/figure6.png)
 
   **Authentication** is the initial access control step, verifying the legitimacy of the person or system seeking entry. This process answers the fundamental question, “Who are you?”
 
