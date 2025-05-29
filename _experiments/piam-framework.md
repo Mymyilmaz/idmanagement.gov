@@ -15,11 +15,11 @@ subnav:
   - text: 3. Disclaimer
     href: '#3-disclaimer'
   - text: 4. Public Identity & Access Management (PIAM) Overview
-    href: '#4-public-identity--access-management--piam--overview'
+    href: '#4--public-identity--access-management-piam-overview'
   - text: 5. Public Identity & Access Management (PIAM) Goals & Objectives
-    href: '#5-public-identity--access-management--piam--goals--objectives'
+    href: '#5--public-identity--access-management-piam-goals--objectives'
   - text: 6. Public Identity & Access Management (PIAM) Services Framework
-    href: '#6-public-identity--access-management--piam--services-framework'
+    href: '#6-public-identity--access-management-piam-services-framework'
 
 ---
 
