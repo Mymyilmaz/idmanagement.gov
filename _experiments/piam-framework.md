@@ -81,11 +81,11 @@ For instance, ABAC might restrict sensitive data access based on variables like 
 
 Consider the various authorization approaches a multinational corporation managing a vast database of customer information could take:
 
-  With RBAC, employees are assigned role-specific permissions (e.g., “customer support representative,” “sales manager,” and “IT administrator”). Each role has distinct permissions: customer support representatives can only view customer data, sales managers can modify sales records, and IT administrators can access the entire database for maintenance purposes.
+- With RBAC, employees are assigned role-specific permissions (e.g., “customer support representative,” “sales manager,” and “IT administrator”). Each role has distinct permissions: customer support representatives can only view customer data, sales managers can modify sales records, and IT administrators can access the entire database for maintenance purposes.
 
-  Using least privilege access control, these roles are further refined, ensuring that employees within each role have the bare minimum access necessary to fulfill their duties. 
+- Using least privilege access control, these roles are further refined, ensuring that employees within each role have the bare minimum access necessary to fulfill their duties. 
 
-  Finally, ABAC considers additional attributes, such as location and time. For instance, an employee's access might be restricted to specific customer data based on their geographical location.
+- Finally, ABAC considers additional attributes, such as location and time. For instance, an employee's access might be restricted to specific customer data based on their geographical location.
 
 **4. Monitoring & Auditing**
 
