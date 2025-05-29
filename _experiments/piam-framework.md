@@ -195,9 +195,11 @@ Organizational goals and objectives define the strategic aims of a federal agenc
 
 Goals serve as aspirational statements for senior government leaders, agency executives, and agency program leadership responsible for setting program strategy. Objectives represent actionable areas where agencies can develop execution strategies, action plans, and performance metrics in alignment with mission needs.
 
-![Figure2]({{site.baseurl}}/assets/experiments/piam-framework/figure2.png)
+
 
 ## 6. Public Identity & Access Management (PIAM) Services Framework
+
+![Figure2]({{site.baseurl}}/assets/experiments/piam-framework/figure2.png)
 
   <p >
    <strong>A. Identity Management</strong><img class="float-right" src="{{site.baseurl}}/assets/experiments/piam-framework/figure3.png" target="_blank" alt="Figure3">Identity Management is the process by which an agency collects, verifies, and manages attributes and entitlements to establish and maintain enterprise identities for authorized personnel accessing federal services and mission partner systems. This service does apply to public citizen identity management. 
