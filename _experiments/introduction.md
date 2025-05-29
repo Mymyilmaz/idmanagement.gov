@@ -19,6 +19,10 @@ subnav:
   href: '#personal-security-and-identity-management' 
 - text: Public Identity Best Practice Guide 
   href: '#public-identity-best-practice-guide'
+- text: Public Identity Management Service Guide 
+  href: '#public-identity-management-service-guide'
+- text: Public Identity Management Framework Guide 
+  href: '#public-identity-management-framework-guide'
 
 ---
 
@@ -68,6 +72,20 @@ Many people inadvertently create a false sense of security, mistaking the feelin
 The federal government has identity proofing guidelines established by the National Institute of Standards and Technology, but these guidelines are not uniformly followed—particularly when ensuring linkage between a claimed identity and the person presenting the evidence. The practice of adhering to these guidelines must become standard across the federal landscape when citizens access federal services online. 
 
 [Read the Public Identity Best Practice Guide]({{site.baseurl}}/experiments/pid/bestpractice/){:class="usa-button"}
+
+
+## Public Identity Management Service Guide
+
+This practical guide is to assist federal agencies as they start to or further expand the use of Public Identity and Access Management (PIAM) services to provide citizen access to agencies' services. Public identities are digital identities or accounts owned and managed by the agency, including US citizens, federal employees and contractors, service providers that assist US citizens and state and local affiliates. 
+
+[Read the Public Identity Management Service Guide]({{site.baseurl}}/experiments/pid/service/){:class="usa-button"}
+
+## Public Identity Management Framework Guide
+
+The PIAM framework encompasses the technologies, processes, and policies required to regulate and authorize individual access to resources. By implementing robust identity and access management, agencies can ensure that individuals access only authorized assets. This framework is thus instrumental in safeguarding agency assets from both internal and external threats, enforcing security protocols, and adhering to security guidelines and best practices.
+
+[Read the Public Identity Management Framework Guide]({{site.baseurl}}/experiments/pid/framework/){:class="usa-button"}
+
 
 ## Coming Soon
 
