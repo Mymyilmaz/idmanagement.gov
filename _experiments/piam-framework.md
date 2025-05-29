@@ -274,7 +274,7 @@ Goals serve as aspirational statements for senior government leaders, agency exe
 </table>
 
 <div style="text-align:center;">
-![Figure4]({{site.baseurl}}/assets/experiments/piam-framework/figure4.png){:width="80%"}
+  <img src="{{site.baseurl}}/assets/experiments/piam-framework/figure4.png" width="80%">
 </div>
 
 ### B. Access Management
