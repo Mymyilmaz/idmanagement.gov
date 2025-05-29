@@ -115,9 +115,9 @@ Ensuring compliance with industry regulations and standards further strengthens 
 
 Consider a financial institution managing vast amounts of sensitive customer data and its approach to cybersecurity technologies:
 
-Continuously monitoring network traffic, employing advanced firewalls, and conducting regular penetration testing allows the institution to fortify its defenses against external cyber threats.
+- Continuously monitoring network traffic, employing advanced firewalls, and conducting regular penetration testing allows the institution to fortify its defenses against external cyber threats.
 
-Enforcing strict access controls, periodic employee training sessions, and strict adherence to financial data protection regulations further minimizes insider risks.
+- Enforcing strict access controls, periodic employee training sessions, and strict adherence to financial data protection regulations further minimizes insider risks.
 
 By embracing a proactive and holistic approach to security and compliance, organizations can protect their assets and foster a resilient and secure environment.
 
@@ -383,7 +383,7 @@ Goals serve as aspirational statements for senior government leaders, agency exe
   <p>
    <img class="float-left margin-right-4" src="{{site.baseurl}}/assets/experiments/piam-framework/figure10.png" target="_blank" alt="Governance" width="25%">Governance is the set of practices and systems that guide PIAM functions, activities, and outcomes. Public identity governance is the management of how a government represents a person and the access they have to government services. It involves establishing policies, assigning permissions, and managing user roles.
   </p>
-  <br><br><br>
+  <br><br><br><br>
   Public identity governance has four areas of focus:  
 
   - **Identity governance and administration (IGA):** A framework that manages digital identities and permissions   
