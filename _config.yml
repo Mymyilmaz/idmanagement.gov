@@ -131,7 +131,7 @@ primary_navigation:
         url: /experiments/pid/service/
       - name: PIAM Framework Guide
         url: /experiments/pid/framework/
-        name: PIAM Process Guide
+      - name: PIAM Process Guide
         url: /experiments/pid/process/
 
 secondary_navigation:
