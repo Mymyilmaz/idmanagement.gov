@@ -129,9 +129,9 @@ primary_navigation:
         url: /experiments/pid/bestpractice/
       - name: PIAM Service Guide
         url: /experiments/pid/service/
-      - name: Public Identity Management Framework Guide
+      - name: PIAM Framework Guide
         url: /experiments/pid/framework/
-        name: Public Identity Management Process Guide
+        name: PIAM Process Guide
         url: /experiments/pid/process/
 
 secondary_navigation:
