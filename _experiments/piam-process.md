@@ -2,7 +2,7 @@
 
 layout: page
 collection: experiments
-title: Public Identity Management Process Guide
+title: PIAM Process Guide
 permalink: /experiments/pid/process/
 sidenav: papers
 sticky_sidenav: true

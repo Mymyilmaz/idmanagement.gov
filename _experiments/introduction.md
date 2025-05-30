@@ -19,12 +19,12 @@ subnav:
   href: '#personal-security-and-identity-management' 
 - text: Public Identity Best Practice Guide 
   href: '#public-identity-best-practice-guide'
-- text: Public Identity Management Service Guide 
-  href: '#public-identity-management-service-guide'
-- text: Public Identity Management Framework Guide 
-  href: '#public-identity-management-framework-guide'
-- text: Public Identity Management Process Guide
-  href: '#public-identity-management-process-guide'
+- text: PIAM Service Guide 
+  href: '#piam-service-guide'
+- text: PIAM Framework Guide 
+  href: '#piam-framework-guide'
+- text: PIAM Process Guide
+  href: '#piam-process-guide'
 
 ---
 
@@ -76,17 +76,23 @@ The federal government has identity proofing guidelines established by the Natio
 [Read the Public Identity Best Practice Guide]({{site.baseurl}}/experiments/pid/bestpractice/){:class="usa-button"}
 
 
-## Public Identity Management Service Guide
+## PIAM Service Guide
 
 This practical guide is to assist federal agencies as they start to or further expand the use of Public Identity and Access Management (PIAM) services to provide citizen access to agencies' services. Public identities are digital identities or accounts owned and managed by the agency, including US citizens, federal employees and contractors, service providers that assist US citizens and state and local affiliates. 
 
 [Read the Public Identity Management Service Guide]({{site.baseurl}}/experiments/pid/service/){:class="usa-button"}
 
-## Public Identity Management Framework Guide
+## PIAM Framework Guide
 
 The PIAM framework encompasses the technologies, processes, and policies required to regulate and authorize individual access to resources. By implementing robust identity and access management, agencies can ensure that individuals access only authorized assets. This framework is thus instrumental in safeguarding agency assets from both internal and external threats, enforcing security protocols, and adhering to security guidelines and best practices.
 
 [Read the Public Identity Management Framework Guide]({{site.baseurl}}/experiments/pid/framework/){:class="usa-button"}
+
+## PIAM Process Guide
+
+The PIAM framework encompasses the technologies, processes, and policies required to regulate and authorize individual access to resources. By implementing robust identity and access management, agencies can ensure that individuals access only authorized assets. This framework is thus instrumental in safeguarding agency assets from both internal and external threats, enforcing security protocols, and adhering to security guidelines and best practices.
+
+[Read the Public Identity Management Framework Guide]({{site.baseurl}}/experiments/pid/process/){:class="usa-button"}
 
 
 ## Coming Soon

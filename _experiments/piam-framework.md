@@ -2,7 +2,7 @@
 
 layout: page
 collection: experiments
-title: Public Identity Management Framework Guide
+title: PIAM Framework Guide
 permalink: /experiments/pid/framework/
 sidenav: papers
 sticky_sidenav: true

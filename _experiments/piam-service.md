@@ -2,7 +2,7 @@
 
 layout: page
 collection: experiments
-title: Public Identity Management Service Guide
+title: PIAM Service Guide
 permalink: /experiments/pid/service/
 sidenav: papers
 sticky_sidenav: true
