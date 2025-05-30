@@ -90,7 +90,7 @@ The PIAM framework encompasses the technologies, processes, and policies require
 
 ## PIAM Process Guide
 
-The PIAM framework encompasses the technologies, processes, and policies required to regulate and authorize individual access to resources. By implementing robust identity and access management, agencies can ensure that individuals access only authorized assets. This framework is thus instrumental in safeguarding agency assets from both internal and external threats, enforcing security protocols, and adhering to security guidelines and best practices.
+In today's complex business landscape, successful public citizen onboarding is essential for building strong relationships and driving positive public user experience. In this guide, learn how Persona-based access control uses user "personas" (archetypes or roles) is used to define access permissions, streamlining security management and ensuring users only have access to what they need.
 
 [Read the Public Identity Management Framework Guide]({{site.baseurl}}/experiments/pid/process/){:class="usa-button"}
 
