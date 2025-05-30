@@ -171,7 +171,7 @@ Table 3. Critical Enterprise SSO Risks
 
 {% include alert-error.html heading="Cyberattacks" content="Targeted cyberattacks may pose a heightened risk to your agency’s IT assets, such as enterprise directories, identity stores, and Enterprise SSO servers. Your SSO should be managed and monitored as part of your agency’s cybersecurity program and in coordination with the DHS CDM initiative." %}
 
-{% include alert-error.html heading="Application Security Responsibilities" content="A holistic approach is needed to mitigate threats against Federated SSO solutions, to include security controls by relying on party applications.  If an assertion is directly requested by the application, inclusion of a nonce in that request and establishing an assertion expiration via a trust agreement can mitigate several potential injection and replay threats.." %}
+{% include alert-error.html heading="Application Security Responsibilities" content="A holistic approach is needed to mitigate threats against Federated SSO solutions, to include security controls by relying on party applications.  If an assertion is directly requested by the application, inclusion of a nonce in that request and establishing an assertion expiration via a trust agreement can mitigate several potential injection and replay threats." %}
 
 {% include alert-info.html heading="User Credential Fatigue" content="Users who are trained to enter their credentials without thinking can unintentionally supply them to a malicious credential prompt. Don’t ask users to provide their credentials if the security posture of their sessions has not changed." %} 
 
@@ -319,7 +319,7 @@ For additional information related to the architecture, visit the [FICAM Archite
 
 <p align="center"><b>Figure 3: Example System Components for an Agency Enterprise ICAM Program</b></p>
 
-{% include alert-info.html heading="Identity Synchronization" content="User data (e.g., identity) synchronization between the Enterprise SSO service and data repositories fall into two categories of one-way (unidirectional) or dual (bidirectional) syncs. One-way sync from the source directory to the service usually includes identity data, and sometimes, passwords. Identify which service should be the authoritative source for data based on the sync method and plan accordingly." %} 
+{% include alert-info.html heading="Identity Synchronization" content="User data (e.g., identity) synchronization between the Enterprise SSO service and data repositories fall into two categories of one-way (unidirectional) or dual (bidirectional) syncs. One-way sync from the source directory to the service usually includes identity data and, sometimes, passwords. Identify which service should be the authoritative source for data based on the sync method and plan accordingly." %} 
 
 ### 3.2 Environmental Considerations
 Agencies with applications that are accessible from a public cloud or use private or hybrid cloud services may need to plan for additional architecture and network considerations. Consider these questions in your planning:
