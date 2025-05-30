@@ -23,6 +23,8 @@ subnav:
   href: '#public-identity-management-service-guide'
 - text: Public Identity Management Framework Guide 
   href: '#public-identity-management-framework-guide'
+- text: Public Identity Management Process Guide
+  href: '#public-identity-management-process-guide'
 
 ---
 
