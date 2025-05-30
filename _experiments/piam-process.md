@@ -15,7 +15,7 @@ subnav:
   - text: 3. Persona Based Access Scenarios
     href: '#3-persona-based-access-scenarios'
   - text: 4. Key Terms
-    href: '#key-terms'
+    href: '#4-key-terms'
   - text: 5. Audience
     href: '#5-audience'
   - text: 6. Disclaimer
