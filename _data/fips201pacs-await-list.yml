@@ -38,4 +38,11 @@
   state: Update
   teststatus: In queue
 
+- position: 4	
+  solution: LenelS2 OnGuard 8.3 + HID pivCLASS 5.32.0
+  aplnumbers: 10112 & 10113
+  state: Update
+  teststatus: In queue
+
+
 
