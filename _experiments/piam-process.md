@@ -49,18 +49,18 @@ Instead of assigning individual permissions to each user, you assign permissions
 Because it is easier to manage and maintain access policies, persona-based access creates more simplified administration. Additionally, the fact that users only have access to the resources they need, reduces the risk of unauthorized access enhancing security on an organizational level. Lastly, persona-based access conforms more readily to ever evolving regulatory requirements and industry standards, leading to a more agile and compliant organization.
 
 <div style="text-align:center;">
-  <img src="{{site.baseurl}}/assets/experiments/piam-process/figure1.png" alt="Figure1">
+  <img src="{{site.baseurl}}/assets/experiments/piam-process/figure1.png" alt="Benefits of Persona-Based Access">
 </div>
 
 ## 2. Persona Based Access Process
 
-![Figure2]({{site.baseurl}}/assets/experiments/piam-process/figure2.png)
+![Figure 2]({{site.baseurl}}/assets/experiments/piam-process/figure2.png)
 
 Creating effective customer personas is crucial for successful persona-based onboarding. By understanding your target audience and their unique characteristics, you can tailor your onboarding process to meet their specific needs and expectations. Here are the key steps involved in building customer personas for onboarding:
 
 ### Discovery
 
-![Figure3]({{site.baseurl}}/assets/experiments/piam-process/figure3.png)
+![Figure 3]({{site.baseurl}}/assets/experiments/piam-process/figure3.png)
 
 Key Activities  
 Define persona metadata requirements, typically including:
@@ -85,7 +85,7 @@ Key Activities
 
 ### Certification
 
-![Figure5]({{site.baseurl}}/assets/experiments/piam-process/figure5.png)
+![Figure 5]({{site.baseurl}}/assets/experiments/piam-process/figure5.png)
 
 Key Activities
 
@@ -94,7 +94,7 @@ Key Activities
 
 ### Assignment
 
-![Figure6]({{site.baseurl}}/assets/experiments/piam-process/figure6.png)
+![Figure 6]({{site.baseurl}}/assets/experiments/piam-process/figure6.png)
 
 Key Activities
 
@@ -106,7 +106,7 @@ Key Activities
 
 ### Governance
 
-![Figure7]({{site.baseurl}}/assets/experiments/piam-process/figure7.png)
+![Figure 7]({{site.baseurl}}/assets/experiments/piam-process/figure7.png)
 
 Key Activities  
 A Governance committee must periodically:
@@ -134,7 +134,7 @@ By focusing on only the most critical steps for each persona, federal agencies c
 A persona-based authentication service can also offer identity verification and authentication solutions, allowing federal agencies to personalize and automate verification processes, while also managing PII and mitigating fraud.
 
 <div style="text-align:center;">
-  <img src="{{site.baseurl}}/assets/experiments/piam-process/figure8.png" alt="Figure8">
+  <img src="{{site.baseurl}}/assets/experiments/piam-process/figure8.png" alt="Persona-Based Public Citizen Authentication Service">
 </div>
 
 **Persona-Based Public Citizen Authorization Service**  
