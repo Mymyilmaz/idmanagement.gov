@@ -31,8 +31,8 @@ subnav:
     href: '#appendix-a-troubleshooting-single-sign-on'
 ---
 
-<!-- Version 1.1<br>
-November 16, 2021 -->
+<!-- Version 1.2<br>
+May 30, 2025 -->
 
 <img src="{{site.baseurl}}/assets/logo/logo-gsa.png" width="64" height='64' align="left" alt="U.S. General Services Administration Logo">
 <img src="{{site.baseurl}}/assets/logo/logo-cio-round.png" width="64" height='64' align="left" alt="U.S. Federal Chief Information Officer Council Logo"><br><br><br>
