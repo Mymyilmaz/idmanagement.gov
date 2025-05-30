@@ -9,8 +9,8 @@ description: The Enterprise SSO Playbook is a five-step playbook to aid agencies
 sidenav: playbooks
 sticky_sidenav: true
 
-version: 1.1
-pubdate: November 16, 2021
+version: 1.2
+pubdate: May 30, 2025
 
 subnav:
   - text: Executive Summary
