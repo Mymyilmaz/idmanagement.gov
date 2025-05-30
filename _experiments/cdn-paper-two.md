@@ -8,8 +8,6 @@ sidenav: papers
 sticky_sidenav: true
 
 subnav:
-  # - text: Introduction
-  #   href: '#introduction'
   - text: Compromised CDNs and Unauthorized Access
     href: '#compromised-cdns-and-unauthorized-access'
   - text: Analysis of Attack Methods Targeting CDNs
