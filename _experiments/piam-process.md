@@ -7,6 +7,8 @@ permalink: /experiments/pid/process/
 sidenav: papers
 sticky_sidenav: true
 
+release: 1.0 
+
 subnav:
   - text: 1. Introduction
     href: '#1-introduction'
@@ -24,6 +26,8 @@ subnav:
     href: '#7-appendix'
 
 ---
+
+**Release {{page.release}}**
 
 ## 1. Introduction 
 

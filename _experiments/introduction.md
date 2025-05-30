@@ -7,8 +7,6 @@ sidenav: experiments
 sticky_sidenav: true
 
 subnav:
-  # - text: Introduction
-  #   href: '#introduction'
 - text: IARPA HIATUS
   href: '#iarpa-hiatus'
 - text: CDN Paper 1
