@@ -127,6 +127,12 @@ primary_navigation:
         url: /experiments/cdns/paper3/ 
       - name: Public Identity Best Practice Guide
         url: /experiments/pid/bestpractice/
+      - name: PIAM Service Guide
+        url: /experiments/pid/service/
+      - name: PIAM Framework Guide
+        url: /experiments/pid/framework/
+      - name: PIAM Process Guide
+        url: /experiments/pid/process/
 
 secondary_navigation:
   - name: Contact Us
