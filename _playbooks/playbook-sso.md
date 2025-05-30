@@ -62,7 +62,14 @@ This playbook is a collaboration between the Identity, Credential, and Access Ma
         </th>
     </tr>
     </thead>
-    <tr>
+     <tr>
+        <th scope='row'>
+        1.2
+        </th>
+        <td>5/30/2025</td>
+        <td>Update content to align to final public draft of NIST SP 800-63C-4 and provide planning considerations for FAL3.</td>
+    </tr>
+      <tr>
         <th scope='row'>
         1.1
         </th>
