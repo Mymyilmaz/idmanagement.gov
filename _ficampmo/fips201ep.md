@@ -187,7 +187,7 @@ Agencies that wish to issue D-PIV credentials should follow these steps:
 </ol>
 
 {:class="margin-top-1"}
-Upon successful completion of DPCI testing, the agency or organization will be approved to issue D-PIV credentials.
+Upon successful completion of Derived PIV Card Issuer (DPCI) testing, the agency or organization will be approved to issue D-PIV credentials.
 
 
 ## PIV Card Body
