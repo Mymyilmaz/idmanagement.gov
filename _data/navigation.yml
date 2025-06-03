@@ -102,6 +102,12 @@ papers:
     href: /experiments/cdns/paper3/ 
   - text: Public Identity Best Practice Guide
     href: /experiments/pid/bestpractice/
+  - text: PIAM Service Guide
+    href: /experiments/pid/service/
+  - text: PIAM Framework Guide
+    href: /experiments/pid/framework/
+  - text: PIAM Process Guide
+    href: /experiments/pid/process/
   - text: Coming Soon
     href: /experiments/#coming-soon
 

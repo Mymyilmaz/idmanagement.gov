@@ -1,7 +1,10 @@
 {
     "anchor": "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
     "changes": {
-        "new_certs": []
+        "new_certs": [
+            "common_name:WidePoint SSP Intermediate CA 2,organization_name:ORC PKI,country_name:US:315067610926806300466484279482296592371496621649",
+            "common_name:WidePoint SSP Intermediate CA 2,organization_name:ORC PKI,country_name:US:309971348727576383998985322149337405223463428045"
+        ]
     },
     "issuers": [
         "common_name:Boeing Medium Assurance Hardware Issuing CA G3,organizational_unit_name:CertServers,organization_name:Boeing,country_name:US",
@@ -99,8 +102,10 @@
         "common_name:U.S. Department of State AD Root CA,common_name:AIA,common_name:Public Key Services,common_name:Services,common_name:Configuration,domain_component:state,domain_component:sbu",
         "common_name:U.S. Department of Transportation Agency CA G5,organizational_unit_name:U.S. Department of Transportation,organization_name:U.S. Government,country_name:US",
         "common_name:U.S. Department of Transportation Agency CA G6,organizational_unit_name:U.S. Department of Transportation,organization_name:U.S. Government,country_name:US",
+        "common_name:U.S. Department of Transportation Agency CA G7,organizational_unit_name:U.S. Department of Transportation,organization_name:U.S. Government,country_name:US",
         "common_name:U.S. Department of Transportation Device CA G5,organizational_unit_name:U.S. Department of Transportation,organization_name:U.S. Government,country_name:US",
         "common_name:U.S. Department of Transportation Device CA G6,organizational_unit_name:U.S. Department of Transportation,organization_name:U.S. Government,country_name:US",
+        "common_name:U.S. Department of Transportation Device CA G7,organizational_unit_name:U.S. Department of Transportation,organization_name:U.S. Government,country_name:US",
         "common_name:USPTO_INTR_CA1,common_name:AIA,common_name:Public Key Services,common_name:Services,common_name:Configuration,domain_component:uspto,domain_component:gov",
         "common_name:WidePoint ECA 8,organizational_unit_name:Certification Authorities,organizational_unit_name:ECA,organization_name:U.S. Government,country_name:US",
         "common_name:WidePoint ECA 9,organizational_unit_name:Certification Authorities,organizational_unit_name:ECA,organization_name:U.S. Government,country_name:US",
@@ -2493,7 +2498,10 @@
                 "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US"
             ],
             "sia-entries": {
-                "http://crl-server.orc.com/caCerts/caCertsIssuedByWPSSPIntCA2.p7c": []
+                "http://crl-server.orc.com/caCerts/caCertsIssuedByWPSSPIntCA2.p7c": [
+                    "common_name:U.S. Department of Transportation Agency CA G7,organizational_unit_name:U.S. Department of Transportation,organization_name:U.S. Government,country_name:US",
+                    "common_name:U.S. Department of Transportation Device CA G7,organizational_unit_name:U.S. Department of Transportation,organization_name:U.S. Government,country_name:US"
+                ]
             },
             "aia-entries": {
                 "http://repo.fpki.gov/fcpca/caCertsIssuedTofcpcag2.p7c": [
@@ -3010,6 +3018,50 @@
             "aia-entries": {
                 "http://crl-server.orc.com/caCerts/WIDEPOINTNFIROOT2.p7c": [
                     "common_name:Federal Bridge CA G4,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US"
+                ]
+            }
+        },
+        {
+            "subject": "common_name:U.S. Department of Transportation Device CA G7,organizational_unit_name:U.S. Department of Transportation,organization_name:U.S. Government,country_name:US",
+            "issuer": "common_name:WidePoint SSP Intermediate CA 2,organization_name:ORC PKI,country_name:US",
+            "serial-number": "309971348727576383998985322149337405223463428045",
+            "akid": "48 57 39 ed b1 89 3c d9 49 aa 68 29 81 a2 11 69 59 77 cc b2",
+            "skid": "bd 34 c0 96 e5 f9 12 5a e6 03 8d 10 df e1 87 d3 f1 23 02 0a",
+            "status": "Certificate Valid and Chains to Common",
+            "pathbuilder-result": {
+                "result": "true",
+                "details": "CRL Only Validation"
+            },
+            "path-to-common": [
+                "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
+                "common_name:WidePoint SSP Intermediate CA 2,organization_name:ORC PKI,country_name:US"
+            ],
+            "sia-entries": {},
+            "aia-entries": {
+                "http://crl-server.orc.com/caCerts/caCertsIssuedToWPSSPIntCA2.p7c": [
+                    "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US"
+                ]
+            }
+        },
+        {
+            "subject": "common_name:U.S. Department of Transportation Agency CA G7,organizational_unit_name:U.S. Department of Transportation,organization_name:U.S. Government,country_name:US",
+            "issuer": "common_name:WidePoint SSP Intermediate CA 2,organization_name:ORC PKI,country_name:US",
+            "serial-number": "315067610926806300466484279482296592371496621649",
+            "akid": "48 57 39 ed b1 89 3c d9 49 aa 68 29 81 a2 11 69 59 77 cc b2",
+            "skid": "32 33 96 e9 cd df 5f bd 35 f6 47 21 d7 77 fc 3e 31 f3 08 61",
+            "status": "Certificate Valid and Chains to Common",
+            "pathbuilder-result": {
+                "result": "true",
+                "details": "CRL Only Validation"
+            },
+            "path-to-common": [
+                "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
+                "common_name:WidePoint SSP Intermediate CA 2,organization_name:ORC PKI,country_name:US"
+            ],
+            "sia-entries": {},
+            "aia-entries": {
+                "http://crl-server.orc.com/caCerts/caCertsIssuedToWPSSPIntCA2.p7c": [
+                    "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US"
                 ]
             }
         },
@@ -4097,10 +4149,15 @@
             "serial-number": "1516450673553135876351181437373221531845394442",
             "akid": "fb 48 aa 61 49 80 d4 f7 a6 85 82 a2 44 dd 97 d6 9b a6 71 05",
             "skid": "7a 8b 3c 06 92 dc 1e a8 d2 82 ac 1b 74 6f 74 3d 4e d1 a8 9b",
-            "status": "Certificate Valid, but no Path to Common",
+            "status": "Certificate Invalid",
             "pathbuilder-result": {
                 "result": "false",
-                "details": "Unable to build Path"
+                "details": "End Entity Cert expired or not valid"
+            },
+            "parent_path_identifier": "common_name:Northrop Grumman Corporate Root CA-384,organizational_unit_name:Northrop Grumman Enterprise Services,organization_name:Northrop Grumman Corporation,country_name:US:fb48aa614980d4f7a68582a244dd97d69ba67105",
+            "validity-dates": {
+                "not-before": "2024-04-18 16:54:59+00:00",
+                "not-after": "2025-05-18 17:04:59+00:00"
             }
         },
         {
@@ -4121,10 +4178,15 @@
             "serial-number": "1850961851685814569780028617528331475527663656",
             "akid": "7f 43 ea 3c 20 77 3e 92 cb 8d 85 a2 88 06 30 5e 1e 43 3e b7",
             "skid": "7a 8b 3c 06 92 dc 1e a8 d2 82 ac 1b 74 6f 74 3d 4e d1 a8 9b",
-            "status": "Certificate Valid, but no Path to Common",
+            "status": "Certificate Invalid",
             "pathbuilder-result": {
                 "result": "false",
-                "details": "Unable to build Path"
+                "details": "End Entity Cert expired or not valid"
+            },
+            "parent_path_identifier": "common_name:Northrop Grumman Corporate Root CA-G2,organizational_unit_name:Northrop Grumman Information Technology,organization_name:Northrop Grumman Corporation,country_name:US:7f43ea3c20773e92cb8d85a28806305e1e433eb7",
+            "validity-dates": {
+                "not-before": "2024-04-18 15:14:56+00:00",
+                "not-after": "2025-05-18 15:24:56+00:00"
             }
         },
         {
@@ -4549,6 +4611,16 @@
             "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
             "common_name:WidePoint SSP Intermediate CA,organization_name:ORC PKI,country_name:US",
             "common_name:U.S. Department of Transportation Agency CA G6,organizational_unit_name:U.S. Department of Transportation,organization_name:U.S. Government,country_name:US"
+        ],
+        [
+            "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
+            "common_name:WidePoint SSP Intermediate CA 2,organization_name:ORC PKI,country_name:US",
+            "common_name:U.S. Department of Transportation Agency CA G7,organizational_unit_name:U.S. Department of Transportation,organization_name:U.S. Government,country_name:US"
+        ],
+        [
+            "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",
+            "common_name:WidePoint SSP Intermediate CA 2,organization_name:ORC PKI,country_name:US",
+            "common_name:U.S. Department of Transportation Device CA G7,organizational_unit_name:U.S. Department of Transportation,organization_name:U.S. Government,country_name:US"
         ],
         [
             "common_name:Federal Common Policy CA G2,organizational_unit_name:FPKI,organization_name:U.S. Government,country_name:US",

@@ -43,8 +43,8 @@ The [FPKI Policy Authority (FPKIPA)]({{site.baseurl}}/ficam/#federal-public-key-
 
 | Federal PKI Policy | Policy Name | Profile | Change Proposals |
 | -------------- | ----------- | ------- | ---------------- |
-| Federal Common Policy | [X.509 Certificate Policy for the U.S. FPKI Common Policy Framework v2.10]({{site.baseurl}}/docs/fpki-x509-cert-policy-common.pdf){:target="_blank"}{:rel="noopener noreferrer"} | [Common Policy X.509 Certificate and CRL Profiles v2.3]({{site.baseurl}}/docs/fpki-x509-cert-profile-common.pdf){:target="_blank"}{:rel="noopener noreferrer"}  | [Common Change Proposals]({{site.baseurl}}/fpki/#federal-pki-document-archive) |
-| Federal Bridge | [X.509 Certificate Policy for the Federal Bridge Certification Authority (FBCA) v3.6]({{site.baseurl}}/docs/fpki-x509-cert-policy-fbca.pdf){:target="_blank"}{:rel="noopener noreferrer"} <br><br> and [PIV-I for Federal Agencies]({{site.baseurl}}/university/pivi/){:target="_blank"}{:rel="noopener noreferrer"} | [Federal Bridge Certification Authority (FBCA) X.509 Certificate and CRL Extensions Profile v2.0]({{site.baseurl}}/docs/fpki-x509-cert-profiles-fbca.pdf){:target="_blank"}{:rel="noopener noreferrer"} | [Bridge Change Proposals]({{site.baseurl}}/fpki/#federal-pki-document-archive) |
+| Federal Common Policy | [X.509 Certificate Policy for the U.S. FPKI Common Policy Framework v2.11]({{site.baseurl}}/docs/fpki-x509-cert-policy-common.pdf){:target="_blank"}{:rel="noopener noreferrer"} | [Common Policy X.509 Certificate and CRL Profiles v2.3]({{site.baseurl}}/docs/fpki-x509-cert-profile-common.pdf){:target="_blank"}{:rel="noopener noreferrer"}  | [Common Change Proposals]({{site.baseurl}}/fpki/#federal-pki-document-archive) |
+| Federal Bridge | [X.509 Certificate Policy for the Federal Bridge Certification Authority (FBCA) v3.7]({{site.baseurl}}/docs/fpki-x509-cert-policy-fbca.pdf){:target="_blank"}{:rel="noopener noreferrer"} <br><br> and [PIV-I for Federal Agencies]({{site.baseurl}}/university/pivi/){:target="_blank"}{:rel="noopener noreferrer"} | [Federal Bridge Certification Authority (FBCA) X.509 Certificate and CRL Extensions Profile v2.0]({{site.baseurl}}/docs/fpki-x509-cert-profiles-fbca.pdf){:target="_blank"}{:rel="noopener noreferrer"} | [Bridge Change Proposals]({{site.baseurl}}/fpki/#federal-pki-document-archive) |
 | Federal Public Trust TLS | [U.S. Federal Public Trust TLS PKI Certificate Policy v1.2]({{site.baseurl}}/docs/us-federal-public-trust-tls-cp.pdf){:target="_blank"}{:rel="noopener noreferrer"} | Profiles are included in Section 7 of the Policy | No change proposals |
 
 The FPKI has the following supplementary guidance:
@@ -77,22 +77,19 @@ Audits are required annually for supporting functions and elements of each entit
 | ------- | :-----: | :-----------------------------: |
 | CertiPath	| Bridge |	June 30 |
 | DigiCert (ECPS)	| Affiliate PKI	| July 31 |
-| DigiCert (Formerly Symantec Non-Federal Issuer [NFI])	| Affiliate PKI	| July 31 |
-| DigiCert (Formerly Symantec Shared Service Provider [SSP])	| SSP	| July 31 |
-| Department of Defense (DoD)	| Affiliate PKI	| November 30 |
+| DigiCert (maintenance)	| Affiliate PKI	| July 31 |
+| DigiCert (maintenance)	| SSP	| July 31 |
+| Department of Defense (DoD)	| Affiliate PKI	| February 28 |
 | Department of State (DOS)	| Affiliate PKI	| October 31 |
-| Department of the Treasury	| SSP	| July 31 |
-| Entrust NFI	| Affiliate PKI	| November 30 |
-| Entrust Federal SSP	| SSP	| November 30 |
+| Department of the Treasury	| SSP	| September 30 |
+| Entrust SSP & NFI	| Combined| November 30 |
 | Exostar	| Affiliate PKI	| June 30 |
 | IdenTrust NFI	| Affiliate PKI	| August 31 |
 | Patent and Trademark Office (PTO)	| Affiliate PKI	| October 31 |
-| SAFE Identity	| Bridge	| June 30 |
 | Southwest Texas Regional Advisory Council (STRAC)	| Bridge	| November 30 |
 | Transglobal Secure Collaboration Program (TSCP)	| Bridge	| July 31 |
-| Verizon SSP	| SSP	| August 31 |
-| WidePoint NFI	| Affiliate PKI	| May 31 |
-| WidePoint SSP	| SSP	| May 31 |
+| WidePoint NFI	| Affiliate PKI	| July 31 |
+| WidePoint SSP	| SSP	| July 31 |
 
 ## Compliance Test Tools for Annual Reviews
 
@@ -138,7 +135,7 @@ This section contains information on audits performed on the Federal Common Poli
 
 The FPKIMA Certification Practice Statement (CPS) documents the operational practices required to ensure trusted operations. Additional compliance audit information for the FPKI Trust Infrastructure Systems is also provided below.
 
-- [U.S. FPKI Certification Practice Statement (PDF, November 2023) – Version 6.4]({{site.baseurl}}/docs/fpki-fpkima-cps.pdf){:target="_blank"}{:rel="noopener noreferrer"}
+- [U.S. FPKI Certification Practice Statement (PDF, May 2025) – Version 6.5]({{site.baseurl}}/docs/fpki-fpkima-cps.pdf){:target="_blank"}{:rel="noopener noreferrer"}
 - [U.S. FPKI Audit Letter of Compliance (PDF, August 2024)]({{site.baseurl}}/docs/fpki-fpkima-audit-letter.pdf){:target="_blank"}{:rel="noopener noreferrer"} – Results of the August 2023-August 2024 Compliance Audit for the FPKI Trust Infrastructure Systems.
 - [FPKI Trust Infrastructure “HTTP.FPKI.Gov” URL Site Map (PDF, September 2022)]({{site.baseurl}}/docs/fpki-fpkima-sitemap.pdf){:target="_blank"}{:rel="noopener noreferrer"}
 - [Community Interoperability Test Environment (CITE)]({{site.baseurl}}/implement/fpkicite/){:target="_blank"}{:rel="noopener noreferrer"} - information regarding the test FPKI environment to include test CA respsitory information and test certificate policy object identifiers.
